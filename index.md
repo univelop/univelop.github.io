@@ -4,44 +4,36 @@ title: Home
 nav_order: 0
 ---
 
-## Univelop Docs
+# Univelop - Alle Geschäftsprozesse in einer App
 
-You can use the [editor on GitHub](https://github.com/univelop/univelop.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Die App
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Mit der Univelop-App können Sie sämtliche Geschäftsprozesse in einer App darstellen. Die App läuft auf sämtlichen mobilen Geräten, sowie als App auf dem Desktop - Natürlich auch auf sämtlichen Betriebssystemen.
 
-### Markdown
+***Doch wie geht das?***
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Mit der revolutionären No-Code App können Sie sich dank des Baustein-Systems sämtliche Geschäftsprozesse und Stammdaten selbst zusammenstellen und verwalten. Die Bausteine (z.B. Textfelder, Nummern, Drop-Down-Auswahl, Formeln u.v.m.) können Sie selbst in beliebiger Reihenfolge aneinanderreihen, um den gewünschten Inhalt darzustellen.
 
-```markdown
-Syntax highlighted code block
+***Und wie füge ich diese Bausteine aneinander? Ich hab von Informatik doch gar keine Ahnung..***
 
-# Header 1
-## Header 2
-### Header 3
+Vorkenntnisse in Informatik werden prinzipiell gar nicht benötigt. Das ist der große Vorteil von No-Code. Das bedeutet nämlich, dass jeder User selbst sein gewünschtes Programm zusammenstellen kann. Sie können es sich wie ein Computerspiel vorstellen, bei dem Sie einzelne Objekte und Bausteine logisch aneinanderreihen müssen. 
 
-- Bulleted
-- List
+Genau so ist auch Univelop aufgebaut. Als Beipiel möchten Sie eine ganz einfache Mitarbeiterübersicht erstellen, das machen Sie, indem Sie folgende Bausteine verwenden:
+1. Textfeld     (*Vorname*)
+1. Textfeld     (*Nachname*)
+1. Datum        (*Firmeneintritt*)
+1. Dateiupload  (*Arbeitsvertrag*)
+1. Datum        (*Geburtstag*)
 
-1. Numbered
-2. List
+Dies Bausteine können Sie ganz einfach per Drag and Drop an die gewünschte Position in der jeweiliegen Liste ziehen. Dann benennen Sie diese Bausteine so, dass der gewünschte Inhalt eingegeben werden kann, beispielsweise *Vorname*.
 
-**Bold** and _Italic_ and `Code` text
+***Okay das klingt echt cool, aber was mache ich, wenn ich mal nicht weiter weiß?***
 
-[Link](url) and ![Image](src)
-```
+Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da. Unsere Kontaktdaten finden Sie hier:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Univelop GmbH
+01XXXXXXXX
 
-### Jekyll Themes
+Laden Sie sich doch gerne einmal die App und probieren selbst einen kostenlosen Prototypen für sich zu erstellen, das entsprechende Handbuch zu Funktionen und die Bedienungsanleitung finden Sie hier:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/univelop/univelop.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-[Welcome](welcome)
-
-[Über Uns](about)
+---
