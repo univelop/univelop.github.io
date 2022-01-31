@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Der Start in die App
-nav_order: 1
+nav_order: 2
 ---
 
 # Der Start in die App
@@ -82,4 +82,6 @@ Dann benötigt diese Baustelle ebenfalls einen Namen, Adressdaten und ggf. Anspr
 Sie haben nun verschiedene Bausteine aneinander gereiht, sodass Sie ein Kundenverzeichnis haben.
 Wenn Sie nun den Desigmodus über "Bearbeitung beenden" verlassen und danach oben links auf den kleinen blauen Pfeil drücken,
 landen Sie wieder im Arbeitsbereich.
-Hier halten Sie die linke Maustaste wieder gedrückt, um in den Designmodus zu gelangen.
+Hier halten Sie die linke Maustaste wieder gedrückt, um in den Designmodus zu gelangen. Wenn Sie nun auf die Kachel klicken,
+eröffnen sich Ihnen rechts diverse Bearbeitungsmöglichkeiten zur Bearbeitung des Namens, Vergabe einer Kachelfarbe,oder Icons.
+Weitere Bearbeitungsmöglichkeiten zeigen wir Ihnen in dem Tutorial zum Designmodus von Kacheln.
