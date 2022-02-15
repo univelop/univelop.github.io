@@ -32,7 +32,7 @@ Arbeitsbereichs. Das Team muss je Mitglied hinterlegt werden.
 
 In den `Rollen` Einstellungen können Sie verschiedene und individuelle Rollen Ihres Unternehmens,
 bzw. Ihres Vorhabens zur Nutzung der App hinterlegen. Im Designmodus Ihres Arbeitsbereichs können Sie 
-in den globalen Einstellungen die Rollen bearbeiten.
+in den globalen Einstellungen die Rollen bearbeiten. Im Standard ist die Rolle "Teammmitglied" immer angelegt.
 
 Durch das Klicken auf eine Rollen sehen Sie den Namen, die Einstellung Standardrolle (Ja/nein),
 unterhalb davon die Rechte der Rolle und Sie haben die Möglichkeit die Rolle über die drei
@@ -84,3 +84,57 @@ Datensätzen zu importieren. Sofern es sich nicht um besonders intensiv geschult
 Personal handelt, empfehlen wir den Import nicht zuzulassen.
 
 ## Benachrichtigungen
+
+Sie können sich Benachrichtigungen für Änderungen an Datensätzen anzeigen lassen.
+Die Benachrichtigung ist eine rot eingekreiste Zahl auf der Kachel,
+welche die Anzahl der neuen Datensätze oder Änderungen beinhaltet. Beim Klick in
+die Kachel ist der jeweilige Datensatz mit einem roten Punkt markiert.
+
+Sie können in den Kacheleinstellungen die Benachrichtigungen je Kachel für alle
+Nutzer aktivieren. Zudem haben Sie die Möglichkeit die Benachrichtigungen in der Kachel
+über das Glockensymbol zu aktivieren oder deaktivieren. Wenn Sie über Änderungen in der
+Liste benachrichtigt werden möchten, können Sie dies über die drei Punkte innerhalb
+der Kachel aktivieren oder deaktivieren.
+
+## Filtern und Sortieren
+
+Sie können die Sortierung der Kachelinhalte global je Kachel auf- und absteigend nach einem
+bestimmten Baustein ändern. Gleiches gilt für verknüpfte Datensätze. Bei der Ausgabe von
+verknüpften Datensätzen über die repeat Funktion werden die Daten in der
+sortierten Reihenfolge ausgegeben.
+
+Für die Filterung von Daten können Sie sich über die Filter <, >, <=, >=, = oder IN die
+entsprechenden Filter setzen. Das "IN" bedeutet soviel wie oder =. Es erlaubt also einen
+Mehrfachzugriff. Die Werte erhalten Sie mit Wahl des angesprochenen Baustein, IN und
+in Spalte drei setzen Sie die anzusprechenden Werte, welche Sie mit Komma Leerzeichen trennen.
+Als Beispiel möchten Sie die Daten aus drei Teams abrufen, also wählen Sie Team IN Nord, West, Ost.
+
+## Suchen
+
+Mit dem Lupen Symbol können Sie innerhalb der Datensatzliste oder verknüpften Datensatz Liste
+nach Inhalten aus der angesprochenen Liste suchen. Die Suche umfasst dabei alle Werte innerhalb eines
+Datensatzes.
+
+Die Sortierung erfolgt so, dass zuerst die genauen Suchergebnisse ausgegeben werden und im Anschluss
+ähnliche Werte.
+
+## Gespeicherte Ansichten / Eigene Kacheln
+
+Wenn Sie sich innerhalb einer gemeinsamen Kachel befinden, interessieren Sie vielleicht nicht
+alle Datensätze der Liste oder Sie möchten mit Filterkacheln arbeiten, zum Beispiel nach
+verschiedenen Stati.
+
+Sie haben die Möglichkeit in der gemeinsamen Kachel Filter zu setzen und über das Speichern
+Symbol dies als eigene Liste zu speichern (oder für alle zu speichern). Dieser eigenen Kachel
+können Sie einen aussagekräftigen Namen geben. Beachten Sie hierbei, dass Sie, wenn Sie auf die Filterkachel
+zugreifen, in der Hauptkachel arbeiten und Ihnen nur die gefilterten Inhalte angezeigt werden.
+
+Es besteht die Möglichkeit hierüber workflows zu generieren. Zum Beispiel filtern Sie sich die
+Auftrags-Kachel nach Status offen und speichern dies im Arbeitsbereich als eigene "Offene Aufträge" Kachel
+ab. So haben Sie alle offenen Aufträge immer im Blick.
+
+Bitte beachten Sie, dass wenn Sie mit einer Filterkachel arbeiten und neue Datensätze anlegen
+die gesetzten Filter für die neuen Datensätze mit angelegt werden. Wenn Sie dies nicht wünschen,
+empfehlen wir Ihnen über die Hauptkachel zu arbeiten. Sie können dies jedoch auch als Arbeitserleichterung
+nutzen und mit der Filterkachel für Sie bestimmte Standarddatensätze filtern und somit
+neue Datensätze anlegen, welche bereits Ihre Standardinhalte enthalten.
