@@ -37,3 +37,9 @@ Univelop GmbH
 Laden Sie sich doch gerne einmal die App und probieren selbst einen kostenlosen Prototypen für sich zu erstellen, das entsprechende Handbuch zu Funktionen und die Bedienungsanleitung finden Sie hier:
 
 ---
+
+Genderhinweis:
+Es sei an dieser Stelle darauf hingewiesen, dass aus Gründen der besseren Lesbarkeit in der vorliegenden Dokumentation 
+bei Personenbezeichnungen und personenbezogenen Hauptwörtern ausschließlich das generische Maskulinum verwendet wird 
+(z.B. der Kunde oder der Konsument). Die verwendeten Formulierungen umfassen jedoch ausdrücklich sowohl weibliche als 
+auch männliche Personen und sprechen diese gleichermaßen an.
