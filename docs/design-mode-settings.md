@@ -130,13 +130,13 @@ Schattenstrich, welches für das Duplizieren des Eintrags steht und eine Müllto
 In den Designmodus gelangen Sie mit dem Stift-Symbol. Es öffnet sich wieder ein dreigeteiltes Fenster. Links finden Sie alle
 verfügbaren Bausteine, welche Sie via Drag and Drop an die richtige Stelle ziehen können. In der Mitte finden Sie die verwendeten
 Bausteine, im Designmodus sehen Sie die versteckten und sichtbaren Bausteine Ihrer Liste. Am Anfang der Liste steht immer der
-Titel des Datensatzes / des Listeneintrags. Diesen können Sie durch einen eigenen Titel (immer gleich) frei wählen, oder Sie
+`Titel des Datensatzes / des Listeneintrags`. Diesen können Sie durch einen eigenen Titel (immer gleich) frei wählen, oder Sie
 nutzen den eigenen Titel als Präfix. Im Anschluss haben Sie die Möglichkeit drei Bausteine für einen aussagekräftigen 
 Titel zusammen zu stellen.
 
 Wenn Sie auf einen Baustein klicken, können Sie diesen bearbeiten.
-Jeder Baustein hat eine Bezeichnung, mit welchem Sie deklarieren welcher Inhalt dargestellt werden soll.
-I.d.R. können Sie fast allen Bausteinen ein Icon zuweisen, genau so wie bei den Kacheleinstellungen.
+Jeder Baustein hat eine `Bezeichnung`, mit welcher Sie deklarieren welcher Inhalt dargestellt werden soll.
+I.d.R. können Sie fast allen Bausteinen ein `Icon` zuweisen, genau so wie bei den Kacheleinstellungen.
 
 Zudem haben Sie bei allen Bausteinen die erweiterten Einstellungen:
 
