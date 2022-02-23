@@ -252,29 +252,31 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 Der Baustein `Datensatz Liste` sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
-In jedem Fall müssen Sie, wie bei dem Datensatz Baustein, eine einfache Verknüpfung mit einer anderen Liste wählen.
+In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein, 
+eine einfache Verknüpfung mit einer anderen Liste wählen.
 
 Da Ihnen durch die einfache Verknüpfung alle Datensätze der verknüpften Liste angezeigt werden, müssen Sie
 die Anzeige nun bedingt filtern. Hierzu gibt es, je nach Inhalt der beiden Listen, zwei Wege.
 
     1. Verknüpfung über
-    Diese Funktion wählen Sie aus, wenn Sie sowohl in dieser Liste, als auch der verknüpften Liste
-    die gleiche Datensatzverknüpfung haben und hierüber eine Verknüpfung wählen können, bzw. dieser Datensatz
-    über eine Verknüpfung in dem anderen Datensatz vorhanden ist.
+    Diese Funktion wählen Sie aus, wenn Sie in der verknüpften Liste einen Datensatz Baustein haben,
+    welcher auf Ihre aktuelle Liste verweist. Es handelt sich hierbei um eine einfache Verknüpfung
+    über Ihren aktuellen Datensatz.
 
     2. Filter und Sortierung
     Sie können die Funktion Filter und Sortierung nicht nur zur allgemein reduzierten Anzeige nutzen, sondern
     auch zur Datensatzverknüpfung und daraus resultierenden reduzierten Anzeige. Wenn Sie in dieser Liste und 
-    der zu verknüpfenden Liste eine einfache Datensatz-Verknüpfung haben, können Sie diese nutzen und auswählen 
-    "zeige mir nur die Datensätze der beidseitig verknüpften Listen mit der dritten Liste, wenn der Wert der 
-    dritten Liste dem Baustein (=B) XY entspricht. Beispiel: Sie haben die Listen Kunden, Bauvorhaben und 
-    Ansprechpartner Kunde. In den Listen Bauvorhaben und Ansprechpartner haben Sie den Datensatz Baustein 
+    der zu verknüpfenden Liste eine einfache Datensatz-Verknüpfung zu einer dritten Liste haben, 
+    können Sie diese nutzen und auswählen "zeige mir nur die Datensätze der beidseitig verknüpften Listen 
+    mit der dritten Liste, wenn der Wert der dritten Liste dem Baustein (=B) XY entspricht. 
+    Beispiel: Sie haben die Listen Kunden, Bauvorhaben und Ansprechpartner Kunde. 
+    In den Listen Bauvorhaben und Ansprechpartner haben Sie den Datensatz Baustein 
     verwendet, um die einzelnen Daten mit der Liste Kunden zu verknüpfen. Sie möchten in den Bauvorhaben nun 
     eine Liste aller Ansprechpartner des Kunden haben, also wählen Sie aus zeige mir alle Ansprechpartner 
     von Kunde ist =B Kunde.
 
 Über die Funktion `Filter und Sortierung` können Sie sich zudem weitere Filter zur Anzeige bestimmter Datensätze
-setzen. Durch den = Filter werden nur bestimmte Daten angezeigt. Eine weitere Möglichkeit ist Zahlenfilter
+setzen. Durch den = Filter werden nur bestimmte Daten angezeigt. Eine weitere Möglichkeit ist den Zahlenfilter
 mit <, >, <= und >= zu setzen. Weiterhin haben Sie die Möglichkeit feste Datumsfilter zu setzen (Auswahl des
 Datums) und dynamische Datumsfilter über den Formel Button einzusetzen. Mehr dazu in unserer `Formelsammlung`
 
@@ -292,6 +294,9 @@ Zeitspannen. Im Beispiel der Zeiterfassung könnte man so zum Beispiel alle Arbe
 darstellen. Sie haben zudem die Möglichkeit ein Präfix, z.B. Std. einzutragen.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+
+Im Kapitel zum Verknüpfen von Listen finden Sie eine ausführliche Erklärung, sowie Beispiele
+zum Verknüpfen von Listen.
 
 ### Status
 

@@ -81,8 +81,9 @@ das System, welcher Datensatz gemeint ist. Wenn Sie Daten ohne ID importieren,
 werden neue Daten angelegt.
 - Wir empfehlen vor jedem Import einen Export. So sind alle Spalten richtig benannt.
 Zudem haben wir festgestellt, dass die Zuordnung in der APP so besser funktioniert.
-- Passen Sie die Spaltenbreiten an den Inhalt an. Markieren alle Datensätze über
-das Quadrat zwischen 1 und A. Dann Doppelklick auf eine Spaltentrennung, z.B. zwischen 1 und 2.
+- Passen Sie die Spaltenbreiten an den Inhalt an. Markieren Sie alle Datensätze über
+das Quadrat zwischen 1 und A. Dann führen Sie einen Doppelklick auf eine Spaltentrennung durch, 
+z.B. zwischen 1 und 2.
 - Sichern Sie Ihre Daten immer, sodass Sie diese im Zweifel wieder herstellen könnten.
 
 Leider sind wir beim Im- und Export vom Excel-Package abhängig und das System vertauscht
