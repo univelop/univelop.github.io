@@ -100,3 +100,52 @@ Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte L
 
 ## Weitere Funktionen des Formelbausteins
 
+Zunächst gibt es einige Funktionen zum Zählen von Buchstaben und Wörtern. Als Value ist hier immer der technische Name zu
+verstehen.
+
+- `textLength(value)` 
+    - Gibt die Textlänge eines Feldes inklusive Leerzeichen aus.
+
+- `firstLetters(value, count)`
+- `lastLetters(value,count)`
+    - Gibt die Zahlen und Buchstaben eines Datensatzes von vorne oder hinten aus, die Länge bestimmt sich nach der count Anzahl.
+Beispiel: firstLetters(seriennummer,4) wirft die ersten 4 Zahlen und Buchstaben einer Seriennummer aus
+202215964753 = 2022 als Ausgabewert.
+
+- `firstWords(value,count)`
+- `lastWords(value,count)`
+    - Wie first und lastLetters, jedoch werden Wörter gezählt und Stopp pro Wort nach einem Leerzeichen und nur nach 
+    einem Leerzeichen.
+
+- `formatDate(date, "format")`
+    - Formatiert uns ein Datumsdatensatz (Bezug auf Datum-Baustein) in
+    - yyyyMMDD = 20220131 (M mit 2 pattern letters = numerische Form)
+    - M = 1
+    - MMM = Jan
+    - MMMM = January
+
+Format Date:
+
+|Symbol   |Meaning                |Presentation       |Example|
+|------   |-------                |------------       |-------|
+|G        |era designator         |(Text)             |AD|
+|y        |year                   |(Number)           |1996|
+|M        |month in year          |(Text & Number)    |July & 07|
+|L        |standalone month       |(Text & Number)    |July & 07|
+|d        |day in month           |(Number)           |10|
+|c        |standalone day         |(Number)           |10|
+|h        |hour in am/pm (1~12)   |(Number)           |12|
+|H        |hour in day (0~23)     |(Number)           |0|
+|m        |minute in hour         |(Number)           |30|
+|s        |second in minute       |(Number)           |55|
+|S        |fractional second      |(Number)           |978|
+|E        |day of week            |(Text)             |Tuesday|
+|D        |day in year            |(Number)           |189|
+|a        |am/pm marker           |(Text)             |PM|
+|k        |hour in day (1~24)     |(Number)           |24|
+|K        |hour in am/pm (0~11)   |(Number)           |0|
+|Q        |quarter                |(Text)             |Q3|
+|'        |escape for text        |(Delimiter)        |'Date='|
+|''       |single quote           |(Literal)          |'o''clock'|
+
+
