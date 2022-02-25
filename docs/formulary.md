@@ -82,7 +82,7 @@ Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte L
 - ifElse(condition,thenValue,elseValue) bedeutet ein wenn, dann, sonst.
 - Beispiel: `ifElse(Reisezeit >= 12, verpflegungspauschale, 0)`, wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
 
-### Rechensymbole
+## Rechensymbole / Formelzeichen
 
 - `== (Gleich)`
 - `&& (Und)`
