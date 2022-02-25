@@ -80,7 +80,7 @@ Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte L
 - Beispiel: `if(arbeitstag == Samstag, stundenlohn*1,5)`, wenn der Arbeitstag ein Samstag ist, erhöhe den Stundenlohn um 50%.
 
 - ifElse(condition,thenValue,elseValue) bedeutet ein wenn, dann, sonst.
-- Beispiel: `ifElse(Reisezeit >= 12, verpflegungspauschale, 0)`, wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
+- Beispiel: `ifElse(reisezeit >= 12, verpflegungspauschale, 0)`, wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
 
 ## Rechensymbole / Formelzeichen
 
@@ -148,4 +148,49 @@ Format Date:
 |'        |escape for text        |(Delimiter)        |'Date='|
 |''       |single quote           |(Literal)          |'o''clock'|
 
+## Kombinationen und Beispiele
 
+### Sortieren mit dem Formelbaustein
+
+Sie können den Formelbaustein ebenfalls nutzen, um eine blockweise Sortierung zu erstellen.
+Nehmen wir als Beispiel die Arbeitszeiten Ihrer Mitarbeiter, welche Sie im Standard über Namen oder
+Datum sortieren könnten. Zur Prüfung dieser Zeiten, zum Beispiel im PDF Ausdruck, macht es vielleicht
+Sinn die Mitarbeiter blockweise nach Namen und Datum aufsteigend zu sortieren.
+Sie könnten also im Eintrag der Arbeitszeit die Formel `mitarbeiter.nachname+formatDate(datum,"yyyyMMdd")` einbauen.
+Diese Formel besagt: Bitte gebe mir den Nachnamen aus der, mit der Zeiterfassung, verknüpften Mitarbeiterliste und füge aus
+dem Datumsbaustein das Datum ein im Format Jahr, Monat, Tag. Das Ergebnis könnte lauten Müller20220131.
+Wenn Sie nun nach diesem Feld aufsteigend sortieren, sehen Sie die Arbeitszeiten im Block pro Mitarbeiter aufsteigend.
+
+### Erstellen von Kettenformeln 1
+
+Sie können mehrere Formeln aneinanderreihen. Wichtig hierbei ist, dass zusammengehörige Rechenblöcke in Klammern stehen.
+Sie könnten also eingeben `(mitarbeiter.stundenlohn*1,25)+(mitarbeiter.bereitschaftspauschale)`. Wie Sie sicher schon erahnen
+handelt es sich bei dieser Berechnung um einen Sonderlohn, zum Beispiel einem Wochenendzuschlag. In dieser Formel steht
+übersetzt, bitte gehe in die verknüpfte Mitarbeiterliste und gebe mir den Stundenlohn, welcher mit 25% multipliziert werden
+soll. Weiterhin gebe mir aus dem Mitarbeiter bitte auch noch die Bereitschaftspauschale und addiere diese mit dem um 25%
+erhöhten Stundenlohn.
+
+Sicherlich hätten durch die Datensatzverknüpfung auch einfach die Werte übernommen werden können. So hätten Sie sich
+jeweils das "mitarbeiter." in der Formel gespart. Der Vorteil hierbei ist, dass die aktuelle Liste zur Berechnung 
+angenehm kurz gehalten wird.
+
+### Erstellen von Kettenformeln 2
+
+Ebenso ist es möglich, dass Sie mehrere if oder ifElse Formeln aneinanderreihen.
+Nehmen wir an Sie möchten ein kleines Lagersystem mit Univelop erstellen. Hierfür benötigen Sie neben den Artikeln auch die
+Zu- und Abgänge. Diese müssten Sie kombinieren, um den Lagerbestand zu errechnen. Sie könnten also eine Kachel
+mit Artikeln erstellen und eine mit Artikelbewegungen (Zu- und Abgänge).
+
+In den Artikelbewegungen könnten Sie mit zwei Nummern- und Checkbox-Bausteinen die Zu- und Abgänge dokumentieren.
+Da Sie in einer Datensatz-Liste im Artikel allerdings nur die Summe über einen Baustein ziehen können, müssen Sie die
+Bewegungen zusammenfassen. Nehmen wir an Sie nennen diesen Formel-Baustein durchgeführte Bewegungen.
+
+In diesem Baustein könnten Sie eine Formel eintragen, die lauten könnte: 
+`ifElse(eingelagert == 'Ja', menge_eingang, 0) - ifElse(ausgelagert == 'Ja', menge_ausgang, 0)`
+Übersetzt steht hier: Wenn etwas eingelagert wurde, nehme die eingelagerte Menge, sonst null. Ziehe hiervon bitte eine Menge ab,
+wenn diese ausgelagert wurde. Sonst ziehe null ab. Wird also etwas eingelagert und nicht ausgelagert, wird ein positiver
+Wert ausgegeben. Wenn etwas nur ausgelagert wird oder die ausgelagerte Menge größer als die eingelagerte Menge ist, wird
+ein negativer Wert ausgegeben.
+
+Den Lagerbestand könnten Sie nun berechnen lassen, indem Sie im Artikel einen Baustein Datensatz-Liste verwenden und die
+Summe über die Bewegungen errechnen. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.

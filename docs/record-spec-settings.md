@@ -428,11 +428,17 @@ so auch neben Buchstaben und Zahlen Bilddateien. Weiterhin können Sie verknüpf
     Sie können auch eine ganze Datensatz-Liste ausgeben. Hierzu müssen Sie eine Tabelle zeichnen.
     Gehen wir davon aus Sie möchten Mitarbeiterzeiten pro Auftrag drucken und haben die
     Mitarbeiterzeiten als Datensatz Liste in Aufträgen integriert.
-    So könnt die Tabelle so aussehen:
-    Arbeitszeit                             Mitarbeiter
-    ${repeat(mitarbeiterzeiten)}
-    ${mitarbeiterzeiten.Arbeitszeit}        ${mitarbeiterzeiten.name}
-    ${endrepeat}
+    
+So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
+
+|**Arbeitszeit**                             |**Mitarbeiter**|
+|${repeat(mitarbeiterzeiten)}            |           |
+|${mitarbeiterzeiten.Arbeitszeit}        |${mitarbeiterzeiten.name}|
+|${endrepeat}                            |                         |
+
+Diese Liste können Sie über beliebig viele Spalten erweitern, solange diese in der Datensatz-Liste vorkommen,
+auf welche Sie zugreifen. Bitte beachten Sie, dass Sie nicht mehrere Listen innerhalb einer Tabelle kombinieren
+können, da das Programm immer nur auf eine Liste gleichzeitig zugreifen kann.
 
 Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Auch hier können
 Sie sich auf einen bestimmten Datensatz beziehen. Soll die PDF-Datei zum Beispiel so
