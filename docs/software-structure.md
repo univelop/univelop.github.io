@@ -28,8 +28,9 @@ in der Liste klicken, sehen Sie die Details und befinden sich in den Einträgen.
 
 ## Einträge
 
-Eine Liste hat diverse Listeneinträge. Diese sind also der Inhalt dieser Liste. Je nach Benennung der einzelnen Bausteine und
-deren Inhalte können diese Listeneinträge individuell jeden denkbaren Datensatz digitalisieren.
+Eine Liste besteht im Detail aus diversen Listeneinträgen. Diese sind also der Inhalt dieser Liste. 
+Je nach Benennung der einzelnen Bausteine innerhalb dieser Liste und deren Inhalte können diese Listeneinträge 
+individuell jeden denkbaren Datensatz digitalisieren.
 
 ## Bausteine
 
