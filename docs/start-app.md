@@ -19,6 +19,8 @@ Nach erfolgreicher Registrierung können Sie sich mit Ihrer Mail und dem festgel
 Entweder wird ein neuer Arbeitsbereich erstellt, oder es liegt eine Einladung zu einem Arbeitsbereich via Link vor. 
 Der Arbeitsbereich ist die Umgebung, in welcher man sich befindet.
 
+![registration](..\assets\start-app\registration.png "registration")
+
 ---
 
 ## Erstellen eines Arbeitsbereichs
@@ -44,7 +46,8 @@ Nun können Sie direkt in diesem Arbeitsbereich mit arbeiten.
 ***Sie haben soeben einen neuen Arbeitsbereich erstellt***
 
 Das Programm schlägt Ihnen bereits vor in den Designmodus zu wechseln. In diesem können Sie die verschiedenen Bereiche bearbeiten.
-Wenn Sie nun auf "Neue Liste" drücken, erstellen Sie diese hiermit. Vergeben Sie zu Anfang einen aussagefähigen Namen für diese Liste.
+Wenn Sie nun im linken Fensterteil eine "Neue Liste" via Drag and Drop in die Mitte zu Allgemeine Kacheln ziehen,
+können Sie so eine neue Liste / Kachel anlegen. Vergeben Sie zu Anfang einen aussagefähigen Namen für diese Liste.
 
 Es empfiehlt sich für den Anfang mit den Stammdaten anzufagen, also z.B. Mitarbeiter, Artikel, Kunden etc.
 Wenn Sie Ihre Stammdaten angelegt haben, können Sie Ihre Bewegungsdaten anlegen, die sich auf Ihre Stammdaten beziehen, 
@@ -65,10 +68,9 @@ Darunter die individuelle Bezeichnung und weitere Einstellmöglichkeiten.
 
 ***Ihre Bausteine sinnvoll aneinander reihen***
 
-Sie möchten nun eine Kundenkartei erstellen und sind bereits im Besitz von zwei Textfeldern.
-Wenn Sie das obere Textfeld nun von Bezeichnung in Name umbenennen und weitere Textfelder für Straße & Hausnummer, PLZ (könnte auch
-ein Nummernfeld sein) und Ort darunter einfügen und entsprechend benennen, haben Sie schonmal die wichtigsten Kundenstammdaten.
-Sie könnten nun die Bausteine Mail und Telefon direkt darunter setzen.
+Sie möchten nun eine Kundenkartei erstellen und sind bereits im Besitz von zwei Textfeldern, namens
+Bezeichnung und Beschreibung. Wenn Sie das obere Textfeld nun von Bezeichnung in Name umbenennen und weitere Textfelder für Straße & Hausnummer, PLZ (könnte auch ein Nummernfeld sein) und Ort darunter einfügen und entsprechend benennen, haben Sie
+schonmal die wichtigsten Kundenstammdaten. Sie könnten nun die Bausteine Mail und Telefon direkt darunter setzen.
 
 Vielleicht macht es Sinn Ihrem Kunden noch Ansprechpartner oder eine Baustelle / Abw. Lieferadresse hinzuzufügen.
 Hierzu erfassen Sie eine neue Überschrift, bzw. den Baustein Abschnitt und benennen Ihn entsprechend dem Abschnitt, den Sie
