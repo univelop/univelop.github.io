@@ -6,6 +6,9 @@ nav_order: 3
 
 # Die Programmstruktur
 
+Im Folgenden erläutern wir Ihnen unsere Programmstruktur im Einzelnen.
+Im Anschluss daran finden Sie ein zusammenhängendes Beispiel zur Erläuterung.
+
 ## Arbeitsbereiche
 
 Als Arbeitsbereich können Sie den workspace oder Mandanten verstehen, in welchem Sie sich befinden. Er ist somit die oberste
