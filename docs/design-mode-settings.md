@@ -36,15 +36,18 @@ In der linken Bildschirmhälfte finden Sie drei Möglichkeiten zum Hinzufügen v
 3. `Kachel Importieren`
     Wenn Sie diese Funktion nutzen, sind Sie bereits ein fortgeschrittener Univelop-Nutzer.
     Sie können Kacheln aus anderen Arbeitsbereichen importieren, wenn Sie diese vorher lokal exportiert und
-    im json Format gespeichert haben. Dies eignet sich vor allem dafür, wenn Sie Standard-Kacheln in einer Universal-Umgebung haben,
-    welche Sie auf andere Arbeitsbereiche ausrollen möchten. Ebenso können Sie so gleiche Einstellungen übernehmen.
+    im json Format gespeichert haben. Dies eignet sich vor allem dafür, wenn Sie Standard-Kacheln in einer 
+    Universal-Umgebung haben, welche Sie auf andere Arbeitsbereiche ausrollen möchten. 
+    Ebenso können Sie so gleiche Einstellungen übernehmen.
 
 Im rechten Fenster sehen Sie weitere globale Einstellungen. Sie können hier den Namen des Arbeitsbereichs ändern.
 
-Weiterhin haben Sie die Möglichkeit drei Bilder hinzuzufügen. Als erstes das Banner für den Homescreen, dies wird dann über den Kacheln
-erscheinen. Je nach Bildschirmgröße wird das Bild anders dargestellt. Sie können Ihr Firmenlogo hinzufügen, dies würde dann oben
-links auf dem Startbildschirm erscheinen. Weiterhin haben Sie die Möglichkeit ein Hintergrundbild für die Anmeldung einzubetten, welches
-über eine bestimmte Kombination erreicht wird, die Sie an Kunden senden könnten: https://app.univelop.de/#/?%workspaceid=....
+Weiterhin haben Sie die Möglichkeit drei Bilder hinzuzufügen. Als erstes das Banner für den Homescreen, dies wird dann 
+über den Kacheln erscheinen. Je nach Bildschirmgröße wird das Bild anders dargestellt. 
+Sie können Ihr Firmenlogo hinzufügen, dies würde dann oben links auf dem Startbildschirm erscheinen. 
+
+Weiterhin haben Sie die Möglichkeit ein Hintergrundbild für die Anmeldung einzubetten, dies ist eine Funktion 
+zur Erstellung eines Portalmodus. Hierzu mehr im Reiter Portalmodus.
 
 Sie können ebenso das Farbschema Ihres Arbeitsbereichs anpassen. Wenn Sie diese Einstellung öffnen, haben Sie zunächst die
 Möglichkeit eine Primär- und Sekundärfarbe zu vergeben. Dies können Sie über die Farbskala machen, oder einen RTX Wert eingeben.
