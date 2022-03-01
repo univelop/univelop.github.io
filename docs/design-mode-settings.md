@@ -81,12 +81,14 @@ Je nachdem welche Inhalte diese Kachel hat, können Sie die Filterung nach den B
 Projektnummer, Kundennummer, Name (alphabetisch) auf- oder absteigend. 
 
 Unterhalb der Filterung und Sortierung haben Sie die Option die Kachel für alle Nutzer zu verstecken. Dies macht dann Sinn, wenn
-es sich um eine Hilfskachel handelt. Zum Beispiel eine Kachel namens Ansprechpartner, welche dann als Listeneintrag in der
+es sich um eine Hilfskachel handelt. Zum Beispiel eine Kachel namens Ansprechpartner, welche dann als Datensatzverknüpfung in der
 Kachel Kunden angezeigt werden.
 
 In den erweiterten Einstellungen können Sie zunächst noch einen technischen Namen vergeben.
-Technische Namen sind immer erforderlich, um sich auf etwas zu beziehen. In diesem Fall auf die Kachel. Technische Namen sind
-immer klein geschrieben und Leerzeichen als Unterstrich ausgeschrieben.
+Technische Namen sind immer erforderlich um sich auf etwas zu beziehen. In diesem Fall auf die Kachel. Technische Namen sind
+im Standard immer klein geschrieben und Leerzeichen werden als Unterstrich ausgeschrieben. Diesen technischen Namen
+können Sie natürlich beliebig ändern.
+Hinweis: Die technischen Namen sind i.d.R. für den Im- und Export von Datensätzen notwendig.
 
 Es gibt zudem eine Benachrichtigungsfunktion. Dies bedeutet, dass Sie immer darüber informiert werden, wenn es Änderungen in
 den Datensätzen gab. Dies geschieht bei den Kacheln mit einem kleinen roten Kreis, welcher oben rechts am Kachelrand erscheint
@@ -95,8 +97,8 @@ Punkte, die verschwinden, wenn Sie den Eintrag öffnen - also lesen.
 
 Bei einzelnem Datensatz direkt zum Datensatz springen bedeutet, dass Ihnen keine Liste angezeigt wird, sondern nur der 
 einzelne Datensatz. Dies können Sie nutzen, wenn Sie dritten einen Zugang geben, die nur Ihre eigenen Datensätze sehen sollen.
-Zudem könnten Sie funktionell eine Drucken-Funktion erstellen, die immer nur Datensätze aus anderen Listen abgreift und Sie diese
-als PDF drucken, zum Beispiel Arbeitszeiten pro Zeitraum.
+Zudem könnten Sie funktionell in diesem einen Datensatz / dieser einen Liste die Daten aus anderen Listen zusammenfließen
+lassen.
 
 Wenn Sie die Schnellerfassung aktivieren, wird Ihnen das kleine PLus nicht mehr als runder Button angezeigt, sondern als Balken und die
 Sicht auf die eingegebenen Datensätze kann reduziert werden (Baustein -> in Schnellerfassung verstecken). Sie haben außerdem
