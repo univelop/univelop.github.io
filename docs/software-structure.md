@@ -20,7 +20,8 @@ Arbeitsbereichs gesehen werden, und eigene Kacheln, welche immer aus den allgeme
 ## Listen
 
 Die Kachel ist die symbolische Darstellung einer Liste, also der Inhalt dieser Kachel. Wenn Sie auf die Kachel klicken, sehen Sie
-zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht).
+zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht). Wenn Sie auf einen dieser Einträge
+in der Liste klicken, sehen Sie die Details und befinden sich in den Einträgen.
 
 ## Einträge
 
