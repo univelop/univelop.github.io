@@ -47,3 +47,13 @@ Sie möchten nun eine Übersicht Ihrer Kunden erstellen. Hierzu klicken Sie im D
 eine Kachel, auf der Sie das Wort Kunde lesen. Innerhalb dieser Kachel könnten Sie nun eine Kundenliste anlegen. Diese Liste besteht aus
 einzelnen Kunden, welche durch die Einträge beschrieben werden. Zum Beispiel durch die Textbausteine, die Sie Name, Vorname und
 Adresse benennen können.
+
+![homescreen](..\assets\software-structure\homescreen.png "homescreen")
+![list-record](..\assets\software-structure\list-record.png "list-record")
+
+|Nummer|    Bezeichnung|    Beschreibung|
+|1|         Home-Button| Mit dem Home Button wechseln Sie zwischen Ihren Arbeitsbereichen hin und her|
+|2|         Kacheln| Die Kacheln stehen symbolisch für die dahinterliegenden Listen|
+|3|         Einstellungen| Über die drei Punkte öffnen Sie in jeder Ebene weitere Einstellungen|
+|4|         Liste| Die Liste ist eine Sammlung aller Datensätze in individueller Kurzform dargestellt|
+|5|         Eintrag| Die Einträge beinhalten alle Details und Verknüpfungen Ihrer Liste|

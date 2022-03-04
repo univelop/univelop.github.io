@@ -30,6 +30,8 @@ Der Arbeitsbereich ist die Umgebung, in welcher man sich befindet.
 Das Erstellen eines Arbeitsbereichs wird Ihnen direkt nach der Anmeldung vorgeschlagen. Hier können Sie einfach
 auf den Button zum Erstellen eines neuen Arbeitsbereichs tippen. Nach dem Erstellen eines Titels können Sie drauf los kacheln.
 
+![new-workspace](..\assets\start-app\new-workspace.png "new-workspace")
+
 ---
 
 ## Einem Arbeitsbereich beitreten
