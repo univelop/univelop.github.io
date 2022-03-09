@@ -177,7 +177,7 @@ In der Mitte finden Sie die verwendeten Bausteine, im Designmodus sehen Sie die 
 Bausteine Ihrer Liste. Am Anfang der Liste steht immer der `Titel des Datensatzes / des Listeneintrags` (2). 
 Diesen können Sie durch einen eigenen Titel (immer gleich) frei wählen, oder Sie
 nutzen den eigenen Titel als Präfix. Im Anschluss haben Sie die Möglichkeit drei Bausteine für einen aussagekräftigen 
-Titel zusammen zu stellen.
+Titel zusammen zu stellen. Sie können oben rechts (3) zudem sehen welche Art von Baustein Sie gerade bearbeiten.
 
 Wenn Sie auf einen Baustein klicken, können Sie diesen bearbeiten.
 Jeder Baustein hat eine `Bezeichnung`, mit welcher Sie deklarieren welcher Inhalt dargestellt werden soll.
@@ -212,3 +212,6 @@ Zudem haben Sie bei allen Bausteinen die erweiterten Einstellungen:
     Bausteine nur gelöscht werden können, wenn sie nicht als Listeneintrag fungieren. Das Duplizieren ist möglich
     und sinnvoll, wenn Sie ähnliche Inhalte darstellen wollen. Bitte beachten Sie aber unbedingt, dass der technische Name
     ebenso zzgl. einer fortlaufenden Zahl mit übernommen wird und ggf. geändert werden muss.
+
+***Bitte beachten Sie***, dass der Designmodus für Listen und Einträge immer gespeichert werden muss, damit die
+Änderungen wirksam werden. Wenn Sie den Button "Abbrechen" drücken, gehen Ihre Änderungen verloren.
