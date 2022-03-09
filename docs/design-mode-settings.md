@@ -40,7 +40,9 @@ In der linken Bildschirmhälfte finden Sie drei Möglichkeiten zum Hinzufügen v
     Universal-Umgebung haben, welche Sie auf andere Arbeitsbereiche ausrollen möchten. 
     Ebenso können Sie so gleiche Einstellungen übernehmen.
 
-Im rechten Fenster sehen Sie weitere globale Einstellungen. Sie können hier den Namen des Arbeitsbereichs ändern.
+![home](..\assets\design-mode-setting\home.png "home")
+
+Im rechten Fenster sehen Sie weitere globale Einstellungen (4). Sie können hier den Namen des Arbeitsbereichs ändern.
 
 Weiterhin haben Sie die Möglichkeit drei Bilder hinzuzufügen. Als erstes das Banner für den Homescreen, dies wird dann 
 über den Kacheln erscheinen. Je nach Bildschirmgröße wird das Bild anders dargestellt. 
