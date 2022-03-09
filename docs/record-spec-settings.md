@@ -27,8 +27,11 @@ Als Beispiel erstellen Sie eine Kundenliste. Sie haben bereits Namen und Adressd
 möchten nun noch Kontaktdaten separiert erfassen können. Hierzu wählen Sie den Abschnitt-Baustein und ziehen ihn
 an die gewünschte Stelle. Anschließend betiteln Sie diesen mit der Bezeichnung entsprechend mit Kontaktdaten.
 
+![section](..\assets\record-spec-settings\1section.png "section")
+
 Abschnitte können mit dem switch zusammenklappbar und als standardmäßig zusammenklappbar eingestellt werden.
-Sie haben ebenso die Möglichkeit Bausteine für die Kopfzeile des Abschnitts hinzuzufügen.
+Sie haben ebenso die Möglichkeit Bausteine für die Kopfzeile des Abschnitts hinzuzufügen. Diese
+werden dann direkt unter dem Abschnitt-Titel angezeigt.
 
 *Besonderheiten*
 
@@ -38,7 +41,9 @@ dieses Abschnitts. Dies betrifft Nur Lesen, Baustein verstecken (Sowie die Ausna
 ### Hinweis
 
 Mit dem `Hinweis` Baustein erfassen Sie Hinweistexte. Der Hinweistext wird über die Bezeichnung geschrieben. Sie haben hier die
-Möglichkeit auch längere Hinweistexte zu erfassen und diese abschnittsweise durch Entern zu trennen. 
+Möglichkeit auch längere Hinweistexte zu erfassen und diese abschnittsweise durch Entern zu trennen.
+
+![hint](..\assets\record-spec-settings\1hint.png "hint")
 
 Bitte beachten Sie, dass Sie den technischen Namen u.U. kürzen sollten, da andernfalls der gesamte Hinweistext als
 technischer Name erscheinen kann. Hinweistexte sind immer nur lesbar, der Nur Lesen switch ist hier ohne weitere Funktion.
@@ -47,9 +52,14 @@ Das Verstecken und bedingte Anzeigen von Hinweistexten ist möglich und dort sin
 
 ### Web Link
 
-Durch den `Web Link` Baustein können Sie in Ihre Listeneinträge zentrale URL´s, bzw. Links hinterlegen. Diesen können Sie als
-Button oder Link anzeigen lassen. Dies ist dann sinnvoll, wenn Sie immer auf den gleichen Pfad verweisen. Zum Beispiel Ihre
-allgemeinen Geschäftsbedingungen. Der Link benötigt immer ein www. und die .Endung (de, com, org etc.). 
+Durch den `Web Link` Baustein können Sie in Ihre Listeneinträge zentrale URL´s, bzw. Links hinterlegen. 
+
+![link](..\assets\record-spec-settings\1link.png "link")
+
+Diesen können Sie als Button oder Link anzeigen lassen. Dies ist dann sinnvoll, wenn Sie immer auf den gleichen 
+Pfad verweisen. Zum Beispiel Ihre allgemeinen Geschäftsbedingungen. 
+Der Link benötigt immer ein www. und die .Endung (de, com, org etc.). Das Präfix "http://" wird immer
+automatisch durch das System vorbelegt.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
@@ -66,15 +76,21 @@ Bedingungen festlegen.
 
 ### Textfeld
 
-Mit dem `Textfeld` Baustein können Sie alphanummerische Inhalte erfassen. Standardmäßig ist hier keine Zeilenzahl für ein
-mehrzeiliges Textfeld angegeben. Wenn Sie hier eine 1 einsetzen, können Sie im Bearbeitungsmodus über die Entertaste 
-mehrere Zeilen erfassen. Sie können das Feld auch durch die Wahl von größeren Zeilenwerten bereits im Vorfeld vergrößern.
+Mit dem `Textfeld` Baustein können Sie beliebige alphanummerische Inhalte erfassen. 
+
+![text](..\assets\record-spec-settings\1text.png "text")
+
+Standardmäßig ist hier keine Zeilenzahl für ein mehrzeiliges Textfeld (2) angegeben. 
+Wenn Sie hier eine 1 einsetzen, können Sie im Bearbeitungsmodus über die Entertaste 
+mehrere Zeilen erfassen. Sie können das Feld auch durch die Wahl von größeren Zeilenwerten bereits im Vorfeld vergrößern,
+wie hier im Beispiel.
 
 Indem Sie einen Standard Text eingeben, können Sie einen Standard-Inhalt vorgeben. Nehmen wir an Sie legen neue Kunden
 immer mit den gleichen Zahlungsbedigungen an, können Sie diese hier vorbelegen, jedoch ebenso überschreiben.
 
-Das Einstellungsfeld Tooltip eröffnet Ihnen die Möglichkeit ein Hinweistext zu dem Baustein zu erfassen, zum Beispiel
-was Sie vom Nutzer für Inhalte erwarten, oder in welchem Format. 
+Das Einstellungsfeld Tooltip (1) eröffnet Ihnen die Möglichkeit ein Hinweistext zu dem Baustein zu erfassen, zum Beispiel
+was Sie vom Nutzer für Inhalte erwarten, oder in welchem Format. Den Tooltip sehen Sie dann als Pop-Up
+mit einem kleinen i Button in Ihrem Baustein (1).
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 Der Textfeld Baustein ist hoch individuell und kann in nahezu jeder Liste Verwendung finden, in welcher
@@ -85,10 +101,13 @@ beliebige Inhalte erfasst werden sollen.
 Während Sie mit dem Textfeld Baustein jeglichen Inhalt erfassen können, ist der `Nummer` Baustein dem Namen entsprechend
 nur mit Zahlenwerten füllbar - bedeutet keine Buchstaben und keine Sonderzeichen.
 
+![number](..\assets\record-spec-settings\1number.png "number")
+
 Der Vorteil von Nummern-Bausteinen ist, dass Sie hier nur Zahlenwerte zulassen können und Falscheingaben vorbeugen,
 wie z.B. PLZ, Beträge, Auftragsnummern oder Zeiten. Zudem können Sie mit Nummern-Bausteinen über den `Formel` Baustein
-rechnen.
+rechnen. *Bitte beachten Sie*, dass Falscheingaben nach Verlassen des Dialogfensters gelöscht werden.
 
+Auch beim Nummernfeld können Sie, so wie beim Textfeld, ein Tooltip hinterlegen.
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ### Schalter
