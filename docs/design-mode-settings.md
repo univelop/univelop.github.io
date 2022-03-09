@@ -59,32 +59,40 @@ Unterhalb des Farbschemas finden Sie Einstellungen zu den Benutzerrollen und Tea
 Einstellungen mehr. Die Arbeitsbereich ID ist eindeutig. Sie beschreibt außerdem die Herkunft von Kachelim- und exporten.
 Die ID darf nicht verändert werden.
 
----
+Über den Button Service Account Key können Sie einen eindeutigen Key anfordern. Wenn Sie dies gemacht haben, können Sie
+selbst neue Mitglieder in Ihrem Arbeitsbereich hinzufügen.
 
-Über den Button Service Account Key.....
-
----
-
-Zuletzt finden Sie unten zwei Buttons. Mit dem Button Export können Sie einen ganzen Arbeitsbereich als ZIP Datei exportieren, um ihn
-in einen anderen einzufügen. Der Löschen Button sorgt dafür, dass Ihr Arbeitsbereich gelöscht wird.
+Zuletzt finden Sie unten zwei Buttons. Mit dem Button Export können Sie einen ganzen Arbeitsbereich als ZIP Datei exportieren, um ihn in einen neuen einzufügen. Der Löschen Button sorgt dafür, dass Ihr Arbeitsbereich gelöscht wird.
 
 ## Kachel
 
-Wenn Sie sich im Designmodus des Arbeitsbereichs befinden und auf eine Kachel klicken, können Sie die Kacheleinstellungen bearbeiten.
-Die linke Hälfte und Mitte des Fensters verändern sich hierbei nicht.
-Rechts haben Sie nun die Möglichkeit den Namen zu ändern. Darauf folgt die Darstellung der Kachel. Sie können die Kachelinfo
-als Anzahl der Datensätze, Summe über einen Baustein oder ein Icon realisieren. Wenn Sie auf Summe über einen Baustein klicken,
-wählen Sie daraufhin aus über welchen Baustein die Summe errechnet werden soll. Üblich sind z.B. Arbeitszeiten oder Nummernfelder.
-Sie können ebenso ein Suffix, wie zum Beispiel Std. hinzufügen. Wenn Sie die Variante Icon wählen, können Sie aus einer Liste ein Icon
-auswählen. Es gibt weiterhin die Möglichkeit über englische Begriffe zu suchen. Als nächstes können Sie die Kachelfarbe festlegen.
+![tile](..\assets\design-mode-setting\tile.png "tile")
 
-Die Filterung und Sortierung, also Darstellung des Kachelinhalts, stellen Sie ebenfalls hier ein. 
+Wenn Sie sich im Designmodus des Arbeitsbereichs befinden und auf eine Kachel klicken, können Sie die Kacheleinstellungen
+bearbeiten. Die linke Hälfte und Mitte des Fensters verändern sich hierbei nicht.
+
+Zunächst haben Sie hier die Möglichkeit in die Designmodi der Liste (1) und der Einträge (2) zu gelangen.
+Darunter haben Sie nun die Möglichkeit den Namen der Kachel zu ändern (3). 
+Darauf folgt die Darstellung der Kachel (4). Sie können die Kachelinfo als Anzahl der Datensätze, Summe über einen Baustein oder
+ein Icon (5) realisieren. Wenn Sie auf Summe über einen Baustein klicken, wählen Sie daraufhin aus über welchen Baustein die Summe errechnet werden soll. Üblich sind z.B. Arbeitszeiten oder Nummernfelder.
+Sie können ebenso ein Suffix, wie zum Beispiel Std. hinzufügen. Wenn Sie die Variante Icon wählen, können Sie aus einer Liste 
+ein Icon auswählen. Es gibt weiterhin die Möglichkeit über englische Begriffe zu suchen. 
+Als nächstes können Sie die Kachelfarbe (6) festlegen.
+
+Die Filterung und Sortierung (7), also Auswahl und Sortierung der Liste, stellen Sie ebenfalls hier ein. 
 Je nachdem welche Inhalte diese Kachel hat, können Sie die Filterung nach den Bausteinen wählen. Zum Beispiel nach Datum,
 Projektnummer, Kundennummer, Name (alphabetisch) auf- oder absteigend. 
 
-Unterhalb der Filterung und Sortierung haben Sie die Option die Kachel für alle Nutzer zu verstecken. Dies macht dann Sinn, wenn
-es sich um eine Hilfskachel handelt. Zum Beispiel eine Kachel namens Ansprechpartner, welche dann als Datensatzverknüpfung in der
+Unterhalb der Filterung und Sortierung haben Sie die Option die Kachel für alle Nutzer zu verstecken (8). 
+Dies macht dann Sinn, wenn es sich um eine Hilfskachel handelt. 
+Zum Beispiel eine Kachel namens Ansprechpartner, welche dann als Datensatzverknüpfung in der
 Kachel Kunden angezeigt werden.
+
+![tile2](..\assets\design-mode-setting\tile2.png "tile2")
+
+Sie können die grundsätzlich versteckte Kachel jedoch für bestimmte Rollen und Teams anzeigen lassen. 
+Dies sorgt dafür, dass Sie Ihren Arbeitsbereich für bestimmte Nutzer aufräumen und jeder den Inhalt sieht,
+mit dem gearbeitet werden soll.
 
 In den erweiterten Einstellungen können Sie zunächst noch einen technischen Namen vergeben.
 Technische Namen sind immer erforderlich um sich auf etwas zu beziehen. In diesem Fall auf die Kachel. Technische Namen sind
@@ -100,33 +108,54 @@ Punkte, die verschwinden, wenn Sie den Eintrag öffnen - also lesen.
 Bei einzelnem Datensatz direkt zum Datensatz springen bedeutet, dass Ihnen keine Liste angezeigt wird, sondern nur der 
 einzelne Datensatz. Dies können Sie nutzen, wenn Sie dritten einen Zugang geben, die nur Ihre eigenen Datensätze sehen sollen.
 Zudem könnten Sie funktionell in diesem einen Datensatz / dieser einen Liste die Daten aus anderen Listen zusammenfließen
-lassen.
+lassen. Hier eignet sich zum Beispiel eine Portalfunktion, bei welcher ein externer Nutzer einem Datensatz zugeordnet
+wird und nur seine eigenen Daten sieht.
 
-Wenn Sie die Schnellerfassung aktivieren, wird Ihnen das kleine PLus nicht mehr als runder Button angezeigt, sondern als Balken und die
-Sicht auf die eingegebenen Datensätze kann reduziert werden (Baustein -> in Schnellerfassung verstecken). Sie haben außerdem
-die Möglichkeit die Schnellerfassung ausschließlich bei einer Verknüpfung über einen bestimmten Baustein zu wählen.
+Wenn Sie die Schnellerfassung aktivieren, wird Ihnen das kleine PLus in der Liste nicht mehr als runder Button angezeigt, 
+sondern als Balken und die Sicht auf die eingegebenen Datensätze kann reduziert werden 
+(Baustein -> in Schnellerfassung verstecken). Sie haben außerdem die Möglichkeit die Schnellerfassung 
+ausschließlich bei einer Verknüpfung über einen bestimmten Baustein zu wählen.
 Die Schnellerfassung nutzen Sie im Baustein Datensatz-Liste. Hierzu in den Bausteinen mehr.
+
+Am Ende finden Sie drei Buttons. Counter aktualisieren sorgt dafür, dass wenn der Inhalt der Kachel
+als Anzahl Datensätze oder Summe über Baustein gewählt wurde diese Zähler sich aktualisieren / die Summe neu
+berechnen. Dies passiert im Produktivsystem live, beim Einstellen müssen Sie dies jedoch initial setzen.
+
+Der Button Export sorgt dafür, dass Sie eine einzelne Kachel im json Format exportieren. Bitte beachten Sie, dass dies 
+***ohne Vorlagen und ohne Datensätze*** passiert. Die exportierte Kachel können Sie nun über den Import Button
+in einen anderen Arbeitsbereich einfügen. Bitte beachten Sie, dass dies eine Einbahnstraße ist. Die exportierte Kachel
+bekommt die ID des exportierten Arbeitsbereich mitgegeben und kann nicht zurück Ex- und Importiert werden.
+Wir empfehlen einen Demo Arbeitsbereich, in welchem Sie sämtliche Änderungen vornehmen und von dort aus exportieren.
+
+Zu guter Letzt können Sie Ihre Kacheln inklusive Inhalt löschen.
 
 ## Liste
 
+![list](..\assets\design-mode-setting\list.png "list")
+
 Wenn Sie auf eine Kachel klicken öffnet sich links die Liste und nach einem Klick auf einen Eintrag rechts der Listeneintrag. 
-Am linken oberen Bildschirmrand sehen Sie einen Pfeil, über welchen Sie zurück in den Arbeitsbereich kommen. Mittig (Rechte Hälfte 
-der Liste) sehen Sie drei Symbole. Mit der Lupe können Sie nach allem suchen, was in den Listeneinträgen niedergeschrieben wurde.
-Über die drei Striche, die so aussehen wie ein W-Lan-Symbol, können Sie sich die Inhalte nach bestimmten Kriterien filtern und
+Am linken oberen Bildschirmrand sehen Sie einen Pfeil (1), über welchen Sie zurück in den Arbeitsbereich kommen. 
+Mittig (Rechte Hälfte der Liste) sehen Sie drei Symbole. Mit der Lupe (2) können Sie nach allem suchen, 
+was in den Listeneinträgen niedergeschrieben wurde.
+Über die drei Striche (3), die so aussehen wie ein W-Lan-Symbol, können Sie sich die Inhalte nach bestimmten Kriterien filtern und
 die Sortierung temporär ändern. Dies ist nur temporär, da Sie die Fixeinstellung in dem Designmodus der Kachel vornehmen.
 Mit dem Speicherkartensymbol können Sie diese Filterung und Sortierung als eigene Kachel im Arbeitsbereich speichern.
 
-Mit den drei Punkten gelangen Sie in den Designmodus. Sie können auch hier die Benachrichtigungen für sich selbst aktivieren,
+Mit den drei Punkten (4) gelangen Sie in den Designmodus. Sie können auch hier die Benachrichtigungen für sich selbst aktivieren,
 alle als gelesen markieren, die Datensätze nach Excel exportieren und, sofern Sie die Berechtigungen (s. Rollen und Rechte) haben,
-auch von Excel importieren. Weiterhin könnten Sie die Berechtigung haben alle Datensätze zu löschen. ACHTUNG! Dies löscht alle Daten.
+auch von Excel importieren. Weiterhin könnten Sie die Berechtigung haben alle Datensätze zu löschen. 
+***ACHTUNG! Dies löscht alle Daten.***
 
 Im Designmodus der Liste ist Ihr Fenster wieder dreigeteilt. Links sehen Sie die Felder / Bausteine der Listeneinträge.
-Diese können Sie via Drag and Drop in eins der 5 Felder in der Mitte stehen. Diese 5 Felder entsprechen am Ende dem Inhalt,
+Diese können Sie via Drag and Drop in eins der 5 Felder in der Mitte ziehen. Diese 5 Felder entsprechen am Ende dem Inhalt,
 der als Kurzfassung der Datensätze in der Liste dargestellt wird. In diese Felder können Sie mehrere Datensätze legen.
-In der rechten Bildschirmhälfte wird Ihnen angezeigt welche Felder in der Listendarstellung enthalten sind. Sie können hier auch
-löschen und die Positionen verschieben.
+In der rechten Bildschirmhälfte wird Ihnen angezeigt welche Felder in der Listendarstellung enthalten sind. 
+Sie können hier Felder aus der Kurzansicht löschen (1) und die Positionen verschieben über die drei Striche (2) via
+Drag and Drop.
 
 Bitte beachten Sie: Wenn Sie einen Baustein in der Listenansicht verwenden, können Sie ihn nicht löschen.
+
+![list2](..\assets\design-mode-setting\list2.png "list2")
 
 ## Eintrag
 
