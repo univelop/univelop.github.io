@@ -113,10 +113,15 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 ### Schalter
 
 Mit dem `Schalter` Baustein können Sie eine einfache Ja / Nein, Erfüllt / Nicht erfüllt Abfrage in der App darstellen.
+
+![switch](..\assets\record-spec-settings\1switch.png "switch")
+
 Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Zudem können Sie im Ausdruck noch wählen,
 ob der Schalter als Ja / Nein, Checkbox, Beschreibung oder leer dargestellt werden soll.
 
 Mit dem Schalter können Sie zudem einfache Anzeigen oder Nur Lesen und unter Bedingung anzeigen darstellen.
+Die einfachste Abfrage hierbei ist: Soll etwas eingeblendet werden? Switch für´s Einblenden wird auf ja
+gestellt und die einzublendenen Bausteine sind mit Anzeigen unter Bedingung Switch ja eingestellt.
 Der Schalter eignet sich außerdem, um eine einfache Checkliste zu erstellen.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
@@ -127,16 +132,21 @@ Durch den `Drop-Down` Baustein haben Sie eine erweiterte Einstellung, als mit de
 individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten vergeben. Zudem haben Sie hier die Möglichkeit
 eine beliebige Anzahl an individuellen Auswahlmöglichkeiten zu vergeben.
 
-Über die jeweilige Mülltonne der einzelenen Optionen können Sie diese löschen. Durch das = Symbol können Sie die Reihenfolge
+![drop-down](..\assets\record-spec-settings\1drop-down.png "drop-down")
+
+Über die jeweilige Mülltonne der einzelnen Optionen (2) können Sie diese löschen. Durch das = Symbol können Sie die Reihenfolge
 ändern. Bitte beachten Sie, dass Sie eine Drop-Down Auswahl nur löschen oder umbenennen können, wenn keine Datensätze mit
 der jeweiligen Antwort vorhanden sind.
 
-Sie haben zudem die Möglichkeit eine Standard-Antwort zu hinterlegen. Im Beispiel einer Checkliste könnten Sie die Antworten
+Sie haben zudem die Möglichkeit eine Standard-Antwort (3) zu hinterlegen. Im Beispiel einer Checkliste könnten Sie die Antworten
 OK, nicht OK und nicht bewertet anlegen. Durch die Standard-Antwort nicht bewertet können Sie darüber filtern und
 haben zudem noch die Sicherheit, dass eine Eingabe erforderlich ist.
 
 Die Filterung über Drop-Down ermöglicht Ihnen zudem eine Klassifizierung eines Datensatzes. Zum Beispiel geprüft / nicht geprüft
 oder Prioritäten hoch, mittel, gering. Somit könnten Sie sich auch Filterkacheln über dieses Feld erstellen.
+Weiterhin haben Sie auch hier die Möglichkeit Tooltips anzulegen.
+
+Die Auswahl des Inhalts des Drop-Down Feldes erfolgt immer über ein Pop-Up Fenster.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
