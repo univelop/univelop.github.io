@@ -16,6 +16,10 @@ Die Bausteine sind in folgende Gruppen klassifiziert: Basis, Formular und Erweit
 
 ## Basis Bausteine
 
+Mit den Basis Bausteinen können Sie Ihre Listeneinträge sortieren, Hinweise erfassen und verlinken.
+
+![basic](..\assets\record-spec-settings\basic.png "basic")
+
 ### Abschnitt
 
 Mit dem `Abschnitt` Baustein können Sie Ihre Listeneinträge thematisch trennen.
@@ -57,6 +61,8 @@ Mit den Formular Bausteinen können Sie einfache Formulare erstellen und Inhalte
 Informationen bereit gestellt werden. Mit den Formular Bausteinen können Sie zudem eine einfache
 Zuordnung von Datensätzen herstellen, sortieren und filtern, sowie Leserechte und Anzeigen unter
 Bedingungen festlegen.
+
+![form](..\assets\record-spec-settings\form.png "form")
 
 ### Textfeld
 
@@ -212,6 +218,8 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Sie
 Listen und Bausteine verknüpfen, sowie Dateien und Stati hinterlegen.
+
+![expanded](..\assets\record-spec-settings\expanded.png "expanded")
 
 ### Datei
 
