@@ -64,6 +64,8 @@ selbst neue Mitglieder in Ihrem Arbeitsbereich hinzufügen.
 
 Zuletzt finden Sie unten zwei Buttons. Mit dem Button Export können Sie einen ganzen Arbeitsbereich als ZIP Datei exportieren, um ihn in einen neuen einzufügen. Der Löschen Button sorgt dafür, dass Ihr Arbeitsbereich gelöscht wird.
 
+---
+
 ## Kachel
 
 ![tile](..\assets\design-mode-setting\tile.png "tile")
@@ -129,6 +131,8 @@ Wir empfehlen einen Demo Arbeitsbereich, in welchem Sie sämtliche Änderungen v
 
 Zu guter Letzt können Sie Ihre Kacheln inklusive Inhalt löschen.
 
+---
+
 ## Liste
 
 ![list](..\assets\design-mode-setting\list.png "list")
@@ -157,22 +161,31 @@ Bitte beachten Sie: Wenn Sie einen Baustein in der Listenansicht verwenden, kön
 
 ![list2](..\assets\design-mode-setting\list2.png "list2")
 
+---
+
 ## Eintrag
 
 Wenn Sie sich in der Liste befinden und links die Liste sehen und rechts den Eintrag (nach Mausklick auf einen Eintrag), sehen Sie
 oben rechts 4 Symbole. Die Glocke, mit welcher Sie die Benachrichtigungen für den Eintrag aktivieren, das Rechteck mit dem
 Schattenstrich, welches für das Duplizieren des Eintrags steht und eine Mülltonne, mit welcher Sie den Eintrag löschen.
 
+![record](..\assets\design-mode-setting\record.png "record")
+
 In den Designmodus gelangen Sie mit dem Stift-Symbol. Es öffnet sich wieder ein dreigeteiltes Fenster. Links finden Sie alle
-verfügbaren Bausteine, welche Sie via Drag and Drop an die richtige Stelle ziehen können. In der Mitte finden Sie die verwendeten
-Bausteine, im Designmodus sehen Sie die versteckten und sichtbaren Bausteine Ihrer Liste. Am Anfang der Liste steht immer der
-`Titel des Datensatzes / des Listeneintrags`. Diesen können Sie durch einen eigenen Titel (immer gleich) frei wählen, oder Sie
+verfügbaren Bausteine, welche Sie via Drag and Drop (1) an die richtige Stelle ziehen können. 
+In der Mitte finden Sie die verwendeten Bausteine, im Designmodus sehen Sie die versteckten und sichtbaren 
+Bausteine Ihrer Liste. Am Anfang der Liste steht immer der `Titel des Datensatzes / des Listeneintrags` (2). 
+Diesen können Sie durch einen eigenen Titel (immer gleich) frei wählen, oder Sie
 nutzen den eigenen Titel als Präfix. Im Anschluss haben Sie die Möglichkeit drei Bausteine für einen aussagekräftigen 
 Titel zusammen zu stellen.
 
 Wenn Sie auf einen Baustein klicken, können Sie diesen bearbeiten.
 Jeder Baustein hat eine `Bezeichnung`, mit welcher Sie deklarieren welcher Inhalt dargestellt werden soll.
 I.d.R. können Sie fast allen Bausteinen ein `Icon` zuweisen, genau so wie bei den Kacheleinstellungen.
+
+Sie könnten zusätzlich einzelne Bausteine als Pflichtfelder deklarieren, dies würden Sie über
+den Reiter Validierung realisieren, indem Sie den Pflichtfeld Switch betätigen. Bei ungefüllten Datensätzen
+erscheint eine rot markierte Meldung, dass der Datensatz gefüllt sein muss.
 
 Zudem haben Sie bei allen Bausteinen die erweiterten Einstellungen:
 
