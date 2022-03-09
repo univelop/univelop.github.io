@@ -153,8 +153,11 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 ### Datum
 
 Mit dem `Datum` Baustein können Sie ein Einzeldatum pro Datensatz einstellen. Dieses ist auch inklusive Uhrzeit möglich.
-Das heutige Datum ist immer voreingestellt. Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das
-Symbol anklicken.
+
+![date](..\assets\record-spec-settings\1date.png "date")
+
+Das heutige Datum ist immer voreingestellt. 
+Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
 Sie können Ihre Liste zudem nach Datum filtern, Filterlisten über Datumsformeln erstellen oder ganz einfach die Sortierung
@@ -166,6 +169,8 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 Durch den `Zeitspanne` Baustein haben Sie die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.
 Anders als Datum + Uhrzeit rechnet der Zeitspanne Baustein (Von - Bis) auch die Stunden und Minuten der Zeitspanne aus.
+
+![interval](..\assets\record-spec-settings\1interval.png "interval")
 
 Mit der Kombination von Datum und Zeitspanne (sowie Pausen) ist bereits eine einfache Zeiterfassung über die
 Univelop App möglich.
