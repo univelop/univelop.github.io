@@ -340,6 +340,10 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 Im Kapitel zum Verknüpfen von Listen finden Sie eine ausführliche Erklärung, sowie Beispiele
 zum Verknüpfen von Listen.
 
+### Freigabe
+
+M
+
 ### Status
 
 Mit dem `Status` Baustein können Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
