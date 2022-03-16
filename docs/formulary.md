@@ -10,11 +10,11 @@ nav_order: 11
 
 Datumsformeln sind nur in Verbindung mit dem
     [Baustein *Datum*](https://univelop.github.io/docs/record-spec-settings.html#datum "Die Bausteine und deren Einstellungen // Baustein *Datum*")
-möglich. Sie können diese Formeln in den Filtern für
+möglich. Diese Formeln können in den Filtern für
     [Datensatzverknüpfungen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
 oder im
     [Listenfilter](https://univelop.github.io/docs/design-mode-settings.html#liste "Die Designmodiund deren Einstellungen // Liste")
-verwenden, wenn Sie dort den Formelbutton sehen.  
+verwendet werden, wenn dort der Formelbutton zu sehen ist.  
 
 <span style="color:#3d85c6">**Beispiel:**</span>
 
@@ -41,10 +41,10 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021*
 | endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021*
   
-In den Klammern der einzelnen Formel können **keine** eigenen Werte hinsichtlich einer Zeitpunktsberechnung erfolgen
-(zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt immer vom tagesaktuellen
-Datum automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch "mitwandert"
-und die Filterung entsprechend der gewählten Formel immer aktuell hält.
+In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
+erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt immer vom
+tagesaktuellen Datum automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch
+"mitwandert" und die Filterung entsprechend der gewählten Formel immer aktuell hält.
 
 ### <span style="color:#3d85c6">Formelberechnung mit Datumsformel</span>
 *(nur möglich über einen Datumsbezug aus einer Datumsformel (s. o.))*  
@@ -59,7 +59,7 @@ Sollen der Datumsformel nun ganze Monate addiert oder subtrahiert werden, könne
 und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel wird anhand der frei
 gewählten Zahl die entsprechenden Monate hinzugefügt.  
 HINWEIS: Die Berechnung über diese Formeln über einen Monatswechsel führt zu einer falschen Berechnung aufgrund der
-unterschiedlichen Monatsendungen (s. u.) 
+unterschiedlichen Monatsendungen (s. Beschreibung unter den folgenden Beispielen) 
 
 Beispiel:
 
@@ -78,7 +78,7 @@ werden.
 
 Eine Berechnung des Endes des letzten Monats kann **nicht** über *subtractMonths(endOfMonth(),1)* dargestellt werden.
 Die Datumsformel *endOfMonth()* greift dabei nämlich auf das Ende des aktuellen Monats zu. Aufgrund der unterschiedlichen
-Endtage der einzelnen Monate würde mindestens immer ein Tag ignoriert werden. 
+Endtage der einzelnen Monate würde immer mindestens ein Tag ignoriert werden. 
 
 **Beispiel (Berechnungszeitpunkt: *15.03.2022*):**  
 <span style="color:#3d85c6">erwartetes Ergebnis:</span>  
@@ -119,13 +119,13 @@ Im Ergebnis wird der gesetzte Filter beim Aufrufen des Bausteins automatisch anh
 
 ### <span style="color:#3d85c6">Formel-Baustein und technischer Name</span>
 
-Sie können über den Formelbaustein ganz einfach mit Bedingungen rechnen oder sich Inhalte anzeigen lassen. 
-Hierzu beziehen Sie sich immer auf den technischen Namen eines Bausteins in Ihrer Liste oder den technischen
+Über den Baustein *Formel* kann ganz einfach mit Bedingungen gerechnet werden oder sich Inhalte anzeigen lassen. 
+Hierzu nimmt man immer Bezug auf den technischen Namen eines Bausteins in der Liste oder den technischen
 Namen eines Bausteins in einer verknüpften Liste. Der technische Name steht im Designmodus des Bausteins direkt
 unter dem Abschnitt
     [**ERWEITERT**](https://univelop.github.io/docs/design-mode-settings.html#eintrag "Die Designmodi und deren Einstellungen // Eintrag").  
-Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer Sie
-ändern den technischen Namen selbst ab.
+Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer dieser
+wird im Nachgang abgeändert.
 
 ![technical name](..\assets\formulary\technical name.png "technical name") 
 
@@ -135,13 +135,14 @@ Diese Funktion lässt sich nun in vielerlei Hinsicht mit dem Baustein *Formel* k
 Ein
     [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
 mit Namen "Mitarbeiter" wird als *Technischer Name* ebenfalls **mitarbeiter** heißen.
-In der Kachel *Mitarbeiterstammdaten* ist der Stundenlohn erfasst. Möchten Sie nun zum Beispiel auf den Stundenlohn
-des ausgewählten Mitarbeiters zugreifen, geben Sie in den Baustein *Formel* "mitarbeiter.stundenlohn" ein.
+In der Kachel *Mitarbeiterstammdaten* ist der Stundenlohn erfasst. Soll nun zum Beispiel der Stundenlohn
+des ausgewählten Mitarbeiters abgefragt werden, wird in dem Baustein *Formel* in den Einstellungen des
+Bausteins der Verweis "mitarbeiter.stundenlohn" eingegeben.
 
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name.png "formulabrick technical name") 
 
 1. Auswahl Baustein *Formel*
-2. Eingabe der Formel *mitarbeiter.stundenlohn*
+2. Eingabe des Verweis *mitarbeiter.stundenlohn*
 3. Die Formel sucht nun über die verknüpfte Kachel "Mitarbeiter" im Baustein *Datensatz* den ausgewählten Mitarbeiter
 
     ![formulabrick technical name](..\assets\formulary\example formula brick technical name2.png "formulabrick technical name")
@@ -152,9 +153,9 @@ des ausgewählten Mitarbeiters zugreifen, geben Sie in den Baustein *Formel* "mi
 **Ergebnis:**  
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name3.png "formulabrick technical name")
 
-Wenn in der Liste zum Beispiel noch eine Arbeitszeit enthalten ist, kann die Formel erweitert werden
-z. B. zur Berechnung eines Arbeitslohns. Dazu wird die Formel mit dem technischen Namen des Bausteins
-erweitert, der die Arbeitszeit enthält, also *mitarbeiter.stundenlohn* * ***arbeitszeit***.
+Wenn in der Liste unter anderem noch eine Arbeitszeit enthalten ist, kann die Formel erweitert werden
+z. B. zur Berechnung eines Arbeitslohns der erfassten Tätigkeit. Dazu wird die Formel mit dem technischen
+Namen des Bausteins erweitert, der die Arbeitszeit enthält, also *mitarbeiter.stundenlohn* * ***arbeitszeit***.
 
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name4.png "formulabrick technical name")  
 
@@ -162,16 +163,18 @@ erweitert, der die Arbeitszeit enthält, also *mitarbeiter.stundenlohn* * ***arb
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name5.png "formulabrick technical name")
 
 Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel
-des Stundenlohns könnten Sie **stdlo** schreiben. Weiterhin kann es sein, dass Sie den technischen Namen anpassen
-müssen, wenn Univelop mit einem anderen System automatisch kommunizieren soll
+des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an Fremdsystem ist
+es möglich, dass der technische Name angepasst werden muss, wenn Univelop mit einem Fremdsystem automatisch
+kommunizieren soll
     ([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
-, da das andere System Ihnen Feldnamen oder Bezeichnungen vorgibt.
+, da das andere System komplett unterschiedliche Feldnamen und Bezeichnungen vorgibt.
 
 ### <span style="color:#3d85c6">Individuelle Berechnung mit Formelbaustein</span>
 
 In dem Baustein *Formel* kann ebenfalls eine individuelle Berechnung erfolgen. Dabei müssen nicht zwingend zwei
-technische Namen / Felder (wie im o. g. Beispiel) angeben werden, sondern es können ebenso technischer Name,
-Rechenzeichen und gewünschte Zahl eingeben.  
+technische Namen / Felder (wie im o. g. Beispiel) angegeben, sondern es können ebenso technischer Name,
+Rechenzeichen und gewünschte Zahl gewählt werden.  
+
 **Beispiel:**  
 Auf einen Stundenlohn soll ein Samstagszuschlag erhoben werden. Der Zuschlag beträgt 50%. Die einzugebende Formel
 würde dann lauten **stundenlohn*1,5**.  
@@ -182,7 +185,7 @@ Feld Stundenlohn angepasst werden muss.
 ### <span style="color:#3d85c6">Berechnung unter Bedingungen</span>
 
 Die altbekannte Wenn-Dann-Sonst-Formel aus Excel kann auch in dem Baustein *Formel* integriert werden.
-Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte Liste beziehen.
+Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste bezogen werden.
 
 | Formel                                | Beispiel                                              | Beschreibung
 |------                                 |------                                                 |------
@@ -209,7 +212,7 @@ Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte L
 
 ## <span style="color:#0b5394">Weitere Funktionen des Formelbausteins</span>
 
-Zunächst gibt es einige Funktionen zum Zählen von Buchstaben und Wörtern.  
+Über den Baustein *Formel* können noch weitere Funktionen genutzt werden.  
 *Value = Technischer Name*  
 
 | Funktionen                                | Beschreibung
@@ -263,7 +266,7 @@ Der Baustein *Formel* kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortieru
 **Beispiel:**
 Die Arbeitszeiten der Mitarbeiter können im Standard über den Mitarbeiternamen **oder** das Datum sortiert
 werden. Zur Prüfung dieser Zeiten, zum Beispiel im PDF Ausdruck, macht es unter Umständen Sinn die Mitarbeiter
-mit einer Zweitsortierung, also nach Namen **und** Datum, aufsteigend zu sortieren.  
+mit einer Zweitsortierung, also nach Namen **und** Datum aufsteigend zu sortieren.  
 Hier wird der Baustein "Formel" im Eintrag der Arbeitszeit hinzugefügt und mit der Formel
 `mitarbeiter.nachname+formatDate(datum,"yyyyMMdd")` versehen.  
 Das Formelergebnis ist nun eine Kombination aus dem Mitarbeiternamen und dem Datum der erfassten Arbeitszeit.
@@ -290,12 +293,12 @@ Die Formel kann also wie folgt aussehen:
     [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
 ausgewählten Mitarbeiter nach dem dort erfassten Stundenlohn und multipliziert den gefundenen Wert mit 25%.
 Weiter sucht die Formel im ausgewählten Mitarbeiter die erfasste Bereitschaftspauschale. Nach Abschluss der
-Suche werden beide Werte miteinander addiert sodass sich daraus der gewünschte Sonderlohn ergibt.
+Suche werden beide Werte miteinander addiert, sodass sich daraus der gewünschte Sonderlohn ergibt.
 
 Grundsätzlich ließen sich über die
     [Datensatzverknüpfung](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
 die Werte einfach übernehmen. In solchen Fällen spart man sich das "mitarbeiter." in den entsprechenden Formeln.
-Der Vorteil dieser Variante ist hingegen, dass die aktuelle Liste zur Berechnung angenehm kurz gehalten wird.
+Der Vorteil bei der Kettenformel ist hingegen, dass die aktuelle Liste zur Berechnung angenehm kurz gehalten wird.
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
 
@@ -316,15 +319,16 @@ werden. Der dafür benötigte Baustein *Formel* wird "durchgeführte Bewegungen"
 
 In diesem Baustein wird eine Formel eingetragen, die lauten könnte: 
 `ifElse(eingelagert == 'Ja', menge_eingang, 0) - ifElse(ausgelagert == 'Ja', menge_ausgang, 0)`
-Die Formel führt nun dazu, dass wenn etwas eingelagert wird, soll die entsprechende Menge berücksichtigt werden,
-ansonsten soll der Wert *0* eingtragen werden. Von der ersten Wenn-Dann-Sonst-Formel soll die ausgelagerte Menge
-abgezogen werden, die nach dem gleichen Schema ermittelt wird. Wird also etwas eingelagert, wird ein positiver Wert
-und bei einer Auslagerung ein negativer Wert. Es können auch beide Bewegungen gleichzeitig erfasst werden. Die
-errechnete Summe erfolgt nach demselben Prinzip.
+Die Kettenformel führt nun dazu, dass beide Wenn-Dann-Sonst-Formeln geprüft und in allen Fällen einen Wert-X ausgibt.
+Wird etwas eingelagert, soll die entsprechende Menge berücksichtigt werden, ansonsten soll der Wert *0* eingtragen
+werden. Von der ersten Wenn-Dann-Sonst-Formel soll die ausgelagerte Menge ggf. abgezogen werden, die Wenn-Dann-Sonst-Formel
+wird nach dem gleichen Schema wie der erste Wenn-Dann-Sonst-Formel ermittelt wird.  
+Wird also etwas eingelagert, wird ein positiver Wert und bei einer Auslagerung ein negativer Wert. Es können auch beide
+Bewegungen gleichzeitig erfasst werden. Die sich daraus ergebende Summe erfolgt nach demselben Prinzip und wird positiv oder
+negativ ausgegeben.
 
-Soll nun die Lagerbestände der Artikel errechnet werden, können diese ebenfalls errechnet werden. Dazu wird in der
-Kachel Artikel der
+Sollen nun eine Berechnung der Lagerbestände der einzelnen Artikel erfolgen, wird in der Kachel Artikel der
     [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
-verwendet und die Summe über die Bewegungen errechnen. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.  
+verwendet und die Summe über die Bewegungen errechnet. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.  
 
 ![ifElse combination](..\assets\formulary\ifElse combination.png "ifElse combination")
