@@ -59,21 +59,17 @@ Sollen der Datumsformel nun ganze Monate addiert oder subtrahiert werden, könne
 und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel wird anhand der frei
 gewählten Zahl die entsprechenden Monate hinzugefügt.  
 HINWEIS: Die Berechnung über diese Formeln über einen Monatswechsel führt zu einer falschen Berechnung aufgrund der
-unterschiedlichen Monatsendungen (s. Beschreibung unter den folgenden Beispielen) 
+unterschiedlichen Monatsendungen (s. Beschreibung unter den folgenden Beispielen).  
 
-Beispiel:
+Die zu addierende oder subtrahierende Zahl kann frei gewählt und wird mit einem Komma in der entsprechenden Formel eingesetzt.  
+
+**Beispiel:**
 
 | Berechnung                | Beispiel (Berechnungszeitpunkt: *15.06.2021*)     | Ergebnis
 |------                     |------                                             |:------:
 | addMonths()               | addMonths(startOfWeek()**,1**)                    | *14.**07**.2021*
-| subtractMonths()          | subtractMonths(startOfQuarter()**,1**)            | *01.**03**.2021*
-
-Die zu addierende oder subtrahierende Zahl kann frei gewählt und durch ein Komma in der entsprechenden Formel eingesetzt
-werden.
-
-| Berechnung                | Beispiel (Berechnungszeitpunkt: *15.06.2021*)     | Ergebnis
-|------                     |------                                             |:------:
 | addMonths()               | addMonths(startOfWeek()**,3**)                    | *14.**09**.2021*
+| subtractMonths()          | subtractMonths(startOfQuarter()**,1**)            | *01.**03**.2021*
 | subtractMonths()          | subtractMonths(startOfQuarter()**,5**)            | *01.**10**.**2020***
 
 Eine Berechnung des Endes des letzten Monats kann **nicht** über *subtractMonths(endOfMonth(),1)* dargestellt werden.
