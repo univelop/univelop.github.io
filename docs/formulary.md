@@ -190,7 +190,7 @@ Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste be
 | Formel                                | Beispiel                                              | Beschreibung
 |------                                 |------                                                 |------
 | if(condition, thenValue)              | `if(arbeitstag == Samstag, stundenlohn*1,5)`          | wenn der Arbeitstag ein Samstag ist, erhöhe den Stundenlohn um 50%
-| ifElse(condition,thenValue,elseValue) | `ifElse(reisezeit >= 12, verpflegungspauschale, 0)`   | wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
+| ifElse(condition,thenValue,elseValue) | `ifElse(reisezeit >= 12, verpflegungspauschale, 0)`   | wenn die Reisezeit 12 Stunden oder länger dauert, trage den Wert aus dem Feld *Verpflegungspauschale* ein (hier sollte dann ein Wert hinterlegt sein), sonst verwende den Wert 0.
 
 ## <span style="color:#0b5394">Rechensymbole / Operatoren</span>
 
