@@ -163,9 +163,9 @@ Namen des Bausteins erweitert, der die Arbeitszeit enthält, also *mitarbeiter.s
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name5.png "formulabrick technical name")
 
 Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel
-des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an Fremdsystem ist
-es möglich, dass der technische Name angepasst werden muss, wenn Univelop mit einem Fremdsystem automatisch
-kommunizieren soll
+des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an ein Fremdsystem
+besteht die Notwendigkeit, dass der technische Name angepasst werden muss, wenn Univelop mit einem Fremdsystem
+automatisch kommunizieren soll
     ([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
 , da das andere System komplett unterschiedliche Feldnamen und Bezeichnungen vorgibt.
 
