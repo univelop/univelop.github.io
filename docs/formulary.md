@@ -4,193 +4,327 @@ title: Formelsammlung
 nav_order: 11
 ---
 
-# Formelsammlung
+# <span style="color:#0b5394">**Formelsammlung**</span>
 
-## Datumsformeln
+## <span style="color:#0b5394">Datumsformeln</span>
 
-Datumsformeln sind nur in Verbindung mit einem Datum Baustein möglich. Sie können diese Formeln in den Filtern
-für Datensatzverknüpfungen oder im Listenfilter verwenden, wenn Sie dort den Formelbutton sehen.
+Datumsformeln sind nur in Verbindung mit dem
+    [Baustein *Datum*](https://univelop.github.io/docs/record-spec-settings.html#datum "Die Bausteine und deren Einstellungen // Baustein *Datum*")
+möglich. Sie können diese Formeln in den Filtern für
+    [Datensatzverknüpfungen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+oder im
+    [Listenfilter](https://univelop.github.io/docs/design-mode-settings.html#liste "Die Designmodiund deren Einstellungen // Liste")
+verwenden, wenn Sie dort den Formelbutton sehen.  
 
-### Liste mit Standard-Datumsformeln
+<span style="color:#3d85c6">**Beispiel:**</span>
 
-- Today()
-- startOfWeek()
-- endOfWeek()
-- startOfMonth()
-- endOfMonth()
-- startOfQuarter()
-- endOfQuarter()
-- startOfYear()
-- endOfYear()
+![example formula button](..\assets\formulary\example formula button.png "example formula button")
 
-Rechnen mit Formeln über
+1. Datumsfeld in Filter und Sortierung auswählen
+2. Formelbutton auswählen
+3. Formel eintragen
 
-- addMonths()
-- subtractMonths()
+Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter gefiltert.  
+**HINWEIS:** Keine eigenen Werte in die Klammer setzen (s. Liste mit Standard-Datumsformeln)
 
-Dies ist nur möglich mit einem Datumsbezug, siehe oben. Also: addMonths(today(),1)
-Diese Formel addiert auf heute einen Monat.
+### <span style="color:#3d85c6">Liste mit Standard-Datumsformeln</span>
 
-### Darstellungen dynamischen Zeitspannen mit Formelberechnungen:
+| Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021*)|
+|------------               |------------                       |:-------------:
+| Today()                   | aktuelles Datum                   | *15.06.2021*
+| startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021*
+| endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021*
+| startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021*
+| endOfMonth()              | Ende des aktuellen Monats         | *30.06.2021*
+| startOfQuarter()          | Beginn des aktuellen Quartals     | *01.04.2021*
+| endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021*
+| startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021*
+| endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021*
+  
+In den Klammern der einzelnen Formel können **keine** eigenen Werte hinsichtlich einer Zeitpunktsberechnung erfolgen
+(zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt immer vom tagesaktuellen
+Datum automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch "mitwandert"
+und die Filterung entsprechend der gewählten Formel immer aktuell hält.
 
-- Aktuelle Woche startOfWeek() und endOfWeek()
-- Letzte Woche startOfWeek() -7 und endOfWeek() -7
-- Aktueller Monat startOfMonth() und endOfMonth()
-- Letzter Monat subtractMonths(startOfMonth(),1) und startOfMonth()-1
+### <span style="color:#3d85c6">Formelberechnung mit Datumsformel</span>
+*(nur möglich über einen Datumsbezug aus einer Datumsformel (s. o.))*  
 
-Sie können das Ende des letzten Monats z.B. nicht mit subtractMonths(endOfMonth(),1) darstellen,
-da die Formel endOfMonth auf das aktuelle Monatsende zugreift. Durch die unterschiedlichen
-Tage pro Monat würde hier mindestens ein Tag ignoriert werden. Stattdessen lassen Sie sich den Wert
-vom Monatsanfang geben und rechnen hiervon einen Tag runter.
+Mit den o. g. Datumsformeln kann ebenfalls gerechnet werden.  
 
-## Bedingungen und rechnen mit Formeln im Formel-Baustein
+**Beispiel (Berechnungszeitpunkt *15.06.2021*):**  
+today() + 5 = **20.06.2021**  
+startOfMonth() + 10 = **11.06.2021**
 
-### Formel-Baustein und technischer Name
+Sollen der Datumsformel nun ganze Monate addiert oder subtrahiert werden, können die Formelberechnungen ***addMonths()***
+und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel wird anhand der frei
+gewählten Zahl die entsprechenden Monate hinzugefügt.  
+HINWEIS: Die Berechnung über diese Formeln über einen Monatswechsel führt zu einer falschen Berechnung aufgrund der
+unterschiedlichen Monatsendungen (s. u.) 
+
+Beispiel:
+
+| Berechnung                | Beispiel (Berechnungszeitpunkt: *15.06.2021*)     | Ergebnis
+|------                     |------                                             |:------:
+| addMonths()               | addMonths(startOfWeek()**,1**)                    | *14.**07**.2021*
+| subtractMonths()          | subtractMonths(startOfQuarter()**,1**)            | *01.**03**.2021*
+
+Die zu addierende oder subtrahierende Zahl kann frei gewählt und durch ein Komma in der entsprechenden Formel eingesetzt
+werden.
+
+| Berechnung                | Beispiel (Berechnungszeitpunkt: *15.06.2021*)     | Ergebnis
+|------                     |------                                             |:------:
+| addMonths()               | addMonths(startOfWeek()**,3**)                    | *14.**09**.2021*
+| subtractMonths()          | subtractMonths(startOfQuarter()**,5**)            | *01.**10**.**2020***
+
+Eine Berechnung des Endes des letzten Monats kann **nicht** über *subtractMonths(endOfMonth(),1)* dargestellt werden.
+Die Datumsformel *endOfMonth()* greift dabei nämlich auf das Ende des aktuellen Monats zu. Aufgrund der unterschiedlichen
+Endtage der einzelnen Monate würde mindestens immer ein Tag ignoriert werden. 
+
+**Beispiel (Berechnungszeitpunkt: *15.03.2022*):**  
+<span style="color:#3d85c6">erwartetes Ergebnis:</span>  
+subtractMonths(endOfMonth(),1) = subtractMonths(31.03.2022, 1) = <span style="color:darkgreen">**28.02.2022**</span>  
+<span style="color:#3d85c6">tatsächliches Ergebnis:</span>  
+subtractMonths(endOfMonth(),1) = subtractMonths(31.03.2022, 1) = <span style="color:darkred">**03.03.2022**</span>
+  
+Dieses Ergebnis kommt zustande, da der Februar 2022 nur 28 Tage hat und nicht 31 Tage wie der März.  
+
+Um dieses Problem zu umgehen wird einfach der Wert vom Monatsanfang errechnet und davon ein Tag abgezogen.  
+
+**Beispiel (Berechnungszeitpunkt: *15.03.2022*):**  
+startOfMonth() - 1 = <span style="color:darkgreen">**28.02.2022**</span>
+
+### <span style="color:#3d85c6">Darstellungen von dynamischen Zeitspannen mit Formelberechnungen:</span>
+
+Durch die Möglichkeit der Formelberechnung mit einer Datumsformel lassen sich verschiedene Darstellungsmöglichkeiten
+errechnen, die in den Filteroptionen leicht verwendet werden können.
+
+| Formelkombination                                        | Beschreibung       | Ausgabewerte (Beispiel Berechnungszeitpunkt: *15.06.2021*)
+|------                                                    |------              |:------:
+| startOfWeek() und endOfWeek()                            | aktuelle Woche     | 14.06.2021 und 20.06.2021
+| startOfWeek() -7 und endOfWeek() -7                      | letzte Woche       | 07.06.2021 und 13.06.2021
+| startOfMonth() und endOfMonth()                          | aktueller Monat    | 01.06.2021 und 30.06.2021
+| subtractMonths(startOfMonth(),1) und startOfMonth()-1    | Letzter Monat      | 01.05.2021 und 31.05.2021
+
+**Beispiel *"alle Datensätze aus dem Vormonat* (Berechnungszeitpunkt: *15.03.2022*):"**  
+![example previous month](..\assets\formulary\example previous month.png "example previous month")  
+
+1. Datumsfeld für Filter wählen
+2. zutreffenden Operator auswählen
+3. über den jeweiligen Formelbutton die Datumsformel inkl. Formelberechnung eingeben  
+
+Im Ergebnis wird der gesetzte Filter beim Aufrufen des Bausteins automatisch anhand der Berechnung vorbelegt:
+![example previous month2](..\assets\formulary\example previous month2.png "example previous month2") 
+
+## <span style="color:#0b5394">Bedingungen und rechnen mit Formeln im Formel-Baustein</span>
+
+### <span style="color:#3d85c6">Formel-Baustein und technischer Name</span>
 
 Sie können über den Formelbaustein ganz einfach mit Bedingungen rechnen oder sich Inhalte anzeigen lassen. 
 Hierzu beziehen Sie sich immer auf den technischen Namen eines Bausteins in Ihrer Liste oder den technischen
 Namen eines Bausteins in einer verknüpften Liste. Der technische Name steht im Designmodus des Bausteins direkt
-unter dem Abschnitt "ERWEITERT".
+unter dem Abschnitt
+    [**ERWEITERT**](https://univelop.github.io/docs/design-mode-settings.html#eintrag "Die Designmodi und deren Einstellungen // Eintrag").  
+Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer Sie
+ändern den technischen Namen selbst ab.
 
-Der technische Name wird meistens durch die Bezeichnung vorgegeben, außer Sie ändern den technischen Namen selbst ab.
-Ein Datensatz Baustein mit Namen Mitarbeiter wird wahrscheinlich mitarbeiter heißen.
-Möchten Sie nun zum Beispiel auf den Stundenlohn des Mitarbeiters zugreifen, geben Sie ein "mitarbeiter.stundenlohn".
+![technical name](..\assets\formulary\technical name.png "technical name") 
 
-Wenn Sie Mitarbeiter.stundenlohn eingeben, wird Ihnen nur der Stundenlohn angezeigt. Wenn Sie in Ihrer Liste noch
-eine Arbeitszeit haben, könnten Sie eingeben mitarbeiter.stundenlohn*arbeitszeit und hätten somit einen Arbeitswert.
+Diese Funktion lässt sich nun in vielerlei Hinsicht mit dem Baustein *Formel* kombinieren.  
 
-Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel des
-Stundenlohns könnten Sie stdlo schreiben. Weiterhin kann es sein, dass Sie den technischen Namen anpassen
-müssen, wenn Univelop mit einem anderen System automatisch kommunizieren soll, da das andere System
-Ihnen Feldnamen oder Bezeichnungen vorgibt.
+**Beispiel:**
+Ein
+    [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
+mit Namen "Mitarbeiter" wird als *Technischer Name* ebenfalls **mitarbeiter** heißen.
+In der Kachel *Mitarbeiterstammdaten* ist der Stundenlohn erfasst. Möchten Sie nun zum Beispiel auf den Stundenlohn
+des ausgewählten Mitarbeiters zugreifen, geben Sie in den Baustein *Formel* "mitarbeiter.stundenlohn" ein.
 
-### Rechnen mit Formelbaustein
+![formulabrick technical name](..\assets\formulary\example formula brick technical name.png "formulabrick technical name") 
 
-Sie können mit dem Formelbaustein rechnen. Dabei müssen Sie nicht zwingend zwei technische Namen / Felder angeben. Sie können
-ebenso technischer Name, Rechenzeichen und gewünschte Zahl eingeben. Also für einen Samstagszuschlag beispielsweise könnte
-die Formel heißen stundenlohn*1,5. Im Vergleich zu einem Nummernfeld hat dies den Vorteil, dass der prozentuale Zuschlag dynamisch
-bleibt und Sie nur das Feld Stundenlohn anpassen müssten.
+1. Auswahl Baustein *Formel*
+2. Eingabe der Formel *mitarbeiter.stundenlohn*
+3. Die Formel sucht nun über die verknüpfte Kachel "Mitarbeiter" im Baustein *Datensatz* den ausgewählten Mitarbeiter
 
-### Rechnung unter Bedingung
+    ![formulabrick technical name](..\assets\formulary\example formula brick technical name2.png "formulabrick technical name")
 
-Vielleicht kennen Sie aus Excel bereits die wenn, dann Formel. Diese können Sie ebenso in einen Formelbaustein integrieren.
+4. Baustein "Formel" sucht im ausgewählten Mitarbeiter nach einem Baustein mit dem technischen Namen *Stundenlohn*
+5. Formel gibt den gefundenen Wert zurück  
+
+**Ergebnis:**  
+![formulabrick technical name](..\assets\formulary\example formula brick technical name3.png "formulabrick technical name")
+
+Wenn in der Liste zum Beispiel noch eine Arbeitszeit enthalten ist, kann die Formel erweitert werden
+z. B. zur Berechnung eines Arbeitslohns. Dazu wird die Formel mit dem technischen Namen des Bausteins
+erweitert, der die Arbeitszeit enthält, also *mitarbeiter.stundenlohn* * ***arbeitszeit***.
+
+![formulabrick technical name](..\assets\formulary\example formula brick technical name4.png "formulabrick technical name")  
+
+**Ergebnis:**  
+![formulabrick technical name](..\assets\formulary\example formula brick technical name5.png "formulabrick technical name")
+
+Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel
+des Stundenlohns könnten Sie **stdlo** schreiben. Weiterhin kann es sein, dass Sie den technischen Namen anpassen
+müssen, wenn Univelop mit einem anderen System automatisch kommunizieren soll
+    ([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
+, da das andere System Ihnen Feldnamen oder Bezeichnungen vorgibt.
+
+### <span style="color:#3d85c6">Individuelle Berechnung mit Formelbaustein</span>
+
+In dem Baustein *Formel* kann ebenfalls eine individuelle Berechnung erfolgen. Dabei müssen nicht zwingend zwei
+technische Namen / Felder (wie im o. g. Beispiel) angeben werden, sondern es können ebenso technischer Name,
+Rechenzeichen und gewünschte Zahl eingeben.  
+**Beispiel:**  
+Auf einen Stundenlohn soll ein Samstagszuschlag erhoben werden. Der Zuschlag beträgt 50%. Die einzugebende Formel
+würde dann lauten **stundenlohn*1,5**.  
+
+Im Vergleich zu einem Nummernfeld hat dies den Vorteil, dass der prozentuale Zuschlag dynamisch bleibt und nur das
+Feld Stundenlohn angepasst werden muss.
+
+### <span style="color:#3d85c6">Berechnung unter Bedingungen</span>
+
+Die altbekannte Wenn-Dann-Sonst-Formel aus Excel kann auch in dem Baustein *Formel* integriert werden.
 Auch hier können Sie sich neben der aktuellen Liste auch auf eine verknüpfte Liste beziehen.
 
-- if(condition, thenValue) bedeutet ein einfaches wenn, dann.
-- Beispiel: `if(arbeitstag == Samstag, stundenlohn*1,5)`, wenn der Arbeitstag ein Samstag ist, erhöhe den Stundenlohn um 50%.
+| Formel                                | Beispiel                                              | Beschreibung
+|------                                 |------                                                 |------
+| if(condition, thenValue)              | `if(arbeitstag == Samstag, stundenlohn*1,5)`          | wenn der Arbeitstag ein Samstag ist, erhöhe den Stundenlohn um 50%
+| ifElse(condition,thenValue,elseValue) | `ifElse(reisezeit >= 12, verpflegungspauschale, 0)`   | wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
 
-- ifElse(condition,thenValue,elseValue) bedeutet ein wenn, dann, sonst.
-- Beispiel: `ifElse(reisezeit >= 12, verpflegungspauschale, 0)`, wenn die Reisezeit 12 Stunden oder länger dauert, gebe das Feld Verpflegungspauschale ein (Hier sollte dann ein Wert hinterlegt sein), sonst gebe eine 0 aus.
+## <span style="color:#0b5394">Rechensymbole / Operatoren</span>
 
-## Rechensymbole / Formelzeichen
+| Rechensymbole / Operatoren            | Beschreibung
+|:------:                               |:------:
+| `==`                                  |Gleich
+| `&&`                                  |Und
+| `||`                                  |Oder
+| `<`                                   |Kleiner als
+| `>`                                   |Größer als
+| `!=`                                  |Ungleich
+| `<=`                                  |Kleiner gleich
+| `>=`                                  |Größer gleich
+| `+`                                   |Plus, Addition
+| `-`                                   |Minus, Subtraktion
+| `*`                                   |Mal, Multiplikation
+| `/`                                   |Geteilt, Division
+| `%`                                   |Modulo (gibt einen Restwert einer Teilung aus)
 
-- `== (Gleich)`
-- `&& (Und)`
-- `|| (Oder)`
-- `< (Kleiner als)`
-- `> (Größer als)`
-- `!= (Ungleich)`
-- `<= (Kleiner gleich)`
-- `>= (Größer gleich)`
-- `+ (Plus, Addition)`
-- `- (Minus, Subtraction)`
-- `* (Mal, Multiplikation)`
-- `/ (Geteilt, Division)`
-- `% (Modulo, gibt einen Restwert einer Teilung aus)`
+## <span style="color:#0b5394">Weitere Funktionen des Formelbausteins</span>
 
-## Weitere Funktionen des Formelbausteins
+Zunächst gibt es einige Funktionen zum Zählen von Buchstaben und Wörtern.  
+*Value = Technischer Name*  
 
-Zunächst gibt es einige Funktionen zum Zählen von Buchstaben und Wörtern. Als Value ist hier immer der technische Name zu
-verstehen.
+| Funktionen                                | Beschreibung
+| ------                                    | ------
+| `textLength(value)`                       | Gibt die Textlänge eines Feldes inklusive Leerzeichen aus
+| `firstLetters(value, count)`              | Zählt die ersten Zeichen eines Datensatzes anhand der vorgebenen Länge (count = Zahl)
+| `lastLetters(value,count)`                | Zählt die letzten Zeichen eines Datensatzes anhand der vorgegeben Länge (count = Zahl)
+|                                           | **Beispiel:** firstLetters(seriennummer,4) gibt die ersten 4 Zahlen und Buchstaben der Seriennummer aus
+|                                           |
+| `firstWords(value,count)`                 | Zählt die ersten Wörter anhand der vorgegebenen Anzahl (count = Zahl)
+| `lastWords(value,count)`                  | Zählt die letzten Wörter anhand der vorgegebenen Anzahl (count = Zahl)
+|                                           | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
+|                                           |
+| `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](https://univelop.github.io/docs/record-spec-settings.html#datum "Die Bausteine und deren Einstellungen // Datum")) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
 
-- `textLength(value)` 
-    - Gibt die Textlänge eines Feldes inklusive Leerzeichen aus.
+### <span style="color:#3d85c6">Formatierungsmöglichkeiten Datum</span>
 
-- `firstLetters(value, count)`
-- `lastLetters(value,count)`
-    - Gibt die Zahlen und Buchstaben eines Datensatzes von vorne oder hinten aus, die Länge bestimmt sich nach der count Anzahl.
-Beispiel: firstLetters(seriennummer,4) wirft die ersten 4 Zahlen und Buchstaben einer Seriennummer aus
-202215964753 = 2022 als Ausgabewert.
-
-- `firstWords(value,count)`
-- `lastWords(value,count)`
-    - Wie first und lastLetters, jedoch werden Wörter gezählt und Stopp pro Wort nach einem Leerzeichen und nur nach 
-    einem Leerzeichen.
-
-- `formatDate(date, "format")`
-    - Formatiert uns ein Datumsdatensatz (Bezug auf Datum-Baustein) in
-    - yyyyMMDD = 20220131 (M mit 2 pattern letters = numerische Form)
-    - M = 1
-    - MMM = Jan
-    - MMMM = January
-
-Format Date:
-
-|Symbol   |Meaning                |Presentation       |Example|
+|Symbol   |Beschreibung           |Ausgabe in         |Beispiel|
 |------   |-------                |------------       |-------|
-|G        |era designator         |(Text)             |AD|
-|y        |year                   |(Number)           |1996|
-|M        |month in year          |(Text & Number)    |July & 07|
-|L        |standalone month       |(Text & Number)    |July & 07|
-|d        |day in month           |(Number)           |10|
-|c        |standalone day         |(Number)           |10|
-|h        |hour in am/pm (1~12)   |(Number)           |12|
-|H        |hour in day (0~23)     |(Number)           |0|
-|m        |minute in hour         |(Number)           |30|
-|s        |second in minute       |(Number)           |55|
-|S        |fractional second      |(Number)           |978|
-|E        |day of week            |(Text)             |Tuesday|
-|D        |day in year            |(Number)           |189|
+|G        |Bezeichnung            |(Text)             |AD|
+|yyyy     |Jahr                   |(Zahl)             |2022|
+|M        |Monat im Jahr          |(Zahl)             |1|
+|MMM      |Monatsname (kurz)      |(Text)             |Jan|
+|MMMM     |Monatsname (lang)      |(Text)             |Januar|
+|L        |alleinstehender Monat  |(Text & Zahl)      |Januar & 01|
+|D        |Tag im Monat           |(Zahl)             |10|
+|c        |alleinstehender Tag    |(Zahl)             |10|
+|h        |Stunde am/pm (1~12)    |(Zahl)             |12|
+|H        |Stunde in Tag (0~23)   |(Zahl)             |0|
+|m        |Minuten einer Stunde   |(Zahl)             |30|
+|s        |Sekunden einer Minute  |(Zahl)             |55|
+|S        |fractional second      |(Zahl)             |978|
+|E        |Wochentag (kurz)       |(Text)             |Do.|
+|EEEE     |Wochentag (lang)       |(Text)             |Donnerstag|
+|D        |Tag im Jahr            |(Number)           |189|
 |a        |am/pm marker           |(Text)             |PM|
 |k        |hour in day (1~24)     |(Number)           |24|
 |K        |hour in am/pm (0~11)   |(Number)           |0|
-|Q        |quarter                |(Text)             |Q3|
+|Q        |Quartal                |(Zahl)             |3|
+|QQQ      |Quartal (kurz)         |(Text & Zahl)      |Q3|
+|QQQQ     |Quartal (lang)         |(Text & Zahl)      |3. Quartal|
 |'        |escape for text        |(Delimiter)        |'Date='|
 |''       |single quote           |(Literal)          |'o''clock'|
 
-## Kombinationen und Beispiele
+## <span style="color:#0b5394">Kombinationen und Beispiele</span>
 
-### Sortieren mit dem Formelbaustein
+### <span style="color:#3d85c6">Sortieren mit dem Formelbaustein</span>
 
-Sie können den Formelbaustein ebenfalls nutzen, um eine blockweise Sortierung zu erstellen.
-Nehmen wir als Beispiel die Arbeitszeiten Ihrer Mitarbeiter, welche Sie im Standard über Namen oder
-Datum sortieren könnten. Zur Prüfung dieser Zeiten, zum Beispiel im PDF Ausdruck, macht es vielleicht
-Sinn die Mitarbeiter blockweise nach Namen und Datum aufsteigend zu sortieren.
-Sie könnten also im Eintrag der Arbeitszeit die Formel `mitarbeiter.nachname+formatDate(datum,"yyyyMMdd")` einbauen.
-Diese Formel besagt: Bitte gebe mir den Nachnamen aus der, mit der Zeiterfassung, verknüpften Mitarbeiterliste und füge aus
-dem Datumsbaustein das Datum ein im Format Jahr, Monat, Tag. Das Ergebnis könnte lauten Müller20220131.
-Wenn Sie nun nach diesem Feld aufsteigend sortieren, sehen Sie die Arbeitszeiten im Block pro Mitarbeiter aufsteigend.
+Der Baustein *Formel* kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortierung) genutzt werden. 
 
-### Erstellen von Kettenformeln 1
+**Beispiel:**
+Die Arbeitszeiten der Mitarbeiter können im Standard über den Mitarbeiternamen **oder** das Datum sortiert
+werden. Zur Prüfung dieser Zeiten, zum Beispiel im PDF Ausdruck, macht es unter Umständen Sinn die Mitarbeiter
+mit einer Zweitsortierung, also nach Namen **und** Datum, aufsteigend zu sortieren.  
+Hier wird der Baustein "Formel" im Eintrag der Arbeitszeit hinzugefügt und mit der Formel
+`mitarbeiter.nachname+formatDate(datum,"yyyyMMdd")` versehen.  
+Das Formelergebnis ist nun eine Kombination aus dem Mitarbeiternamen und dem Datum der erfassten Arbeitszeit.
+Das Ergebnis könnte wie folgt aussehen: **Schäfer20220131**.  
 
-Sie können mehrere Formeln aneinanderreihen. Wichtig hierbei ist, dass zusammengehörige Rechenblöcke in Klammern stehen.
-Sie könnten also eingeben `(mitarbeiter.stundenlohn*1,25)+(mitarbeiter.bereitschaftspauschale)`. Wie Sie sicher schon erahnen
-handelt es sich bei dieser Berechnung um einen Sonderlohn, zum Beispiel einem Wochenendzuschlag. In dieser Formel steht
-übersetzt, bitte gehe in die verknüpfte Mitarbeiterliste und gebe mir den Stundenlohn, welcher mit 25% multipliziert werden
-soll. Weiterhin gebe mir aus dem Mitarbeiter bitte auch noch die Bereitschaftspauschale und addiere diese mit dem um 25%
-erhöhten Stundenlohn.
+![formula sortcode](..\assets\formulary\formula sortcode.png "formula sortcode")
 
-Sicherlich hätten durch die Datensatzverknüpfung auch einfach die Werte übernommen werden können. So hätten Sie sich
-jeweils das "mitarbeiter." in der Formel gespart. Der Vorteil hierbei ist, dass die aktuelle Liste zur Berechnung 
-angenehm kurz gehalten wird.
+Wenn Sie nun nach diesem Feld aufsteigend sortieren, sehen Sie die Arbeitszeiten blockweise sortiert, also in
+der Erstsortierung nach dem Mitarbeiternamen und in der Zweitsortierung nach dem Datum.  
 
-### Erstellen von Kettenformeln 2
+![formula sortcode](..\assets\formulary\formula sortcode2.png "formula sortcode")
 
-Ebenso ist es möglich, dass Sie mehrere if oder ifElse Formeln aneinanderreihen.
-Nehmen wir an Sie möchten ein kleines Lagersystem mit Univelop erstellen. Hierfür benötigen Sie neben den Artikeln auch die
-Zu- und Abgänge. Diese müssten Sie kombinieren, um den Lagerbestand zu errechnen. Sie könnten also eine Kachel
-mit Artikeln erstellen und eine mit Artikelbewegungen (Zu- und Abgänge).
+### <span style="color:#3d85c6">Erstellen von Kettenformeln 1</span>
 
-In den Artikelbewegungen könnten Sie mit zwei Nummern- und Checkbox-Bausteinen die Zu- und Abgänge dokumentieren.
-Da Sie in einer Datensatz-Liste im Artikel allerdings nur die Summe über einen Baustein ziehen können, müssen Sie die
-Bewegungen zusammenfassen. Nehmen wir an Sie nennen diesen Formel-Baustein durchgeführte Bewegungen.
+Der Baustein *Formel* kann auch in einer Kettenreihenfolge eingesetzt werden. Es können also mehrere Formeln
+aneinandergereiht werden. Wichtig hierbei ist, dass zusammengehörige Rechenblöcke in Klammern stehen.  
 
-In diesem Baustein könnten Sie eine Formel eintragen, die lauten könnte: 
+**Beispiel:**
+Es soll ein Sonderlohn errechnet werden, der aus einem Zuschlag zum Stundenlohn und einer festen Pauschale besteht.
+Die Formel kann also wie folgt aussehen:  
+`(mitarbeiter.stundenlohn*1,25)+(mitarbeiter.bereitschaftspauschale)`.  
+
+**Formelbeschreibung:** Die eingegebene Formel sucht bei dem im
+    [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
+ausgewählten Mitarbeiter nach dem dort erfassten Stundenlohn und multipliziert den gefundenen Wert mit 25%.
+Weiter sucht die Formel im ausgewählten Mitarbeiter die erfasste Bereitschaftspauschale. Nach Abschluss der
+Suche werden beide Werte miteinander addiert sodass sich daraus der gewünschte Sonderlohn ergibt.
+
+Grundsätzlich ließen sich über die
+    [Datensatzverknüpfung](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+die Werte einfach übernehmen. In solchen Fällen spart man sich das "mitarbeiter." in den entsprechenden Formeln.
+Der Vorteil dieser Variante ist hingegen, dass die aktuelle Liste zur Berechnung angenehm kurz gehalten wird.
+
+### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
+
+Eine weitere Kettenreihenfolge in dem Baustein *Formel* kann mit den Wenn-Dann-Sonst-Formeln erfolgen.  
+
+**Beispiel:**
+Nehmen wir an es soll ein kleines Lagersystem mit Univelop erstellt werden. Hierfür wird neben den Artikeln auch
+die Zu- und Abgänge benötigt. Diese müssen kombiniert werden, um den Lagerbestand zu errechnen. Zwecks Umsetzung
+kann also zum Einen eine Kachel "Artikel" und eine Kachel "Artikelbewegung" erstellt werden.
+
+In den Artikelbewegungen können mit zwei
+    [Nummern- und Checkbox-Bausteinen](https://univelop.github.io/docs/record-spec-settings.html "Die Bausteine und deren Einstellungen")
+die Zu- und Abgänge dokumentiert werden.
+Da in dem
+    [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
+im Artikel allerdings nur die Summe über **einen** Baustein gezogen werden kann, müssen die Bewegungen zusammengefasst
+werden. Der dafür benötigte Baustein *Formel* wird "durchgeführte Bewegungen" genannt.
+
+In diesem Baustein wird eine Formel eingetragen, die lauten könnte: 
 `ifElse(eingelagert == 'Ja', menge_eingang, 0) - ifElse(ausgelagert == 'Ja', menge_ausgang, 0)`
-Übersetzt steht hier: Wenn etwas eingelagert wurde, nehme die eingelagerte Menge, sonst null. Ziehe hiervon bitte eine Menge ab,
-wenn diese ausgelagert wurde. Sonst ziehe null ab. Wird also etwas eingelagert und nicht ausgelagert, wird ein positiver
-Wert ausgegeben. Wenn etwas nur ausgelagert wird oder die ausgelagerte Menge größer als die eingelagerte Menge ist, wird
-ein negativer Wert ausgegeben.
+Die Formel führt nun dazu, dass wenn etwas eingelagert wird, soll die entsprechende Menge berücksichtigt werden,
+ansonsten soll der Wert *0* eingtragen werden. Von der ersten Wenn-Dann-Sonst-Formel soll die ausgelagerte Menge
+abgezogen werden, die nach dem gleichen Schema ermittelt wird. Wird also etwas eingelagert, wird ein positiver Wert
+und bei einer Auslagerung ein negativer Wert. Es können auch beide Bewegungen gleichzeitig erfasst werden. Die
+errechnete Summe erfolgt nach demselben Prinzip.
 
-Den Lagerbestand könnten Sie nun berechnen lassen, indem Sie im Artikel einen Baustein Datensatz-Liste verwenden und die
-Summe über die Bewegungen errechnen. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.
+Soll nun die Lagerbestände der Artikel errechnet werden, können diese ebenfalls errechnet werden. Dazu wird in der
+Kachel Artikel der
+    [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
+verwendet und die Summe über die Bewegungen errechnen. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.  
+
+![ifElse combination](..\assets\formulary\ifElse combination.png "ifElse combination")
