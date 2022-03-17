@@ -29,22 +29,24 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 
 ### <span style="color:#3d85c6">Liste mit Standard-Datumsformeln</span>
 
-| Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021*)|
+| Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021 (Dienstag)*)|
 |------------               |------------                       |:-------------:
-| Today()                   | aktuelles Datum                   | *15.06.2021*
-| startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021*
-| endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021*
-| startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021*
-| endOfMonth()              | Ende des aktuellen Monats         | *30.06.2021*
-| startOfQuarter()          | Beginn des aktuellen Quartals     | *01.04.2021*
-| endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021*
-| startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021*
-| endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021*
+| today()                   | aktuelles Datum                   | *15.06.2021 (Dienstag)*
+| startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021 (Montag)*
+| endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021 (Sonntag)*
+| startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021 (Dienstag)*
+| endOfMonth()              | Ende des aktuellen Monats         | *30.06.2021 (Mittwoch)*
+| startOfQuarter()          | Beginn des aktuellen Quartals     | *01.04.2021 (Donnerstag)*
+| endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021 (Mittwoch)*
+| startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021 (Freitag)*
+| endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021 (Freitag)*
   
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
 erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt immer vom
 tagesaktuellen Datum automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch
-"mitwandert" und die Filterung entsprechend der gewählten Formel immer aktuell hält.
+"mitwandert" und die Filterung entsprechend der gewählten Formel immer aktuell hält.  
+Möchte man mit den o. g. Formeln doch mit einem eigenen Zeitpunkt arbeiten, muss dieser selbst errechnet werden
+(s. *Formelberechnung mit Datumsformel*).
 
 ### <span style="color:#3d85c6">Formelberechnung mit Datumsformel</span>
 *(nur möglich über einen Datumsbezug aus einer Datumsformel (s. o.))*  
@@ -56,12 +58,12 @@ today() + 5 = **20.06.2021**
 startOfMonth() + 10 = **11.06.2021**
 
 Sollen der Datumsformel nun ganze Monate addiert oder subtrahiert werden, können die Formelberechnungen ***addMonths()***
-und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel wird anhand der frei
+und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel werden anhand der frei
 gewählten Zahl die entsprechenden Monate hinzugefügt.  
 HINWEIS: Die Berechnung über diese Formeln über einen Monatswechsel führt zu einer falschen Berechnung aufgrund der
 unterschiedlichen Monatsendungen (s. Beschreibung unter den folgenden Beispielen).  
 
-Die zu addierende oder subtrahierende Zahl kann frei gewählt und wird mit einem Komma in der entsprechenden Formel eingesetzt.  
+Die zu addierende oder subtrahierende Zahl (muss eine ganze und positive Zahl sein) und wird mit einer Komma-Trennung in der entsprechenden Formel eingesetzt.  
 
 **Beispiel:**
 
@@ -92,7 +94,7 @@ startOfMonth() - 1 = <span style="color:darkgreen">**28.02.2022**</span>
 ### <span style="color:#3d85c6">Darstellungen von dynamischen Zeitspannen mit Formelberechnungen:</span>
 
 Durch die Möglichkeit der Formelberechnung mit einer Datumsformel lassen sich verschiedene Darstellungsmöglichkeiten
-errechnen, die in den Filteroptionen leicht verwendet werden können.
+errechnen, die in den Filteroptionen (z. B. einer Kachel) leicht verwendet werden können.
 
 | Formelkombination                                        | Beschreibung       | Ausgabewerte (Beispiel Berechnungszeitpunkt: *15.06.2021*)
 |------                                                    |------              |:------:
@@ -104,16 +106,18 @@ errechnen, die in den Filteroptionen leicht verwendet werden können.
 **Beispiel *"alle Datensätze aus dem Vormonat* (Berechnungszeitpunkt: *15.03.2022*):"**  
 ![example previous month](..\assets\formulary\example previous month.png "example previous month")  
 
-1. Datumsfeld für Filter wählen
-2. zutreffenden Operator auswählen
-3. über den jeweiligen Formelbutton die Datumsformel inkl. Formelberechnung eingeben  
+1. Designmodus *Arbeitsbereich* öffnen
+2. Kachel auswählen und in den Einstellungen *Filter & Sortierung* öffnen
+3. Datumsfeld für Filter wählen
+4. zutreffenden Operator auswählen
+5. über den jeweiligen Formelbutton die Datumsformel inkl. Formelberechnung eingeben  
 
 Im Ergebnis wird der gesetzte Filter beim Aufrufen des Bausteins automatisch anhand der Berechnung vorbelegt:
 ![example previous month2](..\assets\formulary\example previous month2.png "example previous month2") 
 
-## <span style="color:#0b5394">Bedingungen und rechnen mit Formeln im Formel-Baustein</span>
+## <span style="color:#0b5394">Bedingungen und Rechnen mit Formeln im Baustein *Formel*</span>
 
-### <span style="color:#3d85c6">Formel-Baustein und technischer Name</span>
+### <span style="color:#3d85c6">Baustein *Formel* und technischer Name</span>
 
 Über den Baustein *Formel* kann ganz einfach mit Bedingungen gerechnet werden oder sich Inhalte anzeigen lassen. 
 Hierzu nimmt man immer Bezug auf den technischen Namen eines Bausteins in der Liste oder den technischen
@@ -163,17 +167,33 @@ des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbin
 besteht die Notwendigkeit, dass der technische Name angepasst werden muss, wenn Univelop mit einem Fremdsystem
 automatisch kommunizieren soll
     ([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
-, da das andere System komplett unterschiedliche Feldnamen und Bezeichnungen vorgibt.
+, da das andere System unterschiedliche oder eigene Feldnamen und Bezeichnungen vorgibt.
 
 ### <span style="color:#3d85c6">Individuelle Berechnung mit Formelbaustein</span>
+<span style="color:#3d85c6">Berechnung mit Baustein *Text*</span>
+
+Der Baustein *Formel* kann ebenfalls mit dem Baustein *Text* Berechnung durchführen. Verweist man in der Formel
+über den technischen Namen auf einen Baustein *Text* und multipliziert diesen mit einer natürlichen Zahl, wird
+der Textwert des Bausteins entsprechend des angegebenen Multiplikators wiederholt. Eine Berechnung mit einer
+Dezimalzahl ist hier nicht möglich und führt zu einer Fehlermeldung. 
+
+**Beispiel:**
+![formula text brick](..\assets\formulary\formula with text brick.png "formula text brick")
+
+**Ergebnis:**
+![formula text brick](..\assets\formulary\formula with text brick2.png "formula text brick")
+
+<span style="color:#3d85c6">Berechnung mit Baustein *Nummer*</span>
 
 In dem Baustein *Formel* kann ebenfalls eine individuelle Berechnung erfolgen. Dabei müssen nicht zwingend zwei
 technische Namen / Felder (wie im o. g. Beispiel) angegeben, sondern es können ebenso technischer Name,
-Rechenzeichen und gewünschte Zahl gewählt werden.  
+Rechenzeichen und gewünschte Zahlen verwendet werden. Werden selbst gewählte Zahlen zur Berechnung verwendet,
+ist es wichtig auf die korrekte Schreibweise zu achten: soll mit einer Dezimalzahl gerechnet werden, muss
+anstelle eines Kommas ein Punkt verwendet werden (z. B. 0**.**5).  
 
 **Beispiel:**  
 Auf einen Stundenlohn soll ein Samstagszuschlag erhoben werden. Der Zuschlag beträgt 50%. Die einzugebende Formel
-würde dann lauten **stundenlohn*1,5**.  
+würde dann lauten **stundenlohn*1.5**.  
 
 Im Vergleich zu einem Nummernfeld hat dies den Vorteil, dass der prozentuale Zuschlag dynamisch bleibt und nur das
 Feld Stundenlohn angepasst werden muss.
@@ -214,12 +234,12 @@ Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste be
 | Funktionen                                | Beschreibung
 | ------                                    | ------
 | `textLength(value)`                       | Gibt die Textlänge eines Feldes inklusive Leerzeichen aus
-| `firstLetters(value, count)`              | Zählt die ersten Zeichen eines Datensatzes anhand der vorgebenen Länge (count = Zahl)
-| `lastLetters(value,count)`                | Zählt die letzten Zeichen eines Datensatzes anhand der vorgegeben Länge (count = Zahl)
+| `firstLetters(value,count)`               | Zählt die **ersten** Zeichen des Bausteinwertes anhand der vorgebenen Länge (count = Zahl)
+| `lastLetters(value,count)`                | Zählt die **letzten** Zeichen des Bausteinwertes anhand der vorgegeben Länge (count = Zahl)
 |                                           | **Beispiel:** firstLetters(seriennummer,4) gibt die ersten 4 Zahlen und Buchstaben der Seriennummer aus
 |                                           |
-| `firstWords(value,count)`                 | Zählt die ersten Wörter anhand der vorgegebenen Anzahl (count = Zahl)
-| `lastWords(value,count)`                  | Zählt die letzten Wörter anhand der vorgegebenen Anzahl (count = Zahl)
+| `firstWords(value,count)`                 | Zählt die **ersten** Wörter des Bausteinwertes anhand der vorgegebenen Anzahl (count = Zahl)
+| `lastWords(value,count)`                  | Zählt die **letzten** Wörter des Bausteinwertes anhand der vorgegebenen Anzahl (count = Zahl)
 |                                           | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
 |                                           |
 | `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](https://univelop.github.io/docs/record-spec-settings.html#datum "Die Bausteine und deren Einstellungen // Datum")) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
