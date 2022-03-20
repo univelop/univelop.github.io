@@ -4,9 +4,9 @@ title: Import und Export
 nav_order: 7
 ---
 
-# Import und Export
+# <span style="color:#0b5394">Import und Export</span>
 
-## Arbeitsbereiche
+## <span style="color:#0b5394">Arbeitsbereiche</span>
 
 Sie haben die Möglichkeit ganze Arbeitsbereiche zu exportieren und wieder zu importieren.
 Wenn Sie sich im Designmodus des Homescreens Ihres Arbeitsbereichs befinden, können Sie dort
@@ -18,7 +18,7 @@ oder ganz unten "+ Neuer Arbeitsbereich" anwählen. Wenn Sie diesen Weg gehen, h
 mit der Demo zu starten, einen eigenen Bereich zu erstellen, oder einen Arbeitsbereich zu importieren.
 Sie wählen den Import aus und navigieren zur heruntergeladenen ZIP-Datei, welche Sie nun einlesen können.
 
-## Kacheln
+## <span style="color:#0b5394">Kacheln</span>
 
 Wenn Sie nicht gleich einen ganzen Arbeitsbereich einlesen möchten, können Sie alternativ auch nur einzelne Kacheln
 exportieren und importieren. Dies ist besonders da sinnvoll, wo Sie mit mehreren Arbeitsbereichen innerhalb einer
@@ -41,7 +41,7 @@ Bitte beachten Sie hierbei folgende Dinge:
     einen Workspace haben, der zentral alle Kacheln Ihrer Organisation beinhaltet, 
     können Sie nicht aus einem anderen Arbeitsbereich heraus in diese Umgebung importieren.
 
-## Datensätze und Inhalte
+## <span style="color:#0b5394">Datensätze und Inhalte</span>
 
 Sie können auch Datensätze importieren und exportieren. Dies ist besonders dann sinnvoll,
 wenn Sie viele Datensätze und Stammdaten eingeben möchten. Sie sollten dies nur als fortgeschrittener Nutzer tun.
@@ -74,7 +74,7 @@ Es gibt hierbei zwei Szenarien:
     wählen in der APP "von Excel importieren" aus. Ein Pop-Up erscheint, welches Ihnen 
     mitteilt wie viele Datensätze zum Import / zur Aktualisierung gefunden wurden.
 
-### Wichtige Hinweise zum Excel Im- und Export
+### <span style="color:#0b5394">Wichtige Hinweise zum Excel Im- und Export</span>
 
 - Die ID eines Datensatzes (letzte Spalte) ist einzigartig. Über diese weiß
 das System, welcher Datensatz gemeint ist. Wenn Sie Daten ohne ID importieren,
