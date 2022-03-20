@@ -4,100 +4,126 @@ title: Tutorials
 nav_order: 10
 ---
 
-# Tutorials
+# <span style="color:#0b5394">**Tutorials**</span>
 
-Im Folgenden möchten wir Ihnen einfache, schnelle und individuelle Tutorials zur Anwendung
-der Univelop-App näher bringen. Wir gehen dabei auf einfache Listen ein, sowie auf erweiterte
-Funktionen und Möglichkeiten.
+Im Folgenden möchten wir einfache, schnelle und individuelle Tutorials zur Anwendung
+von Univelop näher bringen. Wir gehen dabei auf einfache Listen, sowie auf erweiterte
+Funktionen und Möglichkeiten ein. Ein Beispielergebnis finden Sie jeweils am Ende.
 
-## Erstellen einer To-Do-Liste
+## <span style="color:#0b5394">Erstellen einer To-Do-Liste</span>
 
-Zum Erstellen einer To-Do-Liste benötigen Sie im Prinzip nur eine Liste, welche Sie erstellen müssen.
-Sie erstellen also eine neue Liste und wenn Sie auf das kleine + klicken zum erstellen eines neuen 
-Datensatzes, sehen Sie die beiden Standard-Bausteine Textfeld Bezeichnung und Beschreibung.
+Zum Erstellen einer To-Do-Liste wird im Prinzip nur eine Liste benötigt. Dazu wird eine neue Kachel
+angelegt, die "To-Do-Liste" heißen könnte. Öffnet man die Kachel und klickt anschließend auf das kleine +
+zum Erstellen eines neuen Datensatzes, werden die zwei Standard-Bausteine *Textfeld* mit den
+den Namen "Bezeichnung" und "Beschreibung" angezeigt.
 Die Bezeichnung ist dabei immer im Titel enthalten und im Designmodus der Listenansicht
 dort in der 5-teiligen Titeldarstellung des Datensatzes (Listeneintrag).
 
-Sie könnten nun den Baustein namens Bezeichnung in Aufgabe umbenennen. Dies ist nun die Aufgabe in Ihrer
-To-Do-Liste. Fügen Sie ein Drop-Down hinzu und vergeben Sie hier beispielsweise die "Kategorien" "Arbeit" und
-"Privat", um die ToDo´s entsprechend zu kategorisieren. Dieses Drop-Dop Feld könnten Sie auch Priorität
-nennen und Hoch, Mittel, Gering als Optionen vergeben.
+Der Baustein *Textfeld* mit dem Namen "Bezeichnung" kann umbenannt werden in "Aufgabe". Dies ist nun die
+Aufgabe in der To-Do-Liste. Als nächstes kann der Baustein *Drop-Down* hinzugefügt werden. Als mögliche
+Optionen können beispielsweise "Arbeit" und "Privat" hinzugefügt werden, um die ToDo´s entsprechend zu
+kategorisieren. Der Baustein *Drop-Down* kann auch Priorität genannt werden mit den Optionen "Hoch",
+"Mittel", "Gering".
 
-Stand jetzt haben Sie also eine Aufgabe / ToDo, eine 3-zeilige Beschreibung der Aufgabe und
-zudem noch eine Kategorie oder Priorität. Fügen Sie ein Datum hinzu und nennen es Deadline oder
-Zu erledigen bis. Zu einer guten Checkliste gehört natürlich auch das Erfolgserlebnis einen
-Punkt abhaken zu können. Fügen Sie also noch einen Switch Baustein hinzu, welchen Sie Erledigt nennen
-und in der App als Checkbox darstellen.
+Als nächstes kann zwecks Nachverfolgung der ToDo's der Baustein *Datum* hinzugefügt werden mit dem Namen
+"Deadline" oder "Zu erledigen bis". Zu einer guten Checkliste gehört natürlich auch das Erfolgserlebnis
+einen Punkt abhaken zu können. Dazu kann der Baustein *Schalter* hinzugefügt werden mit dem Namen "Erledigt".
+Für eine eindeutigere Darstellung in der App, kann die Darstellung "Checkbox" ausgewählt werden.
 
-Ändern Sie nun den Titel aussagekräftig, indem Sie oben rechts den blauen Stift anwählen.
-Sie können hier einen eigenen Titel vergeben und zusätzlich noch drei Bausteine zur Titelvergabe
-des Eintrags wählen.
+Für einen aussagekräftigen Titel wird über den blauen Stift oben rechts die "Titel Bearbeitung" geöffnet. Es
+kann ein eigener Titel vergeben und/oder zusätzlich noch bis zu drei Bausteine zur Titelvergabe des Eintrags
+ausgewählt werden.
 
-Im nächsten und letzten Schritt öffnen Sie den Designmodus der Listenansicht und fügen die
-Bausteine in den 5 Feldern so zusammen wie Sie möchten. Es empfiehlt sich auch für die Bausteine
-passende Icons zu vergeben, sodass Sie diese in der Listendarstellung schnell erkennen.
+Im nächsten und letzten Schritt wird der Designmodus der Listenansicht geöffnet. Hier werden die Bausteine
+in den 5 Feldern so zusammengefügt die in den Listeneinträgen angezeigt werden sollen. Es empfiehlt sich auch
+für die Bausteine passende Icons zu vergeben, sodass diese in der Listendarstellung schnell erkannt werden
+können.
 
-Sie könnten auch einen weiteren Abschnitt mit weiteren Bausteinen Ihrer To-Do-Liste hinzufügen.
-Zum Beispiel nennen Sie diesen Abschnitt "Weitere Informationen" und hinterlegen dort noch ein
-Textfeld für weitere Informationen. Oder ein Komentar Baustein. Vielleicht möchten Sie hier
-auch notwendige Kontaktdaten hinterlegen, zum Beispiel Telefon und Mail von Ansprechpartnern
-für dieses To-Do.
+Es können noch weitere Abschnitte mit weiteren Bausteinen der To-Do-Liste hinzufügt werden.
+Als Beispiel ein Abschnitt mit dem Namen "Weitere Informationen" mit einem Baustein *Textfeld* mit dem Namen
+"weitere Informationen". Oder die Bausteine *Kommentare*, *E-Mail* oder *Telefon* für eine interne Diskussionen
+und Kontaktdaten.
 
-Ihre To-Do´s könnten Sie sich über Filterkacheln noch gesondert darstellen. Hierzu im Punkt Filterkacheln
+Über Filterkacheln können die Einträge der To-Do-Liste gesondert dargestellt werden. Hierzu im Punkt Filterkacheln
 mehr.
 
-## Erstellen einer Mitarbeiterliste
+**Beispielergebnis:**
+![example to-do-list](..\assets\tutorials\example to-do-list.png "example to-do-list")
 
-Eine Mitarbeiterliste ist eine einfache Ansammlung von Stammdaten. Zunächst sollten Sie festlegen welche Daten
-Sie hinzufügen möchten. Im Normalfall werden sämtliche Adress- und Kontaktdaten hinterlegt.
+## <span style="color:#0b5394">Erstellen einer Mitarbeiterliste</span>
 
-Zum Erstellen einer Mitarbeiterliste benötigen Sie im Prinzip nur eine Liste, welche Sie erstellen müssen.
-Sie erstellen also eine neue Liste und wenn Sie auf das kleine + klicken zum erstellen eines neuen 
-Datensatzes, sehen Sie die beiden Standard-Bausteine Textfeld Bezeichnung und Beschreibung.
+Eine Mitarbeiterliste ist eine einfache Ansammlung von Stammdaten.
+
+Zum Erstellen einer Mitarbeiterliste wird im Prinzip nur eine Liste benötigt. Dazu wird eine neue Kachel
+angelegt, die "Mitarbeiter" heißen könnte. Öffnet man die Kachel und klickt anschließend auf das kleine +
+klicken zum Erstellen eines neuen Datensatzes, werden die zwei Standard-Bausteine *Textfeld* mit den
+den Namen "Bezeichnung" und "Beschreibung" angezeigt.
 Die Bezeichnung ist dabei immer im Titel enthalten und im Designmodus der Listenansicht
 dort in der 5-teiligen Titeldarstellung des Datensatzes (Listeneintrag).
 
-Sie könnten nun den Baustein namens Bezeichnung Name oder Vorname umbennen. Fügen Sie weitere Textfelder
-hinzu, um die Adressdaten Straße und Wohnort zu füllen. Für die Hausnummer und PLZ könnten Sie ein
-Nummern Baustein verwenden. Fügen Sie nun noch den Telefon und E-Mail Baustein hinzu, um Firmenkontaktdaten
-zu hinterlegen.
+Der Baustein *Textfeld* mit dem Namen "Bezeichnung" kann z. B. in Name oder Vorname umbenannt werden. Weitere
+Bausteine können wie folgt hinzugefügt werden:
 
-Sie können hier auch noch eine Personalnumer vergeben. Entweder über ein Nummernbaustein oder
-über den Baustein Laufende Nummer. Weiterhin könnten Sie den Unternehmenseintritt noch dokumentieren
-mit einem Datum Baustein.
+| Baustein                                  | Verwendung
+|:------:                                   |:------:
+| Baustein *Textfeld*                       | Straße & Hausnummer
+| Baustein *Textfeld*                       | PLZ & Wohnort
+| Baustein *E-Mail*                         | geschäftliche E-Mail-Adresse
+| Baustein *Telefon*                        | geschäftliche Telefonnummer
+| Baustein *Nummer* oder *laufende Nummer*  | Personalnummer
+| Baustein *Datum*                          | Unternehmenseintritt
 
-Im Anschluss fügen Sie den Titel so zusammen, wie er pro Mitarbeiter / -in zusammengesetzt werden soll.
-In der Regel wird dies über Vor- und Nachname dargestellt. Nun könnten Sie auch noch im Designmodus der
-Listenansicht diese ändern und anpassen wie die Mitarbeiterdaten dargestellt werden sollen.
+Im Anschluss kann der Titel für die Datensätze bearbeitet werden, wie er pro Mitarbeiter / -in zusammengesetzt
+werden soll. In der Regel wird dies über Vor- und Nachname dargestellt. Im Designmodus der Listenansicht kann diese
+geändert und angepasst werden wie die Mitarbeiterdaten entsprechend dargestellt werden sollen.
 
 Weitere Funktionen finden Sie in den nachfolgenden Abschnitten.
 
-## Verknüpfen von Listen
+**Beispielergebnis:**
+![example eomployee list](..\assets\tutorials\example employee list.png "example employee list")
 
-Beim Beispiel der Mitarbeiterliste bleibend könnten Sie noch eine einfache Zeiterfassung erstellen.
-Hier fügen Sie einen Datensatz Baustein ein, welchen Sie Mitarbeiter nennen. Je nach Größe des Unternehmens
-könnten Sie auch noch ein Team Baustein wählen. Fügen Sie ebenfalls ein Datum Baustein hinzu, sowie einen
-Zeitspannen-Baustein oder ein Nummern-Baustein, welchen Sie Arbeitszeit nennen. Sie könnten nun auch noch
-eine Beschreibung der Tätigkeit hinzufügen, wenn Sie möchten.
+## <span style="color:#0b5394">Verknüpfen von Listen anhand des Tutorials "Mitarbeiterliste"</span>
 
-Sie haben nun also eine Mitarbeiterliste mit Ihren Mitarbeitern und eine Zeiterfassungliste,
-in welcher die Mitarbeiter Ihre Arbeitszeiten erfassen können. Nun möchten Sie die Zeiten pro Mitarbeiter
-in Ihrer Mitarbeiterliste sehen.
+Das Verknüpfen von Listen bedeutet, dass zwei Kacheln untereinander genutzt werden.
+Als Beispiel kann eine Kachel mit dem Namen "Zeiterfassung" angelegt werden. Öffnet man die Kachel und
+klickt anschließend auf das kleine + zum Erstellen eines neuen Datensatzes. Wieder werden die zwei
+Standard-Bausteine *Textfeld* mit den den Namen "Bezeichnung" und "Beschreibung" angezeigt.
+Folgende Bausteine können/sollten hinzugefügt werden:
 
-Fügen Sie hierzu den Baustein `Datensatz Liste` Ihren Mitarbeitern hinzu. Diesen könnten Sie Arbeitszeiten nennen.
-Wählen Sie Verknüpfung mit "Zeiterfassung" und Verknüpfung über "Mitarbeiter". Das bedeutet Sie verknüpfen den Baustein
-mit der Zeiterfassungsliste über den aktuellen Datensatz (Mitarbeiter). Also die Zeiten pro Mitarbeiter.
-Die Darstellung als Link zur Liste könnten Sie so stehen lassen, da sicher einige Datensätze hier einfließen werden.
-Wählen Sie nun Summe statt Anzahl anzeigen aus und wählen Summe über Arbeitszeit (Zeitspannen-Baustein). Das Summen
-Suffix könnten Sie Std. nennen. Sie sehen nun alle Arbeitszeiten pro Mitarbeiter in Ihrer Mitarbeiterliste.
+| Baustein                                  | Verwendung
+|:------:                                   |:------:
+| Baustein *Datensatz*                      | Auswahl des Mitarbeiters (Verknüpfung zu Kachel "Mitarbeiter" hinterlegen
+| Baustein *Datum*                          | Auswahl Arbeitstag
+| Baustein *Zeitspanne*                     | Angabe Uhrzeit von / Uhrzeit bis (optional mit Pause)
+| Baustein *Textfeld*                       | Angabe von Beschreibung, Bemerkungen, o. ä.
 
-Sie könnten jetzt noch die Mitarbeiterzeiten fest oder dynamisch filtern. Ein fester Filter wäre z.B.
-Datum >= Anfang des Monats und <= Ende des Monats (Mit festen Datumsangaben). Sie haben bei Datumsbausteinen
-die Möglichkeit eine Formel zu hinterlegen, um immer die dynamischen Daten pro Monat zu sehen. Hierzu klicken
-Sie auf das Formelsymbol hinter dem Textfeld (Im Filter) und setzen den Filter auf
-">=" "startOfMonth()" und "<=" "endOfMonth()".
+In der Kachel "Zeiterfassung* können nun die Mitarbeiter ihre Arbeitszeiten erfassen. Darüber hinaus kann die erfasste
+Arbeitszeit in der Kachel "Mitarbeiter" im jeweiligen Mitarbeiter aufgelistet werden.
 
-## Verstecken / Pop-Up von Bausteinen
+In der Kachel "Mitarbeiter" wird der Baustein *Datensatz Liste* mit den Namen "Arbeitszeiten" hinzugefügt.
+In den Einstellung des Bausteins *Datensatz Liste* wird der Baustein unter "Verknüpfung mit" mit der Kachel
+"Zeiterfassung" verbunden. Zusätzlich soll die "Verknüpfung über" den Baustein "Mitarbeiter" zwecks eindeutiger Zuordnung
+heranziehen. Das bedeutet es wird der Baustein mit der Zeiterfassung über den aktuell aufgerufenen Datensatz (Mitarbeiter)
+verknüpft, also die Zeiten pro Mitarbeiter.
+In den Einstellung des Bausteins *Datensatz Liste* sollte nun "Summe statt Anzahl anzeigen" ausegwählt und zusätzlich
+"Summe über Arbeitszeit" ausgewählt werden. Das Summen Suffix könnte Std. benannt werden. Anhand dieser Einstellungen werden
+nun alle Arbeitszeiten pro Mitarbeiter in der Mitarbeiterliste angezeigt.
+
+Zusätzlich können die Arbeitszeiten der Mitarbeiter fest oder dynamisch gefiltert werden.Ein fester Filter wäre z.B.
+Datum >= Anfang des Monats und <= Ende des Monats (mit festen Datumsangaben). Zur Verwendung von dynamischen Filtermöglichkeiten
+können auch Datumsformeln hinterlegt werden (s.
+[Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](https://univelop.github.io/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen "Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen")
+).
+
+**Beispielergebnis:**  
+![example time tracking](..\assets\tutorials\example time tracking.png "example time tracking")
+
+**Beispielergebnis Kachel *Zeiterfassung:***
+![example time tracking](..\assets\tutorials\example time tracking2.png "example time tracking")
+
+**Beispielergebnis Kachel *Mitarbeiter* mit Baustein *Datensatz Liste*:**
+![example time tracking](..\assets\tutorials\example time tracking3.png "example time tracking")
+## <span style="color:#0b5394">Verstecken / Pop-Up von Bausteinen</span>
 
 Beim Beispiel der Mitarbeiterliste bleibend, könnten Sie neben dem Eintrittsdatum noch ein
 Austrittsdatum wählen wollen. Dieser Baustein soll aber nicht sichtbar sein, solange der
