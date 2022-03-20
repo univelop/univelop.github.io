@@ -4,41 +4,41 @@ title: Die Programmstruktur
 nav_order: 3
 ---
 
-# Die Programmstruktur
+# <span style="color:#0b5394">Die Programmstruktur</span>
 
 Im Folgenden erläutern wir Ihnen unsere Programmstruktur im Einzelnen.
 Im Anschluss daran finden Sie ein zusammenhängendes Beispiel zur Erläuterung.
 
-## Arbeitsbereiche
+## <span style="color:#0b5394">Arbeitsbereiche</span>
 
 Als Arbeitsbereich können Sie den workspace oder Mandanten verstehen, in welchem Sie sich befinden. Er ist somit die oberste
 Programmebene. Über den Arbeitsbereich können Sie globale Einstellungen vornehmen, z.B. Mitglieder hinzufügen, Kacheln importieren oder
 erstellen.
 
-## Kacheln
+## <span style="color:#0b5394">Kacheln</span>
 
 Ein Arbeitsbereich enthält eine oder mehrere Kacheln. Die Kachel steht mit ihrem Titel und der Darstellung (Icon, Summe Inhalte oder Summe über Baustein) für den Inhalt darin. Es gibt getrennt voneinander allgemeine Kacheln, die von allen Nutzern des
 Arbeitsbereichs gesehen werden, und eigene Kacheln, welche immer aus den allgemeinen Kacheln gefilterte Inhalte darstellen.
 
-## Listen
+## <span style="color:#0b5394">Listen</span>
 
 Die Kachel ist die symbolische Darstellung einer Liste, also der Inhalt dieser Kachel. Wenn Sie auf die Kachel klicken, sehen Sie
 zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht). Wenn Sie auf einen dieser Einträge
 in der Liste klicken, sehen Sie die Details und befinden sich in den Einträgen.
 
-## Einträge
+## <span style="color:#0b5394">Einträge</span>
 
 Eine Liste besteht im Detail aus diversen Listeneinträgen. Diese sind also der Inhalt dieser Liste. 
 Je nach Benennung der einzelnen Bausteine innerhalb dieser Liste und deren Inhalte können diese Listeneinträge 
 individuell jeden denkbaren Datensatz digitalisieren.
 
-## Bausteine
+## <span style="color:#0b5394">Bausteine</span>
 
 Ein Listeneintrag besteht aus verschiedenen Bausteinen, die in Abschnitten in sinnvoller Weise aneinander gereiht werden. Durch 
 Betiteln der Bausteine erreichen Sie die Darstellung des gewünschten Inhalts. Im Abschnitt Bausteine finden Sie detaillierte
 Beschreibungen zu den Einstellungsmöglichkeiten.
 
-## Zusammenfassung der Programmstruktur
+## <span style="color:#0b5394">Zusammenfassung der Programmstruktur</span>
 
 Wir möchten Ihnen die abstrakte Beschreibung der Programmstruktur an einem einfachen Beispiel erläutern.
 Nehmen wir an Sie arbeiten in der Mustermann AG und benennen Ihren Arbeitsbereich, den Sie erstellen ebenso.
