@@ -4,7 +4,7 @@ title: Die Bausteine und deren Einstellungen
 nav_order: 5
 ---
 
-# Die Bausteine und deren Einstellungen
+# <span style="color:#0b5394">Die Bausteine und deren Einstellungen</span>
 
 Wie bereits im Kapitel der Designmodi und deren Einstellungen beschrieben, haben die Bausteine individuelle und 
 globale Einstellmöglichkeiten, welche überall gleich sind. Im Folgenden gehen wir näher auf die spezifischen
@@ -14,13 +14,13 @@ Die Bausteine sind in folgende Gruppen klassifiziert: Basis, Formular und Erweit
 
 ---
 
-## Basis Bausteine
+## <span style="color:#0b5394">Basis Bausteine</span>
 
 Mit den Basis Bausteinen können Sie Ihre Listeneinträge sortieren, Hinweise erfassen und verlinken.
 
 ![basic](..\assets\record-spec-settings\basic.png "basic")
 
-### Abschnitt
+### <span style="color:#3d85c6">Abschnitt</span>
 
 Mit dem `Abschnitt` Baustein können Sie Ihre Listeneinträge thematisch trennen.
 Als Beispiel erstellen Sie eine Kundenliste. Sie haben bereits Namen und Adressdaten unter dem Titel platziert und
@@ -38,7 +38,7 @@ werden dann direkt unter dem Abschnitt-Titel angezeigt.
 Wenn Sie erweiterte Einstellungen für einen Abschnitt vornehmen, gelten diese für alle Bausteine innerhalb 
 dieses Abschnitts. Dies betrifft Nur Lesen, Baustein verstecken (Sowie die Ausnahmen) und das Verstecken in der Schnellerfassung.
 
-### Hinweis
+### <span style="color:#3d85c6">Hinweis</span>
 
 Mit dem `Hinweis` Baustein erfassen Sie Hinweistexte. Der Hinweistext wird über die Bezeichnung geschrieben. Sie haben hier die
 Möglichkeit auch längere Hinweistexte zu erfassen und diese abschnittsweise durch Entern zu trennen.
@@ -50,7 +50,7 @@ technischer Name erscheinen kann. Hinweistexte sind immer nur lesbar, der Nur Le
 
 Das Verstecken und bedingte Anzeigen von Hinweistexten ist möglich und dort sinnvoll, wo es nur bedingte Hinweistexte gibt.
 
-### Web Link
+### <span style="color:#3d85c6">Web Link</span>
 
 Durch den `Web Link` Baustein können Sie in Ihre Listeneinträge zentrale URL´s, bzw. Links hinterlegen. 
 
@@ -65,7 +65,7 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ---
 
-## Formular Bausteine
+## <span style="color:#0b5394">Formular Bausteine/span
 
 Mit den Formular Bausteinen können Sie einfache Formulare erstellen und Inhalte füllen, die als
 Informationen bereit gestellt werden. Mit den Formular Bausteinen können Sie zudem eine einfache
@@ -74,7 +74,7 @@ Bedingungen festlegen.
 
 ![form](..\assets\record-spec-settings\form.png "form")
 
-### Textfeld
+### <span style="color:#3d85c6">Textfeld</span>
 
 Mit dem `Textfeld` Baustein können Sie beliebige alphanummerische Inhalte erfassen. 
 
@@ -96,7 +96,7 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 Der Textfeld Baustein ist hoch individuell und kann in nahezu jeder Liste Verwendung finden, in welcher
 beliebige Inhalte erfasst werden sollen.
 
-### Nummer
+### <span style="color:#3d85c6">Nummer</span>
 
 Während Sie mit dem Textfeld Baustein jeglichen Inhalt erfassen können, ist der `Nummer` Baustein dem Namen entsprechend
 nur mit Zahlenwerten füllbar - bedeutet keine Buchstaben und keine Sonderzeichen.
@@ -110,7 +110,7 @@ rechnen. *Bitte beachten Sie*, dass Falscheingaben nach Verlassen des Dialogfens
 Auch beim Nummernfeld können Sie, so wie beim Textfeld, ein Tooltip hinterlegen.
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Schalter
+### <span style="color:#3d85c6">Schalter</span>
 
 Mit dem `Schalter` Baustein können Sie eine einfache Ja / Nein, Erfüllt / Nicht erfüllt Abfrage in der App darstellen.
 
@@ -126,7 +126,7 @@ Der Schalter eignet sich außerdem, um eine einfache Checkliste zu erstellen.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Drop-Down
+### <span style="color:#3d85c6">Drop-Down</span>
 
 Durch den `Drop-Down` Baustein haben Sie eine erweiterte Einstellung, als mit dem Schalter. Sie können hier
 individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten vergeben. Zudem haben Sie hier die Möglichkeit
@@ -150,7 +150,7 @@ Die Auswahl des Inhalts des Drop-Down Feldes erfolgt immer über ein Pop-Up Fens
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Datum
+### <span style="color:#3d85c6">Datum</span>
 
 Mit dem `Datum` Baustein können Sie ein Einzeldatum pro Datensatz einstellen. Dieses ist auch inklusive Uhrzeit möglich.
 
@@ -165,7 +165,7 @@ Ihrer Liste nach Datum Auf- oder Absteigend einstellen.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Zeitspanne
+### <span style="color:#3d85c6">Zeitspanne</span>
 
 Durch den `Zeitspanne` Baustein haben Sie die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.
 Anders als Datum + Uhrzeit rechnet der Zeitspanne Baustein (Von - Bis) auch die Stunden und Minuten der Zeitspanne aus.
@@ -180,7 +180,7 @@ lassen. Somit könnten Sie z.B. mit Arbeitszeiten rechnen.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Benutzer
+### <span style="color:#3d85c6">Benutzer</span>
 
 Der `Benutzer` Baustein bietet Ihnen die Möglichkeit den Datensatz einem Benutzer oder Team zuzuordnen. Dies eröffnet Ihnen
 die Möglichkeit Verantwortlichkeiten zu hinterlegen. Bitte beachten Sie, dass ein Benutzer Mitglied Ihres Arbeitsbereichs
@@ -197,7 +197,7 @@ Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Team
+### <span style="color:#3d85c6">Team</span>
 
 Den `Team` Baustein könnten Sie als light Variante des Besitzer-Bausteins verstehen.
 Durch die globalen Team Einstellungen (Teams benennen und hinzufügen - Rollen und Rechte je Team) können Sie
@@ -209,7 +209,7 @@ Diese Einstellung muss für die vorgenannten Möglichkeiten aktiviert werden.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Bild Upload
+### <span style="color:#3d85c6">Bild Upload</span>
 
 Mit dem `Bild Upload` Baustein können Sie beliebige Bilder hochladen. Dies funktioniert als Einzelbild oder Sie
 können mehrere Bilder als uploads zulassen. Sie haben zudem die Möglichkeit Zoom zu verbieten und die Qualität als
@@ -223,7 +223,7 @@ möglich, es erscheint ein Pop-Up mit der Abfrage, ob das Bild tatsächlich gel�
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Datei Upload
+### <span style="color:#3d85c6">Datei Upload</span>
 
 Der `Datei Upload` Baustein ermöglicht es Ihnen Dateien aller Art hochzuladen. Es sind beliebig viele Mehrfachuploads möglich,
 jedoch empfehlen wir aufgrund der Übersichtlichkeit bei einer hohen Anzahl an Dateien diese thematisch in mehreren Bausteinen
@@ -232,14 +232,14 @@ mit der Mülltonne, es erscheint ein Pop-Up mit der Abfrage, ob die Datei tatsä
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### E-Mail
+### <span style="color:#3d85c6">E-Mail</span>
 
 Durch den `E-Mail` Baustein können Sie Mailadressen im System hinterlegen. Im Bearbeitungsmodus können Sie durch Klicken
 auf das Mailsymbol eine Mail an die hinterlegte Adresse senden, es öffnet sich Ihr Standard-Mailprogramm.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Telefon
+### <span style="color:#3d85c6">Telefon</span>
 
 Mit dem `Telefon` Baustein können Sie eine beliebige Telefonnummer hinterlegen. Analog zu dem E-Mail Baustein öffnet sich
 auch hier durch das Klicken auf das Hörer Symbol Ihr Telefondienst und Sie können die Nummer direkt anrufen.
@@ -248,14 +248,14 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ---
 
-## Erweiterte Bausteine
+## <span style="color:#0b5394">Erweiterte Bausteine</span>
 
 Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Sie
 Listen und Bausteine verknüpfen, sowie Dateien und Stati hinterlegen.
 
 ![expanded](..\assets\record-spec-settings\expanded.png "expanded")
 
-### Datei
+### <span style="color:#3d85c6">Datei</span>
 
 Den `Datei` Baustein können Sie überall dort verwenden, wo Sie feste Dateien für eine Liste hinterlegen möchten.
 Er findet zum Beispiel dort Anwendung, wo Sie allgemeingültige Dokumente, wie zum Beispiel Checklisten,
@@ -266,7 +266,7 @@ Die Dateien werden bei diesem Baustein jedoch zentral im Designmodus hinterlegt.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Datensatz
+### <span style="color:#3d85c6">Datensatz</span>
 
 Mit dem `Datensatz` Baustein stellen Sie eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste in Ihrem
 Arbeitsbereich her. So können Sie Ihrem einzelnen Datensatz einen anderen Datensatz zuordnen.
@@ -290,7 +290,7 @@ dass der einzelne verknüpfte Datensatz gelöscht oder dupliziert wird, wenn der
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Datensatz Liste
+### <span style="color:#3d85c6">Datensatz Liste</span>
 
 Der Baustein `Datensatz Liste` sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
@@ -340,11 +340,11 @@ Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 Im Kapitel zum Verknüpfen von Listen finden Sie eine ausführliche Erklärung, sowie Beispiele
 zum Verknüpfen von Listen.
 
-### Freigabe
+### <span style="color:#3d85c6">Freigabe</span>
 
 Test
 
-### Status
+### <span style="color:#3d85c6">Status</span>
 
 Mit dem `Status` Baustein können Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
 Unternehmen darstellen. Neben den einfachen Stati aktiv / inaktiv, könnten Sie den gesamten Vertriebsprozess
@@ -362,7 +362,7 @@ Eine Statusänderung können Sie durch Klicken auf den Status vornehmen, oder du
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Status Button
+### <span style="color:#3d85c6">Status Button</span>
 
 Den `Status Button` Baustein können Sie nur mit einem Status Baustein verknüpfen. Über Verknüpfen mit wählen
 Sie den gewünschten Status Baustein Ihrer Liste aus, den Sie ansteuern möchten. Mit der Wahl Status wählen Sie
@@ -374,7 +374,7 @@ angesteuert werden kann.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Laufende Nummer
+### <span style="color:#3d85c6">Laufende Nummer</span>
 
 Den `Laufende Nummer` Baustein verwenden Sie überall dort wo Sie Ihren Datensätzen einer Liste
 eine fortlaufende Nummer geben möchten. Üblicherweise eignen sich hierfür Kunden, Bauvorhaben, Lieferscheine,
@@ -392,7 +392,7 @@ Im Bearbeitungsmodus können Sie entweder "Nächste Nummer" wählen, oder diese 
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Formel
+### <span style="color:#3d85c6">Formel</span>
 
 Mit dem `Formel` Baustein können Sie rechnen, dynamisch auf verknüpfte Datensätze zugreifen
 oder unter Bedingungen bestimmte Werte ausgeben. Die Formel geben Sie nur im
@@ -428,7 +428,7 @@ Weitere Formeln und Möglichkeiten mit dem Formel Baustein finden Sie in unserer
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Unterschrift
+### <span style="color:#3d85c6">Unterschrift</span>
 
 Mit dem `Unterschrift` Baustein können Sie je Datensatz / je Baustein eine Unterschrift erfassen.
 Sie haben zudem die Möglichkeit eine Klausel für die Unterschrift zu erfassen, sodass die 
@@ -446,7 +446,7 @@ Sie klicken auf das Unterschriftsfeld und löschen die Unterschrift.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### Kommentare
+### <span style="color:#3d85c6">Kommentare</span>
 
 Hier können beliebig viele `Kommentare` erfasst werden. Der Baustein hat im Gegensatz zum
 mehrzeiligen Textfeld den Vorteil, dass Kommentarerfasser, sowie Datum und Uhrzeit automatisch
@@ -454,7 +454,7 @@ angelegt werden.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
-### PDF erstellen
+### <span style="color:#3d85c6">PDF erstellen</span>
 
 Mit dem `PDF erstellen` Baustein können Sie, ausgehend von einer Word Vorlage, eine PDF Datei erstellen
 und versenden. Die Word Datei können Sie dabei individuell gestalten und sich auf die Liste beziehen
