@@ -4,9 +4,9 @@ title: Verknüpfen von Listen
 nav_order: 8
 ---
 
-# Verknüpfen von Listen
+# <span style="color:#0b5394">Verknüpfen von Listen</span>
 
-## Verknüpfung über den Datensatz Baustein
+## <span style="color:#0b5394">Verknüpfung über den Datensatz Baustein</span>
 
 Wie der Name schon sagt, können Sie über den `Datensatz` Baustein auf einen Datensatz zugreifen.
 Genauer gesagt auf einen Datensatz einer anderen Liste.
@@ -38,7 +38,7 @@ Es gibt den Switch zur Aktivierung der Funktion "Diesen Datensatz löschen / dup
 Datensatz gelöscht / dupliziert wird". Dieser aktiviert genau diese Funktion. Wenn es sich um zusammenhängende
 Bewegungsdaten handelt, könnten Sie diesen Switch zum Beispiel aktivieren, um Datenmüll zu vermeiden.
 
-### Zusammenfassung
+### <span style="color:#3d85c6">Zusammenfassung</span>
 
 Über den Baustein Datensatz schaffen Sie eine einfache Verknüpfung mit **einem** Datensatz einer
 anderen Liste und haben die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
@@ -46,7 +46,7 @@ zu löschen oder zu duplizieren, wenn Sie dies mit dem Hauptdatensatz machen.
 
 ---
 
-## Verknüpfung über den Datensatz-Liste Baustein
+## <span style="color:#0b5394">Verknüpfung über den Datensatz-Liste Baustein</span>
 
 Der `Datensatz-Liste` Baustein bietet Ihnen die Möglichkeit mehrere Datensätze einer
 anderen Liste anzeigen zu lassen und über die Verknüpfung weitere zusammengehörige
@@ -70,14 +70,14 @@ die Daten darüber verknüpfen. Wählen Sie in Filter und Sortierung den Zieldat
 Liste aus und wählen =B als Filterkriterium aus. =B bedeutet = Baustein. Also der Datensatz Baustein
 soll dem Baustein Datensatz aus meiner Liste entsprechen.
 
-### Beispiel für Verknüpfung über
+### <span style="color:#3d85c6">Beispiel für Verknüpfung über</span>
 
 Sie haben eine Liste namens Aufmaß und eine Hilfsliste namens Aufmaßpositionen erstellt.
 In der Aufmaßliste möchten Sie nun die dazugehörigen Aufmaßpositionen erfassen. In den
 Aufmaßpositionen haben Sie einen Datensatz Baustein eingebaut, welcher mit den Aufmaßen
 verknüpft ist. Jetzt können Sie in den Aufmaßen die Verknüpfung über Aufmaß wählen.
 
-### Beispiel für Verknüpfung mit dem Filter =B
+### <span style="color:#3d85c6">Beispiel für Verknüpfung mit dem Filter =B</span>
 
 Sie haben drei Liste. Liste Kunde, Liste Ansprechpartner Kunde und die Liste Bauvorhaben.
 Sowohl die Bauvorhaben, als auch die Ansprechpartner sind mit den Kunden verknüpft.
@@ -90,7 +90,7 @@ Nun wählen Sie Verknüpfen mit Ansprechpartner. Als nächstes wählen Sie die F
 die zum Beispiel so aussieht: Kunde =B Auftraggeber. Also in der Ansprechpartner Liste gibt
 es den Datensatz Kunde. In der Bauvorhaben Liste gibt es den Baustein Auftraggeber.
 
-### Art der Darstellung: Link zur Liste
+### <span style="color:#3d85c6">Art der Darstellung: Link zur Liste</span>
 
 Sie können sich die verknüpften Datensätze als einfachen Link ohne Vorschau anzeigen lassen.
 Im Standard sehen Sie hier im Baustein den Namen Ihrer Verknüpfung, sowie die Anzahl der
@@ -101,7 +101,7 @@ tun, können Sie sich eine "Summe über" anzeigen lassen. Zur Auswahl stehen hie
 Zeitspannen Bausteine, sowie Formeln und Datensatz-Verknüpfungen. 
 Sie können zudem noch ein Suffix für die angezeigte Summe wählen.
 
-### Art der Darstellung: Eingebettete Liste
+### <span style="color:#3d85c6">Art der Darstellung: Eingebettete Liste</span>
 
 Mit der eingebetteten Liste haben Sie die Möglichkeit sich eine Vorschau anzeigen zu lassen.
 Im Standard ist die "Anzahl der Datensätze in Vorschau" auf 3 eingestellt. Diese Anzahl können Sie
@@ -110,7 +110,7 @@ der verknüpften Liste.
 
 ---
 
-## Schnellerfassung für den Datensatz-Liste Baustein
+## <span style="color:#0b5394">Schnellerfassung für den Datensatz-Liste Baustein</span>
 
 Mit der `Eingebetteten Liste` haben Sie zusätzlich die Funktion einer Schnellerfassung, welche Sie aktivieren
 können. Dies ist eine charmante Art und Weise Einträge für die verknüpfte Liste in Ihrer Liste zu erstellen.
