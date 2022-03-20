@@ -4,8 +4,8 @@ title: Schnittstellen
 nav_order: 9
 ---
 
-# Schnittstellen
+# <span style="color:#0b5394">Schnittstellen</span>
 
-## REST API
+## <span style="color:#0b5394">REST API</span>
 
-## Integration von Schnittstellen
+## <span style="color:#0b5394">Integration von Schnittstellen</span>
