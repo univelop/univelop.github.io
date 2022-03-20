@@ -4,9 +4,9 @@ title: Zusätzliche globale Einstellungen und Funktionen
 nav_order: 6
 ---
 
-# Zusätzliche globale Einstellungen und Funktionen
+# <span style="color:#0b5394">Zusätzliche globale Einstellungen und Funktionen</span>
 
-## Mitglieder
+## <span style="color:#0b5394">Mitglieder</span>
 
 Ein Mitglied ist eine Person, die mit Ihnen zusammen auf den Arbeitsbereich Zugriff hat.
 Mitglied wird jemand, der einen Einladungslink zum Arbeitsbereich erhalten hat.
@@ -28,7 +28,7 @@ Die Person, die den Arbeitsbereich erstellt hat, wird als Besitzer deklariert un
 hat in dieser Rolle gleichzeitig uneingeschränkten Zugriff auf alle Daten des
 Arbeitsbereichs. Das Team muss je Mitglied hinterlegt werden.
 
-## Rollen
+## <span style="color:#0b5394">Rollen</span>
 
 In den `Rollen` Einstellungen können Sie verschiedene und individuelle Rollen Ihres Unternehmens,
 bzw. Ihres Vorhabens zur Nutzung der App hinterlegen. Im Designmodus Ihres Arbeitsbereichs können Sie 
@@ -40,7 +40,7 @@ Punkte oben rechts zu löschen oder zu duplizieren (wenn es ähnliche Rollen gib
 
 Auf das Rechtemanagement gehen wir im späteren Abschnitt näher ein.
 
-## Teams
+## <span style="color:#0b5394">Teams</span>
 
 Sie können hier über den gleichen Weg, wie bei den Rollen, verschiedene Teams zu benennen und hinzufügen.
 Diese Teams können Sie in den Datensätzen zunächst nur namentlich erfassen.
@@ -50,7 +50,7 @@ Arbeitsbereich, Verantwortung, Position etc.
 
 Zudem haben Sie die Möglichkeit über den Team Baustein einem Datensatz ein Team zuzuweisen.
 
-## Rechte / Berechtigungen
+## <span style="color:#0b5394">Rechte / Berechtigungen</span>
 
 Sie haben Rollen und Teams angelegt, sowie den Mitgliedern bereits beides zugewiesen.
 Jetzt können Sie über die Rollen den Zugriff auf Datensätze beschränken und Funktionen,
@@ -83,7 +83,7 @@ Der Switch "Import erlauben" gibt oder nimmt das Recht Excel-Dateien mit
 Datensätzen zu importieren. Sofern es sich nicht um besonders intensiv geschultes
 Personal handelt, empfehlen wir den Import nicht zuzulassen.
 
-## Benachrichtigungen
+## <span style="color:#0b5394">Benachrichtigungen</span>
 
 Sie können sich Benachrichtigungen für Änderungen an Datensätzen anzeigen lassen.
 Die Benachrichtigung ist eine rot eingekreiste Zahl auf der Kachel,
@@ -96,7 +96,7 @@ Nutzer aktivieren. Zudem haben Sie die Möglichkeit die Benachrichtigungen in de
 Liste benachrichtigt werden möchten, können Sie dies über die drei Punkte innerhalb
 der Kachel aktivieren oder deaktivieren.
 
-## Filtern und Sortieren
+## <span style="color:#0b5394">Filtern und Sortieren</span>
 
 Sie können die Sortierung der Kachelinhalte global je Kachel auf- und absteigend nach einem
 bestimmten Baustein ändern. Gleiches gilt für verknüpfte Datensätze. Bei der Ausgabe von
@@ -109,7 +109,7 @@ Mehrfachzugriff. Die Werte erhalten Sie mit Wahl des angesprochenen Baustein, IN
 in Spalte drei setzen Sie die anzusprechenden Werte, welche Sie mit Komma Leerzeichen trennen.
 Als Beispiel möchten Sie die Daten aus drei Teams abrufen, also wählen Sie Team IN Nord, West, Ost.
 
-## Suchen
+## <span style="color:#0b5394">Suchen</span>
 
 Mit dem Lupen Symbol können Sie innerhalb der Datensatzliste oder verknüpften Datensatz Liste
 nach Inhalten aus der angesprochenen Liste suchen. Die Suche umfasst dabei alle Werte innerhalb eines
@@ -118,7 +118,7 @@ Datensatzes.
 Die Sortierung erfolgt so, dass zuerst die genauen Suchergebnisse ausgegeben werden und im Anschluss
 ähnliche Werte.
 
-## Gespeicherte Ansichten / Eigene Kacheln
+## <span style="color:#0b5394">Gespeicherte Ansichten / Eigene Kacheln</span>
 
 Wenn Sie sich innerhalb einer gemeinsamen Kachel befinden, interessieren Sie vielleicht nicht
 alle Datensätze der Liste oder Sie möchten mit Filterkacheln arbeiten, zum Beispiel nach
