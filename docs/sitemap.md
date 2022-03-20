@@ -4,7 +4,7 @@ title: Inhaltsverzeichnis
 nav_order: 1
 ---
 
-# Inhaltsverzeichnis
+# <span style="color:#0b5394">Inhaltsverzeichnis</span>
 
 1. Der Start in die App
     - Registrieren und Anmelden
