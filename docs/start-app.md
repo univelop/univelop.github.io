@@ -4,9 +4,9 @@ title: Der Start in die App
 nav_order: 2
 ---
 
-# Der Start in die App
+# <span style="color:#0b5394">Der Start in die App</span>
 
-## Registrieren und Anmelden
+## <span style="color:#0b5394">Registrieren und Anmelden</span>
 
 Zugang zu dem System erhalten Sie im App-oder Play-Store, sowie über jeden beliebigen Browser über
 www.app.univelop.de
@@ -23,7 +23,7 @@ Der Arbeitsbereich ist die Umgebung, in welcher man sich befindet.
 
 ---
 
-## Erstellen eines Arbeitsbereichs
+## <span style="color:#0b5394">Erstellen eines Arbeitsbereichs</span>
 
 **Wenn Sie neu bei uns sind**
 
@@ -34,7 +34,7 @@ auf den Button zum Erstellen eines neuen Arbeitsbereichs tippen. Nach dem Erstel
 
 ---
 
-## Einem Arbeitsbereich beitreten
+## <span style="color:#0b5394">Einem Arbeitsbereich beitreten</span>
 
 Sie haben einen Einladungslink (via Mail, Messenger oder anderen Programmen) zu einem Arbeitsbereich erhalten. 
 Sie klicken auf den Link und treten dem Arbeitsbereich bei.
@@ -43,7 +43,7 @@ Nun können Sie direkt in diesem Arbeitsbereich mit arbeiten.
 
 ---
 
-## Startertutorial zum Erstellen eines neuen Arbeitsbereichs und einer Kachel
+## <span style="color:#0b5394">Startertutorial zum Erstellen eines neuen Arbeitsbereichs und einer Kachel</span>
 
 ***Sie haben soeben einen neuen Arbeitsbereich erstellt***
 
