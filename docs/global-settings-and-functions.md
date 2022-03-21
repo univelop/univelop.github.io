@@ -100,7 +100,7 @@ Zudem besteht die Möglichkeit die Benachrichtigungen in der Kachel über das Gl
 oder deaktivieren. Möchte man über Änderungen in der Liste benachrichtigt werden, kann dies über die
 drei Punkte innerhalb der Kachel aktiviert oder deaktiviert werden.
 
-## <span style="color:#0b5394">Filtern und Sortieren</span>
+## <span style="color:#0b5394">Filter und Sortierung</span>
 
 Die Sortierung der Kachelinhalte kann global je Kachel auf- und absteigend nach einem bestimmten
 Baustein geändert werden. Gleiches gilt für verknüpfte Datensätze. Bei der Ausgabe von verknüpften
