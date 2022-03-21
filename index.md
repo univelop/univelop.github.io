@@ -22,9 +22,6 @@ Vorkenntnisse in Informatik werden prinzipiell gar nicht benötigt. Das ist der 
 
 Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da. Unsere Kontaktdaten finden Sie hier:
 
-Univelop GmbH
-01XXXXXXXX
-
 ---
 
 <span style="color:#3d85c6">**Genderhinweis:**  
