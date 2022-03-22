@@ -18,11 +18,11 @@ Hier sind sämtliche Mitglieder, Rollen und Teams aufgelistet. Ebenfalls wird hi
 auf den Arbeitsbereich gesteuert.  
 Neue Mitglieder/Benutzer können auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
 
-1. Einladungslink versenden
+1. Einladungslink versenden  
     Es wird der Einladungslink des Arbeitsbereichs in die Zwischenablage kopiert und es kann
     eine E-Mail versendet werden.
 
-2. Neuer Benutzer manuell anlegen
+2. Neuer Benutzer manuell anlegen  
     Der Benutzer kann manuell angelegt werden. Meldet sich der Benutzer anschließend mit E-Mail
     und Passwort an, ist der Arbeitsbereich bereits bei dem Benutzer hinterlegt.
 
@@ -62,15 +62,15 @@ der Zugriff auf Datensätze beschränkt und bestimmte Funktionen ausgestellt wer
 Das globale Rechtesystem in den Rollen greift immer auf ganze Kacheln zu. Im Standard ist immer der
 Zugriff auf "Alle" Datensätze hinterlegt.  
 Folgende Einstellungen können vorgenommen werden:
-- Gefiltert
+- Gefiltert  
     Inhalt der Kachel wird anhand des vorgebenen Filters angezeigt
-- Von meinem Team
+- Von meinem Team  
     Sind Datensätze über den Baustein *Team* das jeweilige Team zugeordnet, wird der Inhalt entsprechend
     danach gefiltert und angezeigt.
-- Meine
+- Meine  
     Sind Datensätze über den Baustein *Benutzer* dem jeweiligen Benutzer zugeordnet, wird der Inhalt
     entsprechend danach gefiltert und angezeigt.
-- Keine
+- Keine  
     Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.
 
 
