@@ -194,19 +194,19 @@ Wurde in einer Kachel in der Liste ein Eintrag ausgewählt, erscheint rechts der
     - Technischer Name
     (s. o.)
 
-    - Nur Lesen
+    - Nur Lesen  
     Mit dieser Funktion werden Schreibrechte blockiert, können jedoch unter Bedingungen zugelassen werden.
     Zum Beispiel "Benutzerrolle = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
     wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der Baustein *Status* erforderlich.
 
-    - Baustein verstecken
+    - Baustein verstecken  
     Bausteine können versteckt werden, können jedoch unter Bedingungen zugelassen werden.
 
-    - In Schnellerfassung verstecken
+    - In Schnellerfassung verstecken  
     Wie bereits bei den Kacheleinstellungen beschrieben, können Bausteine in der Schnellerfassung versteckt werden, um die Listenansicht
     für den Einzelfall der Erfassung zu reduzieren.
 
-    - Duplizieren und Löschen
+    - Duplizieren und Löschen  
     Beim Duplizeren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der ursprüngliche technische Name
     mit dem Zusatz "2" versehen und sollte nach dem Duplizieren abgeändert werden.
 
