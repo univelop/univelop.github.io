@@ -20,7 +20,7 @@ Vorkenntnisse in Informatik werden prinzipiell gar nicht benötigt. Das ist der 
 
 <span style="color:#0b5394">***Okay das klingt echt cool, aber was mache ich, wenn ich mal nicht weiter weiß?***</span>
 
-Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da. Unsere Kontaktdaten finden Sie hier:
+Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da.
 
 ---
 
