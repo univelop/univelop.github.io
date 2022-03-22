@@ -4,89 +4,95 @@ title: Import und Export
 nav_order: 7
 ---
 
-# <span style="color:#0b5394">Import und Export</span>
+# <span style="color:#0b5394">**Import und Export**</span>
 
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
 
-Sie haben die Möglichkeit ganze Arbeitsbereiche zu exportieren und wieder zu importieren.
-Wenn Sie sich im Designmodus des Homescreens Ihres Arbeitsbereichs befinden, können Sie dort
-rechts den Namen des Arbeitsbereichs anpassen, aber auch ganz unten den gesamten Arbeitsbereich
-exportieren. Wenn Sie dies tun wird eine ZIP-Datei heruntergeladen.
+Es besteht die Möglichkeit ganze Arbeitsbereiche zu exportieren und wieder zu importieren.
+Im Designmodus des Homescreens des Arbeitsbereiches befindet sich in den Einstellungen der
+Button "Export". Nach Betätigen des Buttons wird der Arbeitsbereich als ZIP-Datei heruntergeladen.
 
-Nun können Sie mit dem Haus Button (Bearbeitungsmodus Homescreen) den Arbeitsbereich wechseln
-oder ganz unten "+ Neuer Arbeitsbereich" anwählen. Wenn Sie diesen Weg gehen, haben Sie die Möglichkeit
-mit der Demo zu starten, einen eigenen Bereich zu erstellen, oder einen Arbeitsbereich zu importieren.
-Sie wählen den Import aus und navigieren zur heruntergeladenen ZIP-Datei, welche Sie nun einlesen können.
+![button export](..\assets\import-export\button export.png "button export")
+
+Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
+wechseln oder einen "+ Neuer Arbeitsbereich" einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich"
+ausgewählt wurde, kann zwischen drei Optionen gewählt werden. Über die Option "Arbeitsbereich importieren"
+wird ein Auswahldialog geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend
+eingelesen wird.
+
+![import workspace](..\assets\import-export\import workspace.png "import workspace")
 
 ## <span style="color:#0b5394">Kacheln</span>
 
-Wenn Sie nicht gleich einen ganzen Arbeitsbereich einlesen möchten, können Sie alternativ auch nur einzelne Kacheln
-exportieren und importieren. Dies ist besonders da sinnvoll, wo Sie mit mehreren Arbeitsbereichen innerhalb einer
-Organisation arbeiten oder Standard-Kacheln haben, welche Sie auf andere Umgebungen übertragen möchten.
-Hier sind vor allem Kacheln zu nennen, die keine oder nur geringe Datensatz-Verknüpfungen haben, welche Sie
-u.U. wieder herstellen müssten. Solche Kacheln beinhalten meistens Stammdaten, wie zum Beispiel Kunden, Mitarbeiter o.ä.
+Neben dem Export/Import von ganzen Arbeitsbereichen können alternativ lediglich einzelne Kacheln
+exportiert und importiert werden. Dies ist besonders da sinnvoll, wo mit mehreren Arbeitsbereichen
+innerhalb einer Organisation gearbeitet wird oder Standard-Kacheln vorhanden sind, welche auf andere
+Umgebungen übertragen werden sollen. Hier sind vor allem Kacheln zu nennen, die keine oder nur geringe
+Datensatz-Verknüpfungen haben, welche u. U. wieder hergestellt werden müssten. Solche Kacheln
+beinhalten meistens Stammdaten, wie zum Beispiel Kunden, Mitarbeiter o. ä.
 
-Im Kachel-Designmodus finden Sie ganz unten rechts den Button exportieren (Wie beim Export von Arbeitsbereichen).
-Sie erhalten eine .json Datei, in welcher sich der Quellcode befindet. Nun können Sie zum gewünschten
-Arbeitsbereich navigieren, welchen Sie für den Import nutzen möchten. Dort wählen Sie im Designmodus des Homescreens
-auf der linken Seite die Option "Kachel importieren" und wählen die gewünschte .json Datei aus.
+Im Kachel-Designmodus befindet sich, wie beim Export von Arbeitsbereichen, in den Kacheleinstellungen
+ein Button "Export". Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich
+der Quellcode für die Kachel befindet.
 
-Bitte beachten Sie hierbei folgende Dinge:
+![export tile](..\assets\import-export\export tile.png "export tile")
 
-    - Verknüpfungen werden u.U. nicht übernommen, wenn Sie die gleichen Kachelbezeichnungen
-    und Inhalte nicht auch im neuen Arbeitsbereich haben.
-    - Daten / Inhalte werden nicht übernommen, aber auch nicht überschrieben.
-    - Word-Vorlagen werden nicht übernommen.
-    - Sie können immer nur in eine Richtung importieren / exportieren. Wenn Sie also
-    einen Workspace haben, der zentral alle Kacheln Ihrer Organisation beinhaltet, 
-    können Sie nicht aus einem anderen Arbeitsbereich heraus in diese Umgebung importieren.
+Im Designmodus des Ziel-Arbeitsbereichs, in dem die Kachel importiert werden soll, kann über den Button
+"Kachel importieren" die zuvor heruntergeladene JSON-Datei über einen Auswahldialog eingelesen werden.
+
+![import tile](..\assets\import-export\import tile.png "import tile")
+
+**Bitte beachten:**  
+- Verknüpfungen werden u. U. nicht übernommen, wenn gleiche Kachelbezeichnungen und Inhalte **nicht**
+im neuen Arbeitsbereich vorhanden sind.
+- Daten / Inhalte werden **nicht übernommen** und ebenso **nicht überschrieben**.
+- Word-Vorlagen werden **nicht** übernommen.
+- es kann immer nur in eine Richtung importiert / exportiert werden. Ist ein Workspace vorhanden, der
+**zentral alle** Kacheln der Organisation beinhaltet, kann **nicht** aus einem anderen Arbeitsbereich heraus
+in diese Umgebung importiert werden.
 
 ## <span style="color:#0b5394">Datensätze und Inhalte</span>
+<span style="color:#3d85c6">*Empfohlen für fortgeschrittene Nutzer*</span>  
 
-Sie können auch Datensätze importieren und exportieren. Dies ist besonders dann sinnvoll,
-wenn Sie viele Datensätze und Stammdaten eingeben möchten. Sie sollten dies nur als fortgeschrittener Nutzer tun.
-Der Im- und Export passiert immer im Bearbeitungsmodus über die drei Punkte der Listenansicht.
-Die Ein- und Ausgabedatei ist im Excel-Format. Sämtliche Hinweise nach den Szenarien.
+Ebenso können auch Datensätze importiert und exportiert werden. Dies ist besonders dann sinnvoll,
+wenn viele Datensätze und Stammdaten erfasst werden sollen. Der Im- und Export erfolgt immer im 
+Bearbeitungsmodus über die drei Punkte der Listenansicht.
 
-Es gibt hierbei zwei Szenarien:
+![import export record](..\assets\import-export\import export record.png "import export record")
 
-    1. Erstimport von Daten
-    Sie haben eine Menge Daten, welche Sie in die Univelop App überführen möchten.
-    Sie haben bereits eine Liste angelegt, welche Ihre Datenstruktur wiederspiegelt.
-    Bitte legen Sie einen Dummy-Datensatz an und füllen diesen mit Leben.
-    Im nächsten Schritt exportieren Sie diesen Datensatz.
-    Nun können Sie Ihre Daten in die exportierte Datei kopieren. 
-    Den Dummy Datensatz können Sie mit Zeile löschen aus der zu importierenden Datei
-    wieder löschen. Wenn Sie alle Daten eingetragen haben speichern Sie die Excel Datei
-    und wählen in Univelop den Schritt von Excel importieren. Das Dokument wird geprüft
-    und ein Pop-Up erscheint, welches Ihnen mitteilt wie viele Datensätze zum Import
+Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folgenden zwei Szenarien:.
+
+1. <span style="color:#3d85c6">Szenario // Erstimport von Daten</span>  
+    In die Univelop App soll eine große Anzahl an Datensätzen überführt werden.
+    Es ist bereits eine Liste vorhanden, welche die Datenstruktur wiederspiegelt.
+    In Univelop sollte ein Dummy-Datensatz angelegt werden. Anschließend wird die Liste in Excel
+    exportiert. Dies ist nun die Importvorlage.
+    Sind alle Datensätze in der Vorlage erfasst, kann diese über die Importfunktion importiert werden. 
+    Das Dokument wird geprüft und ein Pop-Up erscheint, welches mitteilt wie viele Datensätze zum Import
     gefunden wurden.
 
-    2. Aktualisierung von Daten
-    Sie haben bereits viele Daten in einer Liste und möchten hier nur bestimmte Dinge ändern,
+2. <span style="color:#3d85c6">Szenario // Aktualisierung von Daten</span>  
+    Es sind bereits viele Daten in einer Liste und es sollen nur bestimmte Dinge geändert werden,
     es wäre aber zu aufwendig dies bei allen Datensätzen einzeln zu machen.
-    Auch hier exportieren Sie nun alle Datensätze. Wir empfehlen nun sämtliche Zeilen und Spalten
-    zu löschen, welche nicht betroffen sind.
+    Hier werden ebenfalls alle Datensätze in Excel exportiert. Wir empfehlen nun sämtliche Zeilen und
+    Spalten zu löschen, welche nicht betroffen sind.
 
-    ACHTUNG! Die ID (letzte Spalte) muss immer stehen bleiben!
+    **ACHTUNG! Die ID (letzte Spalte) muss immer stehen bleiben!**
 
-    Nun ändern Sie alle Daten, welche Sie ändern möchten, speichern die Datei und
-    wählen in der APP "von Excel importieren" aus. Ein Pop-Up erscheint, welches Ihnen 
-    mitteilt wie viele Datensätze zum Import / zur Aktualisierung gefunden wurden.
+    Anschließend können in der exportierten Excelliste alle betreffenden Datensätze entsprechend geändert
+    werden. Nach der Änderung in der Excelliste kann diese wieder über die Importfunktion importiert werden.
+    Ein Pop-Up erscheint, welches mitteilt wie viele Datensätze zum Import bzw. zur Aktualisierung gefunden
+    wurden.
 
-### <span style="color:#0b5394">Wichtige Hinweise zum Excel Im- und Export</span>
+### <span style="color:#0b5394">**Wichtige Hinweise zum Excel Im- und Export**</span>
 
-- Die ID eines Datensatzes (letzte Spalte) ist einzigartig. Über diese weiß
-das System, welcher Datensatz gemeint ist. Wenn Sie Daten ohne ID importieren,
-werden neue Daten angelegt.
-- Wir empfehlen vor jedem Import einen Export. So sind alle Spalten richtig benannt.
-Zudem haben wir festgestellt, dass die Zuordnung in der APP so besser funktioniert.
-- Passen Sie die Spaltenbreiten an den Inhalt an. Markieren Sie alle Datensätze über
-das Quadrat zwischen 1 und A. Dann führen Sie einen Doppelklick auf eine Spaltentrennung durch, 
-z.B. zwischen 1 und 2.
-- Sichern Sie Ihre Daten immer, sodass Sie diese im Zweifel wieder herstellen könnten.
+- Die ID eines Datensatzes (letzte Spalte) ist einzigartig. Über diese erkennt das System, welcher
+Datensatz gemeint ist. Werden Daten ohne ID importiert, werden automatisch neue Datensätze angelegt.
+- Wir empfehlen vor jedem Import einen Export. So sind alle Spalten richtig benannt und die Zuordnung
+bei dem Importvorgang ist größtenteils sichergestellt.
+- Es empfiehlt sich die Excelliste immer regelmäßig zwischenzuspeichern, sodass diese im Zweifel
+wiederhergestellt werden kann.
 
-Leider sind wir beim Im- und Export vom Excel-Package abhängig und das System vertauscht
-in dieser Kombination mit Excel hin und wieder Spalten. Daher empfehlen wir immer alle unnötigen
-Zeilen und Spalten zu löschen. Kommen Sie bei Fragen gerne auf uns zu, wir stehen Ihnen gerne mit
-Rat und Tat zur Seite.
+Leider sind wir beim Im- und Export von dem Excel-Package abhängig und das System vertauscht in dieser
+Kombination mit Excel hin und wieder Spalten. Daher empfehlen wir immer alle unnötigen Zeilen und Spalten
+zu löschen. Bei Problemen stehen stehen wir gerne mit Rat und Tat zur Seite.
