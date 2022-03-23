@@ -4,128 +4,144 @@ title: Verknüpfen von Listen
 nav_order: 8
 ---
 
-# <span style="color:#0b5394">Verknüpfen von Listen</span>
+# <span style="color:#0b5394">**Verknüpfen von Listen**</span>
 
-## <span style="color:#0b5394">Verknüpfung über den Datensatz Baustein</span>
+## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
-Wie der Name schon sagt, können Sie über den `Datensatz` Baustein auf einen Datensatz zugreifen.
+Wie der Name schon sagt, kann über den Baustein *Datensatz* auf einen Datensatz zugegriffen werden.
 Genauer gesagt auf einen Datensatz einer anderen Liste.
 
-Ziehen Sie hierzu den Baustein an die gewünschte Position Ihrer Liste.
-Nun benennen Sie den Baustein sinngemäß dem was er darstellen soll. In den
-meisten Fällen ähnelt diese Bezeichnung der verknüpften Liste (z.B. Kunde oder Bauvorhaben)
+Nachdem der Baustein *Datensatz* einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug
+auf die weiteren Funktionen des Bausteins vorgenommen werden:
 
-Wählen Sie im nächsten Schritt die "Verknüpfung mit", also die Verknüpfung mit einer anderen Liste.
-Über Filter und Sortierung können Sie sich nur bestimmte Datensätze anzeigen lassen, aus denen Sie
-wählen können. Unter diesem Reiter können Sie ebenfalls die Sortierung festlegen, nach welcher
-Ihnen die Daten angezeigt werden sollen.
+![brick record settings](..\assets\link-lists\brick record settings.png "brick record settings")
 
-Sie haben zudem die Möglichkeit Daten aus dem verknüpften Datensatz zu übernehmen. Dies hat den Vorteil,
-dass Sie die Daten in der aktuellen Liste zur Verfügung gestellt bekommen, ohne diese erneut eingeben zu müssen
-und um eventuelle Übertragungsfehler zu reduzieren. Bitte beachten Sie, dass die zu übernehmenden und
-Zielbausteine Ihrer Liste die gleichen sein müssen, bedeutet nur Textfeld zu Textfeld, Datum zu Datum etc.
-Es bietet sich also an die Bausteine im Vorfeld zu erstellen und gleich oder ähnlich zu benennen.
-Sie haben zudem die Möglichkeit die übernommenen Daten synchron zu halten. Bedeutet, wenn Sie den Switch
-nicht aktivieren werden die Daten einmalig mit Wahl des Datensatzes übernommen. Beim synchron halten werden
-die Daten des Mutterdatensatzes in diesen Datensatz immer aktuell gehalten.
+1. <span style="color:#3d85c6">Baustein *Datensatz* Funktion "Verknüpfung mit"</span>  
+Damit der Baustein einwandfrei funktioniert muss in den Einstellungen unter "Verknüpfung mit" die
+Verknüpfung zu einer anderen Liste vorgenommen werden.
 
-Dies bedeutet für Sie, dass Sie abwägen müssen, ob die Daten synchron gehalten werden sollen.
-Zum erstellen einer Kaufhistorie sollten die aus dem Artikel übernommenen Preise nicht synchron sein.
-Wenn es sich allerdings um Adress- und Stammdaten einer Rechnungsadresse handelt, sollten Sie
-den Switch zum synchron halten aktivieren.
+2. <span style="color:#3d85c6">Werte des verknüpften Datensatzes übernehmen</span>  
+    Ebenso besteht die Möglichkeit Daten aus dem verknüpften Datensatz in andere Bausteine zu übernehmen.
+    Dies hat den Vorteil, dass die Daten in der aktuellen Liste zur Verfügung gestellt werden, ohne dass diese
+    erneut eingeben werden müssen und somit eventuelle Übertragungsfehler reduziert werden.
 
-Es gibt den Switch zur Aktivierung der Funktion "Diesen Datensatz löschen / duplizieren, wenn verknüpfter
-Datensatz gelöscht / dupliziert wird". Dieser aktiviert genau diese Funktion. Wenn es sich um zusammenhängende
-Bewegungsdaten handelt, könnten Sie diesen Switch zum Beispiel aktivieren, um Datenmüll zu vermeiden.
+    Dabei ist darauf zu achten, dass die zu Quell- und Zielbausteine der Liste den gleichen Typ aufweisen
+    müssen, bedeutet nur Textfeld zu Textfeld, Datum zu Datum etc.
+
+    Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
+    aktiviert, werden die Daten einmalig mit der Auswahl des Datensatzes übernommen. Beim synchron halten werden
+    die Daten des Mutterdatensatzes in diesen Datensatz immer aktuell gehalten.
+
+    Hierbei muss in jedem Einzelfall abgewogen werden, ob die Daten synchron gehalten werden sollen oder nicht.
+    Zum Beispiel zum Erstellen einer Kaufhistorie sollten die aus dem Artikel übernommenen Preise nicht synchron sein,
+    da diese bei aktivierter Synchronisation bei jeder Änderung in den Artikelstammdaten ebenfalls überschrieben werden.
+    Bei der Aktualisierung von z. B. Adress- und Stammdaten einer Rechnungsadresse ist das Synchronhalten der Daten
+    sinnvoll.
+
+    ![take on records + synchro](..\assets\link-lists\take on records + synchro.png "take on records + synchro")
+
+3. <span style="color:#3d85c6">Funktion "Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird"</span>  
+Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensätz gelöscht oder dupliziert, sobald der
+Hauptdatensatz gelöscht wird. Wenn es sich um zusammenhängende Bewegungsdaten handelt, kann dieser Switch aktiviert
+werden, um Datenmüll zu vermeiden.
+
+Informationen zu den Möglichkeiten zu *Filter und Sortierungen* sind auf der Docs-Seite des Bausteins
+[*Datensatz Liste*](https://univelop.github.io/docs/interface.html "*Datensatz Liste*")
+zu finden.
 
 ### <span style="color:#3d85c6">Zusammenfassung</span>
 
-Über den Baustein Datensatz schaffen Sie eine einfache Verknüpfung mit **einem** Datensatz einer
-anderen Liste und haben die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
-zu löschen oder zu duplizieren, wenn Sie dies mit dem Hauptdatensatz machen.
+Über den Baustein *Datensatz* wird eine einfache Verknüpfung mit **einem** Datensatz einer anderen Liste
+geschaffen und es besteht die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
+zu löschen oder zu duplizieren, wenn dies gleichzeitig mit dem Löschen und Duplizieren des Hauptdatensatz
+erfolgt.
 
 ---
 
-## <span style="color:#0b5394">Verknüpfung über den Datensatz-Liste Baustein</span>
+## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz Liste*</span>
 
-Der `Datensatz-Liste` Baustein bietet Ihnen die Möglichkeit mehrere Datensätze einer
-anderen Liste anzeigen zu lassen und über die Verknüpfung weitere zusammengehörige
-Datensätze zu erstellen.
+Der Baustein *Datensatz Liste* bietet die Möglichkeit sich mehrere Datensätze einer anderen Liste anzeigen
+zu lassen und über die Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
-Zunächst wählen Sie, wie beim Datensatz Baustein, eine passende Bezeichnung und die gewünschte
-Liste, mit welcher Sie den Baustein verknüpfen möchten.
+Ähnlich wie bei dem Baustein *Datensatz* wird eine passende Bezeichnung und mit "Verknüpfung über" der Baustein
+mit der gewünschten Liste verknüpft.
 
-Jetzt haben Sie die Möglichkeit eine "Verknüpfung über" zu wählen. Dies bedeutet Sie verknüpfen den Baustein
-mit einer Liste, über einen `Datensatz` Baustein, welcher sich in der anderen Liste befindet. So schaffen
-Sie eine eindeutige Zugehörigkeit der Datensätze miteinander. Dies geht nur dann, wenn Sie eine eindeutige
-Zuordnung über den aktuellen Datensatz mit dem verknüpften Datensatz haben. 
+Über die Funktion "Verknüpfung über" wir der Baustein *Datensatz Liste* über einen Baustein *Datensatz* eine
+eine eindeutige Zuordnung aufgebaut.
 
-Wenn Sie sich auf einen dritten Datensatz beziehen möchten wird es nicht mit der "Verknüpfung über" 
-funktionieren, da Sie sich damit immer auf den eigenen Datensatz beziehen. Haben Sie also in Ihrer Liste
-eine Verknüpfung mit einer Stammdatenliste und haben eine weitere Liste mit Stammdaten erstellt, die dieser
-Liste angehört, dann müssen Sie über die Filter und Sortierungsfunktion einen eindeutigen Zusammenhang
-herstellen. Dies bedeutet konkret Sie haben eine Verknüpfung mit gewählt und in verknüpften Liste, sowie
-in dieser Liste einen Datensatz Baustein eingebaut, der auf den gleichen Datensatz verweist, können Sie
-die Daten darüber verknüpfen. Wählen Sie in Filter und Sortierung den Zieldatensatz aus der verknüpften
-Liste aus und wählen =B als Filterkriterium aus. =B bedeutet = Baustein. Also der Datensatz Baustein
+![record list settings](..\assets\link-lists\record list settings.png "record list settings")
+
+Soll sich auf einen dritten Datensatz bezogen werden, wird es nicht mit der Funktion "Verknüpfung über" 
+funktionieren, da sich hierüber immer ausschließlich auf den eigenen Datensatz bezogen wird. Ist also in
+der Liste eine Verknüpfung mit einer Stammdatenliste vorhanden und es wurde eine weitere Liste mit Stammdaten
+erstellt, die dieser Liste angehört, dann muss über *Filter und Sortierung* ein eindeutiger Zusammenhang
+herstellt werden. Dies bedeutet konkret es wurde eine "Verknüpfung mit" gewählt und sowohl in der verknüpften
+Liste als auch in dieser Liste ein Baustein *Datensatz* eingebaut, der auf den gleichen Datensatz verweist, über
+die die Daten verknüpft werden können. In *Filter und Sortierung* wählt man den Zieldatensatz aus der verknüpften
+Liste aus und nutzt der Operator =B als Filterkriterium aus. =B bedeutet = Baustein. Also der Datensatz Baustein
 soll dem Baustein Datensatz aus meiner Liste entsprechen.
 
-### <span style="color:#3d85c6">Beispiel für Verknüpfung über</span>
+<span style="color:#3d85c6">**Beispiel für "Verknüpfung über":**</span>
 
-Sie haben eine Liste namens Aufmaß und eine Hilfsliste namens Aufmaßpositionen erstellt.
-In der Aufmaßliste möchten Sie nun die dazugehörigen Aufmaßpositionen erfassen. In den
-Aufmaßpositionen haben Sie einen Datensatz Baustein eingebaut, welcher mit den Aufmaßen
-verknüpft ist. Jetzt können Sie in den Aufmaßen die Verknüpfung über Aufmaß wählen.
+Es sind zwei Kacheln mit den Namen "Aufmaß" und "Aufmaßpositionen" (Hilfskachel) vorhanden. In der Aufmaßliste
+sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurder der Baustein
+*Datensatz* eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Kachel
+"Aufmaß" ausgewählt werden.
 
-### <span style="color:#3d85c6">Beispiel für Verknüpfung mit dem Filter =B</span>
+<span style="color:#3d85c6">**Beispiel für Verknüpfung mit dem Filter =B:**</span>
 
-Sie haben drei Liste. Liste Kunde, Liste Ansprechpartner Kunde und die Liste Bauvorhaben.
-Sowohl die Bauvorhaben, als auch die Ansprechpartner sind mit den Kunden verknüpft.
-Zum Anzeigen der Ansprechpartner in der Kundenliste können Sie aufgrund der direkten Verknüpfung
-die Verknüpfung über wählen.
+In dem Arbeitsbereich sind drei Kacheln mit den Namen "Kunde", "Liste Ansprechpartner Kunde" und "Bauvorhaben"
+vorhanden. Sowohl die Bauvorhaben, als auch die Ansprechpartner sind mit den Kunden verknüpft. Zum Anzeigen der
+Ansprechpartner in der Kundenliste kann aufgrund der direkten Verknüpfung die "Verknüpfung über" gewählt werden.
 
-Zur Verknüpfung der Ansprechpartner in der Bauvorhaben Liste benötigen Sie die =B Filterung.
-Sie haben also in den Bauvorhaben die Verknüpfung zum Kunden mit dem Datensatz Baustein.
-Nun wählen Sie Verknüpfen mit Ansprechpartner. Als nächstes wählen Sie die Filterung,
-die zum Beispiel so aussieht: Kunde =B Auftraggeber. Also in der Ansprechpartner Liste gibt
-es den Datensatz Kunde. In der Bauvorhaben Liste gibt es den Baustein Auftraggeber.
+Zur Verknüpfung der Ansprechpartner in der Bauvorhaben Liste wird der Operator =B in der Filterung benötigt. In
+den Bauvorhaben ist die Verknüpfung zum Kunden mit dem Baustein *Datensatz* vorhanden. Als nächstes wird in "Verknüpfung
+mit" die Kachel "Ansprechpartner" ausgewählt. Unter *Filter und Sortierung* wird der Operator =B gesetzt, als Beispiel:
+Kunde =B Auftraggeber. Übersetzt bedeutet es in der Kachel "Ansprechpartner" gibt es den Datensatz "Kunde". In der
+Kachel "Bauvorhaben" gibt es den Baustein "Auftraggeber".
 
 ### <span style="color:#3d85c6">Art der Darstellung: Link zur Liste</span>
 
-Sie können sich die verknüpften Datensätze als einfachen Link ohne Vorschau anzeigen lassen.
-Im Standard sehen Sie hier im Baustein den Namen Ihrer Verknüpfung, sowie die Anzahl der
-verknüpften Datensätze.
+Der Baustein *Datensatz Liste* kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der
+Name der Verknüpfung angezeigt, sowie die Anzahl der verknüpften Datensätze.
 
-Sie haben die Möglichkeit den Switch "Summe statt Anzahl anzeigen" zu betätigen. Wenn Sie dies
-tun, können Sie sich eine "Summe über" anzeigen lassen. Zur Auswahl stehen hier Nummern und
-Zeitspannen Bausteine, sowie Formeln und Datensatz-Verknüpfungen. 
-Sie können zudem noch ein Suffix für die angezeigte Summe wählen.
+Anstatt sich die Anzahl der verknüpften Datensätze anzeigen zu lassen, kann über den Switch *Summe statt Anzahl anzeigen*
+eine Summe über die Datensätze gezogen werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine:
+- Baustein *Nummer*
+- Baustein *Zeitspanne*
+- Baustein *Filter*
+- Datensatz-Verknüpfungen
+
+Für eine eindeutigere Anzeige kann ein *Summen Suffix* sowie die *Anzahl der Nachkommastellen* festgelegt werden.
+
+![record list settings2](..\assets\link-lists\record list settings2.png "record list settings2")
 
 ### <span style="color:#3d85c6">Art der Darstellung: Eingebettete Liste</span>
 
-Mit der eingebetteten Liste haben Sie die Möglichkeit sich eine Vorschau anzeigen zu lassen.
-Im Standard ist die "Anzahl der Datensätze in Vorschau" auf 3 eingestellt. Diese Anzahl können Sie
-beliebig anpassen. Die angezeigten Daten in der Vorschau entsprechen der Vorschau Ihrer Listeneinstellung
+Wird in den Einstellungen des Bausteins die "Art der Darstellung" auf "eingebettete Liste" geändert, wird eine Vorschau
+der verknüpften Datensätze angezeigt. Im Standard ist die "Anzahl der Datensätze in Vorschau" auf 3 eingestellt. Diese
+Anzahl können beliebig angepasst werden. Die angezeigten Daten in der Vorschau entsprechen der Vorschau in den Listeneinstellung
 der verknüpften Liste.
 
+**Beispiel einer eingebetteten Liste:**
+![record list settings3](..\assets\link-lists\record list settings3.png "record list settings3")
 ---
 
-## <span style="color:#0b5394">Schnellerfassung für den Datensatz-Liste Baustein</span>
+## <span style="color:#0b5394">Schnellerfassung für den Baustein *Datensatz Liste*</span>
 
-Mit der `Eingebetteten Liste` haben Sie zusätzlich die Funktion einer Schnellerfassung, welche Sie aktivieren
-können. Dies ist eine charmante Art und Weise Einträge für die verknüpfte Liste in Ihrer Liste zu erstellen.
+Wird ein Baustein *Datensatz Liste* als *eingebettete Liste* verwendet kann die Funktion einer Schnellerfassung,
+aktiviert werden. Dies ist eine charmante Art und Weise Einträge für die verknüpfte Liste in der aktuellen Kachel
+zu erstellen.
 
-Hierzu müssen Sie zunächst die Schnellerfassung in der verknüpften Liste aktivieren. Diese Einstellung
-nehmen Sie über den Switch "Schnellerfassung aktivieren" im Designmodus der Kachel im Homescreens vor.
-Sie haben Zudem die Möglichkeit die Schnellerfassung ausschließlich bei einer Verknüpfung über einen 
+Zunächst muss im Designmodus in den Einstellungen der Kachel die Funktion "Schnellerfassung aktivieren" aktiviert
+werden. Dazu besteht die Möglichkeit die Schnellerfassung ausschließlich bei einer Verknüpfung über einen 
 bestimmten Baustein zu aktivieren.
 
-Als nächstes können Sie in den Einstellung der zu schnellerfassenden Liste Bausteine in der Schnellerfassung
-verstecken. Falls diese Bausteine für die Schnellerfassung nicht relevant sind empfehlen wir es der
-Einfachkeit halber. Ein typisches Beispiel hierfür sind die Datensatz Verknüpfung, welche Sie beim Anlegen
-durch die Datensatz-Verknüpfung automatisch füllen, sowie eventuell zu übernehmende Daten des verknüpften
+Falls gewisse Bausteine für die Schnellerfassung nicht relevant sind, empfehlen wir es der
+Einfachkeit halber. Ein typisches Beispiel hierfür sind die Datensatz Verknüpfung, welche beim Anlegen
+durch die Datensatz-Verknüpfung automatisch gefüllt werden, sowie eventuell zu übernehmende Daten des verknüpften
 Datensatzes.
 
-Dass die Schnellerfassung aktiviert wurde erkennen Sie daran, dass der Button zum erfassen eines neuen Datensatzes
-in der verknüpften Liste ein grüner Balken geworden ist. In Ihrer Liste äußert es sich durch den grünen
+Dass die Schnellerfassung aktiviert wurde erkennt man daran, dass der Button zum erfassen eines neuen Datensatzes
+in der verknüpften Liste ein grüner Balken geworden ist. In der aktuellen Liste äußert es sich durch den grünen
 Button `+ Neu`.
