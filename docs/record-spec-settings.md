@@ -4,155 +4,158 @@ title: Die Bausteine und deren Einstellungen
 nav_order: 5
 ---
 
-# <span style="color:#0b5394">Die Bausteine und deren Einstellungen</span>
+# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
 
-Wie bereits im Kapitel der Designmodi und deren Einstellungen beschrieben, haben die Bausteine individuelle und 
+Wie bereits im Kapitel "Die Designmodi und deren Einstellungen" beschrieben, besitzen die Bausteine individuelle und 
 globale Einstellmöglichkeiten, welche überall gleich sind. Im Folgenden gehen wir näher auf die spezifischen
-Einstellungen und Funktionen der Bausteine ein.
+Einstellungen und Funktionen der einzelnen Bausteine ein.
 
-Die Bausteine sind in folgende Gruppen klassifiziert: Basis, Formular und Erweitert.
+Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
+
+|*Basis*
+|:------:       |:------:               |:------:
+|[Abschnitt](https://univelop.github.io/docs/record-spec-settings.html#abschnitt "Baustein Abschnitt")      |[Hinweis](https://univelop.github.io/docs/record-spec-settings.html#hinweis "Baustein Hinweis")                |[Web Link](http://localhost:4000/docs/record-spec-settings.html#web-link "Baustein Web Link")
+
+|*Formular*
+|:------:       |:------:               |:------:
+|[Textfeld](https://univelop.github.io/docs/record-spec-settings.html#textfeld "Baustein Textfeld")       |[Nummer](https://univelop.github.io/docs/record-spec-settings.html#nummer "Baustein Nummer")                 |[Schalter](https://univelop.github.io/docs/record-spec-settings.html#schalter "Baustein Schalter")
+|[Drop-Down](https://univelop.github.io/docs/record-spec-settings.html#drop-down "Baustein Drop-Down")      |[Datum](https://univelop.github.io/docs/record-spec-settings.html#datum "Baustein Datum")                  |[Zeitspanne](https://univelop.github.io/docs/record-spec-settings.html#zeitspanne "Baustein Zeitspanne")
+|[Benutzer](https://univelop.github.io/docs/record-spec-settings.html#benutzer "Baustein Benutzer")       |[Team](https://univelop.github.io/docs/record-spec-settings.html#team "Baustein Team")                   |[Bild Upload](https://univelop.github.io/docs/record-spec-settings.html#bild-upload "Baustein Bild Upload")
+|[Datei Upload](https://univelop.github.io/docs/record-spec-settings.html#datei-upload "Baustein Datei Upload")   |[E-Mail](https://univelop.github.io/docs/record-spec-settings.html#e-mail "Baustein E-Mail")                 |[Telefon](https://univelop.github.io/docs/record-spec-settings.html#telefon "Baustein Telefon")
+
+|*Erweitert*
+|:------:       |:------:               |:------:
+|[Datei](https://univelop.github.io/docs/record-spec-settings.html#datei "Baustein Datei")          |[Datensatz](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Baustein Datensatz")              |[Datensatz Liste](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Baustein Datensatz Liste")
+|[Freigabe](https://univelop.github.io/docs/record-spec-settings.html#freigabe "Baustein Freigabe")       |[Status](https://univelop.github.io/docs/record-spec-settings.html#status "Baustein Status")                 |[Status Button](https://univelop.github.io/docs/record-spec-settings.html#status-button "Baustein Status Button")
+|[Laufende Nummer](https://univelop.github.io/docs/record-spec-settings.html#laufende-nummer "Baustein Laufende Nummer")  |[Formel](https://univelop.github.io/docs/record-spec-settings.html#formel "Baustein Formel")                 |[Unterschrift](https://univelop.github.io/docs/record-spec-settings.html#unterschrift "Baustein Unterschrift")
+|[Kommentar](https://univelop.github.io/docs/record-spec-settings.html#kommentar "Baustein Kommentar")      |[PDF erstellen](https://univelop.github.io/docs/record-spec-settings.html#pdf-erstellen "Baustein PDF Erstellen")          |[Rechnung](https://univelop.github.io/docs/record-spec-settings.html#rechnung "Baustein Rechnung")
 
 ---
 
 ## <span style="color:#0b5394">Basis Bausteine</span>
 
-Mit den Basis Bausteinen können Sie Ihre Listeneinträge sortieren, Hinweise erfassen und verlinken.
+Mit den Basis Bausteinen können die Listeneinträge sortiert werden, sowie Hinweise erfasst und verlinkt werden.
 
 ![basic](..\assets\record-spec-settings\basic.png "basic")
 
 ### <span style="color:#3d85c6">Abschnitt</span>
 
-Mit dem `Abschnitt` Baustein können Sie Ihre Listeneinträge thematisch trennen.
-Als Beispiel erstellen Sie eine Kundenliste. Sie haben bereits Namen und Adressdaten unter dem Titel platziert und
-möchten nun noch Kontaktdaten separiert erfassen können. Hierzu wählen Sie den Abschnitt-Baustein und ziehen ihn
-an die gewünschte Stelle. Anschließend betiteln Sie diesen mit der Bezeichnung entsprechend mit Kontaktdaten.
+Mit dem Baustein *Abschnitt* können die Listeneinträge thematisch getrennt werden.
 
 ![section](..\assets\record-spec-settings\1section.png "section")
 
 Abschnitte können mit dem switch zusammenklappbar und als standardmäßig zusammenklappbar eingestellt werden.
-Sie haben ebenso die Möglichkeit Bausteine für die Kopfzeile des Abschnitts hinzuzufügen. Diese
+Ebenso besteht die Möglichkeit Bausteine für die Kopfzeile des Abschnitts hinzuzufügen. Diese
 werden dann direkt unter dem Abschnitt-Titel angezeigt.
 
 *Besonderheiten*
 
-Wenn Sie erweiterte Einstellungen für einen Abschnitt vornehmen, gelten diese für alle Bausteine innerhalb 
-dieses Abschnitts. Dies betrifft Nur Lesen, Baustein verstecken (Sowie die Ausnahmen) und das Verstecken in der Schnellerfassung.
+Wenn für den Baustein *Abschnitt* in den Einstellungen des Bausteins unter **ERWEITERT** zusätzliche Einstellungen
+vorgenommen werden, gelten diese für alle Bausteine innerhalb dieses Abschnitts. Dies betrifft Nur Lesen, Baustein
+verstecken (sowie die dazugehörigen Ausnahmen) und das Verstecken in der Schnellerfassung.
 
 ### <span style="color:#3d85c6">Hinweis</span>
 
-Mit dem `Hinweis` Baustein erfassen Sie Hinweistexte. Der Hinweistext wird über die Bezeichnung geschrieben. Sie haben hier die
-Möglichkeit auch längere Hinweistexte zu erfassen und diese abschnittsweise durch Entern zu trennen.
+Mit dem Baustein *Hinweis* werden Hinweistexte erfasst. Der Hinweistext wird über die Bezeichnung geschrieben. Hier
+ist es möglich auch längere Hinweistexte zu erfassen und diese abschnittsweise mit der Enter-Taste zu trennen.
 
 ![hint](..\assets\record-spec-settings\1hint.png "hint")
 
-Bitte beachten Sie, dass Sie den technischen Namen u.U. kürzen sollten, da andernfalls der gesamte Hinweistext als
+**Bitte beachten:**  
+Eventuell sollte der technische Namen u. U. gekürzt werden, da andernfalls der gesamte Hinweistext als
 technischer Name erscheinen kann. Hinweistexte sind immer nur lesbar, der Nur Lesen switch ist hier ohne weitere Funktion.
 
 Das Verstecken und bedingte Anzeigen von Hinweistexten ist möglich und dort sinnvoll, wo es nur bedingte Hinweistexte gibt.
 
 ### <span style="color:#3d85c6">Web Link</span>
 
-Durch den `Web Link` Baustein können Sie in Ihre Listeneinträge zentrale URL´s, bzw. Links hinterlegen. 
+Durch den Baustein *Web Link* können in den Listeneinträgen zentrale URLs bzw. Links hinterlegt werden. 
 
 ![link](..\assets\record-spec-settings\1link.png "link")
 
-Diesen können Sie als Button oder Link anzeigen lassen. Dies ist dann sinnvoll, wenn Sie immer auf den gleichen 
-Pfad verweisen. Zum Beispiel Ihre allgemeinen Geschäftsbedingungen. 
-Der Link benötigt immer ein www. und die .Endung (de, com, org etc.). Das Präfix "http://" wird immer
+Diese können entweder als Button oder als Link angezeigt werden. Dies ist dann sinnvoll, wenn Sie immer auf den gleichen 
+Pfad verweisen, zum Beispiel die eigenen allgemeinen Geschäftsbedingungen. 
+Der Link benötigt immer ein www. und die .Endung (.de, .com, .org, etc.). Das Präfix "http(s)://" wird immer
 automatisch durch das System vorbelegt.
 
 Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ---
 
-## <span style="color:#0b5394">Formular Bausteine/span
+## <span style="color:#0b5394">Formular Bausteine</span>
 
-Mit den Formular Bausteinen können Sie einfache Formulare erstellen und Inhalte füllen, die als
-Informationen bereit gestellt werden. Mit den Formular Bausteinen können Sie zudem eine einfache
-Zuordnung von Datensätzen herstellen, sortieren und filtern, sowie Leserechte und Anzeigen unter
+Mit den Formular Bausteinen können einfache Formulare erstellt und mit Inhalten gefüllt werden, die als
+Informationen bereit gestellt werden sollen. Mit den Formular Bausteinen können zudem einfache Zuordnungen
+von Datensätzen hergestellt, sortiert und gefiltert werden, sowie Leserechte und Anzeigen unter
 Bedingungen festlegen.
 
 ![form](..\assets\record-spec-settings\form.png "form")
 
 ### <span style="color:#3d85c6">Textfeld</span>
 
-Mit dem `Textfeld` Baustein können Sie beliebige alphanummerische Inhalte erfassen. 
+Mit dem Baustein *Textfeld* können beliebige alphanummerische Inhalte erfasst werden. 
 
 ![text](..\assets\record-spec-settings\1text.png "text")
 
-Standardmäßig ist hier keine Zeilenzahl für ein mehrzeiliges Textfeld (2) angegeben. 
-Wenn Sie hier eine 1 einsetzen, können Sie im Bearbeitungsmodus über die Entertaste 
-mehrere Zeilen erfassen. Sie können das Feld auch durch die Wahl von größeren Zeilenwerten bereits im Vorfeld vergrößern,
-wie hier im Beispiel.
+1. Anzahl der Zeilen für ein mehrzeiliges Textfeld
+    Standardmäßig ist hier keine Zeilenzahl für ein mehrzeiliges Textfeld angegeben.
+    Wird der Wert 1 eingegeben, können über die Enter-Taste mehrere Zeilen verwendet werden. Wird ein größerer
+    Wert bereits eingetragen, wird die Anzahl der vorgegeben Zeilen bereits in dem Baustein berücksichtigt
 
-Indem Sie einen Standard Text eingeben, können Sie einen Standard-Inhalt vorgeben. Nehmen wir an Sie legen neue Kunden
-immer mit den gleichen Zahlungsbedigungen an, können Sie diese hier vorbelegen, jedoch ebenso überschreiben.
+2. Standard Text
+    Vorgabe eines Standardtext (dieser kann in der Eingabe eines Listeneintrags überschrieben werden)
 
-Das Einstellungsfeld Tooltip (1) eröffnet Ihnen die Möglichkeit ein Hinweistext zu dem Baustein zu erfassen, zum Beispiel
-was Sie vom Nutzer für Inhalte erwarten, oder in welchem Format. Den Tooltip sehen Sie dann als Pop-Up
-mit einem kleinen i Button in Ihrem Baustein (1).
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
-Der Textfeld Baustein ist hoch individuell und kann in nahezu jeder Liste Verwendung finden, in welcher
-beliebige Inhalte erfasst werden sollen.
+3. Tooltip
+    Tooltips werden genutzt um den Nutzer bei der Eingabe Hinweistexte anzeigen zu lassen um z. B. auf bestimmte
+    Eingabebedingungen hinzuweisen oder Hilfestellungen anzubieten. Tooltips erscheinen in einem kleinen Pop-Up Fenster.
 
 ### <span style="color:#3d85c6">Nummer</span>
 
-Während Sie mit dem Textfeld Baustein jeglichen Inhalt erfassen können, ist der `Nummer` Baustein dem Namen entsprechend
-nur mit Zahlenwerten füllbar - bedeutet keine Buchstaben und keine Sonderzeichen.
+Der Baustein *Nummer* kann ausschließlich mit Zahlenwerten gefüllt werden.
 
 ![number](..\assets\record-spec-settings\1number.png "number")
 
-Der Vorteil von Nummern-Bausteinen ist, dass Sie hier nur Zahlenwerte zulassen können und Falscheingaben vorbeugen,
-wie z.B. PLZ, Beträge, Auftragsnummern oder Zeiten. Zudem können Sie mit Nummern-Bausteinen über den `Formel` Baustein
-rechnen. *Bitte beachten Sie*, dass Falscheingaben nach Verlassen des Dialogfensters gelöscht werden.
-
-Auch beim Nummernfeld können Sie, so wie beim Textfeld, ein Tooltip hinterlegen.
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. PLZ, Beträge,
+Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im Baustein *Formel*.
+**Bitte beachten:**  
+Falscheingaben werden nach Verlassen des Dialogfensters gelöscht.
 
 ### <span style="color:#3d85c6">Schalter</span>
 
-Mit dem `Schalter` Baustein können Sie eine einfache Ja / Nein, Erfüllt / Nicht erfüllt Abfrage in der App darstellen.
+Mit dem Baustein *Schalter* werden einfache "Ja / Nein"-, "Erfüllt / Nicht erfüllt"-Abfragen in der App dargestellt.
 
 ![switch](..\assets\record-spec-settings\1switch.png "switch")
 
-Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Zudem können Sie im Ausdruck noch wählen,
-ob der Schalter als Ja / Nein, Checkbox, Beschreibung oder leer dargestellt werden soll.
+Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Darüberhinaus kann im Ausdruck gewählt
+werden, ob der Schalter als Ja / Nein, Checkbox, Beschreibung oder leer dargestellt werden soll.
 
-Mit dem Schalter können Sie zudem einfache Anzeigen oder Nur Lesen und unter Bedingung anzeigen darstellen.
-Die einfachste Abfrage hierbei ist: Soll etwas eingeblendet werden? Switch für´s Einblenden wird auf ja
-gestellt und die einzublendenen Bausteine sind mit Anzeigen unter Bedingung Switch ja eingestellt.
-Der Schalter eignet sich außerdem, um eine einfache Checkliste zu erstellen.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Mit dem Baustein *Schalter* kann ebenfalls gesteuert werden, ob versteckte Bausteine unter der Bedingung des Schalters
+angezeigt werden sollen (z. B. wird der Schalter auf "Ja" gestellt, zeige den Baustein "Auftragsnummer" an).
 
 ### <span style="color:#3d85c6">Drop-Down</span>
 
-Durch den `Drop-Down` Baustein haben Sie eine erweiterte Einstellung, als mit dem Schalter. Sie können hier
-individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten vergeben. Zudem haben Sie hier die Möglichkeit
-eine beliebige Anzahl an individuellen Auswahlmöglichkeiten zu vergeben.
+Durch den Baustein *Drop-Down* können individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten
+vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.
 
 ![drop-down](..\assets\record-spec-settings\1drop-down.png "drop-down")
 
-Über die jeweilige Mülltonne der einzelnen Optionen (2) können Sie diese löschen. Durch das = Symbol können Sie die Reihenfolge
-ändern. Bitte beachten Sie, dass Sie eine Drop-Down Auswahl nur löschen oder umbenennen können, wenn keine Datensätze mit
-der jeweiligen Antwort vorhanden sind.
+1. Optionen (Vorgabe Auswahlmöglichkeiten)
+    Unter Optionen werden die Auswahlmöglichkeiten vorgegeben. Über das Mülleimer-Symbol können die Auswahlmöglichkeiten
+    wieder gelöscht werden. Mit dem = Symbol können die Einträge in ihrer Reihenfolge geändert werden.
+    
+    **Bitte beachten:**  
+    Das Löschen oder Umbenennen der Auswahlmöglichkeiten ist nur möglich, wenn **keine** Datensätze mit der entsprechenden
+    Option vorhanden ist.
 
-Sie haben zudem die Möglichkeit eine Standard-Antwort (3) zu hinterlegen. Im Beispiel einer Checkliste könnten Sie die Antworten
-OK, nicht OK und nicht bewertet anlegen. Durch die Standard-Antwort nicht bewertet können Sie darüber filtern und
-haben zudem noch die Sicherheit, dass eine Eingabe erforderlich ist.
+2. Standard Option
+    Hier kann eine Standard-Antwortmöglichkeit bei der Datenerfassung vorgegeben werden. Diese lässt sich während der Eingabe
+    ändern.
 
-Die Filterung über Drop-Down ermöglicht Ihnen zudem eine Klassifizierung eines Datensatzes. Zum Beispiel geprüft / nicht geprüft
-oder Prioritäten hoch, mittel, gering. Somit könnten Sie sich auch Filterkacheln über dieses Feld erstellen.
-Weiterhin haben Sie auch hier die Möglichkeit Tooltips anzulegen.
-
-Die Auswahl des Inhalts des Drop-Down Feldes erfolgt immer über ein Pop-Up Fenster.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Die Auswahl einer Auswahlmöglichkeit erfolgt immer über ein Pop-Up Fenster.
 
 ### <span style="color:#3d85c6">Datum</span>
 
-Mit dem `Datum` Baustein können Sie ein Einzeldatum pro Datensatz einstellen. Dieses ist auch inklusive Uhrzeit möglich.
+Mit dem Baustein *Datum* kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit.
 
 ![date](..\assets\record-spec-settings\1date.png "date")
 
@@ -160,185 +163,120 @@ Das heutige Datum ist immer voreingestellt.
 Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
-Sie können Ihre Liste zudem nach Datum filtern, Filterlisten über Datumsformeln erstellen oder ganz einfach die Sortierung
-Ihrer Liste nach Datum Auf- oder Absteigend einstellen.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ### <span style="color:#3d85c6">Zeitspanne</span>
 
-Durch den `Zeitspanne` Baustein haben Sie die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.
-Anders als Datum + Uhrzeit rechnet der Zeitspanne Baustein (Von - Bis) auch die Stunden und Minuten der Zeitspanne aus.
+Durch den Baustein *Zeitspanne* besteht die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.
+Anders als Datum + Uhrzeit rechnet dieser Baustein (Von - Bis) auch die Stunden und Minuten der erfassten Zeitspanne aus.
 
 ![interval](..\assets\record-spec-settings\1interval.png "interval")
 
-Mit der Kombination von Datum und Zeitspanne (sowie Pausen) ist bereits eine einfache Zeiterfassung über die
-Univelop App möglich.
-
-Sie können zudem den Formel Baustein mit der Zeitspanne kombinieren, um sich nur den Dezimalwert der Zeitspanne ausgeben zu
-lassen. Somit könnten Sie z.B. mit Arbeitszeiten rechnen.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+In Kombination mit dem Baustein *Formel* kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.
 
 ### <span style="color:#3d85c6">Benutzer</span>
 
-Der `Benutzer` Baustein bietet Ihnen die Möglichkeit den Datensatz einem Benutzer oder Team zuzuordnen. Dies eröffnet Ihnen
-die Möglichkeit Verantwortlichkeiten zu hinterlegen. Bitte beachten Sie, dass ein Benutzer Mitglied Ihres Arbeitsbereichs
-sein muss und einem Team zugeordnet sein sollte.
+Der Baustein *Benutzer* bietet die Möglichkeit den Datensatz einem bestimmten Benutzer zuzuordnen. Dadurch können
+Verantwortlichkeiten verteilt werden. Wichtig hierbei ist, dass der Benutzer dem Arbeitsbereich zugeordnet sein muss.
 
-Sie haben zudem drei spezielle Einstellungsmöglichkeiten:
+![user](..\assets\record-spec-settings\2user.png "user")
 
-    - Aktuellen Besitzer standardmäßig einsetzen (Ordnet dem Ersteller den Datensatz zu)
-    - Besitzer ändern (Gibt Ihnen die Möglichkeit den Besitzer zu ändern)
-    - Besitzerteam ebenfalls ändern (Ändert mit dem Besitzer auch das zugeordnete Team)
+Folgende Einstellungen sind möglich:
 
-Diese Einstellungen geben Ihnen die Möglichkeit nach Besitzer oder Team zu filtern, sowie
+1. aktuellen Besitzer standardmäßig setzen
+    (Ersteller des Datensatzes wird automatisch auch Besitzer)
+2. Besitzer ändern
+3. Besitzerteam ebenfalls ändern
+    Wird der Besitzer geändert und dieser ist ebenfalls in der Mitgliederverwaltung ein anderes Team zugeordnet
+    wird dieses automatisch mit geändert/berücksichtigt
+
+Mit diesen Einstellungen kann nach Besitzer oder Team gefiltert werden, sowie
 Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
 
 ### <span style="color:#3d85c6">Team</span>
 
-Den `Team` Baustein könnten Sie als light Variante des Besitzer-Bausteins verstehen.
-Durch die globalen Team Einstellungen (Teams benennen und hinzufügen - Rollen und Rechte je Team) können Sie
-die Mitglieder Ihres Arbeitsbereichs einem Team zuordnen, z.B. Vertrieb, Verwaltung, Controlling und 
-hierüber Lese- und Schreibrechte je Team vergeben. Die Teamnamen können Sie hierbei individuell bestimmen.
+Der Baustein *Team* kann als Light-Variante des Bausteins *Benutzer* verstanden werden.
 
-Der Baustein hat die Möglichkeit Besitzerteam ändern, dadurch wird der Datensatz einem Team zugeordnet.
-Diese Einstellung muss für die vorgenannten Möglichkeiten aktiviert werden.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Der Baustein hat die Möglichkeit das Besitzerteam zu ändern, dadurch wird der Datensatz einem Team zugeordnet
+und dient hauptsächlich der Filterung von Datensätzen in bestimmten Kacheln.
 
 ### <span style="color:#3d85c6">Bild Upload</span>
 
-Mit dem `Bild Upload` Baustein können Sie beliebige Bilder hochladen. Dies funktioniert als Einzelbild oder Sie
-können mehrere Bilder als uploads zulassen. Sie haben zudem die Möglichkeit Zoom zu verbieten und die Qualität als
-original, niedrig, mittel oder hoch einzustellen. Das Bild wird entsprechend der Qualitätseinstellung gerendert.
+Mit dem Baustein *Bild Upload* können beliebig viele Bilder hochgeladen werden.  
+Folgende Einstellungen sind möglich:
 
-Bitte beachten Sie, dass die Bilder in der App immer standardmäßig nebeneinander dargestellt werden. Wenn Sie den Switch Mehrere Bilder auswählen, können Sie auch mehrere Bilder gleichzeitig hochladen.
+![upload picture](..\assets\record-spec-settings\1upload picture.png "upload picture")
 
-Sie können zudem die Darstellung im Ausdruck bearbeiten. Die Größe kann klein, mittel oder groß gewählt werden.
-Die Anordnung kann nebeneinander oder untereinander erfolgen. Das Löschen von hochgeladenen Bildern ist über die Mülltonne 
-möglich, es erscheint ein Pop-Up mit der Abfrage, ob das Bild tatsächlich gelöscht werden soll.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+1. Mehrere Bilder hochladen erlauben
+    Bezieht sich ausschließlich auf den Upload, nicht auf das Aufnehmen von mehrere Bildern über ein mobiles
+    Endgerät
+2. Zoom verbieten
+3. Qualität
+    Einstellung der hochgeladenen Qualität
+4. Größe
+    Wie groß sollen die Bilder in dem Ausdruck angezeigt werden
+5. Anordnung der Bilder
+    Auswahlmöglichkeiten: nebeneinander oder untereinander  
+    **Bitte beachten:**  
+    In der App werden Bilder immer standardmäßig nebeneinander dargestellt.
 
 ### <span style="color:#3d85c6">Datei Upload</span>
 
-Der `Datei Upload` Baustein ermöglicht es Ihnen Dateien aller Art hochzuladen. Es sind beliebig viele Mehrfachuploads möglich,
-jedoch empfehlen wir aufgrund der Übersichtlichkeit bei einer hohen Anzahl an Dateien diese thematisch in mehreren Bausteinen
-hochzuladen, z.B. Datei Upload Bausteine mit den Titeln Pläne, Dokumentation, Tagesberichte. Das löschen von Dateien erfolgt
-mit der Mülltonne, es erscheint ein Pop-Up mit der Abfrage, ob die Datei tatsächlich gelöscht werden soll.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Der Baustein *Datei Upload* ermöglicht das Hochladen verschiedener Dateien aller Art (ebenso Mehrfachupload).
+Hinsichtlich der Übersichtlichkeit empiehlt sich das erstellen mehrere Bausteine *Datei Upload* und diese zu
+kategorisieren.
 
 ### <span style="color:#3d85c6">E-Mail</span>
 
-Durch den `E-Mail` Baustein können Sie Mailadressen im System hinterlegen. Im Bearbeitungsmodus können Sie durch Klicken
-auf das Mailsymbol eine Mail an die hinterlegte Adresse senden, es öffnet sich Ihr Standard-Mailprogramm.
+Durch den Baustein *E-Mail* können Mailadressen im System hinterlegt werden. Befindet man sich in einem Datensatz
+mit einer hinterlegten E-Mail-Adresse kann über das Brief-Symbol das Standard-Mailprogramm geöffnet werden.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+![mail](..\assets\record-spec-settings\1mail.png "mail")
 
 ### <span style="color:#3d85c6">Telefon</span>
 
-Mit dem `Telefon` Baustein können Sie eine beliebige Telefonnummer hinterlegen. Analog zu dem E-Mail Baustein öffnet sich
-auch hier durch das Klicken auf das Hörer Symbol Ihr Telefondienst und Sie können die Nummer direkt anrufen.
+Mit dem Baustein *Telefon* kann eine beliebige Telefonnummer hinterlegt werden. Analog zu dem Baustein *E-Mail*
+öffnet sich auch hier durch das Klicken auf das Hörer-Symbol Ihr Telefondienst und die Telefonnummer wird direkt
+angerufen.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
-
+![telephone](..\assets\record-spec-settings\1telephone.png "telephone")
 ---
 
 ## <span style="color:#0b5394">Erweiterte Bausteine</span>
 
-Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Sie
-Listen und Bausteine verknüpfen, sowie Dateien und Stati hinterlegen.
+Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Listen und
+Bausteine verknüpft, sowie Dateien und Stati hinterlegt werden.
 
 ![expanded](..\assets\record-spec-settings\expanded.png "expanded")
 
 ### <span style="color:#3d85c6">Datei</span>
 
-Den `Datei` Baustein können Sie überall dort verwenden, wo Sie feste Dateien für eine Liste hinterlegen möchten.
-Er findet zum Beispiel dort Anwendung, wo Sie allgemeingültige Dokumente, wie zum Beispiel Checklisten,
-Arbeitsschutz-Informationen oder Hygienemaßnahmen nicht veränderbar ablegen möchten.
+Den Baustein *Datei* kann überall dort verwendet werden, wo feste Dateien für eine Liste zum Einsatz kommen sollen.
+Er findet zum Beispiel dort Anwendung, wo allgemeingültige Dokumente, wie zum Beispiel Checklisten, Arbeitsschutz-
+Informationen o. ä. nicht veränderbar abgelegt werden sollen.
 
-Ähnlich dem `Datei upload` können Sie hier auch jedes Dateiformat hochladen, sowie einen Mehrfachupload vornehmen.
-Die Dateien werden bei diesem Baustein jedoch zentral im Designmodus hinterlegt.
+Alle Dateiformate und ein Mehrfachupload ist möglich. Das hinterlegen der Dateien erfolgt im Designmodus in den
+Einstellungen des Bausteins selbst.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+![file](..\assets\record-spec-settings\1file.png "file")
 
 ### <span style="color:#3d85c6">Datensatz</span>
 
-Mit dem `Datensatz` Baustein stellen Sie eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste in Ihrem
-Arbeitsbereich her. So können Sie Ihrem einzelnen Datensatz einen anderen Datensatz zuordnen.
+Mit dem Baustein *Datensatz* wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem
+Arbeitsbereich hergestellt.
 
-Sie haben zudem die Möglichkeit sich aus ihrer Liste heraus über `Filter und Sortierung` nur bestimmte Datensätze einer
-anderen Liste anzeigen zu lassen. Als Beispiel befinden Sie sich in einer Liste namens Bauvorhaben und möchten
-den Datensatz mit Kunden verknüpfen. Die Kunden haben Sie über Drop-Down oder Status als aktiv und inaktiv klassifiziert.
-So können Sie den Filter einstellen, dass Ihnen nur aktive Kunden angezeigt werden.
+Über die Funktion *Filter und Sortierung* lassen sich je nach Einstellung nur bestimmte Datensätze anzeigen. 
 
-Eine weitere Funktion bietet Ihnen `Werte des verknüpften Datensatzes übernehmen`. Über diese Funktion können Sie
-bestimmte Einzeldaten des verknüpften Datensatzes übernehmen und bestimmen welche Daten in welches Feld übernommen werden
-sollen. Hierbei gilt es zu beachten, dass die jeweiligen Bausteine, die übernommen werden sollen, in beiden
-Listen gleich sein müssen. Sie können nur Textfeld zu Textfeld übernehmen, sowie Drop-Down zu Drop-Down (mit gleicher Auswahl).
-So haben Sie die Möglichkeit in einer dynamischen Liste mit den Stammdaten einer anderen Liste weiter zu arbeiten.
-Durch die Verknüpfung mit einem Schalter könnten Sie nun auch die übernommenen Daten ausblenden und die 
-Einblendung zulassen, wenn der Schalter auf ja betätigt wird.
-
-Die dritte Funktion dieses Bausteins ist 
-`Diesen Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird?`. Der switch sorgt dafür,
-dass der einzelne verknüpfte Datensatz gelöscht oder dupliziert wird, wenn der verknüpfte es wird.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Verknüpfungsmöglichkeiten sind in den Docs unter [Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen") zu finden.
 
 ### <span style="color:#3d85c6">Datensatz Liste</span>
 
-Der Baustein `Datensatz Liste` sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
+Der Baustein *Datensatz Liste* sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
 In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein, 
 eine einfache Verknüpfung mit einer anderen Liste wählen.
 
 Da Ihnen durch die einfache Verknüpfung alle Datensätze der verknüpften Liste angezeigt werden, müssen Sie
-die Anzeige nun bedingt filtern. Hierzu gibt es, je nach Inhalt der beiden Listen, zwei Wege.
-
-    1. Verknüpfung über
-    Diese Funktion wählen Sie aus, wenn Sie in der verknüpften Liste einen Datensatz Baustein haben,
-    welcher auf Ihre aktuelle Liste verweist. Es handelt sich hierbei um eine einfache Verknüpfung
-    über Ihren aktuellen Datensatz.
-
-    2. Filter und Sortierung
-    Sie können die Funktion Filter und Sortierung nicht nur zur allgemein reduzierten Anzeige nutzen, sondern
-    auch zur Datensatzverknüpfung und daraus resultierenden reduzierten Anzeige. Wenn Sie in dieser Liste und 
-    der zu verknüpfenden Liste eine einfache Datensatz-Verknüpfung zu einer dritten Liste haben, 
-    können Sie diese nutzen und auswählen "zeige mir nur die Datensätze der beidseitig verknüpften Listen 
-    mit der dritten Liste, wenn der Wert der dritten Liste dem Baustein (=B) XY entspricht. 
-    Beispiel: Sie haben die Listen Kunden, Bauvorhaben und Ansprechpartner Kunde. 
-    In den Listen Bauvorhaben und Ansprechpartner haben Sie den Datensatz Baustein 
-    verwendet, um die einzelnen Daten mit der Liste Kunden zu verknüpfen. Sie möchten in den Bauvorhaben nun 
-    eine Liste aller Ansprechpartner des Kunden haben, also wählen Sie aus zeige mir alle Ansprechpartner 
-    von Kunde ist =B Kunde.
-
-Über die Funktion `Filter und Sortierung` können Sie sich zudem weitere Filter zur Anzeige bestimmter Datensätze
-setzen. Durch den = Filter werden nur bestimmte Daten angezeigt. Eine weitere Möglichkeit ist den Zahlenfilter
-mit <, >, <= und >= zu setzen. Weiterhin haben Sie die Möglichkeit feste Datumsfilter zu setzen (Auswahl des
-Datums) und dynamische Datumsfilter über den Formel Button einzusetzen. Mehr dazu in unserer `Formelsammlung`
-
-Die Liste kann als eingebettete Liste, indem die einzelnen Datensätze angezeigt werden, erfolgen, oder
-als Link zur Liste, wobei die Anzahl oder Summe über einen Baustein angezeigt wird.
-
-Durch die `Eingebettete Liste` können Sie sich eine bestimmte Anzahl an Datensätzen als Vorschau anzeigen lassen.
-Dies birgt den Vorteil, dass Sie direkt zu den einzelnen Datensätzen springen können und eine Übersicht haben.
-Es ist vor allem dann sinnvoll, wenn Sie in der verknüpften Liste die Schnellerfassung aktivieren und über
-diese Liste Datensätze erfassen möchten.
-
-Mit dem `Link zur Liste` können Sie sich entweder die Anzahl der verknüpften Datensätze anzeigen lassen oder
-die Summe über einen Zahlenbaustein wählen. Dies können Nummern- oder Formelfelder sein, aber auch
-Zeitspannen. Im Beispiel der Zeiterfassung könnte man so zum Beispiel alle Arbeitszeiten pro Auftrag
-darstellen. Sie haben zudem die Möglichkeit ein Präfix, z.B. Std. einzutragen.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
-
-Im Kapitel zum Verknüpfen von Listen finden Sie eine ausführliche Erklärung, sowie Beispiele
-zum Verknüpfen von Listen.
+die Anzeige nun bedingt filtern. Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter [Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen") zu finden.
 
 ### <span style="color:#3d85c6">Freigabe</span>
 
@@ -346,156 +284,151 @@ Test
 
 ### <span style="color:#3d85c6">Status</span>
 
-Mit dem `Status` Baustein können Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
-Unternehmen darstellen. Neben den einfachen Stati aktiv / inaktiv, könnten Sie den gesamten Vertriebsprozess
-von Anfrage, über Kundentermin bis zu Rechnung gestellt erfassen.
+Mit dem Baustein *Status* önnen Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
+Unternehmen dargestellt werden.
 
-Sie haben pro Status die Möglichkeit ein individuelles Icon und eine Farbe zu vergeben. Die Reihenfolge der Stati
-können Sie über das = Symbol verschieben. Ebenso könnten Sie Stati mit der Mülltonne löschen, vorausgesetzt
-der Status ist in keinem Datensatz vorhanden. Durch die Icons können Sie die Stati schnell sichtbar in die
-Kurzübersicht der Datensätze in der Liste setzen und danach Filtern.
+Pro Status kann ein individuelles Icon und eine Farbe gesetzt werden. Die Reihenfolge der Stati wird über das = Symbol
+verschoben. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
 
-Ein weiteres Feature dieses Bausteins ist die Vergabe von Pflichtfeldern pro Status. Das bedeutet, dass Sie
-in jedem Fall das jeweilige Feld ausfüllen müssen, um den jeweiligen Status auswählen zu können.
+Ein zusätzliches Feature ist die Vergabe von Pflichtfeldern pro Status. Bedeutet, der Nutzer die als Pflichtfeld gekennzeichneten
+Datenfelder ausfüllen um den jeweiligen Status auswählen zu können.
 
-Eine Statusänderung können Sie durch Klicken auf den Status vornehmen, oder durch einen Status-Button.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Eine Statusänderung erfolgt entweder per Klick auf den Status oder über den Status-Button.
 
 ### <span style="color:#3d85c6">Status Button</span>
 
-Den `Status Button` Baustein können Sie nur mit einem Status Baustein verknüpfen. Über Verknüpfen mit wählen
-Sie den gewünschten Status Baustein Ihrer Liste aus, den Sie ansteuern möchten. Mit der Wahl Status wählen Sie
-den Status, der angewählt werden soll.
-
-Der Status Button eignet sich dort besonders gut, wo Sie in einem Prozess einen Status vergeben möchten,
-aber nicht zum Status Baustein scrollen möchten, bzw. dies hinderlich ist und einfacher über einen Button
-angesteuert werden kann.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Den Baustein *Status Button* kann nur mit dem Baustein *Status* verknüpft werden. Über "Verknüpfung mit" wird der gewünschte
+Baustein *Status*, den Sie ansteuern möchten, ausgewählt. Mit der Wahl Status wird der Status ausgewählt, der angewählt werden soll.
 
 ### <span style="color:#3d85c6">Laufende Nummer</span>
 
-Den `Laufende Nummer` Baustein verwenden Sie überall dort wo Sie Ihren Datensätzen einer Liste
-eine fortlaufende Nummer geben möchten. Üblicherweise eignen sich hierfür Kunden, Bauvorhaben, Lieferscheine,
-Rechnungen, Artikel, Mitarbeiter oder ähnliche Datensätze.
+Den Baustein *Laufende Nummer* wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
+(z. B. Kunden, Bauvorhaben, Lieferscheine, etc.).
 
-Sie haben die Möglichkeit Ihrem Nummernkreis ein passendes Präfix zu geben, i.d.R. werden hierfür
-einzelne Buchstaben, Buchstabenkombinationen oder "Jahreszahl-" verwendet. Bitte beachten Sie, dass 
-Leerzeichen zur Trennung von Buchstabe und Zahl vom System ignoriert werden. Zudem können Sie die 
-Anzahl der Ziffern selbst bestimmen.
+![rolling number](..\assets\record-spec-settings\1rolling number.png "rolling number")
 
-Im Designmodus sehen Sie zudem die letzte gewählte Nummer. Sollten Sie sich einmal verklickt haben,
-müssten Sie die letzte Nummer hier wieder anpassen, sodass keine Lücke entsteht.
-Im Bearbeitungsmodus können Sie entweder "Nächste Nummer" wählen, oder diese individuell über
-"Eingabe" eintragen.
+1. Präfix  
+    i.d.R. werden hierfür einzelne Buchstaben, Buchstabenkombinationen oder "Jahreszahl-" verwendet.
+    Leerzeichen zur Trennung von Buchstabe und Zahl werden vom System ignoriert.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+2. Anzahl der Ziffer  
+    Länge der laufenden Nummer
+3. letzte Nummer  
+    kann bei einer versehentlichen Lücke korrigiert werden
+4. Mit manuellen Nummern  
+    Erfassung der laufenden Nummer über den Button "Nächste Nummer" oder per manueller Eingabe ermöglichen
 
 ### <span style="color:#3d85c6">Formel</span>
 
-Mit dem `Formel` Baustein können Sie rechnen, dynamisch auf verknüpfte Datensätze zugreifen
-oder unter Bedingungen bestimmte Werte ausgeben. Die Formel geben Sie nur im
-Designmodus ein und der Baustein ist im BEarbeitungsmodus nur lesbar.
+Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
+bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung
+**nur lesbar**.
 
 Dies geschieht wie folgt:
-
-    1. Auf andere Bausteine greifen Sie über den technischen Namen zu
+1. Auf andere Bausteine wird über den technischen Namen zugegriffen.
     Wie bereits beschrieben müssen technische Namen innerhalb einer Liste
     einzigartig sein. Durch diese Einzigartigkeit weiß der Formel Baustein
     auf welchen Datensatz er zugreifen soll.
 
-    2. Den Inhalt eines anderen Bausteins widergeben
-    Durch das Schreiben des technischen Namens eines anderen Baustein können Sie
-    bereits den Inhalt widergeben. Ein = vor der Formel ist nicht erforderlich.
+2. Den Inhalt eines anderen Bausteins widergeben
+    Durch das Schreiben des technischen Namens eines anderen Baustein kann
+    bereits der Inhalt wiedergegeben werden. Ein = vor der Formel ist nicht erforderlich.
 
-    3. Kombinieren von Datensätzen
-    Verschiedene Datensätze kombinieren Sie nun über über +, -, *, / miteinander.
+3. Kombinieren von Datensätzen
+    Verschiedene Datensätze werden kombiniert über +, -, *, /
     Also: technischername1+technischername2
-    Sie können auch Zahlen- und Textwerte miteinander verknüpfen.
+    Ebenfalls möglich: Zahlen- und Textwerte miteinander verknüpfen.
     Beim Beispiel PLZ und Ort könnte das Ergebnis 21085Hamburg lauten.
-    Durch solche Kombinationen könnten Sie eine Sortierung erschaffen.
+    Somit erstellt man z. B. Sortiercodes.
 
-    4. Dynamischer Zugriff auf verknüpfte Daten
-    Wie beschrieben greifen Sie durch nennen des technischen Namens bereits
-    auf die Daten des jeweiligen Baustein zu. Durch ein Punkt hinter dem
-    technischen Namen weiß der Formel Baustein, dass Sie in den
-    verknüpften Datensatz möchten und greift dort über einen weiteren
-    technischen Namen auf den gewünschten Datensatz zu.
+4. Dynamischer Zugriff auf verknüpfte Daten
+    Durch ein Punkt hinter dem technischen Namen weiß der Formel Baustein, dass in dem
+    verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
     Also: technischernamebausteindieseliste.technischernamebausteinverknüpfteliste
 
-Weitere Formeln und Möglichkeiten mit dem Formel Baustein finden Sie in unserer Formelsammlung.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](https://univelop.github.io/docs/formulary.html  "Formelsammlung") zu finden.
 
 ### <span style="color:#3d85c6">Unterschrift</span>
 
-Mit dem `Unterschrift` Baustein können Sie je Datensatz / je Baustein eine Unterschrift erfassen.
-Sie haben zudem die Möglichkeit eine Klausel für die Unterschrift zu erfassen, sodass die 
-unterschreibende Person über dem Unterschriftfeld nochmal darauf hingewiesen wird wofür Sie
-die Unterschrift leistet.
+Mit dem Baustein *Unterschrift* kann je Datensatz / je Baustein eine Unterschrift erfasst werden.
+Zu jeder Unterschrift kann auch eine Klausel erfasst werden (z. B. Hinweis auf AGBs, etc.).
 
 Im Bearbeitungsmodus ist ein Klick auf das weiße Feld "Hier unterschreiben" notwendig.
-Es öffnet sich ein neues Fenster, hier steht die genannte Klausel nochmal. Die Person kann
-auf einem Touch Gerät oder mit dem Mauszeiger unterschreiben. Sie haben hier zudem noch die
-Möglichkeit den Namen der Person zu notieren. Durch das klicken auf Speichern speichern Sie
-die Unterschrift.
+
+![signature](..\assets\record-spec-settings\1signature.png "signature")
+
+Es öffnet sich ein neues Fenster, in dem die festgelegte Klausel noch einmal erscheint. Unterschrieben
+werden kann auf einem mobilen Endgerät auf dem Display oder per Mauszeiger. Des Weiteren kann
+der Namen der Person zu notieren. Wird die Unterschrift gespeichert, wird neben dem Klarnamen auch
+das Unterschriftsdatum ausgegeben.
+
+![signature](..\assets\record-spec-settings\1signature2.png "signature")
+
+**Beispielergebnis:**  
+![signature](..\assets\record-spec-settings\1signature3.png "signature")
 
 Das Löschen der Unterschrift erfolgt auf gleichem Weg wie das Unterschreiben.
-Sie klicken auf das Unterschriftsfeld und löschen die Unterschrift.
-
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Ein Klick auf das Unterschriftsfeld und anschließend über den Button "Löschen" die Erfassung
+löschen.
 
 ### <span style="color:#3d85c6">Kommentare</span>
 
-Hier können beliebig viele `Kommentare` erfasst werden. Der Baustein hat im Gegensatz zum
-mehrzeiligen Textfeld den Vorteil, dass Kommentarerfasser, sowie Datum und Uhrzeit automatisch
-angelegt werden.
+Der Baustein *Kommentare* ist aufgebaut wie ein Chat/Forum. Zu bestimmten Datensätze bietet sich dieser
+Baustein an, da er, im Gegensatz zu dem mehrzeiligen Textfeld, den Vorteil hat, dass der Kommentarerfasser,
+sowie das Datum und die Uhrzeit automatisch mit angelegt werden. Ggf. bietet sich diese Kommentarfunktion für den
+Austausch von Problemen vor Ort, o. ä. 
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+![comments](..\assets\record-spec-settings\1comments.png "comments")
 
 ### <span style="color:#3d85c6">PDF erstellen</span>
 
-Mit dem `PDF erstellen` Baustein können Sie, ausgehend von einer Word Vorlage, eine PDF Datei erstellen
-und versenden. Die Word Datei können Sie dabei individuell gestalten und sich auf die Liste beziehen
-in welcher Sie die PDF Datei erstellen. Sie können dabei sämtliche darstellbare Inhalte drucken,
-so auch neben Buchstaben und Zahlen Bilddateien. Weiterhin können Sie verknüpfte Datensatz-Listen drucken.
+Mit dem Baustein *PDF erstellen* kann, ausgehend von einer Word Vorlage, eine PDF Datei erstellt
+und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gestaltet werden und sich
+auf die Liste beziehen in welcher die PDF-Datei erstellt wird. Alle darstellbaren Inhalte sind andruckbar,
+neben Buchstaben und Zahlen auch Bilddateien und die Unterschrift. Zusätzlich können verknüpfte Datensatz-Listen
+ausgegeben werden.
 
-    1. Ausgabe von Einzelwerten
-    Einzelne Werte geben Sie aus, indem Sie sich mit ${} auf die Inhalte der Einträge beziehen.
-    Sie möchten zum Beispiel eine Belegnummer mit ausgeben, also könnte der Inhalt der
-    Word-Datei Lauten "Kundenbeleg ${belegnummer}".
+**Vorbereitung in der Wordvorlage:**  
+![create pdf](..\assets\record-spec-settings\1create pdf.png "create pdf")  
+1. Ausgabe von Einzelwerten  
+    Die Ausgabe von Einzelwerten erfolgt indem in der Wordvorlage der technische Name eines Bausteins innerhalb der
+    zwei geschwungenen Klammern gesetzt wird. Beispiel: Rechnungsnummer ${belegnummer}.
 
-    2. Ausgabe von Schaltern
-    Die Ausgabe des Schalter Bausteins können Sie im Designmodus des Schalter Baustein festlegen.
-    Also Als Checkbox, Ja / Nein oder Nennen des Inhalts oder auch nicht.
+2. Ausgabe von Schaltern  
+    Die Ausgabe des Bausteins *Schalter* kann im Designmodus in den Einstellungen des Bausteins unter festgelegt
+    "Darstellung als Ausdruck" als "Checkbox", "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
 
-    3. Ausgabe von Datensatz-Liste
-    Sie können auch eine ganze Datensatz-Liste ausgeben. Hierzu müssen Sie eine Tabelle zeichnen.
-    Gehen wir davon aus Sie möchten Mitarbeiterzeiten pro Auftrag drucken und haben die
-    Mitarbeiterzeiten als Datensatz Liste in Aufträgen integriert.
+3. Ausgabe von Datensatz-Liste  
+    Um die Daten einer Datensatz-Liste auszugeben, muss in der Word-Vorlage eine entsprechende Tabelle gezeichnet werden.
     
-So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
+    So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
 
-|**Arbeitszeit**                             |**Mitarbeiter**|
-|${repeat(mitarbeiterzeiten)}            |           |
-|${mitarbeiterzeiten.Arbeitszeit}        |${mitarbeiterzeiten.name}|
-|${endrepeat}                            |                         |
+    |**Arbeitszeit**                         |**Mitarbeiter**|
+    |${repeat(mitarbeiterzeiten)}            |           |
+    |${mitarbeiterzeiten.Arbeitszeit}        |${mitarbeiterzeiten.name}|
+    |${endrepeat}                            |                         |
 
-Diese Liste können Sie über beliebig viele Spalten erweitern, solange diese in der Datensatz-Liste vorkommen,
-auf welche Sie zugreifen. Bitte beachten Sie, dass Sie nicht mehrere Listen innerhalb einer Tabelle kombinieren
-können, da das Programm immer nur auf eine Liste gleichzeitig zugreifen kann.
+    Die gezeichnete Tabelle in der Wordvorlage kann um beliebig viele Spalten erweitert werden, solange
+    diese in der Datensatz-Liste vorkommen.  
+    **Bitte beachten:**  
+    innerhalb einer gezeichneten Tabelle kann mit der "Repeat"-Funktion nicht auf mehrere Datensatz Listen zugegriffen werden.
+    Mit der "Repeat"-Funktion kann sich immer nur auf **eine** Datensatz Liste zur Zeit bezogen werden.
 
-Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Auch hier können
-Sie sich auf einen bestimmten Datensatz beziehen. Soll die PDF-Datei zum Beispiel so
-heißen wie die Belegnummer, können Sie hier ${belegnummer} eingeben.
+![create pdf settings](..\assets\record-spec-settings\1create pdf settings.png "create pdf settings")
 
-Zur automatischen Dateiübertragung können Sie auch Dateien Per Powershell mit dem Dateisystem
-synchronisieren.
+1. Dateivorlage hinzufügen  
+    Über den Plus-Button öffnet sich ein Auswahldialog,
 
-Ein weiteres Feature ist der Mailversand aus dem PDF erstellen Baustein heraus. Hier könnten
-Sie auch bereits An, CC und BCC, sowie den Benutzer in CC im Vorfeld belegen. Betreff und
-Inhalt können mit Standardtexten vorgefertigt werden und ebenfalls dynamische Daten
-über ${} enthalten.
+2. abweichender bzw. dynamischer Dateinahme  
+    Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Soll der Dateiname zum Teil dynamisch sein
+    kann ebenfalls ein Platzhalter mit Bezug zu einem Baustein eingesetzt werden. Soll die PDF-Datei zum Beispiel so
+    heißen wie die Belegnummer, können Sie hier ${belegnummer} eingeben.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+3. automatische Dateiübertragung per PowerShell  
+    Zur automatischen Dateiübertragung können Sie auch Dateien Per Powershell mit dem Dateisystem
+    synchronisieren.
+
+4. Direkter Mailversand  
+    Ein weiteres Feature ist der Mailversand. Hier könnten bereits An, CC und BCC, sowie den Benutzer in CC im Vorfeld
+    belegt werden. Betreff und Inhalt können mit Standardtexten vorgefertigt werden und ebenfalls dynamische Daten
+    über ${} enthalten.
