@@ -12,18 +12,18 @@ Einstellungen und Funktionen der einzelnen Bausteine ein.
 
 Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 
-|*Basis*
+||*Basis*||
 |:------:       |:------:               |:------:
 |[Abschnitt](https://univelop.github.io/docs/record-spec-settings.html#abschnitt "Baustein Abschnitt")      |[Hinweis](https://univelop.github.io/docs/record-spec-settings.html#hinweis "Baustein Hinweis")                |[Web Link](http://localhost:4000/docs/record-spec-settings.html#web-link "Baustein Web Link")
 
-|*Formular*
+||*Formular*||
 |:------:       |:------:               |:------:
 |[Textfeld](https://univelop.github.io/docs/record-spec-settings.html#textfeld "Baustein Textfeld")       |[Nummer](https://univelop.github.io/docs/record-spec-settings.html#nummer "Baustein Nummer")                 |[Schalter](https://univelop.github.io/docs/record-spec-settings.html#schalter "Baustein Schalter")
 |[Drop-Down](https://univelop.github.io/docs/record-spec-settings.html#drop-down "Baustein Drop-Down")      |[Datum](https://univelop.github.io/docs/record-spec-settings.html#datum "Baustein Datum")                  |[Zeitspanne](https://univelop.github.io/docs/record-spec-settings.html#zeitspanne "Baustein Zeitspanne")
 |[Benutzer](https://univelop.github.io/docs/record-spec-settings.html#benutzer "Baustein Benutzer")       |[Team](https://univelop.github.io/docs/record-spec-settings.html#team "Baustein Team")                   |[Bild Upload](https://univelop.github.io/docs/record-spec-settings.html#bild-upload "Baustein Bild Upload")
 |[Datei Upload](https://univelop.github.io/docs/record-spec-settings.html#datei-upload "Baustein Datei Upload")   |[E-Mail](https://univelop.github.io/docs/record-spec-settings.html#e-mail "Baustein E-Mail")                 |[Telefon](https://univelop.github.io/docs/record-spec-settings.html#telefon "Baustein Telefon")
 
-|*Erweitert*
+||*Erweitert*||
 |:------:       |:------:               |:------:
 |[Datei](https://univelop.github.io/docs/record-spec-settings.html#datei "Baustein Datei")          |[Datensatz](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Baustein Datensatz")              |[Datensatz Liste](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Baustein Datensatz Liste")
 |[Freigabe](https://univelop.github.io/docs/record-spec-settings.html#freigabe "Baustein Freigabe")       |[Status](https://univelop.github.io/docs/record-spec-settings.html#status "Baustein Status")                 |[Status Button](https://univelop.github.io/docs/record-spec-settings.html#status-button "Baustein Status Button")
@@ -116,7 +116,8 @@ Der Baustein *Nummer* kann ausschließlich mit Zahlenwerten gefüllt werden.
 ![number](..\assets\record-spec-settings\1number.png "number")
 
 Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. PLZ, Beträge,
-Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im Baustein *Formel*.
+Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel").
 **Bitte beachten:**  
 Falscheingaben werden nach Verlassen des Dialogfensters gelöscht.
 
@@ -171,7 +172,9 @@ Anders als Datum + Uhrzeit rechnet dieser Baustein (Von - Bis) auch die Stunden 
 
 ![interval](..\assets\record-spec-settings\1interval.png "interval")
 
-In Kombination mit dem Baustein *Formel* kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.
+In Kombination mit dem
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.
 
 ### <span style="color:#3d85c6">Benutzer</span>
 
@@ -186,8 +189,9 @@ Folgende Einstellungen sind möglich:
     (Ersteller des Datensatzes wird automatisch auch Besitzer)
 2. Besitzer ändern
 3. Besitzerteam ebenfalls ändern
-    Wird der Besitzer geändert und dieser ist ebenfalls in der Mitgliederverwaltung ein anderes Team zugeordnet
-    wird dieses automatisch mit geändert/berücksichtigt
+    Wird der Besitzer geändert und dieser ist ebenfalls in der
+    [Mitgliederverwaltung](https://univelop.github.io/docs/global-settings-and-functions.html "Zusätzliche globale Einstellungen und Funktionen")
+    ein anderes Team zugeordnet wird dieses automatisch mit geändert/berücksichtigt
 
 Mit diesen Einstellungen kann nach Besitzer oder Team gefiltert werden, sowie
 Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.
@@ -266,7 +270,9 @@ Arbeitsbereich hergestellt.
 
 Über die Funktion *Filter und Sortierung* lassen sich je nach Einstellung nur bestimmte Datensätze anzeigen. 
 
-Verknüpfungsmöglichkeiten sind in den Docs unter [Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen") zu finden.
+Verknüpfungsmöglichkeiten sind in den Docs unter
+[Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+zu finden.
 
 ### <span style="color:#3d85c6">Datensatz Liste</span>
 
@@ -276,64 +282,76 @@ In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein,
 eine einfache Verknüpfung mit einer anderen Liste wählen.
 
 Da Ihnen durch die einfache Verknüpfung alle Datensätze der verknüpften Liste angezeigt werden, müssen Sie
-die Anzeige nun bedingt filtern. Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter [Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen") zu finden.
+die Anzeige nun bedingt filtern. Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
+[Verknüpfen von Listen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+zu finden.
 
 ### <span style="color:#3d85c6">Freigabe</span>
 
 Der *Freigabe* Baustein erlaubt es Ihnen Datensätze unveränderbar zu sichern. Der Baustein wird als
-Button angezeigt und kann zusätzlich funktionell im Status mit verwendet werden. Zudem ist es Ihnen möglich
+Button angezeigt und kann zusätzlich funktionell im Status mit verwendet werden. Zudem ist es möglich
 mit diesem Baustein eine Pflichtfeldprüfung durchzuführen.
 
 Zum grundsätzlichen Aufbau:
 
 ![lock](..\assets\record-spec-settings\1lock.png "lock")
 
-1. Der Freigabe Button, dieser wird bei nicht freigegbenen Datensätzen farblich gekennzeichnet angezeigt.
-2. Bei gesperrten Datensätzen erfolgt eine Beschreibung wann und durch wen der Datensatz gesperrt wurde.
-3. Wurde der Datensatz gesperrt und der Button wurde eingebaut (anders als beim Sperren über Status), 
-kann er über "Entsperren" wieder frei gegeben werden.
-4. Eine Verknüpfung mit dem Status Baustein ist möglich, denn dieser kann auch Datensätze sperren.
-5. Sämtliche Pflichtfelder (Prüfung bei Freigabe) müssen einzeln angehakt werden.
+1. **Der Freigabe Button**  
+    dieser wird bei nicht freigegbenen Datensätzen farblich gekennzeichnet angezeigt.
+2. **Zeitstempel für gesperrte Datensätze**  
+    Bei gesperrten Datensätzen erfolgt eine Beschreibung der Sperrung (Nutzer / Datum).
+3. **Freigabe eines gesperrten Datensatzes**  
+    Wurde der Datensatz gesperrt kann dieser über "Entsperren" wieder freigegeben werden
+    (anders als beim Sperren über Status)
+4. **Eine Verknüpfung mit dem
+[Baustein *Status*](https://univelop.github.io/docs/record-spec-settings.html#status "Die Bausteine und deren Einstellungen // Baustein Status")
+ist möglich**
+5. **Sämtliche Pflichtfelder (Prüfung bei Freigabe) müssen einzeln angehakt werden**
 
-Zudem erkennen Sie gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildschirmrand.
+Zudem sind gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildschirmrand zu erkennen.
 Gesperrte Datensätze können nicht gelöscht werden.
 
 ![lock2](..\assets\record-spec-settings\2lock.png "lock2") ![lock3](..\assets\record-spec-settings\3lock.png "lock3")
 
-Also zusammengefasst heißt dies nun:
+**Zusammenfassung:**
 
-1. Sie können mit dem *Freigabe* Baustein eine Pflichtfeldprüfung einbauen. Hierzu betätigen Sie in den zu prüfenden
-Bausteinen den Switch *Pflichtfeld* unter der Validierung Überschrift. Ist nur ein Freigabe Baustein eingebaut und
-kein Status, werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Freigabe betätigt wird.
+1. Über den Baustein *Freigabe* ist eine Pflichtfeldprüfung möglich. Hierzu muss in den Einstellungen des
+Bausteins unter "Validierung" der Switch *Pflichtfeld* gesetzt werden. Ist nur ein Baustein *Freigabe*
+eingebaut und kein
+[Baustein *Status*](https://univelop.github.io/docs/record-spec-settings.html#status "Die Bausteine und deren Einstellungen // Baustein Status"),
+werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Freigabe betätigt wird.
 2. Das Bearbeiten und Löschen von gesperrten Datensätzen ist nicht möglich. Die Datensätze, sowie verknüpfte Datensätze
-müssen entsperrt werden (Mutter- & Tochterdatensätze über Datensatz-Liste-Baustein)
-3. Wer Datensätze sperren und entsperren darf wird in den Rollen und Rechten festgelegt.
+müssen entsperrt werden (Mutter- & Tochterdatensätze über
+[Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste"))
+3. Wer Datensätze sperren und entsperren darf wird in den
+[Rollen und Rechten](https://univelop.github.io/docs/global-settings-and-functions.html#rechte--berechtigungen "Zusätzliche globale Einstellungen und Funktionen // Rechte / Berechtigungen")
+festgelegt.
 
 ![lock4](..\assets\record-spec-settings\4lock.png "lock4")
 
 ### <span style="color:#3d85c6">Status</span>
 
-Mit dem Baustein *Status* können Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
-Unternehmen dargestellen.
+Mit dem Baustein *Status* können sowohl einfache Zustandsstati vergeben, als auch ein kompletter Prozess im
+Unternehmen dargestellt werden.
 
 ![status1](..\assets\record-spec-settings\1status.png "status1")
 
-1. Über das Plus erfassen Sie einen neuen Status.
+1. Über das Plus wird ein neuer Status erfasst
 
-2. Die Status Einstellungen können Sie bearbeiten, indem Sie auf den jeweiligen Status klicken.
+2. Per Mausklick auf den jeweiligen Status werden die Einstellungen aufgerufen.
 
-3. Über den Mülleimer können Sie einzelne Stati löschen und über das =-Zeichen können Sie die Positionen verändern. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
+3. Über den Mülleimer können einzelne Stati gelöscht und über das =-Zeichen die Positionen verändert werden. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
 
-4. Sie haben zudem die Möglichkeit einen Standard-Status zu wählen. Dieser wird auch beim Duplizieren von Datensätzen als Standard gesetzt und nimmt die Sperre aus dem kopierten Datensatz.
+4. Es besteht die Möglichkeit einen Standard-Status zu setzen. Dieser wird auch beim Duplizieren von Datensätzen als Standard gesetzt und nimmt die Sperre aus dem kopierten Datensatz.
 
 ![status2](..\assets\record-spec-settings\2status.png "status2")
 
-In den Status Einstellungen haben Sie nun folgende Möglichkeiten:
+Folgende Status-Einstellungen (Punkt 2) sind möglich:
 
 Pro Status kann ein individuelles Icon und eine Farbe gesetzt werden. 
 
 5. Ein zusätzliches Feature ist die Vergabe von Pflichtfeldern pro Status. Damit die Pflichtfelder angezeigt werden, müssen
-die betroffenen Bausteine vorab als Pflichtfeld markiert werden. Danach können Sie pro Status als Pflichtfeld ausgewählt werden.
+die betroffenen Bausteine vorab als Pflichtfeld markiert werden. Danach kann für jeden Status Pflichtfelder definiert werden.
 
 6. Die *Freigabe* Funktion kann nun auch hier im Status gewählt werden. Beim Setzen des Status wird der Datensatz
 gesperrt und kann weder bearbeitet, noch gelöscht werden.
@@ -440,8 +458,10 @@ ausgegeben werden.
     zwei geschwungenen Klammern gesetzt wird. Beispiel: Rechnungsnummer ${belegnummer}.
 
 2. Ausgabe von Schaltern  
-    Die Ausgabe des Bausteins *Schalter* kann im Designmodus in den Einstellungen des Bausteins unter festgelegt
-    "Darstellung als Ausdruck" als "Checkbox", "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
+    Die Ausgabe des
+    [Bausteins *Schalter*](https://univelop.github.io/docs/record-spec-settings.html#schalter "Die Bausteine und deren Einstellungen // Baustein Schalter")
+    kann im Designmodus in den Einstellungen des Bausteins unter "Darstellung als Ausdruck" als "Checkbox",
+    "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
 
 3. Ausgabe von Datensatz-Liste  
     Um die Daten einer Datensatz-Liste auszugeben, muss in der Word-Vorlage eine entsprechende Tabelle gezeichnet werden.

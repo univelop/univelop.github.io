@@ -42,8 +42,8 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021 (Freitag)*
   
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
-erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt immer vom
-tagesaktuellen Datum automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch
+erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt **immer vom
+tagesaktuellen Datum** automatisch durch die App. Das hat den Vorteil, dass dieser sog. dynamische Filter automatisch
 "mitwandert" und die Filterung entsprechend der gewählten Formel immer aktuell hält.  
 Möchte man mit den o. g. Formeln doch mit einem eigenen Zeitpunkt arbeiten, muss dieser selbst errechnet werden
 (s. *Formelberechnung mit Datumsformel*).
@@ -121,33 +121,41 @@ Im Ergebnis wird der gesetzte Filter beim Aufrufen des Bausteins automatisch anh
 
 Über den Baustein *Formel* kann ganz einfach mit Bedingungen gerechnet werden oder sich Inhalte anzeigen lassen. 
 Hierzu nimmt man immer Bezug auf den technischen Namen eines Bausteins in der Liste oder den technischen
-Namen eines Bausteins in einer verknüpften Liste. Der technische Name steht im Designmodus des Bausteins direkt
-unter dem Abschnitt
-    [**ERWEITERT**](https://univelop.github.io/docs/design-mode-settings.html#eintrag "Die Designmodi und deren Einstellungen // Eintrag").  
+Namen eines Bausteins in einer
+[verknüpften Liste](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen").
+Der technische Name steht im Designmodus des Bausteins direkt unter dem Abschnitt
+[**ERWEITERT**](https://univelop.github.io/docs/design-mode-settings.html#eintrag "Die Designmodi und deren Einstellungen // Eintrag").
 Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer dieser
 wird im Nachgang abgeändert.
 
 ![technical name](..\assets\formulary\technical name.png "technical name") 
 
-Diese Funktion lässt sich nun in vielerlei Hinsicht mit dem Baustein *Formel* kombinieren.  
+Diese Funktion lässt sich nun in vielerlei Hinsicht mit dem
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kombinieren.  
 
 **Beispiel:**
 Ein
-    [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
+[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
 mit Namen "Mitarbeiter" wird als *Technischer Name* ebenfalls **mitarbeiter** heißen.
 In der Kachel *Mitarbeiterstammdaten* ist der Stundenlohn erfasst. Soll nun zum Beispiel der Stundenlohn
-des ausgewählten Mitarbeiters abgefragt werden, wird in dem Baustein *Formel* in den Einstellungen des
-Bausteins der Verweis "mitarbeiter.stundenlohn" eingegeben.
+des ausgewählten Mitarbeiters abgefragt werden, wird in dem
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+in den Einstellungen des Bausteins der Verweis "mitarbeiter.stundenlohn" eingegeben.
 
 ![formulabrick technical name](..\assets\formulary\example formula brick technical name.png "formulabrick technical name") 
 
-1. Auswahl Baustein *Formel*
+1. Auswahl Baustein
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
 2. Eingabe des Verweis *mitarbeiter.stundenlohn*
-3. Die Formel sucht nun über die verknüpfte Kachel "Mitarbeiter" im Baustein *Datensatz* den ausgewählten Mitarbeiter
+3. Die Formel sucht nun über die verknüpfte Kachel "Mitarbeiter" im 
+[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
+den ausgewählten Mitarbeiter
 
     ![formulabrick technical name](..\assets\formulary\example formula brick technical name2.png "formulabrick technical name")
 
-4. Baustein "Formel" sucht im ausgewählten Mitarbeiter nach einem Baustein mit dem technischen Namen *Stundenlohn*
+4. [Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+sucht im ausgewählten Mitarbeiter nach einem Baustein mit dem technischen Namen *Stundenlohn*
 5. Formel gibt den gefundenen Wert zurück  
 
 **Ergebnis:**  
@@ -166,16 +174,20 @@ Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln ab
 des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an ein Fremdsystem
 besteht die Notwendigkeit, dass der technische Name angepasst werden muss, wenn Univelop mit einem Fremdsystem
 automatisch kommunizieren soll
-    ([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
+([Schnittstellen](https://univelop.github.io/docs/interface.html "Schnittstellen"))
 , da das andere System unterschiedliche oder eigene Feldnamen und Bezeichnungen vorgibt.
 
 ### <span style="color:#3d85c6">Individuelle Berechnung mit Formelbaustein</span>
-<span style="color:#3d85c6">Berechnung mit Baustein *Text*</span>
+<span style="color:#3d85c6">**Berechnung mit Baustein *Textfeld***</span>
 
-Der Baustein *Formel* kann ebenfalls mit dem Baustein *Text* Berechnung durchführen. Verweist man in der Formel
-über den technischen Namen auf einen Baustein *Text* und multipliziert diesen mit einer natürlichen Zahl, wird
-der Textwert des Bausteins entsprechend des angegebenen Multiplikators wiederholt. Eine Berechnung mit einer
-Dezimalzahl ist hier nicht möglich und führt zu einer Fehlermeldung. 
+Der 
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann ebenfalls mit dem
+[Baustein *Textfeld*](https://univelop.github.io/docs/record-spec-settings.html#textfeld "Die Bausteine und deren Einstellungen // Baustein Textfeld")
+Berechnung durchführen. Verweist man in der Formel über den technischen Namen auf einen Baustein *Text* und
+multipliziert diesen mit einer natürlichen Zahl, wird der Textwert des Bausteins entsprechend des angegebenen
+Multiplikators wiederholt. Eine Berechnung mit einer Dezimalzahl ist hier nicht möglich und führt zu einer
+Fehlermeldung. 
 
 **Beispiel:**
 ![formula text brick](..\assets\formulary\formula with text brick.png "formula text brick")
@@ -183,9 +195,11 @@ Dezimalzahl ist hier nicht möglich und führt zu einer Fehlermeldung.
 **Ergebnis:**
 ![formula text brick](..\assets\formulary\formula with text brick2.png "formula text brick")
 
-<span style="color:#3d85c6">Berechnung mit Baustein *Nummer*</span>
+<span style="color:#3d85c6">**Berechnung mit Baustein *Nummer***</span>
 
-In dem Baustein *Formel* kann ebenfalls eine individuelle Berechnung erfolgen. Dabei müssen nicht zwingend zwei
+In dem 
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann ebenfalls eine individuelle Berechnung erfolgen. Dabei müssen nicht zwingend zwei
 technische Namen / Felder (wie im o. g. Beispiel) angegeben, sondern es können ebenso technischer Name,
 Rechenzeichen und gewünschte Zahlen verwendet werden. Werden selbst gewählte Zahlen zur Berechnung verwendet,
 ist es wichtig auf die korrekte Schreibweise zu achten: soll mit einer Dezimalzahl gerechnet werden, muss
@@ -200,7 +214,9 @@ Feld Stundenlohn angepasst werden muss.
 
 ### <span style="color:#3d85c6">Berechnung unter Bedingungen</span>
 
-Die altbekannte Wenn-Dann-Sonst-Formel aus Excel kann auch in dem Baustein *Formel* integriert werden.
+Die altbekannte Wenn-Dann-Sonst-Formel aus Excel kann auch in dem
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+integriert werden.
 Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste bezogen werden.
 
 | Formel                                | Beispiel                                              | Beschreibung
@@ -228,7 +244,9 @@ Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste be
 
 ## <span style="color:#0b5394">Weitere Funktionen des Formelbausteins</span>
 
-Über den Baustein *Formel* können noch weitere Funktionen genutzt werden.  
+Über den
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+können noch weitere Funktionen genutzt werden.  
 *Value = Technischer Name*  
 
 | Funktionen                                | Beschreibung
@@ -277,7 +295,9 @@ Auch hier kann sich neben der aktuellen Liste auch auf eine verknüpfte Liste be
 
 ### <span style="color:#3d85c6">Sortieren mit dem Formelbaustein</span>
 
-Der Baustein *Formel* kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortierung) genutzt werden. 
+Der 
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortierung) genutzt werden. 
 
 **Beispiel:**
 Die Arbeitszeiten der Mitarbeiter können im Standard über den Mitarbeiternamen **oder** das Datum sortiert
@@ -297,7 +317,9 @@ der Erstsortierung nach dem Mitarbeiternamen und in der Zweitsortierung nach dem
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 1</span>
 
-Der Baustein *Formel* kann auch in einer Kettenreihenfolge eingesetzt werden. Es können also mehrere Formeln
+Der
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann auch in einer Kettenreihenfolge eingesetzt werden. Es können also mehrere Formeln
 aneinandergereiht werden. Wichtig hierbei ist, dass zusammengehörige Rechenblöcke in Klammern stehen.  
 
 **Beispiel:**
@@ -306,19 +328,21 @@ Die Formel kann also wie folgt aussehen:
 `(mitarbeiter.stundenlohn*1,25)+(mitarbeiter.bereitschaftspauschale)`.  
 
 **Formelbeschreibung:** Die eingegebene Formel sucht bei dem im
-    [Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
+[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Datensatz")
 ausgewählten Mitarbeiter nach dem dort erfassten Stundenlohn und multipliziert den gefundenen Wert mit 25%.
 Weiter sucht die Formel im ausgewählten Mitarbeiter die erfasste Bereitschaftspauschale. Nach Abschluss der
 Suche werden beide Werte miteinander addiert, sodass sich daraus der gewünschte Sonderlohn ergibt.
 
 Grundsätzlich ließen sich über die
-    [Datensatzverknüpfung](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+[Datensatzverknüpfung](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
 die Werte einfach übernehmen. In solchen Fällen spart man sich das "mitarbeiter." in den entsprechenden Formeln.
 Der Vorteil bei der Kettenformel ist hingegen, dass die aktuelle Liste zur Berechnung angenehm kurz gehalten wird.
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
 
-Eine weitere Kettenreihenfolge in dem Baustein *Formel* kann mit den Wenn-Dann-Sonst-Formeln erfolgen.  
+Eine weitere Kettenreihenfolge in dem
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+kann mit den Wenn-Dann-Sonst-Formeln erfolgen.  
 
 **Beispiel:**
 Nehmen wir an es soll ein kleines Lagersystem mit Univelop erstellt werden. Hierfür wird neben den Artikeln auch
@@ -331,7 +355,9 @@ die Zu- und Abgänge dokumentiert werden.
 Da in dem
     [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
 im Artikel allerdings nur die Summe über **einen** Baustein gezogen werden kann, müssen die Bewegungen zusammengefasst
-werden. Der dafür benötigte Baustein *Formel* wird "durchgeführte Bewegungen" genannt.
+werden. Der dafür benötigte
+[Baustein *Formel*](https://univelop.github.io/docs/record-spec-settings.html#formel "Die Bausteine und deren Einstellungen // Baustein Formel")
+wird "durchgeführte Bewegungen" genannt.
 
 In diesem Baustein wird eine Formel eingetragen, die lauten könnte: 
 `ifElse(eingelagert == 'Ja', menge_eingang, 0) - ifElse(ausgelagert == 'Ja', menge_ausgang, 0)`
@@ -344,7 +370,7 @@ Bewegungen gleichzeitig erfasst werden. Die sich daraus ergebende Summe erfolgt 
 negativ ausgegeben.
 
 Sollen nun eine Berechnung der Lagerbestände der einzelnen Artikel erfolgen, wird in der Kachel Artikel der
-    [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
+[Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
 verwendet und die Summe über die Bewegungen errechnet. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.  
 
 ![ifElse combination](..\assets\formulary\ifElse combination.png "ifElse combination")

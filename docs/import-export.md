@@ -8,32 +8,39 @@ nav_order: 7
 
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
 
-Es besteht die Möglichkeit ganze Arbeitsbereiche zu exportieren und wieder zu importieren.
-Im Designmodus des Homescreens des Arbeitsbereiches befindet sich in den Einstellungen der
-Button "Export". Nach Betätigen des Buttons wird der Arbeitsbereich als ZIP-Datei heruntergeladen.
+Es besteht die Möglichkeit ganze
+[Arbeitsbereiche](http://localhost:4000/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
+zu exportieren und wieder zu importieren. Im Designmodus des Homescreens des Arbeitsbereiches
+befindet sich in den Einstellungen der Button "Export". Nach Betätigen des Buttons wird der
+Arbeitsbereich als ZIP-Datei heruntergeladen.
 
 ![button export](..\assets\import-export\button export.png "button export")
 
 Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
-wechseln oder einen "+ Neuer Arbeitsbereich" einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich"
-ausgewählt wurde, kann zwischen drei Optionen gewählt werden. Über die Option "Arbeitsbereich importieren"
-wird ein Auswahldialog geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend
-eingelesen wird.
+wechseln oder einen
+["+ Neuer Arbeitsbereich"](https://univelop.github.io/docs/start-app.html#erstellen-eines-arbeitsbereichs "Der Start in die App // Erstellen eines Arbeitsbereichs")
+einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen drei
+Optionen gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog
+geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
 
 ![import workspace](..\assets\import-export\import workspace.png "import workspace")
 
 ## <span style="color:#0b5394">Kacheln</span>
 
-Neben dem Export/Import von ganzen Arbeitsbereichen können alternativ lediglich einzelne Kacheln
+Neben dem Export/Import von ganzen Arbeitsbereichen können alternativ lediglich einzelne
+[Kacheln](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
 exportiert und importiert werden. Dies ist besonders da sinnvoll, wo mit mehreren Arbeitsbereichen
 innerhalb einer Organisation gearbeitet wird oder Standard-Kacheln vorhanden sind, welche auf andere
 Umgebungen übertragen werden sollen. Hier sind vor allem Kacheln zu nennen, die keine oder nur geringe
-Datensatz-Verknüpfungen haben, welche u. U. wieder hergestellt werden müssten. Solche Kacheln
-beinhalten meistens Stammdaten, wie zum Beispiel Kunden, Mitarbeiter o. ä.
+[Datensatz-Verknüpfungen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+haben, welche u. U. wieder hergestellt werden müssten. Solche Kacheln beinhalten meistens Stammdaten,
+wie zum Beispiel Kunden, Mitarbeiter o. ä.
 
-Im Kachel-Designmodus befindet sich, wie beim Export von Arbeitsbereichen, in den Kacheleinstellungen
-ein Button "Export". Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich
-der Quellcode für die Kachel befindet.
+Im
+[Kachel-Designmodus](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi un deren Einstellungen // Kachel")
+befindet sich, wie beim Export von Arbeitsbereichen, in den Kacheleinstellungen ein Button "Export".
+Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich der Quellcode für
+die Kachel befindet.
 
 ![export tile](..\assets\import-export\export tile.png "export tile")
 
@@ -47,7 +54,7 @@ Im Designmodus des Ziel-Arbeitsbereichs, in dem die Kachel importiert werden sol
 im neuen Arbeitsbereich vorhanden sind.
 - Daten / Inhalte werden **nicht übernommen** und ebenso **nicht überschrieben**.
 - Word-Vorlagen werden **nicht** übernommen.
-- es kann immer nur in eine Richtung importiert / exportiert werden. Ist ein Workspace vorhanden, der
+- es kann immer nur in eine Richtung importiert / exportiert werden. Ist ein Arbeitsbereich vorhanden, der
 **zentral alle** Kacheln der Organisation beinhaltet, kann **nicht** aus einem anderen Arbeitsbereich heraus
 in diese Umgebung importiert werden.
 
@@ -62,7 +69,7 @@ Bearbeitungsmodus über die drei Punkte der Listenansicht.
 
 Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folgenden zwei Szenarien:.
 
-1. <span style="color:#3d85c6">Szenario // Erstimport von Daten</span>  
+- <span style="color:#0b5394">**1. Szenario // Erstimport von Daten**</span>  
     In die Univelop App soll eine große Anzahl an Datensätzen überführt werden.
     Es ist bereits eine Liste vorhanden, welche die Datenstruktur wiederspiegelt.
     In Univelop sollte ein Dummy-Datensatz angelegt werden. Anschließend wird die Liste in Excel
@@ -71,7 +78,7 @@ Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folg
     Das Dokument wird geprüft und ein Pop-Up erscheint, welches mitteilt wie viele Datensätze zum Import
     gefunden wurden.
 
-2. <span style="color:#3d85c6">Szenario // Aktualisierung von Daten</span>  
+- <span style="color:#0b5394">**2. Szenario // Aktualisierung von Daten**</span>  
     Es sind bereits viele Daten in einer Liste und es sollen nur bestimmte Dinge geändert werden,
     es wäre aber zu aufwendig dies bei allen Datensätzen einzeln zu machen.
     Hier werden ebenfalls alle Datensätze in Excel exportiert. Wir empfehlen nun sämtliche Zeilen und

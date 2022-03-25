@@ -11,11 +11,15 @@ nav_order: 6
 Ein Mitglied ist eine Person, die auf den Arbeitsbereich Zugriff hat.
 Mitglied wird jemand, der einen Einladungslink zum Arbeitsbereich erhalten hat.
 
-Die Mitgliederverwaltung ist in den Einstellungen des Homescreens (Button *Zahnrad*) zu finden.
+Die Mitgliederverwaltung ist in den Einstellungen des
+[Arbeitsbereichs](https://univelop.github.io/docs/software-structure.html#arbeitsbereiche "Die Prgrammstruktur // Arbeitsbereich")
+(Button *Zahnrad*) zu finden.
 ![member administration](..\assets\global-settings-and-functions\member administration.png "member administration")
 
 Hier sind sämtliche Mitglieder, Rollen und Teams aufgelistet. Ebenfalls wird hier der Zugriff
-auf den Arbeitsbereich gesteuert.  
+auf den
+[Arbeitsbereich](https://univelop.github.io/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereich")
+gesteuert.  
 Neue Mitglieder/Benutzer können auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
 
 1. Einladungslink versenden  
@@ -35,8 +39,11 @@ oder -teams müssen über die Mitgliederverwaltung entsprechend angepasst werden
 
 In den Arbeitsbereich-Einstellungen ist ebenfalls der Menüpunkt "Nutzerrollen und Teams" zu
 finden. Hier werden die Benutzerrollen- und teams definiert. In den Benutzerrollen werden
-global die Rechte definiert, für jede einzelne Kachel (s. Rechte / Berechtigungen). Im Designmodus
-des Arbeitsbereichs können  in den globalen Einstellungen die Rollen bearbeitet werden. Im Standard
+global die Rechte definiert, für jede einzelne
+[Kachel](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
+(s. Rechte / Berechtigungen). Im Designmodus des
+[Arbeitsbereichs](https://univelop.github.io/docs/software-structure.html#arbeitsbereiche "Die Prgrammstruktur // Arbeitsbereich")
+können  in den globalen Einstellungen die Rollen bearbeitet werden. Im Standard
 ist die Rolle "Teammitglied" immer angelegt.
 
 Durch das Klicken auf eine Rollen sehen Sie den Namen, die Einstellung Standardrolle (Ja/Nein),
@@ -46,13 +53,16 @@ oben rechts zu löschen oder zu duplizieren (wenn es ähnliche Rollen gibt).
 ## <span style="color:#0b5394">Teams</span>
 
 Wie bei den Rollen können über den gleichen Weg verschiedene Benutzerteams hinzufügt werden und benannt
-werden je nach Arbeitsbereich, Verantwortung, Position, etc. Diese Teams können in den Datensätzen
-zunächst nur namentlich erfasst werden.
+werden je nach
+[Arbeitsbereichs](https://univelop.github.io/docs/software-structure.html#arbeitsbereiche "Die Prgrammstruktur // Arbeitsbereich"),
+Verantwortung, Position, etc. Diese Teams können in den Datensätzen zunächst nur namentlich erfasst werden.
 
 Mitglieder werden diesen Teams hinzugefügt. Sie haben jetzt die Möglichkeit Mitglieder des Arbeitsbereichs
 einem Team zuzuordnen.
 
-Zudem besteht die Möglichkeit über den Baustein *Team* einem Datensatz ein Benutzerteam zuzuweisen.
+Zudem besteht die Möglichkeit über den
+[Baustein *Team*](https://univelop.github.io/docs/record-spec-settings.html#team "Die Bausteine und deren Einstellungen // Baustein Team")
+einem Datensatz ein Benutzerteam zuzuweisen.
 
 ## <span style="color:#0b5394">Rechte / Berechtigungen</span>
 
@@ -63,30 +73,38 @@ Das globale Rechtesystem in den Rollen greift immer auf ganze Kacheln zu. Im Sta
 Zugriff auf "Alle" Datensätze hinterlegt.  
 Folgende Einstellungen können vorgenommen werden:
 - Gefiltert  
-    Inhalt der Kachel wird anhand des vorgebenen Filters angezeigt
+    Inhalt der
+    [Kachel](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
+    wird anhand des vorgebenen Filters angezeigt
 - Von meinem Team  
-    Sind Datensätze über den Baustein *Team* das jeweilige Team zugeordnet, wird der Inhalt entsprechend
-    danach gefiltert und angezeigt.
+    Sind Datensätze über den
+    [Baustein *Team*](https://univelop.github.io/docs/record-spec-settings.html#team "Die Bausteine und deren Einstellungen // Baustein Team")
+    das jeweilige Team zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
 - Meine  
-    Sind Datensätze über den Baustein *Benutzer* dem jeweiligen Benutzer zugeordnet, wird der Inhalt
-    entsprechend danach gefiltert und angezeigt.
+    Sind Datensätze über den
+    [Baustein *Benutzer*](https://univelop.github.io/docs/record-spec-settings.html#benutzer "Die Bausteine und deren Einstellungen // Baustein Benutzer")
+    dem jeweiligen Benutzer zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
 - Keine  
     Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.
 
 
-Beim Zugriff auf "Keine" ist die Kachel für die Rolle nicht sichbar und
-Datensätze und Datensatzverknüpfungen können nicht ausgewählt werden. Wenn partielle Zugriffe auf
-Einträge eines Datensatzes unsichtbar geschaltet werden sollen, kann dies je Baustein erfolgen,
-indem der Baustein versteckt wird und unter *Für Benutzerrollen anzeigen* die entsprechenden Rollen
-Zugriff erteilen.
+Beim Zugriff auf "Keine" ist die
+[Kachel](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
+für die Rolle nicht sichbar und Datensätze und
+[Datensatzverknüpfungen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+können nicht ausgewählt werden. Wenn partielle Zugriffe auf Einträge eines Datensatzes unsichtbar
+geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein versteckt wird und unter
+[*Für Benutzerrollen anzeigen*](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi und deren Einstellungen // Kachel")
+die entsprechenden Rollen Zugriff erteilen.
 
 ![hide tile roles](..\assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
 
 Die gleichen Filter können für das Bearbeiten und Löschen gewählt werden. Das Anlegen von Datensätzen
 wird über den Switch "Anlegen erlauben" gesteuert.
 
-Der Switch "Import erlauben" gibt oder nimmt das Recht Excel-Dateien mit Datensätzen zu importieren.
-Sofern es sich nicht um besonders intensiv geschultes Personal handelt, empfehlen wir den Import nicht
+Der Switch "Import erlauben" gibt oder nimmt das Recht
+[Excel-Dateien mit Datensätzen zu importieren](https://univelop.github.io/docs/import-export.html#datens%C3%A4tze-und-inhalte "Import und Export // Datensätze und Inhalte").
+Sofern es sich nicht um besonders intensiv geschultes Personal handelt, empfehlen wir den Import **nicht**
 zuzulassen.
 
 ## <span style="color:#0b5394">Benachrichtigungen</span>
