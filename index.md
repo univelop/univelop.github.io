@@ -27,5 +27,5 @@ Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ers
 <span style="color:#3d85c6">**Genderhinweis:**  
 Es sei an dieser Stelle darauf hingewiesen, dass aus Gründen der besseren Lesbarkeit in der vorliegenden Dokumentation 
 bei Personenbezeichnungen und personenbezogenen Hauptwörtern ausschließlich das generische Maskulinum verwendet wird 
-(z.B. der Kunde oder der Konsument). Die verwendeten Formulierungen umfassen jedoch ausdrücklich sowohl weibliche als 
-auch männliche Personen und sprechen diese gleichermaßen an.</span>
+(z.B. der Kunde oder der Konsument). Die verwendeten Formulierungen umfassen jedoch ausdrücklich sowohl weibliche, 
+männliche, als auch diverse Personen und sprechen diese gleichermaßen an.</span>

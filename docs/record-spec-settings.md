@@ -280,20 +280,65 @@ die Anzeige nun bedingt filtern. Verknüpfungs- und Filtermöglichkeiten sind in
 
 ### <span style="color:#3d85c6">Freigabe</span>
 
-Test
+Der *Freigabe* Baustein erlaubt es Ihnen Datensätze unveränderbar zu sichern. Der Baustein wird als
+Button angezeigt und kann zusätzlich funktionell im Status mit verwendet werden. Zudem ist es Ihnen möglich
+mit diesem Baustein eine Pflichtfeldprüfung durchzuführen.
+
+Zum grundsätzlichen Aufbau:
+
+![lock](..\assets\record-spec-settings\1lock.png "lock")
+
+1. Der Freigabe Button, dieser wird bei nicht freigegbenen Datensätzen farblich gekennzeichnet angezeigt.
+2. Bei gesperrten Datensätzen erfolgt eine Beschreibung wann und durch wen der Datensatz gesperrt wurde.
+3. Wurde der Datensatz gesperrt und der Button wurde eingebaut (anders als beim Sperren über Status), 
+kann er über "Entsperren" wieder frei gegeben werden.
+4. Eine Verknüpfung mit dem Status Baustein ist möglich, denn dieser kann auch Datensätze sperren.
+5. Sämtliche Pflichtfelder (Prüfung bei Freigabe) müssen einzeln angehakt werden.
+
+Zudem erkennen Sie gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildschirmrand.
+Gesperrte Datensätze können nicht gelöscht werden.
+
+![lock2](..\assets\record-spec-settings\2lock.png "lock2") ![lock3](..\assets\record-spec-settings\3lock.png "lock3")
+
+Also zusammengefasst heißt dies nun:
+
+1. Sie können mit dem *Freigabe* Baustein eine Pflichtfeldprüfung einbauen. Hierzu betätigen Sie in den zu prüfenden
+Bausteinen den Switch *Pflichtfeld* unter der Validierung Überschrift. Ist nur ein Freigabe Baustein eingebaut und
+kein Status, werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Freigabe betätigt wird.
+2. Das Bearbeiten und Löschen von gesperrten Datensätzen ist nicht möglich. Die Datensätze, sowie verknüpfte Datensätze
+müssen entsperrt werden (Mutter- & Tochterdatensätze über Datensatz-Liste-Baustein)
+3. Wer Datensätze sperren und entsperren darf wird in den Rollen und Rechten festgelegt.
+
+![lock4](..\assets\record-spec-settings\4lock.png "lock4")
 
 ### <span style="color:#3d85c6">Status</span>
 
-Mit dem Baustein *Status* önnen Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
-Unternehmen dargestellt werden.
+Mit dem Baustein *Status* können Sie sowohl einfache Zustandsstati vergeben, als auch einen kompletten Prozess im
+Unternehmen dargestellen.
 
-Pro Status kann ein individuelles Icon und eine Farbe gesetzt werden. Die Reihenfolge der Stati wird über das = Symbol
-verschoben. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
+![status1](..\assets\record-spec-settings\1status.png "status1")
 
-Ein zusätzliches Feature ist die Vergabe von Pflichtfeldern pro Status. Bedeutet, der Nutzer die als Pflichtfeld gekennzeichneten
-Datenfelder ausfüllen um den jeweiligen Status auswählen zu können.
+1. Über das Plus erfassen Sie einen neuen Status.
 
-Eine Statusänderung erfolgt entweder per Klick auf den Status oder über den Status-Button.
+2. Die Status Einstellungen können Sie bearbeiten, indem Sie auf den jeweiligen Status klicken.
+
+3. Über den Mülleimer können Sie einzelne Stati löschen und über das =-Zeichen können Sie die Positionen verändern. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
+
+4. Sie haben zudem die Möglichkeit einen Standard-Status zu wählen. Dieser wird auch beim Duplizieren von Datensätzen als Standard gesetzt und nimmt die Sperre aus dem kopierten Datensatz.
+
+![status2](..\assets\record-spec-settings\2status.png "status2")
+
+In den Status Einstellungen haben Sie nun folgende Möglichkeiten:
+
+Pro Status kann ein individuelles Icon und eine Farbe gesetzt werden. 
+
+5. Ein zusätzliches Feature ist die Vergabe von Pflichtfeldern pro Status. Damit die Pflichtfelder angezeigt werden, müssen
+die betroffenen Bausteine vorab als Pflichtfeld markiert werden. Danach können Sie pro Status als Pflichtfeld ausgewählt werden.
+
+6. Die *Freigabe* Funktion kann nun auch hier im Status gewählt werden. Beim Setzen des Status wird der Datensatz
+gesperrt und kann weder bearbeitet, noch gelöscht werden.
+
+Eine Statusänderung erfolgt entweder per Klick auf den Status oder über verschiedene Status-Buttons.
 
 ### <span style="color:#3d85c6">Status Button</span>
 
