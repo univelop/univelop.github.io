@@ -18,7 +18,7 @@ Arbeitsbereich als ZIP-Datei heruntergeladen.
 
 Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
 wechseln oder einen
-["+ Neuer Arbeitsbereich"](https://univelop.github.io/docs/start-app.html#erstellen-eines-arbeitsbereichs "Der Start in die App // Erstellen eines Arbeitsbereichs")
+["+ Neuer Arbeitsbereich"](/docs/start-app.html#erstellen-eines-arbeitsbereichs "Der Start in die App // Erstellen eines Arbeitsbereichs")
 einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen drei
 Optionen gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog
 geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
@@ -28,16 +28,16 @@ geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend
 ## <span style="color:#0b5394">Kacheln</span>
 
 Neben dem Export/Import von ganzen Arbeitsbereichen können alternativ lediglich einzelne
-[Kacheln](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
+[Kacheln](/docs/software-structure.html#kacheln)
 exportiert und importiert werden. Dies ist besonders da sinnvoll, wo mit mehreren Arbeitsbereichen
 innerhalb einer Organisation gearbeitet wird oder Standard-Kacheln vorhanden sind, welche auf andere
 Umgebungen übertragen werden sollen. Hier sind vor allem Kacheln zu nennen, die keine oder nur geringe
-[Datensatz-Verknüpfungen](https://univelop.github.io/docs/link-lists.html "Verknüpfen von Listen")
+[Datensatz-Verknüpfungen](/docs/link-lists.html "Verknüpfen von Listen")
 haben, welche u. U. wieder hergestellt werden müssten. Solche Kacheln beinhalten meistens Stammdaten,
 wie zum Beispiel Kunden, Mitarbeiter o. ä.
 
 Im
-[Kachel-Designmodus](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi un deren Einstellungen // Kachel")
+[Kachel-Designmodus](/docs/design-mode-settings.html#kachel "Die Designmodi un deren Einstellungen // Kachel")
 befindet sich, wie beim Export von Arbeitsbereichen, in den Kacheleinstellungen ein Button "Export".
 Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich der Quellcode für
 die Kachel befindet.
