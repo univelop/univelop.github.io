@@ -21,7 +21,7 @@ ca. 2 Sekunden lang gedrückt hält.
 
 Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
 zuerst alle
-[allgemeinen Kacheln](https://univelop.github.io/docs/software-structure.html#kacheln "Die Programmstruktur // Kacheln")
+[allgemeinen Kacheln](/docs/software-structure.html#kacheln)
 und darunter die eigenen Kacheln zu sehen. Wenn Kacheln "versteckt" wurden, werden diese farblich
 leicht ausgegraut und ein Symbol mit durchgestrichenen Auge wird gesetzt. Die Kacheln können einfach
 via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
@@ -39,7 +39,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     stellt im Standard beim Hinzufügen alle Inhalte dar. Markiert man die Kachel und wählt über die
     Auswahl *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen werden und reduziert
     dargestellt werden. Zum Beispiel offene Aufträge (Status offen), ToDos dieser Monat (s.
-    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](https://univelop.github.io/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen "Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen")
+    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
 3. <span style="color:#0b5394">**Kachel importieren**</span>  
@@ -61,13 +61,13 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
         - Festlegung über die Farbskala oder einen RTX-Wert
     - Arbeitsbereich ID (**darf nicht verändert werden!**)
     - Portal Domains (s.
-    [Einrichtung Portalmodus](https://univelop.github.io/docs/portal-mode.html "Portalmodus"))
+    [Einrichtung Portalmodus](/docs/portal-mode.html))
     - Service Account Key
         - Hinzufügen neuer
-        [Mitglieder](https://univelop.github.io/docs/global-settings-and-functions.html#mitglieder "Zusätzliche globale Einstellungen und Funktionen // Mitglieder") in den Arbeitsbereich
+        [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) in den Arbeitsbereich
 
 Über den
-[Button *Export*](https://univelop.github.io/docs/import-export.html#arbeitsbereiche "Import und Export // Arbeitsbereiche")
+[Button *Export*](/docs/import-export.html#arbeitsbereiche)
 kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
 einen neuen einzufügen. Der Button *Löschen* führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
 
@@ -93,17 +93,17 @@ die Kacheleinstellungen bearbeitet werden.
 6. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
 7. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
     - (s.
-    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](https://univelop.github.io/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen "Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen")
+    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
     ![tile2](..\assets\design-mode-setting\tile2.png "tile2")
      
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
     - Für bestimmte
-    [Benutzerrollen](https://univelop.github.io/docs/global-settings-and-functions.html#rollen "Zusätzliche globale Einstellungen und Funktionen // Rollen")
+    [Benutzerrollen](/docs/global-settings-and-functions.html#rollen)
     freigeben
     - für bestimmte
-    [Benutzerteams](https://univelop.github.io/docs/global-settings-and-functions.html#teams "Zusätzliche globale Einstellungen und Funktionen // Teams")
+    [Benutzerteams](/docs/global-settings-and-functions.html#teams)
     freigeben
 
 9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
@@ -128,7 +128,7 @@ die Kacheleinstellungen bearbeitet werden.
         die Anzahl der eingegebenen Datensätze in der Ansicht zu reduzieren (Baustein -> in Schnellerfassung
         verstecken). Ebenfalls möglich ist die Schnellerfassung ausschließlich bei einer Verknüpfung über
         einen bestimmten Baustein zu wählen (Einrichtung der Schnellerfassung:
-        [Baustein *Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Datensatz Liste")
+        [Baustein *Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
         ).
 
 Der Button ***Counter aktualisieren*** sorgt dafür, dass wenn der Inhalt der Kachel als Anzahl Datensätze oder
@@ -152,9 +152,9 @@ exportiert werden können.
 ## <span style="color:#0b5394">Liste</span>
 
 Nach dem Öffnen einer Kachel wird auf der linken Seite eine
-[Liste](https://univelop.github.io/docs/software-structure.html#listen] "Die Programmstruktur // Listen")
+[Liste](/docs/software-structure.html#listen])
 der vorhandenen
-[Einträge](https://univelop.github.io/docs/software-structure.html#eintr%C3%A4ge "Die Programmstruktur // Einträge")
+[Einträge](/docs/software-structure.html#eintr%C3%A4ge)
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 
 ![list](..\assets\design-mode-setting\list.png "list")
@@ -165,20 +165,20 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
     - Vorgenommene Einstellungen werden nur temporär, also für die aktuelle aktive Nutzung, gespeichert.
     Globale Einstellungen zu *Filter und Sortierung* werden direkt in den Kacheleinstellungen vorgenommen.  
     Die temporäre Einstellung von *Filter und Sortierung* kann über den Button *Speicherkarte* als
-    [**eigene** Kachel](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi und deren Einstellungen // Kachel")
+    [**eigene** Kachel](/docs/design-mode-settings.html#kachel)
     im Arbeitsbereich gespeichert werden.  
 4. <span style="color:#0b5394">**Weitere Einstellungen**</span>
     - Designmodus der Liste aufrufen
     - Benachrichtigungen für sich selbst aktivieren
     - Alle als gelesen markieren
-    - [Nach Excel exportieren](https://univelop.github.io/docs/import-export.html#datens%C3%A4tze-und-inhalte "Import und Export // Datensätze und Inhalte")
-    - [von Excel importieren](https://univelop.github.io/docs/import-export.html#datens%C3%A4tze-und-inhalte "Import und Export // Datensätze und Inhalte")
+    - [Nach Excel exportieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
+    - [von Excel importieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
     - Alle löschen  
     **HINWEIS:**  
     diese Funktion löscht **ALLE** Daten!
 
 Im Designmodus der Liste werden auf der linken Seite die verfügbaren
-[Bausteine](https://univelop.github.io/docs/record-spec-settings.html "Die Bausteine und deren Einstellungen")
+[Bausteine](/docs/record-spec-settings.html)
 der Listeneinträge angezeigt. Via *Drag and Drop* können die Bausteine in eins der 5 Felder in der Mitte
 gezogen werden. Diese 5 Felder entsprechen am Ende dem Inhalt, der als Kurzfassung der Datensätze in der
 Liste dargestellt wird. In diese Felder können Sie mehrere Datensätze legen. In der rechten Bildschirmhälfte
@@ -223,10 +223,10 @@ befinden sich vier Symbole:
     - **Nur Lesen**  
     Mit dieser Funktion werden Schreibrechte blockiert, können jedoch unter Bedingungen zugelassen werden.
     Zum Beispiel "
-    [Benutzerrolle](https://univelop.github.io/docs/global-settings-and-functions.html#rollen "Zusätzliche globale Einstellungen und Funktionen // Rollen")
+    [Benutzerrolle](/docs/global-settings-and-functions.html#rollen)
     = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
     wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der
-    [Baustein *Status*](https://univelop.github.io/docs/record-spec-settings.html#status "Die Bausteine und deren Einstellungen // Baustein Status")
+    [Baustein *Status*](/docs/record-spec-settings.html#status)
     erforderlich.
 
     - **Baustein verstecken**  
@@ -234,7 +234,7 @@ befinden sich vier Symbole:
 
     - **In Schnellerfassung verstecken**  
     Wie bereits bei den
-    [Kacheleinstellungen](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi und deren Einstellungen // Kachel")
+    [Kacheleinstellungen](/docs/design-mode-settings.html#kachel)
     beschrieben, können Bausteine in der Schnellerfassung versteckt werden, um die Listenansicht für den
     Einzelfall der Erfassung zu reduzieren.
 
