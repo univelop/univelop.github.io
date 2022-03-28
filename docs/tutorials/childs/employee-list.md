@@ -5,7 +5,7 @@ parent: Tutorials
 nav_order: 2
 ---
 
-# <span style="color:#0b5394">Erstellen einer Mitarbeiterliste</span>
+# <span style="color:#0b5394">**Erstellen einer Mitarbeiterliste**</span>
 
 Eine Mitarbeiterliste ist eine einfache Ansammlung von Stammdaten.
 
