@@ -72,8 +72,8 @@ gewünschte Darstellung des Inhalts erreicht.
 
 ## <span style="color:#0b5394">Zusammenfassung der Programmstruktur</span>
 
-![homescreen](..\assets\software-structure\homescreen.png "homescreen")
-![list-record](..\assets\software-structure\list-record.png "list-record")
+![homescreen](\assets\software-structure\homescreen.png "homescreen")
+![list-record](\assets\software-structure\list-record.png "list-record")
 
 |Nummer     |Bezeichnung    |    Beschreibung
 |1          |Home-Button    | Wechsel des Arbeitsbereichs

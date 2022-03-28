@@ -17,7 +17,7 @@ Nachdem der
 einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
 Funktionen des Bausteins vorgenommen werden:
 
-![brick record settings](..\assets\link-lists\brick record settings.png "brick record settings")
+![brick record settings](\assets\link-lists\brick record settings.png "brick record settings")
 
 1. <span style="color:#0b5394">**Baustein *Datensatz* Funktion "Verknüpfung mit"**</span>  
 Damit der Baustein einwandfrei funktioniert muss in den Einstellungen unter "Verknüpfung mit" die
@@ -45,7 +45,7 @@ Verknüpfung zu einer anderen Liste vorgenommen werden.
     Bei der Aktualisierung von z. B. Adress- und Stammdaten einer Rechnungsadresse ist das Synchronhalten der Daten
     sinnvoll.
 
-    ![take on records + synchro](..\assets\link-lists\take on records + synchro.png "take on records + synchro")
+    ![take on records + synchro](\assets\link-lists\take on records + synchro.png "take on records + synchro")
 
 3. <span style="color:#0b5394">**Funktion "Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird"**</span>  
 Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensätz gelöscht oder dupliziert, sobald der
@@ -84,7 +84,7 @@ wird eine passende Bezeichnung und mit "Verknüpfung über" der Baustein mit der
 [Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 eine eine eindeutige Zuordnung aufgebaut.
 
-![record list settings](..\assets\link-lists\record list settings.png "record list settings")
+![record list settings](\assets\link-lists\record list settings.png "record list settings")
 
 Soll sich auf einen dritten Datensatz bezogen werden, wird es nicht mit der Funktion "Verknüpfung über" 
 funktionieren, da sich hierüber immer ausschließlich auf den eigenen Datensatz bezogen wird. Ist also in
@@ -134,7 +134,7 @@ eine Summe über die Datensätze gezogen werden. Vorgeschlagen zur Auswahl stehe
 
 Für eine eindeutigere Anzeige kann ein *Summen Suffix* sowie die *Anzahl der Nachkommastellen* festgelegt werden.
 
-![record list settings2](..\assets\link-lists\record list settings2.png "record list settings2")
+![record list settings2](\assets\link-lists\record list settings2.png "record list settings2")
 
 ### <span style="color:#3d85c6">Art der Darstellung: Eingebettete Liste</span>
 
@@ -144,7 +144,7 @@ Anzahl können beliebig angepasst werden. Die angezeigten Daten in der Vorschau 
 der verknüpften Liste.
 
 **Beispiel einer eingebetteten Liste:**
-![record list settings3](..\assets\link-lists\record list settings3.png "record list settings3")
+![record list settings3](\assets\link-lists\record list settings3.png "record list settings3")
 ---
 
 ## <span style="color:#0b5394">Schnellerfassung für den Baustein *Datensatz Liste*</span>

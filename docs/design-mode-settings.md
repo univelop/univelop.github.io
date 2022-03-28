@@ -17,7 +17,7 @@ gewechselt. In den Designmodus des Arbeitsbereichs wechselt man, indem auf den *
 klickt und anschließend den Designmodus auswählt, oder indem man mit der linken Maustaste eine Kachel
 ca. 2 Sekunden lang gedrückt hält.
 
-![select design mode](..\assets\design-mode-setting\select design mode.png "select design mode")
+![select design mode](\assets\design-mode-setting\select design mode.png "select design mode")
 
 Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
 zuerst alle
@@ -29,7 +29,7 @@ via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
 In der linken Bildschirmhälfte sind drei Möglichkeiten zum Hinzufügen neuer Kacheln zu finden. Auf
 der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 
-![home](..\assets\design-mode-setting\home.png "home")
+![home](\assets\design-mode-setting\home.png "home")
 
 1. <span style="color:#0b5394">**+ Einfache Liste**</span>  
     Erstellen einer eigenen neuen Kachel mit beliebigen Inhalt.
@@ -78,7 +78,7 @@ einen neuen einzufügen. Der Button *Löschen* führt zu einer **Löschung** des
 Markiert man im Designmodus des Arbeitsbereichs eine beliebige Kachel, können auf der rechten Seite
 die Kacheleinstellungen bearbeitet werden.
 
-![tile](..\assets\design-mode-setting\tile.png "tile")
+![tile](\assets\design-mode-setting\tile.png "tile")
 
 1. <span style="color:#0b5394">**Designmodus der Liste**</span>
 2. <span style="color:#0b5394">**Designmodus der Einträge**</span>
@@ -96,7 +96,7 @@ die Kacheleinstellungen bearbeitet werden.
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
-    ![tile2](..\assets\design-mode-setting\tile2.png "tile2")
+    ![tile2](\assets\design-mode-setting\tile2.png "tile2")
      
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
     - Für bestimmte
@@ -157,7 +157,7 @@ der vorhandenen
 [Einträge](/docs/software-structure.html#eintr%C3%A4ge)
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 
-![list](..\assets\design-mode-setting\list.png "list")
+![list](\assets\design-mode-setting\list.png "list")
 
 1. <span style="color:#0b5394">**Pfeil zurück in den Arbeitsbereich**</span>
 2. <span style="color:#0b5394">**Suchfunktion über alle Listeneinträge**</span>
@@ -189,7 +189,7 @@ wird angezeigt welche Felder in der Listendarstellung enthalten sind.
 **HINWEIS:**  
 Wenn ein Baustein in der Listenansicht verwendet wird, kann dieser **nicht** gelöscht werden.
 
-![list2](..\assets\design-mode-setting\list2.png "list2")
+![list2](\assets\design-mode-setting\list2.png "list2")
 
 ---
 
@@ -198,7 +198,7 @@ Wenn ein Baustein in der Listenansicht verwendet wird, kann dieser **nicht** gel
 Wurde in einer Kachel in der Liste ein Eintrag ausgewählt, erscheint rechts der Listeneintrag. Oben rechts
 befinden sich vier Symbole:  
 
-![four symbols](..\assets\design-mode-setting\four symbols.png "four symbols")
+![four symbols](\assets\design-mode-setting\four symbols.png "four symbols")
 
 1. <span style="color:#0b5394">**Benachrichtigungen für den ausgewählten Eintrag aktivieren**</span>
 2. <span style="color:#0b5394">**Designmodus für Einträge öffnen**</span>
@@ -207,7 +207,7 @@ befinden sich vier Symbole:
 
 **Designmodus für Einträge**
 
-![record](..\assets\design-mode-setting\record.png "record")
+![record](\assets\design-mode-setting\record.png "record")
 
 1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
 2. <span style="color:#0b5394">**Bearbeiten des Titels** (am Anfang steht immer der Titel des Datensatzes / des Listeneintrags, frei wählbar)</span>

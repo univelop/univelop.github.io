@@ -14,7 +14,7 @@ Mitglied wird jemand, der einen Einladungslink zum Arbeitsbereich erhalten hat.
 Die Mitgliederverwaltung ist in den Einstellungen des
 [Arbeitsbereichs](/docs/software-structure.html#arbeitsbereiche)
 (Button *Zahnrad*) zu finden.
-![member administration](..\assets\global-settings-and-functions\member administration.png "member administration")
+![member administration](\assets\global-settings-and-functions\member administration.png "member administration")
 
 Hier sind sämtliche Mitglieder, Rollen und Teams aufgelistet. Ebenfalls wird hier der Zugriff
 auf den
@@ -30,7 +30,7 @@ Neue Mitglieder/Benutzer können auf zwei Wege dem Arbeitsbereich hinzugefügt w
     Der Benutzer kann manuell angelegt werden. Meldet sich der Benutzer anschließend mit E-Mail
     und Passwort an, ist der Arbeitsbereich bereits bei dem Benutzer hinterlegt.
 
-![new member](..\assets\global-settings-and-functions\new member.png "new member")
+![new member](\assets\global-settings-and-functions\new member.png "new member")
 
 Neue Mitglieder werden immer der definierten Standardrolle zugeordnet. Andere Benutzerrollen
 oder -teams müssen über die Mitgliederverwaltung entsprechend angepasst werden.
@@ -97,7 +97,7 @@ geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein ver
 [*Für Benutzerrollen anzeigen*](/docs/design-mode-settings.html#kachel)
 die entsprechenden Rollen Zugriff erteilen.
 
-![hide tile roles](..\assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
+![hide tile roles](\assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
 
 Die gleichen Filter können für das Bearbeiten und Löschen gewählt werden. Das Anlegen von Datensätzen
 wird über den Switch "Anlegen erlauben" gesteuert.
@@ -129,7 +129,7 @@ entsprechenden Filter gesetzt werden. Es erlaubt also einen Mehrfachzugriff. Die
 mit Wahl des angesprochenen Baustein, IN und in Spalte drei setzen Sie die anzusprechenden Werte,
 welche Sie mit Komma Leerzeichen trennen.  
 **Beispiel:**
-![or filter teams](..\assets\global-settings-and-functions\or filter teams.png "or filter teams")
+![or filter teams](\assets\global-settings-and-functions\or filter teams.png "or filter teams")
 
 ## <span style="color:#0b5394">Suchen</span>
 

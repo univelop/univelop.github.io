@@ -14,7 +14,7 @@ zu exportieren und wieder zu importieren. Im Designmodus des Homescreens des Arb
 befindet sich in den Einstellungen der Button "Export". Nach Betätigen des Buttons wird der
 Arbeitsbereich als ZIP-Datei heruntergeladen.
 
-![button export](..\assets\import-export\button export.png "button export")
+![button export](\assets\import-export\button export.png "button export")
 
 Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
 wechseln oder einen
@@ -23,7 +23,7 @@ einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann 
 Optionen gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog
 geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
 
-![import workspace](..\assets\import-export\import workspace.png "import workspace")
+![import workspace](\assets\import-export\import workspace.png "import workspace")
 
 ## <span style="color:#0b5394">Kacheln</span>
 
@@ -42,12 +42,12 @@ befindet sich, wie beim Export von Arbeitsbereichen, in den Kacheleinstellungen 
 Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich der Quellcode für
 die Kachel befindet.
 
-![export tile](..\assets\import-export\export tile.png "export tile")
+![export tile](\assets\import-export\export tile.png "export tile")
 
 Im Designmodus des Ziel-Arbeitsbereichs, in dem die Kachel importiert werden soll, kann über den Button
 "Kachel importieren" die zuvor heruntergeladene JSON-Datei über einen Auswahldialog eingelesen werden.
 
-![import tile](..\assets\import-export\import tile.png "import tile")
+![import tile](\assets\import-export\import tile.png "import tile")
 
 **Bitte beachten:**  
 - Verknüpfungen werden u. U. nicht übernommen, wenn gleiche Kachelbezeichnungen und Inhalte **nicht**
@@ -65,7 +65,7 @@ Ebenso können auch Datensätze importiert und exportiert werden. Dies ist beson
 wenn viele Datensätze und Stammdaten erfasst werden sollen. Der Im- und Export erfolgt immer im 
 Bearbeitungsmodus über die drei Punkte der Listenansicht.
 
-![import export record](..\assets\import-export\import export record.png "import export record")
+![import export record](\assets\import-export\import export record.png "import export record")
 
 Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folgenden zwei Szenarien:.
 

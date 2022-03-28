@@ -24,7 +24,7 @@ Der
 [Arbeitsbereich](/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
 ist die Umgebung, in welcher man sich befindet.
 
-![registration](..\assets\start-app\registration.png "registration")
+![registration](\assets\start-app\registration.png "registration")
 
 ---
 
@@ -35,7 +35,7 @@ ist die Umgebung, in welcher man sich befindet.
 Das Erstellen eines Arbeitsbereichs wird direkt nach der Anmeldung vorgeschlagen. Nach dem Erstellen
 eines Titels des neuen Arbeitsbereichs kann "drauf los gekachelt" werden.
 
-![new-workspace](..\assets\start-app\new-workspace.png "new-workspace")
+![new-workspace](\assets\start-app\new-workspace.png "new-workspace")
 
 ---
 
