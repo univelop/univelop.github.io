@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 7
 ---
 
-# <span style="color:#0b5394">**Baustein *Laufende Nummer***</span>
+# <span style="color:#0b5394"><span class="material-icons">filter_1</span> **Baustein *Laufende Nummer***</span>
 
 Den Baustein *Laufende Nummer* wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
 (z. B. Kunden, Bauvorhaben, Lieferscheine, etc.).

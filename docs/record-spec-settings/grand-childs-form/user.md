@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 7
 ---
 
-# <span style="color:#0b5394">**Baustein *Benutzer***</span>
+# <span style="color:#0b5394"><span class="material-icons">person</span> **Baustein *Benutzer***</span>
 
 Der Baustein *Benutzer* bietet die Möglichkeit den Datensatz einem bestimmten Benutzer zuzuordnen. Dadurch können
 Verantwortlichkeiten verteilt werden. Wichtig hierbei ist, dass der Benutzer dem Arbeitsbereich zugeordnet sein muss.

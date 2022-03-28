@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">**Baustein *Abschnitt***</span>
+# <span style="color:#0b5394"><span class="material-icons">splitscreen</span> **Baustein *Abschnitt***</span>
 
 Mit dem Baustein *Abschnitt* können die Listeneinträge thematisch getrennt werden.
 
@@ -16,7 +16,7 @@ Abschnitte können mit dem switch zusammenklappbar und als standardmäßig zusam
 Ebenso besteht die Möglichkeit Bausteine für die Kopfzeile des Abschnitts hinzuzufügen. Diese
 werden dann direkt unter dem Abschnitt-Titel angezeigt.
 
-*Besonderheiten*
+<span style="color:#0b5394">**Besonderheiten**</span>
 
 Wenn für den Baustein *Abschnitt* in den Einstellungen des Bausteins unter **ERWEITERT** zusätzliche Einstellungen
 vorgenommen werden, gelten diese für alle Bausteine innerhalb dieses Abschnitts. Dies betrifft Nur Lesen, Baustein

@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 2
 ---
 
-# <span style="color:#0b5394">**Baustein *Hinweis***</span>
+# <span style="color:#0b5394"><span class="material-icons">short_text</span> **Baustein *Hinweis***</span>
 
 Mit dem Baustein *Hinweis* werden Hinweistexte erfasst. Der Hinweistext wird über die Bezeichnung geschrieben. Hier
 ist es möglich auch längere Hinweistexte zu erfassen und diese abschnittsweise mit der Enter-Taste zu trennen.

@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 4
 ---
 
-# <span style="color:#0b5394">**Baustein *Drop-Down***</span>
+# <span style="color:#0b5394"><span class="material-icons">arrow_drop_down_circle</span> **Baustein *Drop-Down***</span>
 
 Durch den Baustein *Drop-Down* können individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten
 vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.

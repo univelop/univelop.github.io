@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 11
 ---
 
-# <span style="color:#0b5394">**Baustein *PDF erstellen***</span>
+# <span style="color:#0b5394"><span class="material-icons">print</span> **Baustein *PDF erstellen***</span>
 
 Mit dem Baustein *PDF erstellen* kann, ausgehend von einer Word Vorlage, eine PDF Datei erstellt
 und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gestaltet werden und sich

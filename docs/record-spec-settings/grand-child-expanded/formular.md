@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 8
 ---
 
-# <span style="color:#0b5394">**Baustein *Formel***</span>
+# <span style="color:#0b5394"><span class="material-icons">calculate</span> **Baustein *Formel***</span>
 
 Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
 bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung

@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 3
 ---
 
-# <span style="color:#0b5394">**Baustein *Web Link***</span>
+# <span style="color:#0b5394"><span class="material-icons">link</span> **Baustein *Web Link***</span>
 
 Durch den Baustein *Web Link* können in den Listeneinträgen zentrale URLs bzw. Links hinterlegt werden. 
 

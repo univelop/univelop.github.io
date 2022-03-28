@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 10
 ---
 
-# <span style="color:#0b5394">**Baustein *Kommentare***</span>
+# <span style="color:#0b5394"><span class="material-icons">comment</span> **Baustein *Kommentare***</span>
 
 Der Baustein *Kommentare* ist aufgebaut wie ein Chat/Forum. Zu bestimmten Datensätze bietet sich dieser
 Baustein an, da er, im Gegensatz zu dem mehrzeiligen Textfeld, den Vorteil hat, dass der Kommentarerfasser,

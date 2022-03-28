@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 8
 ---
 
-# <span style="color:#0b5394">**Baustein *Team***</span>
+# <span style="color:#0b5394"><span class="material-icons">group</span> **Baustein *Team***</span>
 
 Der Baustein *Team* kann als Light-Variante des Bausteins *Benutzer* verstanden werden.
 

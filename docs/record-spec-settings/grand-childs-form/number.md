@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 2
 ---
 
-# <span style="color:#0b5394">**Baustein *Nummer***</span>
+# <span style="color:#0b5394"><span class="material-icons">exposure_zero</span> **Baustein *Nummer***</span>
 
 Der Baustein *Nummer* kann ausschließlich mit Zahlenwerten gefüllt werden.
 

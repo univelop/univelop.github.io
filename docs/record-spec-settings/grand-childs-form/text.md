@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">**Baustein *Textfeld***</span>
+# <span style="color:#0b5394"><span class="material-icons">text_fields</span> **Baustein *Textfeld***</span>
 
 Mit dem Baustein *Textfeld* können beliebige alphanummerische Inhalte erfasst werden. 
 

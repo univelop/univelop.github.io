@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 5
 ---
 
-# <span style="color:#0b5394">**Baustein *Datum***</span>
+# <span style="color:#0b5394"><span class="material-icons">calendar_today</span> **Baustein *Datum***</span>
 
 Mit dem Baustein *Datum* kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit.
 

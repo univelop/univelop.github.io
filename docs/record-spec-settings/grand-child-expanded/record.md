@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 2
 ---
 
-# <span style="color:#0b5394">**Baustein *Datensatz***</span>
+# <span style="color:#0b5394"><span class="material-icons">insert_link</span> **Baustein *Datensatz***</span>
 
 Mit dem Baustein *Datensatz* wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem
 Arbeitsbereich hergestellt.

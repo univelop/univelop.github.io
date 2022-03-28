@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 4
 ---
 
-# <span style="color:#0b5394">**Baustein *Freigabe***</span>
+# <span style="color:#0b5394"><span class="material-icons">fact_check</span> **Baustein *Freigabe***</span>
 
 Der *Freigabe* Baustein erlaubt es Ihnen Datensätze unveränderbar zu sichern. Der Baustein wird als
 Button angezeigt und kann zusätzlich funktionell im Status mit verwendet werden. Zudem ist es möglich

@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 3
 ---
 
-# <span style="color:#0b5394">**Baustein *Schalter***</span>
+# <span style="color:#0b5394"><span class="material-icons">toggle_on</span> **Baustein *Schalter***</span>
 
 Mit dem Baustein *Schalter* werden einfache "Ja / Nein"-, "Erfüllt / Nicht erfüllt"-Abfragen in der App dargestellt.
 

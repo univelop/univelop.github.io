@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 3
 ---
 
-# <span style="color:#0b5394">**Baustein *Datensatz Liste***</span>
+# <span style="color:#0b5394"><span class="material-icons">view_list</span> **Baustein *Datensatz Liste***</span>
 
 Der Baustein *Datensatz Liste* sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.

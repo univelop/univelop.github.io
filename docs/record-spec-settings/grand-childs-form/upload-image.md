@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 9
 ---
 
-# <span style="color:#0b5394">**Baustein *Bild Upload***</span>
+# <span style="color:#0b5394"><span class="material-icons">insert_photo</span> **Baustein *Bild Upload***</span>
 
 Mit dem Baustein *Bild Upload* können beliebig viele Bilder hochgeladen werden.  
 Folgende Einstellungen sind möglich:
