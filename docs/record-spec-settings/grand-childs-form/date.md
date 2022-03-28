@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Datum
-parent: Formular
+parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 5
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Formular-Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Datum*</span>
+# <span style="color:#0b5394">**Baustein *Datum***</span>
 
 Mit dem Baustein *Datum* kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit.
 

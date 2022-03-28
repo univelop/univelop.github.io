@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Status
-parent: Erweitert
+parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 5
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Erweiterte Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Status*</span>
+# <span style="color:#0b5394">**Baustein *Status***</span>
 
 Mit dem Baustein *Status* können sowohl einfache Zustandsstati vergeben, als auch ein kompletter Prozess im
 Unternehmen dargestellt werden.

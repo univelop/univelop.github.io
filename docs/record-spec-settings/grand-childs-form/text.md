@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Text
-parent: Formular
+parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Formular-Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Textfeld*</span>
+# <span style="color:#0b5394">**Baustein *Textfeld***</span>
 
 Mit dem Baustein *Textfeld* können beliebige alphanummerische Inhalte erfasst werden. 
 

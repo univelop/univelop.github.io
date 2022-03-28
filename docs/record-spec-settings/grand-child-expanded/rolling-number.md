@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Laufende Nummer
-parent: Erweitert
+parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 7
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Erweiterte Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Laufende Nummer*</span>
+# <span style="color:#0b5394">**Baustein *Laufende Nummer***</span>
 
 Den Baustein *Laufende Nummer* wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
 (z. B. Kunden, Bauvorhaben, Lieferscheine, etc.).

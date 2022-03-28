@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Abschnitt
-parent: Basis
+parent: Basis-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Basis-Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Abschnitt*</span>
+# <span style="color:#0b5394">**Baustein *Abschnitt***</span>
 
 Mit dem Baustein *Abschnitt* können die Listeneinträge thematisch getrennt werden.
 

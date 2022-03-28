@@ -1,14 +1,12 @@
 ---
 layout: default
 title: PDF erstellen
-parent: Erweitert
+parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 11
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Erweiterte Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *PDF erstellen*</span>
+# <span style="color:#0b5394">**Baustein *PDF erstellen***</span>
 
 Mit dem Baustein *PDF erstellen* kann, ausgehend von einer Word Vorlage, eine PDF Datei erstellt
 und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gestaltet werden und sich
@@ -24,7 +22,7 @@ ausgegeben werden.
 
 2. Ausgabe von Schaltern  
     Die Ausgabe des
-    [Bausteins *Schalter*](https://univelop.github.io/docs/record-spec-settings.html#schalter "Die Bausteine und deren Einstellungen // Baustein Schalter")
+    [Bausteins *Schalter*](/docs/record-spec-settings.html#schalter)
     kann im Designmodus in den Einstellungen des Bausteins unter "Darstellung als Ausdruck" als "Checkbox",
     "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
 

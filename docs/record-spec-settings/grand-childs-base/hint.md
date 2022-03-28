@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Hinweis
-parent: Basis
+parent: Basis-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 2
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Basis-Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Hinweis*</span>
+# <span style="color:#0b5394">**Baustein *Hinweis***</span>
 
 Mit dem Baustein *Hinweis* werden Hinweistexte erfasst. Der Hinweistext wird über die Bezeichnung geschrieben. Hier
 ist es möglich auch längere Hinweistexte zu erfassen und diese abschnittsweise mit der Enter-Taste zu trennen.

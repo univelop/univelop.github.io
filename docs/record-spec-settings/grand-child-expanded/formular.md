@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Formel
-parent: Erweitert
+parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 8
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Erweiterte Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Formel*</span>
+# <span style="color:#0b5394">**Baustein *Formel***</span>
 
 Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
 bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung
@@ -36,4 +34,4 @@ Dies geschieht wie folgt:
     verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
     Also: technischernamebausteindieseliste.technischernamebausteinverknüpfteliste
 
-Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](https://univelop.github.io/docs/formulary.html  "Formelsammlung") zu finden.
+Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](/docs/formulary.html) zu finden.

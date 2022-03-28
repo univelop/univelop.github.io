@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Drop-Down
-parent: Formular
+parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 4
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">**Formular-Bausteine**</span>
-### <span style="color:#3d85c6">Baustein *Drop-Down*</span>
+# <span style="color:#0b5394">**Baustein *Drop-Down***</span>
 
 Durch den Baustein *Drop-Down* können individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten
 vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.
