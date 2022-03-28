@@ -7,7 +7,7 @@ nav_order: 3
 # <span style="color:#0b5394">**Die Programmstruktur**</span>
 
 Im Folgenden erläutern wir die Programmstruktur im Einzelnen.
-Für Nachbauten können gerne die [Tutorials](https://univelop.github.io/docs/Tutorials.html "Tutorials")
+Für Nachbauten können gerne die [Tutorials](/docs/Tutorials.html)
 verwendet werden.
 
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
@@ -58,17 +58,17 @@ ein Listeneintrag ausgewählt, wird der entsprechende Datesnatz angezeigt.
 
 Eine Liste besteht im Detail aus diversen Listeneinträgen. Diese sind also der Inhalt dieser Liste. 
 Je nach Benennung der einzelnen
-[Bausteine](http://localhost:4000/docs/record-spec-settings.htmlBausteine "Die Bausteine und deren Einstellungen")
+[Bausteine](/docs/record-spec-settings/record-spec-settings.html)
 innerhalb dieser Liste und deren Inhalte können diese Listeneinträge individuell jeden denkbaren Datensatz
 digitalisieren.
 
 ## <span style="color:#0b5394">Bausteine</span>
 
 Ein Listeneintrag besteht aus verschiedenen
-[Bausteinen](http://localhost:4000/docs/record-spec-settings.htmlBausteine "Die Bausteine und deren Einstellungen")
+[Bausteinen](/docs/record-spec-settings/record-spec-settings.html)
 , die in Abschnitten in sinnvoller Weise aneinander gereiht werden. Durch das Betiteln der Bausteine wird die
 gewünschte Darstellung des Inhalts erreicht.
-[Mehr im Abschnitt "Bausteine"](https://univelop.github.io/docs/record-spec-settings.html "Die Bausteine und deren Einstellungen")
+[Mehr im Abschnitt "Bausteine"](/docs/record-spec-settings.html)
 
 ## <span style="color:#0b5394">Zusammenfassung der Programmstruktur</span>
 

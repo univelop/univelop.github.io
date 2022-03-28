@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Formular
+title: Formular-Bausteine
 parent: Die Bausteine und deren Einstellungen
 nav_order: 2
 has_children: true
 has_toc: false
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">Formular Bausteine</span>
+# <span style="color:#0b5394">**Formular Bausteine**</span>
 
 Mit den Formular Bausteinen können einfache Formulare erstellt und mit Inhalten gefüllt werden, die als
 Informationen bereit gestellt werden sollen. Mit den Formular Bausteinen können zudem einfache Zuordnungen
@@ -16,7 +15,7 @@ von Datensätzen hergestellt, sortiert und gefiltert werden, sowie Leserechte un
 Bedingungen festlegen.
 
 |:------:       |:------:               |:------:
-|[Textfeld](https://univelop.github.io/docs/record-spec-settings.html#textfeld "Baustein Textfeld")       |[Nummer](https://univelop.github.io/docs/record-spec-settings.html#nummer "Baustein Nummer")                 |[Schalter](https://univelop.github.io/docs/record-spec-settings.html#schalter "Baustein Schalter")
-|[Drop-Down](https://univelop.github.io/docs/record-spec-settings.html#drop-down "Baustein Drop-Down")      |[Datum](https://univelop.github.io/docs/record-spec-settings.html#datum "Baustein Datum")                  |[Zeitspanne](https://univelop.github.io/docs/record-spec-settings.html#zeitspanne "Baustein Zeitspanne")
-|[Benutzer](https://univelop.github.io/docs/record-spec-settings.html#benutzer "Baustein Benutzer")       |[Team](https://univelop.github.io/docs/record-spec-settings.html#team "Baustein Team")                   |[Bild Upload](https://univelop.github.io/docs/record-spec-settings.html#bild-upload "Baustein Bild Upload")
-|[Datei Upload](https://univelop.github.io/docs/record-spec-settings.html#datei-upload "Baustein Datei Upload")   |[E-Mail](https://univelop.github.io/docs/record-spec-settings.html#e-mail "Baustein E-Mail")                 |[Telefon](https://univelop.github.io/docs/record-spec-settings.html#telefon "Baustein Telefon")
+|[Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)       |[Nummer](/docs/record-spec-settings/grand-childs-form/number.html "Baustein Nummer")                 |[Schalter](/docs/record-spec-settings/grand-childs-form/switch.html "Baustein Schalter")
+|[Drop-Down](/docs/record-spec-settings/grand-childs-form/drop-down.html "Baustein Drop-Down")      |[Datum](/docs/record-spec-settings/grand-childs-form/date.html "Baustein Datum")                  |[Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html "Baustein Zeitspanne")
+|[Benutzer](/docs/record-spec-settings/grand-childs-form/user.html "Baustein Benutzer")       |[Team](/docs/record-spec-settings/grand-childs-form/team.html "Baustein Team")                   |[Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html )
+|[Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html)   |[E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html "Baustein E-Mail")                 |[Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html "Baustein Telefon")

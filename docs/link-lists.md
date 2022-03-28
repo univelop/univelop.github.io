@@ -9,11 +9,11 @@ nav_order: 8
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
 Wie der Name schon sagt, kann über den
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 auf einen Datensatz zugegriffen werden. Genauer gesagt auf einen Datensatz einer anderen Liste.
 
 Nachdem der
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
 Funktionen des Bausteins vorgenommen werden:
 
@@ -30,9 +30,9 @@ Verknüpfung zu einer anderen Liste vorgenommen werden.
 
     Dabei ist darauf zu achten, dass die zu Quell- und Zielbausteine der Liste den gleichen Typ aufweisen
     müssen, bedeutet nur
-    [Textfeld](https://univelop.github.io/docs/record-spec-settings.html#textfeld "Die Bausteine und deren Einstellungen // Baustein Textfeld")
+    [Textfeld](/docs/record-spec-settings.html#textfeld)
     zu Textfeld,
-    [Datum](https://univelop.github.io/docs/record-spec-settings.html#datum "Die Bausteine und deren Einstellungen // Baustein Datum")
+    [Datum](/docs/record-spec-settings.html#datum)
     zu Datum etc.
 
     Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
@@ -53,13 +53,13 @@ Hauptdatensatz gelöscht wird. Wenn es sich um zusammenhängende Bewegungsdaten 
 werden, um Datenmüll zu vermeiden.
 
 Informationen zu den Möglichkeiten zu *Filter und Sortierungen* sind auf der Docs-Seite des Bausteins
-[*Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste")
+[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
 zu finden.
 
 ### <span style="color:#3d85c6">Zusammenfassung</span>
 
 Über den
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 wird eine einfache Verknüpfung mit **einem** Datensatz einer anderen Liste
 geschaffen und es besteht die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
 zu löschen oder zu duplizieren, wenn dies gleichzeitig mit dem Löschen und Duplizieren des Hauptdatensatz
@@ -70,18 +70,18 @@ erfolgt.
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz Liste*</span>
 
 Der
-[*Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste")
+[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
 bietet die Möglichkeit sich mehrere Datensätze einer anderen Liste anzeigen zu lassen und über die
 Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
 Ähnlich wie bei dem
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 wird eine passende Bezeichnung und mit "Verknüpfung über" der Baustein mit der gewünschten Liste verknüpft.
 
 Über die Funktion "Verknüpfung über" wir der
-[*Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste")
+[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
 über einen
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 eine eine eindeutige Zuordnung aufgebaut.
 
 ![record list settings](..\assets\link-lists\record list settings.png "record list settings")
@@ -92,7 +92,7 @@ der Liste eine Verknüpfung mit einer Stammdatenliste vorhanden und es wurde ein
 erstellt, die dieser Liste angehört, dann muss über *Filter und Sortierung* ein eindeutiger Zusammenhang
 herstellt werden. Dies bedeutet konkret es wurde eine "Verknüpfung mit" gewählt und sowohl in der verknüpften
 Liste als auch in dieser Liste ein
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 eingebaut, der auf den gleichen Datensatz verweist, über die die Daten verknüpft werden können. In *Filter
 und Sortierung* wählt man den Zieldatensatz aus der verknüpften Liste aus und nutzt der Operator =B als
 Filterkriterium aus. =B bedeutet = Baustein. Also der Baustein *Datensatz* soll dem Baustein *Datensatz*
@@ -102,7 +102,7 @@ aus meiner Liste entsprechen.
 
 Es sind zwei Kacheln mit den Namen "Aufmaß" und "Aufmaßpositionen" (Hilfskachel) vorhanden. In der Aufmaßliste
 sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurder der
-[Baustein *Datensatz*](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Die Bausteine und deren Einstellungen // Baustein Datensatz")
+[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
 eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Kachel "Aufmaß" ausgewählt
 werden.
 
@@ -121,14 +121,14 @@ Kachel "Bauvorhaben" gibt es den Baustein "Auftraggeber".
 ### <span style="color:#3d85c6">Art der Darstellung: Link zur Liste</span>
 
 Der
-[*Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste")
+[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
 kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
 sowie die Anzahl der verknüpften Datensätze.
 
 Anstatt sich die Anzahl der verknüpften Datensätze anzeigen zu lassen, kann über den Switch *Summe statt Anzahl anzeigen*
 eine Summe über die Datensätze gezogen werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine:
-- [Baustein *Nummer*](https://univelop.github.io/docs/record-spec-settings.html#nummer "Die Bausteine und deren Einstellungen // Baustein Nummer")
-- [Baustein *Zeitspanne*](https://univelop.github.io/docs/record-spec-settings.html#zeitspanne "Die Bausteine und deren Einstellungen // Baustein Zeitspanne")
+- [Baustein *Nummer*](/docs/record-spec-settings.html#nummer)
+- [Baustein *Zeitspanne*](/docs/record-spec-settings.html#zeitspanne)
 - Filter
 - Datensatz-Verknüpfungen
 
@@ -150,12 +150,12 @@ der verknüpften Liste.
 ## <span style="color:#0b5394">Schnellerfassung für den Baustein *Datensatz Liste*</span>
 
 Wird ein
-[*Datensatz Liste*](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Die Bausteine und deren Einstellungen // Baustein Datensatz Liste")
+[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
 als *eingebettete Liste* verwendet kann die Funktion einer Schnellerfassung, aktiviert werden. Dies ist eine
 charmante Art und Weise Einträge für die verknüpfte Liste in der aktuellen Kachel zu erstellen.
 
 Zunächst muss im
-[Designmodus in den Einstellungen der Kachel](https://univelop.github.io/docs/design-mode-settings.html#kachel "Die Designmodi und deren Einstellungen")
+[Designmodus in den Einstellungen der Kachel](/docs/design-mode-settings.html#kachel)
 die Funktion "Schnellerfassung aktivieren" aktiviert werden. Dazu besteht die Möglichkeit die Schnellerfassung
 ausschließlich bei einer Verknüpfung über einen bestimmten Baustein zu aktivieren.
 

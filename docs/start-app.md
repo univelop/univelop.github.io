@@ -21,7 +21,7 @@ Nach erfolgreicher Registrierung ist die Anmeldung mit der angegebenen E-Mail Ad
 
 Entweder wird ein neuer Arbeitsbereich erstellt, oder es liegt eine Einladung zu einem Arbeitsbereich via Link vor. 
 Der
-[Arbeitsbereich](https://univelop.github.io/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
+[Arbeitsbereich](/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
 ist die Umgebung, in welcher man sich befindet.
 
 ![registration](..\assets\start-app\registration.png "registration")
@@ -46,5 +46,5 @@ tritt man nach dem Klick auf den Link in den entsprechenden Arbeitsbereich ein u
 
 ## <span style="color:#0b5394">Empfehlung Nachbau Univelop-Tutorials</span>
 Wir empfehlen nach dem Durchlesen der Docs das Nachbauen unserer
-[Tutorials](https://univelop.github.io/docs/Tutorials.html "Tutorials")
+[Tutorials](/docs/Tutorials.html "Tutorials")
 zur weiteren Vertiefung der einzelnen Möglichkeiten.

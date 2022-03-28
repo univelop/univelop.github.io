@@ -1,20 +1,19 @@
 ---
 layout: default
-title: Erweitert
+title: Erweiterte Bausteine
 parent: Die Bausteine und deren Einstellungen
 nav_order: 3
 has_children: true
 has_toc: false
 ---
 
-# <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-## <span style="color:#0b5394">Erweiterte Bausteine</span>
+# <span style="color:#0b5394">Erweiterte Bausteine</span>
 
 Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Listen und
 Bausteine verknüpft, sowie Dateien und Stati hinterlegt werden.
 
 |:------:       |:------:               |:------:
-|[Datei](https://univelop.github.io/docs/record-spec-settings.html#datei "Baustein Datei")          |[Datensatz](https://univelop.github.io/docs/record-spec-settings.html#datensatz "Baustein Datensatz")              |[Datensatz Liste](https://univelop.github.io/docs/record-spec-settings.html#datensatz-liste "Baustein Datensatz Liste")
-|[Freigabe](https://univelop.github.io/docs/record-spec-settings.html#freigabe "Baustein Freigabe")       |[Status](https://univelop.github.io/docs/record-spec-settings.html#status "Baustein Status")                 |[Status Button](https://univelop.github.io/docs/record-spec-settings.html#status-button "Baustein Status Button")
-|[Laufende Nummer](https://univelop.github.io/docs/record-spec-settings.html#laufende-nummer "Baustein Laufende Nummer")  |[Formel](https://univelop.github.io/docs/record-spec-settings.html#formel "Baustein Formel")                 |[Unterschrift](https://univelop.github.io/docs/record-spec-settings.html#unterschrift "Baustein Unterschrift")
-|[Kommentar](https://univelop.github.io/docs/record-spec-settings.html#kommentar "Baustein Kommentar")      |[PDF erstellen](https://univelop.github.io/docs/record-spec-settings.html#pdf-erstellen "Baustein PDF Erstellen")          |[Rechnung](https://univelop.github.io/docs/record-spec-settings.html#rechnung "Baustein Rechnung")
+|[Datei](/docs/record-spec-settings/grand-child-expanded/file.html)          |[Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)              |[Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
+|[Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)       |[Status](/docs/record-spec-settings/grand-child-expanded/status.html)                 |[Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
+|[Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)  |[Formel](/docs/record-spec-settings/grand-child-expanded/formular.html)                 |[Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
+|[Kommentar](/docs/record-spec-settings/grand-child-expanded/comment.html)      |[PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)          |[Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html)
