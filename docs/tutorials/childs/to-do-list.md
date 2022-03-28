@@ -5,7 +5,7 @@ parent: Tutorials
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">Erstellen einer To-Do-Liste</span>
+# <span style="color:#0b5394">**Erstellen einer To-Do-Liste**</span>
 
 Zum Erstellen einer To-Do-Liste wird im Prinzip nur eine Liste benötigt. Dazu wird eine neue Kachel
 angelegt, die "To-Do-Liste" heißen könnte. Öffnet man die Kachel und klickt anschließend auf das kleine +
