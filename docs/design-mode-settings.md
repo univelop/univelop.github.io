@@ -39,7 +39,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     stellt im Standard beim Hinzufügen alle Inhalte dar. Markiert man die Kachel und wählt über die
     Auswahl *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen werden und reduziert
     dargestellt werden. Zum Beispiel offene Aufträge (Status offen), ToDos dieser Monat (s.
-    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
+    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
 3. <span style="color:#0b5394">**Kachel importieren**</span>  
@@ -93,7 +93,7 @@ die Kacheleinstellungen bearbeitet werden.
 6. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
 7. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
     - (s.
-    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
+    [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
     ![tile2](\assets\design-mode-setting\tile2.png "tile2")
@@ -128,7 +128,7 @@ die Kacheleinstellungen bearbeitet werden.
         die Anzahl der eingegebenen Datensätze in der Ansicht zu reduzieren (Baustein -> in Schnellerfassung
         verstecken). Ebenfalls möglich ist die Schnellerfassung ausschließlich bei einer Verknüpfung über
         einen bestimmten Baustein zu wählen (Einrichtung der Schnellerfassung:
-        [Baustein *Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+        [Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
         ).
 
 Der Button ***Counter aktualisieren*** sorgt dafür, dass wenn der Inhalt der Kachel als Anzahl Datensätze oder
@@ -178,7 +178,7 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
     diese Funktion löscht **ALLE** Daten!
 
 Im Designmodus der Liste werden auf der linken Seite die verfügbaren
-[Bausteine](/docs/record-spec-settings.html)
+[Bausteine](/docs/record-spec-settings/record-spec-settings.html)
 der Listeneinträge angezeigt. Via *Drag and Drop* können die Bausteine in eins der 5 Felder in der Mitte
 gezogen werden. Diese 5 Felder entsprechen am Ende dem Inhalt, der als Kurzfassung der Datensätze in der
 Liste dargestellt wird. In diese Felder können Sie mehrere Datensätze legen. In der rechten Bildschirmhälfte
@@ -226,7 +226,7 @@ befinden sich vier Symbole:
     [Benutzerrolle](/docs/global-settings-and-functions.html#rollen)
     = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
     wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der
-    [Baustein *Status*](/docs/record-spec-settings.html#status)
+    [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html)
     erforderlich.
 
     - **Baustein verstecken**  
