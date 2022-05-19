@@ -19,7 +19,8 @@ Die Mitgliederverwaltung ist in den Einstellungen des
 Hier sind sämtliche Mitglieder, Rollen und Teams aufgelistet. Ebenfalls wird hier der Zugriff
 auf den
 [Arbeitsbereich](/docs/software-structure.html#arbeitsbereiche)
-gesteuert.  
+gesteuert. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop
+angezeigt.  
 Neue Mitglieder/Benutzer können auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
 
 1. Einladungslink versenden  
@@ -70,8 +71,11 @@ Nachdem Benutzerrollen und -teams angelegt wurden und diese bereits Mitglieder z
 der Zugriff auf Datensätze beschränkt und bestimmte Funktionen ausgestellt werden.
 
 Das globale Rechtesystem in den Rollen greift immer auf ganze Kacheln zu. Im Standard ist immer der
-Zugriff auf "Alle" Datensätze hinterlegt.  
-Folgende Einstellungen können vorgenommen werden:
+Zugriff auf "Alle" Datensätze hinterlegt.
+Über den Switch "Darf Arbeitsbereich anlegen" kann gesteuert werden, ob die Rolle den Arbeitsbereich
+wechseln darf.
+
+Folgende weitere Einstellungen können vorgenommen werden:
 - Gefiltert  
     Inhalt der
     [Kachel](/docs/software-structure.html#kacheln)
