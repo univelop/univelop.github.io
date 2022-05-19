@@ -11,8 +11,11 @@ nav_order: 7
 Es besteht die Möglichkeit ganze
 [Arbeitsbereiche](http://localhost:4000/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
 zu exportieren und wieder zu importieren. Im Designmodus des Homescreens des Arbeitsbereiches
-befindet sich in den Einstellungen der Button "Export". Nach Betätigen des Buttons wird der
-Arbeitsbereich als ZIP-Datei heruntergeladen.
+befindet sich in den Einstellungen der Button "Export". Nachdem der Button betätigt wurde, erscheint ein Popup-Fenster in dem man Wählen kann, ob nur die Struktur des Arbeitsbereiches (nur Kacheln) oder ob sowohl die Struktur als auch die dazugehörigen Daten exportiert werden sollen.
+
+![button export2](\assets\import-export\button export2.png "button export2")
+
+Nach Betätigen des Buttons wird der Arbeitsbereich als ZIP-Datei heruntergeladen.
 
 ![button export](\assets\import-export\button export.png "button export")
 
