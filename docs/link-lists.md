@@ -125,10 +125,11 @@ Der
 kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
 sowie die Anzahl der verknüpften Datensätze.
 
-Anstatt sich die Anzahl der verknüpften Datensätze anzeigen zu lassen, kann über den Switch *Summe statt Anzahl anzeigen*
-eine Summe über die Datensätze gezogen werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine:
-- [Baustein *Nummer*](/docs/record-spec-settings.html#nummer)
-- [Baustein *Zeitspanne*](/docs/record-spec-settings.html#zeitspanne)
+Zusätzlich kann für den Baustein *Datensatz Liste* ein Badge eingestellt werden. Ein Badge ist entweder die Anzeige der Anzahl der beinhalteten Datensätze oder die Summe eines bestimmten Baustein. Wählt man die Variante
+"Summe über einen Baustein", kann in "Summe über" der entsprechende Baustein ausgewählt werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine aus der verknüpften Kachel. Mögliche auswählbare Bausteine:
+- [Baustein *Nummer*](/docs/record-spec-settings/grand-childs-form/number.html)
+- [Baustein *Zeitspanne*](/docs/record-spec-settings/grand-childs-form/interval.html)
+- [Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
 - Filter
 - Datensatz-Verknüpfungen
 
@@ -139,8 +140,8 @@ Für eine eindeutigere Anzeige kann ein *Summen Suffix* sowie die *Anzahl der Na
 ### <span style="color:#3d85c6">Art der Darstellung: Eingebettete Liste</span>
 
 Wird in den Einstellungen des Bausteins die "Art der Darstellung" auf "eingebettete Liste" geändert, wird eine Vorschau
-der verknüpften Datensätze angezeigt. Im Standard ist die "Anzahl der Datensätze in Vorschau" auf 3 eingestellt. Diese
-Anzahl können beliebig angepasst werden. Die angezeigten Daten in der Vorschau entsprechen der Vorschau in den Listeneinstellung
+der verknüpften Datensätze angezeigt. Im Standard ist die "Anzahl der Datensätze in Vorschau" auf 3 eingestellt. Die
+Anzahl kann beliebig angepasst werden. Die angezeigten Daten in der Vorschau entsprechen der Vorschau in den Listeneinstellung
 der verknüpften Liste.
 
 **Beispiel einer eingebetteten Liste:**
