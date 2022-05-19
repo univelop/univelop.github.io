@@ -16,3 +16,5 @@ Das heutige Datum ist immer voreingestellt.
 Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
+
+Zusätzlich kann die Kurzform des entsprechenden Wochentags in den Einstellungen hinzugefügt werden.
