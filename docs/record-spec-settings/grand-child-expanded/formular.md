@@ -34,4 +34,4 @@ Dies geschieht wie folgt:
     verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
     Also: technischernamebausteindieseliste.technischernamebausteinverknüpfteliste
 
-Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](/docs/formulary.html) zu finden.
+Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](/docs/formulary/formulary.html) zu finden.
