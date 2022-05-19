@@ -14,4 +14,4 @@ Funktionen und Möglichkeiten ein. Ein Beispielergebnis ist am Ende eines jeden 
 zu finden.
 
 |:-----:                |:------:               |:------:
-|To-Do-Liste            |Mitarbeiterliste       |Verknüpfen der Mitarbeiterliste
+|[To-Do-Liste](/docs/tutorials/childs/to-do-list.html "To-Do-Liste")            |[Mitarbeiterliste](/docs/tutorials/childs/employee-list.html "Mitarbeiterliste")       |[Verknüpfen der Mitarbeiterliste](/docs/tutorials/childs/connect-list-employee.html "Verknüpfen der Mitarbeiterliste")

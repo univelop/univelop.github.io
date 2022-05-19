@@ -22,7 +22,7 @@ ausgegeben werden.
 
 2. Ausgabe von Schaltern  
     Die Ausgabe des
-    [Bausteins *Schalter*](/docs/record-spec-settings.html#schalter)
+    [Bausteins *Schalter*](/docs/record-spec-settings/grand-childs-form/switch.html)
     kann im Designmodus in den Einstellungen des Bausteins unter "Darstellung als Ausdruck" als "Checkbox",
     "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
 

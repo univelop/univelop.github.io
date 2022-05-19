@@ -14,6 +14,7 @@ Der Baustein *Nummer* kann ausschließlich mit Zahlenwerten gefüllt werden.
 
 Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. PLZ, Beträge,
 Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im
-[Baustein *Formel*](/docs/record-spec-settings.html#formel).
+[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html).
+
 **Bitte beachten:**  
 Falscheingaben werden nach Verlassen des Dialogfensters gelöscht.

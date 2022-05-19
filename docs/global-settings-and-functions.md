@@ -62,7 +62,7 @@ Mitglieder werden diesen Teams hinzugefügt. Sie haben jetzt die Möglichkeit Mi
 einem Team zuzuordnen.
 
 Zudem besteht die Möglichkeit über den
-[Baustein *Team*](/docs/record-spec-settings.html#team)
+[Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)
 einem Datensatz ein Benutzerteam zuzuweisen.
 
 ## <span style="color:#0b5394">Rechte / Berechtigungen</span>
@@ -82,11 +82,11 @@ Folgende weitere Einstellungen können vorgenommen werden:
     wird anhand des vorgebenen Filters angezeigt
 - Von meinem Team  
     Sind Datensätze über den
-    [Baustein *Team*](/docs/record-spec-settings.html#team)
+    [Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)
     das jeweilige Team zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
 - Meine  
     Sind Datensätze über den
-    [Baustein *Benutzer*](/docs/record-spec-settings.html#benutzer)
+    [Baustein *Benutzer*](/docs/record-spec-settings/grand-childs-form/user.html)
     dem jeweiligen Benutzer zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
 - Keine  
     Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.

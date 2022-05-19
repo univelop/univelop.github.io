@@ -24,7 +24,7 @@ Zum grundsätzlichen Aufbau:
     Wurde der Datensatz gesperrt kann dieser über "Entsperren" wieder freigegeben werden
     (anders als beim Sperren über Status)
 4. **Eine Verknüpfung mit dem
-[Baustein *Status*](/docs/record-spec-settings.html#status)
+[Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html)
 ist möglich**
 5. **Sämtliche Pflichtfelder (Prüfung bei Freigabe) müssen einzeln angehakt werden**
 
@@ -38,11 +38,11 @@ Gesperrte Datensätze können nicht gelöscht werden.
 1. Über den Baustein *Freigabe* ist eine Pflichtfeldprüfung möglich. Hierzu muss in den Einstellungen des
 Bausteins unter "Validierung" der Switch *Pflichtfeld* gesetzt werden. Ist nur ein Baustein *Freigabe*
 eingebaut und kein
-[Baustein *Status*](/docs/record-spec-settings.html#status),
+[Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html),
 werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Freigabe betätigt wird.
 2. Das Bearbeiten und Löschen von gesperrten Datensätzen ist nicht möglich. Die Datensätze, sowie verknüpfte Datensätze
 müssen entsperrt werden (Mutter- & Tochterdatensätze über
-[Baustein *Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste))
+[Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html))
 3. Wer Datensätze sperren und entsperren darf wird in den
 [Rollen und Rechten](/docs/global-settings-and-functions.html#rechte--berechtigungen)
 festgelegt.

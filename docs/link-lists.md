@@ -9,11 +9,11 @@ nav_order: 8
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
 Wie der Name schon sagt, kann über den
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 auf einen Datensatz zugegriffen werden. Genauer gesagt auf einen Datensatz einer anderen Liste.
 
 Nachdem der
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
 Funktionen des Bausteins vorgenommen werden:
 
@@ -30,9 +30,9 @@ Verknüpfung zu einer anderen Liste vorgenommen werden.
 
     Dabei ist darauf zu achten, dass die zu Quell- und Zielbausteine der Liste den gleichen Typ aufweisen
     müssen, bedeutet nur
-    [Textfeld](/docs/record-spec-settings.html#textfeld)
+    [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)
     zu Textfeld,
-    [Datum](/docs/record-spec-settings.html#datum)
+    [Datum](/docs/record-spec-settings/grand-childs-form/date.html)
     zu Datum etc.
 
     Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
@@ -53,13 +53,13 @@ Hauptdatensatz gelöscht wird. Wenn es sich um zusammenhängende Bewegungsdaten 
 werden, um Datenmüll zu vermeiden.
 
 Informationen zu den Möglichkeiten zu *Filter und Sortierungen* sind auf der Docs-Seite des Bausteins
-[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+[*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 zu finden.
 
 ### <span style="color:#3d85c6">Zusammenfassung</span>
 
 Über den
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 wird eine einfache Verknüpfung mit **einem** Datensatz einer anderen Liste
 geschaffen und es besteht die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
 zu löschen oder zu duplizieren, wenn dies gleichzeitig mit dem Löschen und Duplizieren des Hauptdatensatz
@@ -70,18 +70,18 @@ erfolgt.
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz Liste*</span>
 
 Der
-[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+[*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 bietet die Möglichkeit sich mehrere Datensätze einer anderen Liste anzeigen zu lassen und über die
 Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
 Ähnlich wie bei dem
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 wird eine passende Bezeichnung und mit "Verknüpfung über" der Baustein mit der gewünschten Liste verknüpft.
 
 Über die Funktion "Verknüpfung über" wir der
-[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+[*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 über einen
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 eine eine eindeutige Zuordnung aufgebaut.
 
 ![record list settings](\assets\link-lists\record list settings.png "record list settings")
@@ -92,7 +92,7 @@ der Liste eine Verknüpfung mit einer Stammdatenliste vorhanden und es wurde ein
 erstellt, die dieser Liste angehört, dann muss über *Filter und Sortierung* ein eindeutiger Zusammenhang
 herstellt werden. Dies bedeutet konkret es wurde eine "Verknüpfung mit" gewählt und sowohl in der verknüpften
 Liste als auch in dieser Liste ein
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 eingebaut, der auf den gleichen Datensatz verweist, über die die Daten verknüpft werden können. In *Filter
 und Sortierung* wählt man den Zieldatensatz aus der verknüpften Liste aus und nutzt der Operator =B als
 Filterkriterium aus. =B bedeutet = Baustein. Also der Baustein *Datensatz* soll dem Baustein *Datensatz*
@@ -102,7 +102,7 @@ aus meiner Liste entsprechen.
 
 Es sind zwei Kacheln mit den Namen "Aufmaß" und "Aufmaßpositionen" (Hilfskachel) vorhanden. In der Aufmaßliste
 sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurder der
-[Baustein *Datensatz*](/docs/record-spec-settings.html#datensatz)
+[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
 eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Kachel "Aufmaß" ausgewählt
 werden.
 
@@ -121,7 +121,7 @@ Kachel "Bauvorhaben" gibt es den Baustein "Auftraggeber".
 ### <span style="color:#3d85c6">Art der Darstellung: Link zur Liste</span>
 
 Der
-[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+[*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
 sowie die Anzahl der verknüpften Datensätze.
 
@@ -151,7 +151,7 @@ der verknüpften Liste.
 ## <span style="color:#0b5394">Schnellerfassung für den Baustein *Datensatz Liste*</span>
 
 Wird ein
-[*Datensatz Liste*](/docs/record-spec-settings.html#datensatz-liste)
+[*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 als *eingebettete Liste* verwendet kann die Funktion einer Schnellerfassung, aktiviert werden. Dies ist eine
 charmante Art und Weise Einträge für die verknüpfte Liste in der aktuellen Kachel zu erstellen.
 
