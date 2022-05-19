@@ -16,12 +16,11 @@ Die Mitgliederverwaltung ist in den Einstellungen des
 (Button *Zahnrad*) zu finden.
 ![member administration](\assets\global-settings-and-functions\member administration.png "member administration")
 
-Hier sind sämtliche Mitglieder, Rollen und Teams aufgelistet. Ebenfalls wird hier der Zugriff
-auf den
-[Arbeitsbereich](/docs/software-structure.html#arbeitsbereiche)
-gesteuert. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop
-angezeigt.  
-Neue Mitglieder/Benutzer können auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
+Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs. Zusätzlich erhält man die Information, welche Rolle und welches Team das jeweilige Mitglied derzeit inne hat. Über die hinteren drei Punkte kann der Nutzer einer Rolle und/oder Team zugeordnet werden. Ebenfalls ist das Entfernen eines Benutzer hierüber möglich. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop
+angezeigt. 
+![members](\assets\global-settings-and-functions\members.png "members")
+
+Neue Mitglieder/Benutzer können über den Button auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
 
 1. Einladungslink versenden  
     Es wird der Einladungslink des Arbeitsbereichs in die Zwischenablage kopiert und es kann
