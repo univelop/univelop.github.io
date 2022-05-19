@@ -46,5 +46,5 @@ tritt man nach dem Klick auf den Link in den entsprechenden Arbeitsbereich ein u
 
 ## <span style="color:#0b5394">Empfehlung Nachbau Univelop-Tutorials</span>
 Wir empfehlen nach dem Durchlesen der Docs das Nachbauen unserer
-[Tutorials](/docs/Tutorials.html "Tutorials")
+[Tutorials](/docs/tutorials/Tutorials.html "Tutorials")
 zur weiteren Vertiefung der einzelnen Möglichkeiten.
