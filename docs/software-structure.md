@@ -7,7 +7,7 @@ nav_order: 3
 # <span style="color:#0b5394">**Die Programmstruktur**</span>
 
 Im Folgenden erläutern wir die Programmstruktur im Einzelnen.
-Für Nachbauten können gerne die [Tutorials](/docs/Tutorials.html)
+Für Nachbauten können gerne die [Tutorials](/docs/tutorials/Tutorials.html)
 verwendet werden.
 
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
@@ -68,7 +68,7 @@ Ein Listeneintrag besteht aus verschiedenen
 [Bausteinen](/docs/record-spec-settings/record-spec-settings.html)
 , die in Abschnitten in sinnvoller Weise aneinander gereiht werden. Durch das Betiteln der Bausteine wird die
 gewünschte Darstellung des Inhalts erreicht.
-[Mehr im Abschnitt "Bausteine"](/docs/record-spec-settings.html)
+[Mehr im Abschnitt "Bausteine"](/docs/record-spec-settings/record-spec-settings.html)
 
 ## <span style="color:#0b5394">Zusammenfassung der Programmstruktur</span>
 
