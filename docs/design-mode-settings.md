@@ -31,25 +31,31 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 
 ![home](\assets\design-mode-setting\home.png "home")
 
-1. <span style="color:#0b5394">**+ Einfache Liste**</span>  
+1. <span style="color:#0b5394">**Kachel *Einfache Liste***</span>  
     Erstellen einer eigenen neuen Kachel mit beliebigen Inhalt.
 
-2. <span style="color:#0b5394">**Gefilterte Liste**</span>  
+2. <span style="color:#0b5394">**Kachel *Gefilterte Liste***</span>  
     Eine Filterkachel bezieht sich auf eine bereits existierende Kachel / Liste. Diese Filterkachel
     stellt im Standard beim Hinzufügen alle Inhalte dar. Markiert man die Kachel und wählt über die
-    Auswahl *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen werden und reduziert
+    Auswahl *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen und reduziert
     dargestellt werden. Zum Beispiel offene Aufträge (Status offen), ToDos dieser Monat (s.
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 
-3. <span style="color:#0b5394">**Kachel importieren**</span>  
+3. <span style="color:#0b5394">**Kachel *Website***</span>  
+    Die Kachel ermöglicht es Websites einzubetten. Wird zum Beispiel in der alltäglichen Arbeit eine Website genutzt (z. B.
+    von Börsendaten, Eingabe von externen Formularen, etc.) kann diese direkt über Univelop aufgerufen werden.
+    Dazu erhält die Kachel einen entsprechenden Namen und die dazugehörigen URL. Per Mausklick auf die Kachel ruft Univelop
+    die URL ab. Die Website kann dann wie in einem Internetbrowser für den entsprechend notwendigen Zweck genutzt werden.
+
+4. <span style="color:#0b5394">**Kachel importieren**</span>  
     Wird diese Funktion genutzt, gehört man bereits zu den fortgeschrittenen Univelop-Nutzern. Kacheln
     können aus anderen Arbeitsbereichen importieren werden, wenn diese vorher lokal exportiert und
     im JSON-Format gespeichert wurden. Dies eignet sich vor allem dafür, wenn Standard-Kacheln in einer 
     Universal-Umgebung vorhanden sind, welche auf andere Arbeitsbereiche ausgerollt werden sollen. 
     Darüber hinaus können so gleiche Einstellungen übernommen werden.
 
-4. <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
+5. <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
     - Name des Arbeitsbereiches festlegen
     - Bilder des Arbeitsbereichs anpassen
         - Banner für den Homescreen, welches über den Kacheln erscheint
@@ -69,7 +75,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 Über den
 [Button *Export*](/docs/import-export.html#arbeitsbereiche)
 kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
-einen neuen einzufügen. Der Button *Löschen* führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
+einen neuen Arbeitsbereich einzufügen. Der Button *Löschen* führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
 
 ---
 
