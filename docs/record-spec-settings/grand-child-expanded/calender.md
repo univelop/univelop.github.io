@@ -8,7 +8,7 @@ nav_order: 7
 
 # <span style="color:#0b5394"><span class="material-icons">comment</span> **Baustein *Kalender***</span>
 
-Der Baustein *Kalender* wird verwendet um Einträge, die mit einem Baustein *Datum* ausgewählt sind, in einer Kalenderform darzustellen. Beispiele sind Arbeitszeiten von Mitarbeitern, Wiedervorlageeinträge, Ablaufdatum, Aufgabenverwaltung, etc. Der Baustein *Kalender* verweist dazu auf die Einträge die innerhalb des Kalender angezeigt werden.
+Der Baustein *Kalender* wird verwendet um Einträge, die mit einem [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html) ausgewählt sind, in einer Kalenderform darzustellen. Beispiele sind Arbeitszeiten von Mitarbeitern, Wiedervorlageeinträge, Ablaufdatum, Aufgabenverwaltung, etc. Der Baustein *Kalender* verweist dazu auf die Einträge die innerhalb des Kalender angezeigt werden.
 
 ![calender](\assets\record-spec-settings\calender.png "calender")
 
@@ -21,7 +21,7 @@ Der Kalender wird mit zwei Kacheln verknüpft um die gewünschten Einträge ents
 2. <span style="color:#0b5394">**Verknüpfung über**</span>  
     Hier wird die Kachel ausgewählt, die die Einträge entsprechend filtern soll
 3. <span style="color:#0b5394">**Verknüpfung zu Datum**</span>  
-    Verweis auf den Baustein *Datum* für die Zuordnung der einzelnen Tage
+    Verweis auf den [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html) für die Zuordnung der einzelnen Tage
 4. <span style="color:#0b5394">**Anzahl der Vorschau**</span>  
     Einstellung der Anzahl der Vorschaudatensätze
 5. <span style="color:#0b5394">**Einstellung des Badges**</span>  
