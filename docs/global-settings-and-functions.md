@@ -22,11 +22,11 @@ angezeigt.
 
 Neue Mitglieder/Benutzer können über den Button auf zwei Wege dem Arbeitsbereich hinzugefügt werden:
 
-1. Einladungslink versenden  
+1. <span style="color:#0b5394">**Einladungslink versenden**</span>  
     Es wird der Einladungslink des Arbeitsbereichs in die Zwischenablage kopiert und es kann
     eine E-Mail versendet werden.
 
-2. Neuer Benutzer manuell anlegen  
+2. <span style="color:#0b5394">**Neuer Benutzer manuell anlegen**</span>  
     Der Benutzer kann manuell angelegt werden. Meldet sich der Benutzer anschließend mit E-Mail
     und Passwort an, ist der Arbeitsbereich bereits bei dem Benutzer hinterlegt.
 
@@ -50,6 +50,12 @@ Durch das Klicken auf eine Rollen sehen Sie den Namen, die Einstellung Standardr
 unterhalb davon die Rechte der Rolle und Sie haben die Möglichkeit die Rolle über die drei Punkte
 oben rechts zu löschen oder zu duplizieren (wenn es ähnliche Rollen gibt).
 
+Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Adminstrator" bzw.
+"Besitzer" automatisch die neuen Rollen zugeteilt, da diese grundsätzlich über alle Funktionalitäten
+des Arbeitsbereichs verfügen sollen.
+
+![role admin owner](\assets\global-settings-and-functions\role admin owner other roles.png "role admin owner")
+
 ## <span style="color:#0b5394">Teams</span>
 
 Wie bei den Rollen können über den gleichen Weg verschiedene Benutzerteams hinzufügt werden und benannt
@@ -64,6 +70,22 @@ Zudem besteht die Möglichkeit über den
 [Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)
 einem Datensatz ein Benutzerteam zuzuweisen.
 
+Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Adminstrator" bzw.
+"Besitzer" automatisch die neuen Rollen zugeteilt, da diese grundsätzlich über alle Funktionalitäten
+des Arbeitsbereichs verfügen sollen.
+
+![role admin owner](\assets\global-settings-and-functions\role admin owner other roles.png "role admin owner")
+
+## <span style="color:#0b5394">Rolle und/oder Team wechseln</span>
+
+Sind einem Benutzer mehrere Rollen und/oder Teams zugeordnet, hat dieser die Möglichkeit, sein Standardteam zu wechseln.
+Sind mehrere Rollen/Teams vorhanden, hat der Benutzer die Möglichkeit über die drei Punkte die Wechselfunktion aufzurufen.
+Nach Auswahl der Wechselmethode erscheint ein Pop-Up Fenster mit dem ihm zugeteilten Rollen/Teams. Diese Funktion ermöglicht
+es Benutzern zu erlauben die Ansicht in Univelop vertretungsweise zu wechseln und mit den dafür benötigten Kacheln und
+Datensätzen zu arbeiten, ohne das man die Rechteeinstellungen der Kacheln für Vertretungen, etc. extra ändern muss.
+
+![change role team](\assets\global-settings-and-functions\change role_team.png "change role team")  
+![change role team](\assets\global-settings-and-functions\change role_team1.png "change role team")
 ## <span style="color:#0b5394">Rechte / Berechtigungen</span>
 
 Nachdem Benutzerrollen und -teams angelegt wurden und diese bereits Mitglieder zugeordnet sind, kann
@@ -110,7 +132,7 @@ Der Switch "Import erlauben" gibt oder nimmt das Recht
 Sofern es sich nicht um besonders intensiv geschultes Personal handelt, empfehlen wir den Import **nicht**
 zuzulassen.
 
-## <span style="color:#0b5394">Benachrichtigungen</span>
+## <span style="color:#0b5394">(Push-)Benachrichtigungen</span>
 
 Es können Benachrichtigungen für Änderungen an Datensätzen angezeigt werden. Die Benachrichtigung ist
 eine rot eingekreiste Zahl auf der Kachel, welche die Anzahl der neuen Datensätze oder Änderungen
@@ -119,7 +141,9 @@ beinhaltet. Beim Klick in die Kachel ist der jeweilige Datensatz mit einem roten
 In den Kacheleinstellungen können die Benachrichtigungen je Kachel für alle Nutzer aktivieren werden.
 Zudem besteht die Möglichkeit die Benachrichtigungen in der Kachel über das Glockensymbol zu aktivieren
 oder deaktivieren. Möchte man über Änderungen in der Liste benachrichtigt werden, kann dies über die
-drei Punkte innerhalb der Kachel aktiviert oder deaktiviert werden.
+drei Punkte innerhalb der Kachel aktiviert oder deaktiviert werden. Darüber hinaus bietet Univelop ebenfalls
+die Funktion, Mitgliedern eines Arbeitsbereiches, die die Univelop-App aktiv nutzen, diese per Push-
+Benachrichtigung über Änderungen in bestimmten Kacheln zu informieren.
 
 ## <span style="color:#0b5394">Filter und Sortierung</span>
 
