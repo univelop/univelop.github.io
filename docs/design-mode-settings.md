@@ -55,7 +55,13 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     Universal-Umgebung vorhanden sind, welche auf andere Arbeitsbereiche ausgerollt werden sollen. 
     Darüber hinaus können so gleiche Einstellungen übernommen werden.
 
-5. <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
+5. <span style="color:#0b5394">**Administratorenansicht "Kacheln anderer Benutzer"**</span>  
+    Besitzt ein Benutzer die Rolle "Administrator", hat er das Recht, alle erstellten Kacheln der anderen Benutzer einzusehen
+    und zu bearbeiten. Mit einem Klick auf eine Benutzerkachel stehen dem Administrator auch hier alle gewohnten Einstellungs-
+    möglichkeiten zur Verfügung. Sind zum Beispiel Standard-Kacheln auf eine Gruppe Benutzer verteilt und an diesen Kacheln
+    muss eine Änderung vorgenommen werden, kann der Administrator dies über diese Funktion einfach umsetzen.
+
+6. <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
     - Name des Arbeitsbereiches festlegen
     - Bilder des Arbeitsbereichs anpassen
         - Banner für den Homescreen, welches über den Kacheln erscheint
