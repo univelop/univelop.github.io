@@ -3,7 +3,7 @@ layout: default
 title: Artikel Scanner
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 14
+nav_order: 15
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">comment</span> **Baustein *Artikel Scanner***</span>
@@ -26,7 +26,7 @@ Anschließend wird der hinzugefügte Artikelbaustein verwendet, der über die au
 
  ![article scanner filter1](\assets\record-spec-settings\article scanner filter1.png "article scanner filter1")  
 
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
+1. <span style="color:#0b5394">**Verknüpfung mit**</span>    
     Hier wird die Kachel verknüpft, in die die gescannte Artikelbewegung geschrieben werden soll
 2. <span style="color:#0b5394">**Verknüpfung über**</span>  
     Die Kachel, aus denen die Datensätze für die entsprechenden Warenausgänge angezeigt werden sollen
@@ -52,17 +52,17 @@ Wird nun der Baustein *Artikel Scanner* in dem Modus "Artikel hinzufügen" genut
 
 ![article scanner add article1](\assets\record-spec-settings\article scanner add article1.png "article scanner add article1")
 
-1. <span style="color:#0b5394">**Scan-Nummer**</span>
+1. <span style="color:#0b5394">**Scan-Nummer**</span>  
     Hier wird die Nummer des gescannten Barcodes eingesetzt und anschließend durch den automatischen Tabs des Endgerätes die Artikelsuche ausgelöst (s. 6.)
-2. <span style="color:#0b5394">**Menge ausgegeben**</span>
+2. <span style="color:#0b5394">**Menge ausgegeben**</span>  
     In diesem Bereich wird zuvor ausgewählte vorbelegte Menge eingesetzt
-3. <span style="color:#0b5394">**Menge anpassen**</span>
+3. <span style="color:#0b5394">**Menge anpassen**</span>  
     Über Plus / Minus kann die "Menge" vor dem Hinzufügen des Artikels noch einmal angepasst werden
-4. <span style="color:#0b5394">**Artikel**</span>
+4. <span style="color:#0b5394">**Artikel**</span>  
     Hier wird der gefundene Artikel aus dem Scanvorgang angezeigt. Über das Scan-Icon vor dem Artikel kann der Scanvorgang noch einmal vorgenommen werden
-5. <span style="color:#0b5394">**Button Hinzufügen**</span>
+5. <span style="color:#0b5394">**Button Hinzufügen**</span>  
     Speichert den durch den Scanvorgang erstellten Datensatz in Artikelbewegung ab und springt erneut in "Scan-Nummer" (s. 1)
-6. <span style="color:#0b5394">**Hinzufügen und Fertig**</span>
+6. <span style="color:#0b5394">**Hinzufügen und Fertig**</span>  
     Der erstellte Datensatz wird dem Warenausgang hinzugefügt und die Scanmaske wird geschlossen.
 
 Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elektronisch über Univelop erfolgen (z. B. per E-Mail, etc.) In der Kachel "Warenausgang" wird eine entsprechender Warenausgang mit Nummer angelegt und der Modus "Artikel hinzufügen" fügt anschließend lediglich die gescannten Artikel dem Warenausgang zu.

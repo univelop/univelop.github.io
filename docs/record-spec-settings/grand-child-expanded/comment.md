@@ -3,7 +3,7 @@ layout: default
 title: Kommentar
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 10
+nav_order: 12
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">comment</span> **Baustein *Kommentare***</span>

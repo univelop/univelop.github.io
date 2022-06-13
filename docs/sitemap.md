@@ -46,11 +46,14 @@ nav_order: 1
     - [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
     - [Status](/docs/record-spec-settings/grand-child-expanded/status.html)
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
+    - [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
     - [Formel](/docs/record-spec-settings/grand-child-expanded/formular.html)
     - [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
     - [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)
     - [PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)
+    - [Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article-scanner.html)
+    - [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
 
 5. <span style="color:#0b5394">**Zusätzliche globale Einstellungen und Funktionen**</span>
     - [Mitglieder](/docs/global-settings-and-functions.html#mitglieder)
