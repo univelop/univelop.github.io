@@ -25,3 +25,5 @@ Folgende Einstellungen sind möglich:
     Auswahlmöglichkeiten: nebeneinander oder untereinander  
     **Bitte beachten:**  
     In der App werden Bilder immer standardmäßig nebeneinander dargestellt.
+
+Der Baustein *Bild Upload* ist sowohl online- als auch offlinefähig.
