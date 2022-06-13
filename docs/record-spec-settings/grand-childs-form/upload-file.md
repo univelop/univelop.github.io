@@ -12,4 +12,8 @@ Der Baustein *Datei Upload* ermöglicht das Hochladen verschiedener Dateien alle
 Hinsichtlich der Übersichtlichkeit empiehlt sich das Erstellen mehrerer Bausteine *Datei Upload* und diese zu
 kategorisieren.
 
+Dateien können entweder über das Plus-Zeichen über ein Explorerfenster gesucht werden. Alternativ können Dateien
+auch vorher markiert und anschließend per Drag & Drop in den Baustein gezogen werden. Ein entsprechender Hinweis
+im Baustein *Datei Upload* erfolgt.
+
 ![upload file](\assets\record-spec-settings\1upload file.png "upload file")
