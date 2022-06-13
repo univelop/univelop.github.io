@@ -48,6 +48,7 @@ nav_order: 1
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
     - [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
+    - [Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)
     - [Formel](/docs/record-spec-settings/grand-child-expanded/formular.html)
     - [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
     - [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)
