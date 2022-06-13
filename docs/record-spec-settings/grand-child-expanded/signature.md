@@ -27,4 +27,4 @@ das Unterschriftsdatum ausgegeben.
 
 Das Löschen der Unterschrift erfolgt auf gleichem Weg wie das Unterschreiben.
 Ein Klick auf das Unterschriftsfeld und anschließend über den Button "Löschen" die Erfassung
-löschen.
+löschen. Die Erfassung der Unterschrift ist sowohl online- als auch offlinefähig.
