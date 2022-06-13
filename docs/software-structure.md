@@ -21,7 +21,8 @@ werden, z.B. Mitglieder hinzufügen, Kacheln importieren oder erstellen.
 Ein Arbeitsbereich enthält eine oder mehrere Kacheln. Die Kachel steht mit ihrem Titel und der Darstellung
 (Icon, Summe Inhalte oder Summe über Baustein) für den Inhalt darin. Es gibt getrennt voneinander allgemeine
 Kacheln, die von allen Nutzern des Arbeitsbereichs gesehen werden, sowie eigene Kacheln, welche immer aus
-den allgemeinen Kacheln gefilterte Inhalte darstellen.
+den allgemeinen Kacheln gefilterte Inhalte darstellen. Zusätzlich besteht die Möglichkeit globale Kacheln,
+bei Bedarf, ausblenden zu lassen.
 
 ### <span style="color:#3d85c6"> gefilterte Kacheln</span>
 
@@ -47,6 +48,12 @@ Vorteil hierbei ist, dass die Filter entsprechend in der Neuerfassung von Datens
 (z. B. Mitarbeitername, Tätigkeitsart).  
 Zeiterfassungen unterliegen aber auch einer ständigen Prüfung, sodass neue Arbeitszeiten dafür besser gefiltert
 werden können (z. B. Filter: bereits freigegeben = Nein).
+
+### <span style="color:#3d85c6"> Kachel "Website"</span>
+
+Die Kachel *Website* ermöglicht die Einbindung einer Website direkt in Univelop ohne die Nutzung eines separaten
+Browers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten
+Tools, usw.
 
 ## <span style="color:#0b5394">Listen</span>
 
