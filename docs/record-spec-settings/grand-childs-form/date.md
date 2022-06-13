@@ -16,3 +16,4 @@ Das heutige Datum ist immer voreingestellt.
 Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
+Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des [Baustein *Kalender*](/docs/record-spec-settings/grand-child-expanded/calender.html) an.
