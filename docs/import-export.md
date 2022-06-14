@@ -9,9 +9,9 @@ nav_order: 7
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
 
 Es besteht die Möglichkeit ganze
-[Arbeitsbereiche](http://localhost:4000/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
+[Arbeitsbereiche](/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
 zu exportieren und wieder zu importieren. Im Designmodus des Homescreens des Arbeitsbereiches
-befindet sich in den Einstellungen der Button "Export". Nachdem der Button betätigt wurde, erscheint ein Popup-Fenster in dem man Wählen kann, ob nur die Struktur des Arbeitsbereiches (nur Kacheln) oder ob sowohl die Struktur als auch die dazugehörigen Daten exportiert werden sollen.
+befindet sich in den Einstellungen der Button "Export". Nachdem der Button betätigt wurde, erscheint ein Popup-Fenster in dem man wählen kann, ob nur die Struktur des Arbeitsbereiches (nur Kacheln) oder ob sowohl die Struktur als auch die dazugehörigen Daten exportiert werden sollen.
 
 ![button export2](\assets\import-export\button export2.png "button export2")
 
@@ -22,9 +22,10 @@ Nach Betätigen des Buttons wird der Arbeitsbereich als ZIP-Datei heruntergelade
 Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
 wechseln oder einen
 ["+ Neuer Arbeitsbereich"](/docs/start-app.html#erstellen-eines-arbeitsbereichs "Der Start in die App // Erstellen eines Arbeitsbereichs")
-einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen drei
-Optionen gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog
-geöffnet, wo die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
+einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen den zwei
+Hauptoptionen oder einer der [Vorlagen](/docs/start-app.html#erstellen-eines-arbeitsbereichs)
+gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog geöffnet, wo
+die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
 
 ![import workspace](\assets\import-export\import workspace.png "import workspace")
 
