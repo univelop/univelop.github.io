@@ -13,7 +13,7 @@ Der Baustein *Artikel Scanner* bietet die Möglichkeit mittels eines entsprechen
 <span style="color:#0b5394">**Technische Voraussetzungen:**</span>  
 Der Baustein *Artikel Scanner* ist **nicht** mit einer herkömmlichen Smartphonekamera bedienbar und auf dem eingesetzten Endgerät muss die Univelop-App installiert werden können (Betriebssysteme: Android oder iOS). Das Endgerät muss so konfiguriert sein, dass es nach dem Scanvorgang einen automatischen Tab ausführt um die Suchfunktion auszulösen.
 
-Für die Nutzung des Bausteins "Artikel Scanner" sind zwei zusätzliche Kacheln notwendig, z. B. "Artikelbewegung" und "Warenausgang".
+Für die Nutzung des Bausteins "Artikel Scanner" sind zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) notwendig, z. B. "Artikelbewegung" und "Warenausgang".
 Der Baustein besitzt zwei Modis: Artikel hinzufügen oder Artikel abarbeiten.
 
 ## <span style="color:#0b5394">Modus "Artikel hinzufügen"</span>  
@@ -36,9 +36,8 @@ Anschließend wird der hinzugefügte Artikelbaustein verwendet, der über die au
     Vorgabe der Menge, die im Scanvorgang bei jedem Warenausgang vorbelegt werden soll
 
 
- ![article scanner filter2](\assets\record-spec-settings\article scanner filter2.png "article scanner filter2")
-
-5. <span style="color:#0b5394">**Mengenbaustein**</span>
+    ![article scanner filter2](\assets\record-spec-settings\article scanner filter2.png "article scanner filter2")
+5. <span style="color:#0b5394">**Mengenbaustein**</span>  
     Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
 6. <span style="color:#0b5394">**zusätzlicher Mengenbaustein**</span>  
     Dieser kann nach belieben ebenfalls eingesetzt werden (sollten in der Artikelbewegung zwei Mengen ausgegeben werden)
@@ -73,11 +72,11 @@ Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elekt
 ## <span style="color:#0b5394">Modus "Artikel abarbeiten"</span>  
 Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzufügen". In dem Modus "Artikel abarbeiten" besteht die Möglichkeit Mengen aufzusummieren, statt zu überschreiben. Diese Einstellung hat zur Folge, dass z. B. vier Mengeneinheiten ausgegeben werden sollen, verteilt jedoch auf zwei Lagerläufe (erster Lauf: 3 Mengeneinheiten ausgegeben, zweiter Lauf: 1 Mengeneinheiten ausgegeben). In dieser Einstellung wird die Menge nicht überschrieben, sondern in Summe die auzugebende Menge aufgezeigt.
 
-Die Warenausgabe benötigt einen Baustein *Datensatz Liste* der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
+Die Warenausgabe benötigt einen [Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html) der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
 
 ![article scanner filter](\assets\record-spec-settings\article scanner filter.png "article scanner filter")
 
-In der Einstellung "Menge vorbelegen" kann eine entsprechende Formel hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
+In der Einstellung "Menge vorbelegen" kann eine entsprechende [Formel](/docs/formulary/childs/condition-calculate-with.html) hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
 offene Mengen der einzelnen Positionen vorbelegt.
 Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und
 der Lagerplatz muss ebenfalls mitgescannt werden.
@@ -100,13 +99,12 @@ der Lagerplatz muss ebenfalls mitgescannt werden.
     Dies führt dazu, dass mehrere Scanvorgänge zu einer Artikelbewegung durchgeführt werden können, ohne dass die im 1. Scanvorgang erfasste Menge überschrieben wird.
 
 6. <span style="color:#0b5394">**Menge vorbelegen mit einer Formel**</span>  
-    Hier kann nicht nur eine Zahl vorgegeben werden, sondern diese lässt sich anhand einer Formel auch berechnen. In diesem Beispiel wird von der angefragten Menge die bereits ausgegebene Menge abgezogen, sodass dann die noch offene Menge vorbelegt wird.
+    Hier kann nicht nur eine Zahl vorgegeben werden, sondern diese lässt sich anhand einer [Formel](/docs/formulary/childs/condition-calculate-with.html) auch berechnen. In diesem Beispiel wird von der angefragten Menge die bereits ausgegebene Menge abgezogen, sodass dann die noch offene Menge vorbelegt wird.
 
 7. <span style="color:#0b5394">**Mengenbaustein**</span>  
     Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
 
- ![article scanner article work off2](\assets\record-spec-settings\article scanner work off2.png "article scanner work off2")
-
+    ![article scanner article work off2](\assets\record-spec-settings\article scanner work off2.png "article scanner work off2")
 8. <span style="color:#0b5394">**Artikel Baustein**</span>  
     Angabe des Bausteins, der auf die Kachel "Artikel" zurückgreift
 
