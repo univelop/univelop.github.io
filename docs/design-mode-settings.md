@@ -92,8 +92,8 @@ die Kacheleinstellungen bearbeitet werden.
 
 ![tile](\assets\design-mode-setting\tile.png "tile")
 
-1. <span style="color:#0b5394">**Designmodus der Liste**</span>
-2. <span style="color:#0b5394">**Designmodus der Einträge**</span>
+1. <span style="color:#0b5394">**Designmodus der Einträge**</span>
+2. <span style="color:#0b5394">**Designmodus der Liste**</span>
 3. <span style="color:#0b5394">**Kachelname ändern**</span>
 4. <span style="color:#0b5394">**Kachelinfo ändern**</span>
     - Anzeige Anzahl der Datensätze
@@ -102,14 +102,13 @@ die Kacheleinstellungen bearbeitet werden.
     - Festlegen eines Suffix
 5. <span style="color:#0b5394">**Icon**</span>
     - Festlegen des Icons der Kachel (ggf. mit Anzeige in der Kachel)
-6. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
-7. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
+6. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
     - (s.
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
+7. <span style="color:#0b5394">**Kachelfarbe ändern**</span>  
 
     ![tile2](\assets\design-mode-setting\tile2.png "tile2")
-     
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
     - Für bestimmte
     [Benutzerrollen](/docs/global-settings-and-functions.html#rollen)
@@ -117,8 +116,9 @@ die Kacheleinstellungen bearbeitet werden.
     - für bestimmte
     [Benutzerteams](/docs/global-settings-and-functions.html#teams)
     freigeben
-
-9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
+9. <span style="color:#0b5394">**Kachel für mich verstecken**</span>  
+    ermöglicht das verstecken globaler Kacheln
+10. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
     - **technischer Name ändern**  
         Technische Namen sind immer erforderlich um sich auf etwas zu beziehen, hier auf die Kachel,
         und i. d. R. für den Im- und Export von Datensätzen notwendig. Sie sind im Standard immer
