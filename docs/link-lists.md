@@ -20,7 +20,7 @@ Funktionen des Bausteins vorgenommen werden:
 ![brick record settings](\assets\link-lists\brick record settings.png "brick record settings")
 
 1. <span style="color:#0b5394">**Baustein *Datensatz* Funktion "Verknüpfung mit"**</span>  
-Damit der Baustein einwandfrei funktioniert muss in den Einstellungen unter "Verknüpfung mit" die
+Damit der Baustein einwandfrei funktioniert, muss in den Einstellungen unter "Verknüpfung mit" die
 Verknüpfung zu einer anderen Liste vorgenommen werden.
 
 2. <span style="color:#0b5394">**Werte des verknüpften Datensatzes übernehmen**</span>  
