@@ -13,15 +13,15 @@ Folgende Einstellungen sind möglich:
 
 ![upload picture](\assets\record-spec-settings\1upload picture.png "upload picture")
 
-1. Mehrere Bilder hochladen erlauben
+1. <span style="color:#0b5394">**Mehrere Bilder hochladen erlauben**</span>  
     Bezieht sich ausschließlich auf den Upload, nicht auf das Aufnehmen von mehrere Bildern über ein mobiles
     Endgerät
-2. Zoom verbieten
-3. Qualität
+2. <span style="color:#0b5394">**Zoom verbieten**</span>  
+3. <span style="color:#0b5394">**Qualität**</span>  
     Einstellung der hochgeladenen Qualität
-4. Größe
+4. <span style="color:#0b5394">**Größe**</span>  
     Wie groß sollen die Bilder in dem Ausdruck angezeigt werden
-5. Anordnung der Bilder
+5. <span style="color:#0b5394">**Anordnung der Bilder**</span>  
     Auswahlmöglichkeiten: nebeneinander oder untereinander  
     **Bitte beachten:**  
     In der App werden Bilder immer standardmäßig nebeneinander dargestellt.
