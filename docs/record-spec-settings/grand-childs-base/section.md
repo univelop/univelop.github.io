@@ -26,7 +26,7 @@ alle vorhandenen Bausteine innerhalb des Datensatzes ausgewählt werden.
 
 ![section create headline2](\assets\record-spec-settings\section_create_headline2.png "section create headline")
 
-Wird einer Kopfzeile der [Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) hinzugefügt, wird ebenfalls die vorhandene Anzahl der Dateien innerhalb dieses Abschnittes angezeigt.
+Wird einer Kopfzeile der [Baustein *Datei Upload*](/docs/record-spec-settings/grand-childs-form/upload-file.html) hinzugefügt, wird ebenfalls die vorhandene Anzahl der Dateien innerhalb dieses Abschnittes angezeigt.
 
 <span style="color:#0b5394">**Besonderheiten**</span>
 
