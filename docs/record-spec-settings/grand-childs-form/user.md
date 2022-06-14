@@ -15,13 +15,13 @@ Verantwortlichkeiten verteilt werden. Wichtig hierbei ist, dass der Benutzer dem
 
 Folgende Einstellungen sind möglich:
 
-1. aktuellen Besitzer standardmäßig setzen
+1. <span style="color:#0b5394">**aktuellen Besitzer standardmäßig setzen**</span>  
     (Ersteller des Datensatzes wird automatisch auch Besitzer)
-2. Besitzer ändern
-3. Besitzerteam ebenfalls ändern
+2. <span style="color:#0b5394">**Besitzer ändern**</span>  
+3. <span style="color:#0b5394">**Besitzerteam ebenfalls ändern**</span>  
     Wird der Besitzer geändert und dieser ist ebenfalls in der
     [Mitgliederverwaltung](/docs/global-settings-and-functions.html)
     ein anderes Team zugeordnet wird dieses automatisch mit geändert/berücksichtigt
 
-Mit diesen Einstellungen kann nach Besitzer oder Team gefiltert werden, sowie
-Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.
+Mit diesen Einstellungen kann in Kacheln nach Besitzer oder Team gefiltert werden (z. B. Arbeitszeiten,
+Rechteinstellung: nur Meine) (s. [zusätzliche globale Einstellungen / Rechte/Berechtigungen](/docs/global-settings-and-functions.html#rechte--berechtigungen)), sowie Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.
