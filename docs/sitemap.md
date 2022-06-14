@@ -44,6 +44,7 @@ nav_order: 1
     - [Datei](/docs/record-spec-settings/grand-child-expanded/file.html)
     - [Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)
     - [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
+    - [Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)
     - [Status](/docs/record-spec-settings/grand-child-expanded/status.html)
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
     - [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)
