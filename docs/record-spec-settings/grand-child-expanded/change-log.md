@@ -21,7 +21,7 @@ Folgende Punkte zeichnet der Baustein bei Änderungen auf:
 
 ![changelog](\assets\record-spec-settings\changelog.png "changelog")
 
-Wird in anderen Kacheln der Eintrag über den Baustein "Datensatz" verwendet und es werden Texte, Nummern, etc. übernommen und die Einstellung "Daten synchron halten" ist aktiviert, werden bekanntlich die Änderungen in diesen Kacheln entsprechend übernommen. Auch hier zeichnet der Baustein *Änderungsprotokoll* die entsprechenden Änderungen auf um die Auswirkungen der Änderung aufzuzeigen und gibt dabei jeweils die betreffende Kachel aus.
+Wird in anderen Kacheln der Eintrag über den [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html) verwendet und Werte des Stammdatensatzes werden übernommen und die Einstellung "synchron halten" ist aktiviert, werden bekanntlich die Änderungen an dem Stammdatensatz in diesen Kacheln entsprechend übernommen (s. [Verknüpfung über den Baustein *Datensatz*](/docs/link-lists.html)). Auch hier zeichnet der Baustein *Änderungsprotokoll* die entsprechenden Änderungen auf, um die Auswirkungen der Änderung aufzuzeigen und gibt dabei jeweils die betreffende Kachel aus.
 
 Mit einem Mausklick auf "Änderungsprotokoll" wird die komplette Änderungshistorie ausgegeben.
 
