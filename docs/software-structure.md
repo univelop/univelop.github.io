@@ -55,6 +55,15 @@ Die Kachel *Website* ermöglicht die Einbindung einer Website direkt in Univelop
 Browers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten
 Tools, usw.
 
+![tile website](\assets\software-structure\tile website.png "tile website")
+
+1. <span style="color:#0b5394">**Name der Kachel**</span>  
+2. <span style="color:#0b5394">**URL**</span>  
+    Hier wird aufzurufende Website eingesetzt
+
+Zusätzlich besteht die Möglichkeit die Kachel *Website* mit einem Icon zu versehen. Wie gewohnt lässt sich auch die Farbe
+der Kachel anpassen.
+
 ## <span style="color:#0b5394">Listen</span>
 
 Die Kachel ist die symbolische Darstellung einer Liste, also der Inhalt dieser Kachel. Wird eine Kachel aufgerufen,
