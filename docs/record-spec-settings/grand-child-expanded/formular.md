@@ -13,23 +13,24 @@ bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und 
 **nur lesbar**.
 
 Dies geschieht wie folgt:
-1. Auf andere Bausteine wird über den technischen Namen zugegriffen.
+1. <span style="color:#0b5394">**Auf andere Bausteine wird über den technischen Namen zugegriffen**</span>  
     Wie bereits beschrieben müssen technische Namen innerhalb einer Liste
     einzigartig sein. Durch diese Einzigartigkeit weiß der Formel Baustein
     auf welchen Datensatz er zugreifen soll.
 
-2. Den Inhalt eines anderen Bausteins widergeben
+2. <span style="color:#0b5394">**Den Inhalt eines anderen Bausteins wiedergeben**</span>  
     Durch das Schreiben des technischen Namens eines anderen Baustein kann
-    bereits der Inhalt wiedergegeben werden. Ein = vor der Formel ist nicht erforderlich.
+    bereits der Inhalt wiedergegeben werden. Ein Gleichheitszeichen vor der Formel ist
+    nicht erforderlich.
 
-3. Kombinieren von Datensätzen
+3. <span style="color:#0b5394">**Kombinieren von Datensätzen**</span>  
     Verschiedene Datensätze werden kombiniert über +, -, *, /
     Also: technischername1+technischername2
     Ebenfalls möglich: Zahlen- und Textwerte miteinander verknüpfen.
     Beim Beispiel PLZ und Ort könnte das Ergebnis 21085Hamburg lauten.
     Somit erstellt man z. B. Sortiercodes.
 
-4. Dynamischer Zugriff auf verknüpfte Daten
+4. <span style="color:#0b5394">**Dynamischer Zugriff auf verknüpfte Daten**</span>  
     Durch ein Punkt hinter dem technischen Namen weiß der Formel Baustein, dass in dem
     verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
     Also: technischernamebausteindieseliste.technischernamebausteinverknüpfteliste
