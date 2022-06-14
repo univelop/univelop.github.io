@@ -37,14 +37,14 @@ eines Titels des neuen Arbeitsbereichs kann "drauf los gekachelt" werden.
 
 ![new-workspace](\assets\start-app\new-workspace.png "new-workspace")
 
-1. <span style="color:#0b5394">**Neuer Arbeitsbereich**</span>
+1. <span style="color:#0b5394">**Neuer Arbeitsbereich**</span>  
     Ein neuer Arbeitsbereich wird angelegt. Gestartet wird im Designmodus ohne Kacheln
 
-2. <span style="color:#0b5394">**Arbeitsbereich importieren**</span>
+2. <span style="color:#0b5394">**Arbeitsbereich importieren**</span>  
     Ein zuvor exportierter Arbeitsbereich kann wieder importiert werden (man tritt dem bestehenden
     Arbeitsbereich nicht bei, es wird dadurch ein komplett neuer Arbeitsbereich angelegt)
 
-3. <span style="color:#0b5394">**Auswahl einer Vorlage**</span>
+3. <span style="color:#0b5394">**Auswahl einer Vorlage**</span>  
     Für den Start in einen neuen Arbeitsbereich kann eine Vorlage ausgewählt werden mit vordefinierten
     Kacheln und Beispieldatensätze. Diese lassen sich je nach Anforderung entsprechend anpassen
     und erweitern.
