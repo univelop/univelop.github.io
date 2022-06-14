@@ -76,6 +76,18 @@ des Arbeitsbereichs verfügen sollen.
 
 ![role admin owner](\assets\global-settings-and-functions\role admin owner other roles.png "role admin owner")
 
+## <span style="color:#0b5394">Benutzern mehrere Rollen und/oder Teams zuordnen</span>
+Benutzern einer Arbeitsumgebung können mehrere Rollen und/oder Teams zugeordnet werden. Das hat den Vorteil
+das Benutzer vertretungsweise eine andere Ansicht in Univelop einnehmen kann, ohne dass sämtliche
+Rechteeinstellungen innerhalb der Kachel/Bausteinen dafür geändert werden müssen.
+Für die Mehrfachzuordnung müssen die entsprechenden Rollen und/oder Teams im Vorwege in der Arbeitsumgebung
+angelegt werden. In der Mitgliederverwaltung sind die einzelnen Benutzer des Arbeitsbereichs aufgelistet.
+Hinter jedem Benutzer befindet sich der Einstellungsmodus, wo die Zuordnung der einzelnen Rollen und/oder
+Teams vorgenommen werden kann (Administratoren und Besitzer dürfen Rollen/Teams zuordnen). Anschließend
+erhalten die jeweiligen Benutzer in dem Arbeitsbereich die Berechtigung entsprechend der Zuteilung die
+Rolle und/oder das Team zu wechseln.
+
+![link user roles teams](\assets\global-settings-and-functions\link user to roles_teams.png "link user roles teams")
 ## <span style="color:#0b5394">Rolle und/oder Team wechseln</span>
 
 Sind einem Benutzer mehrere Rollen und/oder Teams zugeordnet, hat dieser die Möglichkeit, sein Standardteam zu wechseln.
@@ -97,19 +109,19 @@ Zugriff auf "Alle" Datensätze hinterlegt.
 wechseln darf.
 
 Folgende weitere Einstellungen können vorgenommen werden:
-- Gefiltert  
+- <span style="color:#0b5394">**Gefiltert**</span>  
     Inhalt der
     [Kachel](/docs/software-structure.html#kacheln)
     wird anhand des vorgebenen Filters angezeigt
-- Von meinem Team  
+- <span style="color:#0b5394">**Von meinem Team**</span>  
     Sind Datensätze über den
     [Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)
     das jeweilige Team zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
-- Meine  
+- <span style="color:#0b5394">**Meine**</span>  
     Sind Datensätze über den
     [Baustein *Benutzer*](/docs/record-spec-settings/grand-childs-form/user.html)
     dem jeweiligen Benutzer zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
-- Keine  
+- <span style="color:#0b5394">**Keine**</span>  
     Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.
 
 
