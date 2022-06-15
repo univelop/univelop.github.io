@@ -20,8 +20,7 @@ Wo und wie die Einstellungen eines jeweiligen Gerätes zu finden sind, steht i. 
 [Link: Hinzufügen/Entfernen eines Suffix auf einem Android-Endgerät mit CommonES (Honeywell)](https://honeywellaidc.force.com/supportppr/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater)  
 Durch den Klick auf den Link verlässt man UnivelopDocs und wechselt zu der Website der Honeywell Support-Community.
 
-Für die Nutzung des Bausteins "Artikel Scanner" sind zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) notwendig, z. B. "Artikelbewegung" und "Warenausgang".
-Der Baustein besitzt zwei Modis: Artikel hinzufügen oder Artikel abarbeiten.
+Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins *Artikel Scanner* werden ebenfalls zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modis, die entsprechend der Anforderung ausgewählt werden können.
 
 ## <span style="color:#0b5394">Modus "Artikel hinzufügen"</span>  
 In den Bausteineinstellungen sind die Kacheln für "Verknüpfung mit" und "Verknüpfung über" einzustellen (Beispiel: "Verknüpfung
