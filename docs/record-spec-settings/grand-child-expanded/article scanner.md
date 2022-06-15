@@ -10,8 +10,15 @@ nav_order: 15
 
 Der Baustein *Artikel Scanner* bietet die Möglichkeit mittels eines entsprechenden Endgeräts mit Scanlaser Artikelbewegungen (zusätzlich mit Scanfunktion weiterer Bausteine z. B. Lagerplatz) zu erfassen.
 
-<span style="color:#0b5394">**Technische Voraussetzungen:**</span>  
-Der Baustein *Artikel Scanner* ist **nicht** mit einer herkömmlichen Smartphonekamera bedienbar und auf dem eingesetzten Endgerät muss die Univelop-App installiert werden können (Betriebssysteme: Android oder iOS). Das Endgerät muss so konfiguriert sein, dass es nach dem Scanvorgang einen automatischen Tab ausführt um die Suchfunktion auszulösen.
+## <span style="color:#0b5394">Technische Voraussetzungen und benötigte Kacheln</span>  
+Der Baustein *Artikel Scanner* ist **nicht** mit einer herkömmlichen Smartphonekamera bedienbar und auf dem eingesetzten Endgerät muss die Univelop-App installiert werden können (Betriebssysteme: Android oder iOS).
+
+Für einen einwandfreien Scannermodus muss das eingesetzte Endgerät so konfiguriert sein/werden, dass es nach dem Scanvorgang einen automatischen Tab oder Enter ausführt, um die benötigte Suchfunktion auszulösen. Am Beispiel eines Honeywell-Endgeräts in einer Lager-Arbeitsumgebung wurde in den Einstellungen des Gerätes der Befehl /t ergänzt, um den automatischen Tab nach dem Scanvorgang auszulösen.  
+Wo und wie die Einstellungen eines jeweiligen Gerätes zu finden sind, steht i. d. R. in den Dokumentationen der einzelnen Hersteller. Dazu kann im Internet z. B. nach "Scanner - (Modell- und Herstellername) - Suffix Enter" gesucht werden.
+
+**Beispiel:**
+[Link: Hinzufügen/Entfernen eines Suffix auf einem Android-Endgerät mit CommonES (Honeywell)](https://honeywellaidc.force.com/supportppr/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater)  
+Durch den Klick auf den Link verlässt man UnivelopDocs und wechselt zu der Website der Honeywell Support-Community.
 
 Für die Nutzung des Bausteins "Artikel Scanner" sind zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) notwendig, z. B. "Artikelbewegung" und "Warenausgang".
 Der Baustein besitzt zwei Modis: Artikel hinzufügen oder Artikel abarbeiten.
@@ -78,8 +85,7 @@ Die Warenausgabe benötigt einen [Baustein *Datensatz Liste*](/docs/record-spec-
 
 In der Einstellung "Menge vorbelegen" kann eine entsprechende [Formel](/docs/formulary/childs/condition-calculate-with.html) hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
 offene Mengen der einzelnen Positionen vorbelegt.
-Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und
-der Lagerplatz muss ebenfalls mitgescannt werden.
+Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und der Lagerplatz muss ebenfalls mitgescannt werden.
 
 ![article scanner work off1](\assets\record-spec-settings\article scanner work off1.png "article scanner work off1")
 
