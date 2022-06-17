@@ -88,6 +88,7 @@ erhalten die jeweiligen Benutzer in dem Arbeitsbereich die Berechtigung entsprec
 Rolle und/oder das Team zu wechseln.
 
 ![link user roles teams](\assets\global-settings-and-functions\link user to roles_teams.png "link user roles teams")
+
 ## <span style="color:#0b5394">Rolle und/oder Team wechseln</span>
 
 Sind einem Benutzer mehrere Rollen und/oder Teams zugeordnet, hat dieser die Möglichkeit, sein Standardteam zu wechseln.
@@ -98,15 +99,17 @@ Datensätzen zu arbeiten, ohne das man die Rechteeinstellungen der Kacheln für 
 
 ![change role team](\assets\global-settings-and-functions\change role_team.png "change role team")  
 ![change role team](\assets\global-settings-and-functions\change role_team1.png "change role team")
+
 ## <span style="color:#0b5394">Rechte / Berechtigungen</span>
 
 Nachdem Benutzerrollen und -teams angelegt wurden und diese bereits Mitglieder zugeordnet sind, kann
-der Zugriff auf Datensätze beschränkt und bestimmte Funktionen ausgestellt werden.
+der Zugriff auf Datensätze beschränkt und bestimmte Funktionen ausgestellt werden. Dazu wird das Rechtesystem
+über die einzelnen Benutzerrollen aufgerufen. Über den Switch "Darf Arbeitsbereich anlegen" kann gesteuert
+werden, ob die Rolle den Arbeitsbereich wechseln darf.
 
-Das globale Rechtesystem in den Rollen greift immer auf ganze Kacheln zu. Im Standard ist immer der
-Zugriff auf "Alle" Datensätze hinterlegt.
-Über den Switch "Darf Arbeitsbereich anlegen" kann gesteuert werden, ob die Rolle den Arbeitsbereich
-wechseln darf.
+Das globale Rechtesystem in den Rollen greift immer auf ganze Kacheln zu, die im Modus "Rolle bearbeiten"
+aufgelistet werden. Mit einem Mausklick auf eine aufgelistete Kachel wird die Rechteeinstellung der Kachel
+aufgerufen. Im Standard ist immer "Zugriff erlauben" auf "Alle" Datensätze hinterlegt.
 
 Folgende weitere Einstellungen können vorgenommen werden:
 - <span style="color:#0b5394">**Gefiltert**</span>  
@@ -122,27 +125,28 @@ Folgende weitere Einstellungen können vorgenommen werden:
     [Baustein *Benutzer*](/docs/record-spec-settings/grand-childs-form/user.html)
     dem jeweiligen Benutzer zugeordnet, wird der Inhalt entsprechend danach gefiltert und angezeigt.
 - <span style="color:#0b5394">**Keine**</span>  
-    Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.
+    Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.  
+    Beim Zugriff auf "Keine" ist die [Kachel](/docs/software-structure.html#kacheln)
+    für die Rolle nicht sichbar und Datensätze und
+    [Datensatzverknüpfungen](/docs/link-lists.html)
+    können nicht ausgewählt werden. Wenn partielle Zugriffe auf Einträge eines Datensatzes unsichtbar
+    geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein versteckt wird und unter
+    [*Für Benutzerrollen anzeigen*](/docs/design-mode-settings.html#kachel)
+    die entsprechenden Rollen Zugriff erteilen.
 
+    ![hide tile roles](\assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
 
-Beim Zugriff auf "Keine" ist die
-[Kachel](/docs/software-structure.html#kacheln)
-für die Rolle nicht sichbar und Datensätze und
-[Datensatzverknüpfungen](/docs/link-lists.html)
-können nicht ausgewählt werden. Wenn partielle Zugriffe auf Einträge eines Datensatzes unsichtbar
-geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein versteckt wird und unter
-[*Für Benutzerrollen anzeigen*](/docs/design-mode-settings.html#kachel)
-die entsprechenden Rollen Zugriff erteilen.
+    Die gleichen Filter können für das Bearbeiten und Löschen gewählt werden.
 
-![hide tile roles](\assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
+Im "erweiterten Zugriff" können folgende Einstellungen vorgenommen werden:
+- <span style="color:#0b5394">**Anlegen erlauben**</span>
+- <span style="color:#0b5394">**Bearbeiten erlauben**</span>
+- <span style="color:#0b5394">**Löschen erlauben**</span>
+- <span style="color:#0b5394">**Einträge entsperren erlauben**</span>
+- <span style="color:#0b5394">**Import erlauben**</span>  
+    bezieht sich auf das Recht [Excel-Dateien mit Datensätzen zu importieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
+    (Sofern es sich nicht um besonders intensiv geschultes Personal handelt, empfehlen wir den Import **nicht** zuzulassen.)
 
-Die gleichen Filter können für das Bearbeiten und Löschen gewählt werden. Das Anlegen von Datensätzen
-wird über den Switch "Anlegen erlauben" gesteuert.
-
-Der Switch "Import erlauben" gibt oder nimmt das Recht
-[Excel-Dateien mit Datensätzen zu importieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte).
-Sofern es sich nicht um besonders intensiv geschultes Personal handelt, empfehlen wir den Import **nicht**
-zuzulassen.
 
 ## <span style="color:#0b5394">(Push-)Benachrichtigungen</span>
 
