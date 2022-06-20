@@ -30,10 +30,10 @@ Filterkacheln bilden einen wesentlichen Teil in der Arbeit mit Univelop. Aus gef
 Aufgaben oder sonstige Arbeitserleichterung abgeleitet werden.
 
 Gefilterte Kacheln können auf zwei Wege erstellt werden:  
-- Speichern der gefilterten Liste
+- <span style="color:#3d85c6">**Speichern der gefilterten Liste**</span>  
 Wurde in der Liste temporär ein Filter gesetzt, kann die Filterung als "gefilterte Kachel" über das Symbol
 "Speichern" gespeichert werden.
-- Gefilterte Kachel über den Homescreen erstellen
+- <span style="color:#3d85c6">**Gefilterte Kachel über den Homescreen erstellen**</span>  
 Im Designmodus des Arbeitsbereichs können neben allgemeinen Kacheln auch "gefilterte Kacheln" erstellt werden.
 Hier wird die gefilterte Kachel per Drag and Drop in den Arbeitsbereich. Anschließend wählt man den Namen der
 Filterkachel sowie die Basiskachel, die die Grundlage der Datenlieferung für die Filterung liefert.
