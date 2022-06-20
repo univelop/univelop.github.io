@@ -4,9 +4,8 @@ title: Home
 nav_order: 0
 ---
 
-# <span style="color:#0b5394">**Univelop - Alle Geschäftsprozesse in einer App**</span>
-
-## <span style="color:#0b5394">Die App</span>
+### <span style="color:#3d85c6">Univelop - Dein Business. Deine App.</span>
+# <span style="color:#0b5394">**Die No-Code Plattform für dein Business**</span>
 
 Mit der Univelop-App können sämtliche Geschäftsprozesse in einer App dargestellt werden. Die App läuft auf sämtlichen mobilen Geräten, sowie als App auf dem Desktop - Natürlich auch auf sämtlichen Betriebssystemen.
 
