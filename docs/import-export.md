@@ -62,8 +62,10 @@ im neuen Arbeitsbereich vorhanden sind.
 **zentral alle** Kacheln der Organisation beinhaltet, kann **nicht** aus einem anderen Arbeitsbereich heraus
 in diese Umgebung importiert werden.
 
-## <span style="color:#0b5394">Datensätze und Inhalte</span>
-<span style="color:#3d85c6">*Empfohlen für fortgeschrittene Nutzer*</span>  
+## <span style="color:#0b5394">Datensätze und Inhalte</span>  
+<span style="color:#3d85c6">*Empfohlen für fortgeschrittene Nutzer*</span>   
+
+### <span style="color:#0b5394">Datensatzimport / -export mit Excel</span>
 
 Ebenso können auch Datensätze importiert und exportiert werden. Dies ist besonders dann sinnvoll,
 wenn viele Datensätze und Stammdaten erfasst werden sollen. Der Im- und Export erfolgt immer im 
@@ -107,3 +109,43 @@ wiederhergestellt werden kann.
 Leider sind wir beim Im- und Export von dem Excel-Package abhängig und das System vertauscht in dieser
 Kombination mit Excel hin und wieder Spalten. Daher empfehlen wir immer alle unnötigen Zeilen und Spalten
 zu löschen. Bei Problemen stehen stehen wir gerne mit Rat und Tat zur Seite.
+
+### <span style="color:#0b5394">Dateiimport / -export via PowerShell</span>
+
+Mit den Bausteinen [*Datei Upload*](/docs/record-spec-settings/grand-childs-form/upload-file.html) und [*PDF erstellen*](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) kann ebenfalls eine Synchronisation mit PowerShell erfolgen.
+
+Wird die Option in den Bausteineinstellungen aktiviert, kann man sich in einfachen Schritten ein PowerShell-Skript erstellen und herunterladen. Dieses erstellte Skript kann dann entweder manuell ausgeführt werden oder in der Windows Aufgabenplanung verwendet werden, um einen Automatismus für das Hochladen neuer Dokumente einzurichten.
+
+**Bei der Nutzung von PowerShell empfehlen wir Version 6 oder höher. Zu beachten sind ebenfalls die gesetzten Richtlinieneinstellungen im ausführenden Benutzer bzw. auf dem Server.**
+
+<span style="color:#0b5394">**Baustein *Datei Upload***</span>  
+Um über den [Baustein *Datei Upload*](/docs/record-spec-settings/grand-childs-form/upload-file.html) ein Skript für den Automatismus zu erstellen, geht man wie folgt vor:
+
+![settings file upload powershell](\assets\import-export\brick settings file upload powershell.png "settings file upload powershell")
+
+1. <span style="color:#0b5394">**"Per PowerShell mit Dateisystem synchronisieren" aktivieren**</span>  
+2. <span style="color:#0b5394">**Angabe des Pfades unter "Sync mit Ordner"**</span>  
+3. <span style="color:#0b5394">**ggf. "Löschen Dateien vor Synchronisation" aktivieren**</span>  
+    - aktiviert **nur** die Löschung in Univelop, nicht im Quellordner!  
+4. <span style="color:#0b5394">**Dateitypen berücksichtigen**</span>
+    - hier werden die zu berücksichtigen Dateiendungen eingetragen (z. B. PDF, JPG, PNG, etc.)  
+    Sollen alle Dateien berücksichtigt werden, kann dieses Feld leer bleiben (Standard: alle Dateiendungen)
+5. <span style="color:#0b5394">**Skript herunterladen**</span>
+
+Dieses Skript kann nun via PowerShell manuell ausgelöst werden, oder in die Windows Aufgabenplanung eingebettet werden, sodass es an bestimmten Tagen zu bestimmten Uhrzeiten ausgeführt wird.
+
+<span style="color:#0b5394">**Baustein *PDF erstellen***</span>  
+Wird mit dem [Baustein *PDF erstellen*](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) eine PDF generiert, kann die erzeugte PDF ebenfalls via PowerShell an einem bestimmten Zielordner abgelegt werden.
+
+![settings create pdf powershell](\assets\import-export\brick settings create pdf powershell.png "settings create pdf powershell")
+
+1. <span style="color:#0b5394">**"Per PowerShell mit Dateisystem synchronisieren" aktivieren**</span>  
+2. <span style="color:#0b5394">**Angabe des Pfades unter "Sync mit Ordner"**</span>  
+3. <span style="color:#0b5394">**Skript herunterladen**</span>  
+
+Auch dieses Skript kann nun via PowerShell manuell ausgelöst werden, oder in die Windows Aufgabenplanung eingebettet werden, sodass es an bestimmten Tagen zu bestimmten Uhrzeiten ausgeführt wird.  
+Beispielweise füllen Mitarbeiter einen Stundennachweis aus und erzeugen daraus eine PDF. Alle erzeugten Stundennachweise werden in einem Ordner "Stundennachweise Gesamt" gesammelt. Durch die aktivierte Option "Mit PowerShell synchronisieren" können die Mitarbeiter wie gewohnt Arbeitszeiten über Univelop erfassen, erzeugen die PDF und für die Synchronisation via PowerShell ist vorbereitet. Wird das erzeugte Skript manuell oder über die Windows Aufgabenplanung ausgeführt, werden die erzeugten PDFs dem Ordner "Stundennachweise Gesamt" hinzugefügt.
+
+<span style="color:#0b5394">**Beispiel für die Nutzung des Windows Aufgabenplaners:**</span>
+
+![example windows task scheduler](\assets\import-export\example windows task scheduler.png "example windows task scheduler")
