@@ -12,7 +12,8 @@ Mit dem Baustein *PDF erstellen* kann, ausgehend von einer Word Vorlage, eine PD
 und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gestaltet werden und sich
 auf die Liste beziehen in welcher die PDF-Datei erstellt wird. Alle darstellbaren Inhalte sind andruckbar,
 neben Buchstaben und Zahlen auch Bilddateien und die Unterschrift. Zusätzlich können verknüpfte Datensatz-Listen
-ausgegeben werden.
+ausgegeben werden.  
+Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. [Import und Export / Dateiimport / -export via PowerShell](/docs/import-export.html#dateiimport---export-via-powershell))
 
 ## <span style="color:#0b5394">Vorbereitung der Wordvorlage</span>  
 

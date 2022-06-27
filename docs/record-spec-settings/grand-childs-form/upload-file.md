@@ -16,4 +16,6 @@ Dateien können entweder über das Plus-Zeichen über ein Explorerfenster gesuch
 auch vorher markiert und anschließend per Drag & Drop in den Baustein gezogen werden. Ein entsprechender Hinweis
 im Baustein *Datei Upload* erfolgt.
 
+Zusätzlich können über ein selbsterstelltes Skript Dateien automatisch aus einem bestimmten Ordner hochgeladen werden. (s. [Import und Export / Dateiimport / -export via PowerShell](/docs/import-export.html#dateiimport---export-via-powershell))
+
 ![upload file](\assets\record-spec-settings\1upload file.png "upload file")
