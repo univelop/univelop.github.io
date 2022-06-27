@@ -4,10 +4,14 @@ title: Home
 nav_order: 0
 ---
 
-### <span style="color:#3d85c6">Univelop - Dein Business. Deine App.</span>
+### <span style="color:#3d85c6">UnivelopDocs - Für Anwender und die, die es werden wollen</span>  
 # <span style="color:#0b5394">**Die No-Code Plattform für dein Business**</span>
 
-Mit der Univelop-App können sämtliche Geschäftsprozesse in einer App dargestellt werden. Die App läuft auf sämtlichen mobilen Geräten, sowie als App auf dem Desktop - Natürlich auch auf sämtlichen Betriebssystemen.
+Herzlich Willkommen bei den UnivelopDocs. Wir listen hier nicht einfach nur unsere Funktionen von Univelop auf,
+sondern begleiten Anwender und die, die es werden wollen mit Beispielen und Tutorials rund um die Digitalisierung
+der eigenen Prozesse. Denn die Optimierung und Umsetzung eigener Ideen ist mit Univelop einfacher als man denkt.
+Dank des Baustein-Systems können sämtliche Geschäftsprozesse und Stammdaten selbst zusammengestellt und verwaltet werden.
+Unternehmen müssen sich nicht der Software anpassen, sondern Univelop passt sich dem Unternehmen an.
 
 <span style="color:#0b5394">***Doch wie geht das?***</span>
 
@@ -20,6 +24,9 @@ Vorkenntnisse in Informatik werden prinzipiell gar nicht benötigt. Das ist der 
 <span style="color:#0b5394">***Okay das klingt echt cool, aber was mache ich, wenn ich mal nicht weiter weiß?***</span>
 
 Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da.
+
+## <span style="color:#3d85c6">**Viel Spaß beim Erkunden der UnivelopDocs**</span>  
+**Wir wünschen viel Spaß beim Erkunden. Ohne auf die detaillierten Erklärungen der einzelnen Bausteine, Funktionen, etc. sofort einzugehen, empfehlen wir vorab den Nachbau des Tutorial ["Erstellen einer To-Do-Liste"](/docs/tutorials/childs/to-do-list.html). Dieses Tutorial ist mit Animationen ausgestattet, sodass die Einfachheit von Univelop noch einmal verdeutlicht wird.**
 
 ---
 
