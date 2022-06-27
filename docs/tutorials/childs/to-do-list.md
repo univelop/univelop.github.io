@@ -7,59 +7,52 @@ nav_order: 1
 
 # <span style="color:#0b5394">**Erstellen einer To-Do-Liste**</span>
 
-Zum Erstellen einer To-Do-Liste wird im Prinzip nur eine Liste benötigt. Dazu wird eine neue Kachel
-angelegt, die "To-Do-Liste" heißen könnte. Öffnet man die Kachel und klickt anschließend auf das kleine +
-zum Erstellen eines neuen Datensatzes, werden die zwei Standard-
-[Bausteine *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html)
-mit den den Namen "Bezeichnung" und "Beschreibung" angezeigt. Die Bezeichnung ist dabei immer im Titel
-enthalten und im Designmodus der Listenansicht dort in der 5-teiligen Titeldarstellung des Datensatzes
-(Listeneintrag).
+<span style="color:#0b5394">**Schritt 1: die erste Kachel**</span>  
+Einem (leeren) [Arbeitsbereich](/docs/software-structure.html#arbeitsbereiche) wird eine [Kachel](/docs/software-structure.html#kacheln) hinzugefügt. Diese Kachel erhält den Namen "To-Do-Liste".
 
-Der
-[Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html)
-mit dem Namen "Bezeichnung" kann umbenannt werden in "Aufgabe". Dies ist nun die
-Aufgabe in der To-Do-Liste. Als nächstes kann der
-[Baustein *Drop-Down*](/docs/record-spec-settings/grand-childs-form/drop-down.html)
-hinzugefügt werden. Als mögliche Optionen können beispielsweise "Arbeit" und "Privat" hinzugefügt werden,
-um die ToDo´s entsprechend zu kategorisieren. Der Baustein *Drop-Down* kann auch Priorität genannt werden
-mit den Optionen "Hoch", "Mittel", "Gering".
+![tutorial1](\assets\tutorials\1to-do-list.gif "tutorial1")
 
-Als nächstes kann zwecks Nachverfolgung der ToDo's der
-[Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)
-hinzugefügt werden mit dem Namen "Deadline" oder "Zu erledigen bis". Zu einer guten Checkliste gehört
-natürlich auch das Erfolgserlebnis einen Punkt abhaken zu können. Dazu kann der
-[Baustein *Schalter*](/docs/record-spec-settings/grand-childs-form/switch.html)
-hinzugefügt werden mit dem Namen "Erledigt". Für eine eindeutigere Darstellung in der App, kann die
-Darstellung "Checkbox" ausgewählt werden.
+<span style="color:#0b5394">**Schritt 2: Hinzufügen neuer Bausteine**</span>  
+Die neu erstellte Kachel wird markiert und um neue Bausteine hinzuzufügen wechselt man in den Bearbeitungsmodus "Felder und Bausteine bearbeiten". Hier werden die wichtigsten Felder für die Erfassung von To-Do's hinzugefügt. In neu erstellten Kacheln sind standardmäßig zwei [Bausteine *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html) vorgegeben (Bezeichnung und Beschreibung). Der Baustein "Bezeichnung" wird markiert und umbenannt in "Aufgabe". Dieses Feld wird genutzt um eine kurze Aufgabenbeschreibung einzutragen (z. B. mit dem Hund gehen, Vertrag kündigen, etc.)
 
-Für einen aussagekräftigen Titel wird über den blauen Stift oben rechts die
-["Titel Bearbeitung"](/docs/design-mode-settings.html#eintrag)
-geöffnet. Es kann ein eigener Titel vergeben und/oder zusätzlich noch bis zu drei Bausteine zur
-Titelvergabe des Eintrags ausgewählt werden.
+![tutorial2](\assets\tutorials\2to-do-list.gif "tutorial2")
 
-Im nächsten und letzten Schritt wird der
-[Designmodus der Listenansicht](/docs/design-mode-settings.html#liste)
-geöffnet. Hier werden die Bausteine in den 5 Feldern so zusammengefügt die in den Listeneinträgen angezeigt
-werden sollen. Es empfiehlt sich auch für die Bausteine passende Icons zu vergeben, sodass diese in der
-Listendarstellung schnell erkannt werden können.
+<span style="color:#0b5394">**Schritt 3: Den Zweck einer To-Do-Liste einbauen**</span>  
+Damit eine To-Do-Liste ihren Zweck erfüllt, müssen Prioritäten gesetzt werden und Aufgaben sollten auch zu einem bestimmten Zeitpunkt erledigt werden. Also benötigt man den [Baustein *Drop-Down*](/docs/record-spec-settings/grand-childs-form/drop-down.html) und zieht diesen per Drag&Drop unter den Baustein "Bezeichnung". Dieser wird umbenannt in "Priorität". In den Bausteineinstellungen fügen werden drei Optionen hinterlegt:  
+- **Hoch**
+- **Mittel**
+- **Niedrig**
 
-Es können noch weitere Abschnitte mit weiteren Bausteinen der To-Do-Liste hinzufügt werden.
-Als Beispiel ein
-[Abschnitt](/docs/record-spec-settings/grand-childs-base/hint.html)
-mit dem Namen "Weitere Informationen" mit einem
-[Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html)
-mit dem Namen
-"weitere Informationen". Oder die Bausteine
-[*Kommentare*](/docs/record-spec-settings/grand-child-expanded/comment.html)
-für eine interne Diskussion oder
-[*E-Mail*](/docs/record-spec-settings/grand-childs-form/e-mail.html)
-oder
-[*Telefon*](/docs/record-spec-settings/grand-childs-form/telephone.html)
-als Kontaktdaten.
+Als nächstes wird der [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html) hinzugefügt und umbenannt in "Zu erledigen bis". Im letzten Schritt wird der [Baustein *Schalter*](/docs/record-spec-settings/grand-childs-form/switch.html) aufgenommen und ebenfalls umbenannt in "Erledigt", um erstellte Aufgaben entsprechend kennzeichnen und später filtern zu können.
 
-Über
-[Filterkacheln](/docs/software-structure.html#kacheln)
-können die Einträge der To-Do-Liste gesondert dargestellt werden.
+![tutorial4](\assets\tutorials\4to-do-list.gif "tutorial4")
 
-**Beispielergebnis:**
-![example to-do-list](\assets\tutorials\example to-do-list.png "example to-do-list")
+<span style="color:#0b5394">**Schritt 4: Listenübersicht logisch für eine To-Do-Liste anordnen**</span>  
+Damit die in der Liste angezeigten Datensätze auch logisch Sinn ergeben, wird die [Liste](/docs/design-mode-settings.html#liste) entsprechend angepasst.
+Auch hier werden per Drag&Drop die Bezeichnungen der Einträge je nach Anforderung geordnet. Die Hauptüberschrift erhält den Baustein "Aufgabe". In die Überschrift 2 wird der Baustein "Priorität" gesetzt und in die Überschrift 3 der Baustein "Zu erledigen bis". Der Baustein "Erledigt" wird in die Gruppenzusammenfassung rechts eingesetzt, um eine schnelle Übersicht der erledigten Aufgaben zu erhalten.
+
+![tutorial3](\assets\tutorials\3to-do-list.gif "tutorial3")
+
+<span style="color:#0b5394">**Schritt 5: Deadline in Einträgen auswerten**</span>  
+Per Drag&Drop wird eine [Filterkachel](/docs/software-structure.html#-gefilterte-kacheln) mit Bezug auf die Kachel "To-Do-Liste" in den Arbeitsbereich gezogen und umbenannt in "überfällige Aufgaben". In den Kacheleinstellungen werden unter "Filter & Sortierung" zwei Filter gesetzt:
+
+- "zu erledigen bis" < today()  
+    (s. [Formelsammlung / Datumsformel](/docs/formulary/childs/formula%20date.html#datumsformeln))
+- "Erledigt" = Nein
+
+![tutorial5](\assets\tutorials\5to-do-list.gif "tutorial5")
+
+### <span style="color:#3d85c6">**Fertig! Mit der To-Do Liste keine Termine und Aufgaben mehr verpassen.**</span>
+Ab sofort geraten mit Univelop keine Termine und Aufgaben in Vergessenheit.
+Diese To-Do Liste ließe sich jetzt, je nach Bedarf, noch erweitern:
+
+- Filterkachel: nur Aufgaben mit Priorität "hoch" anzeigen
+- Zuordnung von To-Do's über Personen
+- Zuordnung zu bestimmten Projekten (Projekt: Hausbau, Telefonie, etc.)
+    - Filterkachel: nur Aufgaben anzeigen mit Projekt "Hausbau"
+- Monatsprotokoll ausgeben
+- Telefon oder E-Mail hinzufügen für Kontaktinformationen zu bestimmten Aufgaben
+    - Beispiel: Aufgabe "Telekom anrufen W-Lan"
+- und vieles mehr
+
+![tutorial6](\assets\tutorials\6to-do-list.gif "tutorial6")
