@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Release Version 1.4.0
-nav_order: 96
+nav_order: 95
 parent: Latest Updates
 ---
 
