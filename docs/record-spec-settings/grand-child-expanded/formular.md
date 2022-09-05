@@ -3,14 +3,14 @@ layout: default
 title: Formel
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 10
+nav_order: 11
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">calculate</span> **Baustein *Formel***</span>
 
 Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
 bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung
-**nur lesbar**.
+**nur lesbar**. Die Darstellung der Zahl lässt sich wie beim [Baustein *Nummer*](/docs/record-spec-settings/grand-child-form/number.html) mit der Anzahl von Nachkommastellen konfigurieren.
 
 Dies geschieht wie folgt:
 1. <span style="color:#0b5394">**Auf andere Bausteine wird über den technischen Namen zugegriffen**</span>  

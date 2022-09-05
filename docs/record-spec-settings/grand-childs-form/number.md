@@ -12,7 +12,10 @@ Der Baustein *Nummer* kann ausschließlich mit Zahlenwerten gefüllt werden.
 
 ![number](\assets\record-spec-settings\1number.png "number")
 
-Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. PLZ, Beträge,
+Der Baustein bietet die Möglichkeit, die Anzahl von Nachkommastellen zur Darstellung individuell festzulegen, sowie Tausender-Trennzeichen ein- und auszublenden.
+So können spezielle Mengen, wie z. B. Geldbeträge, konsistent und gut lesbar angezeigt werden.
+
+Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. Beträge,
 Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im
 [Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html).
 

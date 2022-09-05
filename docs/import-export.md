@@ -62,6 +62,26 @@ im neuen Arbeitsbereich vorhanden sind.
 **zentral alle** Kacheln der Organisation beinhaltet, kann **nicht** aus einem anderen Arbeitsbereich heraus
 in diese Umgebung importiert werden.
 
+## <span style="color:#0b5394">Mitglieder und Nutzerrollen mit Excel</span>
+
+Die Datensätze zu allen Mitgliedern sowie den angelegten Nutzerrollen können über Excel-Dateien (.xlsx) im- und exportiert werden. 
+### <span style="color:#0b5394">Im- und Export von Mitgliedern</span>
+
+Um die [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) eines Arbeitsbereiches zu verwalten, können Admins die Mitglieder im- als auch exportieren.
+Beim Export gibt es die Spalten für personenbezogenen Daten (ID, E-Mail, Vor-, Nachname) sowie die aktiven und die möglichen Rollen und Teams eines Mitgliedes. 
+Den Import von Mitgliedern kann man z. B. nutzen, um damit gleich mehrere neue Mitglieder in seinen Arbeitsbereich hinzuzufügen. 
+Dabei muss neben Vor-, Nachname und E-Mail in der Spalte *Passwort* ein Passwort für das jeweilige Mitglied angegeben werden.
+Optional können mögliche Teams und Rollen angegeben und eine aktive Rolle sowie ein aktives Team angegeben werden.
+Die Spalte *Passwort* wird nur beim Import genutzt und bleibt beim Export leer.
+
+### <span style="color:#0b5394">Im- und Export von Rollen</span>
+
+Durch den Im- und Export von [Nutzerrollen](/docs/global-settings-and-functions.html#rollen) können die Rechte jeder Rolle für jede einzelne Kachel konfiguriert werden. Ausgenommen davon sind die standardmäßigen Rollen *Admin* und *Besitzer*. Jede Zeile gibt an, ob ein Nutzer mit dieser Rolle die Datensätze einer Kachel lesen, anlegen, bearbeiten, löschen und importieren kann. Für das Lesen, Bearbeiten sowie das Löschen können zusätzlich Filter angegeben werden, welche die Aktionen, statt sie zu verbieten, einschränkt. 
+
+### <span style="color:#0b5394">Wichtige Hinweise zum Im- und Export</span>
+
+Die [Hinweise zu Im- und Export von Datensätzen](/docs/import-export.html#wichtige-hinweise-zum-excel-im--und-export) gelten auch für Mitglieder und Nutzerrollen.
+
 ## <span style="color:#0b5394">Datensätze und Inhalte</span>  
 <span style="color:#3d85c6">*Empfohlen für fortgeschrittene Nutzer*</span>   
 
@@ -97,6 +117,13 @@ Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folg
     Ein Pop-Up erscheint, welches mitteilt wie viele Datensätze zum Import bzw. zur Aktualisierung gefunden
     wurden.
 
+### <span style="color:#0b5394">Komplexe Bausteine beim Im- und Export</span>
+
+Beim Im- und Export von Datensätzen unterscheidet die App zwischen zwei Arten von Bausteinen. Es gibt die simplen Bausteine, wie z. B. der [Baustein *Nummer*](/docs/record-spec-settings/grand-childs-form/number.html), welcher nur aus einer Spalte besteht und somit einfach ein- und ausgelesen werden kann. Die zweite Art bilden die komplexen Bausteine, welche sich nicht durch nur eine Spalte sinnvoll im- und exportieren lassen. Diese bieten in den Einstellungen für jedes wichtige Feld an, einen eindeutigen technischen Namen zu setzten, damit die Werte des Bausteins eindeutig beim Export aufgeteilt werden. 
+
+![setting interval](\assets\import-export\setting interval.png "setting interval")
+
+Als Beispiel dazu ist der [Baustein *Zeitspanne*](/docs/record-spec-settings/grand-childs-form/interval.html) mit einer Anfangs- und Endzeit sowie der Gesamtzeit und einer Pausenzeit.
 ### <span style="color:#0b5394">**Wichtige Hinweise zum Excel Im- und Export**</span>
 
 - Die ID eines Datensatzes (letzte Spalte) ist einzigartig. Über diese erkennt das System, welcher

@@ -10,7 +10,7 @@ parent: Latest Updates
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.4.0 ausgerollt:
 
 ## <span style="color:#0b5394">**Neue Kachelart *Formular***</span>
-Wir haben eine neue Kachelart in Univelop implementiert, welche die Interaktion nochmals deutlich vereinfacht. Die *Formular* Kachel ermöglicht es, schnell neue Einträge, wie z. B. Arbeitszeiten, zu erfassen. Dadurch spart man Klicks beim Navigieren durch Kacheln und Einträge.
+Wir haben eine neue Kachelart in Univelop implementiert, welche die Interaktion nochmals deutlich vereinfacht. Die [*Formular* Kachel](/docs/software-structure.html#-kachel-formular)  ermöglicht es, schnell neue Einträge, wie z. B. Arbeitszeiten, zu erfassen. Dadurch spart man Klicks beim Navigieren durch Kacheln und Einträge.
 Drückt man auf die *Formular* Kachel, so öffnet sich direkt ein Listeneintrag zum Ausfüllen. Diesen sendet man per Klick auf das Icon oben rechts ab. 
 Die *Formular* Kachel wird mit einer einfachen Liste verbunden, in der dann die neuen Einträge gespeichert werden.   
 

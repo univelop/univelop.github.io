@@ -3,7 +3,7 @@ layout: default
 title: PDF erstellen
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 13
+nav_order: 14
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">print</span> **Baustein *PDF erstellen***</span>

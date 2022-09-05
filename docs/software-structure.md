@@ -22,7 +22,7 @@ Ein Arbeitsbereich enthält eine oder mehrere Kacheln. Die Kachel steht mit ihre
 (Icon, Summe Inhalte oder Summe über Baustein) für den Inhalt darin. Es gibt getrennt voneinander allgemeine
 Kacheln, die von allen Nutzern des Arbeitsbereichs gesehen werden, sowie eigene Kacheln, welche immer aus
 den allgemeinen Kacheln gefilterte Inhalte darstellen. Zusätzlich besteht die Möglichkeit globale Kacheln,
-bei Bedarf, ausblenden zu lassen.
+bei Bedarf, ausblenden zu lassen. Die Kachel *einfache Liste* kann nur als globale Kachel angelegt werden.
 
 ### <span style="color:#3d85c6"> gefilterte Kacheln</span>
 
@@ -63,6 +63,25 @@ Tools, usw.
 
 Zusätzlich besteht die Möglichkeit die Kachel *Website* mit einem Icon zu versehen. Wie gewohnt lässt sich auch die Farbe
 der Kachel anpassen.
+
+### <span style="color:#3d85c6"> Kachel "Formular"</span>
+
+Die Kachel *Formular* dient dem vereinfachten Ausfüllen eines Listeneintrages. Die Kachel legt beim Öffnen einen neuen Listeneintrag an, und öffnet diesen direkt zum Ausfüllen, ohne die Einträge einer Kachel zu laden. Beim Anlegen einer Formular-Kachel wird sie mit einer einfachen Kachel verbunden, bei der dann die Einträge hinzugefügt werden. 
+Diese Art von Kachel kann z. B. für eine vereinfachte Zeiterfassung genutzt werden.
+
+![tile form](\assets\software-structure\tile form.png "tile form")
+
+Es gibt folgende Einstellungen für die individuelle Benennung der Formular-Funktion:
+
+1. <span style="color:#0b5394">**Verbindung zu einer Liste**</span>  
+    Hier wird der Name der verbundenen Liste angezeigt
+2. <span style="color:#0b5394">**Bezeichnung des Absende-Buttons**</span>  
+    Dieser Text wird als Tooltip für den Absende-Button angezeigt
+3. <span style="color:#0b5394">**Icon für den Absende-Button**</span> 
+4. <span style="color:#0b5394">**Bestätigunsnachricht**</span>  
+    Bei erfolgreichem Absenden des Formulars erscheint der angegebene Text als Nachricht auf dem Bildschirm
+
+Die typischen Einstellungsmöglichkeiten anderer Kacheltypen, wie z.B. die Kachelfarbe, gibt es bei der Kachel *Formular* auch.
 
 ## <span style="color:#0b5394">Listen</span>
 

@@ -10,7 +10,7 @@ parent: Latest Updates
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.3.0 ausgerollt:
 
 ## <span style="color:#0b5394">**Neuer Baustein *Adresse***</span>
-Wir haben den Baustein *Adresse* in Univelop implementiert. Um Adressdaten zu erfassen, müssen zukünftig nicht mehr verschiedene Text- und Nummernbausteine verwendet werden.
+Wir haben den [Baustein *Adresse*](/docs/record-spec-settings/grand-childs-form/address) in Univelop implementiert. Um Adressdaten zu erfassen, müssen zukünftig nicht mehr verschiedene Text- und Nummernbausteine verwendet werden.
 Als Zusatzfunktion wurde eine Verlinkung zu Google Maps eingebaut. In gewissen Bereichen wird die Adresse z. B. für eine Navigation genutzt. Nach der Eingabe der Adresse, kann über das abgebildete Kartensymbol die Adresse in Google Maps geöffnet werden und, bei Bedarf, die Navigation manuell gestartet werden.  
 
 ![release brick address](\assets\latest-updates\release brick address.png "release brick address")
@@ -30,6 +30,5 @@ die hinterlegte Website wird mit einem Klick auf die Kachel immer im Standard-Br
 - [Baustein *PDF erstellen*](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) gibt keinen Fehler bei eingebetteten Bildern in der Wordvorlage aus
 - Bilduploads über mobilen Endgeräten werden nicht mehr gedreht
 - Löschen von Arbeitsumgebungen müssen nun vor jeder Löschung durch die Eingabe des Namens des Arbeitsbereichs bestätigt werden
-- Import und Export der Mitgliederverwaltung über Excel (inkl. Hinzufügen neuer Benutzer und Änderungen von Benutzerrollen/-teams, etc.)
 - IN-Filter (Oder-Auswahl) wurde erneut optimiert
 - Weitere Performanceverbesserungen
