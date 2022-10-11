@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Kombinationen und Beispiele
-parent: Formelsammlung
+parent: Arbeiten mit Formeln
 nav_order: 4
 ---
 
-# <span style="color:#0b5394">**Formelsammlung**</span>
+# <span style="color:#0b5394">**Arbeiten mit Formeln**</span>
 ## <span style="color:#0b5394">Kombinationen und Beispiele</span>
 ### <span style="color:#3d85c6">Sortieren mit dem Formelbaustein</span>
 
-Der 
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+Ein Formelbaustein, vorzugsweise der 
+[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html),
 kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortierung) genutzt werden. 
 
 **Beispiel:**
@@ -31,8 +31,7 @@ der Erstsortierung nach dem Mitarbeiternamen und in der Zweitsortierung nach dem
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 1</span>
 
-Der
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+Mit [Formelbausteinen](/docs/formulary/formulary.html#formelbausteine)
 kann auch in einer Kettenreihenfolge eingesetzt werden. Es können also mehrere Formeln
 aneinandergereiht werden. Wichtig hierbei ist, dass zusammengehörige Rechenblöcke in Klammern stehen.  
 
@@ -54,8 +53,7 @@ Der Vorteil bei der Kettenformel ist hingegen, dass die aktuelle Liste zur Berec
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
 
-Eine weitere Kettenreihenfolge in dem
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+Eine weitere Kettenreihenfolge in den [Formelbausteinen](/docs/formulary/formulary.html#formelbausteine)
 kann mit den Wenn-Dann-Sonst-Formeln erfolgen.  
 
 **Beispiel:**
@@ -70,7 +68,7 @@ Da in dem
     [Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 im Artikel allerdings nur die Summe über **einen** Baustein gezogen werden kann, müssen die Bewegungen zusammengefasst
 werden. Der dafür benötigte
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
 wird "durchgeführte Bewegungen" genannt.
 
 In diesem Baustein wird eine Formel eingetragen, die lauten könnte: 

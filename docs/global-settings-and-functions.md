@@ -164,6 +164,11 @@ drei Punkte innerhalb der Kachel aktiviert oder deaktiviert werden. Darüber hin
 die Funktion, Mitgliedern eines Arbeitsbereiches, die die Univelop-App aktiv nutzen, diese per Push-
 Benachrichtigung über Änderungen in bestimmten Kacheln zu informieren.
 
+In dem Homescreen Designmodus können unter *Push-Nachrichten anpassen* Uhrzeiten für das Versenden von Push-Nachrichten angegeben werden. Dadurch werden alle Push-Nachrichten, welche durch Änderungen vor einer angegebenen Uhrzeit erzeugt wurden, zu dieser erst versendet.
+So können Nutzer zu einem Zeitpunkt alle wichtigen Änderungen sehen, statt sie über den Tag verteilt zu bekommen.
+Beispiel: Hat man die Uhrzeit 09:00 und 15:00 angegeben, so werden alle Push-Nachrichten nach 09 Uhr um 15 Uhr versendet, und alle Push-Nachrichten nach 15 Uhr werden zum Folgetag um 09 Uhr versendet.
+Nutzer, welche diese Änderungen in der App bereits vor der Uhrzeit gesehen haben, bekommen dafür keine Push-Nachrichten mehr.
+
 ## <span style="color:#0b5394">Filter und Sortierung</span>
 
 Die Sortierung der Kachelinhalte kann global je Kachel auf- und absteigend nach einem bestimmten

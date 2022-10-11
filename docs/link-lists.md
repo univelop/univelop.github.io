@@ -129,7 +129,7 @@ Zusätzlich kann für den Baustein *Datensatz Liste* ein Badge eingestellt werde
 "Summe über einen Baustein", kann in "Summe über" der entsprechende Baustein ausgewählt werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine aus der verknüpften Kachel. Mögliche auswählbare Bausteine:
 - [Baustein *Nummer*](/docs/record-spec-settings/grand-childs-form/number.html)
 - [Baustein *Zeitspanne*](/docs/record-spec-settings/grand-childs-form/interval.html)
-- [Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+- [Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
 - Filter
 - Datensatz-Verknüpfungen
 

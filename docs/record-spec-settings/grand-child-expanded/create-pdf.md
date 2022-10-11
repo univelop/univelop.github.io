@@ -3,7 +3,7 @@ layout: default
 title: PDF erstellen
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 14
+nav_order: 18
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">print</span> **Baustein *PDF erstellen***</span>
@@ -39,10 +39,18 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
     |${endrepeat}                            |                         |
 
     Die gezeichnete Tabelle in der Wordvorlage kann um beliebig viele Spalten erweitert werden, solange
-    diese in der Datensatz-Liste vorkommen.  
-    **Bitte beachten:**  
-    Innerhalb einer gezeichneten Tabelle kann mit der "Repeat"-Funktion nicht auf mehrere Datensatz Listen zugegriffen werden.
-    Mit der "Repeat"-Funktion kann sich immer nur auf **eine** Datensatz Liste zur Zeit bezogen werden.
+    diese in der Datensatz-Liste vorkommen.
+
+    Verschachtelte Aufrufe des `repeat(...)` ineinander sind auch möglich. Es muss jedoch eine Liste referenziert werden, welche von der umschließenden Liste erreichbar ist (z. B. durch einen Baustein Datensatz-Liste). Auch wichtig ist, dass bei dem  `endrepeat` der Name der Liste angegeben wird, über die iteriert wird. Dadurch kann z. B. die tägliche Nutzungszeit einer Baumaschine, welche aus Einsätzen bei mehreren Kunden besteht, geordnet und mit einer Vorlage zu einem PDF-Dokument erzeugt werden.
+    Eine solche Tabelle könnte wie folgt aussehen:
+
+    |**Maschine**                       |**Nutzzeit**               |**Auftrag**|
+    |${repeat(maschzeiten)}             |                           |           |
+    |${maschzeiten.maschine}            |${maschzeiten.gesDauer}    |           |
+    |${repeat(maschzeiten.einsaetze)}   |                           |           |
+    |                                   |${maschzeiten.einsaetze.dauer}|${maschzeiten.einsaetze.auftrNr}|
+    |${endrepeat(maschzeiten.einsaetze)}|                           |           |
+    |${endrepeat}                       |                           |           |
 
 ## <span style="color:#0b5394">Einstellungen des Bausteins *PDF erstellen*</span>
 

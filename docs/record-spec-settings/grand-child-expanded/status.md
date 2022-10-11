@@ -34,3 +34,5 @@ die betroffenen Bausteine vorab als Pflichtfeld markiert werden. Danach kann fü
 gesperrt und kann weder bearbeitet, noch gelöscht werden.
 
 Eine Statusänderung erfolgt entweder per Klick auf den Status oder über verschiedene [Bausteine *Status Button*](/docs/record-spec-settings/grand-child-expanded/button-status.html).
+
+Unter der *Freigabe* Funktion wird noch der technischer Name des Status angezeigt, welcher nicht änderbar ist. Dieser kann bspw. für [*Formeln*](/docs/formulary/formulary.html) oder zum Filtern verwendet werden.

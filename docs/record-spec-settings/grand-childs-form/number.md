@@ -17,7 +17,7 @@ So können spezielle Mengen, wie z. B. Geldbeträge, konsistent und gut lesbar a
 
 Der Vorteil des Bausteins *Nummer* ist, dass Falscheingaben vorgebeugt werden kann wie z.B. Beträge,
 Auftragsnummern oder Zeiten. Die Bausteine *Nummer* dienen auch zur Grundlage für Berechnungen im
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html).
+[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html).
 
 **Bitte beachten:**  
 Falscheingaben werden nach Verlassen des Dialogfensters gelöscht.

@@ -1,14 +1,15 @@
 ---
 layout: default
 title: Rechensymbole und Operatoren
-parent: Formelsammlung
+parent: Arbeiten mit Formeln
 nav_order: 3
 ---
 
-# <span style="color:#0b5394">**Formelsammlung**</span>
+# <span style="color:#0b5394">**Arbeiten mit Formeln**</span>
 ## <span style="color:#0b5394">Rechensymbole / Operatoren</span>
 
-| Rechensymbole / Operatoren            | Beschreibung
+
+| Operatoren                            | Beschreibung
 |:------:                               |:------:
 | `==`                                  |Gleich
 | `&&`                                  |Und
@@ -18,21 +19,32 @@ nav_order: 3
 | `!=`                                  |Ungleich
 | `<=`                                  |Kleiner gleich
 | `>=`                                  |Größer gleich
+| 	                                    |
+| **Rechensymbole**                     | **Beschreibung**
+|:------:                               |:------:
 | `+`                                   |Plus, Addition
 | `-`                                   |Minus, Subtraktion
 | `*`                                   |Mal, Multiplikation
 | `/`                                   |Geteilt, Division
 | `%`                                   |Modulo (gibt einen Restwert einer Teilung aus)
 
+Operatoren können verschiedene Arten von Werten vergleichen, liefern als Ergebnis jedoch einen Wahrheitswert(Ja oder Nein).
+
+Rechensymbole ergeben nur numerische Werte, mit Ausnahme des `+` und des `*`. Das `+` kann auch Texte verbinden. 
+**Beispiel:** `'ein' + 'Text'` wird zu *'einText'* verbunden.
+
 ## <span style="color:#0b5394">Weitere Funktionen des Formelbausteins</span>
 
-Über den
-[Baustein *Formel*](/docs/record-spec-settings/grand-child-expanded/formular.html)
+Über die
+[Formelbausteine](/docs/formulary/formulary.html#formelbausteine)
 können noch weitere Funktionen genutzt werden.  
 *Value = Technischer Name*  
 
 | Funktionen                                | Beschreibung
 | ------                                    | ------
+| `toText(value)`                           | Wandelt einen nicht textuellen Wert in eine textuelle Darstellung des Wertes um
+| `toNumber(value)`                         | Wandelt einen nicht numerischen Wert in eine numerische Darstellung des Wertes um 
+|                                           |
 | `textLength(value)`                       | Gibt die Textlänge eines Feldes inklusive Leerzeichen aus
 | `firstLetters(value,count)`               | Zählt die **ersten** Zeichen des Bausteinwertes anhand der vorgebenen Länge (count = Zahl)
 | `lastLetters(value,count)`                | Zählt die **letzten** Zeichen des Bausteinwertes anhand der vorgegeben Länge (count = Zahl)

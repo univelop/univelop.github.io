@@ -1,16 +1,18 @@
 ---
 layout: default
-title: Formel
+title: Formel (veraltet)
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 11
+nav_order: 15
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">calculate</span> **Baustein *Formel***</span>
+# <span style="color:#0b5394"><span class="material-icons">calculate</span> **Baustein *Formel (veraltet)***</span>
 
-Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
+Mit dem Baustein *Formel (veraltet)* wird gerechnet, dynamisch auf verknüpfte Datensätze zugegriffen oder unter Bedingungen
 bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung
 **nur lesbar**. Die Darstellung der Zahl lässt sich wie beim [Baustein *Nummer*](/docs/record-spec-settings/grand-child-form/number.html) mit der Anzahl von Nachkommastellen konfigurieren.
+
+**Da dieser Baustein veraltet ist, empfehlen wird die Nutzung von einem Formelbaustein, welcher für den konkreten Ergebnistyp angepasst ist. Siehe hierfür [Formelbausteine](/docs/formulary/formulary.html#formelbausteine-1). Die Nutzung ist weiterhin möglich, zur Umwandlung auf einen der neuen Bausteine wird geraten da der Formelbaustein nur für eine begrenzte Zeit in der App bleiben wird. Dieser Baustein wird nicht mehr verbessert und kann in Zukunft bei Updates ggf. zu Kompatibilitätsproblemen führen, welche nicht behoben werden.**
 
 Dies geschieht wie folgt:
 1. <span style="color:#0b5394">**Auf andere Bausteine wird über den technischen Namen zugegriffen**</span>  

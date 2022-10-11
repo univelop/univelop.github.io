@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Datumsformel
-parent: Formelsammlung
+parent: Arbeiten mit Formeln
 nav_order: 1
 ---
 
-# <span style="color:#0b5394">**Formelsammlung**</span>
+# <span style="color:#0b5394">**Arbeiten mit Formeln**</span>
 
 ## <span style="color:#0b5394">Datumsformeln</span>
 
