@@ -77,6 +77,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     - Service Account Key
         - Hinzufügen neuer
         [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) in den Arbeitsbereich
+    - Zeitzone für Anzeige von Daten    
 
 Über den
 [Button *Export*](/docs/import-export.html#arbeitsbereiche)
@@ -202,6 +203,10 @@ wird angezeigt welche Felder in der Listendarstellung enthalten sind.
 Wenn ein Baustein in der Listenansicht verwendet wird, kann dieser **nicht** gelöscht werden.
 
 ![list2](\assets\design-mode-setting\list2.png "list2")
+
+Hat man keinen Bereich der Mitte ausgewählt, wird auf der rechten Seite ein Schalter für die Mehrfachauswahl angezeigt.
+Über diesen kann man die Mehrfachauswahl und damit die Sammelbearbeitung von Einträgen anschalten. 
+Dazu lassen sich bis zu 3 Bausteine zu den Favoriten hinzufügen, für welche dann die Änderungsaktion statt über einen Menüpunkt aufgelistet bei der Mehrfachauswahl direkt angezeigt werden. 
 
 ---
 

@@ -41,7 +41,7 @@ in der Mitarbeiterliste angezeigt.
 Zusätzlich können die Arbeitszeiten der Mitarbeiter fest oder dynamisch gefiltert werden.Ein fester Filter wäre z.B.
 Datum >= Anfang des Monats und <= Ende des Monats (mit festen Datumsangaben). Zur Verwendung von dynamischen Filtermöglichkeiten
 können auch Datumsformeln hinterlegt werden (s.
-[Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](http://localhost:4000/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen "Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen")
+[Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen "Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen")
 ).
 
 **Beispielergebnis:**  

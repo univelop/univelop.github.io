@@ -12,8 +12,9 @@ Mit dem Baustein *Schalter* werden einfache "Ja / Nein"-, "Erf체llt / Nicht erf�
 
 ![switch](\assets\record-spec-settings\1switch.png "switch")
 
-Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Dar체berhinaus kann im Ausdruck gew채hlt
-werden, ob der Schalter als Ja / Nein, Checkbox, Beschreibung oder leer dargestellt werden soll.
+Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Dar체ber hinaus kann im Ausdruck gew채hlt
+werden, ob der Schalter als Ja / Nein, Checkbox, *Bezeichnung oder nichts* oder *Anderer Text oder nichts* dargestellt werden soll.
+Letzteren beiden dienen f체r spezielle Formulare, wo bspw. ein "Ja / Nein" innerhalb einer Tabelle nicht sinnvoll ist, und durch die Bausteinbezeichnung bzw. einen benutzerdefinierten Text ersetzt werden soll.
 
 Mit dem Baustein *Schalter* kann ebenfalls gesteuert werden, ob versteckte Bausteine unter der Bedingung des Schalters
 angezeigt werden sollen (z. B. wird der Schalter auf "Ja" gestellt, zeige den Baustein "Auftragsnummer" an).

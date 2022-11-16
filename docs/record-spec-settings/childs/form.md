@@ -19,4 +19,4 @@ Bedingungen festlegen.
 |[Drop-Down](/docs/record-spec-settings/grand-childs-form/drop-down.html) |[Datum](/docs/record-spec-settings/grand-childs-form/date.html) |[Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html)
 |[Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)  |[Team](/docs/record-spec-settings/grand-childs-form/team.html ) |[Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html)
 |[Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) |[E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html) |[Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html)
-|[Adresse](/docs/record-spec-settings/grand-childs-form/address.html)
+|[Adresse](/docs/record-spec-settings/grand-childs-form/address.html) |[Abmessugnen](/docs/record-spec-settings/grand-childs-form/measure.html)
