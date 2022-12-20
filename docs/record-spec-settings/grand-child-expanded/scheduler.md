@@ -26,14 +26,14 @@ Drückt man auf das Icon in einer beliebigen Zelle, so wird eine Buchung für da
     Einschränken der angezeigten Ressourcen sowie die Anzeigereihenfolge im *Scheduler*.
 4. <span style="color:#0b5394">**Buchungen**</span>
     Die Datensätze, die geplant werden sollen. Bspw. können dies die Einsätze oder Arbeitszeiten von Mitarbeitern sein.  
-5. <span style="color:#0b5394">**Verknüpfung über**</span>  
+5. <span style="color:#0b5394">**Verknüpfung über**</span>    
     *Optionale Einstellung*, Baustein *Datensatz* um Buchungen einem Konkreten Datensatz, welcher den Scheduler beinhaltet, zuzuordnen. So kann bspw. ein Scheduler pro Projekt oder Baustelle genutzt werden, bei dem nur Buchungen angezeigt werden, die auch diesem Projekt zugehören.    
-6. <span style="color:#0b5394">**Datumsbaustein**</span>  
+6. <span style="color:#0b5394">**Datumsbaustein**</span>    
     Baustein *Datum* bei den Buchungen. Davon abhängig wird die Buchung im Scheduler am entsprechenden Tag angezeigt.
-7. <span style="color:#0b5394">**Ressourcenbaustein**</span> 
+7. <span style="color:#0b5394">**Ressourcenbaustein**</span>   
     Baustein *Datensatz* mit dem die entsprechende Ressource ausgewählt wird.
-8. <span style="color:#0b5394">**Buchungen Filter und Sortierung**</span> 
+8. <span style="color:#0b5394">**Buchungen Filter und Sortierung**</span>   
     Einschränken der angezeigten Buchungen im *Scheduler*.
-9. <span style="color:#0b5394">**Vorschau der Buchungen**</span> 
+9. <span style="color:#0b5394">**Vorschau der Buchungen**</span>   
     Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Scheduler.
     Gleicht der [Einstellung der Listenansicht](/docs/design-mode-settings.html#designmodus-liste). 
