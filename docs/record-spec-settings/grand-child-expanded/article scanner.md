@@ -3,7 +3,7 @@ layout: default
 title: Artikel Scanner
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 21
+nav_order: 23
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">comment</span> **Baustein *Artikel Scanner***</span>

@@ -22,6 +22,8 @@ Folgende Einstellungen sind möglich:
     Wird der Besitzer geändert und dieser ist ebenfalls in der
     [Mitgliederverwaltung](/docs/global-settings-and-functions.html)
     ein anderes Team zugeordnet wird dieses automatisch mit geändert/berücksichtigt
+4. <span style="color:#0b5394">**Nur eigenes Team anzeigen**</span>
+    Nur Nutzer anzeigen, die im eigenen Team sind.     
 
 Mit diesen Einstellungen kann in Kacheln nach Besitzer oder Team gefiltert werden (z. B. Arbeitszeiten,
 Rechteinstellung: nur Meine) (s. [zusätzliche globale Einstellungen / Rechte/Berechtigungen](/docs/global-settings-and-functions.html#rechte--berechtigungen)), sowie Datensätze je Besitzer und Besitzerteam ein- oder auszublenden.

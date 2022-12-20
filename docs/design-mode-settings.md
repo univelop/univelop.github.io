@@ -71,6 +71,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
         - Auswahl Primär- und Sekundärfarbe
         - Auswahl bis zu sechs weiteren Kachelfarben
         - Festlegung über die Farbskala oder einen RTX-Wert
+    - [Push-Nachrichten anpassen](/docs/global-settings-and-functions.html#versendezeitpunkt) 
     - Arbeitsbereich ID (**darf nicht verändert werden!**)
     - Portal Domains (s.
     [Einrichtung Portalmodus](/docs/portal-mode.html))
@@ -189,6 +190,8 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
     - Alle löschen  
     **HINWEIS:**  
     diese Funktion löscht **ALLE** Daten!
+
+### <span style="color:#0b5394">Designmodus Liste</span>
 
 Im Designmodus der Liste werden auf der linken Seite die verfügbaren
 [Bausteine](/docs/record-spec-settings/record-spec-settings.html)

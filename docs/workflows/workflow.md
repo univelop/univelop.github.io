@@ -46,4 +46,5 @@ Dazu lässt sich in der Detailansicht angucken, welcher konkreter Baustein gegl�
 |[Setze Variablen](/docs/workflows/grand-childs-bricks/set-variable.html)         |[Iteriere über Einträge](/docs/workflows/grand-childs-bricks/iterate-records.html)
 |[Erstelle einen neuen Eintrag](/docs/workflows/grand-childs-bricks/create-record.html)  |[Ändere einen Eintrag](/docs/workflows/grand-childs-bricks/alter-record.html)
 |[Sende Web Request](/docs/workflows/grand-childs-bricks/web-request.html)   |[Laufe weiter, wenn](/docs/workflows/grand-childs-bricks/continue-if.html)       
-|[Wähle Eintrag](/docs/workflows/grand-childs-bricks/choose-record.html) |[Zeige Nachricht](/docs/workflows/grand-childs-bricks/show-message.html)
+|[Versende Push-Nachricht](/docs/workflows/grand-childs-bricks/choose-record.html)  |[Wähle Eintrag](/docs/workflows/grand-childs-bricks/choose-record.html) 
+|[Zeige Nachricht](/docs/workflows/grand-childs-bricks/send-notification.html)
