@@ -44,7 +44,7 @@ Die Formel kann also wie folgt aussehen:
 Die eingegebene Formel nimmt den Stundenlohn des ausgewählten Mitarbeiters und multipliziert den Wert mit 25%.
 Weiter wird die Bereitschaftspauschale genommen, und mit dem vorigen Wert addiert, sodass sich daraus der gwünschte Sonderlohn ergibt.
 
-**Zugrif auf verknüpfte Daten:**
+**Zugriff auf verknüpfte Daten:**
 Für Zugriff auf Daten eines verknüpften Datensatzes braucht es einen Baustein, welcher durch den [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html) den gewünschten Wert übertragen bekommt. Dieser zusätzliche Baustein bekommt einen technischen Namen, über den wie gewohnt zugegriffen wird. In diesem Beispiel wird aus der Kachel "*Mitarbeiter*" der Stundenlohn als auch die Bereitschaftspauschale bei der [Datensatzverknüpfung](/docs/link-lists.html) in zwei Bausteine übertragen, welche beide den technischen Namen "mitarbeiterStundenlohn" und "mitarbeiterBereitschaftspauschale" haben.
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
