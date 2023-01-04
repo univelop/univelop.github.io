@@ -10,9 +10,7 @@ nav_order: 2
 ### <span style="color:#3d85c6">*Formelbausteine* und technischer Name</span>
 
 Über *Formelbausteine* kann ganz einfach mit Bedingungen gerechnet werden oder sich Inhalte anzeigen lassen. 
-Hierzu nimmt man immer Bezug auf den technischen Namen eines Bausteins in der Liste oder den technischen
-Namen eines Bausteins in einer
-[verknüpften Liste](/docs/link-lists.html).
+Hierzu nimmt man immer Bezug auf den technischen Namen eines Bausteins in der Liste.
 Der technische Name steht im Designmodus des Bausteins direkt unter dem Abschnitt
 [**ERWEITERT**](/docs/design-mode-settings.html#eintrag).
 Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer dieser
@@ -24,43 +22,28 @@ Diese Funktion lässt sich nun in vielerlei Hinsicht mit
 [*Formelbausteinen*](/docs/formulary/formulary.html#formelbausteine-1)
 kombinieren.  
 
-**Hinweis zu den Beispielen: Es wird in den Beispielen der Baustein *Formel* verwendet, welcher veraltet ist. Die in den Beispielen angegebenen Formel sind jedoch weiterhin gültig und, abhängig vom Ergebnistyp der Formel, mit den neuen [*Formelbausteinen*](/docs/formulary/formulary.html#formelbausteine-1) funktionsfähig.**
+**Hinweis zu den Beispielen: Es wird in den Beispielen der Baustein *Formel* verwendet, welcher veraltet ist.**
 
 **Beispiel:**
 Ein
 [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-mit Namen "Mitarbeiter" wird als *Technischer Name* ebenfalls **mitarbeiter** heißen.
-In der Kachel *Mitarbeiterstammdaten* ist der Stundenlohn erfasst. Soll nun zum Beispiel der Stundenlohn
-des ausgewählten Mitarbeiters abgefragt werden, wird in dem
-[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
-in den Einstellungen des Bausteins der Verweis "mitarbeiter.stundenlohn" eingegeben.
+überträgt den Stundenlohn aus der Kachel *Mitarbeiterstammdaten* in einen lokalen Baustein *Nummer* für den Zugriff auf verbundene Daten. 
+Es wird in dem [Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
+in den Einstellungen des Bausteins der technische Name des Bausteins angegeben, welcher den Stundenlohn übertragen bekommt.
+Hier im Beispiel bekommt der Formelbaustein den Verweis "mitarbeiterLohn".
+Wenn in der Liste unter anderem noch eine Arbeitszeit (hier mit techn. Namen *arbZeit*) enthalten ist, kann die Formel erweitert werden
+z. B. zur Berechnung eines Arbeitslohns der erfassten Tätigkeit. Dazu wird die Formel mit dem technischen
+Namen des Bausteins erweitert, der die Arbeitszeit enthält, also *mitarbeiterLohn* * ***arbZeit***.
 
 ![formulabrick technical name](\assets\formulary\example formula brick technical name.png "formulabrick technical name") 
-
-1. Auswahl Baustein
-[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
-2. Eingabe des Verweis *mitarbeiter.stundenlohn*
-3. Die Formel sucht nun über die verknüpfte Kachel "Mitarbeiter" im 
-[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-den ausgewählten Mitarbeiter
-
-    ![formulabrick technical name](\assets\formulary\example formula brick technical name2.png "formulabrick technical name")
-
-4. [Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
-sucht im ausgewählten Mitarbeiter nach einem Baustein mit dem technischen Namen *Stundenlohn*
-5. Formel gibt den gefundenen Wert zurück  
+1. Übernahme eines Wertes aus eines verbundenen Datensatz in den aktuellen hinzufügen
+![formulabrick technical name](\assets\formulary\example formula brick technical name6.png "formulabrick technical name")
+2. Auswahl [Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
+3. Eingabe des Verweis *mitarbeiterLohn*
+4. Die Formel sucht nun die Kachel mit dem technischen Namen *mitarbeiterLohn*, nimmt dessen Wert und nutzt ihn für die restliche Formel.
 
 **Ergebnis:**  
 ![formulabrick technical name](\assets\formulary\example formula brick technical name3.png "formulabrick technical name")
-
-Wenn in der Liste unter anderem noch eine Arbeitszeit enthalten ist, kann die Formel erweitert werden
-z. B. zur Berechnung eines Arbeitslohns der erfassten Tätigkeit. Dazu wird die Formel mit dem technischen
-Namen des Bausteins erweitert, der die Arbeitszeit enthält, also *mitarbeiter.stundenlohn* * ***arbeitszeit***.
-
-![formulabrick technical name](\assets\formulary\example formula brick technical name4.png "formulabrick technical name")  
-
-**Ergebnis:**  
-![formulabrick technical name](\assets\formulary\example formula brick technical name5.png "formulabrick technical name")
 
 Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel
 des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an ein Fremdsystem

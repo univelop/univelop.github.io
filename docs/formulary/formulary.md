@@ -25,16 +25,15 @@ Dies geschieht wie folgt:
     nicht erforderlich.
 
 3. <span style="color:#0b5394">**Kombinieren von Datensätzen**</span>  
-    Verschiedene Datensätze werden kombiniert über +, -, *, /
+    Verschiedene Datensätze werden kombiniert über +, -, *, /   
     Also: technischername1+technischername2
     Ebenfalls möglich: Zahlen- und Textwerte miteinander verknüpfen.
     Beim Beispiel PLZ und Ort könnte das Ergebnis 21085Hamburg lauten.
     Somit erstellt man z. B. Sortiercodes.
 
 4. <span style="color:#0b5394">**Dynamischer Zugriff auf verknüpfte Daten**</span>  
-    Durch ein Punkt hinter dem technischen Namen weiß der Formel Baustein, dass in dem
-    verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
-    Also: technischerNameBausteinDieseListe.technischerNameBausteinVerknüpfteListe
+    Will man Daten aus einer Verknüpften Liste auf Daten zugreifen, so ist das über einen extra Baustein und die [Übernahme von verknüpften Datensätzen](/docs/link-lists.html#verknüpfung-über-den-baustein-datensatz) möglich.
+    Man benötigt im Datensatz, in dem der Formelbaustein vorhanden ist, einen Baustein, welcher über den Baustein *Datensatz* seinen Wert von dem verknüpften Eintrag übertragen bekommt. Dieser ist dann über seinen technischen Namen zugreifbar, enthält aber einen Wert eines verknüpften Eintrags. 
 
 ## <span style="color:#0b5394">Formelbausteine</span>
 

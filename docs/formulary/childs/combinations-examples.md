@@ -10,7 +10,7 @@ nav_order: 4
 ### <span style="color:#3d85c6">Sortieren mit dem Formelbaustein</span>
 
 Ein Formelbaustein, vorzugsweise der 
-[Baustein *Zahlenformel*](/docs/record-spec-settings/grand-child-expanded/numberformular.html),
+[Baustein *Textformel*](/docs/record-spec-settings/grand-child-expanded/textformular.html),
 kann ebenfalls als Blocksortierung (2.-, 3.-, ... Sortierung) genutzt werden. 
 
 **Beispiel:**
@@ -18,7 +18,7 @@ Die Arbeitszeiten der Mitarbeiter können im Standard über den Mitarbeiternamen
 werden. Zur Prüfung dieser Zeiten, zum Beispiel im PDF Ausdruck, macht es unter Umständen Sinn die Mitarbeiter
 mit einer Zweitsortierung, also nach Namen **und** Datum aufsteigend zu sortieren.  
 Hier wird der Baustein "Formel" im Eintrag der Arbeitszeit hinzugefügt und mit der Formel
-`mitarbeiter.nachname+formatDate(datum,"yyyyMMdd")` versehen.  
+`mitarbeiterNachname+formatDate(datum,"yyyyMMdd")` versehen.  
 Das Formelergebnis ist nun eine Kombination aus dem Mitarbeiternamen und dem Datum der erfassten Arbeitszeit.
 Das Ergebnis könnte wie folgt aussehen: **Schäfer20220131**.  
 
@@ -38,18 +38,14 @@ aneinandergereiht werden. Wichtig hierbei ist, dass zusammengehörige Rechenblö
 **Beispiel:**
 Es soll ein Sonderlohn errechnet werden, der aus einem Zuschlag zum Stundenlohn und einer festen Pauschale besteht.
 Die Formel kann also wie folgt aussehen:  
-`(mitarbeiter.stundenlohn*1,25)+(mitarbeiter.bereitschaftspauschale)`.  
+`(mitarbeiterStundenlohn*1,25)+(mitarbeiterBereitschaftspauschale)`.  
 
-**Formelbeschreibung:** Die eingegebene Formel sucht bei dem im
-[Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-ausgewählten Mitarbeiter nach dem dort erfassten Stundenlohn und multipliziert den gefundenen Wert mit 25%.
-Weiter sucht die Formel im ausgewählten Mitarbeiter die erfasste Bereitschaftspauschale. Nach Abschluss der
-Suche werden beide Werte miteinander addiert, sodass sich daraus der gewünschte Sonderlohn ergibt.
+**Formelbeschreibung:** 
+Die eingegebene Formel nimmt den Stundenlohn des ausgewählten Mitarbeiters und multipliziert den Wert mit 25%.
+Weiter wird die Bereitschaftspauschale genommen, und mit dem vorigen Wert addiert, sodass sich daraus der gwünschte Sonderlohn ergibt.
 
-Grundsätzlich ließen sich über die
-[Datensatzverknüpfung](/docs/link-lists.html)
-die Werte einfach übernehmen. In solchen Fällen spart man sich das "mitarbeiter." in den entsprechenden Formeln.
-Der Vorteil bei der Kettenformel ist hingegen, dass die aktuelle Liste zur Berechnung angenehm kurz gehalten wird.
+**Zugrif auf verknüpfte Daten:**
+Für Zugriff auf Daten eines verknüpften Datensatzes braucht es einen Baustein, welcher durch den [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html) den gewünschten Wert übertragen bekommt. Dieser zusätzliche Baustein bekommt einen technischen Namen, über den wie gewohnt zugegriffen wird. In diesem Beispiel wird aus der Kachel "*Mitarbeiter*" der Stundenlohn als auch die Bereitschaftspauschale bei der [Datensatzverknüpfung](/docs/link-lists.html) in zwei Bausteine übertragen, welche beide den technischen Namen "mitarbeiterStundenlohn" und "mitarbeiterBereitschaftspauschale" haben.
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 2</span>
 
