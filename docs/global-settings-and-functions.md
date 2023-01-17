@@ -16,8 +16,8 @@ Die Mitgliederverwaltung ist in den Einstellungen des
 (Button *Zahnrad*) zu finden.
 ![member administration](\assets\global-settings-and-functions\member administration.png "member administration")
 
-Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs. Zusätzlich erhält man die Information, welche Rolle und welches Team das jeweilige Mitglied derzeit inne hat. Über die hinteren drei Punkte kann der Nutzer einer Rolle und/oder Team zugeordnet werden. Ebenfalls ist das Entfernen eines Benutzer hierüber möglich. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop
-angezeigt. 
+Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs. Zusätzlich erhält man die Information, welche Rolle und welches Team das jeweilige Mitglied derzeit inne hat. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop angezeigt. 
+Bei Klick auf ein Mitglied öffnet sich für Admins die Detailansicht. Auf diesem hat man Überblick über die möglichen als auch aktiven Rollen und Teams, die Nutzerdaten sowie den letzten Login-Zeitpunkt und das Gerät. Die aktiven als auch zugeteilten Rollen und Teams lassen sich hierüber ändern.
 ![members](\assets\global-settings-and-functions\members.png "members")
 
 Neue Mitglieder/Benutzer können über den Button auf drei Wege dem Arbeitsbereich hinzugefügt werden:
@@ -85,7 +85,7 @@ das Benutzer vertretungsweise eine andere Ansicht in Univelop einnehmen kann, oh
 Rechteeinstellungen innerhalb der Kachel/Bausteinen dafür geändert werden müssen.
 Für die Mehrfachzuordnung müssen die entsprechenden Rollen und/oder Teams im Vorwege in der Arbeitsumgebung
 angelegt werden. In der Mitgliederverwaltung sind die einzelnen Benutzer des Arbeitsbereichs aufgelistet.
-Hinter jedem Benutzer befindet sich der Einstellungsmodus, wo die Zuordnung der einzelnen Rollen und/oder
+Auf Klick auf einen Benutzer öffnet sich die Detailansicht, wo die Zuordnung der einzelnen Rollen und/oder
 Teams vorgenommen werden kann (Administratoren und Besitzer dürfen Rollen/Teams zuordnen). Anschließend
 erhalten die jeweiligen Benutzer in dem Arbeitsbereich die Berechtigung entsprechend der Zuteilung die
 Rolle und/oder das Team zu wechseln.

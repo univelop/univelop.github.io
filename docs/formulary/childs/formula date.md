@@ -41,6 +41,7 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021 (Mittwoch)*
 | startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021 (Freitag)*
 | endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021 (Freitag)*
+| calendarWeek(date)        | Kalenderwoche des gegebenen Datums| *24*
   
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
 erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt **immer vom
@@ -56,7 +57,14 @@ Mit den o. g. Datumsformeln kann ebenfalls gerechnet werden.
 
 **Beispiel (Berechnungszeitpunkt *15.06.2021*):**  
 today() + 5 = **20.06.2021**  
+today() - 5 = **10.06.2021**
 startOfMonth() + 10 = **11.06.2021**
+
+Für das selbe Ergebnis können auch die Formeln ***addDays()*** und ***subtractDays()*** genutzt werden:
+
+**Beispiel (Berechnungszeitpunkt *15.06.2021*):**  
+addDays(today() , 5) = **20.06.2021**
+subtractDays(today() , 5) = **10.06.2021**
 
 Sollen der Datumsformel nun ganze Monate addiert oder subtrahiert werden, können die Formelberechnungen ***addMonths()***
 und ***subtractMonths()*** verwendet werden. Der Berechnungsformel und der gewählten Datumsformel werden anhand der frei

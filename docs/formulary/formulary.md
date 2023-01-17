@@ -17,7 +17,8 @@ Dies geschieht wie folgt:
 1. <span style="color:#0b5394">**Auf andere Bausteine wird über den technischen Namen zugegriffen**</span>  
     Wie bereits beschrieben müssen technische Namen innerhalb einer Liste
     einzigartig sein. Durch diese Einzigartigkeit weiß der Formel Baustein
-    auf welchen Datensatz er zugreifen soll.
+    auf welchen Datensatz er zugreifen soll.   
+    **Achtung:  Um Fehler zu vermeiden, sollten technische Namen nicht mit dem Suffix "*_text*" aufhören!**
 
 2. <span style="color:#0b5394">**Den Inhalt eines anderen Bausteins wiedergeben**</span>  
     Durch das Schreiben des technischen Namens eines anderen Baustein kann

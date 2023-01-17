@@ -18,7 +18,11 @@ Im ersten Schritt fordert ein Nutzer die Genehmigung von einem weiteren, berecht
 
 1. <span style="color:#0b5394">**Fester Genehmiger**</span>  
     Soll kein Genehmiger ausgewählt werden können, kann ein fester Nutzer gesetzt werden.
-2. <span style="color:#0b5394">**Eintrag automatisch sperren**</span>  
+2. <span style="color:#0b5394">**Genehmiger Filtern**</span>  
+    Sollen nicht alle Mitglieder eines Arbeitsbereiches zur Auswahl stehen, gibt es die Möglichkeit, diese anhand von Teams und Rollen zu filtern.
+3. <span style="color:#0b5394">**Eintrag automatisch sperren**</span>  
     Bei Genehmigung wird der Eintrag gesperrt und kann nicht mehr verändert werden.
-3. <span style="color:#0b5394">**Unterschrift erforderlich**</span>  
+5. <span style="color:#0b5394">**Unterschrift erforderlich**</span>  
     Ob der Genehmiger eine Unterschrift zum genehmigen abgeben muss.
+5. <span style="color:#0b5394">**Workflow starten**</span>  
+    Auswahl für einen Workflow, welcher bei Genehmigung als auch Ablehnung gestartet wird.

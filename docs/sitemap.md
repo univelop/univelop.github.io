@@ -41,19 +41,30 @@ nav_order: 1
     - [Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html)
     - [E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html)
     - [Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html)
+    - [Adresse](/docs/record-spec-settings/grand-childs-form/address.html)
+    - [Abmessung](/docs/record-spec-settings/grand-childs-form/measure.html)
     - [Datei](/docs/record-spec-settings/grand-child-expanded/file.html)
     - [Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)
     - [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
     - [Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)
+    - [Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)
     - [Status](/docs/record-spec-settings/grand-child-expanded/status.html)
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
     - [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)
+    - [Scheduler](/docs/record-spec-settings/grand-child-expanded/scheduler.html)
+    - [Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
+    - [Workflow](/docs/record-spec-settings/grand-child-expanded/workflow.html)
     - [Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)
-    - [Formel](/docs/record-spec-settings/grand-child-expanded/formular.html)
+    - [Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html)
+    - [Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
+    - [Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html)
+    - [Datums-Formel](/docs/record-spec-settings/grand-child-expanded/dateformular.html)
+    - [Formel (veraltet)](/docs/record-spec-settings/grand-child-expanded/formular.html)
     - [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
     - [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)
     - [PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)
+    - [Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html)
     - [Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article-scanner.html)
     - [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
 
@@ -78,7 +89,7 @@ nav_order: 1
     - [Schnellerfassung für den Baustein *Datensatz Liste*](/docs/link-lists.html#schnellerfassung-f%C3%BCr-den-baustein-datensatz-liste)
 
 8. <span style="color:#0b5394">**Schnittstellen**</span>
-    - REST API
+    - [REST API](https://app.univelop.de/api/docs/)
     - Integration von Schnittstellen
 
 9. <span style="color:#0b5394">**Tutorials**</span>
@@ -92,3 +103,7 @@ nav_order: 1
     - [Bedingungen und Rechnen mit Formeln im Baustein *Formel*](/docs/formulary/childs/condition-calculate-with.html)
     - [Rechensymbole / Operatoren](/docs/formulary/childs/symbol-operator.html)
     - [Kombinationen und Beispiele](/docs/formulary/childs/combinations-examples.html)
+
+11. <span style="color:#0b5394">**Workflows**</span>
+    - [Allgemeines](/docs/workflows/workflow.html#allgemeines-zu-workflows)
+    - [Bausteine](/docs/workflows/childs/bricks.html)

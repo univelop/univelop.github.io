@@ -33,7 +33,15 @@ Operatoren können verschiedene Arten von Werten vergleichen, liefern als Ergebn
 Rechensymbole ergeben nur numerische Werte, mit Ausnahme des `+` und des `*`. Das `+` kann auch Texte verbinden. 
 **Beispiel:** `'ein' + 'Text'` wird zu *'einText'* verbunden.
 
-## <span style="color:#0b5394">Weitere Funktionen des Formelbausteins</span>
+## <span style="color:#0b5394">Textkonstanten</span>
+
+| Konstanten                            | Beschreibung
+|:------:                               |:------:
+| `currentUserName`                     | Name des aktuellen Benutzers
+| `currentUserId`                       | ID des aktuellen Benutzers
+| `currentUserEmail`                    | e-Mail des aktuellen Benutzers 
+
+## <span style="color:#0b5394">Weitere Funktionen der Formelbausteine</span>
 
 Über die
 [Formelbausteine](/docs/formulary/formulary.html#formelbausteine)
@@ -45,6 +53,7 @@ können noch weitere Funktionen genutzt werden.
 | `toText(value)`                           | Wandelt einen nicht textuellen Wert in eine textuelle Darstellung des Wertes um
 | `toNumber(value)`                         | Wandelt einen nicht numerischen Wert in eine numerische Darstellung des Wertes um 
 |                                           |
+| `contains(text,sub)`                      | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist.
 | `textLength(value)`                       | Gibt die Textlänge eines Feldes inklusive Leerzeichen aus
 | `firstLetters(value,count)`               | Zählt die **ersten** Zeichen des Bausteinwertes anhand der vorgebenen Länge (count = Zahl)
 | `lastLetters(value,count)`                | Zählt die **letzten** Zeichen des Bausteinwertes anhand der vorgegeben Länge (count = Zahl)
@@ -53,6 +62,7 @@ können noch weitere Funktionen genutzt werden.
 | `firstWords(value,count)`                 | Zählt die **ersten** Wörter des Bausteinwertes anhand der vorgegebenen Anzahl (count = Zahl)
 | `lastWords(value,count)`                  | Zählt die **letzten** Wörter des Bausteinwertes anhand der vorgegebenen Anzahl (count = Zahl)
 |                                           | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
+| `replace(text,find,sub)`                  | Ersetzt jedes vorkommen des Textes *find* im Text *text* und ersetzt ihn mit *sub*
 |                                           |
 | `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
 
