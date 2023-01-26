@@ -72,7 +72,8 @@ können noch weitere Funktionen genutzt werden.
 |------   |-------                |------------       |-------|
 |G        |Bezeichnung            |(Text)             |AD|
 |yyyy     |Jahr                   |(Zahl)             |2022|
-|M        |Monat im Jahr          |(Zahl)             |1|
+|M        |Monat im Jahr (kurz)   |(Zahl)             |1|
+|MM       |Monat im Jahr (lang)   |(Zahl)             |01|
 |MMM      |Monatsname (kurz)      |(Text)             |Jan|
 |MMMM     |Monatsname (lang)      |(Text)             |Januar|
 |L        |alleinstehender Monat  |(Text & Zahl)      |Januar & 01|
