@@ -77,7 +77,8 @@ können noch weitere Funktionen genutzt werden.
 |MMM      |Monatsname (kurz)      |(Text)             |Jan|
 |MMMM     |Monatsname (lang)      |(Text)             |Januar|
 |L        |alleinstehender Monat  |(Text & Zahl)      |Januar & 01|
-|D        |Tag im Monat           |(Zahl)             |10|
+|d        |Tag im Monat           |(Zahl)             |5|
+|dd       |Tag im Monat (lang)    |(Zahl)             |05|
 |c        |alleinstehender Tag    |(Zahl)             |10|
 |h        |Stunde am/pm (1~12)    |(Zahl)             |12|
 |H        |Stunde in Tag (0~23)   |(Zahl)             |0|
