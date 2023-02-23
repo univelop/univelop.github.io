@@ -40,6 +40,10 @@ Rechensymbole ergeben nur numerische Werte, mit Ausnahme des `+` und des `*`. Da
 | `currentUserName`                     | Name des aktuellen Benutzers
 | `currentUserId`                       | ID des aktuellen Benutzers
 | `currentUserEmail`                    | e-Mail des aktuellen Benutzers 
+| `currentUserTeamName`                 | Name des aktiven Teams des aktuellen Benutzers
+| `currentUserTeamId`                   | ID des aktiven Teams des aktuellen Benutzers
+| `currentUserRoleName`                 | Name der aktiven Rolle des aktuellen Benutzers
+| `currentUserRoleId`                   | ID der aktiven Rolle des aktuellen Benutzers
 
 ## <span style="color:#0b5394">Weitere Funktionen der Formelbausteine</span>
 

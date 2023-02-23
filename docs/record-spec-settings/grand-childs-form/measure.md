@@ -3,7 +3,7 @@ layout: default
 title: Abmessungen
 parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 14
+nav_order: 15
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">square_foot</span> **Baustein *Abmessungen***</span>

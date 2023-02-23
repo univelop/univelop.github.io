@@ -3,7 +3,7 @@ layout: default
 title: Bild Upload
 parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 9
+nav_order: 10
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">insert_photo</span> **Baustein *Bild Upload***</span>

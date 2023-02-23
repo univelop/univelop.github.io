@@ -30,9 +30,10 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 
 ### <span style="color:#3d85c6">Liste mit Standard-Datumsformeln</span>
 
-| Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021 (Dienstag)*)|
+| Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021 (Dienstag)* um 8:00 Uhr)|
 |------------               |------------                       |:-------------:
 | today()                   | aktuelles Datum                   | *15.06.2021 (Dienstag)*
+| now()                     | aktueller Moment                  | *15.06.2021 8:00:00.000000*
 | startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021 (Montag)*
 | endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021 (Sonntag)*
 | startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021 (Dienstag)*
