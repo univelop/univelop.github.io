@@ -3,7 +3,7 @@ layout: default
 title: Laufe weiter, wenn
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 6
+nav_order: 2
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">skip_next</span> **Laufe weiter, wenn**</span>

@@ -43,8 +43,10 @@ Dazu lässt sich in der Detailansicht angucken, welcher konkreter Baustein gegl�
 ## <span style="color:#0b5394">Workflow Bausteine</span>
 
 |:-----:            |:-------:
-|[Setze Variablen](/docs/workflows/grand-childs-bricks/set-variable.html)         |[Iteriere über Einträge](/docs/workflows/grand-childs-bricks/iterate-records.html)
+|[Setze Variablen](/docs/workflows/grand-childs-bricks/set-variable.html)  |[Laufe weiter, wenn](/docs/workflows/grand-childs-bricks/continue-if.html)              
+|[Iteriere über Einträge](/docs/workflows/grand-childs-bricks/iterate-records.html) |[Finde ersten Eintrag](/docs/workflows/grand-childs-bricks/get-first-record.html) 
 |[Erstelle einen neuen Eintrag](/docs/workflows/grand-childs-bricks/create-record.html)  |[Ändere einen Eintrag](/docs/workflows/grand-childs-bricks/alter-record.html)
-|[Sende Web Request](/docs/workflows/grand-childs-bricks/web-request.html)   |[Laufe weiter, wenn](/docs/workflows/grand-childs-bricks/continue-if.html)       
-|[Versende Push-Nachricht](/docs/workflows/grand-childs-bricks/choose-record.html)  |[Wähle Eintrag](/docs/workflows/grand-childs-bricks/choose-record.html) 
-|[Zeige Nachricht](/docs/workflows/grand-childs-bricks/send-notification.html)
+|[Sende Web Request](/docs/workflows/grand-childs-bricks/web-request.html)   |[Versende Push-Nachricht](/docs/workflows/grand-childs-bricks/choose-record.html) 
+|[Wähle Eintrag](/docs/workflows/grand-childs-bricks/choose-record.html) |[Zeige Nachricht](/docs/workflows/grand-childs-bricks/send-notification.html)
+|[Genehmigung anfordern](/docs/workflows/grand-childs-bricks/request-approval.html) |[Warte auf Genehmigung](/docs/workflows/grand-childs-bricks/await-approval.html)
+|[Iteriere über Werte](/docs/workflows/grand-childs-bricks/iterate-values.html) |[Webhook](/docs/workflows/grand-childs-bricks/webhook.html)

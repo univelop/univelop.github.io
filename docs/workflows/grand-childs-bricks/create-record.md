@@ -3,7 +3,7 @@ layout: default
 title: Erstelle einen neuen Eintrag
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 3
+nav_order: 5
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">add_circle_outline</span> **Erstelle einen neuen Eintrag**</span>

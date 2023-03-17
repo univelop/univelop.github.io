@@ -3,7 +3,7 @@ layout: default
 title: Ändere einen Eintrag
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 4
+nav_order: 6
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">change_circle</span> **Ändere einen Eintrag**</span>

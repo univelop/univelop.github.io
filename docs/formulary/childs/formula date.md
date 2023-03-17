@@ -43,6 +43,7 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | startOfYear()             | Beginn des aktuelles Jahres       | *01.01.2021 (Freitag)*
 | endOfYear()               | Ende des aktuellen Jahres         | *31.12.2021 (Freitag)*
 | calendarWeek(date)        | Kalenderwoche des gegebenen Datums| *24*
+| datesBetween(date,date,[optionen]) | Daten zwischen den zwei gegebenen Daten| *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]* Bei Angabe vom *18.06.2021* als zweites Datum 
   
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
 erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt **immer vom
