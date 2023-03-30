@@ -68,6 +68,8 @@ können noch weitere Funktionen genutzt werden.
 |                                           | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
 | `replace(text,find,sub)`                  | Ersetzt jedes vorkommen des Textes *find* im Text *text* und ersetzt ihn mit *sub*
 |                                           |
+| `count(list)`                             | Zählt die Elemente einer Liste/eines dynamischen Wertes, z. B. "count([1,2,4])" liefert 3
+|                                           |
 | `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
 
 ### <span style="color:#3d85c6">Formatierungsmöglichkeiten Datum</span>

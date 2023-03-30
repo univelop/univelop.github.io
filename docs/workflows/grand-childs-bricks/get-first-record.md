@@ -13,3 +13,5 @@ Der "Erste" ist dabei zufällig und ohne Filter nicht definierbar, sondern der E
 
 Es können Filter als Einstellung des Bausteins hinzugefügt werden, um die möglichen Einträge einzuschränken.
 Auch mit Filter, zu denen es mehrere passende Einträge gibt, ist es zufällig welcher Eintrag durch das System gewählt wird.
+
+Nur mit gesetzter Sortierung ist der erste Eintrag konsistent und nicht zufällig.

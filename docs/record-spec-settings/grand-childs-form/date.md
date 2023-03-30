@@ -17,3 +17,10 @@ Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder 
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
 Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des [Baustein *Kalender*](/docs/record-spec-settings/grand-child-expanded/calender.html) an.
+
+Über die Einstellung *frühestmögliches Datum* kann eingestellt werden, welches Datum als erstes ausgewählt werden kann.
+Ist hier bspw. der 15.06.2021 angegeben, kann im Baustein kein Datum vor dem 15.06.2021 gewählt werden.
+Die Einstellung *spätestmögliches Datum* gibt das letztmögliche Datum an.
+Ist hier bspw. der 16.06.2021 angegeben, kann im Baustein kein Datum nach dem 16.06.2021 gewählt werden.
+Sind beide Einstellungen wie genannt gesetzt, können nur der 15.06.2021 und der 16.06.2021 gewählt werden.
+Beide Einstellungen sind als Datumsformel anzugeben. Somit kann z.B. für die Beantragung von Urlaub die Datumseingabe auf Daten beschränkt werden, die mindestens 30 Tage im Voraus liegen, aber noch im selben Jahr liegen.

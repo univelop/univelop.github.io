@@ -3,7 +3,7 @@ layout: default
 title: Versende Push-Nachricht
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 8
+nav_order: 9
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">notification_add</span> **Versende Push-Nachricht**</span>

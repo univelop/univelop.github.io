@@ -81,8 +81,8 @@ Es gibt folgende Einstellungen für die individuelle Benennung der Formular-Funk
 4. <span style="color:#0b5394">**Bestätigunsnachricht**</span>  
     Bei erfolgreichem Absenden des Formulars erscheint der angegebene Text als Nachricht auf dem Bildschirm
 5. <span style="color:#0b5394">**Mehrmaliges Absenden pro Benutzer verbieten**</span>
-6. <span style="color:#0b5394">**Webhook**</span>
-    Einstellbare Funktionalität siehe Baustein [*Webhook*](/docs/record-spec-settings/grand-child-expanded/webhook.html).
+6. <span style="color:#0b5394">**Workflow starten/bearbeiten**</span>
+    Ein Workflow kann hier gewählt werden, welcher bei erfolgreichem Absenden des Formulars gestartet wird.
 
 Die typischen Einstellungsmöglichkeiten anderer Kacheltypen, wie z.B. die Kachelfarbe, gibt es bei der Kachel *Formular* auch.
 
