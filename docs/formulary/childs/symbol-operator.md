@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # <span style="color:#0b5394">**Arbeiten mit Formeln**</span>
-## <span style="color:#0b5394">Rechensymbole / Operatoren</span>
+## <span style="color:#0b5394">Rechensymbole / Operatoren / Funktionen</span>
 
 
 | Operatoren                            | Beschreibung
@@ -27,6 +27,12 @@ nav_order: 3
 | `*`                                   |Mal, Multiplikation
 | `/`                                   |Geteilt, Division
 | `%`                                   |Modulo (gibt einen Restwert einer Teilung aus)
+| **Rechenfunktionen**                  | **Beschreibung**
+|:------:                               |:------:
+| `ceil(number)`                        |Aufrunden
+| `floor(number)`                       |Abrunden
+| `round(number)`                       |Runden
+| `abs(number)`                         |Betragsfunktion
 
 Operatoren können verschiedene Arten von Werten vergleichen, liefern als Ergebnis jedoch einen Wahrheitswert(Ja oder Nein).
 
