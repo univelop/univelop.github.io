@@ -18,3 +18,7 @@ Mit dem Baustein *Iteriere über Einträge* können Workflow Bausteine für jede
 3. <span style="color:#0b5394">**Filter und Sortierung**</span>  
     Mit Filtern kann die Auswahl der Einträge genauer eingeschränkt werden. Für jeden gefundenen Eintrag aus der angegebenen Liste, welcher die Filter erfüllt, wird der restliche Workflow einmal ausgeführt.
     Die Sortierreihenfolge beeinflusst die Ausführungsreihenfolge.
+4. <span style="color:#0b5394">**Schritte parallel ausführen/Auf alle Durchläufe abwarten**</span>  
+    Über die Einstellung *Schritte parallel ausführen* werden alle gefundenen Einträge nicht hintereinander,
+    sondern "nebeneinander", also gleichzeitig, durchgeführt. Dies bietet sich an, wenn z. B. eine Aktion pro Eintrag durchgeführt wird, welche nicht auf den vorherigen Durchlauf aufbaut. Dadurch wird auch der restliche Workflow nach dem Abschließen der ersten Iteration fortgeführt.    
+    Mit *Auf alle Durchläufe warten* wird sichergestellt, dass alle Schritte für jeden Eintrag abgeschlossen wurden, bevor der Workflow nach der Iteration fortgefahren wird. 

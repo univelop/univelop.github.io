@@ -3,7 +3,7 @@ layout: default
 title: Zeige Nachricht
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 11
+nav_order: 12
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">message</span> **Zeige Nachricht**</span>
