@@ -42,3 +42,23 @@ Damit kann man mit dem >= die untere Werteschranke angeben, und mit dem <= die o
 **Beispiel:** 
 Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
 ![or filter date](\assets\global-settings-and-functions\or filter date.png "or filter date")
+
+## <span style="color:#0b5394">Lückenhafte Ergebnisse</span>
+
+Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben, jedoch wurde die Sortierung ignoriert. Um die Ergebnisse zu verfeinern und genauer auf Ihre Bedürfnisse abzustimmen, empfehlen wir, weitere Filter hinzuzufügen. Durch die Hinzufügung von spezifischen Gleichheitsfiltern (=, in) können Sie Ihre Suche eingrenzen und gezieltere Ergebnisse erzielen. Bitte verwenden Sie keine Ungleichheitsfilter (<, <= , >, >=) für die weitere Eingrenzung.
+
+Es ist wichtig, darauf zu achten, dass die Filter, die Sie hinzufügen, relevante Informationen für Ihre Suche enthalten und nicht zu spezifisch oder zu allgemein sind. 
+
+Wir empfehlen Ihnen, verschiedene Kombinationen von Filtern auszuprobieren, um die bestmöglichen Ergebnisse zu erzielen. Wenn Sie weitere Unterstützung benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden, der Ihnen gerne weiterhilft.
+
+## <span style="color:#0b5394">Suche konnte nicht ausgeführt werden</span>
+
+Bei der Verwendung von spezifischen Filterkombinationen, kann die Suche nicht richtig ausgeführt werden. Es erscheit folgende Meldung:
+
+![Suche konnte nicht ausgeführt werden](\assets\search-and-filters\ugly-search.png)
+
+Es ist wichtig zu beachten, dass bei der Kombination von Gleichheits- und Ungleichheitsfiltern die Gleichheitsfilter zuerst auf dem Server angewendet werden. Wenn die Anzahl der übereinstimmenden Datensätze jedoch immer noch zu groß ist, können die Ungleichheitsfilter möglicherweise nicht mehr angewendet werden. In diesem Fall werden ggf. keine Ergebnisse zurückgegeben.
+
+Um die Anzahl der übereinstimmenden Datensätze zu reduzieren, können Sie spezifischere Gleichheitsfilter hinzufügen. Sobald die Anzahl der Ergebnisse, die vom Server zurückgegeben wird, 200 oder kleiner ist, kann die Suche korrekt ausgeführt werden.
+
+Wenn Sie weitere Hilfe benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden. Wir helfen Ihnen gerne weiter, um sicherzustellen, dass Ihre Suche erfolgreich ist und die gewünschten Ergebnisse liefert.
