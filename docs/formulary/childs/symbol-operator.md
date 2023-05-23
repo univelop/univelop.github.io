@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # <span style="color:#0b5394">**Arbeiten mit Formeln**</span>
-## <span style="color:#0b5394">Rechensymbole / Operatoren</span>
+## <span style="color:#0b5394">Rechensymbole / Operatoren / Funktionen</span>
 
 
 | Operatoren                            | Beschreibung
@@ -32,6 +32,15 @@ Operatoren können verschiedene Arten von Werten vergleichen, liefern als Ergebn
 
 Rechensymbole ergeben nur numerische Werte, mit Ausnahme des `+` und des `*`. Das `+` kann auch Texte verbinden. 
 **Beispiel:** `'ein' + 'Text'` wird zu *'einText'* verbunden.
+## <span style="color:#0b5394">Mathematische Funktionen</span>
+
+| Funktion                              | Beschreibung      | Beispiel
+|:------:                               |:------:           |:------:     
+| `ceil(number)`                        |Aufrunden          | `ceil(3.1)` liefert 4
+| `floor(number)`                       |Abrunden           | `floor(3.9)` liefert 3
+| `round(number)`                       |Runden             | `round(3.499)` liefert 3, `round(3.511)` liefert 4 
+| `abs(number)`                         |Betragsfunktion    | `abs(-4)` liefert 4
+
 
 ## <span style="color:#0b5394">Textkonstanten</span>
 
