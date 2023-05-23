@@ -3,7 +3,7 @@ layout: default
 title: Hinweis
 parent: Basis-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 2
+nav_order: 3
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">short_text</span> **Baustein *Hinweis***</span>

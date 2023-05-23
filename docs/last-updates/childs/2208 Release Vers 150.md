@@ -11,7 +11,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.5.0 ausgerollt:
 
 
 ## <span style="color:#0b5394">**Neuer Baustein *Tabelle***</span>
-Wir haben den neuen [Baustein “Tabelle”](/docs/record-spec-settings/grand-childs-expanded/table.html) in Univelop implementiert. Mit diesem Baustein ist es möglich, in einem Listeneintrag Einträge zu einer untergeordneten bzw. verbundenen Liste hinzuzufügen und auszufüllen. So kann beispielsweise ein Einsatzplan innerhalb eines Projekt-Eintrages erzeugt werden, ohne zwischen Listen hin- und herzuspringen. Bei Bedarf kann von der Tabelle aus ein einzelner Eintrag direkt geöffnet werden. Außerdem beinhaltet der Baustein eine Vorbelegungs-Funktion. So kann mit einem Klick ein Eintrag für z. B. jeden Mitarbeiter erzeugt werden.
+Wir haben den neuen [Baustein “Tabelle”](/docs/record-spec-settings/grand-child-expanded/table.html) in Univelop implementiert. Mit diesem Baustein ist es möglich, in einem Listeneintrag Einträge zu einer untergeordneten bzw. verbundenen Liste hinzuzufügen und auszufüllen. So kann beispielsweise ein Einsatzplan innerhalb eines Projekt-Eintrages erzeugt werden, ohne zwischen Listen hin- und herzuspringen. Bei Bedarf kann von der Tabelle aus ein einzelner Eintrag direkt geöffnet werden. Außerdem beinhaltet der Baustein eine Vorbelegungs-Funktion. So kann mit einem Klick ein Eintrag für z. B. jeden Mitarbeiter erzeugt werden.
 
 ![release brick table](\assets\latest-updates\release brick table.png "release brick table")
 

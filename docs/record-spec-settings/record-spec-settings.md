@@ -16,7 +16,7 @@ Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 
 ||*Basis*||
 |:------:       |:------:               |:------:
-|[Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html)      |[Hinweis](/docs/record-spec-settings/grand-childs-base/hint.html)                |[Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)
+|[Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html)   |[Überschrift](/docs/record-spec-settings/grand-childs-base/heading.html)    |[Hinweis](/docs/record-spec-settings/grand-childs-base/hint.html)                |[Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)
 
 ||*Formular*||
 |:------:       |:------:               |:------:
