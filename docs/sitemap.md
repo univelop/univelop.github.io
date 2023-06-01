@@ -26,7 +26,8 @@ nav_order: 1
     - [Eintrag](/docs/design-mode-settings.html#eintrag)
 
 4. <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
-    - [Abschnitt / Überschrift](/docs/record-spec-settings/grand-childs-base/section.html)
+    - [Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html)
+    - [Überschrift](/docs/record-spec-settings/grand-childs-base/heading.html)
     - [Text / Hinweistext](/docs/record-spec-settings/grand-childs-base/hint.html)
     - [Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)
     - [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)
@@ -45,6 +46,7 @@ nav_order: 1
     - [Abmessung](/docs/record-spec-settings/grand-childs-form/measure.html)
     - [Datei](/docs/record-spec-settings/grand-child-expanded/file.html)
     - [Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)
+    - [Datensätze](/docs/record-spec-settings/grand-child-expanded/records.html)
     - [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
     - [Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)
     - [Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)
@@ -54,13 +56,12 @@ nav_order: 1
     - [Scheduler](/docs/record-spec-settings/grand-child-expanded/scheduler.html)
     - [Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
-    - [Workflow](/docs/record-spec-settings/grand-child-expanded/workflow.html)
     - [Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)
     - [Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html)
     - [Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
     - [Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html)
     - [Datums-Formel](/docs/record-spec-settings/grand-child-expanded/dateformular.html)
-    - [Formel (veraltet)](/docs/record-spec-settings/grand-child-expanded/formular.html)
+    - [Zeichnung](/docs/record-spec-settings/grand-child-expanded/drawing.html)
     - [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
     - [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)
     - [PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)
@@ -74,7 +75,7 @@ nav_order: 1
     - [Teams](/docs/global-settings-and-functions.html#teams)
     - [Rechte / Berechtigungen](/docs/global-settings-and-functions.html#rechte--berechtigungen)
     - [Benachrichtigungen](/docs/global-settings-and-functions.html#benachrichtigungen)
-    - [Filtern und Sortieren](/docs/global-settings-and-functions.html#filter-und-sortierung)
+    - [Filtern und Sortieren](/docs/search-and-filters.html)
     - [Suchen](/docs/global-settings-and-functions.html#suchen)
     - Gespeicherte Ansicht / Eigene Kacheln
 
