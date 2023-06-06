@@ -56,6 +56,7 @@ nav_order: 1
     - [Scheduler](/docs/record-spec-settings/grand-child-expanded/scheduler.html)
     - [Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
+    - [Workflow](/docs/record-spec-settings/grand-child-expanded/workflow.html)
     - [Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)
     - [Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html)
     - [Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
