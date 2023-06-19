@@ -45,9 +45,15 @@ Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
 
 ## <span style="color:#0b5394">Lückenhafte Ergebnisse</span>
 
-Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben, jedoch wurde die Sortierung ignoriert. Um die Ergebnisse zu verfeinern und genauer auf Ihre Bedürfnisse abzustimmen, empfehlen wir, weitere Filter hinzuzufügen. Durch die Hinzufügung von spezifischen Gleichheitsfiltern (=, in) können Sie Ihre Suche eingrenzen und gezieltere Ergebnisse erzielen. Bitte verwenden Sie keine Ungleichheitsfilter (<, <= , >, >=) für die weitere Eingrenzung.
+Bei Verwendung von Filtern auf großen Datenmengen kann folgender Hinweis erscheinen:
 
-Es ist wichtig, darauf zu achten, dass die Filter, die Sie hinzufügen, relevante Informationen für Ihre Suche enthalten und nicht zu spezifisch oder zu allgemein sind. 
+'Es wurden mehr als 200 Einträge gefunden. Die Ergebnisse sind lückenhaft. Bitte verfeinere die Suche.'
+
+Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben. Es werden nur 200 Einträge angezeigt. Die Ergebnisse können daher Lücken enthalten. Um die Ergebnisse zu verfeinern und genauer auf Ihre Bedürfnisse abzustimmen, empfehlen wir, weitere Filter hinzuzufügen und so die Ergebnismenge zu reduzieren. Durch die Hinzufügung von spezifischen Gleichheitsfiltern (=, in) können Sie Ihre Suche eingrenzen und gezieltere Ergebnisse erzielen. Bitte verwenden Sie keine Ungleichheitsfilter (<, <= , >, >=) für die weitere Eingrenzung.
+
+Zeigen Sie zum Beispiel über den "Letzte 2 Monate" Filter nur Einträge an, die im aktuellen oder letzten Monat angelegt oder bearbeitet wurden.
+
+![Filter letzte zwei Monate](\assets\search-and-filters\last-two-month-filter.png)
 
 Wir empfehlen Ihnen, verschiedene Kombinationen von Filtern auszuprobieren, um die bestmöglichen Ergebnisse zu erzielen. Wenn Sie weitere Unterstützung benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden, der Ihnen gerne weiterhilft.
 
