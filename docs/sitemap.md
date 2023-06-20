@@ -91,8 +91,8 @@ nav_order: 1
     - [Schnellerfassung für den Baustein *Datensatz Liste*](/docs/link-lists.html#schnellerfassung-f%C3%BCr-den-baustein-datensatz-liste)
 
 8. <span style="color:#0b5394">**Schnittstellen**</span>
-    - [REST API](https://app.univelop.de/api/docs/)
-    - Integration von Schnittstellen
+    - [REST API](/docs/interface.html#rest-api)
+    - [Integration von Schnittstellen](/docs/interface.html#integration-von-schnittstellen)
 
 9. <span style="color:#0b5394">**Tutorials**</span>
     - [Erstellen einer To-Do-Liste](/docs/tutorials/childs/to-do-list.html#erstellen-einer-to-do-liste)
