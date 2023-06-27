@@ -3,7 +3,7 @@ layout: default
 title: Formel (ehemalig)
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 20
+nav_order: 19
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">calculate</span> **Baustein *Formel (ehemalig)***</span>

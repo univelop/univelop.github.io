@@ -3,7 +3,7 @@ layout: default
 title: Datensatz Liste
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 4
+nav_order: 3
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">view_list</span> **Baustein *Datensatz Liste***</span>

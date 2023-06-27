@@ -41,28 +41,40 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     dargestellt werden. Zum Beispiel offene Aufträge (Status offen), ToDos dieser Monat (s.
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
+3. <span style="color:#0b5394">**Kachel *Formular***</span>  
+    [Diese Kachel](/docs/software-structure.html#-kachel-formular) ermöglicht es, Einträge einmalig auszufüllen und abzusenden, ohne existierende Einträge angezeigt zu bekommen.
 
-3. <span style="color:#0b5394">**Kachel *Website***</span>  
+4. <span style="color:#0b5394">**Kachel *Website***</span>  
     Die Kachel ermöglicht es Websites einzubetten. Wird zum Beispiel in der alltäglichen Arbeit eine Website genutzt (z. B.
     von Börsendaten, Eingabe von externen Formularen, etc.) kann diese direkt über Univelop aufgerufen werden.
     Dazu erhält die Kachel einen entsprechenden Namen und die dazugehörigen URL. Per Mausklick auf die Kachel ruft Univelop
     die URL ab. Die Website kann dann wie in einem Internetbrowser für den entsprechend notwendigen Zweck genutzt werden.
 
-4. <span style="color:#0b5394">**Kachel importieren**</span>  
+5. <span style="color:#0b5394">**Kachel importieren**</span>  
     Wird diese Funktion genutzt, gehört man bereits zu den fortgeschrittenen Univelop-Nutzern. Kacheln
     können aus anderen Arbeitsbereichen importieren werden, wenn diese vorher lokal exportiert und
     im JSON-Format gespeichert wurden. Dies eignet sich vor allem dafür, wenn Standard-Kacheln in einer 
     Universal-Umgebung vorhanden sind, welche auf andere Arbeitsbereiche ausgerollt werden sollen. 
     Darüber hinaus können so gleiche Einstellungen übernommen werden.
 
-5. <span style="color:#0b5394">**Administratorenansicht "Kacheln anderer Benutzer"**</span>  
+6. <span style="color:#0b5394">**Administratorenansicht "Kacheln anderer Benutzer"**</span>  
     Besitzt ein Benutzer die Rolle "Administrator", hat er das Recht, alle erstellten Kacheln der anderen Benutzer einzusehen
     und zu bearbeiten. Mit einem Klick auf eine Benutzerkachel stehen dem Administrator auch hier alle gewohnten Einstellungs-
     möglichkeiten zur Verfügung. Sind zum Beispiel Standard-Kacheln auf eine Gruppe Benutzer verteilt und an diesen Kacheln
     muss eine Änderung vorgenommen werden, kann der Administrator dies über diese Funktion einfach umsetzen.
 
-6. <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
+## <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
+![homeSettings](\assets\design-mode-setting\homeSettings.png "home settings")
+
+1. <span style="color:#0b5394">**Allgemein**</span>
     - Name des Arbeitsbereiches festlegen
+    - Arbeitsbereich ID (**darf nicht verändert werden!**)
+    - Service Account Key
+        - Hinzufügen neuer
+        [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) in den Arbeitsbereich
+    - Zeitzone für Anzeige von Daten    
+
+2. <span style="color:#0b5394">**Design**</span>
     - Bilder des Arbeitsbereichs anpassen
         - Banner für den Homescreen, welches über den Kacheln erscheint
         - Firmenlogo, erscheint oben links im Homescreen über dem Banner
@@ -71,17 +83,14 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
         - Auswahl Primär- und Sekundärfarbe
         - Auswahl bis zu sechs weiteren Kachelfarben
         - Festlegung über die Farbskala oder einen RTX-Wert
-    - [Push-Nachrichten anpassen](/docs/global-settings-and-functions.html#versendezeitpunkt) 
-    - Arbeitsbereich ID (**darf nicht verändert werden!**)
+3. <span style="color:#0b5394">**Benachrichtigungen**</span>
+- [Push-Nachrichten anpassen](/docs/global-settings-and-functions.html#versendezeitpunkt) 
+4. <span style="color:#0b5394">**Domain**</span>
     - Portal Domains (s.
     [Einrichtung Portalmodus](/docs/portal-mode.html))
-    - Service Account Key
-        - Hinzufügen neuer
-        [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) in den Arbeitsbereich
-    - Zeitzone für Anzeige von Daten    
 
 Über den
-[Button *Export*](/docs/import-export.html#arbeitsbereiche)
+[Button *Export*](/docs/import-export.html#arbeitsbereiche)(drei Punkte oben rechts im Bereich *Allgemein*)
 kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
 einen neuen Arbeitsbereich einzufügen. Der Button *Löschen* führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
 
@@ -115,12 +124,11 @@ die Kacheleinstellungen bearbeitet werden.
     - Für bestimmte
     [Benutzerrollen](/docs/global-settings-and-functions.html#rollen)
     freigeben
-    - für bestimmte
+    - Für bestimmte
     [Benutzerteams](/docs/global-settings-and-functions.html#teams)
     freigeben
-9. <span style="color:#0b5394">**Kachel für mich verstecken**</span>  
-    ermöglicht das verstecken globaler Kacheln
-10. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
+    - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
+9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
     - **technischer Name ändern**  
         Technische Namen sind immer erforderlich um sich auf etwas zu beziehen, hier auf die Kachel,
         und i. d. R. für den Im- und Export von Datensätzen notwendig. Sie sind im Standard immer
@@ -136,14 +144,6 @@ die Kacheleinstellungen bearbeitet werden.
         können in diesem einen Datensatz / dieser einen Liste die Daten aus anderen Listen zusammengefasst
         werden. Hier eignet sich zum Beispiel eine Portalfunktion, bei welcher ein externe Nutzer einem
         Datensatz zugeordnet wird und nur seine eigenen Daten sieht.
-
-    - **Aktivierung der Schnellerfassung**  
-        Der Button ***Plus*** in der Liste fällt weg und wird ersetzt durch einen Balken inkl. der Möglichkeit
-        die Anzahl der eingegebenen Datensätze in der Ansicht zu reduzieren (Baustein -> in Schnellerfassung
-        verstecken). Ebenfalls möglich ist die Schnellerfassung ausschließlich bei einer Verknüpfung über
-        einen bestimmten Baustein zu wählen (Einrichtung der Schnellerfassung:
-        [Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-        ).
 
 Der Button ***Counter aktualisieren*** sorgt dafür, dass wenn der Inhalt der Kachel als Anzahl Datensätze oder
 Summe über Baustein gewählt wurde, diese Zähler sich aktualisieren bzw. die Summe neu berechnet wird. Dies
@@ -261,6 +261,13 @@ befinden sich vier Symbole:
     - **Duplizieren und Löschen**  
     Beim Duplizeren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
     ursprüngliche technische Name mit dem Zusatz "2" versehen und sollte nach dem Duplizieren abgeändert werden.
+
+    - **In anderen Tab verschieben**
+    Wird angezeigt, wenn tabs für den Eintrag vorhanden sind. Über den Button wird der ausgewählte Baustein aus dem aktuellen Tab
+    in den gewählten Tab verschoben.
+
+6. <span style="color:#0b5394">**Tabs**</span>
+    Sobald Tabs über die Einstellung unter der Titel-Einstellung angeschaltet werden, können [Tabs](/docs/global-settings-and-functions.html#tabs) hinzugefügt und mit Bausteinen konfiguriert werden.
 
 **Bitte beachten:**  
 der Designmodus für Listen und Einträge muss immer gespeichert werden, damit die

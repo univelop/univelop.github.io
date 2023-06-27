@@ -16,7 +16,9 @@ Die Mitgliederverwaltung ist in den Einstellungen des
 (Button *Zahnrad*) zu finden.
 ![member administration](\assets\global-settings-and-functions\member administration.png "member administration")
 
-Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs. Zusätzlich erhält man die Information, welche Rolle und welches Team das jeweilige Mitglied derzeit inne hat. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop angezeigt. 
+Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs.
+![member list](\assets\global-settings-and-functions\member list.png "member list")
+ Zusätzlich erhält man die Information, welche Rolle und welches Team das jeweilige Mitglied derzeit inne hat. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop angezeigt. 
 Bei Klick auf ein Mitglied öffnet sich für Admins die Detailansicht. Auf diesem hat man Überblick über die möglichen als auch aktiven Rollen und Teams, die Nutzerdaten sowie den letzten Login-Zeitpunkt und das Gerät. Die aktiven als auch zugeteilten Rollen und Teams lassen sich hierüber ändern.
 ![members](\assets\global-settings-and-functions\members.png "members")
 
@@ -170,3 +172,9 @@ In dem Homescreen Designmodus können unter *Push-Nachrichten anpassen* Uhrzeite
 So können Nutzer zu einem Zeitpunkt alle wichtigen Änderungen sehen, statt sie über den Tag verteilt zu bekommen.
 Beispiel: Hat man die Uhrzeit 09:00 und 15:00 angegeben, so werden alle Push-Nachrichten nach 09 Uhr um 15 Uhr versendet, und alle Push-Nachrichten nach 15 Uhr werden zum Folgetag um 09 Uhr versendet.
 Nutzer, welche diese Änderungen in der App bereits vor der Uhrzeit gesehen haben, bekommen dafür keine Push-Nachrichten mehr.
+
+## <span style="color:#0b5394">Tabs</span>
+![tabs](\assets\global-settings-and-functions\tabs.png "tabs")
+Um lange Einträge mit vielen Bausteinen besser zu strukturieren, gibt es *Tabs*. Diese werden im [Designmodus für Einträge](/docs/design-mode-settings.html#eintrag) angeschaltet und konfiguriert.
+Sie besitzen einen Titel und/oder ein Icon für die Darstellung. Im Designmodus kann dazu ein Tab versteckt und Anhand einer Bedingung angezeigt werden. 
+So können bspw. Kontaktdaten oder sensible Dokumente in Tabs gesammelt und kollektiv versteckt werden. 

@@ -3,7 +3,7 @@ layout: default
 title: Freigabe
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 5
+nav_order: 4
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">fact_check</span> **Baustein *Freigabe***</span>

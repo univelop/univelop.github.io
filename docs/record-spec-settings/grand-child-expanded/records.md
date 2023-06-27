@@ -3,7 +3,7 @@ layout: default
 title: Datensätze
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 3
+nav_order: 2
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">dataset_linked</span> **Baustein *Datensätze***</span>

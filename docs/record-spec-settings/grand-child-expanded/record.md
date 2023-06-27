@@ -3,7 +3,7 @@ layout: default
 title: Datensatz
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 2
+nav_order: 1
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">insert_link</span> **Baustein *Datensatz***</span>

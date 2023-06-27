@@ -3,7 +3,7 @@ layout: default
 title: Tabelle
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 11
+nav_order: 10
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">table_chart</span> **Baustein *Tabelle***</span>
