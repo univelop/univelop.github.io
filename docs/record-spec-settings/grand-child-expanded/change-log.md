@@ -19,10 +19,16 @@ Folgende Punkte zeichnet der Baustein bei Änderungen auf:
     - Plus-Zeichen bei hinzugefügten Daten
     - Eimer-Symbol bei entfernten Daten
 
+&nbsp;
+
 ![changelog](\assets\record-spec-settings\changelog.png "changelog")
+
+&nbsp;
 
 Wird in anderen Kacheln der Eintrag über den [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html) verwendet und Werte des Stammdatensatzes werden übernommen und die Einstellung "synchron halten" ist aktiviert, werden bekanntlich die Änderungen an dem Stammdatensatz in diesen Kacheln entsprechend übernommen (s. [Verknüpfung über den Baustein *Datensatz*](/docs/link-lists.html)). Auch hier zeichnet der Baustein *Änderungsprotokoll* die entsprechenden Änderungen auf, um die Auswirkungen der Änderung aufzuzeigen und gibt dabei jeweils die betreffende Kachel aus.
 
 Mit einem Mausklick auf "Änderungsprotokoll" wird die komplette Änderungshistorie ausgegeben.
+
+&nbsp;
 
 ![changelog](\assets\record-spec-settings\changelog1.png "changelog")
