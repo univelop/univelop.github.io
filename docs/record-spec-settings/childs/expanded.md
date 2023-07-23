@@ -20,4 +20,5 @@ Bausteine verknüpft, sowie Dateien und Stati hinterlegt werden.
 |[Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)  |[Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html) |[Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html) 
 |[Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html) |[Datums-Formel](/docs/record-spec-settings/grand-child-expanded/dateformular.html) |[Zeichnung](/docs/record-spec-settings/grand-child-expanded/drawing.html) 
 |[Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html) |[Kommentar](/docs/record-spec-settings/grand-child-expanded/comment.html) |[PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)
- |[Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html) |[Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article%20scanner.html) |[Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
+ |[Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html) |[Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article%20scanner.html) |[Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html) 
+ |[QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)

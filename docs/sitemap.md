@@ -70,6 +70,7 @@ nav_order: 1
     - [Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html)
     - [Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article-scanner.html)
     - [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
+    - [QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)
 
 5. <span style="color:#0b5394">**Zusätzliche globale Einstellungen und Funktionen**</span>
     - [Mitglieder](/docs/global-settings-and-functions.html#mitglieder)

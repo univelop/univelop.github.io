@@ -16,7 +16,7 @@ Um Einträge in Univelop schneller zu finden, oder Verlinkungen in PDFs einzubau
 ![release qrcode brick](\assets\latest-updates\release qrcode brick.png "release qrcode brick")
 ## <span style="color:#0b5394">**Workflow-Baustein *Wähle Pfade***</span>  
 
-Um bspw. Anträge anhand des Inhaltes, per Workflow unterschiedlich zu verarbeiten gibt es ab Univelop 1.15 den [Workflow Baustein *Wähle Pfad*](/docs/workflows/grand-childs-bricks/choose-path.html). Mit diesem können Pfade erstellt werden, welche bei einer erfüllten Bedingung durchlaufen werden. Innerhalb eines Pfades können beliebig viele Workflow-Schritte eingebaut werden.
+Um bspw. Anträge anhand des Inhaltes, per Workflow unterschiedlich zu verarbeiten gibt es ab Univelop 1.15 den [Workflow Baustein *Wähle Pfade*](/docs/workflows/grand-childs-bricks/choose-path.html). Mit diesem können Pfade erstellt werden, welche bei einer erfüllten Bedingung durchlaufen werden. Innerhalb eines Pfades können beliebig viele Workflow-Schritte eingebaut werden.
 
 ![release workflow choose paths](\assets\latest-updates\release workflow choose paths.png "release workflow choose paths")
 ## <span style="color:#0b5394">**Workflow-Baustein *Lösche einen Eintrag***</span>  
