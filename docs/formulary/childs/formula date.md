@@ -46,6 +46,10 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | datesBetween(date,date,[optionen]) | Daten zwischen den zwei gegebenen Daten| *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]* Bei Angabe vom *18.06.2021* als zweites Datum 
 | date(year,month,day)      | Intern nutzbares Datum aus drei Zahlen| Beim Aufruf "date(2021,6,15)" wird *15.06.2021 (Dienstag)* geliefert
 | parseDate(text)           | Formatiert einen Text in ein intern nutzbares Datum. | Beim Aufruf "parseDate("15.06.2021")" wird *15.06.2021 (Dienstag)* geliefert
+| addMinutes(date,minutes) | Minuten addiert auf einen Zeitpunkt | Aufruf von "addMinutes(today(),1)" ergibt *15.06.2021 8:01:00.000000*
+| subtractMinutes(date,minutes) | Minuten subtrahiert auf einen Zeitpunkt | Aufruf von "subtractMinutes(today(),1)" ergibt *15.06.2021 7:59:00.000000*
+| addHours(date,hours) | Stunden addiert auf einen Zeitpunkt | Aufruf von "addHours(today(),1)" ergibt *15.06.2021 9:00:00.000000*
+| subtractHours(date,hours) | Stunden subtrahiert auf einen Zeitpunkt | Aufruf von "subtractHours(today(),1)" ergibt *15.06.2021 7:00:00.000000*
 
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
 erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt **immer vom
