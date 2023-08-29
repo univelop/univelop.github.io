@@ -71,7 +71,7 @@ Diese Art von Kachel kann z. B. für eine vereinfachte Zeiterfassung genutzt wer
 
 ![tile form](\assets\software-structure\tile form.png "tile form")
 
-Es gibt folgende Einstellungen für die individuelle Benennung der Formular-Funktion:
+Es gibt folgende Einstellungen für eine individuelle Formular-Funktion:
 
 1. <span style="color:#0b5394">**Verbindung zu einer Liste**</span>  
     Hier wird der Name der verbundenen Liste angezeigt
@@ -85,6 +85,24 @@ Es gibt folgende Einstellungen für die individuelle Benennung der Formular-Funk
     Ein Workflow kann hier gewählt werden, welcher bei erfolgreichem Absenden des Formulars gestartet wird.
 
 Die typischen Einstellungsmöglichkeiten anderer Kacheltypen, wie z.B. die Kachelfarbe, gibt es bei der Kachel *Formular* auch.
+
+
+### <span style="color:#3d85c6"> Kachel "Scanner"</span>
+
+Die Kachel dient dem Scannen von QR-Codes mit Mobilgeräten und auch Barcodes mit Scannergeräten. Dadurch kannn nur mit einem Scan ein passender Eintrag oder eine Menge von Einträgen gefunden werden.
+Beim Anlegen wird sie mit einer Kachel verbunden, dessen Einträge dann durch das Scannen gefunden werden können.
+
+Es gibt folgende Einstellungen für den Scanner:
+
+1. <span style="color:#0b5394">**Externer Scanner**</span>  
+    Hier wird angegeben, ob es sich um ein übliches Mobilgerät (Smartphone, Tablet) oder um ein Scannergerät handelt.
+2. <span style="color:#0b5394">**Baustein**</span>  
+    Auf dem hier ausgewählten Baustein wird gesucht. Um einen funktionierenden Scanner zu garantieren, soll hier derselbe Baustein gewählt werden, welcher auch beim 
+    zu scannendem Baustein [*QR-/Barcode*](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html) gewählt wurde. 
+    Wird bei der internen Suche des Scanners nur ein passender Eintrag gefunden, so wird dieser direkt geöffnet.
+    Bei mehreren Ergebnissen, wenn z.B. der QR-Code nur aus einem Datum besteht, wird eine Liste dieser angegeben.
+
+Die üblichen Einstellmöglichkeiten für das Aussehen der Kachel gibt es beim Scanner auch.
 
 ## <span style="color:#0b5394">Listen</span>
 
