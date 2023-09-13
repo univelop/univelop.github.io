@@ -32,11 +32,15 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 
 | Datumsformel              | Beschreibung                      | Ausgabewert (Beispiel Berechnungszeitpunkt: *15.06.2021 (Dienstag)* um 8:00 Uhr)|
 |------------               |------------                       |:-------------:
+|date(year,month,day)       | Erstellt Datum aus gegebenem Jahr, Monat und Datum | Aufruf von "date(2021, 06, 15)" liefert *15.06.2021 (Dienstag)*
+|parseDate(text)            | Erstellt Datum aus Text im Format "dd.mm.yy" oder "dd.mm.yyyy"| Aufruf von "parseDate(15.06.2021)" liefert *15.06.2021 (Dienstag)*
 | today()                   | aktuelles Datum                   | *15.06.2021 (Dienstag)*
 | now()                     | aktueller Moment                  | *15.06.2021 8:00:00.000000*
+| currentWeek()             | aktuelle Kalenderwoche            | *2021-W24*
 | startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021 (Montag)*
 | endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021 (Sonntag)*
 | startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021 (Dienstag)*
+| currentMonth()            | Aktueller Monat                   | *2021-06*
 | endOfMonth()              | Ende des aktuellen Monats         | *30.06.2021 (Mittwoch)*
 | startOfQuarter()          | Beginn des aktuellen Quartals     | *01.04.2021 (Donnerstag)*
 | endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021 (Mittwoch)*
@@ -46,10 +50,16 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 | datesBetween(date,date,[optionen]) | Daten zwischen den zwei gegebenen Daten| *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]* Bei Angabe vom *18.06.2021* als zweites Datum 
 | date(year,month,day)      | Intern nutzbares Datum aus drei Zahlen| Beim Aufruf "date(2021,6,15)" wird *15.06.2021 (Dienstag)* geliefert
 | parseDate(text)           | Formatiert einen Text in ein intern nutzbares Datum. | Beim Aufruf "parseDate("15.06.2021")" wird *15.06.2021 (Dienstag)* geliefert
-| addMinutes(date,minutes) | Minuten addiert auf einen Zeitpunkt | Aufruf von "addMinutes(today(),1)" ergibt *15.06.2021 8:01:00.000000*
-| subtractMinutes(date,minutes) | Minuten subtrahiert auf einen Zeitpunkt | Aufruf von "subtractMinutes(today(),1)" ergibt *15.06.2021 7:59:00.000000*
-| addHours(date,hours) | Stunden addiert auf einen Zeitpunkt | Aufruf von "addHours(today(),1)" ergibt *15.06.2021 9:00:00.000000*
-| subtractHours(date,hours) | Stunden subtrahiert auf einen Zeitpunkt | Aufruf von "subtractHours(today(),1)" ergibt *15.06.2021 7:00:00.000000*
+| addMinutes(date,minutes)  | Minuten addiert auf einen Zeitpunkt | Aufruf von "addMinutes(today(),1)" ergibt *15.06.2021 8:01:00.000000*
+| subtractMinutes(date,minutes) | Minuten subtrahiert von einem Zeitpunkt | Aufruf von "subtractMinutes(today(),1)" ergibt *15.06.2021 7:59:00.000000*
+| addHours(date,hours)      | Stunden addiert auf einen Zeitpunkt | Aufruf von "addHours(today(),1)" ergibt *15.06.2021 9:00:00.000000*
+| subtractHours(date,hours) | Stunden subtrahiert von einem Zeitpunkt | Aufruf von "subtractHours(today(),1)" ergibt *15.06.2021 8:00:00.000000*
+| addDays(date, days)       | Tage addiert auf einen Zeitpunkt | Aufruf von "addDays(today(),1)" ergibt *16.06.2021 8:00:00.000000*
+| subtractDays(date, days)  | Tage subtrahiert von einem Zeitpunkt | Aufruf von "subtractDays(today(),1)" ergibt *14.06.2021 8:00:00.000000*
+| addWeeks(date, weeks)     | Monate addiert auf einen Zeitpunkt | Aufruf von "addWeeks(today(),1)" ergibt *22.06.2021 8:00:00.000000*
+| subtractWeeks(date, weeks)| Wochen subtrahiert von einem Zeitpunkt | Aufruf von "subtractWeeks(today(),1)" ergibt *08.06.2021 8:00:00.000000*
+| addMonths(date, months)   | Monate addiert auf einen Zeitpunkt | Aufruf von "addMonths(today(),1)" ergibt *15.07.2021 8:00:00.000000*
+| subtractMonths(date, months) | Monate subtrahiert von einem Zeitpunkt | Aufruf von "subtractMoths(today(),1)" ergibt *15.05.2021 8:00:00.000000*
 
 In den Klammern der einzelnen Formeln können **keine** eigenen Werte hinsichtlich einer eigenen Zeitpunktsberechnung
 erfolgen (zum Beispiel: endOfMonth(24.09.2021) = 30.09.2021). Die Eingabe einer Datumsformel erfolgt **immer vom

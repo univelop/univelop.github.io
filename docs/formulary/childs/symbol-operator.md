@@ -80,6 +80,14 @@ können noch weitere Funktionen genutzt werden.
 | `count(list)`                             | Zählt die Elemente einer Liste/eines dynamischen Wertes, z. B. "count([1,2,4])" liefert 3
 |                                           |
 | `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
+| `formatNumber(number,dezimalCount,thousandSeparator)` | Formatiert die Nummber zu gewünschtem Format. Bspw. liefert "formatNumber(1000,2,true)" das Ergebnis *1.000,00*
+|                                           |
+| `randomString(length)`                    | Erzeugt eine zufällige Zeichenkette mit gegebener Länge
+| `toUpperCase(text)`                       | Konvertiert den gegebenen Text auf Großbuchstaben
+| `toLowerCase(text)`                       | Konvertiert den gegebenen Text auf Kleinbuchstaben
+|                                           |
+| `parseJson(jsontext)`                     | Konvertiert einen Json-String zu einem Json-Objekt
+| `basicAuth(username, password)`           | Verschlüsselt Nutzername und Passwort 
 
 ### <span style="color:#3d85c6">Formatierungsmöglichkeiten Datum</span>
 

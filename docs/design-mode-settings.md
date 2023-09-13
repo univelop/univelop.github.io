@@ -88,6 +88,8 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 4. <span style="color:#0b5394">**Domain**</span>
     - Portal Domains (s.
     [Einrichtung Portalmodus](/docs/portal-mode.html))
+5. <span style="color:#0b5394">**Arbeitsbereich Zustand**</span>
+    - Hier kann der Arbeitsbereich auf zu Große Zahlen im Zahlenbaustein sowie auf fehlerhafte Formeln geprüft werden.
 
 Über den
 [Button *Export*](/docs/import-export.html#arbeitsbereiche)(drei Punkte oben rechts im Bereich *Allgemein*)
@@ -261,6 +263,11 @@ befinden sich vier Symbole:
     - **Duplizieren und Löschen**  
     Beim Duplizeren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
     ursprüngliche technische Name mit dem Zusatz "2" versehen und sollte nach dem Duplizieren abgeändert werden.
+
+    - **Baustein sperren/entsperren**
+    Um die Einstellungen des Bausteins zu sichern, so dass diese nicht ohne weiteres änderbar sind, kann der Baustein *gesperrt* werden.
+    Dabei muss eine Begründung angegeben werden, damit weitere Admins im Designmodus über den Grund der Sperrung bescheid wissen.
+    Ist ein Baustein gesperrt, kann dieser wieder entsperrt werden. Dabei sollte die Begründung der Sperrung beachtet werden.  
 
     - **In anderen Tab verschieben**
     Wird angezeigt, wenn tabs für den Eintrag vorhanden sind. Über den Button wird der ausgewählte Baustein aus dem aktuellen Tab

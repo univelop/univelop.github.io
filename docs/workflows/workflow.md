@@ -53,3 +53,4 @@ Dazu lässt sich in der Detailansicht angucken, welcher konkreter Baustein gegl�
   |[Check Out](/docs/workflows/grand-childs-bricks/check-out.html)  |[Genehmigung anfordern](/docs/workflows/grand-childs-bricks/request-approval.html) 
   |[Warte auf Genehmigung](/docs/workflows/grand-childs-bricks/await-approval.html)  |[Iteriere über Werte](/docs/workflows/grand-childs-bricks/iterate-values.html) 
   |[Webhook](/docs/workflows/grand-childs-bricks/webhook.html) |[Erstelle einen neuen Nutzer](/docs/workflows/grand-childs-bricks/create-user.html)
+  |[Importiere Excel-Tabelle](/docs/workflows/grand-childs-bricks/import-excel.html)|
