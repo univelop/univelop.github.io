@@ -42,7 +42,8 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
 3. <span style="color:#0b5394">**Kachel *Formular***</span>  
-    [Diese Kachel](/docs/software-structure.html#-kachel-formular) ermöglicht es, Einträge einmalig auszufüllen und abzusenden, ohne existierende Einträge angezeigt zu bekommen.
+    Diese Kachel ermöglicht es, Einträge einmalig auszufüllen und abzusenden, ohne existierende Einträge angezeigt zu bekommen.
+    Siehe hierzu [mehr](/docs/software-structure.html#-kachel-formular).
 
 4. <span style="color:#0b5394">**Kachel *Website***</span>  
     Die Kachel ermöglicht es Websites einzubetten. Wird zum Beispiel in der alltäglichen Arbeit eine Website genutzt (z. B.
@@ -86,8 +87,8 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 3. <span style="color:#0b5394">**Benachrichtigungen**</span>
 - [Push-Nachrichten anpassen](/docs/global-settings-and-functions.html#versendezeitpunkt) 
 4. <span style="color:#0b5394">**Domain**</span>
-    - Portal Domains (s.
-    [Einrichtung Portalmodus](/docs/portal-mode.html))
+    - Portal Domains
+    - [Einrichtung Portalmodus](/docs/portal-mode.html)
 5. <span style="color:#0b5394">**Arbeitsbereich Zustand**</span>
     - Hier kann der Arbeitsbereich auf zu Große Zahlen im Zahlenbaustein sowie auf fehlerhafte Formeln geprüft werden.
 
@@ -126,10 +127,10 @@ die Kacheleinstellungen bearbeitet werden.
     - Für bestimmte
     [Benutzerrollen](/docs/global-settings-and-functions.html#rollen)
     freigeben
+    - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
     - Für bestimmte
     [Benutzerteams](/docs/global-settings-and-functions.html#teams)
     freigeben
-    - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
 9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
     - **technischer Name ändern**  
         Technische Namen sind immer erforderlich um sich auf etwas zu beziehen, hier auf die Kachel,
@@ -168,9 +169,7 @@ exportiert werden können.
 ## <span style="color:#0b5394">Liste</span>
 
 Nach dem Öffnen einer Kachel wird auf der linken Seite eine
-[Liste](/docs/software-structure.html#listen])
-der vorhandenen
-[Einträge](/docs/software-structure.html#eintr%C3%A4ge)
+[Liste der vorhandenen Einträge](/docs/software-structure.html#listen)
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 
 ![list](\assets\design-mode-setting\list.png "list")
@@ -187,8 +186,7 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
     - Designmodus der Liste aufrufen
     - Benachrichtigungen für sich selbst aktivieren
     - Alle als gelesen markieren
-    - [Nach Excel exportieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
-    - [von Excel importieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
+    - [Von Excel importieren und nach Excel exportieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
     - Alle löschen  
     **HINWEIS:**  
     diese Funktion löscht **ALLE** Daten!
