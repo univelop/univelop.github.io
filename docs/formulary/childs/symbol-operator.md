@@ -82,7 +82,7 @@ können noch weitere Funktionen genutzt werden.
 | `formatDate(date, "format")`              | Formatiert ein Datumsdatensatz (Bezug auf [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)) in die gewählte Formatierung (s. Formatierungsmöglichkeiten Datum)
 | `formatNumber(number,dezimalCount,thousandSeparator)` | Formatiert die Nummber zu gewünschtem Format. Bspw. liefert "formatNumber(1000,2,true)" das Ergebnis *1.000,00*
 |                                           |
-| `randomString(length)`                    | Erzeugt eine zufällige Zeichenkette mit gegebener Länge
+| `randomString(length)`                    | Erzeugt eine zufällige Zeichenkette mit gegebener Länge (Kleinbuchstaben und Zahlen, z. B. "f49gf623bk")
 | `toUpperCase(text)`                       | Konvertiert den gegebenen Text auf Großbuchstaben
 | `toLowerCase(text)`                       | Konvertiert den gegebenen Text auf Kleinbuchstaben
 |                                           |
