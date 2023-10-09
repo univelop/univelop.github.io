@@ -3,7 +3,6 @@ layout: default
 title: Wähle Pfade
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 13
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">alt_route</span> **Wähle Pfade**</span>

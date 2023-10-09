@@ -117,10 +117,13 @@ aufgelistet werden. Mit einem Mausklick auf eine aufgelistete Kachel wird die Re
 aufgerufen. Im Standard ist immer "Zugriff erlauben" auf "Alle" Datensätze hinterlegt.
 
 Folgende weitere Einstellungen können vorgenommen werden:
-- <span style="color:#0b5394">**Gefiltert**</span>  
+- <span style="color:#0b5394">**Eingeschränkt**</span>  
     Inhalt der
     [Kachel](/docs/software-structure.html#kacheln)
-    wird anhand des vorgebenen Filters angezeigt
+    wird anhand des vorgebenen Filters angezeigt.
+    Es gibt die normalen *Filter*, sowie die *Bedingungen*.
+    Die letzteren Beziehen sich auf die [Mitgliederkachel](/docs/software-structure.html#-kachel-mitglieder).
+    Darunter kann eingestellt werden, welche konkreten Werte im Eintrag des Mitgliedes vorliegen.
 - <span style="color:#0b5394">**Von meinem Team**</span>  
     Sind Datensätze über den
     [Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)

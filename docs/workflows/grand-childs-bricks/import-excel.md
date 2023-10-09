@@ -3,7 +3,6 @@ layout: default
 title: Importiere Excel-Tabelle
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 18
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">vertical_align_top</span> **Importiere Excel-Tabelle**</span>

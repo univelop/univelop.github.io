@@ -3,7 +3,6 @@ layout: default
 title: Check Out
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 13
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">check_circle</span> **Check Out**</span>

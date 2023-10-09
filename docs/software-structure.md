@@ -49,6 +49,24 @@ Vorteil hierbei ist, dass die Filter entsprechend in der Neuerfassung von Datens
 Zeiterfassungen unterliegen aber auch einer ständigen Prüfung, sodass neue Arbeitszeiten dafür besser gefiltert
 werden können (z. B. Filter: bereits freigegeben = Nein).
 
+### <span style="color:#3d85c6"> Kachel "Mitglieder"</span>
+
+Die Mitgliederkachel ist im Kern eine normale Liste, die aber speziell dem Verwalten der 
+Mitglieder des Arbeitsbereiches dient. 
+Diese Kachel enthält einen Eintrag für jedes Mitglied des Arbeitsbereiches, und umfasst den Namen, E-Mail-Adresse und Status des Nutzers.
+
+Standardmäßig können die E-Mail, der Name, die ID und nicht verändert werden, solange der Status des Nutzers auf "Aktiv" steht.
+Sobald der Nutzer nicht aktiv ist, d.h. nicht mehr im Arbeitsbereich ist, können alle Bausteine, abgesehen vom Status, verändert werden und es kann der Eintrag auch gelöscht werden.
+
+Um Mitglieder zu verwalten, die aber nicht im Arbeitsbereich sind, können in der Liste wie üblich Einträge dafür erstellt und bearbeitet werden. Diese Mitglieder besitzen dabei immer den Status 'Nicht aktiv'. 
+
+Sobald ein neues Mitglied dem Arbeitsbereich betritt, für den ein Eintrag in dieser Kachel mit der selben E-Mail vorhanden ist, wird der Status auf 'Aktiv' gesetzt. Verlässt ein Mitglied den Arbeitsbereich, wird der Status in seinem Eintrag auf 'Nicht aktiv' gesetzt.
+
+Im Designmodus können die Einträge um weitere Bausteine erweitert werden, um bspw. einfache Daten wir Telefonnummern oder
+Adresse hinzuzufügen oder aber den Nutzern einen Standort, ein 
+aktuelles Projekt oder seine aktuellen Arbeitszeiten zuzuweisen. 
+Alle Bausteine aus dieser Kachel können bei den [Rechten](/docs/global-settings-and-functions.html#rechte--berechtigungen) zur Konfiguration verwendet werden.
+
 ### <span style="color:#3d85c6"> Kachel "Website"</span>
 
 Die Kachel *Website* ermöglicht die Einbindung einer Website direkt in Univelop ohne die Nutzung eines separaten
@@ -103,6 +121,15 @@ Es gibt folgende Einstellungen für den Scanner:
     Bei mehreren Ergebnissen, wenn z.B. der QR-Code nur aus einem Datum besteht, wird eine Liste dieser angegeben.
 
 Die üblichen Einstellmöglichkeiten für das Aussehen der Kachel gibt es beim Scanner auch.
+
+### <span style="color:#3d85c6"> Kachel "Ordner"</span>
+
+Die Kachel dient dem Gruppieren von mehreren Kacheln und dem aufräumen vom Homescreen.
+Es können beliebige Kacheln in den Ordner untergebracht werden.
+
+Die Ordnerkachel funktioniert analog zum Appordner auf dem Homescreen des Smartphones.
+Hier werden nur die Kacheln in den Ordner nicht per Drag-and-Drop verschoben, 
+sondern in den Einstellungen der Ordnerkachel aus der Kachelliste ausgewählt.
 
 ## <span style="color:#0b5394">Listen</span>
 

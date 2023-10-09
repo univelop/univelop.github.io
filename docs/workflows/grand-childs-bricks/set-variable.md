@@ -3,7 +3,6 @@ layout: default
 title: Setze Variablen
 parent: Workflow Bausteine
 grand_parent: Workflows
-nav_order: 1
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">description</span> **Setze Variablen**</span>
