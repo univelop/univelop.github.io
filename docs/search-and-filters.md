@@ -54,6 +54,10 @@ zum Beispiel Name Blockweise & Datum aufsteigend erfolgen soll, muss eine Textfo
 verwendet werden.
 
 Die Filterung von Daten ist über beliebig viele Filter auf einzelnen Bausteinen und ihrer Werte möglich.
+Zu beachten ist, dass wenn ich mehr als einen Filter anwende, diese als UND miteinander verbunden sind.
+Wenn ich also zwei Filter mit Mitarbeiter/in = Herr Meyer und Mitarbeiter/in = Frau Müller eingebe, werden keine Ergebnisse ausgegeben.
+Wenn ich stattdessen beide im "in" (Oder) Filter verwende, kann ich sie kombinieren und mir beide Ergebnisse anzeigen lassen.
+
 Ein einzelner Filter besteht aus 3 Feldern: Einem linken Feld, wo der zu filterne Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, wo der Filterwert eingetragen wird.
 Für die Filterung von Daten können die Operatoren <, >, <=, >=, = oder IN (*Oder*) in die
 entsprechenden Filter gesetzt werden.
