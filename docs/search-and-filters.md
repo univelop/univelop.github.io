@@ -8,12 +8,19 @@ nav_order: 7
 
 ## <span style="color:#0b5394">Suchen</span>
 
-Mit dem Lupen Symbol kann innerhalb der Datensatzliste oder verknüpften Datensatz Liste
-nach Inhalten gesucht werden. Die Suche umfasst dabei alle Werte innerhalb eines
-Datensatzes.
+Mit dem Lupen Symbol kann innerhalb einer Liste, einer Filterkachel oder verknüpften Datensatz Liste 
+(Link zur Liste) nach Inhalten gesucht werden. Die Suche öffnet sich ebenfalls, wenn man den
+Datensatz Baustein bedienen möchte.
+
+Univelop bietet eine Volltextsuche an, keine Fragmentsuche. Dies bedeutet, dass immer mit dem ganzen
+Wert, den es zu finden gilt, gesucht werden muss. Suche ich nach Herr Meyer, werde mich mit "Mey" bereits
+fündig, jedoch nicht mit "yer", da die Suche am Anfang des Wortes beginnt.
+Die Suche umfasst alle Werte / Bausteine innerhalb eines Datensatzes.
 
 Die Sortierung erfolgt so, dass zuerst die genauen Suchergebnisse ausgegeben werden und im Anschluss
-ähnliche Werte.
+ähnliche Werte. Weiterhin ist die Sortierung der Suche nicht einstellbar, die Werte erscheinen in der
+Reihenfolge, in der die Datenbank die Werte findet. Möchte ich diese Werte sortiert angezeigt haben,
+empfiehlt es sich die Filterung und Sortierung zu verwenden.
 
 ## <span style="color:#0b5394">Filter und Sortierung</span>
 
