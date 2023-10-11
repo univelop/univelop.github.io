@@ -13,7 +13,7 @@ Mit dem Lupen Symbol kann innerhalb einer Liste, einer Filterkachel oder verknü
 Datensatz Baustein bedienen möchte.
 
 Univelop bietet eine Volltextsuche an, keine Fragmentsuche. Dies bedeutet, dass immer mit dem ganzen
-Wert, den es zu finden gilt, gesucht werden muss. Suche ich nach Herr Meyer, werde mich mit "Mey" bereits
+Wert, den es zu finden gilt, gesucht werden muss. Suche ich nach Herr Meyer, werde ich mit "Mey" bereits
 fündig, jedoch nicht mit "yer", da die Suche am Anfang des Wortes beginnt.
 Die Suche umfasst alle Werte / Bausteine innerhalb eines Datensatzes.
 
@@ -24,9 +24,34 @@ empfiehlt es sich die Filterung und Sortierung zu verwenden.
 
 ## <span style="color:#0b5394">Filter und Sortierung</span>
 
-Die Sortierung der Kachelinhalte kann global je Kachel auf- und absteigend nach einem bestimmten
-Baustein geändert werden. Gleiches gilt für verknüpfte Datensätze. Bei der Ausgabe von verknüpften
-Datensätzen über die repeat Funktion werden die Daten in der sortierten Reihenfolge ausgegeben.
+Eine Sortierung kann überall dort eingestellt werden, wo ich eine Liste von Datensätzen zur Verfügung habe.
+Bedeutet in Basis Listen, Filterkacheln, sowie den Bausteinen Datensatz-Liste, Tabelle, Matrix etc.
+Die globale Einstellung wird im Designmodus des jeweiligen Objektes (Kachel, Baustein) vorgenommen.
+
+Wenn ich die Filterung und Sortierung im Objekt einstelle, wird sie beim Öffnen des Objektes jeweils voreingestellt.
+Verändere ich die Filter / Sortierung im Bearbeitungsmodus in einer Liste von Datensätzen, ist die Änderung nur 
+temporär und wird mit Verlassen der Liste wieder zurückgesetzt auf die Einstellungen, die im Designmodus hinterlegt
+worden sind.
+
+Die Sortierung der Datensätze kann auf- und absteigend nach einem bestimmten Baustein geändert werden. 
+Gleiches gilt für verknüpfte Datensätze. Zu beachten ist, dass Zahlen in Textfeldern nicht nummerisch sortiert werden, sondern
+der Größe nach. 
+
+Im konkreten Beispiel bedeutet dies:
+
+|Sortierung Nummernfeld         |Sortierung Textfeld        |
+------                           ------
+|1                              |1                          |
+|2                              |10                         |
+|3                              |2                          |
+|...                            |...                        |
+|10                             |9                          |
+
+
+Bei der PDF-Ausgabe einer verknüpften Datensatz-Liste über die repeat Funktion, werden die Daten in der im Baustein 
+eingestellten sortierten Reihenfolge ausgegeben. Wenn die Sortierung nach mehr als einem Feld, 
+zum Beispiel Name Blockweise & Datum aufsteigend erfolgen soll, muss eine Textformel zur Kombination dieser Werte
+verwendet werden.
 
 Die Filterung von Daten ist über beliebig viele Filter auf einzelnen Bausteinen und ihrer Werte möglich.
 Ein einzelner Filter besteht aus 3 Feldern: Einem linken Feld, wo der zu filterne Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, wo der Filterwert eingetragen wird.
