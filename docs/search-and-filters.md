@@ -37,15 +37,15 @@ Die Sortierung der Datensätze kann auf- und absteigend nach einem bestimmten Ba
 Gleiches gilt für verknüpfte Datensätze. Zu beachten ist, dass Zahlen in Textfeldern nicht nummerisch sortiert werden, sondern
 der Größe nach. 
 
-Im konkreten Beispiel bedeutet dies:
+***Im konkreten Beispiel bedeutet dies***
 
-|Sortierung Nummernfeld         |Sortierung Textfeld        |
-------                           ------
-|1                              |1                          |
-|2                              |10                         |
-|3                              |2                          |
-|...                            |...                        |
-|10                             |9                          |
+|Sortierung Nummernfeld         |Sortierung Textfeld
+|:------:                       |:------:
+|1                              |1
+|2                              |10
+|3                              |2
+|...                            |...
+|10                             |9
 
 
 Bei der PDF-Ausgabe einer verknüpften Datensatz-Liste über die repeat Funktion, werden die Daten in der im Baustein 
