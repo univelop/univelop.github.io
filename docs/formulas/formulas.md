@@ -11,7 +11,7 @@ has_toc: true
 |<span style="color:#0b5394">Formelkategorie/Formeln</span> | Beschreibung | Beispiel
 |:------:              |:------------:            |:------------:
 |<span style="color:#0b5394">Strukturformeln</span>|<span></span>|<span></span>
-| [`if(condition,then)`](/docs/formulas/childs/other-formulas.html#strukturformel)   | Wenn die Bedingung wahr ist, dann liefere `then` Wert| `if(1==1, "wahr", "falsch")` liefert "wahr"
+| [`if(condition,then)`](/docs/formulas/childs/other-formulas.html#strukturformel)   | Wenn die Bedingung wahr ist, dann liefere `then` Wert| `if(1==1, "wahr")` liefert "wahr"
 | [`ifElse(condition,then,else)`](/docs/formulas/childs/other-formulas.html#strukturformel) | Wenn die Bedingung wahr ist, dann liefere `then` Wert, ansonsten `else` Wert | `ifElse(1==1, "wahr", "falsch")` liefert "wahr", `ifElse(1==2, "wahr", "falsch")` liefert "falsch"
 |<span style="color:#0b5394">Logische Operatoren</span>  |<span></span>|<span></span>
 | [`==`](/docs/formulas/childs/other-formulas.html#operatoren)            |Gleich               |`1 == 2` liefert false
