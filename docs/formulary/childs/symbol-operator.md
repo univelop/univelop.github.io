@@ -20,7 +20,7 @@ nav_order: 3
 | `<=`                                  |Kleiner gleich
 | `>=`                                  |Größer gleich
 | 	                                    |
-| **Rechensymbole**                     | **Beschreibung**
+| Rechensymbole                         | Beschreibung
 |:------:                               |:------:
 | `+`                                   |Plus, Addition
 | `-`                                   |Minus, Subtraktion
@@ -67,7 +67,7 @@ können noch weitere Funktionen genutzt werden.
 | `toNumber(value)`                         | Wandelt einen nicht numerischen Wert in eine numerische Darstellung des Wertes um 
 |                                           |
 | `contains(text,sub)`                      | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist.
-| `textLength(value)`                       | Gibt die Textlänge eines Feldes inklusive Leerzeichen aus
+| `textLength(value)`                       | Gibt die Textlänge inklusive Leerzeichen aus
 | `firstLetters(value,count)`               | Zählt die **ersten** Zeichen des Bausteinwertes anhand der vorgebenen Länge (count = Zahl)
 | `lastLetters(value,count)`                | Zählt die **letzten** Zeichen des Bausteinwertes anhand der vorgegeben Länge (count = Zahl)
 |                                           | **Beispiel:** firstLetters(seriennummer,4) gibt die ersten 4 Zahlen und Buchstaben der Seriennummer aus
@@ -88,34 +88,3 @@ können noch weitere Funktionen genutzt werden.
 |                                           |
 | `parseJson(jsontext)`                     | Konvertiert einen Json-String zu einem Json-Objekt
 | `basicAuth(username, password)`           | Verschlüsselt Nutzername und Passwort 
-
-### <span style="color:#3d85c6">Formatierungsmöglichkeiten Datum</span>
-
-|Symbol   |Beschreibung           |Ausgabe in         |Beispiel|
-|------   |-------                |------------       |-------|
-|G        |Bezeichnung            |(Text)             |AD|
-|yyyy     |Jahr                   |(Zahl)             |2022|
-|M        |Monat im Jahr (kurz)   |(Zahl)             |1|
-|MM       |Monat im Jahr (lang)   |(Zahl)             |01|
-|MMM      |Monatsname (kurz)      |(Text)             |Jan|
-|MMMM     |Monatsname (lang)      |(Text)             |Januar|
-|L        |alleinstehender Monat  |(Text & Zahl)      |Januar & 01|
-|d        |Tag im Monat           |(Zahl)             |5|
-|dd       |Tag im Monat (lang)    |(Zahl)             |05|
-|c        |alleinstehender Tag    |(Zahl)             |10|
-|h        |Stunde am/pm (1~12)    |(Zahl)             |12|
-|H        |Stunde in Tag (0~23)   |(Zahl)             |0|
-|m        |Minuten einer Stunde   |(Zahl)             |30|
-|s        |Sekunden einer Minute  |(Zahl)             |55|
-|S        |fractional second      |(Zahl)             |978|
-|E        |Wochentag (kurz)       |(Text)             |Do.|
-|EEEE     |Wochentag (lang)       |(Text)             |Donnerstag|
-|D        |Tag im Jahr            |(Number)           |189|
-|a        |am/pm marker           |(Text)             |PM|
-|k        |hour in day (1~24)     |(Number)           |24|
-|K        |hour in am/pm (0~11)   |(Number)           |0|
-|Q        |Quartal                |(Zahl)             |3|
-|QQQ      |Quartal (kurz)         |(Text & Zahl)      |Q3|
-|QQQQ     |Quartal (lang)         |(Text & Zahl)      |3. Quartal|
-|'        |escape for text        |(Delimiter)        |'Date='|
-|''       |single quote           |(Literal)          |'o''clock'|
