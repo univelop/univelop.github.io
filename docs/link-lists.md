@@ -11,6 +11,8 @@ nav_order: 9
 Es gibt zwei Arten von Beziehungen zwischen Daten. Die erste ist eine 1:1 Beziehung, die
 zweite eine 1:n Beziehung, wobei n für eine beliebige Zahl steht.
 
+### <span style="color:#0b5394">1:1 Beziehungen</span>
+
 Eine 1:1 Beziehung beschreibt die direkte Abhängigkeit zweier Elemente voneinander.
 In unserem Fall sprechen wir von zwei Datensätzen. Diese stehen in direkter Verbindung
 miteinander und haben eine 1:1 Beziehung.
@@ -24,19 +26,22 @@ miteinander und haben eine 1:1 Beziehung.
 
 Die zuvor genannten Beispiele lassen erkennen, dass die Datensätze in dieser Konstellation nur
 jeweils 1x existieren und in direkter Verbindung miteinander stehen. Möchte man diese
-verknüpfen, wird auf beiden Seiten ein Datensatz Baustein verwendet.
+verknüpfen, kann auf beiden Seiten ein Datensatz Baustein verwendet.
+
+### <span style="color:#0b5394">1:n Beziehungen</span>
 
 Man spricht von einer 1:n Beziehung, wenn auf einer Seite ein Datensatz gemeint ist
 und auf der anderen Seite eine Liste von Datensätzen. Die Liste von Datensätzen kann
 beliebig lang sein.
 
-|Datensatz 1                        |Datensatz n1                           |Datensatz n2
+|Parent                             |Child 1                                |Child 2
 |:------:                           |:------:                               |:------:
 |Firma Holzapfel GmbH               |Mitarbeiter Herr Müller                |Mitarbeiterin Frau Weber
 |Lieferschein L 456321              |Pos. 1, 10 Äpfel                       |Pos. 2, 20 Birnen
 |Firmenwagen Kennz. IZ U 123        |Wartung 2015, 500 EUR                  |Wartung 2017, 731 EUR
 |Artikel BA123, Apfel rot           |Warenausgang 01.01.2023, 10 Stk.       |Warenausgang 05.01.2023, 5 Stk.
 |...                                |...                                    |...
+
 
 Wir sprechen bei 1:n Beziehungen gerne von Parent / Child(s) oder Mutter- & Tochterdatensätzen.
 Eine Firma kann mit mehreren Mitarbeitern angelegt werden, ein Lieferschein hat mehr als eine Position
@@ -46,6 +51,7 @@ In Univelop lösen wir diese dynamischen Verhältnisse mit zwei Liste. In Liste 
 des Parent gepflegt, in Liste zwei die Daten der Kinder. Es wird also zum Beispiel eine Liste mit
 Fahrzeugen benötigt und eine Liste mit Reparaturen. Zu Lösung dieses Verhältnisses wird der
 Baustein Datensatz-Liste im Parent verwendet und der Baustein Datensatz im Child.
+
 
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
