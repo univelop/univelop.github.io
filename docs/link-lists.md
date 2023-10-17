@@ -6,6 +6,26 @@ nav_order: 9
 
 # <span style="color:#0b5394">**Verknüpfen von Listen**</span>
 
+## <span style="color:#0b5394">Beziehungen von Datensätzen zueinander</span>
+
+Es gibt zwei Arten von Beziehungen zwischen Daten. Die erste ist eine 1:1 Beziehung, die
+zweite eine 1:n Beziehung, wobei n für eine beliebige Zahl steht.
+
+Eine 1:1 Beziehung beschreibt die direkte Abhängigkeit zweier Elemente voneinander.
+In unserem Fall sprechen wir von zwei Datensätzen. Diese stehen in direkter Verbindung
+miteinander und haben aus Sicht mindestens eines Datensatzes eine 1:1 Beziehung.
+
+|Datensatz 1                        |Datensatz 2
+|:------:                           |:------:
+|Mitarbeiter Herr Meyer             |Führerschein XYLK (von Herrn Meyer)
+|Abteilung Univelop Support         |Mailadresse support@univelop.de
+|Ansprechpartner/in Kim             |Telefonnummer 0170 123 456
+|...                                |...
+
+Die zuvor genannten Beispiele lassen erkennen, dass die Datensätze in dieser Konstellation nur
+jeweils 1x existieren und in direkter Verbindung miteinander stehen. Möchte man diese
+verknüpfen, wird auf beiden Seiten ein Datensatz Baustein verwendet.
+
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
 Wie der Name schon sagt, kann über den
