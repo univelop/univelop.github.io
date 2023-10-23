@@ -8,20 +8,19 @@ parent: Formelsammlung
 # <span style="color:#0b5394">**Zahlenformeln**</span>
 
 
-| Formel mit Beispielwert | Beispielausgabe | Beschreibung | Einzugebene Werte (Werte in den Klammern) |
-|------|------|------|------|
-| `ceil(3.1)` | *4*   |Aufrunden          | 1. Wert: Zahl |
-| `floor(3.9)` | *3*  |Abrunden           | 1. Wert: Zahl |
-| `round(3.499)`,`round(3.511)` | *3*, *4*|Runden | 1. Wert: Zahl |
-| `abs(number)` | *4* |Betragsfunktion    | 1. Wert: Zahl |
-| `count([1,2,4])` | *3* | Zählt die Elemente einer Liste/eines dynamischen Wertes | 1. Wert: Liste/dynamischer Wert |
-| `toNumber("123")` | *123* | Wandelt einen Text in eine numerische Darstellung des Wertes um | 1. Wert: Text, welcher eine Zahl darstellt |
-
+| Formel | Beschreibung | Beispiel | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|------|------|------|------|----|
+| `ceil(number)` | Aufrunden | `ceil(3.1)` liefert *4* | 1. Wert: Zahl | Zahl |
+| `floor(number)` | Abrunden | `floor(3.9)` liefert *3* | 1. Wert: Zahl | Zahl |	
+| `round(number)` | Runden | `round(3.499)` liefert *3*, `round(3.511)` liefert 4 | 1. Wert: Zahl | Zahl |
+| `abs(number)` | Betragsfunktion | `abs(-4)` liefert *4* | 1. Wert: Zahl | Zahl |
+| `count(list)` | Zählt die Elemente einer Liste/eines dynamischen Wertes | `count([1,2,4])` liefert *3* | 1. Wert: Liste/dynamischer Wert | Zahl |
+| `toNumber(text)` | Wandelt einen Text in eine numerische Darstellung des Wertes um | `toNumber("123")` liefert *123* | 1. Wert: Text, welcher eine Zahl darstellt | Zahl |
 
 ## <span style="color:#0b5394">**Zahlbezogene Formeln**</span>
 
-| Formel mit Beispielwert | Beispielausgabe | Beschreibung | Einzugebene Werte (Werte in den Klammern) |
-|------|------|------|------|
-| `textLength("Hallo Welt")` | *10* | Gibt die Textlänge inklusive Leerzeichen aus| 1. Wert: Text |
-| `formatNumber(1000,2,true)` | *1.000,00* | Formatiert die Nummber zu gewünschtem Format. Bspw. liefert "formatNumber(1000,2,true)" das Ergebnis *1.000,00*| 1. Wert: Zahl, 2. Wert: Zahl, 3. Wert: Ja/Nein |
-| `calendarWeek(today())` | *24* | Kalenderwoche des gegebenen Datums | 1. Wert: Datum |
+| Formel | Beschreibung | Beispiel | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|------|------|------|------|----|
+| `textLength(text)` | Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus | `textLength("Hallo Welt")` liefert *10* | 1. Wert: Text | Zahl |
+| `formatNumber(number, decimalCount, thousandSeparator)` | Formatiert die Nummber zu gewünschtem Format | `formatNumber(1000,2,true)` liefert *1.000,00* | 1. Wert: Zahl, 2. Wert: Zahl, 3. Wert: Ja/Nein | Text |
+| `calendarWeek(date)` | Kalenderwoche des gegebenen Datums | `calendarWeek(today())` liefert *24* | 1. Wert: Datum | Zahl |

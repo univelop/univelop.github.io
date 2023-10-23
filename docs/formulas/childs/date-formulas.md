@@ -66,41 +66,50 @@ Alle Formeln liefern einen Zeitpunkt zurück, welcher aus Datum, Stunde, Minute 
 Hinweis: diese Formeln sollten nicht direkt im Baustein *Textformel* oder an weiteren Stellen, wo Text erwartet wird, genutzt werden, da diese Daten intern mit UTC verarbeitet werden. Bei der direkten Nutzung kommen also ggf. durch die Zeitverschiebung vermeintlich falsche Daten heraus. Um das zu vermeiden, sollte die Formel `formatDate(date, format)` genutzt werden.
 Beim Baustein *Datumsformel* können folgende Formeln jedoch problemlos genutzt werden.
 
-|Formel mit Beispielwert | Ausgabe (bezogen auf den 15.06.2021, 8:00 Uhr) | Beschreibung | Einzugebene Werte (Werte in den Klammern) |
-|-------------|---------|---------|-----|
-|`date(2021,6,15)` | *15.06.2021 00:00:00.000000* | Erstellt ein Datum aus gegebenem Jahr, Monat und Tag | 1. Wert: Zahl,  2. Wert: Zahl,  3. Wert: Zahl|
-| `today()` | *15.06.2021 00:00:00.000000* | Datum, bestehend aus dem aktuellen Tag um 00:00 Uhr| |
-| `now()` | *15.06.2021 08:00:00.000000* | Datum, bestehend aus dem akuellen Zeitpunkt| |
-|`parseDate("15.06.2021")` | *15.06.2021 08:00:00.000000*| Erstellt Datum aus Text im Format "dd.mm.yy" oder "dd.mm.yyyy", nur dieses Format ist zulässig | 1. Wert: Text|
-|`startOfWeek()`, `endOfWeek()`| *14.06.2021 00:00:00.000000*, *20.06.2021 00:00:00.000000*  | Beginn/Ende der aktuellen Kalenderwoche | |
-|`startOfMonth()`, `endOfMonth()`| *01.04.2021 00:00:00.000000*, *30.06.2021 00:00:00.000000*  | Beginn/Ende des aktuellen Monats | |
-| `startOfQuarter()`, `endOfQuarter()` |  *01.04.2021 00:00:00.000000*, *30.06.2021 00:00:00.000000* | Beginn/Ende des aktuellen Quartals | |
-| `startOfYear()`, `endOfYear()` | *01.01.2021 00:00:00.000000*, *31.12.2021 00:00:00.000000* | Beginn/Ende des aktuelles Jahres | |
-| `currentMonth()` | *2021-06* | Aktueller Monat  |   |
+|Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr als Aufrufzeitpunkt) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp |
+|-------------|---------|---------|--|--|
+|`date(year, month, day)` | Erstellt ein Datum aus gegebenem Jahr, Monat und Tag | `date(2021, 6, 15)` liefert das Datum *15.06.2021 00:00:00.000000* | 1. Wert: Zahl,  2. Wert: Zahl,  3. Wert: Zahl| Datum |
+| `today()`| Datum, bestehend aus dem aktuellen Tag um 00:00 Uhr | `today()` liefert *15.06.2021 00:00:00.000000* | | Datum |
+| `now()` | Datum, bestehend aus dem akuellen Zeitpunkt | `now()` liefert *15.06.2021 08:00:00.000000* | | Datum |
+|`parseDate(text)` | Erstellt Datum aus Text im Format "dd.mm.yy" oder "dd.mm.yyyy", nur dieses Format ist zulässig | `parseDate("15.06.2021")` liefert *15.06.2021 08:00:00.000000*| 1. Wert: Text | Datum |
+|`startOfWeek()`, `endOfWeek()`|  Beginn/Ende der aktuellen Kalenderwoche | `startOfWeek()` liefert *14.06.2021 00:00:00.000000*, `endOfWeek()` liefert *20.06.2021 00:00:00.000000* | | Datum |
+|`startOfMonth()`, `endOfMonth()`| Beginn/Ende des aktuellen Monats | `startOfMonth()` liefert *01.04.2021 00:00:00.000000*, `endOfMonth()` liefert *30.06.2021 00:00:00.000000*  | | Datum |
+| `startOfQuarter()`, `endOfQuarter()` | Beginn/Ende des aktuellen Quartals | `startOfQuarter()` liefert *01.04.2021 00:00:00.000000*, `endOfQuarter()` liefert *30.06.2021 00:00:00.000000* | | Datum |
+| `startOfYear()`, `endOfYear()` | Beginn/Ende des aktuelles Jahres |`startOfYear()` *01.01.2021 00:00:00.000000*, `endOfYear()` *31.12.2021 00:00:00.000000* | | Datum  |
+| `currentMonth()` | Liefert den aktuellen Monat in Form eines Textes  | `currentMonth()` liefert "2021-06" | | Datum |
 
 ## <span style="color:#0b5394">**Datumsformeln zum Errechnen von Daten**</span>
 
 Folgende Formeln sind dafür da, bestehende Daten zu verändern. Bspw. um ausgehend von einem Kaufdatum eine Bezahlungsfrist zu errechnen.
 
-|Formel mit Beispielwert | Ausgabe (bezogen auf den 15.06.2021, 8:00 Uhr) | Beschreibung  | Einzugebene Werte (Werte in den Klammern) |
-|-------------|---------|---------|-------|
-| `addMinutes(now(),1)`, `subtractMinutes(now(),1)` | *15.06.2021 8:01:00.000000*, *15.06.2021 7:59:00.000000* | Minuten addiert/subtrahiert auf einen Zeitpunkt| 1. Wert: Datum, 2. Wert: Zahl|
-| `addHours(now(),1)`, `subtractHours(now(),1)` | *15.06.2021 9:00:00.000000*, *15.06.2021 7:00:00.000000* | Stunden addiert/subtrahiert auf einen Zeitpunkt| 1. Wert: Datum, 2. Wert: Zahl|
-| `addDays(now(),1)`, `subtractDays(now(),1)` | *16.06.2021 8:00:00.000000*, *14.06.2021 8:00:00.000000* | Tage addiert/subtrahiert auf einen Zeitpunkt| 1. Wert: Datum, 2. Wert: Zahl|
-| `addWeeks(now(), 1)`, `subtractWeeks(now(), 1)` |*22.06.2021 8:00:00.000000*, *22.06.2021 8:00:00.000000* | Monate addiert/subtrahiert auf einen Zeitpunkt| 1. Wert: Datum, 2. Wert: Zahl|
-| `addMonths(now(), 1)`, `subtractMonths(now(), 1)` | Aufruf von "addMonths(today(),1)" ergibt *15.07.2021 8:00:00.000000*|  Monate addiert/subtrahiert auf einen Zeitpunkt| 1. Wert: Datum, 2. Wert: Zahl|
+|Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|-------------|---------|---------|--|--|
+| `addMinutes(date, days)`, `subtractMinutes(date, days)` | Minuten addiert/subtrahiert auf einen Zeitpunkt | `addMinutes(now(),1)` liefert *15.06.2021 8:01:00.000000*, `subtractMinutes(now(),1)` liefert *15.06.2021 7:59:00.000000* | 1. Wert: Datum, 2. Wert: Zahl | Datum | 
+| `addHours(date, hours)`, `addHours(date, hours)` | Stunden addiert/subtrahiert auf einen Zeitpunkt|`addHours(now(),1)` liefert *15.06.2021 9:00:00.000000*, `subtractHours(now(),1)` liefert *15.06.2021 7:00:00.000000*| 1. Wert: Datum, 2. Wert: Zahl| Datum |
+| `addDays(date, days)`, `subtractDays(date, days)` | Tage addiert/subtrahiert auf einen Zeitpunkt| `addDays(now(),1)` liefert *16.06.2021 8:00:00.000000*, `subtractDays(now(),1)` liefert *14.06.2021 8:00:00.000000* | 1. Wert: Datum, 2. Wert: Zahl | Datum |
+| `addWeeks(date, weeks)`, `subtractWeeks(date, weeks)` | Monate addiert/subtrahiert auf einen Zeitpunkt| `addWeeks(now(), 1)`, liefert *22.06.2021 8:00:00.000000*, `subtractWeeks(now(), 1)` liefert *22.06.2021 8:00:00.000000* | 1. Wert: Datum, 2. Wert: Zahl | Datum |
+| `addMonths(date, weeks)`, `subtractMonths(date, weeks)` | Monate addiert/subtrahiert auf einen Zeitpunkt |  `addMonths(now(), 1)` liefert *15.07.2021 8:00:00.000000*, `subtractMonths(now(), 1)` liefert *15.05.2021 8:00:00.000000* | 1. Wert: Datum, 2. Wert: Zahl| Datum |
 
 ## <span style="color:#0b5394">**Datumsformeln zu Kalenderwochen**</span>
 
 Folgende Formeln sind für das ermitteln von Kalenderwoche anhand von Daten da.
 
-|Formel mit Beispielwert | Ausgabe (bezogen auf den 15.06.2021, 8:00 Uhr) | Beschreibung | Einzugebene Werte (Werte in den Klammern) |
-|-------------|---------|---------|-------|
-| `calendarWeek(today())`   | *24*   | Kalenderwoche des gegebenen Datums| 1. Wert: Datum|
-| `currentWeek()`         | *2021-W24*   | aktuelle Kalenderwoche|   |
+|Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|-------------|---------|---------|--|--|
+| `calendarWeek(date)` | Kalenderwoche des gegebenen Datums  | `calendarWeek(today())` liefert *24* | 1. Wert: Datum | Zahl |
+| `currentWeek()`      | aktuelle Kalenderwoche  | `currentWeek()` liefert "2021-W24" |  | Text |
+| `addWeeks(week, weeks)`, `subtractWeeks(week, weeks)` | Addiert/Subtrahiert gegebene Wochenanzahl zum/vom Wochentext | `addWeeks("2021-W24", 1)` liefert "2021-W25", `subtractWeeks("2021-W24", 1)` liefert "2021-W23" | 1. Wert: Wochentext, 2. Wert: Zahl  | Text |
+
+## <span style="color:#0b5394">**Monatsformeln**</span>
+
+Folgende Formeln sind für das ermitteln von Kalenderwoche anhand von Daten da.
+
+|Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|-------------|---------|---------|--|--|
+| `addMonths(month, months)`, `subtractMonths(month, months)` | Addiert/Subtrahiert gegebene Monatszahl zum/vom Monatstext | `addMonths("2021-05", 1)` liefert "2021-06", `subtractMonths("2021-05", 1)` liefert "2021-04" | 1. Wert: Monatstext im Format "YYYY-MM", 2. Wert: Zahl  | Text |
 
 ## <span style="color:#0b5394">**Weitere Datumsformeln**</span>
 
-|Formel mit Beispielwert | Ausgabe (bezogen auf den 15.06.2021, 8:00 Uhr) | Beschreibung | Einzugebene Werte (Werte in den Klammern) |
-|-------------|---------|---------|-------|
-| `datesBetween(today(),date(2021,6,19))`, `datesBetween(today(),date(2021,6,19),"weekdays")`  |*[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021, 19.06.2021]*, *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]* | Daten zwischen den zwei gegebenen Daten. Unter `[option]` kann optional über den Text "weekdays" angegeben werden, dass nur Wochentage angegeben werden sollen. | 1. Wert: Datum, 2. Wert: Datum, 3. Wert: optional, Text "weekdays"|
+|Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+|-------------|---------|---------|--|--|
+|`datesBetween(startDate, endDate, [options])`| Daten zwischen den zwei gegebenen Daten. Unter `[option]` kann optional über den Text "weekdays" angegeben werden, dass nur Wochentage angegeben werden sollen. |  `datesBetween(today(), date(2021,6,19))` liefert *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021, 19.06.2021]*, `datesBetween(today(), date(2021,6,19), "weekdays")` liefert *[15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]*  |1. Wert: Datum, 2. Wert: Datum, 3. Wert: optional, Text "weekdays"| Dynamischer Wert/Liste von Daten |
