@@ -58,26 +58,53 @@ Zu beachten ist, dass wenn ich mehr als einen Filter anwende, diese als UND mite
 Wenn ich also zwei Filter mit Mitarbeiter/in = Herr Meyer und Mitarbeiter/in = Frau Müller eingebe, werden keine Ergebnisse ausgegeben.
 Wenn ich stattdessen beide im "in" (Oder) Filter verwende, kann ich sie kombinieren und mir beide Ergebnisse anzeigen lassen.
 
-Ein einzelner Filter besteht aus 3 Feldern: Einem linken Feld, wo der zu filterne Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, wo der Filterwert eingetragen wird.
+Ein einzelner Filter besteht aus 3 Feldern: 
+Einem linken Feld, in welches der zu filterne Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, in welches der Filterwert eingetragen wird.
+Die Bausteine werden im linken Feld in der "verbauten" Reihenfolge angezeigt.
 Für die Filterung von Daten können die Operatoren <, >, <=, >=, = oder IN (*Oder*) in die
 entsprechenden Filter gesetzt werden.
 Die Operatoren <, >, <=, >= filtern den ausgewählten Baustein auf Werte kleiner oder größer als der Filterwert und
-exklusive (<, >) oder inklusive (<=, >=) dem Filterwert. 
-Der Operator = prüft auf Gleichheit auf genau einen Wert.
-Braucht es eine Prüfung auf Gleichheit mit *einem* von mehreren Werten, kann der *IN-Filter* genutzt werden. 
-Für den Filterwert können beliebig viele Werte angegeben werden, welche mit Komma und darauffolgendem Leerzeichen getrennt werden müssen.
-Durch den *IN-Filter* kann man z. B. Einträge filtern, die bei einem Status-Baustein einen von mehreren Zuständen haben.  
+exklusive (<, >) oder inklusive (<=, >=) dem Filterwert.
+
+Der Operator = prüft auf Gleichheit auf genau einen Wert. Systemtechnisch sprechen wir von einem == Filter.
+Da die Filter als UND Kombination zu verstehen sind, ist es nicht möglich auf Mitarbeiter = Herr Meyer
+und in einem zweiten Filterfeld auf Mitarbeiter = Frau Müller zu filtern. Das System würde versuchen beiden
+Suchanfragen gleichzeitig gerecht zu werden, was nicht möglich ist. An dieser Stelle müsste der in Filter verwendet werden.
+
+Braucht es eine Prüfung auf Gleichheit mit *einem* von mehreren Werten, kann der *IN-Filter* genutzt werden.
+Der *IN-Filter* kann auch als ODER Filter verstanden werden. Eine der Bedingungen des Filter muss erfüllt werden.
+Für den Filterwert können beliebig viele Werte angegeben werden, welche bausteinabhängig entweder mit Komma und darauffolgendem Leerzeichen getrennt werden müssen,
+oder durch Checkboxen auswählbar sind.
+Durch den *IN-Filter* kann man z. B. Einträge filtern, die bei einem Status-Baustein einen von mehreren Zuständen haben.
+Suche ich nach abgeschlossenen Aufträgen, könnten die Stati "Fertig" und "Abgerechnet" meinem IN Filter entsprechen.
+
 
 **Beispiel:** 
 Alle Baumaschinen ausgeben, die sich gerade in Wartung befinden oder defekt sind.
 ![or filter](\assets\global-settings-and-functions\or filter.png "or filter")
 
-Gibt es eine große kontinuierliche Spanne von Werten, wie z. B. eine laufende Nummer oder das Datum, bei der es nicht sinnvoll ist alle Werte für den IN-Filter einzutragen, kann mit einer Kombination von einem <= und einem => (bzw. < und >) Filter identisch gefiltert werden.
+Gibt es eine große kontinuierliche Spanne von Werten, wie z. B. eine laufende Nummer, Zahlenwerte oder das Datum, bei der es nicht sinnvoll ist alle Werte für den IN-Filter einzutragen, kann mit einer Kombination von einem <= und einem => (bzw. < und >) Filter identisch gefiltert werden.
 Damit kann man mit dem >= die untere Werteschranke angeben, und mit dem <= die obere Werteschranke.  
 
 **Beispiel:** 
 Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
 ![or filter date](\assets\global-settings-and-functions\or filter date.png "or filter date")
+
+## Besondere Datumsfilter: ##
+
+Bei einem Datum kann nicht mehr nur noch auf einen genauen Datumswert (z.B. 01.10.2023) gefiltert werden, sondern auch auf die Woche oder den Monat.
+So ist es möglich mit = Operatoren eine Zeitspanne zu erfiltern, die theoretisch > und < Operatoren benötigen würde.
+Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Datum - Monat angezeigt (Sofern das Feld Datum heißt).
+
+![dat opt](\assets\global-settings-and-functions\dat opt.png "dat opt")
+
+Das Filterformat für die Woche ist yyyy-Wkw (jahr-WKalenderwoche).
+Das Filterformat für den Monat ist yyyy-mm (Jahr-Monat).
+
+Für eine dynamische Filterung sorgen die Formeln currentWeek und currentMonth.
+
+![dat filters](\assets\global-settings-and-functions\dat filters.png "dat filters")
+
 
 ## <span style="color:#0b5394">Lückenhafte Ergebnisse</span>
 
