@@ -98,7 +98,7 @@ Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Da
 
 ![dat opt](\assets\global-settings-and-functions\dat opt.png "dat opt")
 
-Das Filterformat für die Woche ist yyyy-Wkw (jahr-WKalenderwoche).
+Das Filterformat für die Woche ist yyyy-Wkw (Jahr-WKalenderwoche).
 Das Filterformat für den Monat ist yyyy-mm (Jahr-Monat).
 
 Für eine dynamische Filterung sorgen die Formeln currentWeek und currentMonth.
