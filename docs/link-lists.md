@@ -77,7 +77,7 @@ Zumeist werden diese Verknüpfungen in Unterlisten erstellt, da dort verschieden
 **Beispiel**
 Ein einfacher Lieferschein (Warenausgänge) umfasst üblicherweise Stammdaten, wie ein Datum und Empfänger, sowie die gelieferten Produkte als Liste.
 Der Belegkopf Lieferschein kann als Liste in Univelop verstanden werden. Die Produkte - klassische Stammdaten - finden sich ebenfalls in einer separaten Liste wieder.
-Durch eine "Hilsliste", die Artikelbewegungen genannt werden könnte, können die Verknüpfung zum Lieferschein und die Auswahl des Artikels erfasst werden.
+Durch eine "Hilfsliste", die Artikelbewegungen genannt werden könnte, können die Verknüpfung zum Lieferschein und die Auswahl des Artikels erfasst werden.
 
 Die Liste der Artikelbewegungen wird nun zum zentralen Auswertungselement. Aus Sicht des Lieferschein kann ein Blick in die Bewegungen geworfen werden
 und es ist auf einen Blick ersichtlich welche Artikel in welcher Menge auf diesem Lieferschein stehen.
