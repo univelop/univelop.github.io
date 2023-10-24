@@ -98,8 +98,13 @@ Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Da
 
 ![dat opt](\assets\global-settings-and-functions\dat opt.png "dat opt")
 
-Das Filterformat für die Woche ist yyyy-Wkw (Jahr-WKalenderwoche).
-Das Filterformat für den Monat ist yyyy-mm (Jahr-Monat).
+**Beispiel Filterformat**
+
+|Value                 |Format          |Beispiel
+|:------:              |:------:        |:------:
+|Datum - Woche         |yyyy-Wkw        |2023-W43
+|Datum - Monat         |yyyy-mm         |2023-10
+
 
 Für eine dynamische Filterung sorgen die Formeln currentWeek und currentMonth.
 
@@ -112,13 +117,15 @@ Bei Verwendung von Filtern auf großen Datenmengen kann folgender Hinweis ersche
 
 'Es wurden mehr als 200 Einträge gefunden. Die Ergebnisse sind lückenhaft. Bitte verfeinere die Suche.'
 
-Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben. Es werden nur 200 Einträge angezeigt. Die Ergebnisse können daher Lücken enthalten. Um die Ergebnisse zu verfeinern und genauer auf Ihre Bedürfnisse abzustimmen, empfehlen wir, weitere Filter hinzuzufügen und so die Ergebnismenge zu reduzieren. Durch die Hinzufügung von spezifischen Gleichheitsfiltern (=, in) können Sie Ihre Suche eingrenzen und gezieltere Ergebnisse erzielen. Bitte verwenden Sie keine Ungleichheitsfilter (<, <= , >, >=) für die weitere Eingrenzung.
+Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben. Es werden nur 200 Einträge angezeigt. Die Ergebnisse können daher Lücken enthalten. Um die Ergebnisse zu verfeinern, empfehlen wir weitere Filter hinzuzufügen und so die Ergebnismenge zu reduzieren. Durch die Hinzufügung von spezifischen Gleichheitsfiltern (=, in) kann die Suche eingegrenzt und gezieltere Ergebnisse angezeigt werden. Eine weitere Eingrenzung mit < > Operatoren wird das Ergebnis jedoch nicht verfeinern, dazu werden = Operatoren benötigt.
 
-Zeigen Sie zum Beispiel über den "Letzte 2 Monate" Filter nur Einträge an, die im aktuellen oder letzten Monat angelegt oder bearbeitet wurden.
+Mit der Standard Filteroption "Letzte 2 Monate" zeigen wir nur Einträge an, die im aktuellen oder letzten Monat angelegt oder bearbeitet wurden.
+Diese Filterung entspricht einer Suche nach aktuellen Datensätzen.
 
 ![Filter letzte zwei Monate](\assets\search-and-filters\last-two-month-filter.png)
 
-Wir empfehlen Ihnen, verschiedene Kombinationen von Filtern auszuprobieren, um die bestmöglichen Ergebnisse zu erzielen. Wenn Sie weitere Unterstützung benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden, der Ihnen gerne weiterhilft.
+Wir empfehlen, verschiedene Kombinationen von Filtern auszuprobieren, um die bestmöglichen Ergebnisse zu erzielen. 
+
 
 ## <span style="color:#0b5394">Suche konnte nicht ausgeführt werden</span>
 
@@ -128,6 +135,8 @@ Bei der Verwendung von spezifischen Filterkombinationen, kann die Suche nicht ri
 
 Es ist wichtig zu beachten, dass bei der Kombination von Gleichheits- und Ungleichheitsfiltern die Gleichheitsfilter zuerst auf dem Server angewendet werden. Wenn die Anzahl der übereinstimmenden Datensätze jedoch immer noch zu groß ist, können die Ungleichheitsfilter möglicherweise nicht mehr angewendet werden. In diesem Fall werden ggf. keine Ergebnisse zurückgegeben.
 
-Um die Anzahl der übereinstimmenden Datensätze zu reduzieren, können Sie spezifischere Gleichheitsfilter hinzufügen. Sobald die Anzahl der Ergebnisse, die vom Server zurückgegeben wird, 200 oder kleiner ist, kann die Suche korrekt ausgeführt werden.
+Um die Anzahl der übereinstimmenden Datensätze zu reduzieren, können spezifischere Gleichheitsfilter hinzugefügt werden. 
+Sobald die Anzahl der Ergebnisse, die vom Server zurückgegeben wird, 200 oder kleiner ist, kann die Suche korrekt ausgeführt werden.
 
-Wenn Sie weitere Hilfe benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden. Wir helfen Ihnen gerne weiter, um sicherzustellen, dass Ihre Suche erfolgreich ist und die gewünschten Ergebnisse liefert.
+Wenn Sie weitere Hilfe benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden. 
+Wir helfen Ihnen gerne weiter, um sicherzustellen, dass Ihre Suche erfolgreich ist und die gewünschten Ergebnisse liefert.
