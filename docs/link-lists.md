@@ -53,6 +53,38 @@ Fahrzeugen benötigt und eine Liste mit Reparaturen. Zu Lösung dieses Verhältn
 Baustein Datensatz-Liste im Parent verwendet und der Baustein Datensatz im Child.
 
 
+## <span style="color:#0b5394">Arten Daten in Univelop zu verknüpfen</span>
+
+In Univelop unterscheiden wir prinzipiell drei Arten von Verknüpfungen.
+
+1. <span style="color:#0b5394">**Datensatz**</span>
+Eine einfache Datensatz Verknüpfung bedeutet, dass ***ein*** Datensatz aus einer anderen Liste gepickt werden kann.
+Es kann zum Beispiel meine Liste Aufträge durch einen Datensatz Baustein mit der Liste Kostenstellen verbunden werden
+und ich bin somit in der Lage in meinen Aufträgen die dazu passende Kostenstelle zu picken.
+
+2. <span style="color:#0b5394">**Datensätze**</span>
+Mit der Datensätze (Mehrzahl) Funktion wird die einfache Datensatz Funktion um n Datensätze erweitert.
+Es ist möglich mehr als nur einen Datensatz aus einer verknüpften Liste zu picken.
+Angenommen meine Aufträge haben Sparten, kann pro Auftrag mehr als eine Sparte gepickt werden,
+also Strom, Wasser und Gas - statt, dass ich mich wie beim Datensatz Baustein entscheiden müsste.
+
+3. <span style="color:#0b5394">**Datensatz-Liste**</span>
+Durch eine funktionelle Liste von Datensätzen, kann ich beliebig viele Verknüpfungen zu einer Liste herstellen.
+Eine Liste von Datensätzen finden wir in den Bausteinen Datensatz-Liste, Kalender, Tabelle, Scheduler und Matrix.
+
+Zumeist werden diese Verknüpfungen in Unterlisten erstellt, da dort verschiedene Informationen zusammengeführt werden.
+
+**Beispiel**
+Ein einfacher Lieferschein (Warenausgänge) umfasst üblicherweise Stammdaten, wie ein Datum und Empfänger, sowie die gelieferten Produkte als Liste.
+Der Belegkopf Lieferschein kann als Liste in Univelop verstanden werden. Die Produkte - klassische Stammdaten - finden sich ebenfalls in einer separaten Liste wieder.
+Durch eine "Hilsliste", die Artikelbewegungen genannt werden könnte, können die Verknüpfung zum Lieferschein und die Auswahl des Artikels erfasst werden.
+
+Die Liste der Artikelbewegungen wird nun zum zentralen Auswertungselement. Aus Sicht des Lieferschein kann ein Blick in die Bewegungen geworfen werden
+und es ist auf einen Blick ersichtlich welche Artikel in welcher Menge auf diesem Lieferschein stehen.
+Aus Sicht des Artikel ist es nun möglich in die Bewegungen zu schauen und dort Abgänge für den Lagerbestand zu ermitteln und sich den Absatz
+für bestimmte Perioden anzeigen zu lassen.
+
+
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
 Wie der Name schon sagt, kann über den
@@ -103,7 +135,7 @@ Informationen zu den Möglichkeiten zu *Filter und Sortierungen* sind auf der Do
 [*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 zu finden.
 
-### <span style="color:#3d85c6">Zusammenfassung</span>
+## <span style="color:#3d85c6">Zusammenfassung</span>
 
 Über den
 [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
