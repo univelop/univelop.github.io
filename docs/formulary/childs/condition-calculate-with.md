@@ -19,7 +19,7 @@ wird im Nachgang abgeändert.
 ![technical name](\assets\formulary\technical name.png "technical name") 
 
 Diese Funktion lässt sich nun in vielerlei Hinsicht mit
-[*Formelbausteinen*](/docs/formulary/formulary.html#formelbausteine-1)
+[*Formelbausteinen*](/docs/formulary/formulary.html#formelbausteine)
 kombinieren.  
 
 **Hinweis zu den Beispielen: Es wird in den Beispielen der Baustein *Formel* verwendet, welcher veraltet ist.**

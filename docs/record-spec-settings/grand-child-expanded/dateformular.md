@@ -15,7 +15,7 @@ Bei diesem Baustein kann ausschließlich auf Grundlage vom [Baustein *Datum*](/d
 Bei diesem Formelbaustein kann zusätzlich die textuelle Bezeichnung des Wochentags sowie eine Uhrzeit über die Einstellungen ermöglicht werden.
  
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulary/formulary.html#formelsammlung-1) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulas/formulas.html) zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 

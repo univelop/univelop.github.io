@@ -12,7 +12,7 @@ Mit dem Baustein *Formel* wird gerechnet, dynamisch auf verknüpfte Datensätze 
 bestimmte Werte ausgeben. Die Formel wird **nur** im Designmodus eingegeben und der Baustein ist in der Datensatzerfassung
 **nur lesbar**. Die Darstellung der Zahl lässt sich wie beim [Baustein *Nummer*](/docs/record-spec-settings/grand-child-form/number.html) mit der Anzahl von Nachkommastellen konfigurieren.
 
-**Dieser Baustein ist in der App nicht mehr verfügbar. Er wurde durch vier neue Bausteine ersetzt, die in ihrem Inhalt einen konsistenten Typ fordern. Siehe hierfür [Formelbausteine](/docs/formulary/formulary.html#formelbausteine-1).**
+**Dieser Baustein ist in der App nicht mehr verfügbar. Er wurde durch vier neue Bausteine ersetzt, die in ihrem Inhalt einen konsistenten Typ fordern. Siehe hierfür [Formelbausteine](/docs/formulary/formulary.html#formelbausteine).**
 
 Dies geschieht wie folgt:
 1. <span style="color:#0b5394">**Auf andere Bausteine wird über den technischen Namen zugegriffen**</span>  
@@ -37,4 +37,4 @@ Dies geschieht wie folgt:
     verknüpften Datensatz ein weiterer technischer Name vorhanden ist.
     Also: technischernamebausteindieseliste.technischernamebausteinverknüpfteliste
 
-Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](/docs/formulary/formulary.html) zu finden.
+Weitere Formeln und Möglichkeiten sind in den Docs unter [Formelsammlung](/docs/formulas/formulas.html) zu finden.
