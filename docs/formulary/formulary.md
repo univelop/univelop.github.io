@@ -69,23 +69,24 @@ Die Formel wird in den Einstellungen des Bausteins eingetragen und bei jeder rel
 ### <span style="color:#0b5394">Datentypen</span>
 
 Entsprechend der Bausteine gibt es 4(+1) Datentypen, welche die Formeln und technischen Namen als Ergebnis liefern können:
-- <span style="color:#0b5394">Text</span>
-    Text ist ein allgemeiner Begriff für Zeichenketten, welche aus Buchstaben, Zahlen und Sonderzeichen bestehen können.
+- <span style="color:#0b5394">Text</span>  
+    Ein allgemeiner Begriff für Zeichenketten, welche aus Buchstaben, Zahlen und Sonderzeichen bestehen können.
     Texte werden innerhalb von Formeln mit "" angegeben.
-- <span style="color:#0b5394">Zahl</span>
-    Zahlen sind Werte, welche nur aus Ziffern bestehen können.
+- <span style="color:#0b5394">Zahl</span>  
+    Nur aus Ziffern bestehende Werte.
     Zahlen werden innerhalb von Formeln direkt, also ohne "" oder Ähnlichem angegeben.
-- <span style="color:#0b5394">Ja/Nein</span>
-    Ja/Nein ist ein Wahrheitswert, welcher nur zwei Zustände annehmen kann: Ja oder Nein.
+- <span style="color:#0b5394">Ja/Nein</span>  
+    Ein Wahrheitswert, welcher nur zwei Zustände annehmen kann: Ja oder Nein.
     Ja/Nein wird innerhalb von Formeln mit true (= Ja) oder false (= Nein) angegeben.
-- <span style="color:#0b5394">Datum</span>
-    Datum ist ein spezieller Wert, der nicht direkt angegeben werden kann.
+- <span style="color:#0b5394">Datum</span>  
+    Ein spezieller Wert, der nicht direkt durch einen Text angegeben werden kann.
+    Dieser repräsentiert ein Datum inkl. Uhrzeit.
     Daten müssen für Formeln speziell aus einem Datumsbaustein über dessen technischen Namen oder einer [Datumsformel](/docs/formulas/childs/date-formulas.html) geholt/erstellt werden.
-- <span style="color:#0b5394">Dynamischer Wert</span>
-    Dynamische Werte sind Werte, welche sich aus einer Liste von Werten zusammensetzen.
-    Diese Werte können nur innerhalb von Formeln genutzt werden und werden durch [] angegeben.
+- <span style="color:#0b5394">Dynamischer Wert</span>  
+    Werte, welche sich aus einer Liste von beliebig vielen Werten zusammensetzen.
+    Diese Werte können nur innerhalb von Formeln genutzt werden und werden durch [] angegeben (z.B. [1,2,3,4]).
     Der Inhalt des dynamischen Wertes kann hierbei wiederum eines der fünf hier genannten Datentypen sein.
-    Es sollte dabei beachtet werden, dass alle Elemente des dynamischen Wertes den selben Datentyp haben sollten.
+    Es sollte dabei beachtet werden, dass alle Elemente des dynamischen Wertes vom selben Datentyp sein sollten.
 
 ## <span style="color:#0b5394">Kombination von Formeln und technischen Namen</span>
  
