@@ -36,6 +36,7 @@ nav_order: 1
     - [Nummer](/docs/record-spec-settings/grand-childs-form/number.html)
     - [Schalter](/docs/record-spec-settings/grand-childs-form/switch.html)
     - [Drop-Down](/docs/record-spec-settings/grand-childs-form/drop-down.html)
+    - [Mehrfach-Auswahl](/docs/record-spec-settings/grand-childs-form/multi-selection.html)
     - [Datum](/docs/record-spec-settings/grand-childs-form/date.html)
     - [Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html)
     - [Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)

@@ -3,7 +3,7 @@ layout: default
 title: Datum
 parent: Formular-Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 5
+nav_order: 6
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">calendar_today</span> **Baustein *Datum***</span>
