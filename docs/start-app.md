@@ -27,9 +27,9 @@ ist die Umgebung, in welcher man sich befindet.
 ![registration](\assets\start-app\registration.png "registration")
 
 Falls Sie einen bereits existierenden Account mit OAuth (Microsoft Account, Google Account, Apple Account, Andere...) verbinden wollen geht dies leider nicht direkt. Sie können jedoch:
-1. einen neuen Account mit OAuth erstellen
-2. diesen zu ihren Arbeitsbereichen einladen
-3. den alten Account löschen
+1. Einen neuen Account mit OAuth erstellen.
+2. Diesen Account zu ihren Arbeitsbereichen einladen.
+3. Den alten Account löschen.
 
 Falls Sie Fragen oder Probleme dabei haben wenden Sie sich gerne an unseren Support (support@univelop.de).
 
