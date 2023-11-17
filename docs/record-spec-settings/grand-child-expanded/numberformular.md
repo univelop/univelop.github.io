@@ -14,7 +14,7 @@ Sobald ein nicht-numerischer Wert angegeben ist, wird die Funktion `toNumber(nic
 
 So kann bspw. der monatliche Bruttolohn oder auch der Bruttolohn eines Arbeitstages errechnet werden.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulary/formulary.html#formelsammlung-1) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulas/formulas.html) zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 

@@ -14,7 +14,7 @@ Kombiniert man Werte, so müssen diese schlussendlich mit [Operatoren](/docs/for
 
 So kann anhand einer Formel bspw. für Arbeitszeiten angezeigt werden, ob diese abrechnungsfähig sind.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulary/formulary.html#formelsammlung-1) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [*Formelsammlung*](/docs/formulas/formulas.html) zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 

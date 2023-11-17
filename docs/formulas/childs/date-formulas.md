@@ -35,7 +35,7 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 |m        |Minuten einer Stunde   |(Zahl)             |30|
 |s        |Sekunden einer Minute  |(Zahl)             |55|
 |S        |fractional second      |(Zahl)             |978|
-|E        |Wochentag (kurz)       |(Text)             |Do.|
+|E        |Wochentag (kurz)       |(Text)             |Do|
 |EEEE     |Wochentag (lang)       |(Text)             |Donnerstag|
 |D        |Tag im Jahr            |(Number)           |189|
 |a        |am/pm marker           |(Text)             |PM|
