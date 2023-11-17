@@ -9,7 +9,7 @@ parent: Latest Updates
 
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.19.0 ausgerollt:
 
-## <span style="color:#0b5394">**Baustein *Mehrfachauswahl***</span>
+## <span style="color:#0b5394">**Neuer Login- und Signup-Screen**</span>
 
 Die Univelop-App begrüßt mit einer neuen und modernen Fassade! Eine von Grund auf neu designte Login- und Signup-Seite kommen in die App. Diese befindet sich in der Beta-Version und wird mit folgenden Updates weiter verbessert.
 
@@ -18,14 +18,14 @@ Die Univelop-App begrüßt mit einer neuen und modernen Fassade! Eine von Grund 
 ## <span style="color:#0b5394">**Baustein *Mehrfachauswahl***</span>
 
 Mit der neuen Version bringen wir einen neuen Baustein in die App, 
-welcher Einträge um viele neue Möglichkeiten erweitert. Der [Baustein *Mehrfachauswahl*]() funktioniert ähnlich zum Drop-Down, mit der extra Funktion mehrere Werte gleichzeitig zu wählen. 
+welcher Einträge um viele neue Möglichkeiten erweitert. Der [Baustein *Mehrfachauswahl*](/docs/record-spec-settings/grand-childs-form/multi-selection.html) funktioniert ähnlich zum Drop-Down, mit der extra Funktion mehrere Werte gleichzeitig zu wählen. 
 Damit kann bspw. ein Essensformular mit Getränk-, Mitagessens- und Dessert-Ja/Nein-Auswahl zu einem Baustein zusammengefasst werden.  
 
 ![release multi select brick](\assets\latest-updates\release multi select brick.png "release multi select brick")
 
 ## <span style="color:#0b5394">**Verbesserung der Kachel *Scanner***</span>
 
-Die Scannerkachel wurde mit der neuen Version um einige Features erweitert: Nach Scannen kann nun ein Workflow angestoßen werden, um z. B. darüber den Bestand des gescannten Artikels anzupassen. 
+Die [Scannerkachel](/docs/software-structure.html#-kachel-scanner) wurde mit der neuen Version um einige Features erweitert: Nach Scannen kann nun ein Workflow angestoßen werden, um z. B. darüber den Bestand des gescannten Artikels anzupassen. 
 Dazu wurde der Scanner mit Tönen erweitert, um einen erfolgreichen/fehlerhaften Scan zu signalisieren. Unter den Einstellungen kann auch ein Präfix zum gescannten QR-Code hinzugefügt werden.
 
 ![release scanner improvement](\assets\latest-updates\release scanner improvement.png "release scanner improvement")
@@ -41,7 +41,7 @@ Das hilft dabei, ggf. ungenutzte Bausteine im Arbeitsbereich zu erkennen und die
 
 Die technischen Namen von Workflow-Bausteinen, welche sich auf Einträge beziehen, werden ab sofort automatisch bei Auswahl einer Liste gesetzt. Dadurch wird die Erstellung von Workflows noch ein Stück leichter.
 
-## <span style="color:#0b5394">**Workflow-Bausteine umordnen über Drag-und-Drop**</span>
+## <span style="color:#0b5394">**Workflow-Bausteine umordnen über Drag-and-Drop**</span>
 
 Bisher konnten Workflow-Bausteine in Workflows nur durch Löschen und Neueinfügen umgeordnet werden. 
 Nun können diese durch Drag-and-Drop an beliebige Stelle verschoben werden, um das Bearbeiten von Workflows deutlich angenehmer zu gestalten.
@@ -50,7 +50,7 @@ Nun können diese durch Drag-and-Drop an beliebige Stelle verschoben werden, um 
 
 ## <span style="color:#0b5394">**Verbesserung vom Baustein *Unterschrift***</span>
 
-Beim Baustein Unterschrift können nun der Zeitpunkt der Unterschrift sowie der Name des Unterzeichners über zwei neue technische Namen zugegriffen werden. So können bspw. generierte PDFs noch besser personalisiert werden. 
+Beim [Baustein *Unterschrift*](/docs/record-spec-settings/grand-child-expanded/signature.html) können nun der Zeitpunkt der Unterschrift sowie der Name des Unterzeichners über zwei neue technische Namen zugegriffen werden. So können bspw. generierte PDFs noch besser personalisiert werden. 
 
 ![release signature brick improvement](\assets\latest-updates\release signature brick improvement.png "release signature brick improvement")
 
@@ -70,9 +70,9 @@ Mit der neuen Version gibt es zwei neue Formeln, welche die Arbeit mit Datensät
 - Behebung von doppelten Abschnitten bei Nutzung von Tabs
 - Im/Export der Mitgliederkachel implementiert
 - Pop-Up der Workflow-Auflistung nun sortiert
-- Verbesserung des Baustein Drop-Down
-- Verbesserung des Baustein Datensätze bei der Titel-Darstellung
-- Pfade beim Workflow-Baustein Wähle Pfade nun umbennenbar
+- Verbesserung des [Baustein *Drop-Down*](/docs/record-spec-settings/grand-childs-form/drop-down.html)
+- Verbesserung des [Baustein *Datensätze*](/docs/record-spec-settings/grand-child-expanded/records.html) bei der Titel-Darstellung
+- Pfade beim [Workflow-Baustein *Wähle Pfade*](/docs/workflows/grand-childs-bricks/choose-path.html) nun umbennenbar
 - Löschen von Einträgen bei Verlassen der Formular-Kachel nun optional
 - Verhalten der Formularkachel bei langsamem Internet verbessert
 - Standardmäßig leere Nutzerauswahl beim Duplizieren von Filterkacheln
