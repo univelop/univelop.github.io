@@ -52,6 +52,7 @@ des Parent gepflegt, in Liste zwei die Daten der Kinder. Es wird also zum Beispi
 Fahrzeugen benötigt und eine Liste mit Reparaturen. Zu Lösung dieses Verhältnisses wird der
 Baustein Datensatz-Liste im Parent verwendet und der Baustein Datensatz im Child.
 
+---
 
 ## <span style="color:#0b5394">Arten Daten in Univelop zu verknüpfen</span>
 
@@ -86,6 +87,7 @@ für bestimmte Perioden anzeigen zu lassen.
 
 ![linklistexample](\assets\link-lists\linklistexample.png "linklistexample")
 
+---
 
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
 
@@ -102,7 +104,7 @@ Funktionen des Bausteins vorgenommen werden:
 
 1. <span style="color:#0b5394">**Baustein *Datensatz* Funktion "Verknüpfung mit"**</span>  
 Damit der Baustein einwandfrei funktioniert, muss in den Einstellungen unter "Verknüpfung mit" die
-Verknüpfung zu einer anderen Liste vorgenommen werden.
+Verknüpfung zu einer anderen Liste vorgenommen werden. Aus dieser Liste kann dann ein Datensatz ausgewählt werden.
 
 2. <span style="color:#0b5394">**Werte des verknüpften Datensatzes übernehmen**</span>  
     Ebenso besteht die Möglichkeit Daten aus dem verknüpften Datensatz in andere Bausteine zu übernehmen.
@@ -114,7 +116,7 @@ Verknüpfung zu einer anderen Liste vorgenommen werden.
     [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)
     zu Textfeld,
     [Datum](/docs/record-spec-settings/grand-childs-form/date.html)
-    zu Datum etc.
+    zu Datum etc. Alle Werte jedoch könnten auch in ein Textfeld geschrieben werden.
 
     Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
     aktiviert, werden die Daten einmalig mit der Auswahl des Datensatzes übernommen. Beim synchron halten werden
@@ -130,8 +132,10 @@ Verknüpfung zu einer anderen Liste vorgenommen werden.
 
 3. <span style="color:#0b5394">**Funktion "Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird"**</span>  
 Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensätz gelöscht oder dupliziert, sobald der
-Hauptdatensatz gelöscht wird. Wenn es sich um zusammenhängende Bewegungsdaten handelt, kann dieser Switch aktiviert
-werden, um Datenmüll zu vermeiden.
+Hauptdatensatz gelöscht oder dupliziert wird. Wenn es sich um zusammenhängende Bewegungsdaten handelt, kann dieser Switch aktiviert
+werden, um Datenmüll zu vermeiden. Beim Beispiel des Lieferscheins und der Artikelbewegungen macht es durchaus Sinn in den 
+Artikelbewegungen im Datensatz Baustein Lieferschein diesen Schalter zu aktivieren, damit die Bewegungen gelöscht werden, sobald der
+Lieferschein gelöscht wird.
 
 Informationen zu den Möglichkeiten zu *Filter und Sortierungen* sind auf der Docs-Seite des Bausteins
 [*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
@@ -157,13 +161,13 @@ Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
 Ähnlich wie bei dem
 [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-wird eine passende Bezeichnung und mit "Verknüpfung über" der Baustein mit der gewünschten Liste verknüpft.
+wird eine passende Bezeichnung und mit "Verknüpfung mit" der Baustein mit der gewünschten Liste verknüpft.
 
 Über die Funktion "Verknüpfung über" wir der
 [*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 über einen
 [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-eine eine eindeutige Zuordnung aufgebaut.
+eine eindeutige Zuordnung aufgebaut.
 
 ![record list settings](\assets\link-lists\record list settings.png "record list settings")
 
@@ -182,9 +186,9 @@ aus meiner Liste entsprechen.
 <span style="color:#3d85c6">**Beispiel für "Verknüpfung über":**</span>
 
 Es sind zwei Kacheln mit den Namen "Aufmaß" und "Aufmaßpositionen" (Hilfskachel) vorhanden. In der Aufmaßliste
-sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurder der
+sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurde der
 [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html)
-eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Kachel "Aufmaß" ausgewählt
+eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Liste "Aufmaß" ausgewählt
 werden.
 
 <span style="color:#3d85c6">**Beispiel für Verknüpfung mit dem Filter =B:**</span>
