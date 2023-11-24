@@ -84,18 +84,7 @@ und es ist auf einen Blick ersichtlich welche Artikel in welcher Menge auf diese
 Aus Sicht des Artikel ist es nun möglich in die Bewegungen zu schauen und dort Abgänge für den Lagerbestand zu ermitteln und sich den Absatz
 für bestimmte Perioden anzeigen zu lassen.
 
-Zusammengefasst gibt es in diesem Beispiel drei Basis Listen. Artikel, Lieferschein und Artikelbewegungen.
-In den Artikeln können sich Text-, Nummernfelder und Drop-Down Bausteine wiederfinden. Diese stehen für die Artikelbezeichnung,
-die Einheit, Preis, Lieferanten oder weitere Stammdaten. In der Basisliste Lieferscheine könnten ein Datumsbaustein und Textfelder, sowie
-Laufende Nummer, Unterschrift, PDF Ausdruck und Datensatz-Liste verbaut werden. Das Datum steht für das Ausgangsdatum, in Textfelder können Empfänger oder
-Notizen vermerkt werden, die laufende Nummer generiert eine Lieferschein-Nummer, über die Unterschrift wird die Ausgabe quittiert und mittels dem
-PDF Ausdruck kann ein Lieferschein erzeugt werden. Der Baustein Datensatz-Liste stellt die Ausgangspositionen des Lieferscheins dar.
-Der Baustein wird mit der Liste Artikelbewegungen verknüpft. Eine Verknüpfung über kann nur mit einem Datensatz-Baustein stattfinden und zeigt immer
-auf sich selbst zurück. Bedeutet: In der Liste Artikelbewegungen muss ein Datensatz-Baustein verbaut werden, der Lieferschein genannt wird und eine
-Verknüpfung zu den Lieferscheinen enthält. Die Liste Artikelbewegungen enthält zwei Datensatz Bausteine, einer verknüpft mit den Lieferscheinen und einer
-verknüpft zu den Artikeln, sodass Artikel gepickt werden können. Weiterhin sollte noch mindestens ein Nummernbaustein für die Ausgangsmenge verbaut werden.
-Empfehlenswert wäre in diesem Szenario noch eine Art für Ein- oder Ausgang und eine Zahlenformel, die die Menge je nach Art positiv oder negativ darstellt,
-sodass in den Artikeln eine Datensatz-Liste verbaut werden kann, die als Badge die Summe über die Formelmenge zieht, um einen Bestand zu erhalten.
+![linklistexample](\assets\link-lists\linklistexample.png "linklistexample")
 
 
 ## <span style="color:#0b5394">Verknüpfung über den Baustein *Datensatz*</span>
