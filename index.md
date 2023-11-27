@@ -7,31 +7,26 @@ nav_order: 0
 ### <span style="color:#3d85c6">UnivelopDocs - Für Anwender und die, die es werden wollen</span>  
 # <span style="color:#0b5394">**Die No-Code Plattform für dein Business**</span>
 
-Herzlich Willkommen bei den UnivelopDocs. Wir listen hier nicht einfach nur unsere Funktionen von Univelop auf,
-sondern begleiten Anwender und die, die es werden wollen mit Beispielen und Tutorials rund um die Digitalisierung
-der eigenen Prozesse. Denn die Optimierung und Umsetzung eigener Ideen ist mit Univelop einfacher als man denkt.
-Dank des Baustein-Systems können sämtliche Geschäftsprozesse und Stammdaten selbst zusammengestellt und verwaltet werden.
-Unternehmen müssen sich nicht der Software anpassen, sondern Univelop passt sich dem Unternehmen an.
+<span style="color:#0b5394">**Herlich Willkommen bei den UnivelopDocs!**</span>
 
-<span style="color:#0b5394">***Doch wie geht das?***</span>
+Neben Funktionserklärungen von Univelop werden Anwender und die, die es werden wollen, mit Beispielen und Tutorials rund um die Digitalisierung der eigenen Prozesse begleitet. 
 
-Mit der revolutionären No-Code App können dank des Baustein-Systems sämtliche Geschäftsprozesse und Stammdaten selbst zusammengestellt und verwaltet werden. Die Bausteine (z.B. Textfelder, Nummern, Drop-Down-Auswahl, Formeln u.v.m.) können selbst in beliebiger Reihenfolge aneinandergereiht werden, um den gewünschten Inhalt darzustellen.
+<span style="color:#0b5394">**Was ist Univelop?**</span>
 
-<span style="color:#0b5394">***Wie füge ich denn diese Bausteine aneinander? Ich hab von Informatik doch gar keine Ahnung...***</span>
+Univelop ist eine No-Code-Plattform. Mit Univelop kannst du Unternehmensanwendungen ohne eine Zeile Code erstellen. Es basiert auf einem Baukastensystem, mit dem die meisten Geschäftsprozesse und Stammdaten eigenständig zusammengestellt und verwaltet werden können. Unternehmen müssen sich nicht der Software anpassen, sondern Univelop passt sich den bewährten Prozessen an und bildet diese individualisiert ab. Per Drag and Drop lassen sich die Bausteine in den Arbeitsbereich integrieren. Univelop ist skalierbar, datenschutzkonform, sicher und mittels moderner Schnittstellen in bestehende Systemlandschaften integrierbar. 
 
-Vorkenntnisse in Informatik werden prinzipiell gar nicht benötigt. Das ist der große Vorteil von No-Code. Das bedeutet nämlich, dass jeder User selbst sein gewünschtes Programm zusammenstellen kann. Sie können es sich wie ein Computerspiel vorstellen, bei dem Sie einzelne Objekte und Bausteine logisch aneinanderreihen müssen. 
+<span style="color:#0b5394">**Wie wird Univelop bedient?**</span>
 
-<span style="color:#0b5394">***Okay das klingt echt cool, aber was mache ich, wenn ich mal nicht weiter weiß?***</span>
+Die Nutzungsoberfläche in Univelop heißt „Arbeitsbereich“. In dem Arbeitsbereich kannst du als Administrator globale Einstellungen wie beispielsweise das Design, Rechte und Rollen und die Nutzerverwaltung vornehmen. Darüber hinaus hast du als Administrator das Recht den „Designmodus“ zu bedienen und darüber eine für den jeweiligen Anwendungsfall passgenaue Businesslösung zu gestalten. Per Drag and Drop wählst du die „Bausteine“ aus, die für den zu digitalisierenden Prozess erforderlich sind. Komplexe Datenverknüpfungen und Automatisierungen sind ohne Programmierkenntnisse möglich. 
 
-Gar kein Problem, wir stehen selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems in Ihrem Unternehmen sind wir für Sie da.
+<span style="color:#0b5394">**Werden Informatikvorkenntnisse benötigt?**</span>
 
-## <span style="color:#3d85c6">**Viel Spaß beim Erkunden der UnivelopDocs**</span>  
-**Wir wünschen viel Spaß beim Erkunden. Ohne auf die detaillierten Erklärungen der einzelnen Bausteine, Funktionen, etc. sofort einzugehen, empfehlen wir vorab den Nachbau des Tutorial ["Erstellen einer To-Do-Liste"](/docs/tutorials/childs/to-do-list.html). Dieses Tutorial ist mit Animationen ausgestattet, sodass die Einfachheit von Univelop noch einmal verdeutlicht wird.**
+Vorkenntnisse in Informatik werden bei der Arbeit mit Univelop nicht benötigt. Dies ist ein großer Vorteil von No-Code. Jeder User kann sich selbst seine gewünschte Anwendung zusammenstellen. Vergleichbar ist es mit Lego: Die Steine passen ineinander und können zu vielen verschiedenen Formen zusammengesetzt werden. 
 
----
+<span style="color:#0b5394">**Und wenn doch Unterstützung benötigt wird?**</span>
 
-<span style="color:#3d85c6">**Genderhinweis:**  
-Es sei an dieser Stelle darauf hingewiesen, dass aus Gründen der besseren Lesbarkeit in der vorliegenden Dokumentation 
-bei Personenbezeichnungen und personenbezogenen Hauptwörtern ausschließlich das generische Maskulinum verwendet wird 
-(z.B. der Kunde oder der Konsument). Die verwendeten Formulierungen umfassen jedoch ausdrücklich sowohl weibliche, 
-männliche, als auch diverse Personen und sprechen diese gleichermaßen an.</span>
+Das erfahrene Univelop Team oder unsere Partnerunternehmen stehen dir selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems kann eine intensive Begleitung des Projekts erfolgen. 
+
+<span style="color:#0b5394">**Viel Spaß beim Erkunden der UnivelopDocs!**</span>
+
+Ohne auf die detaillierten Erklärungen der einzelnen Bausteine, Funktionen, etc. sofort einzugehen, wird vorab der Nachbau des Tutorials [“Erstellen einer To-Do-Liste”](/docs/tutorials/childs/to-do-list.html) empfohlen. Dieses Tutorial ist mit Animationen ausgestattet, sodass die einfache Bedienbarkeit von Univelop verdeutlicht wird. 
