@@ -36,11 +36,11 @@ Dadurch werden die Datensätze entsprechend des sog. dynamischen Datumsfilter ge
 |parseDate(text)            | Erstellt Datum aus Text im Format "dd.mm.yy" oder "dd.mm.yyyy"| Aufruf von "parseDate(15.06.2021)" liefert *15.06.2021 (Dienstag)*
 | today()                   | aktuelles Datum                   | *15.06.2021 (Dienstag)*
 | now()                     | aktueller Moment                  | *15.06.2021 8:00:00.000000*
-| currentWeek()             | aktuelle Kalenderwoche            | *2021-W24*
+| currentWeek               | aktuelle Kalenderwoche            | *2021-W24*
 | startOfWeek()             | Beginn der aktuellen Woche        | *14.06.2021 (Montag)*
 | endOfWeek()               | Ende der aktuellen Woche          | *20.06.2021 (Sonntag)*
 | startOfMonth()            | Beginn des aktuellen Monats       | *01.06.2021 (Dienstag)*
-| currentMonth()            | Aktueller Monat                   | *2021-06*
+| currentMonth              | Aktueller Monat                   | *2021-06*
 | endOfMonth()              | Ende des aktuellen Monats         | *30.06.2021 (Mittwoch)*
 | startOfQuarter()          | Beginn des aktuellen Quartals     | *01.04.2021 (Donnerstag)*
 | endOfQuarter()            | Ende des aktuellen Quartals       | *30.06.2021 (Mittwoch)*
