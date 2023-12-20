@@ -32,6 +32,11 @@ Mittels diesem Schalter wird die im Titel beschriebene Funktion aktiviert. Sie v
 ebenso miteinander, was Auswirkungen auf die Datensatzsperre und das Änderungsprotokoll hat.
 Die Sperre erfolgt über den übergeordneten Datensatz und das Änderungsprotokoll ist ebenso dort zu finden.
 
+Bei der Nutzung des Datensatz Bausteins wird beim Klick auf den Baustein die Datensatz-Suche geöffnet.
+Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
+
+![recordpicker2](\assets\record-spec-settings\recordpicker2.png "recordpicker2")
+
 Verknüpfungsmöglichkeiten sind in den Docs unter
 [Verknüpfen von Listen](/docs/link-lists.html)
 zu finden.
