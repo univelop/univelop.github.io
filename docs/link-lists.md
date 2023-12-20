@@ -239,17 +239,14 @@ Wird ein
 [*Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
 als *eingebettete Liste* verwendet kann die Funktion einer Schnellerfassung, aktiviert werden. Dies ist eine
 charmante Art und Weise Einträge für die verknüpfte Liste in der aktuellen Kachel zu erstellen.
+Die Einstellung wird mit dem entsprechenden Schalter im Baustein Datensatz-Liste aktiviert.
 
-Zunächst muss im
-[Designmodus in den Einstellungen der Kachel](/docs/design-mode-settings.html#kachel)
-die Funktion "Schnellerfassung aktivieren" aktiviert werden. Dazu besteht die Möglichkeit die Schnellerfassung
-ausschließlich bei einer Verknüpfung über einen bestimmten Baustein zu aktivieren.
-
-Falls gewisse Bausteine für die Schnellerfassung nicht relevant sind, empfehlen wir es der
-Einfachkeit halber. Ein typisches Beispiel hierfür sind die Datensatz Verknüpfung, welche beim Anlegen
+Falls gewisse Bausteine für die Schnellerfassung nicht relevant sind, empfehlen wir die Einstellung 
+"In der Schnellerfassung verstecken" in der verknüpften Liste zu aktivieren.
+Ein typisches Beispiel hierfür sind die Datensatz Verknüpfung, welche beim Anlegen
 durch die Datensatz-Verknüpfung automatisch gefüllt werden, sowie eventuell zu übernehmende Daten des verknüpften
 Datensatzes.
 
 Dass die Schnellerfassung aktiviert wurde erkennt man daran, dass der Button zum erfassen eines neuen Datensatzes
-in der verknüpften Liste ein grüner Balken geworden ist. In der aktuellen Liste äußert es sich durch den grünen
+in der verknüpften Liste ein grüner Balken geworden ist. In der aktuellen Liste äußert es sich durch den 
 Button `+ Neu`.
