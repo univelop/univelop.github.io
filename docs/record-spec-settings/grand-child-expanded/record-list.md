@@ -43,9 +43,30 @@ In Univelop entspricht das "Kunde =B Kunde".
 
 ![record-list1](\assets\record-spec-settings\record-list1.png "record-list1")
 
+## <span style="color:#0b5394">Einstellungen der Oberfläche</span>
 
+Die Datensatz-Liste kann als eingebettete Liste oder als Link zur Liste dargestellt werden.
 
+Bei einem Link zur Liste gelangt man mit Drücken auf den Baustein in der verknüpften Liste und sieht dort
+in der Listenansicht die gefilterten Datensätze.
 
+Wird eine eingebettete Liste gewählt, ergeben sich weitere Darstellungsoptionen.
+Zunächst kann die Anzahl der Datensätze in Vorschau gewählt werden. Im Standard eine 3.
+Die Vorschau enthält immer die Listenansicht der verknüpften Liste.
+
+Aktiviert man die Schnellerfassung, rutscht das + zum Anlegen neuer Datensätze von oben rechts
+nach unten und man kann in einer Vorschau den neuen Datensatz erfassen, statt dass dieser 
+geöffnet wird. Bausteine der verknüpften Liste könnten für die Schnellerfassung ausgeblendet werden.
+
+Weiterhin könnte der Erfassungsbutton ausgeblendet werden und der Button zur Detailansicht kann
+versteckt werden. Dies sind Sicherheitseinstellungen, damit Personen ohne Berechtigungen a keine Datensätze
+erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen können.
+
+Zu guter Letzt gibt es noch einen Badge. Ein Badge ist eine Zahl. Entweder die Anzahl der Datensätze in der 
+verknüpften Liste oder eine Summe über einen Zahlenbaustein. Der Badge kann gefiltert werden oder damit
+kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend Steuer und Brutto denken.
+
+![record-list2](\assets\record-spec-settings\record-list2.png "record-list2")
 
 
 Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
