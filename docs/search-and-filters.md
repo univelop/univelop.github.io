@@ -66,11 +66,6 @@ entsprechenden Filter gesetzt werden.
 Die Operatoren <, >, <=, >= filtern den ausgewählten Baustein auf Werte kleiner oder größer als der Filterwert und
 exklusive (<, >) oder inklusive (<=, >=) dem Filterwert.
 
-Der Operator = prüft auf Gleichheit auf genau einen Wert. Systemtechnisch sprechen wir von einem == Filter.
-Da die Filter als UND Kombination zu verstehen sind, ist es nicht möglich auf Mitarbeiter = Herr Meyer
-und in einem zweiten Filterfeld auf Mitarbeiter = Frau Müller zu filtern. Das System würde versuchen beiden
-Suchanfragen gleichzeitig gerecht zu werden, was nicht möglich ist. An dieser Stelle müsste der in Filter verwendet werden.
-
 Braucht es eine Prüfung auf Gleichheit mit *einem* von mehreren Werten, kann der *IN-Filter* genutzt werden.
 Der *IN-Filter* kann auch als ODER Filter verstanden werden. Eine der Bedingungen des Filter muss erfüllt werden.
 Für den Filterwert können beliebig viele Werte angegeben werden, welche bausteinabhängig entweder mit Komma und darauffolgendem Leerzeichen getrennt werden müssen,
@@ -95,6 +90,7 @@ Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
 Bei einem Datum kann nicht mehr nur noch auf einen genauen Datumswert (z.B. 01.10.2023) gefiltert werden, sondern auch auf die Woche oder den Monat.
 So ist es möglich mit = Operatoren eine Zeitspanne zu erfiltern, die theoretisch > und < Operatoren benötigen würde.
 Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Datum - Monat angezeigt (Sofern das Feld Datum heißt).
+Das Jahr kann mittels Textformel ermittelt werden. Wenn das Datumsfeld Datum heißt, wäre der Ausdruck in der Formel formatDate(datum,'yyyy')
 
 ![dat opt](\assets\global-settings-and-functions\dat opt.png "dat opt")
 
@@ -137,6 +133,3 @@ Es ist wichtig zu beachten, dass bei der Kombination von Gleichheits- und Unglei
 
 Um die Anzahl der übereinstimmenden Datensätze zu reduzieren, können spezifischere Gleichheitsfilter hinzugefügt werden. 
 Sobald die Anzahl der Ergebnisse, die vom Server zurückgegeben wird, 200 oder kleiner ist, kann die Suche korrekt ausgeführt werden.
-
-Wenn Sie weitere Hilfe benötigen, zögern Sie nicht, sich an unseren Kundendienst zu wenden. 
-Wir helfen Ihnen gerne weiter, um sicherzustellen, dass Ihre Suche erfolgreich ist und die gewünschten Ergebnisse liefert.
