@@ -26,9 +26,13 @@ Zum grundsätzlichen Aufbau:
 4. <span style="color:#0b5394">**Eine Verknüpfung mit dem**</span>
 [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html)
 <span style="color:#0b5394">**ist möglich**</span>
+    Die Verknüpfung wird gesetzt, indem in dem entsprechenden Status der Schalter auf Datensatz sperren = Ja gesetzt wird.
 5. <span style="color:#0b5394">**Sämtliche Pflichtfelder (Prüfung bei Freigabe) müssen einzeln angehakt werden**</span>
+    In jedem Baustein, welcher ein Pflichtfeld werden soll, muss der Schalter Pflichtfeld = Ja gesetzt werden.
+    Im Anschluss wird das Pflichtfeld im Moment der Datensatzsperre geprüft.
 
 Zudem sind gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildschirmrand zu erkennen.
+Wird ein Datensatz über den Status gesperrt und es ist kein Sperrbaustein verbaut, kann der Datensatz nur über das Schloss entsperrt werden.
 Gesperrte Datensätze können nicht gelöscht werden.
 
 ![lock2](\assets\record-spec-settings\2lock.png "lock2") ![lock3](\assets\record-spec-settings\3lock.png "lock3")

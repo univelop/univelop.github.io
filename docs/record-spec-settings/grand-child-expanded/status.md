@@ -19,7 +19,16 @@ Unternehmen dargestellt werden.
 
 3. Über den Mülleimer können einzelne Stati gelöscht und über das =-Zeichen die Positionen verändert werden. Das Löschen von Stati kann nur erfolgen wenn der Status in keinem Datensatz vorhanden ist.
 
-4. Es besteht die Möglichkeit einen Standard-Status zu setzen. Dieser wird auch beim Duplizieren von Datensätzen als Standard gesetzt und nimmt die Sperre aus dem kopierten Datensatz.
+4. Es besteht die Möglichkeit einen Standard-Status zu setzen. Beim Erfassen neuer Datensätze über das Plus wird dieser gesetzt.
+
+5. Dieser Standard-Status wird beim Duplizieren immer nur dann gesetzt, wenn die Einstellung "Standard Status erzwingen" gesetzt wird. 
+Diese Einstellung nimmt die Sperre aus dem kopierten Datensatz. 
+Ebenso ist zu beachten, dass der Standardstatus bei Workflows ebenso gesetzt wird, selbst wenn im Workflowstep zum Erzeugen ein anderer Status genannt ist.
+Und der Standard Status wird beim Erzeugen über Filterkacheln ebenso gesetzt.
+
+![status switch](\assets\record-spec-settings\status switch.png "status switch")
+
+---
 
 ![status2](\assets\record-spec-settings\2status.png "status2")
 

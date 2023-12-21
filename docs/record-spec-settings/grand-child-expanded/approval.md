@@ -26,3 +26,5 @@ Im ersten Schritt fordert ein Nutzer die Genehmigung von einem weiteren, berecht
     Ob der Genehmiger eine Unterschrift zum genehmigen abgeben muss.
 5. <span style="color:#0b5394">**Workflow starten**</span>  
     Auswahl für einen Workflow, welcher bei Genehmigung als auch Ablehnung gestartet wird.
+    Der Genehmigungsworkflow kann auch die Workflowsteps "Genehmigung anfordern" und "Warte auf Genehmigung" enthalten,
+    um den Genehmigungsprozess komplett abzubilden.
