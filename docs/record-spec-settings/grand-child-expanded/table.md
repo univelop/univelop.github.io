@@ -28,7 +28,7 @@ In der Tabelle gibt es folgende Funktionalitäten:
 
 ---
 
-## <span style="color:#0b5394"><span class="material-icons">table_chart</span> **Einstellungen***</span>
+## <span style="color:#0b5394"><span class="material-icons">table_chart</span> **Einstellungen**</span>
 
 Folgende Einstellungen bietet die Tabelle:
 
