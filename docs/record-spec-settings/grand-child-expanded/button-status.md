@@ -17,4 +17,6 @@ Zusätzlich kann der Baustein *Status Button* für bestimmte Nutzerrollen einges
 Der Vorgesetzte soll die eingereichten Arbeitszeiten prüfen und genehmigen. Der Status-Button "Arbeitszeit geprüft" soll nicht vom Mitarbeiter betätigt werden
 können. Um diese Einstellung vornehmen zu können, kann einem oder mehreren Baustein *Status Button* die Rechte aus dem [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html) entzogen werden.
 
+Eine weitere Möglichkeit mit dem Status Button die Prozessschritte zu begleiten ist diese unter Bedingungen ein- und auszublenden.
+
 ![button status settings](\assets\record-spec-settings\status button settings.png "button status settings")
