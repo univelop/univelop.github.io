@@ -8,13 +8,29 @@ nav_order: 9
 
 # <span style="color:#0b5394"><span class="material-icons">event_note</span> **Baustein *Scheduler***</span>
 
-Mit dem Baustein *Scheduler* kann ein Wochenplan von Buchungen, welche mit einer Ressource verbunden sind, erstellt werden. Bspw. kann so Einsätze von Fahrzeugen oder Mitarbeitern geplant und übersichtlich dargestellt werden.
+Mit dem Baustein *Scheduler* kann ein Wochenplan von Buchungen, welche mit einer Ressource verbunden sind, erstellt werden. 
+Bspw. können so Einsätze von Fahrzeugen oder Mitarbeitern geplant und übersichtlich dargestellt werden, oder aber auch Verfügbarkeiten
+von Transportfahrzeugen oder Arbeitsgeräten.
 
 ![1scheduler](\assets\record-spec-settings\1scheduler.png "1scheduler")
 
-In der linken Spalte werden die verbundenen Ressourcen angezeigt, auf welche sich die Buchungen beziehen.
-Die Ressourcen sowie die Buchungen selbst können individuell gefiltert und sortiert werden.
-Drückt man auf das Icon in einer beliebigen Zelle, so wird eine Buchung für das Datum der Spalte und die Ressource der Zeile erstellt. Es öffnet sich ein Pop-Up vom Datensatz, um weitere Bausteine zu füllen. Dieses Pop-Up öffnet sich auch auf Klick einer Buchung.
+In der linken Spalte (Zeilen) werden die verbundenen Ressourcen angezeigt, auf welche sich die Buchungen beziehen.
+Die Ressourcen, sowie die Buchungen selbst, können individuell gefiltert und sortiert werden.
+Drückt man auf das + Icon in einer beliebigen Zelle, so wird eine Buchung für das Datum der Spalte und die Ressource der Zeile erstellt. 
+Es öffnet sich die Schnellerfassung des Datensatzes, welche man bereits aus der [*Datensatz-Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html) kennt.
+
+Konkret: 
+Für den Scheduler Baustein wird eine Liste benötigt, in der Buchungen vorgenommen werden können. Zum Beispiel Arbeitsberichte.
+Diese Liste muss einen Datensatz Baustein zu der Ressourcen enthalten, sowie im Idealfall noch ein Datumsbaustein (Es kann auch das Erstelldatum genommen werden).
+Eine Verknüpfung über ist nicht notwendig, kann aber mittels Datensatz Baustein gesetzt werden.
+
+Unsere Empfehlung:
+Benutzen Sie für den Scheduler Baustein eine übergeordnete Liste, bei der die Einstellung *Bei einzelnem Datensatz direkt zum Datensatz springen* aktiviert ist.
+Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, ohne die Listenansicht auf der linken Seite.
+
+---
+
+## <span style="color:#0b5394"><span class="material-icons">event_note</span> **Einstellungen***</span>
 
 ![2scheduler](\assets\record-spec-settings\2scheduler.png "2scheduler")
 
@@ -35,5 +51,5 @@ Drückt man auf das Icon in einer beliebigen Zelle, so wird eine Buchung für da
 8. <span style="color:#0b5394">**Buchungen Filter und Sortierung**</span>   
     Einschränken der angezeigten Buchungen im *Scheduler*.
 9. <span style="color:#0b5394">**Vorschau der Buchungen**</span>   
-    Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Scheduler.
-    Gleicht der [Einstellung der Listenansicht](/docs/design-mode-settings.html#designmodus-liste). 
+    Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Scheduler. Diese weicht von der Listenansicht ab.
+    Die Einstellung wird wie in der [Einstellung der Listenansicht](/docs/design-mode-settings.html#designmodus-liste) vorgenommen. 
