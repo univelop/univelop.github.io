@@ -13,4 +13,4 @@ Baustein an, da er, im Gegensatz zu dem mehrzeiligen Textfeld, den Vorteil hat, 
 sowie das Datum und die Uhrzeit automatisch mit angelegt werden. Ggf. bietet sich diese Kommentarfunktion an für den
 Austausch von Problemen vor Ort, o. ä. 
 
-![comments](\assets\record-spec-settings\1comments.png "comments")
+![comment](\assets\record-spec-settings\comment.png "comment")
