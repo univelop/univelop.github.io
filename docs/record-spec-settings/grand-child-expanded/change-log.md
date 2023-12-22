@@ -9,6 +9,13 @@ nav_order: 26
 # <span style="color:#0b5394"><span class="material-icons">smart_button</span> **Baustein *Änderungsprotokoll***</span>
 
 Der Baustein *Änderungsprotokoll* zeichnet alle Änderungen auf, die in einem Eintrag vorgenommen wurden.
+Wird in einer "Unterliste" die Einstellung "Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz
+gelöscht oder dupliziert wird" aktiviert, dann ist das Änderungsprotokoll dieser Unterliste über den
+Mutterdatensatz zu finden. Ein entsprechender Hinweis erscheint im Änderungsprotokoll des Tochterdatensatzes.
+
+Das Änderungsprotokoll kann auch nachträglich eingefügt werden. Bisherige Änderungen im Datensatz werden protokolliert
+und beim nachträglichen Einfügen hinzugefügt.
+
 Folgende Punkte zeichnet der Baustein bei Änderungen auf:
 
 - Benutzer
