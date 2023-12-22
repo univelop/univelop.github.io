@@ -21,7 +21,7 @@ Bearbeiten mehrere Personen eine Liste im Designmodus, können Änderungen verlo
 
 ![release lock designmode](\assets\latest-updates\release lock designmode.png "release lock designmode")
 
-## <span style="color:#0b5394">**Verbesserung der Ordner-Kachel*</span>
+## <span style="color:#0b5394">**Verbesserung der Ordner-Kachel**</span>
 Nutzer ohne Admin-Rechte können nun Ordner im eigenen Bereich anlegen. So werden Admins von dieser Aufgabe befreit und den Nutzern werden deutlich mehr Möglichkeiten gegeben. Dazu wurde der Import und Export ermöglicht.
 
 ![release folder improvements](\assets\latest-updates\release folder improvements.png "release folder improvements")
