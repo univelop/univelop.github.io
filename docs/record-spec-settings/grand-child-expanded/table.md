@@ -26,9 +26,6 @@ In der Tabelle gibt es folgende Funktionalitäten:
     Für diese Funktion muss ein [Baustein *Datensatz*](/docs/record-spec-settings/grand-child-expanded/record.html) in der ersten Spalte liegen, welcher mit einer Liste [verbunden](/docs/link-lists.html) ist. Beim Vorbelegen wird für jeden Datensatz, der in dieser verbundenen Liste liegt, ein Tabelleneintrag erzeugt. So kann mit einem Klick ein Tabelleneintrag für z. B. jeden Mitarbeiter oder für jede Baumaschine im Fuhrpark erzeugt werden. Die zu erzeugenden Datensätze können gefiltert werden. 
 
 
-BLA BLA
-
-
 ---
 
 ## <span style="color:#0b5394"><span class="material-icons">table_chart</span> **Einstellungen**</span>
