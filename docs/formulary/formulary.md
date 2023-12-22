@@ -134,4 +134,4 @@ Formeln können beliebig in weiter Formeln eingebunden werden.
 
 |:-----:            |:-------:
 |[Datumsformeln](/docs/formulary/childs/formula%20date.html)      |[Bedingungen und Rechnen mit Formeln in Formelbausteinen](/docs/formulary/childs/condition-calculate-with.html)
-|[Rechensymbole / Operatoren](/docs/formulary/childs/symbol-operator.html)         |[Kombinationen und Beispiele](/docs/formulary/childs/combinations-examples.html)
+|[Formelsammlung](/docs/formulas/formulas.html)         |[Kombinationen und Beispiele](/docs/formulary/childs/combinations-examples.html)

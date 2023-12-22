@@ -33,6 +33,7 @@ has_toc: true
 |[`floor(number)`](/docs/formulas/childs/number-formulas.html#zahlenformeln)            |Abrunden             | `floor(3.9)` liefert 3
 |[`round(number)`](/docs/formulas/childs/number-formulas.html#zahlenformeln)            |Runden               | `round(3.499)` liefert 3, `round(3.511)` liefert 4 
 |[`abs(number)`](/docs/formulas/childs/number-formulas.html#zahlenformeln)              |Betragsfunktion      | `abs(-4)` liefert 4
+|[`decimalRound(number,decimalPlaces)`](/docs/formulas/childs/number-formulas.html#zahlenformeln) | Runden auf bestimmte Anzahl von Nachkommastellen | `decimalRound(3.1789,2)` liefert 3.19, `decimalRound(3.2911,3)` liefert 3.291
 |<span style="color:#0b5394">Datumsformeln</span>|<span></span>|(Beispiel Berechnungszeitpunkt: *15.06.2021 (Dienstag)* um 8:00 Uhr)
 | [`formatDate(date, "format")`](/docs/formulas/childs/date-formulas.html#formatdate) | Formatiert ein Datum (Bezug auf [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html)) in die gewählte Formatierung ([s. Formatierungsmöglichkeiten Datum](/docs/formulas/childs/date-formulas.html#formatierungsmöglichkeiten-bei-formatdate)) | `formatDate(today(), "dd.MM.yyyy")` liefert *15.06.2021*
 |[`date(year,month,day)`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten ) | Intern nutzbares Datum aus gegebenem Jahr, Monat und Tag| `date(2021,06,15)` liefert *15.06.2021 00:00:00.000000*

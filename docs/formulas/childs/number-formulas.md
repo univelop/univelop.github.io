@@ -14,6 +14,7 @@ parent: Formelsammlung
 | `floor(number)` | Abrunden | `floor(3.9)` liefert *3* | 1. Wert: Zahl | Zahl |	
 | `round(number)` | Runden | `round(3.499)` liefert *3*, `round(3.511)` liefert 4 | 1. Wert: Zahl | Zahl |
 | `abs(number)` | Betragsfunktion | `abs(-4)` liefert *4* | 1. Wert: Zahl | Zahl |
+|`decimalRound(number,decimalPlaces)` | Runden auf bestimmte Anzahl von Nachkommastellen | `decimalRound(3.1789,2)` liefert *3.19*, `decimalRound(3.2911,3)` liefert *3.291* | 1. Wert: Zahl, 2. Wert: Zahl | Zahl | 
 | `count(list)` | Zählt die Elemente einer Liste/eines dynamischen Wertes | `count([1,2,4])` liefert *3* | 1. Wert: Liste/dynamischer Wert | Zahl |
 | `toNumber(text)` | Wandelt einen Text in eine numerische Darstellung des Wertes um | `toNumber("123")` liefert *123* | 1. Wert: Text, welcher eine Zahl darstellt | Zahl |
 
