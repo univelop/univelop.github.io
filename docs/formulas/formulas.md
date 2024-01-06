@@ -41,9 +41,9 @@ has_toc: true
 | [`today()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten)     | aktuelles Datum | *15.06.2021 00:00:00.000000*
 | [`now()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten)     | aktueller Zeitpunkt | *15.06.2021 08:00:00.000000*
 | [`calendarWeek(date)`](/docs/formulas/childs/date-formulas.html#datumsformeln-zu-kalenderwochen) | Kalenderwoche des gegebenen Datums| *24*
-| [`currentWeek()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zu-kalenderwochen)| aktuelle Kalenderwoche | *2021-W24*
+| [`currentWeek`](/docs/formulas/childs/date-formulas.html#datumsformeln-zu-kalenderwochen)| aktuelle Kalenderwoche | *2021-W24*
 |[`startOfWeek()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten), [`endOfWeek()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten)| Beginn/Ende der aktuellen Kalenderwoche |*14.06.2021 00:00:00.000000*, *20.06.2021 00:00:00.000000* 
-| [`currentMonth()`]() | Aktueller Monat  | *2021-06*
+| [`currentMonth`]() | Aktueller Monat  | *2021-06*
 |[`startOfMonth()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten), [`endOfMonth()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten)| Beginn/Ende des aktuellen Monats | *01.04.2021 00:00:00.000000*, *30.06.2021 00:00:00.000000*
 | [`startOfQuarter()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten), [`endOfQuarter()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten)   | Beginn des aktuellen Quartals     | *01.04.2021 00:00:00.000000*, *30.06.2021 00:00:00.000000*
 | [`startOfYear()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten),[`endOfYear()`](/docs/formulas/childs/date-formulas.html#datumsformeln-zum-erzeugen-von-daten) | Beginn/Ende des aktuelles Jahres       | *01.01.2021 00:00:00.000000*, *31.12.2021 00:00:00.000000*
