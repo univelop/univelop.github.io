@@ -92,20 +92,23 @@ Folgende Formeln sind dafür da, bestehende Daten zu verändern. Bspw. um ausgeh
 
 ## <span style="color:#0b5394">**Datumsformeln zu Kalenderwochen**</span>
 
-Folgende Formeln sind für das ermitteln von Kalenderwoche anhand von Daten da.
+Folgende Formeln sind für das Ermitteln von Kalenderwoche anhand von Daten da.
 
 |Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |-------------|---------|---------|--|--|
 | `calendarWeek(date)` | Kalenderwoche des gegebenen Datums  | `calendarWeek(today())` liefert *24* | 1. Wert: Datum | Zahl |
-| `currentWeek()`      | aktuelle Kalenderwoche  | `currentWeek()` liefert "2021-W24" |  | Text |
+| `currentWeek`      | aktuelle Kalenderwoche  | `currentWeek` liefert "2021-W24" |  | Text |
+| `dateToWeek(date)`      | Kalenderwoche des Datums  | `dateToWeek(date(2024,01,01))` liefert "2024-W01" | 1. Wert: Datum | Text |
 | `addWeeks(week, weeks)`, `subtractWeeks(week, weeks)` | Addiert/Subtrahiert gegebene Wochenanzahl zum/vom Wochentext | `addWeeks("2021-W24", 1)` liefert "2021-W25", `subtractWeeks("2021-W24", 1)` liefert "2021-W23" | 1. Wert: Wochentext, 2. Wert: Zahl  | Text |
 
 ## <span style="color:#0b5394">**Monatsformeln**</span>
 
-Folgende Formeln sind für das ermitteln von Kalenderwoche anhand von Daten da.
+Folgende Formeln sind für das Ermitteln von Monaten anhand von Daten da.
 
 |Formel | Beschreibung | Beispiel (Ausgehend vom 15.06.2021, 8:00 Uhr) | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |-------------|---------|---------|--|--|
+| `currentMonth`      | aktueller Monat  | `currentMonth` liefert "2021-08" |  | Text |
+| `dateToMonth(date)`      | Monat des Datums  | `dateToMonth(date(2024,01,01))` liefert "2024-01" | 1. Wert: Datum | Text |
 | `addMonths(month, months)`, `subtractMonths(month, months)` | Addiert/Subtrahiert gegebene Monatszahl zum/vom Monatstext | `addMonths("2021-05", 1)` liefert "2021-06", `subtractMonths("2021-05", 1)` liefert "2021-04" | 1. Wert: Monatstext im Format "YYYY-MM", 2. Wert: Zahl  | Text |
 
 ## <span style="color:#0b5394">**Weitere Datumsformeln**</span>
