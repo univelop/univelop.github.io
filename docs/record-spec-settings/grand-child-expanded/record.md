@@ -27,7 +27,10 @@ Beim Artikel kann z.B. die Einheit übernommen werden.
 4. Datensatz initial setzen: 
 Wenn die Auswahl nur einen Datensatz zulassen würde, würde dieser automatisch gesetzt werden.
 
-5. Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht oder dupliziert wird: 
+5. Mit aktuellem Benutzer vorbelegen:
+Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
+
+6. Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht oder dupliziert wird: 
 Mittels diesem Schalter wird die im Titel beschriebene Funktion aktiviert. Sie verheiratet die Datensätze
 ebenso miteinander, was Auswirkungen auf die Datensatzsperre und das Änderungsprotokoll hat.
 Die Sperre erfolgt über den übergeordneten Datensatz und das Änderungsprotokoll ist ebenso dort zu finden.

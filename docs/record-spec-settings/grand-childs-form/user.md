@@ -15,8 +15,8 @@ Verantwortlichkeiten verteilt werden. Wichtig hierbei ist, dass der Benutzer dem
 
 Folgende Einstellungen sind möglich:
 
-1. <span style="color:#0b5394">**aktuellen Besitzer standardmäßig setzen**</span>  
-    (Ersteller des Datensatzes wird automatisch auch Besitzer)
+1. <span style="color:#0b5394">**Mit aktuellem Benutzer vorbelegen**</span>  
+    Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen.
 2. <span style="color:#0b5394">**Besitzer ändern**</span>  
 3. <span style="color:#0b5394">**Besitzerteam ebenfalls ändern**</span>  
     Wird der Besitzer geändert und dieser ist ebenfalls in der

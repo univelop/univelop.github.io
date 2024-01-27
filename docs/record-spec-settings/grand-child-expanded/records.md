@@ -18,6 +18,9 @@ Die Einstellungen dieses Bausteins sind allerdings eingeschränkter, als der Dat
 Es wird eine Verknüpfung mit einer Liste hergestellt und die Einträge können gefiltert und sortiert werden.
 Über die Funktion *Filter und Sortierung* lassen sich je nach Einstellung nur bestimmte Datensätze anzeigen.
 
+Mit aktuellem Benutzer vorbelegen:
+Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
+
 In der Nutzung können Datensätze an- und abgewählt werdent. 
 Der Feldinhalt ist immer eine Liste von Elementen. Es steht per default immer [] in dem Baustein, 
 würde man sich die Werte ausgeben lassen.
