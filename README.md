@@ -39,7 +39,7 @@ When creating changes, you sometimes want to check if these are looking good in 
 
 ## Setup Jekyll and dependencies
 
-For this to work, you need to setup ['Jekyll'](https://jekyllrb.com/docs/). This can be quite tricky on Windows, but a lot of help and tutorials can be found on the internet.
+For this to work, you need to setup ['Jekyll'](https://jekyllrb.com/docs/). *Important: Ruby-Version must be below 3.2*. This can be quite tricky on Windows, but a lot of help and tutorials can be found on the internet.
 
 
 To start the project locally, open a terminal with the current location being the repository. 

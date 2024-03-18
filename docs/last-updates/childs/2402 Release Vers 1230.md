@@ -1,0 +1,41 @@
+---
+layout: default
+title: Release Version 1.23.0
+nav_order: 76
+parent: Latest Updates
+---
+
+# <span style="color:#0b5394">**Release Version 1.23.0**</span>
+
+Folgende Neuerungen und Verbesserungen wurden mit der Version 1.23.0 ausgerollt:
+
+## <span style="color:#0b5394">**Mehrsprachigkeit**</span>
+
+Für den internationalen Einsatz und zur sprachlichen Barrierefreiheit unterstützt Univelop nun auch Englisch als weitere Sprache. Neben den in Univelop integrierten Texten können bspw. Kacheln und Bausteine pro Sprache benannt werden. 
+Für eine erfolgreiche Einrichtung der Mehrsprachigkeit im eigenen Arbeitsbereich ist [hier]() ein Artikel zu finden.
+
+![release multi language](\assets\latest-updates\release multi language.png "release multi language")
+
+## <span style="color:#0b5394">**Beta-Zugang für neue Versionen**</span>
+
+Zum Ausprobieren von neuen Features und Verbesserungen vor offiziellem Release haben wir ein Beta-Programm eingerichtet. Hier können alle Neuerungen eine Woche vor Release genutzt werden. 
+
+Willst Du Beta-Zugang erhalten und die Verbesserung von Univelop aktiv mitgestalten? Sprich und dazu direkt an.
+
+![release beta access](\assets\latest-updates\release beta access.png "release beta access")
+
+## <span style="color:#0b5394">**Neues Lizenzmanagement**</span>
+
+Für einen klaren Überblick über die aktuellen Lizenzen und anfallenden Kosten wird Univelop um ein eigenes Lizenzmanagement erweitert.
+Hier kann u.A. ein Rechnungsaccount erstellt und Lizenzen zugebucht werden. Auch eine spezielle Ansicht für Univelop-Partner wird hier angeboten. Das Lizenzmanagement ist zunächst in der Beta-Version und nur auf Anfrage nutzbar. Der Funktionsumfang wird dazu in den folgenden Versionen erweitert.
+
+![release license management](\assets\latest-updates\release license management.png "release license management")
+
+## <span style="color:#0b5394">**Neuer Baustein *Navigation***</span>
+
+Um die wiederkehrende Navigation in Prozessen und Formularen deutlich zu vereinfachen, haben wir den Baustein *Navigation* implementiert. Mit diesem kann mit Klick eines Button eine Liste oder ein Eintrag geöffnet oder sogar ein neuer Eintrag erstellt werden. Dadurch sind noch mehr Möglichkeiten beim Aufbau von Formularen gegeben.
+
+### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
+-  Fehler in Workflows werden nun als Popup dargestellt
+-  Verbesserte Berechnung von Summen und Durchführung von Workflows
+-  Verbesserte Workflow-Logs
