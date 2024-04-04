@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Scheduler
+title: Terminplaner
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 9
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">event_note</span> **Baustein *Scheduler***</span>
+# <span style="color:#0b5394"><span class="material-icons">event_note</span> **Baustein *Terminplaner***</span>
 
-Mit dem Baustein *Scheduler* kann ein Wochenplan von Buchungen, welche mit einer Ressource verbunden sind, erstellt werden. 
+Mit dem Baustein *Terminplaner* kann ein Wochenplan von Buchungen, welche mit einer Ressource verbunden sind, erstellt werden. 
 Bspw. können so Einsätze von Fahrzeugen oder Mitarbeitern geplant und übersichtlich dargestellt werden, oder aber auch Verfügbarkeiten
 von Transportfahrzeugen oder Arbeitsgeräten.
 
@@ -20,12 +20,12 @@ Drückt man auf das + Icon in einer beliebigen Zelle, so wird eine Buchung für 
 Es öffnet sich die Schnellerfassung des Datensatzes, welche man bereits aus der [*Datensatz-Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html) kennt.
 
 Konkret: 
-Für den Scheduler Baustein wird eine Liste benötigt, in der Buchungen vorgenommen werden können. Zum Beispiel Arbeitsberichte.
+Für den Terminplaner Baustein wird eine Liste benötigt, in der Buchungen vorgenommen werden können. Zum Beispiel Arbeitsberichte.
 Diese Liste muss einen Datensatz Baustein zu der Ressourcen enthalten, sowie im Idealfall noch ein Datumsbaustein (Es kann auch das Erstelldatum genommen werden).
 Eine Verknüpfung über ist nicht notwendig, kann aber mittels Datensatz Baustein gesetzt werden.
 
 Unsere Empfehlung:
-Benutzen Sie für den Scheduler Baustein eine übergeordnete Liste, bei der die Einstellung *Bei einzelnem Datensatz direkt zum Datensatz springen* aktiviert ist.
+Benutzen Sie für den Terminplaner Baustein eine übergeordnete Liste, bei der die Einstellung *Bei einzelnem Datensatz direkt zum Datensatz springen* aktiviert ist.
 Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, ohne die Listenansicht auf der linken Seite.
 
 ---
@@ -39,17 +39,17 @@ Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, 
 2. <span style="color:#0b5394">**Ressource**</span>  
     Verbundener Datensatz, für den primär die Buchungen erstellt werden. Will man bspw. seine Mitarbeiter planen, sollte man hier die Kachel 'Mitarbeiter' wählen.
 3. <span style="color:#0b5394">**Ressource Filter und Sortierung**</span>  
-    Einschränken der angezeigten Ressourcen sowie die Anzeigereihenfolge im *Scheduler*.
+    Einschränken der angezeigten Ressourcen sowie die Anzeigereihenfolge im *Terminplaner*.
 4. <span style="color:#0b5394">**Buchungen**</span>
     Die Datensätze, die geplant werden sollen. Bspw. können dies die Einsätze oder Arbeitszeiten von Mitarbeitern sein.  
 5. <span style="color:#0b5394">**Verknüpfung über**</span>    
-    *Optionale Einstellung*, Baustein *Datensatz* um Buchungen einem Konkreten Datensatz, welcher den Scheduler beinhaltet, zuzuordnen. So kann bspw. ein Scheduler pro Projekt oder Baustelle genutzt werden, bei dem nur Buchungen angezeigt werden, die auch diesem Projekt zugehören.    
+    *Optionale Einstellung*, Baustein *Datensatz* um Buchungen einem Konkreten Datensatz, welcher den Terminplaner beinhaltet, zuzuordnen. So kann bspw. ein Terminplaner pro Projekt oder Baustelle genutzt werden, bei dem nur Buchungen angezeigt werden, die auch diesem Projekt zugehören.    
 6. <span style="color:#0b5394">**Datumsbaustein**</span>    
-    Baustein *Datum* bei den Buchungen. Davon abhängig wird die Buchung im Scheduler am entsprechenden Tag angezeigt.
+    Baustein *Datum* bei den Buchungen. Davon abhängig wird die Buchung im Terminplaner am entsprechenden Tag angezeigt.
 7. <span style="color:#0b5394">**Ressourcenbaustein**</span>   
     Baustein *Datensatz* mit dem die entsprechende Ressource ausgewählt wird.
 8. <span style="color:#0b5394">**Buchungen Filter und Sortierung**</span>   
-    Einschränken der angezeigten Buchungen im *Scheduler*.
+    Einschränken der angezeigten Buchungen im *Terminplaner*.
 9. <span style="color:#0b5394">**Vorschau der Buchungen**</span>   
-    Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Scheduler. Diese weicht von der Listenansicht ab.
+    Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Terminplaner. Diese weicht von der Listenansicht ab.
     Die Einstellung wird wie in der [Einstellung der Listenansicht](/docs/design-mode-settings.html#designmodus-liste) vorgenommen. 

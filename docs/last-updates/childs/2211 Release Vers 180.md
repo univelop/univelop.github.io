@@ -20,9 +20,9 @@ Der neue [Baustein *Genehmigung*](/docs/record-spec-settings/grand-child-expande
 
 Beim [Baustein *Benutzer*](/docs/record-spec-settings/grand-childs-form/user.html) lässt sich über eine Einstellung aktivieren, dass nur Nutzer gewählt werden können, die zum eigenen Team gehören. Dadurch wird die Nutzung des Bausteins mit vielen Nutzern vereinfacht. 
 
-## <span style="color:#0b5394">**Baustein *Scheduler***</span>  
+## <span style="color:#0b5394">**Baustein *Terminplaner***</span>  
 
-Wir haben den neuen [Baustein *Scheduler*](/docs/record-spec-settings/grand-child-expanded/scheduler.html) in Univelop implementiert. Diese zeigt Buchungen mit einer individuell anpassbaren Darstellung in einer übersichtlichen Wochenansicht an. So können bspw. Aufgaben oder Einsätze angelegt und dabei einem Nutzer und Wochentag sowie einem zugehörigen Projekt zugeteilt werden. Damit werden viele Listeneinträge auf einen Blick strukturiert angezeigt, was hin- und herfiltern in der Listenansicht ersparen kann.
+Wir haben den neuen [Baustein *Terminplaner*](/docs/record-spec-settings/grand-child-expanded/scheduler.html) in Univelop implementiert. Diese zeigt Buchungen mit einer individuell anpassbaren Darstellung in einer übersichtlichen Wochenansicht an. So können bspw. Aufgaben oder Einsätze angelegt und dabei einem Nutzer und Wochentag sowie einem zugehörigen Projekt zugeteilt werden. Damit werden viele Listeneinträge auf einen Blick strukturiert angezeigt, was hin- und herfiltern in der Listenansicht ersparen kann.
 
 ![release brick scheduler](\assets\latest-updates\release brick scheduler.png "release brick scheduler")
 

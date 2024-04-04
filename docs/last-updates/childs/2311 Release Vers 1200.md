@@ -31,8 +31,8 @@ Kein nerviges Scrollen und Suchen mehr! Die Popup-Felder, welche z.B. bei Filter
 
 ![release selection search](\assets\latest-updates\release selection search.png "release selection search")
 
-## <span style="color:#0b5394">**Verbesserung Baustein Scheduler**</span>
-Der Scheduler nutzt nun bei großem Bildschirm die gesamte verfügbare Breite, statt einer festen Zellenbreite. So können die Inhalte auf einem Blick übersichtlich dargestellt werden. Für kleine Bildschirme wurde die Anzeige auch verbessert, um die Nutzung angenehmer zu gestalten.
+## <span style="color:#0b5394">**Verbesserung Baustein Terminplaner**</span>
+Der Terminplaner nutzt nun bei großem Bildschirm die gesamte verfügbare Breite, statt einer festen Zellenbreite. So können die Inhalte auf einem Blick übersichtlich dargestellt werden. Für kleine Bildschirme wurde die Anzeige auch verbessert, um die Nutzung angenehmer zu gestalten.
 
 ## <span style="color:#0b5394">**Verbesserung des Health-Checks**</span>
 Beim Health-Check wird nun auch auf Workflows hingewiesen, wenn diese fehlerhafte Formeln oder Variablen beinhalten, sowie auf unvollständig konfigurierte Bausteine.

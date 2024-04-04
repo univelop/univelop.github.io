@@ -71,7 +71,7 @@ also Strom, Wasser und Gas - statt, dass ich mich wie beim Datensatz Baustein en
 
 3. <span style="color:#0b5394">**Datensatz-Liste**</span>
 Durch eine funktionelle Liste von Datensätzen, kann ich beliebig viele Verknüpfungen zu einer Liste herstellen.
-Eine Liste von Datensätzen finden wir in den Bausteinen Datensatz-Liste, Kalender, Tabelle, Scheduler und Matrix.
+Eine Liste von Datensätzen finden wir in den Bausteinen Datensatz-Liste, Kalender, Tabelle, Terminplaner und Matrix.
 
 Zumeist werden diese Verknüpfungen in Unterlisten erstellt, da dort verschiedene Informationen zusammengeführt werden.
 

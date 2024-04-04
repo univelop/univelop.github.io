@@ -55,7 +55,7 @@ nav_order: 1
     - [Status](/docs/record-spec-settings/grand-child-expanded/status.html)
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)
     - [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)
-    - [Scheduler](/docs/record-spec-settings/grand-child-expanded/scheduler.html)
+    - [Terminplaner](/docs/record-spec-settings/grand-child-expanded/scheduler.html)
     - [Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)
     - [Matrix](/docs/record-spec-settings/grand-child-expanded/matrix.html)
     - [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html)
