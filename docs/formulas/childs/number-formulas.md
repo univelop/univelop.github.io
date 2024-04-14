@@ -10,6 +10,7 @@ parent: Formelsammlung
 
 | Formel | Beschreibung | Beispiel | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |------|------|------|------|----|
+| `power(number1, number2)` | Berechnet `number1` hoch `number2`. | `power(2, 5)` liefert *32* | 1. Wert: Zahl, 2. Wert: Zahl | Zahl |
 | `ceil(number)` | Aufrunden | `ceil(3.1)` liefert *4* | 1. Wert: Zahl | Zahl |
 | `floor(number)` | Abrunden | `floor(3.9)` liefert *3* | 1. Wert: Zahl | Zahl |	
 | `round(number)` | Runden | `round(3.499)` liefert *3*, `round(3.511)` liefert 4 | 1. Wert: Zahl | Zahl |
