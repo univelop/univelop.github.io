@@ -33,7 +33,7 @@ der mit den Lieferscheinen verknüpft ist.
 
 Im Prinzip wird mit der Verknüpfung über ein sehr einfacher Filter gesetzt, nämlich
 nur auf die Datensätze, die mit einem selbst verknüpft sind.
-Ein Badge ist nur möglich, wenn eine Verknüpfung über gewählt wurde.
+"Summe anzeigen" ist nur möglich, wenn eine Verknüpfung über gewählt wurde.
 
 Zusätzlich oder stattdessen kann auch eine Filterung auf ein bestimmtes Merkmal gesetzt werden.
 Hier eignet sich zum dynamischen Filtern der =B (= Baustein) Filter.
@@ -62,8 +62,7 @@ Weiterhin könnte der Erfassungsbutton ausgeblendet werden und der Button zur De
 versteckt werden. Dies sind Sicherheitseinstellungen, damit Personen ohne Berechtigungen a keine Datensätze
 erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen können.
 
-Zu guter Letzt gibt es noch einen Badge. Ein Badge ist eine Zahl. Entweder die Anzahl der Datensätze in der 
-verknüpften Liste oder eine Summe über einen Zahlenbaustein. Der Badge kann gefiltert werden oder damit
+Zu guter Letzt gibt es noch "Summe anzeigen". Hier kann zwischen einer Summe über die Anzahl der Datensätze in der verknüpften Liste und einer Summe über einen Baustein gewählt werden. Diese Summe kann gefiltert werden oder damit
 kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend Steuer und Brutto denken.
 
 ![record-list2](\assets\record-spec-settings\record-list2.png "record-list2")
