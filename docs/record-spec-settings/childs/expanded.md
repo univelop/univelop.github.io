@@ -21,4 +21,4 @@ Bausteine verknüpft, sowie Dateien und Stati hinterlegt werden.
 |[Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html) |[Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html) |[Datums-Formel](/docs/record-spec-settings/grand-child-expanded/dateformular.html) 
 |[Zeichnung](/docs/record-spec-settings/grand-child-expanded/drawing.html) |[Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html) |[Kommentar](/docs/record-spec-settings/grand-child-expanded/comment.html) 
 |[PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) |[Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article%20scanner.html) |[Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)   
-|[QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)
+|[QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html) |[ChatGPT](/docs/record-spec-settings/grand-child-expanded/chatgpt.html)
