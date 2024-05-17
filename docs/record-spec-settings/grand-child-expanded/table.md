@@ -44,7 +44,7 @@ Folgende Einstellungen bietet die Tabelle:
     Filtern und Sortieren der Einträge der Tabelle. Filter werden beim Erzeugen von Tabellenzeilen ebenfalls vorbelegt.
 4. <span style="color:#0b5394">**Bausteine für Tabelle**</span>  
     Für jede Tabelle können beliebige Bausteine der verbundenen Liste (= Spalten) ausgewählt und für die Darstellung innerhalb der Tabelle beliebig umsortiert werden.
-    Es können nur Bausteine ausgewählt werden, die in der anderen Liste verbaut worden sind. 
+    Es können nur Bausteine ausgewählt werden, die in der anderen Liste verbaut worden sind. Hier kann außerdem die Spaltenbreite angepasst werden.
 5. <span style="color:#0b5394">**Autmoatisches Erzeugen von Zeilen erlauben**</span>  
     Ist diese Option aktiv, wird die obige Funktion *Datensatz Vorbelegen* (3.) freigeschaltet.
     Hierzu ist ein Datensatz Baustein, der auf eine Stammdatenliste schaut notwendig.
