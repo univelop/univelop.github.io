@@ -10,7 +10,7 @@ has_toc: false
 
 Formeln können in Univelop vielfältig eingesetzt werden und bieten unzählige Möglichkeiten, Ihre Daten zu kombinieren, zu verarbeiten und auszugeben.
 
-Mögliche Anwendungsbeispiel von Formeln sind unter anderem: E-Mails und PDFs mit dynamischem Inhalt, Frist ausgehend von einem Datum berechnen, Summierung von Rechnungspostionen, Datenübertragung, Brutto- und Netto-Berechnung.
+Mögliche Anwendungsbeispiel von Formeln sind unter anderem: E-Mails und PDFs mit dynamischem Inhalt, Frist ausgehend von einem Datum berechnen, Summierung von Rechnungspositionen, Datenübertragung, Brutto- und Netto-Berechnung.
 
 Formeln (und die technischen Namen) werden an folgenden Stellen eingesetzt:
 - Formelbausteine
@@ -57,7 +57,7 @@ Es gibt in Univelop vier Formelbausteine:
 
 |------|-------|
 |[Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html)   |[Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html)|
-|[Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html)  |[Datumformel](/docs/record-spec-settings/grand-child-expanded/dateformular.html)|
+|[Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html)  |[Datumsformel](/docs/record-spec-settings/grand-child-expanded/dateformular.html)|
 
 ### <span style="color:#0b5394">Nutzung der Formelbausteine</span>
 
@@ -115,13 +115,13 @@ Hat man einen Zahlenbaustein mit dem Wert *21* und dem technischen Namen `zahl`,
 Formeln für dynamisch eingebundene Werte in Texten sind dank der vielseitigen Formeln möglich.
 
 Dabei können die Formeln innerhalb von Texten an beliebigen Stellen eingebunden werden.
-Direkt runtergeschrieben dürfen sie jedoch nicht sein, da unser System dies nur als Text erkennen würde.
+Direkt aufgeschrieben dürfen sie jedoch nicht sein, da unser System dies nur als Text erkennen würde.
 Formeln innerhalb von Texten müssen durch ${*Formel*} eingebunden werden:
 
 `"Der Wert des Bausteins zahl1 ist zahl1"` ist die falsche Einbindung, wo der technische Name nicht erkannt wird.
 `"Der Wert des Bausteins zahl1 ist ${zahl1}"` bindet den Wert vom Baustein zahl1 richtig ein, und wird zu "Der Wert des Bausteins zahl1 ist 21" übersetzt.
 
-Desweiteren können beliebig große Formeln eingebunden werden:
+Des Weiteren können beliebig große Formeln eingebunden werden:
 `"Der Wert des Bausteins zahl1 ist ${formatDate(zahl1 + 5, 2, false)}"` wird zu "Der Wert des Bausteins zahl1 ist 26,00" übersetzt.
 
 ## <span style="color:#0b5394">Verkettung von Formeln</span>

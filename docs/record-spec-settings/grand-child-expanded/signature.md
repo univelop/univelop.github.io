@@ -26,7 +26,7 @@ das Unterschriftsdatum ausgegeben.
 ![signature](\assets\record-spec-settings\1signature3.png "signature")
 
 Das Löschen der Unterschrift erfolgt auf gleichem Weg wie das Unterschreiben.
-Ein Klick auf das Unterschriftsfeld und anschließend über den Button "Löschen" die Erfassung
+Ein Klick auf das Unterschrifts-Feld und anschließend über den Button "Löschen" die Erfassung
 löschen. Die Erfassung der Unterschrift ist sowohl online- als auch offlinefähig.
 
 Um beim [PDF-Ausdruck](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) eines Eintrages mit Unterschrift neben dieser auch noch 

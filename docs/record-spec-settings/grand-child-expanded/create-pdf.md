@@ -15,11 +15,11 @@ neben Buchstaben und Zahlen auch Bilddateien und die Unterschrift. Zusätzlich k
 ausgegeben werden.  
 Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. [Import und Export / Dateiimport / -export via PowerShell](/docs/import-export.html#dateiimport---export-via-powershell))
 
-## <span style="color:#0b5394">Vorbereitung der Wordvorlage</span>  
+## <span style="color:#0b5394">Vorbereitung der Word-Vorlage</span>  
 
 ![create pdf](\assets\record-spec-settings\1create pdf.png "create pdf")  
 1. <span style="color:#0b5394">**Ausgabe von Einzelwerten**</span>  
-    Die Ausgabe von Einzelwerten erfolgt indem in der Wordvorlage der technische Name eines Bausteins innerhalb der
+    Die Ausgabe von Einzelwerten erfolgt indem in der Word-Vorlage der technische Name eines Bausteins innerhalb der
     zwei geschwungenen Klammern gesetzt wird. Beispiel: Rechnungsnummer ${belegnummer}.
 
 2. <span style="color:#0b5394">**Ausgabe von Schaltern**</span>  
@@ -34,22 +34,22 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
     So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
 
     |**Arbeitszeit**                         |**Mitarbeiter**|
-    |${repeat(mitarbeiterzeiten)}            |           |
-    |${mitarbeiterzeiten.Arbeitszeit}        |${mitarbeiterzeiten.name}|
+    |${repeat(mitarbeiterZeiten)}            |           |
+    |${mitarbeiterZeiten.Arbeitszeit}        |${mitarbeiterZeiten.name}|
     |${endrepeat}                            |                         |
 
-    Die gezeichnete Tabelle in der Wordvorlage kann um beliebig viele Spalten erweitert werden, solange
+    Die gezeichnete Tabelle in der Word-Vorlage kann um beliebig viele Spalten erweitert werden, solange
     diese in der Datensatz-Liste vorkommen.
 
     Verschachtelte Aufrufe des `repeat(...)` ineinander sind auch möglich. Es muss jedoch eine Liste referenziert werden, welche von der umschließenden Liste erreichbar ist (z. B. durch einen Baustein Datensatz-Liste). Auch wichtig ist, dass bei dem  `endrepeat` der Name der Liste angegeben wird, über die iteriert wird. Dadurch kann z. B. die tägliche Nutzungszeit einer Baumaschine, welche aus Einsätzen bei mehreren Kunden besteht, geordnet und mit einer Vorlage zu einem PDF-Dokument erzeugt werden.
     Eine solche Tabelle könnte wie folgt aussehen:
 
     |**Maschine**                       |**Nutzzeit**               |**Auftrag**|
-    |${repeat(maschzeiten)}             |                           |           |
-    |${maschzeiten.maschine}            |${maschzeiten.gesDauer}    |           |
-    |${repeat(maschzeiten.einsaetze)}   |                           |           |
-    |                                   |${maschzeiten.einsaetze.dauer}|${maschzeiten.einsaetze.auftrNr}|
-    |${endrepeat(maschzeiten.einsaetze)}|                           |           |
+    |${repeat(maschZeiten)}             |                           |           |
+    |${maschZeiten.maschine}            |${maschZeiten.gesDauer}    |           |
+    |${repeat(maschZeiten.einsaetze)}   |                           |           |
+    |                                   |${maschZeiten.einsaetze.dauer}|${maschZeiten.einsaetze.auftrNr}|
+    |${endrepeat(maschZeiten.einsaetze)}|                           |           |
     |${endrepeat}                       |                           |           |
 
 ## <span style="color:#0b5394">Einstellungen des Bausteins *PDF erstellen*</span>
@@ -57,10 +57,10 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 ![create pdf settings](\assets\record-spec-settings\2create pdf settings.png "create pdf settings")
 
 1. <span style="color:#0b5394">**Dateivorlage hinzufügen**</span>  
-    Über den Plus-Button öffnet sich ein Auswahldialog, worüber die Word-Vorlage ausgewählt wird. Anschließend wird
+    Über den Plus-Button öffnet sich ein Auswahl-Dialog, worüber die Word-Vorlage ausgewählt wird. Anschließend wird
     sie in den Baustein hochgeladen.
 
-2. <span style="color:#0b5394">**abweichender bzw. dynamischer Dateinahme**</span>  
+2. <span style="color:#0b5394">**abweichender bzw. dynamischer Dateiname**</span>  
     Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Soll der Dateiname zum Teil dynamisch sein
     kann ebenfalls ein Platzhalter mit Bezug zu einem Baustein eingesetzt werden. Soll die PDF-Datei zum Beispiel so
     heißen wie die Belegnummer, können Sie hier ${belegnummer} eingeben.
@@ -72,12 +72,12 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 4. <span style="color:#0b5394">**Direkter Mailversand**</span>  
     Die erstellte PDF kann über diese Funktion direkt per E-Mail versendet werden.
 
-## <span style="color:#0b5394">Einstellungen des direkten Mailversands</span>
+## <span style="color:#0b5394">Einstellungen des direkten Mail-Versands</span>
 Um eine E-Mail Adresse für den direkten Mailversand zu verwenden, benötigt der Baustein *PDF erstellen* einen Empfänger über einen [Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html), wo die entsprechende E-Mail Adresse eingetragen wird.
 Bleibt die E-Mail Adresse für den direkten Mailversand immer gleich, kann der [Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html) versteckt und als Standard-Text wird die E-Mail Adresse hinterlegt.  
-Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferaten pro Artikel, etc.) kann der benötigte [Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html), bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. [Verknüpfung über den Baustein *Datensatz*](/docs/link-lists.html)).
+Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferanten pro Artikel, etc.) kann der benötigte [Baustein *Textfeld*](/docs/record-spec-settings/grand-childs-form/text.html), bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. [Verknüpfung über den Baustein *Datensatz*](/docs/link-lists.html)).
 
-Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vergenommen werden.
+Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vorgenommen werden.
 
 ![create pdf settings](\assets\record-spec-settings\1create pdf settings.png "create pdf settings")
 

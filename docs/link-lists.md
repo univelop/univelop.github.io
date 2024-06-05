@@ -43,7 +43,7 @@ beliebig lang sein.
 |...                                |...                                    |...
 
 
-Wir sprechen bei 1:n Beziehungen gerne von Parent / Child(s) oder Mutter- & Tochterdatensätzen.
+Wir sprechen bei 1:n Beziehungen gerne von Parent / Child(s) oder Mutter- & Tochter-Datensätzen.
 Eine Firma kann mit mehreren Mitarbeitern angelegt werden, ein Lieferschein hat mehr als eine Position
 und ein Auto hat regelmäßig durchzuführende Wartungen, die anstehen.
 
@@ -120,7 +120,7 @@ Verknüpfung zu einer anderen Liste vorgenommen werden. Aus dieser Liste kann da
 
     Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
     aktiviert, werden die Daten einmalig mit der Auswahl des Datensatzes übernommen. Beim synchron halten werden
-    die Daten des Mutterdatensatzes in diesen Datensatz immer aktuell gehalten.
+    die Daten des Mutter-Datensatzes in diesen Datensatz immer aktuell gehalten.
 
     Hierbei muss in jedem Einzelfall abgewogen werden, ob die Daten synchron gehalten werden sollen oder nicht.
     Zum Beispiel zum Erstellen einer Kaufhistorie sollten die aus dem Artikel übernommenen Preise nicht synchron sein,
@@ -131,7 +131,7 @@ Verknüpfung zu einer anderen Liste vorgenommen werden. Aus dieser Liste kann da
     ![take on records + synchro](\assets\link-lists\take on records + synchro.png "take on records + synchro")
 
 3. <span style="color:#0b5394">**Funktion "Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird"**</span>  
-Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensätz gelöscht oder dupliziert, sobald der
+Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensatz gelöscht oder dupliziert, sobald der
 Hauptdatensatz gelöscht oder dupliziert wird. Wenn es sich um zusammenhängende Bewegungsdaten handelt, kann dieser Switch aktiviert
 werden, um Datenmüll zu vermeiden. Beim Beispiel des Lieferscheins und der Artikelbewegungen macht es durchaus Sinn in den 
 Artikelbewegungen im Datensatz Baustein Lieferschein diesen Schalter zu aktivieren, damit die Bewegungen gelöscht werden, sobald der

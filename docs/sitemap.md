@@ -50,7 +50,7 @@ nav_order: 1
     - [Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)
     - [Datensätze](/docs/record-spec-settings/grand-child-expanded/records.html)
     - [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-    - [Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)
+    - [Datensatz sperren](/docs/record-spec-settings/grand-child-expanded/lock.html)
     - [Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)
     - [Status](/docs/record-spec-settings/grand-child-expanded/status.html)
     - [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html)

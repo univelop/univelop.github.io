@@ -34,7 +34,7 @@ wird der Baustein unter "Verknüpfung mit" mit der Kachel "Zeiterfassung" verbun
 Zeiterfassung über den aktuell aufgerufenen Datensatz (Mitarbeiter) verknüpft, also die Zeiten pro Mitarbeiter.
 In den Einstellung des
 [Bausteins *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-sollte nun "Summe statt Anzahl anzeigen" ausegwählt und zusätzlich "Summe über Arbeitszeit" ausgewählt werden. Das
+sollte nun "Summe statt Anzahl anzeigen" ausgewählt und zusätzlich "Summe über Arbeitszeit" ausgewählt werden. Das
 Summen Suffix könnte Std. benannt werden. Anhand dieser Einstellungen werden nun alle Arbeitszeiten pro Mitarbeiter
 in der Mitarbeiterliste angezeigt.
 

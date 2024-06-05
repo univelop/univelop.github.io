@@ -26,12 +26,12 @@ Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 |[Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html) |[Timer](/docs/record-spec-settings/grand-childs-form/timer.html) |[Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)  
 |[Team](/docs/record-spec-settings/grand-childs-form/team.html) |[Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html) |[Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) 
 |[E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html) |[Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html) |[Adresse](/docs/record-spec-settings/grand-childs-form/address.html) 
-|[Abmessugnen](/docs/record-spec-settings/grand-childs-form/measure.html)
+|[Abmessungen](/docs/record-spec-settings/grand-childs-form/measure.html)
 
 ||*Erweitert*||
 |:------:       |:------:               |:------:
 |[Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)     |[Datensätze](/docs/record-spec-settings/grand-child-expanded/records.html)       |[Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html) 
-|[Freigabe](/docs/record-spec-settings/grand-child-expanded/lock.html)   |[Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)   |[Status](/docs/record-spec-settings/grand-child-expanded/status.html)              
+|[Datensatz sperren](/docs/record-spec-settings/grand-child-expanded/lock.html)   |[Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)   |[Status](/docs/record-spec-settings/grand-child-expanded/status.html)              
 |[Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html) |[Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html) |[Terminplaner](/docs/record-spec-settings/grand-child-expanded/scheduler.html) 
 |[Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)  |[Matrix](/docs/record-spec-settings/grand-child-expanded/matrix.html) |[Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html) 
 |[Workflow](/docs/record-spec-settings/grand-child-expanded/workflow.html) |[Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)  |[Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html) 

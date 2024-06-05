@@ -8,8 +8,9 @@ nav_order: 3
 
 # <span style="color:#0b5394"><span class="material-icons">view_list</span> **Baustein *Datensatz Liste***</span>
 
-Der Baustein *Datensatz Liste* sorgt für eine Mehrfachverknüpfung mit einer anderen Liste.
+Der Baustein *Datensatz Liste* zeigt beliebige Einträge einer Liste an.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
+Entweder zeigt sie alle Einträge einer Liste an, die die eingestellten Filter erfüllen, oder solche Einträge, die mit dem aktuellen Datensatz explizit verbunden sind.
 In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein, 
 eine einfache Verknüpfung mit einer anderen Liste wählen.
 
@@ -58,7 +59,7 @@ Aktiviert man die Schnellerfassung, rutscht das + zum Anlegen neuer Datensätze 
 nach unten und man kann in einer Vorschau den neuen Datensatz erfassen, statt dass dieser 
 geöffnet wird. Bausteine der verknüpften Liste könnten für die Schnellerfassung ausgeblendet werden.
 
-Weiterhin könnte der Erfassungsbutton ausgeblendet werden und der Button zur Detailansicht kann
+Weiterhin könnte der Erfassungs-Button ausgeblendet werden und der Button zur Detailansicht kann
 versteckt werden. Dies sind Sicherheitseinstellungen, damit Personen ohne Berechtigungen a keine Datensätze
 erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen können.
 

@@ -8,8 +8,8 @@ nav_order: 1
 
 # <span style="color:#0b5394"><span class="material-icons">text_fields</span> **Baustein *Textfeld***</span>
 
-Mit dem Baustein *Textfeld* können beliebige alphanummerische Inhalte erfasst werden.
-Für wichtige Vermerke kann über die Einstellungen der Text in rot dargestellt werden.  
+Mit dem Baustein *Textfeld* können beliebige textuelle Inhalte erfasst werden.
+Für wichtige Vermerke kann der Text über die Einstellungen in rot dargestellt werden.  
 
 ![text](\assets\record-spec-settings\1text.png "text")
 

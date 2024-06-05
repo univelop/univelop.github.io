@@ -15,7 +15,7 @@ In der Tabelle gibt es folgende Funktionalitäten:
 
 ![table1](\assets\record-spec-settings\1table1.png "table1")
 
-1. <span style="color:#0b5394">**Öffnen des gesamten Listeneintrages / Datensatzes**</span>
+1. <span style="color:#0b5394">**Öffnen des gesamten Listeneintrags / Datensatzes**</span>
 2. <span style="color:#0b5394">**Optionen zum Eintrag**</span>  
     Bei Klick auf das Icon öffnen sich die Optionen, den Eintrag zu duplizieren oder zu löschen.
 3. <span style="color:#0b5394">**Neue Zeile**</span> 
@@ -45,7 +45,7 @@ Folgende Einstellungen bietet die Tabelle:
 4. <span style="color:#0b5394">**Bausteine für Tabelle**</span>  
     Für jede Tabelle können beliebige Bausteine der verbundenen Liste (= Spalten) ausgewählt und für die Darstellung innerhalb der Tabelle beliebig umsortiert werden.
     Es können nur Bausteine ausgewählt werden, die in der anderen Liste verbaut worden sind. Hier kann außerdem die Spaltenbreite angepasst werden.
-5. <span style="color:#0b5394">**Autmoatisches Erzeugen von Zeilen erlauben**</span>  
+5. <span style="color:#0b5394">**Automatisches Erzeugen von Zeilen erlauben**</span>  
     Ist diese Option aktiv, wird die obige Funktion *Datensatz Vorbelegen* (3.) freigeschaltet.
     Hierzu ist ein Datensatz Baustein, der auf eine Stammdatenliste schaut notwendig.
 6. <span style="color:#0b5394">**Filter und Sortierung beim Erzeugen**</span>

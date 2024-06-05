@@ -28,7 +28,7 @@ Der Designmodus der App wurde von uns neu designt. Dieser ist jetzt simpler gest
 
 ## <span style="color:#0b5394">**Wertübernahme bei Baustein *Datensatz***</span>  
 
-Um bei der Wertübernahme mehr Möglichkeiten zu bieten, haben wir diese auf mehrere Bausteine erweitert. So können bspw. Werte aus Formelbausteinen in deren Pendants übernommen werden (Datumsformel zu Baustein *Datum*) oder auch vom Baustein *Freigabe* zum Baustein *Schalter*.
+Um bei der Wertübernahme mehr Möglichkeiten zu bieten, haben wir diese auf mehrere Bausteine erweitert. So können bspw. Werte aus Formelbausteinen in deren Pendants übernommen werden (Datumsformel zu Baustein *Datum*) oder auch vom Baustein *Datensatz sperren* zum Baustein *Schalter*.
 
 ## <span style="color:#0b5394">**Workflow-Baustein *Genehmigung anfordern***</span>  
 

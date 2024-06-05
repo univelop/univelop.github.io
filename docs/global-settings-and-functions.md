@@ -35,7 +35,7 @@ Neue Mitglieder/Benutzer können über den Button auf drei Wege dem Arbeitsberei
     ![new member](\assets\global-settings-and-functions\new member.png "new member")
 
 3. <span style="color:#0b5394">**Neuer Benutzer durch Import anlegen**</span>  
-    Durch den [Import einer Excelliste der Mitglieder](/docs/import-export.html#im--und-export-von-mitgliedern) können auch neue Nutzer hinzugefügt werden.
+    Durch den [Import einer Excel Liste der Mitglieder](/docs/import-export.html#im--und-export-von-mitgliedern) können auch neue Nutzer hinzugefügt werden.
 
 Neue Mitglieder werden immer der definierten Standardrolle zugeordnet. Andere Benutzerrollen
 oder -teams müssen über die Mitgliederverwaltung entsprechend angepasst werden.
@@ -55,7 +55,7 @@ Durch das Klicken auf eine Rollen sehen Sie den Namen, die Einstellung Standardr
 unterhalb davon die Rechte der Rolle und Sie haben die Möglichkeit die Rolle über die drei Punkte
 oben rechts zu löschen oder zu duplizieren (wenn es ähnliche Rollen gibt).
 
-Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Adminstrator" bzw.
+Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Administrator" bzw.
 "Besitzer" automatisch die neuen Rollen zugeteilt, da diese grundsätzlich über alle Funktionalitäten
 des Arbeitsbereichs verfügen sollen.
 
@@ -75,7 +75,7 @@ Zudem besteht die Möglichkeit über den
 [Baustein *Team*](/docs/record-spec-settings/grand-childs-form/team.html)
 einem Datensatz ein Benutzerteam zuzuweisen.
 
-Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Adminstrator" bzw.
+Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der Rolle "Administrator" bzw.
 "Besitzer" automatisch die neuen Rollen zugeteilt, da diese grundsätzlich über alle Funktionalitäten
 des Arbeitsbereichs verfügen sollen.
 
@@ -85,7 +85,7 @@ des Arbeitsbereichs verfügen sollen.
 Benutzern einer Arbeitsumgebung können mehrere Rollen und/oder Teams zugeordnet werden. Das hat den Vorteil
 das Benutzer vertretungsweise eine andere Ansicht in Univelop einnehmen kann, ohne dass sämtliche
 Rechteeinstellungen innerhalb der Kachel/Bausteinen dafür geändert werden müssen.
-Für die Mehrfachzuordnung müssen die entsprechenden Rollen und/oder Teams im Vorwege in der Arbeitsumgebung
+Für die Mehrfachzuordnung müssen die entsprechenden Rollen und/oder Teams im Vorweg in der Arbeitsumgebung
 angelegt werden. In der Mitgliederverwaltung sind die einzelnen Benutzer des Arbeitsbereichs aufgelistet.
 Auf Klick auf einen Benutzer öffnet sich die Detailansicht, wo die Zuordnung der einzelnen Rollen und/oder
 Teams vorgenommen werden kann (Administratoren und Besitzer dürfen Rollen/Teams zuordnen). Anschließend
@@ -120,7 +120,7 @@ Folgende weitere Einstellungen können vorgenommen werden:
 - <span style="color:#0b5394">**Eingeschränkt**</span>  
     Inhalt der
     [Kachel](/docs/software-structure.html#kacheln)
-    wird anhand des vorgebenen Filters angezeigt.
+    wird anhand des vorgegebenen Filters angezeigt.
     Es gibt die normalen *Filter*, sowie die *Bedingungen*.
     Die letzteren Beziehen sich auf die [Mitgliederkachel](/docs/software-structure.html#-kachel-mitglieder).
     Darunter kann eingestellt werden, welche konkreten Werte im Eintrag des Mitgliedes vorliegen.
@@ -135,7 +135,7 @@ Folgende weitere Einstellungen können vorgenommen werden:
 - <span style="color:#0b5394">**Keine**</span>  
     Die Kachel ist für die jeweilige Benutzerrolle nicht sichtbar.  
     Beim Zugriff auf "Keine" ist die [Kachel](/docs/software-structure.html#kacheln)
-    für die Rolle nicht sichbar und Datensätze und
+    für die Rolle nicht sichtbar und Datensätze und
     [Datensatzverknüpfungen](/docs/link-lists.html)
     können nicht ausgewählt werden. Wenn partielle Zugriffe auf Einträge eines Datensatzes unsichtbar
     geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein versteckt wird und unter

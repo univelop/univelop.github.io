@@ -41,4 +41,4 @@ kann diese geändert und angepasst werden wie die Mitarbeiterdaten entsprechend 
 Weitere Funktionen finden Sie in den nachfolgenden Abschnitten.
 
 **Beispielergebnis:**
-![example eomployee list](\assets\tutorials\example employee list.png "example employee list")
+![example employee list](\assets\tutorials\example employee list.png "example employee list")

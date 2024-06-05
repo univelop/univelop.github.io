@@ -32,7 +32,7 @@ Eine zusätzliche Einstellung ist die Anzeige des Badges in den einzelnen Tagen 
     Verweis auf den [Baustein *Datum*](/docs/record-spec-settings/grand-childs-form/date.html) für die Zuordnung der einzelnen Tage
 
 4. <span style="color:#0b5394">**Anzahl der Vorschau**</span>  
-    Einstellung der Anzahl der Vorschaudatensätze
+    Einstellung der Anzahl der Datensätze zur Vorschau
 
 5. <span style="color:#0b5394">**Einstellung des Badges**</span>  
     Die Badges werden in den Tagen angezeigt, in denen der Baustein *Kalender* Einträge gefunden hat. Folgende Einstellungen sind möglich:

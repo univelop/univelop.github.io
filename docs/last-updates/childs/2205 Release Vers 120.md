@@ -47,7 +47,7 @@ Altbekannterweise konnten Rollen und Teams über das Zahnrad gewechselt werden. 
 - Administratoren können Kacheln anderer Benutzer einsehen und bearbeiten inkl. Namensbezug
 - IN-Filter (Oder-Auswahl) wurde optimiert
 - Darstellung von Univelop auf großen Bildschirmen wurde verbessert
-- Prüfung versteckter Bausteine bei Nutzung des [Bausteins *Freigabe*](/docs/record-spec-settings/grand-child-expanded/lock.html) wurde optimiert
+- Prüfung versteckter Bausteine bei Nutzung des [Bausteins *Datensatz sperren*](/docs/record-spec-settings/grand-child-expanded/lock.html) wurde optimiert
 - [Unterschriften](/docs/record-spec-settings/grand-child-expanded/signature.html) können im Offline-Modus eingeholt werden
 - Einzelne User können sich globale Kacheln ausblenden lassen
 - Weitere Performanceverbesserungen

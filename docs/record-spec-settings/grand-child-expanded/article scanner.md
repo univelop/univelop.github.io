@@ -13,14 +13,14 @@ Der Baustein *Artikel Scanner* bietet die Möglichkeit mittels eines entsprechen
 ## <span style="color:#0b5394">Technische Voraussetzungen und benötigte Kacheln</span>  
 Der Baustein *Artikel Scanner* ist **nicht** mit einer herkömmlichen Smartphonekamera bedienbar und auf dem eingesetzten Endgerät muss die Univelop-App installiert werden können (Betriebssysteme: Android oder iOS).
 
-Für einen einwandfreien Scannermodus muss das eingesetzte Endgerät so konfiguriert sein/werden, dass es nach dem Scanvorgang einen automatischen Tab oder Enter ausführt, um die benötigte Suchfunktion auszulösen. Am Beispiel eines Honeywell-Endgeräts in einer Lager-Arbeitsumgebung wurde in den Einstellungen des Gerätes der Befehl /t ergänzt, um den automatischen Tab nach dem Scanvorgang auszulösen.  
+Für einen einwandfreien Scanner-Modus muss das eingesetzte Endgerät so konfiguriert sein/werden, dass es nach dem Scanvorgang einen automatischen Tab oder Enter ausführt, um die benötigte Suchfunktion auszulösen. Am Beispiel eines Honeywell-Endgeräts in einer Lager-Arbeitsumgebung wurde in den Einstellungen des Gerätes der Befehl /t ergänzt, um den automatischen Tab nach dem Scanvorgang auszulösen.  
 Wo und wie die Einstellungen eines jeweiligen Gerätes zu finden sind, steht i. d. R. in den Dokumentationen der einzelnen Hersteller. Dazu kann im Internet z. B. nach "Scanner - (Modell- und Herstellername) - Suffix Enter" gesucht werden.
 
 **Beispiel:**
 [Link: Hinzufügen/Entfernen eines Suffix auf einem Android-Endgerät mit CommonES (Honeywell)](https://honeywellaidc.force.com/supportppr/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater)  
 Durch den Klick auf den Link verlässt man UnivelopDocs und wechselt zu der Website der Honeywell Support-Community.
 
-Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins *Artikel Scanner* werden ebenfalls zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modis, die entsprechend der Anforderung ausgewählt werden können.
+Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins *Artikel Scanner* werden ebenfalls zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modi, die entsprechend der Anforderung ausgewählt werden können.
 
 ## <span style="color:#0b5394">Modus "Artikel hinzufügen"</span>  
 In den Bausteineinstellungen sind die Kacheln für "Verknüpfung mit" und "Verknüpfung über" einzustellen (Beispiel: "Verknüpfung
@@ -28,7 +28,7 @@ mit" = Artikelbewegung, "Verknüpfung über" = Warenausgang)
 Anschließend wird der entsprechende Modus ausgewählt (in diesem Fall "Artikel hinzufügen").
 Im nächsten Schritt kann eine Menge vorbelegt werden, die als Platzhalter dient und von dem ausführenden Mitarbeiter überschrieben werden kann. Zusätzlich wird noch der Mengenbaustein angegeben. Bei Bedarf kann auch ein weiterer Mengenbaustein hinzugefügt werden.
 
-Anschließend wird der hinzugefügte Artikelbaustein verwendet, der über die ausgewählte Kachel bei "Verknüpfung über" ausgewählt wird.
+Anschließend wird der hinzugefügte Artikel-Baustein verwendet, der über die ausgewählte Kachel bei "Verknüpfung über" ausgewählt wird.
 
  ![article scanner filter1](\assets\record-spec-settings\article scanner filter1.png "article scanner filter1")  
 
@@ -76,7 +76,7 @@ Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elekt
 ![article scanner add article](\assets\record-spec-settings\article scanner add article.png "article scanner add article")
 
 ## <span style="color:#0b5394">Modus "Artikel abarbeiten"</span>  
-Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzufügen". In dem Modus "Artikel abarbeiten" besteht die Möglichkeit Mengen aufzusummieren, statt zu überschreiben. Diese Einstellung hat zur Folge, dass z. B. vier Mengeneinheiten ausgegeben werden sollen, verteilt jedoch auf zwei Lagerläufe (erster Lauf: 3 Mengeneinheiten ausgegeben, zweiter Lauf: 1 Mengeneinheiten ausgegeben). In dieser Einstellung wird die Menge nicht überschrieben, sondern in Summe die auzugebende Menge aufgezeigt.
+Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzufügen". In dem Modus "Artikel abarbeiten" besteht die Möglichkeit Mengen aufzusummieren, statt zu überschreiben. Diese Einstellung hat zur Folge, dass z. B. vier Mengeneinheiten ausgegeben werden sollen, verteilt jedoch auf zwei Lagerläufe (erster Lauf: 3 Mengeneinheiten ausgegeben, zweiter Lauf: 1 Mengeneinheiten ausgegeben). In dieser Einstellung wird die Menge nicht überschrieben, sondern in Summe die auszugebende Menge aufgezeigt.
 
 Die Warenausgabe benötigt einen [Baustein *Datensatz Liste*](/docs/record-spec-settings/grand-child-expanded/record-list.html) der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
 
@@ -139,7 +139,7 @@ Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher B
     Über das Scan-Icon vor dem Artikel kann der Scanvorgang noch einmal vorgenommen werden (s. 7.)
 6. <span style="color:#0b5394">**Lagerplatz (zusätzlicher Scannerbaustein)**</span>  
     Hier wird der zusätzlich Scannerbaustein angezeigt, der in den Einstellungen hinzugefügt wurde.
-7. <span style="color:#0b5394">**Kennzeichnung erwarterter Scan**</span>  
+7. <span style="color:#0b5394">**Kennzeichnung erwarteter Scan**</span>  
     Das vorangestellte Icon wird entweder in blau oder in schwarz angezeigt. Die Farbe blau gibt an, dass der nächste Scan dieses Feld ansteuern wird. Möchte man allerdings zuerst den zweiten Scannerbaustein abscannen (hier Lagerplatz), kann mit einem Klick auf das Icon der Scanvorgang verschoben werden.
 8. <span style="color:#0b5394">**Bestätigen und schließen**</span>  
     Führt dazu, dass der Scanvorgang abgeschlossen und das Scanfenster verlassen wird

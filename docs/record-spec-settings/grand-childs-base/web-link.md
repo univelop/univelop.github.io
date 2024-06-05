@@ -17,4 +17,4 @@ Pfad verweisen, zum Beispiel die eigenen allgemeinen Geschäftsbedingungen.
 Der Link benötigt immer ein www. und die .Endung (.de, .com, .org, etc.). Das Präfix "http(s)://" wird immer
 automatisch durch das System vorbelegt.
 
-Sämtliche erweiterte Einstellungen, sowie die Iconvergabe sind möglich.
+Sämtliche erweiterte Einstellungen, sowie die Icon-Vergabe sind möglich.

@@ -11,7 +11,7 @@ nav_order: 26
 Der Baustein *Änderungsprotokoll* zeichnet alle Änderungen auf, die in einem Eintrag vorgenommen wurden.
 Wird in einer "Unterliste" die Einstellung "Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz
 gelöscht oder dupliziert wird" aktiviert, dann ist das Änderungsprotokoll dieser Unterliste über den
-Mutterdatensatz zu finden. Ein entsprechender Hinweis erscheint im Änderungsprotokoll des Tochterdatensatzes.
+Mutter-Datensatz zu finden. Ein entsprechender Hinweis erscheint im Änderungsprotokoll des Tochter-Datensatzes.
 
 Das Änderungsprotokoll kann auch nachträglich eingefügt werden. Bisherige Änderungen im Datensatz werden protokolliert
 und beim nachträglichen Einfügen hinzugefügt.

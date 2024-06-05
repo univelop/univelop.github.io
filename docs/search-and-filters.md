@@ -59,7 +59,7 @@ Wenn ich also zwei Filter mit Mitarbeiter/in = Herr Meyer und Mitarbeiter/in = F
 Wenn ich stattdessen beide im "in" (Oder) Filter verwende, kann ich sie kombinieren und mir beide Ergebnisse anzeigen lassen.
 
 Ein einzelner Filter besteht aus 3 Feldern: 
-Einem linken Feld, in welches der zu filterne Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, in welches der Filterwert eingetragen wird.
+Einem linken Feld, in welches der zu filternde Baustein gewählt wird, einem mittleren Feld für den Operator und dem rechten Feld, in welches der Filterwert eingetragen wird.
 Die Bausteine werden im linken Feld in der "verbauten" Reihenfolge angezeigt.
 Für die Filterung von Daten können die Operatoren <, >, <=, >=, = oder IN (*Oder*) in die
 entsprechenden Filter gesetzt werden.
@@ -68,7 +68,7 @@ exklusive (<, >) oder inklusive (<=, >=) dem Filterwert.
 
 Braucht es eine Prüfung auf Gleichheit mit *einem* von mehreren Werten, kann der *IN-Filter* genutzt werden.
 Der *IN-Filter* kann auch als ODER Filter verstanden werden. Eine der Bedingungen des Filter muss erfüllt werden.
-Für den Filterwert können beliebig viele Werte angegeben werden, welche bausteinabhängig entweder mit Komma und darauffolgendem Leerzeichen getrennt werden müssen,
+Für den Filterwert können beliebig viele Werte angegeben werden, welche abhängig vom Baustein entweder mit Komma und darauffolgendem Leerzeichen getrennt werden müssen,
 oder durch Checkboxen auswählbar sind.
 Durch den *IN-Filter* kann man z. B. Einträge filtern, die bei einem Status-Baustein einen von mehreren Zuständen haben.
 Suche ich nach abgeschlossenen Aufträgen, könnten die Stati "Fertig" und "Abgerechnet" meinem IN Filter entsprechen.
@@ -88,7 +88,7 @@ Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
 ## Besondere Datumsfilter: ##
 
 Bei einem Datum kann nicht mehr nur noch auf einen genauen Datumswert (z.B. 01.10.2023) gefiltert werden, sondern auch auf die Woche oder den Monat.
-So ist es möglich mit = Operatoren eine Zeitspanne zu erfiltern, die theoretisch > und < Operatoren benötigen würde.
+So ist es möglich mit = Operatoren eine Zeitspanne zu filtern, die theoretisch > und < Operatoren benötigen würde.
 Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Datum - Monat angezeigt (Sofern das Feld Datum heißt).
 Das Jahr kann mittels Textformel ermittelt werden. Wenn das Datumsfeld Datum heißt, wäre der Ausdruck in der Formel formatDate(datum,'yyyy')
 
@@ -125,7 +125,7 @@ Wir empfehlen, verschiedene Kombinationen von Filtern auszuprobieren, um die bes
 
 ## <span style="color:#0b5394">Suche konnte nicht ausgeführt werden</span>
 
-Bei der Verwendung von spezifischen Filterkombinationen, kann die Suche nicht richtig ausgeführt werden. Es erscheit folgende Meldung:
+Bei der Verwendung von spezifischen Filterkombinationen, kann die Suche nicht richtig ausgeführt werden. Es erscheint folgende Meldung:
 
 ![Suche konnte nicht ausgeführt werden](\assets\search-and-filters\ugly-search.png)
 

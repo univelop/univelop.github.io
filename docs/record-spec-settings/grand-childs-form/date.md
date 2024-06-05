@@ -23,4 +23,4 @@ Ist hier bspw. der 15.06.2021 angegeben, kann im Baustein kein Datum vor dem 15.
 Die Einstellung *spätestmögliches Datum* gibt das letztmögliche Datum an.
 Ist hier bspw. der 16.06.2021 angegeben, kann im Baustein kein Datum nach dem 16.06.2021 gewählt werden.
 Sind beide Einstellungen wie genannt gesetzt, können nur der 15.06.2021 und der 16.06.2021 gewählt werden.
-Beide Einstellungen sind als Datumsformel anzugeben. Somit kann z.B. für die Beantragung von Urlaub die Datumseingabe auf Daten beschränkt werden, die mindestens 30 Tage im Voraus liegen, aber noch im selben Jahr liegen.
+Beide Einstellungen sind als Datumsformel anzugeben. Somit kann z.B. für die Beantragung von Urlaub die Datumsangabe auf Tage beschränkt werden, die mindestens 30 Tage im Voraus, aber noch im selben Jahr liegen.

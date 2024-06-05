@@ -47,7 +47,7 @@ Dieser wird in den Einstellungen der Kachel ausgewählt.
 
 ## <span style="color:#0b5394">**Workflow-Baustein *Aktion ausführen***</span>  
 
-Mit der neuen Version können Funktionen spezieller Bausteine, wie dem Baustein *Freigabe*, nun in Workflows genutzt werden.
+Mit der neuen Version können Funktionen spezieller Bausteine, wie dem Baustein *Datensatz sperren*, nun in Workflows genutzt werden.
 Der [Workflow-Baustein *Aktion ausführen*](/docs/workflows/grand-childs-bricks/run-action.html) ermöglicht es, einen Baustein aus einem Eintrag zu wählen, dessen Aktion dann im Workflow ausgeführt wird.
 So können bspw. erfasste Arbeitszeiten des letzten Monats bequem und automatisch freigegeben oder eine Menge von Anträgen, 
 dessen Antragsdatum länger zurück liegt, in den Status *Abgelaufen* versetzt werden.

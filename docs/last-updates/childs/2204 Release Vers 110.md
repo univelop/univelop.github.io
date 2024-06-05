@@ -29,5 +29,5 @@ Wie viele von euch feststellten, kam es in der letzten Zeit hin und wieder zu Ab
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>  
 - [Baustein *Datei*](/docs/record-spec-settings/grand-childs-base/file.html) - Vorschauansicht wird beim Hinzufügen/Löschen von einer Datei jetzt aktualisiert
-- [Baustein *Freigabe*](/docs/record-spec-settings/grand-child-expanded/lock.html) wurde erweitert mit zusätzlichen Prüfpunkten (z. B. nachträgliches Löschen von Pflichtangaben, etc.)
+- [Baustein *Datensatz sperren*](/docs/record-spec-settings/grand-child-expanded/lock.html) wurde erweitert mit zusätzlichen Prüfpunkten (z. B. nachträgliches Löschen von Pflichtangaben, etc.)
 - [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html) ist das Scrollen per Maus wieder möglich

@@ -39,7 +39,7 @@ Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, 
 2. <span style="color:#0b5394">**Ressource**</span>  
     Verbundener Datensatz, für den primär die Buchungen erstellt werden. Will man bspw. seine Mitarbeiter planen, sollte man hier die Kachel 'Mitarbeiter' wählen.
 3. <span style="color:#0b5394">**Ressource Filter und Sortierung**</span>  
-    Einschränken der angezeigten Ressourcen sowie die Anzeigereihenfolge im *Terminplaner*.
+    Einschränken der angezeigten Ressourcen sowie die Anzeige-Reihenfolge im *Terminplaner*.
 4. <span style="color:#0b5394">**Buchungen**</span>
     Die Datensätze, die geplant werden sollen. Bspw. können dies die Einsätze oder Arbeitszeiten von Mitarbeitern sein.  
 5. <span style="color:#0b5394">**Verknüpfung über**</span>    

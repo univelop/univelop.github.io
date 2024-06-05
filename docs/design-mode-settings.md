@@ -37,7 +37,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
 2. <span style="color:#0b5394">**Kachel *Gefilterte Liste***</span>  
     Eine Filterkachel bezieht sich auf eine bereits existierende Kachel / Liste. Diese Filterkachel
     stellt im Standard beim Hinzufügen alle Inhalte dar. Markiert man die Kachel und wählt über die
-    Kacheleinstellung *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen und reduziert
+    Kacheleinstellungen *Filter und Sortierung* aus, kann sich auf bestimmte Inhalte bezogen und reduziert
     dargestellt werden. Zum Beispiel offene Aufträge (Status offen), ToDos dieser Monat (s.
     [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
     ).
@@ -58,7 +58,7 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
     Universal-Umgebung vorhanden sind, welche auf andere Arbeitsbereiche ausgerollt werden sollen. 
     Darüber hinaus können so gleiche Einstellungen übernommen werden.
 
-6. <span style="color:#0b5394">**Administratorenansicht "Kacheln anderer Benutzer"**</span>  
+6. <span style="color:#0b5394">**Admin-Ansicht "Kacheln anderer Benutzer"**</span>  
     Besitzt ein Benutzer die Rolle "Administrator", hat er das Recht, alle erstellten Kacheln der anderen Benutzer einzusehen
     und zu bearbeiten. Mit einem Klick auf eine Benutzerkachel stehen dem Administrator auch hier alle gewohnten Einstellungs-
     möglichkeiten zur Verfügung. Sind zum Beispiel Standard-Kacheln auf eine Gruppe Benutzer verteilt und an diesen Kacheln
@@ -259,7 +259,7 @@ befinden sich vier Symbole:
     Einzelfall der Erfassung zu reduzieren.
 
     - **Duplizieren und Löschen**  
-    Beim Duplizeren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
+    Beim Duplizieren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
     ursprüngliche technische Name mit dem Zusatz "2" versehen und sollte nach dem Duplizieren abgeändert werden.
 
     - **Baustein sperren/entsperren**

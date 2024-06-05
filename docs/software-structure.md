@@ -70,7 +70,7 @@ Alle Bausteine aus dieser Kachel können bei den [Rechten](/docs/global-settings
 ### <span style="color:#3d85c6"> Kachel "Website"</span>
 
 Die Kachel *Website* ermöglicht die Einbindung einer Website direkt in Univelop ohne die Nutzung eines separaten
-Browers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten
+Webbrowsers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten
 Tools, usw.
 
 ![tile website](\assets\software-structure\tile website.png "tile website")
@@ -96,7 +96,7 @@ Es gibt folgende Einstellungen für eine individuelle Formular-Funktion:
 2. <span style="color:#0b5394">**Bezeichnung des Absende-Buttons**</span>  
     Dieser Text wird als Tooltip für den Absende-Button angezeigt
 3. <span style="color:#0b5394">**Icon für den Absende-Button**</span> 
-4. <span style="color:#0b5394">**Bestätigunsnachricht**</span>  
+4. <span style="color:#0b5394">**Bestätigungsnachricht**</span>  
     Bei erfolgreichem Absenden des Formulars erscheint der angegebene Text als Nachricht auf dem Bildschirm
 5. <span style="color:#0b5394">**Mehrmaliges Absenden pro Benutzer verbieten**</span>
 6. <span style="color:#0b5394">**Workflow starten/bearbeiten**</span>
@@ -107,7 +107,7 @@ Die typischen Einstellungsmöglichkeiten anderer Kacheltypen, wie z.B. die Kache
 
 ### <span style="color:#3d85c6"> Kachel "Scanner"</span>
 
-Die Kachel dient dem Scannen von QR-Codes mit Mobilgeräten und auch Barcodes mit Scannergeräten. Dadurch kannn nur mit einem Scan ein passender Eintrag oder eine Menge von Einträgen gefunden werden.
+Die Kachel dient dem Scannen von QR-Codes mit Mobilgeräten und auch Barcodes mit Scannergeräten. Dadurch kann nur mit einem Scan ein passender Eintrag oder eine Menge von Einträgen gefunden werden.
 Beim Anlegen wird sie mit einer Kachel verbunden, dessen Einträge dann durch das Scannen gefunden werden können.
 
 Es gibt folgende Einstellungen für den Scanner:
@@ -127,7 +127,7 @@ Die üblichen Einstellmöglichkeiten für das Aussehen der Kachel gibt es beim S
 Die Kachel dient dem Gruppieren von mehreren Kacheln und dem aufräumen vom Homescreen.
 Es können beliebige Kacheln in den Ordner untergebracht werden.
 
-Die Ordnerkachel funktioniert analog zum Appordner auf dem Homescreen des Smartphones.
+Die Ordnerkachel funktioniert analog zum App-Ordner auf dem Homescreen des Smartphones.
 Hier werden nur die Kacheln in den Ordner nicht per Drag-and-Drop verschoben, 
 sondern in den Einstellungen der Ordnerkachel aus der Kachelliste ausgewählt.
 
@@ -135,7 +135,7 @@ sondern in den Einstellungen der Ordnerkachel aus der Kachelliste ausgewählt.
 
 Die Kachel ist die symbolische Darstellung einer Liste, also der Inhalt dieser Kachel. Wird eine Kachel aufgerufen,
 wird zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht) angezeigt. Wird anschließend
-ein Listeneintrag ausgewählt, wird der entsprechende Datesnatz angezeigt. 
+ein Listeneintrag ausgewählt, wird der entsprechende Datensatz angezeigt. 
 
 ## <span style="color:#0b5394">Einträge</span>
 

@@ -24,7 +24,7 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 
 ## <span style="color:#0b5394">**Textformeln**</span>
 
-| Formel | Beschreibung | Beispiel | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+| Formel | Beschreibung | Beispiel | Eingabewerte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |------|------|------|------|------|
 | `randomString(length)` | Erzeugt eine zufällige Zeichenkette mit gegebener Länge (bestehend aus Kleinbuchstaben und Zahlen) | `randomString(10)` liefert "f49gf623bk" | 1. Wert: Zahl | Text |
 | `toText(element)` | Wandelt einen nicht textuellen Wert (Zahlen, dynamische Werte, Datum, Objekte) in eine textuelle Darstellung des Wertes um | `toText(12)` liefert "12" | 1. Wert: nicht-textueller Wert | Text |
@@ -36,11 +36,11 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 | `basicAuth(username, password)` | Verschlüsselt Nutzername und Passwort | `basicAuth("name", "1234")` liefert "Basic bmFtZToxMjM0" | 1. Wert: Text, 2. Wert: Text | Text |
 | `toUpperCase(text)` | Konvertiert den gegebenen Text auf Großbuchstaben | `toUpperCase("Hallo Welt!")` liefert "HALLO WELT!" | 1. Wert: Text | Text |
 | `toLowerCase(text)` | Konvertiert den gegebenen Text auf Kleinbuchstaben | `toLowerCase("Hallo Welt!")` liefert "hallo welt!" | 1. Wert: Text | Text |
-| `formatNumber(number, decimalCount, thousandSeparator)` | Formatiert die Nummber zu gewünschtem Format und gibt diese als Text aus |  `formatNumber(1000,3,true)` liefert "1.000,000" | 1. Wert: Zahl, 2. Wert: Zahl, 3. Wert: Ja/Nein | Text | 
+| `formatNumber(number, decimalCount, thousandSeparator)` | Formatiert die Nummer zu gewünschtem Format und gibt diese als Text aus |  `formatNumber(1000,3,true)` liefert "1.000,000" | 1. Wert: Zahl, 2. Wert: Zahl, 3. Wert: Ja/Nein | Text | 
 
 ## <span style="color:#0b5394">**Textbezogene Formeln**</span>
 
-| Formel | Beschreibung | Beispiel | Einzugebene Werte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
+| Formel | Beschreibung | Beispiel | Eingabewerte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |------|------|------|------|------|
 | `contains(text, find)` | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist. | `contains("Hallo du","du")` liefert *true* | 1. Wert: Text, 2. Wert: Text | Ja/Nein |
 | `textLength(text)` |  Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus | `textLength("Hallo Welt!")` liefert *11* | 1. Wert: Text | Zahl | 

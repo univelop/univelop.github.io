@@ -20,7 +20,7 @@ Die *Formular* Kachel wird mit einer einfachen Liste verbunden, in der dann die 
 Bausteine, die mehrere Daten beinhalten, werden in der neuen Version detaillierter ausgegeben. Es wird z. B. der [Zeitspannen Baustein](/docs/record-spec-settings/grand-childs-form/interval.html) beim [Export](/docs/import-export.html#datensätze-und-inhalte), statt einer einzigen, in mehrere Spalten aufgeteilt. So können die benötigten Daten, wie die gesamte Arbeitszeit, einfach und ohne Berechnungen oder Formatierungen herausgelesen werden. In den Einstellungen der Bausteine kann für jede Spalte der technische Name individuell gesetzt werden.
 
 ## <span style="color:#0b5394">**Beliebige Anzahl von Nachkommastellen**</span>  
-Im Web ist diese Funktion schon seit kurzem vorhanden. Nun gibt es auch auf iOS und Android die Möglichkeit, die benötigte Anzahl der Nachkommastellen, bei dem [Nummer](/docs/record-spec-settings/grand-childs-form/number.html) und dem [Formelbaustein](/docs/record-spec-settings/grand-child-expanded/formular.html) einzustellen.
+Im Web ist diese Funktion schon seit kurzem vorhanden. Nun gibt es auch auf iOS und Android die Möglichkeit, die benötigte Anzahl der Nachkommastellen, bei dem [Nummer](/docs/record-spec-settings/grand-childs-form/number.html) und dem Formelbaustein einzustellen.
 Dazu gibt es auch die Funktion, Tausender-Trennzeichen an- und abzuschalten. So werden spezielle Mengen wie z. B. Euro oder m³ genau erfasst und konsistent dargestellt.  
 
 ![release decimal places](\assets\latest-updates\release decimal places.png "release decimal places")

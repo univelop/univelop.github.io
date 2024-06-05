@@ -11,7 +11,7 @@ has_toc: false
 
 Mit Workflows können einfache Prozesse innerhalb von Univelop modelliert und automatisiert werden.
 So können bspw. durch den [Baustein *Workflow*](/docs/record-spec-settings/grand-child-expanded/workflow.html) bei einem abgeschlossenen Auftrag eine Rechnung oder ein Protokoll in Form eines neuen, ausgefüllten Eintrages erstellt werden.
-Ein Workflow ist ein Abeitsablauf, welcher aus beliebig vielen einzelnen Schritten, den Workflow-Bausteinen, besteht. Diese werden im Workflow-Designmodus zusammengestellt, welcher über den Homescreen erreichbar ist. 
+Ein Workflow ist ein Arbeitsablauf, welcher aus beliebig vielen einzelnen Schritten, den Workflow-Bausteinen, besteht. Diese werden im Workflow-Designmodus zusammengestellt, welcher über den Homescreen erreichbar ist. 
 Workflows können manuell im Workflow-Designmodus, in der Workflow Historie und per [Baustein *Workflow*](/docs/record-spec-settings/grand-child-expanded/workflow.html) gestartet werden.
 
 ## <span style="color:#0b5394">Workflow Bereich</span>

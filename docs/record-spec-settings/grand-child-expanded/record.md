@@ -11,7 +11,7 @@ nav_order: 1
 Mit dem Baustein *Datensatz* wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem
 Arbeitsbereich hergestellt.
 
-![recordpicker](\assets\record-spec-settings\recordpicker.png "recordpicker")
+![recordPicker](\assets\record-spec-settings\recordpicker.png "recordPicker")
 
 1. Verknüpfung mit: 
 Mittels dieser Einstellung wird festgelegt aus welcher Liste ein Datensatz ausgewählt werden soll.
@@ -38,8 +38,8 @@ Die Sperre erfolgt über den übergeordneten Datensatz und das Änderungsprotoko
 Bei der Nutzung des Datensatz Bausteins wird beim Klick auf den Baustein die Datensatz-Suche geöffnet.
 Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
 
-![recordpicker2](\assets\record-spec-settings\recordpicker2.png "recordpicker2")
+![recordPicker2](\assets\record-spec-settings\recordpicker2.png "recordPicker2")
 
-Verknüpfungsmöglichkeiten sind in den Docs unter
+Die Verknüpfungsmöglichkeiten sind in den Docs unter
 [Verknüpfen von Listen](/docs/link-lists.html)
 zu finden.

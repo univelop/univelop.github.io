@@ -12,7 +12,7 @@ Mit dem Baustein *Ja-Nein-Formel* wird das Ergebnis einer Formel als Kästchen m
 Die Formel sollte als Ergebnis einen Wahrheitswert bilden. Dies ist ohne weiteres möglich, wenn man einen Baustein [*Schalter*](/docs/record-spec-settings/grand-childs-form/switch.html) referenziert.
 Kombiniert man Werte, so müssen diese schlussendlich mit [Operatoren](/docs/formulary/childs/symbol-operator.html#rechensymbole--operatoren) zu einem Wahrheitswert kombiniert werden. 
 
-So kann anhand einer Formel bspw. für Arbeitszeiten angezeigt werden, ob diese abrechnungsfähig sind.
+So kann anhand einer Formel bspw. für Arbeitszeiten angezeigt werden, ob diese abrechnungfähig sind.
 
 Für die Ja/Nein Formel ist keine ifElse Bedingung notwendig. Es reicht die Bedingung zur Erfüllung zu referenzieren.
 Wird die Bedingung nicht erreicht ist der Ausgabe Wert Nein. Auf den Schalter und Ja/Nein-Baustein kann

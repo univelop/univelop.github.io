@@ -14,7 +14,7 @@ nav_order: 13
 In den Einstellungen kann man neben dem verbundenen Workflow, 
 auch ein optionales Icon wählen sowie eine Bezeichnung für den Baustein eintippen.
 
-Wird der Workflow ausgeführt, so gibt ein Ladespinner neben dem Button an, dass der Workflow noch durchläuft.
+Wird der Workflow ausgeführt, so gibt ein Lade-Spinner neben dem Button an, dass der Workflow noch durchläuft.
 Bei Fehlern in der Ausführung wird eine Warnung in rot unter dem Button angezeigt, um eine grobe Beschreibung des Problems zu geben.
 Für mehr Details muss die Ausführungshistorie des Workflows geöffnet und da die letzte Ausführung gefunden werden.
 

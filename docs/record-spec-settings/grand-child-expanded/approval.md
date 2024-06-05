@@ -8,7 +8,7 @@ nav_order: 5
 
 # <span style="color:#0b5394"><span class="material-icons">beenhere</span> **Baustein *Genehmigung***</span>
 
-Mit dem Baustein *Genehmigung* kann ein Genehmigungsablauf zu einem Datensatz, welcher bspw. eine Bestellanforderung darstellt, gelöst werden. Ein Datensatz kann von einem ausgewählen Nutzer genehmigt oder abgelehnt werden.
+Mit dem Baustein *Genehmigung* kann ein Genehmigungsablauf zu einem Datensatz, welcher bspw. eine Bestellanforderung darstellt, gelöst werden. Ein Datensatz kann von einem ausgewählten Nutzer genehmigt oder abgelehnt werden.
 
 ![approval](\assets\record-spec-settings\1approval.png "approval")
 
@@ -26,5 +26,5 @@ Im ersten Schritt fordert ein Nutzer die Genehmigung von einem weiteren, berecht
     Ob der Genehmiger eine Unterschrift zum genehmigen abgeben muss.
 5. <span style="color:#0b5394">**Workflow starten**</span>  
     Auswahl für einen Workflow, welcher bei Genehmigung als auch Ablehnung gestartet wird.
-    Der Genehmigungsworkflow kann auch die Workflowsteps "Genehmigung anfordern" und "Warte auf Genehmigung" enthalten,
+    Der Genehmigungs-Workflow kann auch die Workflowsteps "Genehmigung anfordern" und "Warte auf Genehmigung" enthalten,
     um den Genehmigungsprozess komplett abzubilden.

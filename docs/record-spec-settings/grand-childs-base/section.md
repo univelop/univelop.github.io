@@ -12,7 +12,7 @@ Mit dem Baustein *Abschnitt* können die Listeneinträge thematisch getrennt wer
 
 ![section](\assets\record-spec-settings\1section.png "section")
 
-In den Bausteineinstellungen über den jeweiligen Switch "zusammenklappbar" und / oder "standardmäßig zusammenklappbar" können Abschnitte entsprechend eingestellt werden.
+In den Einstellungen des Bausteins können über den jeweiligen Switch "zusammenklappbar" und / oder "standardmäßig zusammenklappbar" Abschnitte entsprechend eingestellt werden.
 Ebenso besteht die Möglichkeit Bausteine für eine Kopfzeile des Abschnitts hinzuzufügen, wenn dieser Abschnitt zusammengeklappt ist. Diese werden dann direkt unter dem Abschnitt-Titel angezeigt.
 Dazu kann in den Einstellungen des Baustein *Abschnitt* unter *Bausteine für Kopfzeile* über das + - Zeichen
 alle vorhandenen Bausteine innerhalb des Datensatzes ausgewählt werden.

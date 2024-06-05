@@ -9,9 +9,9 @@ parent: Latest Updates
 
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.0.0 ausgerollt:
 
-## <span style="color:#0b5394">**Baustein *Freigabe***</span>  
-Der [Baustein *Freigabe*](/docs/record-spec-settings/grand-child-expanded/lock.html) ermöglicht es Datensätze als unveränderbar zu sichern und zusätzlich eine Pflichtfeldprüfung (Bausteineinstellungen --> Validierung) vorzunehmen. Damit können wichtige Bausteine nicht mehr einfach übergangen werden. Zusätzlich wird der Benutzer und das Datum der Freigabe dokumentiert.
-Der [Baustein *Freigabe*](/docs/record-spec-settings/grand-child-expanded/lock.html) kann zusätzlich mit dem [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html) kombiniert werden. In den einzelnen Benutzerrollen können die [Rechte für das Entsperren der Einträge](/docs/global-settings-and-functions.html#rechte--berechtigungen) festgelegt werden.
+## <span style="color:#0b5394">**Baustein *Datensatz sperren***</span>  
+Der [Baustein *Datensatz sperren*](/docs/record-spec-settings/grand-child-expanded/lock.html) ermöglicht es Datensätze als unveränderbar zu sichern und zusätzlich eine Pflichtfeldprüfung (Bausteineinstellungen --> Validierung) vorzunehmen. Damit können wichtige Bausteine nicht mehr einfach übergangen werden. Zusätzlich wird der Benutzer und das Datum der Sperrung dokumentiert.
+Der [Baustein *Datensatz sperren*](/docs/record-spec-settings/grand-child-expanded/lock.html) kann zusätzlich mit dem [Baustein *Status*](/docs/record-spec-settings/grand-child-expanded/status.html) kombiniert werden. In den einzelnen Benutzerrollen können die [Rechte für das Entsperren der Einträge](/docs/global-settings-and-functions.html#rechte--berechtigungen) festgelegt werden.
 
 ![release lock](\assets\latest-updates\release lock.png "release lock")
 

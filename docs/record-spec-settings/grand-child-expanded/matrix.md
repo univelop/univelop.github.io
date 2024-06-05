@@ -38,7 +38,7 @@ Im folgenden wird der Baustein anhand des Beispiels von einer Produktverwaltung 
   Bezogen auf das Beispiel wären das die Datensatz-Bausteine, die sich auf die Kunden und die Produkte beziehen.
 
   ![matrixLinks](\assets\record-spec-settings\matrixLinks.png "matrixLinks")
-- <span style="color:#0b5394">**Darestellung der Zellen**</span>
+- <span style="color:#0b5394">**Darstellung der Zellen**</span>
 
   Hier können Bausteine gewählt werden, welche in den Zellen angezeigt werden sollen.
   Es sind nur Schalter-Bausteine in den Zellen editierbar, alle restlichen Bausteine werden nur dargestellt, wenn diese einen Wert besitzen,

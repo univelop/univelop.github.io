@@ -72,9 +72,9 @@ has_toc: true
 | [`lastWords(value,count)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert die ersten *count* Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
 | [`replace(text,find,sub)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Ersetzt jedes vorkommen des Textes *find* im Text *text* mit *sub* | `replace("Hallo Welt", "Welt", "Mond")` liefert "Hallo Mond"
 | [`count(list)`](/docs/formulas/childs/number-formulas.html#zahlenformeln) | Zählt die Elemente einer Liste/eines dynamischen Wertes | `count([1,2,4])` liefert 3
-| [`formatNumber(number, decimalCount, thousandSeparator)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Formatiert die Nummber zu gewünschtem Format | `formatNumber(1000,2,true)` das Ergebnis *1.000,00*  
+| [`formatNumber(number, decimalCount, thousandSeparator)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Formatiert die Nummer zu gewünschtem Format | `formatNumber(1000,2,true)` das Ergebnis *1.000,00*  
 | [`randomString(length)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Erzeugt eine zufällige Zeichenkette (bestehend aus Kleinbuchstaben und Zahlen) mit gegebener Länge  | `randomString(10)` könnte z.B. "f49gf623bk" liefern
 | [`toUpperCase(text)`](/docs/formulas/childs/text-formulas.html#textformeln-1)  | Konvertiert den gegebenen Text auf Großbuchstaben | `toUpperCase("Hallo Welt")` liefert "HALLO WELT"
 | [`toLowerCase(text)`](/docs/formulas/childs/text-formulas.html#textformeln-1)  | Konvertiert den gegebenen Text auf Kleinbuchstaben | `toLowerCase("Hallo Welt")` liefert "hallo welt"
-| [`parseJson(jsontext)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Konvertiert einen Json-String zu einem Json-Objekt | <span></span>
+| [`parseJson(jsonText)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Konvertiert einen Json-String zu einem Json-Objekt | <span></span>
 | [`basicAuth(username, password)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Verschlüsselt Nutzername und Passwort  | <span></span>

@@ -10,7 +10,7 @@ nav_order: 8
 
 Es besteht die Möglichkeit ganze
 [Arbeitsbereiche](/docs/software-structure.html#arbeitsbereiche "Die Programmstruktur // Arbeitsbereiche")
-zu exportieren und wieder zu importieren. Im Designmodus des Homescreens des Arbeitsbereiches
+zu exportieren und wieder zu importieren. Im Designmodus vom Homescreen des Arbeitsbereiches
 befindet sich in den Einstellungen der Button "Export". Nachdem der Button betätigt wurde, erscheint ein Popup-Fenster in dem man wählen kann, ob nur die Struktur des Arbeitsbereiches (nur Kacheln) oder ob sowohl die Struktur als auch die dazugehörigen Daten exportiert werden sollen.
 
 ![button export2](\assets\import-export\button export2.png "button export2")
@@ -24,7 +24,7 @@ wechseln oder einen
 ["+ Neuer Arbeitsbereich"](/docs/start-app.html#erstellen-eines-arbeitsbereichs "Der Start in die App // Erstellen eines Arbeitsbereichs")
 einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen den zwei
 Hauptoptionen oder einer der [Vorlagen](/docs/start-app.html#erstellen-eines-arbeitsbereichs)
-gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahldialog geöffnet, wo
+gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahl-Dialog geöffnet, wo
 die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
 
 ![import workspace](\assets\import-export\import workspace.png "import workspace")
@@ -49,7 +49,7 @@ die Kachel befindet.
 ![export tile](\assets\import-export\export tile.png "export tile")
 
 Im Designmodus des Ziel-Arbeitsbereichs, in dem die Kachel importiert werden soll, kann über den Button
-"Kachel importieren" die zuvor heruntergeladene JSON-Datei über einen Auswahldialog eingelesen werden.
+"Kachel importieren" die zuvor heruntergeladene JSON-Datei über einen Auswahl-Dialog eingelesen werden.
 
 ![import tile](\assets\import-export\import tile.png "import tile")
 
@@ -97,7 +97,7 @@ Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folg
 
 - <span style="color:#0b5394">**1. Szenario // Erstimport von Daten**</span>  
     In die Univelop App soll eine große Anzahl an Datensätzen überführt werden.
-    Es ist bereits eine Liste vorhanden, welche die Datenstruktur wiederspiegelt.
+    Es ist bereits eine Liste vorhanden, welche die Datenstruktur widerspiegelt.
     In Univelop sollte ein Dummy-Datensatz angelegt werden. Anschließend wird die Liste in Excel
     exportiert. Dies ist nun die Importvorlage.
     Sind alle Datensätze in der Vorlage erfasst, kann diese über die Importfunktion importiert werden. 
@@ -112,8 +112,8 @@ Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folg
 
     **ACHTUNG! Die ID (letzte Spalte) muss immer stehen bleiben!**
 
-    Anschließend können in der exportierten Excelliste alle betreffenden Datensätze entsprechend geändert
-    werden. Nach der Änderung in der Excelliste kann diese wieder über die Importfunktion importiert werden.
+    Anschließend können in der exportierten Excel Liste alle betreffenden Datensätze entsprechend geändert
+    werden. Nach der Änderung in der Excel Liste kann diese wieder über die Importfunktion importiert werden.
     Ein Pop-Up erscheint, welches mitteilt wie viele Datensätze zum Import bzw. zur Aktualisierung gefunden
     wurden.
 
@@ -130,7 +130,7 @@ Als Beispiel dazu ist der [Baustein *Zeitspanne*](/docs/record-spec-settings/gra
 Datensatz gemeint ist. Werden Daten ohne ID importiert, werden automatisch neue Datensätze angelegt.
 - Wir empfehlen vor jedem Import einen Export. So sind alle Spalten richtig benannt und die Zuordnung
 bei dem Importvorgang ist größtenteils sichergestellt.
-- Es empfiehlt sich die Excelliste immer regelmäßig zwischenzuspeichern, sodass diese im Zweifel
+- Es empfiehlt sich die Excel Liste immer regelmäßig zwischenzuspeichern, sodass diese im Zweifel
 wiederhergestellt werden kann.
 
 Leider sind wir beim Im- und Export von dem Excel-Package abhängig und das System vertauscht in dieser
@@ -171,7 +171,7 @@ Wird mit dem [Baustein *PDF erstellen*](/docs/record-spec-settings/grand-child-e
 3. <span style="color:#0b5394">**Skript herunterladen**</span>  
 
 Auch dieses Skript kann nun via PowerShell manuell ausgelöst werden, oder in die Windows Aufgabenplanung eingebettet werden, sodass es an bestimmten Tagen zu bestimmten Uhrzeiten ausgeführt wird.  
-Beispielweise füllen Mitarbeiter einen Stundennachweis aus und erzeugen daraus eine PDF. Alle erzeugten Stundennachweise werden in einem Ordner "Stundennachweise Gesamt" gesammelt. Durch die aktivierte Option "Mit PowerShell synchronisieren" können die Mitarbeiter wie gewohnt Arbeitszeiten über Univelop erfassen, erzeugen die PDF und für die Synchronisation via PowerShell ist vorbereitet. Wird das erzeugte Skript manuell oder über die Windows Aufgabenplanung ausgeführt, werden die erzeugten PDFs dem Ordner "Stundennachweise Gesamt" hinzugefügt.
+Beispielsweise füllen Mitarbeiter einen Stundennachweis aus und erzeugen daraus eine PDF. Alle erzeugten Stundennachweise werden in einem Ordner "Stundennachweise Gesamt" gesammelt. Durch die aktivierte Option "Mit PowerShell synchronisieren" können die Mitarbeiter wie gewohnt Arbeitszeiten über Univelop erfassen, erzeugen die PDF und für die Synchronisation via PowerShell ist vorbereitet. Wird das erzeugte Skript manuell oder über die Windows Aufgabenplanung ausgeführt, werden die erzeugten PDFs dem Ordner "Stundennachweise Gesamt" hinzugefügt.
 
 <span style="color:#0b5394">**Beispiel für die Nutzung des Windows Aufgabenplaners:**</span>
 

@@ -21,7 +21,7 @@ Es wird eine Verknüpfung mit einer Liste hergestellt und die Einträge können 
 Mit aktuellem Benutzer vorbelegen:
 Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
 
-In der Nutzung können Datensätze an- und abgewählt werdent. 
+In der Nutzung können Datensätze an- und abgewählt werden. 
 Der Feldinhalt ist immer eine Liste von Elementen. Es steht per default immer [] in dem Baustein, 
 würde man sich die Werte ausgeben lassen.
 

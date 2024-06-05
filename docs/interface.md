@@ -7,9 +7,9 @@ nav_order: 11
 # <span style="color:#0b5394">Schnittstellen</span>
 
 ## <span style="color:#0b5394">REST API</span>
-Neben dem In- und Export von Exceldateien bietet Univelop ebenfalls eine API-Schnittstelle um mit deinen Fremdsystemen Daten austauschen zu können.
+Neben dem In- und Export von Excel Dateien bietet Univelop ebenfalls eine API-Schnittstelle um mit deinen Fremdsystemen Daten austauschen zu können.
 Über unsere API kannst du alle Datensätze einer Kachel abrufen, einzelne Datensätze erstellen, jeden einzelnen Baustein eines Datensatzes bearbeiten und löschen.
-Dazu kansnt du Nutzer erstellen, Push-Benachrichtigungen versenden, und Workflows starten.
+Dazu kannst du Nutzer erstellen, Push-Benachrichtigungen versenden, und Workflows starten.
 
 Wir arbeiten zur Zeit an einer neuen Version der REST-API. Diese befindet sich noch in beta und wird in den nächsten Monaten ausgebaut. In der Dokumentation finden sich alle Spezifikationen und die API lässt sich testen: 
 
