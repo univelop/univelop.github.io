@@ -128,6 +128,7 @@ ints
 invoiceline
 Jsons
 jsonwebtoken
+Kachelart
 Kachelbezeichnungen
 KACHELDARSTELLUNG
 Kacheleinstellungen
@@ -155,6 +156,7 @@ Listeneintag
 Listeneintrages
 Lizenzname
 Löschfilter
+losgetippt
 ltrb
 Mailversand
 Mehrfachupload
@@ -205,6 +207,7 @@ Rechensymbole
 Rechteeinstellung
 Rechteeinstellungen
 Rechteinstellung
+Registerfarbe
 rels
 reorderable
 reorderables
@@ -233,6 +236,7 @@ Smartphonekamera
 Sortiercode
 soundpool
 Spaltenliste
+Spracherfassung
 Stammdatenliste
 Standardpfad
 Standardweise

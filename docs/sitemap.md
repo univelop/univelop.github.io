@@ -28,7 +28,7 @@ nav_order: 1
 4. <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
     - [Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html)
     - [Überschrift](/docs/record-spec-settings/grand-childs-base/heading.html)
-    - [Text / Hinweistext](/docs/record-spec-settings/grand-childs-base/hint.html)
+    - [Hinweis](/docs/record-spec-settings/grand-childs-base/hint.html)
     - [Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)    
     - [Bild](/docs/record-spec-settings/grand-childs-base/image.html)
     - [Datei](/docs/record-spec-settings/grand-childs-base/file.html)
@@ -39,6 +39,7 @@ nav_order: 1
     - [Mehrfach-Auswahl](/docs/record-spec-settings/grand-childs-form/multi-selection.html)
     - [Datum](/docs/record-spec-settings/grand-childs-form/date.html)
     - [Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html)
+    - [Timer](/docs/record-spec-settings/grand-childs-form/timer.html)
     - [Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)
     - [Team](/docs/record-spec-settings/grand-childs-form/team.html)
     - [Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html)
@@ -69,10 +70,12 @@ nav_order: 1
     - [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)
     - [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)
     - [PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)
-    - [Rechnung](/docs/record-spec-settings/grand-child-expanded/invoice.html)
     - [Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article-scanner.html)
     - [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
     - [QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)
+    - [ChatGPT](/docs/record-spec-settings/grand-child-expanded/chatgpt.html)
+    - [Bild Referenz](/docs/record-spec-settings/grand-child-expanded/image-link.html) 
+    - [Datei Referenz](/docs/record-spec-settings/grand-child-expanded/file-link.html)
 
 5. <span style="color:#0b5394">**Zusätzliche globale Einstellungen und Funktionen**</span>
     - [Mitglieder](/docs/global-settings-and-functions.html#mitglieder)

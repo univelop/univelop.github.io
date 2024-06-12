@@ -19,12 +19,25 @@ werden, z.B. Mitglieder hinzufügen, Kacheln importieren oder erstellen.
 ## <span style="color:#0b5394">Kacheln</span>
 
 Ein Arbeitsbereich enthält eine oder mehrere Kacheln. Die Kachel steht mit ihrem Titel und der Darstellung
-(Icon, Summe Inhalte oder Summe über Baustein) für den Inhalt darin. Es gibt getrennt voneinander allgemeine
+(Icon, Summe Inhalte oder Summe über Baustein) für den Inhalt darin. 
+
+Eine Kachel ist dabei vergleichbar mit einer App auf dem Smartphone, kann also für verschiedenste Zwecke dienen. Der "Inhalt" einer Kachel ist dabei in der Regel eine Liste von Datensätzen. Es können aber auch Formulare oder die Einbettung einer Website sein.
+
+Hauptsächlich steht eine Kachel also repräsentativ für eine Liste von Datensätzen. Dabei kann eine Kachel aus nur einem Datensatz oder vielen Datensätzen bestehen.
+Es gibt getrennt voneinander allgemeine
 Kacheln, die von allen Nutzern des Arbeitsbereichs gesehen werden, sowie eigene Kacheln, welche immer aus
 den allgemeinen Kacheln gefilterte Inhalte darstellen. Zusätzlich besteht die Möglichkeit globale Kacheln,
-bei Bedarf, ausblenden zu lassen. Die Kachel *einfache Liste* kann nur als globale Kachel angelegt werden.
+bei Bedarf, ausblenden zu lassen.
 
-### <span style="color:#3d85c6"> gefilterte Kacheln</span>
+### <span style="color:#3d85c6">Kachel "einfache Liste"</span>
+
+Die wichtigste Kachelart ist die *einfache Liste*. 
+Sie stellt eine Liste von Datensätzen dar, die in der Regel durch Listeneinträge dargestellt werden.
+Klickt man auf die Kachel, so öffnet sich eine [Listenansicht]() für die Datensätze.
+Hier kann man auf bestimmte Datensätze filtern, sortieren und suchen.
+Datensätze können hier auch erstellt, gelöscht und bearbeitet werden.
+
+### <span style="color:#3d85c6">Gefilterte Kacheln</span>
 
 Filterkacheln bilden einen wesentlichen Teil in der Arbeit mit Univelop. Aus gefilterten Kacheln können
 Aufgaben oder sonstige Arbeitserleichterung abgeleitet werden.
@@ -70,8 +83,7 @@ Alle Bausteine aus dieser Kachel können bei den [Rechten](/docs/global-settings
 ### <span style="color:#3d85c6"> Kachel "Website"</span>
 
 Die Kachel *Website* ermöglicht die Einbindung einer Website direkt in Univelop ohne die Nutzung eines separaten
-Webbrowsers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten
-Tools, usw.
+Webbrowsers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten Tools, usw.
 
 ![tile website](\assets\software-structure\tile website.png "tile website")
 
@@ -79,8 +91,7 @@ Tools, usw.
 2. <span style="color:#0b5394">**URL**</span>  
     Hier wird aufzurufende Website eingesetzt
 
-Zusätzlich besteht die Möglichkeit die Kachel *Website* mit einem Icon zu versehen. Wie gewohnt lässt sich auch die Farbe
-der Kachel anpassen.
+Zusätzlich besteht die Möglichkeit die Kachel *Website* mit einem Icon zu versehen. Wie gewohnt lässt sich auch die Farbe der Kachel anpassen.
 
 ### <span style="color:#3d85c6"> Kachel "Formular"</span>
 
@@ -133,9 +144,8 @@ sondern in den Einstellungen der Ordnerkachel aus der Kachelliste ausgewählt.
 
 ## <span style="color:#0b5394">Listen</span>
 
-Die Kachel ist die symbolische Darstellung einer Liste, also der Inhalt dieser Kachel. Wird eine Kachel aufgerufen,
-wird zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht) angezeigt. Wird anschließend
-ein Listeneintrag ausgewählt, wird der entsprechende Datensatz angezeigt. 
+Die Kachel vom Typ "Einfache Liste" ist die symbolische Darstellung einer Liste im Homescreen. Sie kann mit dem App-Icon einer App auf dem Homescreen eines Smartphones verglichen werden. Wird eine Kachel aufgerufen,
+wird zunächst die gesamte Liste mit Inhalten (reduzierter Inhalt in der Listenansicht) angezeigt. Wird anschließend ein Listeneintrag ausgewählt, wird der entsprechende Datensatz angezeigt. 
 
 ## <span style="color:#0b5394">Einträge</span>
 

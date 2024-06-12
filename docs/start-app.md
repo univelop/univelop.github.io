@@ -60,8 +60,8 @@ eines Titels des neuen Arbeitsbereichs kann "drauf los gekachelt" werden.
 
 ## <span style="color:#0b5394">Einem Arbeitsbereich beitreten</span>
 
-Nach dem Erhalt eines Einladungslinks (via Mail, Messenger oder anderen Programmen) zu einem Arbeitsbereich,
-tritt man nach dem Klick auf den Link in den entsprechenden Arbeitsbereich ein und dort beginnen zu arbeiten.
+Nach dem Erhalt eines Einladungslinks (via Mail, Messenger oder anderen Programmen) zu einem Arbeitsbereich
+tritt man bei Klick auf den Link in den entsprechenden Arbeitsbereich ein und kann dort beginnen, zu arbeiten.
 
 ## <span style="color:#0b5394">Empfehlung Nachbau Univelop-Tutorials</span>
 Wir empfehlen nach dem Durchlesen der Docs das Nachbauen unserer
