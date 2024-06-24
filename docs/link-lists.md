@@ -210,7 +210,7 @@ Der
 kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
 sowie die Anzahl der verknüpften Datensätze.
 
-Zusätzlich kann für den Baustein *Datensatz Liste* ein Badge eingestellt werden. Ein Badge ist entweder die Anzeige der Anzahl der beinhalteten Datensätze oder die Summe eines bestimmten Baustein. Wählt man die Variante
+Zusätzlich kann für den Baustein *Datensatz Liste* eine Summe angezeigt werden. Hier lässt sich wählen zwischen der Anzahl der beinhalteten Datensätze oder der Summe über einen bestimmten Baustein. Wählt man die Variante
 "Summe über einen Baustein", kann in "Summe über" der entsprechende Baustein ausgewählt werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine aus der verknüpften Kachel. Mögliche auswählbare Bausteine:
 - [Baustein *Nummer*](/docs/record-spec-settings/grand-childs-form/number.html)
 - [Baustein *Zeitspanne*](/docs/record-spec-settings/grand-childs-form/interval.html)
