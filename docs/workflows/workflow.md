@@ -16,7 +16,7 @@ Workflows können manuell im Workflow-Designmodus, in der Workflow Historie und 
 
 ## <span style="color:#0b5394">Workflow Bereich</span>
 
-Sind die Workflows für den Arbeitsbereich freigeschaltet, lassen sie sich im Homescreen über das Admin-Menü über den Punkt *Workflows* erreichen. Dabei öffnet sich der zugehörige Bereich.
+Die Workflows lassen sich im Homescreen über das Admin-Menü über den Punkt *Workflows* erreichen. Dabei öffnet sich der zugehörige Bereich.
 Dort werden alle bestehenden Workflows angezeigt und es lassen sich hier auch neue anlegen. Für die bestehenden Workflows kann von hier die Historie und der Designmodus geöffnet werden.
 
 ## <span style="color:#0b5394">Designmodus</span>
@@ -30,6 +30,25 @@ Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop 
 3. <span style="color:#0b5394">**Einstellungen**</span>
     - Name des Workflows sowie manuelles Ausführen und löschen des Workflows
     - Bei auswählen eines Bausteins im Workflow öffnet sich hier die erweiterten Einstellungen des Bausteins
+
+## <span style="color:#0b5394">Einstellungen von Workflows</span>
+
+### <span style="color:#0b5394">Namen</span>
+1. <span style="color:#0b5394">**Name des Workflows**</span>  
+ Dieser Name wird in der Liste von Workflows sowie in Workflow-Bausteinen angezeigt.
+1. <span style="color:#0b5394">**Technischer Name**</span>  
+ Der technische Name dient dazu, den Workflow über unsere [API]() anzusprechen. Der technische Name wird nicht zur Darstellung genutzt.
+
+### <span style="color:#0b5394">Verhalten</span>
+
+1. <span style="color:#0b5394">**Benachrichtigungen anzeigen**</span>   
+Ob Benachrichtigung am unteren Rande des Bildschirms angezeigt werden soll, wenn der Workflow startet, endet oder Fehler wirft.
+2. <span style="color:#0b5394">**Auf Server ausführen**</span>   
+Ob der Workflow auf dem Server ausgeführt werden soll. Ist dies deaktiviert, wird der Workflow lokal, also auf dem Gerät des Nutzers ausgeführt.
+Diese Einstellung ist für einige Workflow Bausteine relevant. So können bspw. Mails nur versendet werden, wenn der Workflow auf dem Server läuft, und Nachrichten angezeigt werden, wenn der Workflow lokal läuft.
+3. <span style="color:#0b5394">**Nachricht bei Start**</span>
+4. <span style="color:#0b5394">**Nachricht nach Ausführung**</span>
+5. <span style="color:#0b5394">**Zwischenstände anzeigen**</span>
 
 ## <span style="color:#0b5394">Workflow Historie</span>
 

@@ -51,6 +51,7 @@ comgooglemaps
 crossorigin
 cstate
 curr
+Darstellungsfarbe
 Darstellungsoptionen
 Datas
 Datensatzfreigabe

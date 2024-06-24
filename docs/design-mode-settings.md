@@ -195,17 +195,22 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
 
 Im Designmodus der Liste werden auf der linken Seite die verfügbaren
 [Bausteine](/docs/record-spec-settings/record-spec-settings.html)
-der Listeneinträge angezeigt. Via *Drag and Drop* können die Bausteine in eins der 5 Felder in der Mitte
-gezogen werden. Diese 5 Felder entsprechen am Ende dem Inhalt, der als Kurzfassung der Datensätze in der
-Liste dargestellt wird. In diese Felder können Sie mehrere Datensätze legen. In der rechten Bildschirmhälfte
-wird angezeigt welche Felder in der Listendarstellung enthalten sind. 
+der Listeneinträge angezeigt. Via *Drag and Drop* können die Bausteine in eins der 6 Felder in der Mitte
+gezogen werden. 
+![list2](\assets\design-mode-setting\list2.png "list2")
+Auf der linken Bildschirmhälfte werden alle Bausteine aus dem Datensatz angezeigt, welche eine Darstellung für die Listenansicht besitzen.
+In der rechten Bildschirmhälfte wird angezeigt, welche Bausteine in der Listendarstellung enthalten sind. 
 1. Feld aus der Kurzansicht löschen
-2. Positionen verschieben über die zwei Striche via Drag and Drop
+2. Reihenfolge ändern über die zwei Striche via Drag and Drop
+
+Die 6 Felder in der Mitte entsprechen am Ende dem Inhalt, der als Kurzfassung der Datensätze in der
+Liste dargestellt wird. In diese Felder können die Bausteine auf der linken Seite gezogen werden. 
+Die große Box links und rechts darf nur bis zu drei Bausteinen enthalten.
+Das feld ganz links darf nur einen Baustein enthalten, welcher dazu eine Darstellungsfarbe besitzt (z. B. Status).
 
 **HINWEIS:**  
 Wenn ein Baustein in der Listenansicht verwendet wird, kann dieser **nicht** gelöscht werden.
 
-![list2](\assets\design-mode-setting\list2.png "list2")
 
 Hat man keinen Bereich der Mitte ausgewählt, wird auf der rechten Seite ein Schalter für die Mehrfachauswahl angezeigt.
 Über diesen kann man die Mehrfachauswahl und damit die Sammelbearbeitung von Einträgen anschalten. 
