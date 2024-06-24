@@ -28,6 +28,7 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 |------|------|------|------|------|
 | `randomString(length)` | Erzeugt eine zufällige Zeichenkette mit gegebener Länge (bestehend aus Kleinbuchstaben und Zahlen) | `randomString(10)` liefert "f49gf623bk" | 1. Wert: Zahl | Text |
 | `toText(element)` | Wandelt einen nicht textuellen Wert (Zahlen, dynamische Werte, Datum, Objekte) in eine textuelle Darstellung des Wertes um | `toText(12)` liefert "12" | 1. Wert: nicht-textueller Wert | Text |
+| [`substring(text,start, [end])`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert den Ausschnitt aus *text*, welcher an Zeichen *start - 1* beginnt und an *end* endet. Wird *end* nicht angegeben, so wird der Text ab *start* bis zum Ende zurückgegeben. | `substring("Hallo Welt", 2, 5)` liefert "llo" | 1. Wert: Text, 2. Wert: Zahl, 3. Wert: Zahl (optional) | Text |
 | `firstLetters(text, count)` | Liefert die ersten *count* Zeichen vom Anfang des Textes | `firstLetters("Hallo Welt",5)` liefert "Hallo" | 1. Wert: Text, 2. Wert: Zahl | Text |
 | `lastLetters(text, count)` | Liefert die letzten *count* Zeichen vom Ende des Textes | `lastLetters("Hallo Welt",5)` liefert "Welt" | 1. Wert: Text, 2. Wert: Zahl | Text |
 | `firstWords(text, count)` | Liefert die ersten *count* Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | `firstWords("Hallo du große Welt",2)` liefert "Hallo du" | 1. Wert: Text, 2. Wert: Zahl | Text |

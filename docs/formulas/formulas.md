@@ -66,15 +66,21 @@ has_toc: true
 | [`toNumber(value)`](/docs/formulas/childs/number-formulas.html#zahlenformeln) | Wandelt einen Text in eine numerische Darstellung des Wertes um | `toNumber("123")` liefert 123
 | [`contains(text,sub)`](/docs/formulas/childs/text-formulas.html#textbezogene-formeln) | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist. | `contains("Hallo Welt","Welt")`  liefert true
 | [`textLength(value)`](/docs/formulas/childs/text-formulas.html#textbezogene-formeln)  | Gibt die Textlänge inklusive Leerzeichen aus | `textLength("Hallo Welt")` liefert 10
+| [`substring(text,start, [end])`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert den Ausschnitt aus text, welcher an Zeichen *start - 1* beginnt und an *end* endet. Wird *end* nicht angegeben, so wird der Text ab *start* bis zum Ende zurückgegeben. | `substring("Hallo Welt", 2, 5)` liefert "llo"
 | [`firstLetters(value,count)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert die ersten *count* Zeichen vom Anfang des Textes | `firstLetters("Hallo Welt",5)` liefert "Hallo"
 | [`lastLetters(value,count)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert die letzten *count* Zeichen vom Ende des Textes | `lastLetters("Hallo Welt",4)` liefert "Welt"
 | [`firstWords(value,count)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert die ersten *count* Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | `firstWords("Hallo du große Welt",2)` liefert "Hallo du", `firstWords("Hallo,  du große Welt",2)` liefert "Hallo  du"
 | [`lastWords(value,count)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Liefert die ersten *count* Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | *Der Stopp der Zählung erfolgt nach einem Leerzeichen und nur nach einem Leerzeichen*
 | [`replace(text,find,sub)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Ersetzt jedes vorkommen des Textes *find* im Text *text* mit *sub* | `replace("Hallo Welt", "Welt", "Mond")` liefert "Hallo Mond"
-| [`count(list)`](/docs/formulas/childs/number-formulas.html#zahlenformeln) | Zählt die Elemente einer Liste/eines dynamischen Wertes | `count([1,2,4])` liefert 3
 | [`formatNumber(number, decimalCount, thousandSeparator)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Formatiert die Nummer zu gewünschtem Format | `formatNumber(1000,2,true)` das Ergebnis *1.000,00*  
 | [`randomString(length)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Erzeugt eine zufällige Zeichenkette (bestehend aus Kleinbuchstaben und Zahlen) mit gegebener Länge  | `randomString(10)` könnte z.B. "f49gf623bk" liefern
 | [`toUpperCase(text)`](/docs/formulas/childs/text-formulas.html#textformeln-1)  | Konvertiert den gegebenen Text auf Großbuchstaben | `toUpperCase("Hallo Welt")` liefert "HALLO WELT"
 | [`toLowerCase(text)`](/docs/formulas/childs/text-formulas.html#textformeln-1)  | Konvertiert den gegebenen Text auf Kleinbuchstaben | `toLowerCase("Hallo Welt")` liefert "hallo welt"
 | [`parseJson(jsonText)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Konvertiert einen Json-String zu einem Json-Objekt | <span></span>
 | [`basicAuth(username, password)`](/docs/formulas/childs/text-formulas.html#textformeln-1) | Verschlüsselt Nutzername und Passwort  | <span></span>
+|<span style="color:#0b5394">Listenformeln </span>|<span></span>|<span></span> 
+| [`listToText(list, separator)`](/docs/formulas/childs/list-formulas.html) | Listet alle Elemente einer Liste auf, getrennt durch einen optionalen Separator (Wenn nicht angegeben, wird standardmäßig *,* genommen).  | `joinLists([1,2,3], '--')` liefert 1--2--3
+| [`addToList(list, element)`](/docs/formulas/childs/list-formulas.html) | Fügt einer Liste ein Element hinten an | `addToList([1,2], 3)` liefert [1,2,3]
+| [`removeFromList(list, element)`](/docs/formulas/childs/list-formulas.html) | Entfernt ein Element aus einer Liste | `joinLists([1,2,3], 3)` liefert [1,2]
+| [`joinLists(list, list2)`](/docs/formulas/childs/list-formulas.html) | Verbindet zwei Listen, in dem die zweite Liste der ersten angehängt wird | `joinLists([1,2], [3,4])` liefert [1,2,3,4]
+| [`count(list)`](/docs/formulas/childs/number-formulas.html#zahlenformeln) | Zählt die Elemente einer Liste/eines dynamischen Wertes | `count([1,2,4])` liefert 3
