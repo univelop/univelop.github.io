@@ -11,3 +11,5 @@ grand_parent: Workflows
 
 *Hinweis: Dieser Baustein kann nur in Workflows ausgeführt werden, welche auf dem Server laufen.*
 
+Um Mails über Azure zu versenden, muss dies eingerichtet werden, wie in [dieser Anleitung](/docs/azure-mailing) beschrieben.
+
