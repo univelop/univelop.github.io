@@ -34,7 +34,7 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 | `firstWords(text, count)` | Liefert die ersten *count* Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | `firstWords("Hallo du große Welt",2)` liefert "Hallo du" | 1. Wert: Text, 2. Wert: Zahl | Text |
 | `lastWords(text, count)` | Liefert die letzten *count* Wörter vom Ende des Textes. Als Wörter zählen solche, die durch nur *ein* Leerzeichen getrennt sind. | `lastWords("Hallo du große Welt",2)` liefert "große Welt" | 1. Wert: Text, 2. Wert: Zahl | Text |
 | `replace(text,find,sub)` |  Ersetzt jedes vorkommen des Textes *find* im Text *text* mit *sub* | `replace("Hallo du","du","ihr")` liefert "Hallo ihr" | 1. Wert: Text, 2. Wert: Text, 3. Wert: Text | Text |
-| `basicAuth(username, password)` | Verschlüsselt Nutzername und Passwort | `basicAuth("name", "1234")` liefert "Basic bmFtZToxMjM0" | 1. Wert: Text, 2. Wert: Text | Text |
+| `basicAuth(username, password)` | Kodiert Nutzername und Passwort | `basicAuth("name", "1234")` liefert "Basic bmFtZToxMjM0" | 1. Wert: Text, 2. Wert: Text | Text |
 | `toUpperCase(text)` | Konvertiert den gegebenen Text auf Großbuchstaben | `toUpperCase("Hallo Welt!")` liefert "HALLO WELT!" | 1. Wert: Text | Text |
 | `toLowerCase(text)` | Konvertiert den gegebenen Text auf Kleinbuchstaben | `toLowerCase("Hallo Welt!")` liefert "hallo welt!" | 1. Wert: Text | Text |
 | `formatNumber(number, decimalCount, thousandSeparator)` | Formatiert die Nummer zu gewünschtem Format und gibt diese als Text aus |  `formatNumber(1000,3,true)` liefert "1.000,000" | 1. Wert: Zahl, 2. Wert: Zahl, 3. Wert: Ja/Nein | Text | 
@@ -43,7 +43,7 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 
 | Formel | Beschreibung | Beispiel | Eingabewerte (Werte in den Klammern) | Gelieferter Ergebnistyp | 
 |------|------|------|------|------|
-| `contains(text, find)` | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist. | `contains("Hallo du","du")` liefert *true* | 1. Wert: Text, 2. Wert: Text | Ja/Nein |
+| `contains(text, sub)` | Gibt Ja/Nein abhängig davon zurück, ob der Text *sub* im Text *text* vorhanden ist. | `contains("Hallo du","du")` liefert *true* | 1. Wert: Text, 2. Wert: Text | Ja/Nein |
 | `textLength(text)` |  Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus | `textLength("Hallo Welt!")` liefert *11* | 1. Wert: Text | Zahl | 
 | `parseJson(jsonText)` | Konvertiert einen Json-String zu einem Json-Objekt | `parseJson("{id:123}")` liefert *{id:123}* | 1. Wert: Text (im JSON-Format) | Objekt |
 | `toText(value)`| Wandelt einen nicht textuellen Wert in eine textuelle Darstellung des Wertes um | `toText(12)` liefert "12" | 1. Wert: nicht-textueller Wert | Text |
