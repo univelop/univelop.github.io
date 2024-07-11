@@ -6,12 +6,10 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 13
 ---
 
+# <span style="color:#0b5394"><span class="material-icons">account_tree</span> **Baustein _Workflow_**</span>
 
-# <span style="color:#0b5394"><span class="material-icons">account_tree</span> **Baustein *Workflow***</span>
-
-
-Über den Baustein *Workflow* kann ein verbundener [Workflow](/docs/workflows/workflow.html) gestartet werden.
-In den Einstellungen kann man neben dem verbundenen Workflow, 
+Über den Baustein _Workflow_ kann ein verbundener [Workflow](/docs/workflows/workflow.html) gestartet werden.
+In den Einstellungen kann man neben dem verbundenen Workflow,
 auch ein optionales Icon wählen sowie eine Bezeichnung für den Baustein eintippen.
 
 Wird der Workflow ausgeführt, so gibt ein Lade-Spinner neben dem Button an, dass der Workflow noch durchläuft.
@@ -21,4 +19,4 @@ Für mehr Details muss die Ausführungshistorie des Workflows geöffnet und da d
 Die Ausführungshistorie wird in einer Liste nur bei Verwendung des Workflow Buttons (mit verknüpften Workflow) eingeblendet und
 befindet sich oben rechts im Eintrag.
 
-![workflow](\assets\record-spec-settings\workflow.png "workflow")
+![workflow](\assets\record-spec-settings\workflow.png 'workflow')

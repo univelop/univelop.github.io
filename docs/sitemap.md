@@ -7,12 +7,14 @@ nav_order: 1
 # <span style="color:#0b5394">**Inhaltsverzeichnis**</span>
 
 1. <span style="color:#0b5394">**Der Start in die App**</span>
+
     - [Registrieren und Anmelden](/docs/start-app.html#registrieren-und-anmelden)
     - [Erstellen eines Arbeitsbereichs](/docs/start-app.html#erstellen-eines-arbeitsbereichs)
     - [Einem Arbeitsbereich beitreten](/docs/start-app.html#einem-arbeitsbereich-beitreten)
     - [Startertutorial](/docs/start-app.html#startertutorial-zum-erstellen-eines-neuen-arbeitsbereichs-und-einer-kachel)
 
 2. <span style="color:#0b5394">**Die Programmstruktur**</span>
+
     - [Arbeitsbereich(e)](/docs/software-structure.html#arbeitsbereiche)
     - [Kacheln](/docs/software-structure.html#kacheln)
     - [Listen](/docs/software-structure.html#listen)
@@ -20,16 +22,18 @@ nav_order: 1
     - [Bausteine](/docs/software-structure.html#bausteine)
 
 3. <span style="color:#0b5394">**Die Designmodi und deren Einstellungen**</span>
+
     - [Arbeitsbereich](/docs/design-mode-settings.html#arbeitsbereich)
     - [Kachel](/docs/design-mode-settings.html#kachel)
     - [Liste](/docs/design-mode-settings.html#liste)
     - [Eintrag](/docs/design-mode-settings.html#eintrag)
 
 4. <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
+
     - [Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html)
     - [Überschrift](/docs/record-spec-settings/grand-childs-base/heading.html)
     - [Hinweis](/docs/record-spec-settings/grand-childs-base/hint.html)
-    - [Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)    
+    - [Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html)
     - [Bild](/docs/record-spec-settings/grand-childs-base/image.html)
     - [Datei](/docs/record-spec-settings/grand-childs-base/file.html)
     - [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)
@@ -74,12 +78,13 @@ nav_order: 1
     - [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)
     - [QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)
     - [ChatGPT](/docs/record-spec-settings/grand-child-expanded/chatgpt.html)
-    - [Bild Referenz](/docs/record-spec-settings/grand-child-expanded/image-link.html) 
+    - [Bild Referenz](/docs/record-spec-settings/grand-child-expanded/image-link.html)
     - [Datei Referenz](/docs/record-spec-settings/grand-child-expanded/file-link.html)
 
 5. <span style="color:#0b5394">**Zusätzliche globale Einstellungen und Funktionen**</span>
+
     - [Mitglieder](/docs/global-settings-and-functions.html#mitglieder)
-    - [Rollen](/docs/global-settings-and-functions.html#rollen )
+    - [Rollen](/docs/global-settings-and-functions.html#rollen)
     - [Teams](/docs/global-settings-and-functions.html#teams)
     - [Rechte / Berechtigungen](/docs/global-settings-and-functions.html#rechte--berechtigungen)
     - [Benachrichtigungen](/docs/global-settings-and-functions.html#benachrichtigungen)
@@ -88,28 +93,33 @@ nav_order: 1
     - Gespeicherte Ansicht / Eigene Kacheln
 
 6. <span style="color:#0b5394">**Import und Export**</span>
+
     - [Arbeitsbereiche](/docs/import-export.html#arbeitsbereiche)
     - [Kacheln](/docs/import-export.html#kacheln)
     - [Datensätze / Inhalte](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
 
 7. <span style="color:#0b5394">**Verknüpfung von Listen**</span>
-    - [Über den Baustein *Datensatz*](/docs/link-lists.html#verkn%C3%BCpfung-%C3%BCber-den-baustein-datensatz)
-    - [Über den Baustein *Datensatz Liste*](/docs/link-lists.html#verkn%C3%BCpfung-%C3%BCber-den-baustein-datensatz-liste)
-    - [Schnellerfassung für den Baustein *Datensatz Liste*](/docs/link-lists.html#schnellerfassung-f%C3%BCr-den-baustein-datensatz-liste)
+
+    - [Über den Baustein _Datensatz_](/docs/link-lists.html#verkn%C3%BCpfung-%C3%BCber-den-baustein-datensatz)
+    - [Über den Baustein _Datensatz Liste_](/docs/link-lists.html#verkn%C3%BCpfung-%C3%BCber-den-baustein-datensatz-liste)
+    - [Schnellerfassung für den Baustein _Datensatz Liste_](/docs/link-lists.html#schnellerfassung-f%C3%BCr-den-baustein-datensatz-liste)
 
 8. <span style="color:#0b5394">**Schnittstellen**</span>
+
     - [REST API](/docs/interface.html#rest-api)
     - [Integration von Schnittstellen](/docs/interface.html#integration-von-schnittstellen)
 
 9. <span style="color:#0b5394">**Tutorials**</span>
+
     - [Erstellen einer To-Do-Liste](/docs/tutorials/childs/to-do-list.html#erstellen-einer-to-do-liste)
     - [Erstellen einer Mitarbeiterliste](/docs/tutorials/childs/employee-list.html#erstellen-einer-mitarbeiterliste)
     - [Verknüpfung von Listen](/docs/tutorials/childs/connect-list-employee.html#verknüpfen-von-listen-anhand-des-tutorials-mitarbeiterliste)
     - Arbeitsbereichorganisation mit gefilterten Kacheln
 
 10. <span style="color:#0b5394">**Formelsammlung**</span>
+
     - [Datumsformeln](/docs/formulary/childs/formula%20date.html)
-    - [Bedingungen und Rechnen mit Formeln im Baustein *Formel*](/docs/formulary/childs/condition-calculate-with.html)
+    - [Bedingungen und Rechnen mit Formeln im Baustein _Formel_](/docs/formulary/childs/condition-calculate-with.html)
     - [Rechensymbole / Operatoren](/docs/formulary/childs/symbol-operator.html)
     - [Kombinationen und Beispiele](/docs/formulary/childs/combinations-examples.html)
 

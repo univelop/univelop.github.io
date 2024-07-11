@@ -11,14 +11,14 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.22.0 ausgerollt:
 
 ## <span style="color:#0b5394">**Geteilte Listen**</span>
 
-Komplizierte Synchronisation zwischen zwei Arbeitsbereichen oder ständiger Im- und Export sind nun ein Stück der Vergangenheit. 
+Komplizierte Synchronisation zwischen zwei Arbeitsbereichen oder ständiger Im- und Export sind nun ein Stück der Vergangenheit.
 Mit dem neuen Feature können nun Listen geteilt und so über mehrere Arbeitsbereiche hinweg genutzt werden.
 
 ![release shared lists](\assets\latest-updates\release shared lists.png "release shared lists")
 
 ## <span style="color:#0b5394">**Taggen in Kommentaren**</span>
 
-Der Kommentarbaustein wurde grundlegend verbessert. Mitglieder können nun in Kommentaren per @ getaggt werden. 
+Der Kommentarbaustein wurde grundlegend verbessert. Mitglieder können nun in Kommentaren per @ getaggt werden.
 Die getaggten Mitglieder erhalten dabei eine Benachrichtigung.
 
 ![release comments tag](\assets\latest-updates\release comments tag.png "release comments tag")
@@ -31,7 +31,7 @@ Wichtiger Hinweis: Mit diesem Update können dem Admin keine Sichtbarkeiten oder
 
 ![release brick rights](\assets\latest-updates\release brick rights.png "release brick rights")
 
-## <span style="color:#0b5394">**Neue Formeln *trim* und *range***</span>
+## <span style="color:#0b5394">**Neue Formeln _trim_ und _range_**</span>
 
 Sollen Texte von unsichtbaren Leerzeichen am Anfang oder Ende befreit werden, kann ab sofort die Formel trim() genutzt werden. Benötigt es eine Liste von Zahlen, kann nun range(start, end) zum Einsatz kommen.
 
@@ -49,7 +49,7 @@ Dadurch ist es möglich, dass Personen, welche sich über eine bestimmte Domäne
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
 
--  Änderungen über die REST-API werden im Änderungsprotokoll aufgenommen
--  Entsperren von Einträgen über Mehrfachauswahl möglich
--  Verbesserter Import vom Adressbaustein
--  Verbesserung des Bausteins Laufende Nummer
+-   Änderungen über die REST-API werden im Änderungsprotokoll aufgenommen
+-   Entsperren von Einträgen über Mehrfachauswahl möglich
+-   Verbesserter Import vom Adressbaustein
+-   Verbesserung des Bausteins Laufende Nummer

@@ -6,12 +6,12 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 3
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">view_list</span> **Baustein *Datensatz Liste***</span>
+# <span style="color:#0b5394"><span class="material-icons">view_list</span> **Baustein _Datensatz Liste_**</span>
 
-Der Baustein *Datensatz Liste* zeigt beliebige Einträge einer Liste an.
+Der Baustein _Datensatz Liste_ zeigt beliebige Einträge einer Liste an.
 Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
 Entweder zeigt sie alle Einträge einer Liste an, die die eingestellten Filter erfüllen, oder solche Einträge, die mit dem aktuellen Datensatz explizit verbunden sind.
-In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein, 
+In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein,
 eine einfache Verknüpfung mit einer anderen Liste wählen.
 
 Da Ihnen durch die einfache Verknüpfung alle Datensätze der verknüpften Liste angezeigt werden, müssen Sie
@@ -25,7 +25,7 @@ kein Datensatz gepickt, sondern vielmehr erfasst (neu erstellt).
 
 Nach einer Verknüpfung mit einer anderen Liste, kann eine Verknüpfung über gewählt werden.
 
-*Die goldene Regel lautet: "Verknüpfe immer über dich selbst".*
+_Die goldene Regel lautet: "Verknüpfe immer über dich selbst"._
 
 Das heißt in der verknüpften Liste gibt es einen Datensatz Baustein, der zurück guckt.
 Habe ich in meiner Liste Lieferscheine eine Datensatz-Liste in Richtung Artikelbewegungen,
@@ -39,10 +39,10 @@ nur auf die Datensätze, die mit einem selbst verknüpft sind.
 Zusätzlich oder stattdessen kann auch eine Filterung auf ein bestimmtes Merkmal gesetzt werden.
 Hier eignet sich zum dynamischen Filtern der =B (= Baustein) Filter.
 Die Filterung dieses Bausteins könnte aussagen "Gebe mir alle Artikelbewegungen, in dessen
-Feld Kunde das gleiche steht, wie in meinem Feld Kunde im Lieferschein". 
+Feld Kunde das gleiche steht, wie in meinem Feld Kunde im Lieferschein".
 In Univelop entspricht das "Kunde =B Kunde".
 
-![record-list1](\assets\record-spec-settings\record-list1.png "record-list1")
+![record-list1](\assets\record-spec-settings\record-list1.png 'record-list1')
 
 ## <span style="color:#0b5394">Einstellungen der Oberfläche</span>
 
@@ -56,7 +56,7 @@ Zunächst kann die Anzahl der Datensätze in Vorschau gewählt werden. Im Standa
 Die Vorschau enthält immer die Listenansicht der verknüpften Liste.
 
 Aktiviert man die Schnellerfassung, rutscht das + zum Anlegen neuer Datensätze von oben rechts
-nach unten und man kann in einer Vorschau den neuen Datensatz erfassen, statt dass dieser 
+nach unten und man kann in einer Vorschau den neuen Datensatz erfassen, statt dass dieser
 geöffnet wird. Bausteine der verknüpften Liste könnten für die Schnellerfassung ausgeblendet werden.
 
 Weiterhin könnte der Erfassungs-Button ausgeblendet werden und der Button zur Detailansicht kann
@@ -66,8 +66,7 @@ erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen kö
 Zu guter Letzt gibt es noch "Summe anzeigen". Hier kann zwischen einer Summe über die Anzahl der Datensätze in der verknüpften Liste und einer Summe über einen Baustein gewählt werden. Diese Summe kann gefiltert werden oder damit
 kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend Steuer und Brutto denken.
 
-![record-list2](\assets\record-spec-settings\record-list2.png "record-list2")
-
+![record-list2](\assets\record-spec-settings\record-list2.png 'record-list2')
 
 Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
 [Verknüpfen von Listen](/docs/link-lists.html)

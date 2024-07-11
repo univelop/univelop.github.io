@@ -16,32 +16,32 @@ Hierfür wird ein eigener OpenAI Account und ein gültiger OpenAI API-Schlüssel
 Jegliche Features von ChatGPT sind in Univelop standardmäßig deaktiviert.
 Damit diese aktiviert werden und Univelop mit ChatGPT kommunizieren kann, wird ein gültiger OpenAI API-Schlüssel benötigt.
 Dieser lässt sich nur mit einem eigenen OpenAI Account erstellen.
-Wir empfehlen jedem Kunden, selber einen eigenen Account bei OpenAI zu erstellen. So können die entstehenden Kosten transparent bleiben 
+Wir empfehlen jedem Kunden, selber einen eigenen Account bei OpenAI zu erstellen. So können die entstehenden Kosten transparent bleiben
 und diese auch kontrolliert werden (Token-Limit, direkte Abrechnung über OpenAI).
-Ist dies nicht gewünscht, können wir auch einen API-Schlüssel für Sie bereitstellen. 
-In diesem Falle können die folgenden drei Schritte übersprungen werden und Sie könnten direkt mit uns über support@univelop.de Kontakt aufnehmen. 
+Ist dies nicht gewünscht, können wir auch einen API-Schlüssel für Sie bereitstellen.
+In diesem Falle können die folgenden drei Schritte übersprungen werden und Sie könnten direkt mit uns über support@univelop.de Kontakt aufnehmen.
 
-1. <span style="color:#0b5394">**OpenAI Account erstellen**</span> 
-Der erste Schritt ist nur notwendig, wenn noch kein Konto für ChatGPT vorhanden ist. In dem Falle geht es bei Schritt 2 weiter.
-Um diesen API-Schlüssel zu erhalten, müssen Sie sich auf der OpenAI-Website registrieren und ein Konto erstellen.
+1. <span style="color:#0b5394">**OpenAI Account erstellen**</span>
+   Der erste Schritt ist nur notwendig, wenn noch kein Konto für ChatGPT vorhanden ist. In dem Falle geht es bei Schritt 2 weiter.
+   Um diesen API-Schlüssel zu erhalten, müssen Sie sich auf der OpenAI-Website registrieren und ein Konto erstellen.
 
 2. <span style="color:#0b5394">**API-Schlüssel erstellen**</span>
-Nachdem Sie sich bei OpenAI angemeldet haben, können Sie einen API-Schlüssel erstellen. Dieser Schlüssel ist notwendig, damit Univelop mit ChatGPT kommunizieren kann. Für die Nutzung vom ChatGPT Baustein wird nur *ein einziger* API-Schlüssel pro Arbeitsbereich benötigt.
-Bei den Berechtigungen wird ein eingeschränkter Zugriff auf die Modelle und die "Model capabilities" empfohlen:
-![api key permissions](\assets\chat-gpt-integration\api_key_permissions.png "api key permissions")
-*Stand 10.07.2024, die aktuellen Berechtigungseinstellungen bei der OpenAI API können abweichen* <br>
-Die [Dokumentation von OpenAI](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) ist hierzu umfangreich und sollte jegliche Fragen beantworten können. 
-Sollten trotzdem Fragen offen bleiben, können Sie uns gerne kontaktieren.
+   Nachdem Sie sich bei OpenAI angemeldet haben, können Sie einen API-Schlüssel erstellen. Dieser Schlüssel ist notwendig, damit Univelop mit ChatGPT kommunizieren kann. Für die Nutzung vom ChatGPT Baustein wird nur _ein einziger_ API-Schlüssel pro Arbeitsbereich benötigt.
+   Bei den Berechtigungen wird ein eingeschränkter Zugriff auf die Modelle und die "Model capabilities" empfohlen:
+   ![api key permissions](\assets\chat-gpt-integration\api_key_permissions.png 'api key permissions')
+   _Stand 10.07.2024, die aktuellen Berechtigungseinstellungen bei der OpenAI API können abweichen_ <br>
+   Die [Dokumentation von OpenAI](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) ist hierzu umfangreich und sollte jegliche Fragen beantworten können.
+   Sollten trotzdem Fragen offen bleiben, können Sie uns gerne kontaktieren.
 
-3. <span style="color:#0b5394">**Optional: Projekt erstellen**</span> 
-In Univelop kann optional kann eine Organisation-ID bzw. Projekt-ID mit angegeben werden.
-Dies dient dem Organisieren von mehreren API-Schlüsseln auf nur einem Account bzw. einer übergeordneten Organisation.
-Besitzen Sie bspw. mehrere Arbeitsbereiche, in denen sie planen, ChatGPT zu verwenden, so kann es sich anbieten, für den jeweiligen Arbeitsbereich 
-ein eigenes Projekt unter OpenAI zu erstellen. [Hier](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) dazu mehr.
+3. <span style="color:#0b5394">**Optional: Projekt erstellen**</span>
+   In Univelop kann optional kann eine Organisation-ID bzw. Projekt-ID mit angegeben werden.
+   Dies dient dem Organisieren von mehreren API-Schlüsseln auf nur einem Account bzw. einer übergeordneten Organisation.
+   Besitzen Sie bspw. mehrere Arbeitsbereiche, in denen sie planen, ChatGPT zu verwenden, so kann es sich anbieten, für den jeweiligen Arbeitsbereich
+   ein eigenes Projekt unter OpenAI zu erstellen. [Hier](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) dazu mehr.
 
-3. <span style="color:#0b5394">**Aktivierung**</span>
-Sobald der API-Schlüssel und ggf. eine Organisation-ID erstellt wurde, kontaktieren Sie uns, damit wir die Aktivierung vornehmen. Dies dauert in der Regel nur wenige Minuten.
-Ist die Aktivierung unsererseits abgeschlossen, kann der API-Schlüssel und die Organisation-ID in den Einstellungen des Arbeitsbereiches eingetragen werden.
+4. <span style="color:#0b5394">**Aktivierung**</span>
+   Sobald der API-Schlüssel und ggf. eine Organisation-ID erstellt wurde, kontaktieren Sie uns, damit wir die Aktivierung vornehmen. Dies dauert in der Regel nur wenige Minuten.
+   Ist die Aktivierung unsererseits abgeschlossen, kann der API-Schlüssel und die Organisation-ID in den Einstellungen des Arbeitsbereiches eingetragen werden.
 
 ## <span style="color:#0b5394">**Mögliche Fehlermeldungen**</span>
 
@@ -65,9 +65,9 @@ Ob dies der Fall ist, lässt sich in unter den Organisation- bzw. Projekt-Einste
 
 4. <span style="color:#0b5394">**HTTP-Status 5xx**</span>
 
-Ein HTTP-Status 5xx bedeutet, dass die Dienste von OpenAI zurzeit nicht erreichbar sind. 
+Ein HTTP-Status 5xx bedeutet, dass die Dienste von OpenAI zurzeit nicht erreichbar sind.
 Dies hält in der Regel nur wenige Minuten an, bis sie wieder verfügbar sind.
-Im Falle eines längeren Ausfalls, bitten wir, zuerst den Server-Status von OpenAI zu prüfen, bevor sie uns kontaktieren. 
+Im Falle eines längeren Ausfalls, bitten wir, zuerst den Server-Status von OpenAI zu prüfen, bevor sie uns kontaktieren.
 
 4. <span style="color:#0b5394">**Weitere Fehler**</span>
 

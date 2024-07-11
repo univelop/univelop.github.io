@@ -13,6 +13,6 @@ Dieser Link ist im folgenden Workflow über den technischen Namen zugreifbar.
 
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
-1. <span style="color:#0b5394">**Rollenname/-ID**</span>  
-2. <span style="color:#0b5394">**Teamname/-ID**</span>  
-3. <span style="color:#0b5394">**Lizenzname**</span>  
+1. <span style="color:#0b5394">**Rollenname/-ID**</span>
+2. <span style="color:#0b5394">**Teamname/-ID**</span>
+3. <span style="color:#0b5394">**Lizenzname**</span>

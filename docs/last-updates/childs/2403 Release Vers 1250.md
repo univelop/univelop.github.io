@@ -9,7 +9,7 @@ parent: Latest Updates
 
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.25.0 ausgerollt:
 
-## <span style="color:#0b5394">**Neuer Workflow-Baustein *Dupliziere einen Eintrag***</span>
+## <span style="color:#0b5394">**Neuer Workflow-Baustein _Dupliziere einen Eintrag_**</span>
 
 Die Workflows wurden um einen weiteren Baustein erweitert. Da auch in der regulären Ansicht von Einträgen Datensätze dupliziert werden können, besteht nun auch in Workflows dafür die Möglichkeit.
 
@@ -21,12 +21,13 @@ Die Mehrsprachigkeit wurde bereits vor zwei Monaten eingeführt und wird von uns
 
 ![release improved multi lang](\assets\latest-updates\release improved multi lang.png "release improved multi lang")
 
-## <span style="color:#0b5394">**Verändertes Verhalten Baustein *Datensatzliste***</span>
+## <span style="color:#0b5394">**Verändertes Verhalten Baustein _Datensatzliste_**</span>
 
 Die Anzahl von angezeigten Datensätzen wird nun bei der eingebetteten Datensatzliste auf maximal 100 Stück beschränkt. Ab dann wird mit einem Link zur vollständigen Liste verwiesen. Dadurch kann gute Performance und eine problemlose Darstellung garantiert werden. Dieses Limit greift auch beim Tabellenbaustein.
 
 ![release record list limit](\assets\latest-updates\release record list limit.png "release record list limit")
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
-- Verbesserter Workflow Baustein Sende Push-Nachricht
-- Diverse Fehlerbehebungen
+
+-   Verbesserter Workflow Baustein Sende Push-Nachricht
+-   Diverse Fehlerbehebungen
