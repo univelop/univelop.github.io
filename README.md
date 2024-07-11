@@ -15,6 +15,10 @@ To create and maintain pages of this repository, you need an text editor. We rec
 To install, just search for 'Visual Studio Code' on the internet or use the [official page](https://code.visualstudio.com/).
 On the official page, you can also find a documentation and with it a how-to-get-started tutorial for your OS.
 
+### Formatting
+
+We also strongly recommend the installation of a formatter, that will ensure that e.g. Tables look nice and are easy to read. For this, we recommend the installation of the 'Prettier' extension. You can find it in the [extension store of Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+
 ## Use this repository locally
 
 Follow the [official documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or use the instrucion below.

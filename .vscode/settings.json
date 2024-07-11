@@ -1,4 +1,8 @@
 {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "cSpell.dictionaryDefinitions": [
         {
             "name": "de",
