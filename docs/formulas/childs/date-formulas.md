@@ -35,7 +35,7 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 | m      | Minuten einer Stunde                                 | (Zahl)        | 30          |
 | s      | Sekunden einer Minute                                | (Zahl)        | 55          |
 | S      | fractional second                                    | (Zahl)        | 978         |
-| E      | Wochentag (kurz)                                     | (Text)        | Do          |
+| EEE    | Wochentag (kurz)                                     | (Text)        | Do.         |
 | EEEE   | Wochentag (lang)                                     | (Text)        | Donnerstag  |
 | D      | Tag im Jahr                                          | (Number)      | 189         |
 | a      | am/pm marker                                         | (Text)        | PM          |
@@ -46,6 +46,8 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 | QQQQ   | Quartal (lang)                                       | (Text & Zahl) | 3. Quartal  |
 | '      | Angabe von Text innerhalb des Formates               | (Delimiter)   | 'Date='     |
 | ''     | Angabe von Text innerhalb des Formates mit hochkomma | (Literal)     | ''o'clock'' |
+
+**Hinweis:** Das Symbol "E" sollte nicht mehr verwendet werden, da es zu unerwarteten Ergebnissen führen kann; stattdessen können "EEE" oder "EEEE" genutzt werden.
 
 ### <span style="color:#0b5394">Formatierungsbeispiele</span>
 
