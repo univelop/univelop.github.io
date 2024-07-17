@@ -6,33 +6,33 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 19
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">draw</span> **Baustein *Zeichnung***</span>
+# <span style="color:#0b5394"><span class="material-icons">draw</span> **Baustein _Zeichnung_**</span>
 
-Mit dem Baustein *Zeichnung* können auf mobilen Geräten Zeichnungen erstellt werden.
+Mit dem Baustein _Zeichnung_ können auf mobilen Geräten Zeichnungen erstellt werden.
 Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
 
-![1drawing](\assets\record-spec-settings\1drawing.png "1drawing")
+![1drawing](\assets\record-spec-settings\1drawing.png '1drawing')
 
 1. <span style="color:#0b5394">**Editieren**</span>  
-    Nur auf mobilen Geräten sichtbar. Öffnet den Zeichnen-Modus.
+   Nur auf mobilen Geräten sichtbar. Öffnet den Zeichnen-Modus.
 2. <span style="color:#0b5394">**Hintergrund Ändern**</span>  
-    Ändern des Hintergrundes. Dabei wird die existierende Zeichnung gelöscht.
+   Ändern des Hintergrundes. Dabei wird die existierende Zeichnung gelöscht.
 3. <span style="color:#0b5394">**Löschen**</span>  
-    Löscht die Zeichnung
+   Löscht die Zeichnung
 4. <span style="color:#0b5394">**Teilen/Herunterladen**</span>  
-    Im Web wird hier die Zeichnung heruntergeladen. Auf mobilen Geräten (Android, iOS) kann die Zeichnung geteilt werden.
+   Im Web wird hier die Zeichnung heruntergeladen. Auf mobilen Geräten (Android, iOS) kann die Zeichnung geteilt werden.
 
 ## <span style="color:#0b5394">Zeichnen</span>
 
-![2drawing](\assets\record-spec-settings\2drawing.png "2drawing")
+![2drawing](\assets\record-spec-settings\2drawing.png '2drawing')
 
 1. <span style="color:#0b5394">**Schritt zurück/vor**</span>  
-    Die letzte Aktion(Form eingefügt, Linie gezeichnet etc.) wird zurückgenommen bzw. wieder eingefügt.
+   Die letzte Aktion(Form eingefügt, Linie gezeichnet etc.) wird zurückgenommen bzw. wieder eingefügt.
 2. <span style="color:#0b5394">**Zeichnen**</span>  
-    Wenn ausgewählt, kann auf dem Hintergrund gezeichnet werden.
-3. <span style="color:#0b5394">**Text einfügen**</span>  
+   Wenn ausgewählt, kann auf dem Hintergrund gezeichnet werden.
+3. <span style="color:#0b5394">**Text einfügen**</span>
 4. <span style="color:#0b5394">**Form einfügen**</span>  
-    HIer können beliebige Formen ausgewählt und eingefügt werden.
+   HIer können beliebige Formen ausgewählt und eingefügt werden.
 5. <span style="color:#0b5394">**Undo-Pinsel**</span>  
-    Wenn ausgewählt, können existierende Linien wegtuschiert werden.
+   Wenn ausgewählt, können existierende Linien wegtuschiert werden.
 6. <span style="color:#0b5394">**Farbe und Pinselgröße**</span>

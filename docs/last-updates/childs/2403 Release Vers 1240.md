@@ -15,16 +15,16 @@ Um die Arbeit mit Univelop noch flexibler und einfacher zu machen, haben wir ver
 
 ![release usability](\assets\latest-updates\release usability.png "release usability")
 
-## <span style="color:#0b5394">**Neuer Workflow-Baustein *Warte Sekunden***</span>
+## <span style="color:#0b5394">**Neuer Workflow-Baustein _Warte Sekunden_**</span>
 
-Um in Workflows erfolgreich PDF Dokumente zu erstellen wurde nun der Warte Sekunden Baustein implementiert. 
+Um in Workflows erfolgreich PDF Dokumente zu erstellen wurde nun der Warte Sekunden Baustein implementiert.
 Hier kann ein Workflow für einige Sekunden pausiert werden, damit angestoßene Vorgänge im Workflow fertig laufen können.
 
 ![release wait seconds](\assets\latest-updates\release wait seconds.png "release wait seconds")
 
-## <span style="color:#0b5394">**Workflow-Baustein *Finde ersten Eintrag* verbessert**</span>
+## <span style="color:#0b5394">**Workflow-Baustein _Finde ersten Eintrag_ verbessert**</span>
 
-Bisher ist der Workflow-Baustein *Finde ersten Eintrag* mit einem Fehler geendet, wenn kein Eintrag wurde. 
+Bisher ist der Workflow-Baustein _Finde ersten Eintrag_ mit einem Fehler geendet, wenn kein Eintrag wurde.
 Um diese Fehler zu vermeiden, kann nun eingestellt werden, dass stattdessen ein neuer Eintrag erstellt werden soll.
 
 ## <span style="color:#0b5394">**Verbesserte Mitgliederkachel**</span>
@@ -35,18 +35,18 @@ Die Mitgliederkachel wurde mit diesem Update verbessert. Sie kann nun umbennant 
 
 ## <span style="color:#0b5394">**Neue Formeln**</span>
 
-Um weiter mit Formeln und Workflows mehr Möglichkeiten und einfaches Arbeiten zu fördern, wurden neue Formeln hinzugefügt. Die *power()* Formel zum Rechnen mit Exponenten (z.B. 3²) und die Formel *showIf()* zum Einblenden von Bausteinwerten in generierten PDF Dokumenten.
+Um weiter mit Formeln und Workflows mehr Möglichkeiten und einfaches Arbeiten zu fördern, wurden neue Formeln hinzugefügt. Die _power()_ Formel zum Rechnen mit Exponenten (z.B. 3²) und die Formel _showIf()_ zum Einblenden von Bausteinwerten in generierten PDF Dokumenten.
 
 ## <span style="color:#0b5394">**Neue Formeln für Listen**</span>
 
-Die Bausteine Mehrfachauswahl und Datensätze bestehen nun seit einiger Zeit in der App. Um mit diesen auch besser in Workflows hantieren zu können, gibt es zwei neue Formeln. *addToList()* um Elemente einer Liste hinzuzufügen und *joinLists()* um zwei Listen zu kombinieren.
+Die Bausteine Mehrfachauswahl und Datensätze bestehen nun seit einiger Zeit in der App. Um mit diesen auch besser in Workflows hantieren zu können, gibt es zwei neue Formeln. _addToList()_ um Elemente einer Liste hinzuzufügen und _joinLists()_ um zwei Listen zu kombinieren.
 
 ![release list formulas](\assets\latest-updates\release list formulas.png "release list formulas")
 
-
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
--  Verbesserte Mehrfachauswahl
--  Verbesserter E-Mail Versand
--  Beim Unterschriftbaustein als Pflichtfeld ist nun der Name notwendig
--  Verschiedenste Verbesserungen bei Filtern
--  Diverse weitere Verbesserungen
+
+-   Verbesserte Mehrfachauswahl
+-   Verbesserter E-Mail Versand
+-   Beim Unterschriftbaustein als Pflichtfeld ist nun der Name notwendig
+-   Verschiedenste Verbesserungen bei Filtern
+-   Diverse weitere Verbesserungen

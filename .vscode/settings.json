@@ -1,23 +1,27 @@
 {
-  "cSpell.dictionaryDefinitions": [
-    {
-      "name": "de",
-      "path": "https://gist.githubusercontent.com/janiswehen/9f0bfe30b44a1d258ecd5cd1b3ed4c33/raw/21be08f0d5b3002622007fce24ddbcb572d0553b/de.txt"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "name": "custom_en",
-      "path": "https://gist.githubusercontent.com/janiswehen/499face5453a1c1202f1b2c3bcc94741/raw/6c4ba3c568d7285e8ca9186e8f951ae1e7c09efd/gistfile1.txt"
-    },
-    {
-      "name": "custom",
-      "path": "./.vscode/custom_dictionary.txt"
-    }
-  ],
-  "cSpell.dictionaries": [
-    "de",
-    "custom_en",
-    "univelop",
-    "abbreviations",
-    "custom"
-  ],
+    "cSpell.dictionaryDefinitions": [
+        {
+            "name": "de",
+            "path": "https://gist.githubusercontent.com/janiswehen/9f0bfe30b44a1d258ecd5cd1b3ed4c33/raw/21be08f0d5b3002622007fce24ddbcb572d0553b/de.txt"
+        },
+        {
+            "name": "custom_en",
+            "path": "https://gist.githubusercontent.com/janiswehen/499face5453a1c1202f1b2c3bcc94741/raw/6c4ba3c568d7285e8ca9186e8f951ae1e7c09efd/gistfile1.txt"
+        },
+        {
+            "name": "custom",
+            "path": "./.vscode/custom_dictionary.txt"
+        }
+    ],
+    "cSpell.dictionaries": [
+        "de",
+        "custom_en",
+        "univelop",
+        "abbreviations",
+        "custom"
+    ]
 }

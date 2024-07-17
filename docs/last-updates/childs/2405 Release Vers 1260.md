@@ -39,7 +39,7 @@ Bisher konnten nur einige ausgewählte Bausteine mit Tooltips versehen werden. N
 
 ![release tooltips](\assets\latest-updates\release tooltips.png "release tooltips")
 
-## <span style="color:#0b5394">**Neue Kachelart *Seite***</span>
+## <span style="color:#0b5394">**Neue Kachelart _Seite_**</span>
 
 Für statische Informationen wie einen Terminplan oder einen Hinweis für die Mitarbeiter gibt es nun die Kachelart "Seite". Die Kachel öffnet keine Listenansicht, sondern nur einen einzigen Datensatz, die "Seite". In dieser Seite können wie im bekannten Designmodus beliebige Bausteine hinzugefügt werden, um die Seite zu gestalten.
 
@@ -57,7 +57,7 @@ Eine Datei hochgeladen, aber falsch benannt? Mit der neuen Version kein Problem!
 
 ## <span style="color:#0b5394">**Neue Formeln**</span>
 
-Damit auch in Workflows oder Formeln die Möglichkeiten unbegrenzt bleiben, haben wir einige neue Formeln implementiert: *listToText()* um die Listenelemente getrennt von einem Separator zu erhalten und *removeFromList()* um bestimmte Elemente einer Liste zu löschen. Dazu wurde *substring()* hinzugefügt, um einen Teil aus einem Text zu erhalten.
+Damit auch in Workflows oder Formeln die Möglichkeiten unbegrenzt bleiben, haben wir einige neue Formeln implementiert: _listToText()_ um die Listenelemente getrennt von einem Separator zu erhalten und _removeFromList()_ um bestimmte Elemente einer Liste zu löschen. Dazu wurde _substring()_ hinzugefügt, um einen Teil aus einem Text zu erhalten.
 
 ## <span style="color:#0b5394">**Heute-Button im Datumsbaustein**</span>
 
@@ -71,8 +71,9 @@ Im Suchdialog, bspw. bei der Suche nach einer Rolle in einem Filter, wird der Cu
 Dazu haben wir weitere kleine Verbesserungen in die App eingebaut, die das Arbeiten mit Univelop angenehmer gestalten.
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
-- Spaltenbreite im Tabellenbaustein nun einstellbar
-- Verbesserte Filterung bei Drop-Down Bausteinen
-- Scannerkachel um Einstellung "Kameraart" erweitert
-- Performance im Designmodus verbessert
-- Diverse Fehlerbehebungen
+
+-   Spaltenbreite im Tabellenbaustein nun einstellbar
+-   Verbesserte Filterung bei Drop-Down Bausteinen
+-   Scannerkachel um Einstellung "Kameraart" erweitert
+-   Performance im Designmodus verbessert
+-   Diverse Fehlerbehebungen
