@@ -27,6 +27,7 @@ Mit den Workflow-Bausteinen können Workflows entworfen werden.
  |[Iteriere über Werte](/docs/workflows/grand-childs-bricks/iterate-values.html)  
  |Erweitert|
 |[Sende Web Request](/docs/workflows/grand-childs-bricks/web-request.html) |[Sende E-Mail](/docs/workflows/grand-childs-bricks/send-mail.html)
-|[Versende Push-Nachricht](/docs/workflows/grand-childs-bricks/choose-record.html)|[Check Out](/docs/workflows/grand-childs-bricks/check-out.html)
+|[Versende Push-Nachricht](/docs/workflows/grand-childs-bricks/send-notification.html)|[Check Out](/docs/workflows/grand-childs-bricks/check-out.html)
 |[Webhook](/docs/workflows/grand-childs-bricks/webhook.html) |[Erstelle einen neuen Nutzer](/docs/workflows/grand-childs-bricks/create-user.html)
 |[Importiere Excel-Tabelle](/docs/workflows/grand-childs-bricks/import-excel.html) |[Erstelle Einladungslink](/docs/workflows/grand-childs-bricks/create-invitation-link.html)
+|[Rufe E-Mails ab](/docs/workflows/grand-childs-bricks/get-emails.html)
