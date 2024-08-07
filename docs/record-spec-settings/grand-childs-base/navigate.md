@@ -6,7 +6,7 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 7
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">perm_media</span> **Baustein _Navigation_**</span>
+# <span style="color:#0b5394"><span class="material-icons">assistant_direction</span> **Baustein _Navigation_**</span>
 
 Um bei Prozessen zwischen mehreren Einträgen zu vereinfachen und die Nutzbarkeit für bspw. Portal-Nutzer zu verbessern, kann der Baustein _Navigation_ genutzt werden. Dieser Baustein ist ein Button, welcher mit verschiedenen Navigationszielen versehen werden kann.
 

@@ -14,13 +14,38 @@ Informationen bereit gestellt werden sollen. Mit den Formular Bausteinen können
 von Datensätzen hergestellt, sortiert und gefiltert werden, sowie Leserechte und Anzeigen unter
 Bedingungen festlegen.
 
-|                                                                          |                                      _Formular_                                       |                                                                               |
-| :----------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-|    [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)    |          [Nummer](/docs/record-spec-settings/grand-childs-form/number.html)           |     [Schalter](/docs/record-spec-settings/grand-childs-form/switch.html)      |
-| [Drop-Down](/docs/record-spec-settings/grand-childs-form/drop-down.html) | [Mehrfach-Auswahl](/docs/record-spec-settings/grand-childs-form/multi-selection.html) |        [Datum](/docs/record-spec-settings/grand-childs-form/date.html)        |
-| [Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html) |           [Timer](/docs/record-spec-settings/grand-childs-form/timer.html)            |      [Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)       |
-|      [Team](/docs/record-spec-settings/grand-childs-form/team.html)      |     [Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html)     | [Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) |
-|    [E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html)    |        [Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html)         |     [Adresse](/docs/record-spec-settings/grand-childs-form/address.html)      |
-|    [Abmessungen](/docs/record-spec-settings/grand-childs-form/measure.html)    |        [Geo Position](/docs/record-spec-settings/grand-childs-form/geo-location.html)         |     
 
+<!-- 
+please do not edit, table will be generated automatically 
+-->
 
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><em>Formular</em></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign pages = site.pages | where: "parent", "Formular-Bausteine" | sort: 'nav_order' %}
+    {% assign count = 0 %}
+    <tr>
+    {% for page in pages %}
+      <td style="text-align:center;"><a href="{{ page.url }}">{{ page.title }}</a></td>
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 3 %}
+      {% if mod == 0 %}
+        </tr><tr>
+      {% endif %}
+    {% endfor %}
+    {% assign remainder = count | modulo: 3 %}
+    {% if remainder != 0 %}
+      {% assign empty_cells = 3 | minus: remainder %}
+      {% for i in (1..empty_cells) %}
+        <td></td>
+      {% endfor %}
+      </tr>
+    {% endif %}
+  </tbody>
+</table>
