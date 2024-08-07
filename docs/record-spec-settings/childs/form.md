@@ -21,4 +21,6 @@ Bedingungen festlegen.
 | [Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html) |           [Timer](/docs/record-spec-settings/grand-childs-form/timer.html)            |      [Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)       |
 |      [Team](/docs/record-spec-settings/grand-childs-form/team.html)      |     [Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html)     | [Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) |
 |    [E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html)    |        [Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html)         |     [Adresse](/docs/record-spec-settings/grand-childs-form/address.html)      |
-| [Abmessungen](/docs/record-spec-settings/grand-childs-form/measure.html) |                                                                                       |                                                                               |
+|    [Abmessungen](/docs/record-spec-settings/grand-childs-form/measure.html)    |        [Geo Position](/docs/record-spec-settings/grand-childs-form/geo-location.html)         |     
+
+
