@@ -14,29 +14,100 @@ Einstellungen und Funktionen der einzelnen Bausteine ein.
 
 Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 
-|                                                                        |                                 _Basis_                                  |                                                                   |
-| :--------------------------------------------------------------------: | :----------------------------------------------------------------------: | :---------------------------------------------------------------: |
-| [Abschnitt](/docs/record-spec-settings/grand-childs-base/section.html) | [Überschrift](/docs/record-spec-settings/grand-childs-base/heading.html) | [Hinweis](/docs/record-spec-settings/grand-childs-base/hint.html) |
-| [Web Link](/docs/record-spec-settings/grand-childs-base/web-link.html) |     [Bild](/docs/record-spec-settings/grand-childs-base/image.html)      |  [Datei](/docs/record-spec-settings/grand-childs-base/file.html)  |
 
-|                                                                          |                                      _Formular_                                       |                                                                               |
-| :----------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-|    [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)    |          [Nummer](/docs/record-spec-settings/grand-childs-form/number.html)           |     [Schalter](/docs/record-spec-settings/grand-childs-form/switch.html)      |
-| [Drop-Down](/docs/record-spec-settings/grand-childs-form/drop-down.html) | [Mehrfach-Auswahl](/docs/record-spec-settings/grand-childs-form/multi-selection.html) |        [Datum](/docs/record-spec-settings/grand-childs-form/date.html)        |
-| [Zeitspanne](/docs/record-spec-settings/grand-childs-form/interval.html) |           [Timer](/docs/record-spec-settings/grand-childs-form/timer.html)            |      [Benutzer](/docs/record-spec-settings/grand-childs-form/user.html)       |
-|      [Team](/docs/record-spec-settings/grand-childs-form/team.html)      |     [Bild Upload](/docs/record-spec-settings/grand-childs-form/upload-image.html)     | [Datei Upload](/docs/record-spec-settings/grand-childs-form/upload-file.html) |
-|    [E-Mail](/docs/record-spec-settings/grand-childs-form/e-mail.html)    |        [Telefon](/docs/record-spec-settings/grand-childs-form/telephone.html)         |     [Adresse](/docs/record-spec-settings/grand-childs-form/address.html)      |
-| [Abmessungen](/docs/record-spec-settings/grand-childs-form/measure.html) |                                                                                       |
+<!-- 
+please do not edit, tables will be generated automatically 
+-->
 
-|                                                                                     |                                        _Erweitert_                                         |                                                                                        |
-| :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
-|      [Datensatz](/docs/record-spec-settings/grand-child-expanded/record.html)       |         [Datensätze](/docs/record-spec-settings/grand-child-expanded/records.html)         |  [Datensatz Liste](/docs/record-spec-settings/grand-child-expanded/record-list.html)   |
-|   [Datensatz sperren](/docs/record-spec-settings/grand-child-expanded/lock.html)    |        [Genehmigung](/docs/record-spec-settings/grand-child-expanded/approval.html)        |         [Status](/docs/record-spec-settings/grand-child-expanded/status.html)          |
-| [Status Button](/docs/record-spec-settings/grand-child-expanded/button-status.html) |         [Kalender](/docs/record-spec-settings/grand-child-expanded/calender.html)          |     [Terminplaner](/docs/record-spec-settings/grand-child-expanded/scheduler.html)     |
-|        [Tabelle](/docs/record-spec-settings/grand-child-expanded/table.html)        |           [Matrix](/docs/record-spec-settings/grand-child-expanded/matrix.html)            | [Laufende Nummer](/docs/record-spec-settings/grand-child-expanded/rolling-number.html) |
-|      [Workflow](/docs/record-spec-settings/grand-child-expanded/workflow.html)      |          [Webhook](/docs/record-spec-settings/grand-child-expanded/webhook.html)           |    [Textformel](/docs/record-spec-settings/grand-child-expanded/textformular.html)     |
-| [Zahlenformel](/docs/record-spec-settings/grand-child-expanded/numberformular.html) |    [Ja-Nein-Formel](/docs/record-spec-settings/grand-child-expanded/boolformular.html)     |   [Datums-Formel](/docs/record-spec-settings/grand-child-expanded/dateformular.html)   |
-|      [Zeichnung](/docs/record-spec-settings/grand-child-expanded/drawing.html)      |       [Unterschrift](/docs/record-spec-settings/grand-child-expanded/signature.html)       |       [Kommentare](/docs/record-spec-settings/grand-child-expanded/comment.html)       |
-|  [PDF erstellen](/docs/record-spec-settings/grand-child-expanded/create-pdf.html)   | [Artikel Scanner](/docs/record-spec-settings/grand-child-expanded/article%20scanner.html)  | [Änderungsprotokoll](/docs/record-spec-settings/grand-child-expanded/change-log.html)  |
-|   [QR-/Barcode](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html)    |          [ChatGPT](/docs/record-spec-settings/grand-child-expanded/chatgpt.html)           |    [Bild Referenz](/docs/record-spec-settings/grand-child-expanded/image-link.html)    |
-|  [Datei Referenz](/docs/record-spec-settings/grand-child-expanded/file-link.html)   | [Bild Scanner](/docs/record-spec-settings/grand-child-expanded/chatgpt-image-scanner.html) |
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><em>Basis</em></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign pages = site.pages | where: "parent", "Basis-Bausteine" | sort: 'nav_order' %}
+    {% assign count = 0 %}
+    <tr>
+    {% for page in pages %}
+      <td style="text-align:center;"><a href="{{ page.url }}">{{ page.title }}</a></td>
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 3 %}
+      {% if mod == 0 %}
+        </tr><tr>
+      {% endif %}
+    {% endfor %}
+    {% assign remainder = count | modulo: 3 %}
+    {% if remainder != 0 %}
+      {% assign empty_cells = 3 | minus: remainder %}
+      {% for i in (1..empty_cells) %}
+        <td></td>
+      {% endfor %}
+      </tr>
+    {% endif %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><em>Formular</em></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign pages = site.pages | where: "parent", "Formular-Bausteine" | sort: 'nav_order' %}
+    {% assign count = 0 %}
+    <tr>
+    {% for page in pages %}
+      <td style="text-align:center;"><a href="{{ page.url }}">{{ page.title }}</a></td>
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 3 %}
+      {% if mod == 0 %}
+        </tr><tr>
+      {% endif %}
+    {% endfor %}
+    {% assign remainder = count | modulo: 3 %}
+    {% if remainder != 0 %}
+      {% assign empty_cells = 3 | minus: remainder %}
+      {% for i in (1..empty_cells) %}
+        <td></td>
+      {% endfor %}
+      </tr>
+    {% endif %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><em>Erweitert</em></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign pages = site.pages | where: "parent", "Erweiterte Bausteine" | sort: 'nav_order' %}
+    {% assign count = 0 %}
+    <tr>
+    {% for page in pages %}
+      <td style="text-align:center;"><a href="{{ page.url }}">{{ page.title }}</a></td>
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 3 %}
+      {% if mod == 0 %}
+        </tr><tr>
+      {% endif %}
+    {% endfor %}
+    {% assign remainder = count | modulo: 3 %}
+    {% if remainder != 0 %}
+      {% assign empty_cells = 3 | minus: remainder %}
+      {% for i in (1..empty_cells) %}
+        <td></td>
+      {% endfor %}
+      </tr>
+    {% endif %}
+  </tbody>
+</table>
