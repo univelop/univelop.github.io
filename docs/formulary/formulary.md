@@ -37,8 +37,6 @@ das `zahl` in die _21_ durch das System "übersetzt".
 Der technische Name wird im Designmodus, in den Einstellungen des jeweiligen Bausteins eingetragen.
 Das System achtet dabei selbstständig darauf, dass der eingegebene Name innerhalb der Liste eindeutig ist.
 
-<span style="color:#0b5394">**Achtung: Um Fehler zu vermeiden, sollten technische Namen nicht mit dem Suffix "_\_text_" aufhören!**</span>
-
 ## <span style="color:#0b5394">Formeln</span>
 
 In Univelop sind Formeln eine Art Funktion, welche Werte bekommen und diese umrechnen um einen neuen Ergebniswert zurückzugeben.
