@@ -30,20 +30,16 @@ nav_order: 1
 
 4. <span style="color:#0b5394">**Die Bausteine und deren Einstellungen**</span>
 
-<!-- 
-please do not edit, list will be generated automatically 
--->
-
 {% assign categories = "Basis-Bausteine,Formular-Bausteine,Erweiterte Bausteine" | split: ',' %}
-{% for category in categories %}
+   {% for category in categories %}
    1. <span style="color:#0b5394">**{{ category }}**</span>
-   {% assign pages = site.pages | where: "grand_parent", "Die Bausteine und deren Einstellungen" | where: "parent", category | sort: "nav_order" %}
-        <ul>
-        {% for page in pages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-        </ul>
-{% endfor %}
+      {% assign pages = site.pages | where: "grand_parent", "Die Bausteine und deren Einstellungen" | where: "parent", category | sort: "nav_order" %}
+      <ul>
+         {% for page in pages %}
+         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+         {% endfor %}
+      </ul>
+   {% endfor %}
 
 5. <span style="color:#0b5394">**Zusätzliche globale Einstellungen und Funktionen**</span>
 
