@@ -41,14 +41,8 @@ Alle Textkonstanten liefern einen Text bei der Auswertung.
 | `base64Encode(value)`       | Kodiert den gegebenen Text mithilfe des base64 Verfahrens     | `base64Encode("Hallo, Welt!")` liefert "SGFsbG8sIFdlbHQh"                  | 1. Wert: Text      | Text                    |
 | `base64Decode(value)`       | Dekodiert einen mit dem base64 kodierten Text zurück in den Ursprung     | `base64Decode("SGFsbG8sIFdlbHQh")` liefert "Hallo, Welt!"                  | 1. Wert: Text       | Text                    |
 | `toCharCode(text)`       | Wandelt das gegebene Zeichen in dessen numerischen Zeichencode um     | `toCharCode("a")` liefert "97"                  | 1. Wert: Text (Einzelnes Zeichen, ansonsten wird erstes Zeichen genommen)       | Zahl                    |
-
-
-## <span style="color:#0b5394">**Textbezogene Formeln**</span>
-
-| Formel                | Beschreibung                                                                        | Beispiel                                   | Eingabewerte (Werte in den Klammern) | Gelieferter Ergebnistyp |
-| --------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------ | ----------------------- |
 | `contains(text, sub)` | Gibt Ja/Nein abhängig davon zurück, ob der Text _sub_ im Text _text_ vorhanden ist. | `contains("Hallo du","du")` liefert _true_ | 1. Wert: Text, 2. Wert: Text         | Ja/Nein                 |
 | `textLength(text)`    | Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus                | `textLength("Hallo Welt!")` liefert _11_   | 1. Wert: Text                        | Zahl                    |
 | `parseJson(jsonText)` | Konvertiert einen Json-String zu einem Json-Objekt                                  | `parseJson("{id:123}")` liefert _{id:123}_ | 1. Wert: Text (im JSON-Format)       | Objekt                  |
-| `toText(value)`       | Wandelt einen nicht textuellen Wert in eine textuelle Darstellung des Wertes um     | `toText(12)` liefert "12"                  | 1. Wert: nicht-textueller Wert       | Text                    |
 | `fromCharCode(value)`       | Wandelt den gegebenen numerischen Zeichencode in dessen repräsentierendes Zeichen um     | `fromCharCode(97)` liefert "a"                  | 1. Wert: Nummer       | Text                    |
+| `toCharCode(text)`       | Wandelt das gegebene Zeichen in dessen numerischen Zeichencode um     | `toCharCode("a")` liefert "97"                  | 1. Wert: Text (Einzelnes Zeichen, ansonsten wird erstes Zeichen genommen)       | Zahl                    |
