@@ -6,18 +6,18 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 17
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">location_on</span> **Baustein _Geo Position_**</span>
+# <span style="color:#0b5394"><span class="material-icons">location_on</span> **Baustein _GPS Position_**</span>
 
 Der Baustein _GPS Position_ ermöglicht die Erfassung der genauen Position (Breitengrad, Längengrad) von iOS und Android Geräten.
 
-Der Baustein speichert und visualisiert den erkannten Breitengrad, Längengrad, die Genauigkeit der Werte in Metern sowie die erkannte Adresse.
+Der Baustein speichert den erfassten Breiten- und Längengrad, die Genauigkeit der Werte in Metern sowie die erkannte Adresse.
 Der Wert des Bausteines kann, wie auch bei dem Baustein Adresse, über das Karten-Icon in der lokal installierten Karten-App geöffnet werden. So kann eine erfasste Position direkt in Google Maps angesehen werden.
 
 Um die aktuelle Position erfassen zu können, muss auf den jeweiligen iOS und Android Geräten der Gerätestandort aktiviert sein und der Univelop App müssen in den Geräteeinstellungen die Berechtigungen auf den Gerätestandort erteilt werden.
 
 ![GPS Position](\assets\record-spec-settings\geo-location-brick.png 'GPS Position')
 
-Wird auf einem iOS oder Android Gerät der "Aktuelle Standort"-Button gedrückt, öffnet sich ein Dialogfenster welcher die Genauigkeit der aktuell erkannten Position zeigt. 
+Wird auf einem iOS oder Android Gerät der "Aktueller Standort"-Button gedrückt, öffnet sich ein Dialogfenster welcher die Genauigkeit der aktuell erkannten Position zeigt. 
 Hier können verschiedene Faktoren, wie unter anderem eine aktive WLAN-Verbindung, zu besseren Ergebnissen beitragen.
 Um den aktuellen Standort zu erfassen und die Adresse zu laden, muss dies über den "OK"-Button im Dialogfenster bestätigt werden.
 
