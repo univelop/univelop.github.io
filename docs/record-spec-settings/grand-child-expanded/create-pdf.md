@@ -53,6 +53,20 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
     |${endrepeat(maschZeiten.einsaetze)}|                           |           |
     |${endrepeat} | | |
 
+4. <span style="color:#0b5394">**Ein/-Ausblenden von Inhalten**</span>  
+   Sollten gewisse Inhalte zB abhängig von einem Schalter ausgeblendet werden, kann dies über die `showIf` bzw. `hideIf` Funktion realisiert werden.
+
+    Wenn wir das obige Beispiel (Zeiterfassung) erweitern möchten, und zB anzeigen möchten, dass es sich bei der aufgeführten Zeit um Reisezeit handelte kann man zB so etwas machen:
+
+    |**Arbeitszeit** |**Mitarbeiter**| |
+    |${repeat(mitarbeiterZeiten)}            |           | |
+    |${mitarbeiterZeiten.Arbeitszeit} |${mitarbeiterZeiten.name}| ${showIf(mitarbeiterZeit.istReisezeit)}Reisezeit${endShowIf(mitarbeiterZeit.istReisezeit)} |
+    |${endrepeat} | |
+
+    In diesem Beispiel wird der Text "Reisezeit" nur angezeigt, wenn der Schalter `istReisezeit` gesetzt ist. `showIf` und `hideIf` können auch auch außerhalb von `repeat`-Blöcken verwendet werden, wichtig ist nur, das ein `endShowIf` bzw. `endHideIf` folgt.
+
+    _Hinweis:_ `showIf` und `hideIf` können nur auf Schalter / Ja-/Nein-Formel-Bausteine angewendet werden. Die direkte Eingabe von Formeln ist nicht möglich.
+
 ## <span style="color:#0b5394">Einstellungen des Bausteins _PDF erstellen_</span>
 
 ![create pdf settings](\assets\record-spec-settings\2create pdf settings.png "create pdf settings")
