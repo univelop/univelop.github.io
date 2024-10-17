@@ -299,3 +299,4 @@ Zieldatensatz
 zoomable
 Zufgriffsfilter
 Zustandsstati
+Kalenderfreigaben
