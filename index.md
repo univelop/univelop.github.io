@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Startseite
 nav_order: 0
 ---
 
