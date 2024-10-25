@@ -12,8 +12,8 @@ has_toc: false
 Die erweiterten Bausteine gehen über die "einfachen" Formular Bausteine hinaus. Hiermit können Listen und
 Bausteine verknüpft, sowie Dateien und Stati hinterlegt werden.
 
-<!-- 
-please do not edit, table will be generated automatically 
+<!--
+please do not edit, table will be generated automatically
 -->
 
 <table>
@@ -42,7 +42,7 @@ please do not edit, table will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+    </tr>
   </tbody>
 </table>

@@ -14,9 +14,8 @@ Einstellungen und Funktionen der einzelnen Bausteine ein.
 
 Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 
-
-<!-- 
-please do not edit, tables will be generated automatically 
+<!--
+please do not edit, tables will be generated automatically
 -->
 
 <table>
@@ -45,8 +44,8 @@ please do not edit, tables will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+    </tr>
   </tbody>
 </table>
 
@@ -76,8 +75,8 @@ please do not edit, tables will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+    </tr>
   </tbody>
 </table>
 
@@ -107,7 +106,7 @@ please do not edit, tables will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+    </tr>
   </tbody>
 </table>

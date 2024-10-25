@@ -3,7 +3,7 @@ layout: default
 title: Bild-Erkennung
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 30
+nav_order: 28
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">document_scanner</span> **Baustein <i>Bild-Erkennung</i>**</span>

@@ -14,9 +14,8 @@ Informationen bereit gestellt werden sollen. Mit den Formular Bausteinen können
 von Datensätzen hergestellt, sortiert und gefiltert werden, sowie Leserechte und Anzeigen unter
 Bedingungen festlegen.
 
-
-<!-- 
-please do not edit, table will be generated automatically 
+<!--
+please do not edit, table will be generated automatically
 -->
 
 <table>
@@ -45,7 +44,7 @@ please do not edit, table will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+    </tr>
   </tbody>
 </table>
