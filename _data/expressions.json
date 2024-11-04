@@ -1,0 +1,173 @@
+{
+   "text-expressions": [
+     {
+       "expression": "randomString(length)",
+       "shortDescription": "Erzeugt eine zufällige Zeichenkette mit gegebener Länge",
+       "description": "Erzeugt eine zufällige Zeichenkette mit gegebener Länge (bestehend aus Kleinbuchstaben und Zahlen)",
+       "example": "`randomString(10)` liefert \"f49gf623bk\"",
+       "parameters": ["Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "toText(element)",
+       "shortDescription": "Wandelt einen nicht textuellen Wert in einen Text um",
+       "description": "Wandelt einen nicht textuellen Wert (Zahlen, dynamische Werte, Datum, Objekte) in eine textuelle Darstellung des Wertes um",
+       "example": "`toText(12)` liefert \"12\"",
+       "parameters": ["nicht-textueller Wert"],
+       "returns": "Text"
+     },
+     {
+       "expression": "substring(text, start, [end])",
+       "shortDescription": "Gibt einen Ausschnitt aus einem Text zurück",
+       "description": "Liefert den Ausschnitt aus _text_, welcher an Zeichen _start - 1_ beginnt und an _end_ endet. Wird _end_ nicht angegeben, so wird der Text ab _start_ bis zum Ende zurückgegeben.",
+       "example": "`substring(\"Hallo Welt\", 2, 5)` liefert \"llo\"",
+       "parameters": ["Text", "Zahl", "Zahl (optional)"],
+       "returns": "Text"
+     },
+     {
+       "expression": "firstLetters(text, count)",
+       "shortDescription": "Gibt die ersten Zeichen eines Textes zurück",
+       "description": "Liefert die ersten _count_ Zeichen vom Anfang des Textes",
+       "example": "`firstLetters(\"Hallo Welt\", 5)` liefert \"Hallo\"",
+       "parameters": ["Text", "Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "lastLetters(text, count)",
+       "shortDescription": "Gibt die letzten Zeichen eines Textes zurück",
+       "description": "Liefert die letzten _count_ Zeichen vom Ende des Textes",
+       "example": "`lastLetters(\"Hallo Welt\", 5)` liefert \"Welt\"",
+       "parameters": ["Text", "Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "firstWords(text, count)",
+       "shortDescription": "Gibt die ersten Wörter eines Textes zurück",
+       "description": "Liefert die ersten _count_ Wörter vom Anfang des Textes. Als Wörter zählen solche, die durch nur _ein_ Leerzeichen getrennt sind.",
+       "example": "`firstWords(\"Hallo du große Welt\", 2)` liefert \"Hallo du\"",
+       "parameters": ["Text", "Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "lastWords(text, count)",
+       "shortDescription": "Gibt die letzten Wörter eines Textes zurück",
+       "description": "Liefert die letzten _count_ Wörter vom Ende des Textes. Als Wörter zählen solche, die durch nur _ein_ Leerzeichen getrennt sind.",
+       "example": "`lastWords(\"Hallo du große Welt\", 2)` liefert \"große Welt\"",
+       "parameters": ["Text", "Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "replace(text, find, sub)",
+       "shortDescription": "Ersetzt Text innerhalb eines Textes",
+       "description": "Ersetzt jedes Vorkommen des Textes _find_ im Text _text_ mit _sub_",
+       "example": "`replace(\"Hallo du\", \"du\", \"ihr\")` liefert \"Hallo ihr\"",
+       "parameters": ["Text", "Text", "Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "basicAuth(username, password)",
+       "shortDescription": "Erzeugt einen Basic-Authentifizierungs-Header",
+       "description": "Kodiert Nutzername und Passwort",
+       "example": "`basicAuth(\"name\", \"1234\")` liefert \"Basic bmFtZToxMjM0\"",
+       "parameters": ["Text", "Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "toUpperCase(text)",
+       "shortDescription": "Konvertiert Text zu Großbuchstaben",
+       "description": "Konvertiert den gegebenen Text auf Großbuchstaben",
+       "example": "`toUpperCase(\"Hallo Welt!\")` liefert \"HALLO WELT!\"",
+       "parameters": ["Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "toLowerCase(text)",
+       "shortDescription": "Konvertiert Text zu Kleinbuchstaben",
+       "description": "Konvertiert den gegebenen Text auf Kleinbuchstaben",
+       "example": "`toLowerCase(\"Hallo Welt!\")` liefert \"hallo welt!\"",
+       "parameters": ["Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "formatNumber(number, decimalCount, thousandSeparator)",
+       "shortDescription": "Formatiert eine Zahl als Text",
+       "description": "Formatiert die Nummer zu gewünschtem Format und gibt diese als Text aus",
+       "example": "`formatNumber(1000, 3, true)` liefert \"1.000,000\"",
+       "parameters": ["Zahl", "Zahl", "Ja/Nein"],
+       "returns": "Text"
+     },
+     {
+       "expression": "base64Encode(value)",
+       "shortDescription": "Kodiert Text in Base64",
+       "description": "Kodiert den gegebenen Text mithilfe des Base64-Verfahrens",
+       "example": "`base64Encode(\"Hallo, Welt!\")` liefert \"SGFsbG8sIFdlbHQh\"",
+       "parameters": ["Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "base64Decode(value)",
+       "shortDescription": "Dekodiert Base64-kodierten Text",
+       "description": "Dekodiert einen mit dem Base64 kodierten Text zurück in den Ursprung",
+       "example": "`base64Decode(\"SGFsbG8sIFdlbHQh\")` liefert \"Hallo, Welt!\"",
+       "parameters": ["Text"],
+       "returns": "Text"
+     },
+     {
+       "expression": "contains(text, sub)",
+       "shortDescription": "Überprüft, ob ein Text einen anderen enthält",
+       "description": "Gibt Ja/Nein abhängig davon zurück, ob der Text _sub_ im Text _text_ vorhanden ist.",
+       "example": "`contains(\"Hallo du\", \"du\")` liefert _true_",
+       "parameters": ["Text", "Text"],
+       "returns": "Ja/Nein"
+     },
+     {
+       "expression": "textLength(text)",
+       "shortDescription": "Gibt die Länge eines Textes zurück",
+       "description": "Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus",
+       "example": "`textLength(\"Hallo Welt!\")` liefert _11_",
+       "parameters": ["Text"],
+       "returns": "Zahl"
+     },
+     {
+       "expression": "parseJson(jsonText)",
+       "shortDescription": "Konvertiert einen JSON-String zu einem Objekt",
+       "description": "Konvertiert einen JSON-String zu einem JSON-Objekt",
+       "example": "`parseJson(\"{id:123}\")` liefert _{id:123}_",
+       "parameters": ["Text (im JSON-Format)"],
+       "returns": "Objekt"
+     },
+     {
+       "expression": "fromCharCode(value)",
+       "shortDescription": "Wandelt einen Zeichencode in ein Zeichen um",
+       "description": "Wandelt den gegebenen numerischen Zeichencode in dessen repräsentierendes Zeichen um",
+       "example": "`fromCharCode(97)` liefert \"a\"",
+       "parameters": ["Nummer"],
+       "returns": "Text"
+     },
+     {
+       "expression": "toCharCode(text)",
+       "shortDescription": "Wandelt ein Zeichen in seinen Zeichencode um",
+       "description": "Wandelt das gegebene Zeichen in dessen numerischen Zeichencode um",
+       "example": "`toCharCode(\"a\")` liefert \"97\"",
+       "parameters": ["Text (einzelnes Zeichen, ansonsten wird erstes Zeichen genommen)"],
+       "returns": "Zahl"
+     },
+     {
+       "expression": "toRadixString(number, radix)",
+       "shortDescription": "Konvertiert eine Zahl in eine andere Basis",
+       "description": "Wandelt die gegebene Zahl in die Darstellung des entsprechenden Zahlensystems um (2: Binär, 16: Hexadezimal, 8: Oktal, 36: Base36)",
+       "example": "`toRadixString(10, 2)` liefert \"1010\"",
+       "parameters": ["Zahl", "Zahl"],
+       "returns": "Text"
+     },
+     {
+       "expression": "fromRadixString(number, radix)",
+       "shortDescription": "Konvertiert eine Zahl aus einer anderen Basis in eine Dezimalzahl",
+       "description": "Wandelt die gegebene Zahl des entsprechenden Zahlensystems zurück in den Ursprung um",
+       "example": "`fromRadixString(\"1010\", 2)` liefert 10",
+       "parameters": ["Text", "Zahl"],
+       "returns": "Zahl"
+     }
+   ]
+ }
+ 

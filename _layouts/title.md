@@ -4,7 +4,7 @@ layout: default
 
 <h1> <span style="color:#0b5394"><b>{{ page.title }}</b></span></h1>
 
-{{ page.content }}
+{{ content }}
 
 {% assign current_page = page.url %}
 {% assign current_parent = page.parent %}
