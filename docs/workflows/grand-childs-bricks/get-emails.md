@@ -26,15 +26,19 @@ Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werde
     Wird diese Option auf Ja gesetzt, werden nur ungelesene E-Mails ausgegeben. Andernfalls werden sowohl ungelesene als auch gelesene abgerufen.
 1. <span style="color:#0b5394">**Nach dem Abrufen auf Gelesen stellen (Ja/Nein)**</span>  
     Wenn diese Option auf Ja gesetzt wird, werden abgerufene E-Mails automatisch auf gelesen gesetzt.
+1. <span style="color:#0b5394">**Inkl. Anhänge (Ja/Nein)**</span>  
+    Ist diese Option auf Ja gesetzt, werden die Anhänge der E-Mails automatisch mitgeladen und stehen als Variable zur Verfügung. 
+    **Warnung: Da diese Option sehr Credit-Intensiv sein kann, sollte sie nur aktiviert werden, wenn die Anhänge wirklich benötigt werden.**
 1. <span style="color:#0b5394">**Von Zeitpunkt (Datum)**</span>  
     Nur E-Mails ausgeben mit Empfangsdatum nach dem hier definierten Zeitpunkt.
 1. <span style="color:#0b5394">**Bis Zeitpunkt (Datum)**</span>  
     Nur E-Mails ausgeben mit Empfangsdatum vor dem hier definierten Zeitpunkt.
 
-In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
 
-Variablen:
+In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
+Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die nachfolgenden Variablen zur Verfügung stehen.
+
+### <span style="color:#0b5394">**Variablen**</span>
 1. **id**: Eindeutige Id des E-Mail-Objektes innerhalb von Azure
 1. **subject**: Betreff der E-Mail
 1. **body**: Inhalt der E-Mail, falls vorhanden (HTML E-Mails werden automatisch zu Text konvertiert)
@@ -43,4 +47,5 @@ Variablen:
 1. **sender_name**: Name des Absenders der E-Mail, sofern von diesem festgelegt
 1. **is_read**: Ja/Nein, ob die E-Mail vor dem Abrufen bereits Gelesen war
 1. **has_attachments**: Ja/Nein, ob die E-Mail Anhänge beinhaltet
+1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](iterate-values) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden:  `toMap(attachment).name`.
 
