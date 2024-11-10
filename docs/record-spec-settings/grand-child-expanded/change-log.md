@@ -3,10 +3,10 @@ layout: default
 title: Änderungsprotokoll
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 26
+nav_order: 25
 ---
 
-# <span style="color:#0b5394"><span class="material-icons">smart_button</span> **Baustein _Änderungsprotokoll_**</span>
+# <span style="color:#0b5394"><span class="material-icons">smart*button</span> \*\*Baustein *Änderungsprotokoll\_\*\*</span>
 
 Der Baustein _Änderungsprotokoll_ zeichnet alle Änderungen auf, die in einem Eintrag vorgenommen wurden.
 Wird in einer "Unterliste" die Einstellung "Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz

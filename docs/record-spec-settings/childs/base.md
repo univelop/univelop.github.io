@@ -11,8 +11,8 @@ has_toc: false
 
 Mit den Basis Bausteinen können die Listeneinträge sortiert werden, sowie Hinweise erfasst und verlinkt werden.
 
-<!-- 
-please do not edit, table will be generated automatically 
+<!--
+please do not edit, table will be generated automatically
 -->
 
 <table>
@@ -41,7 +41,7 @@ please do not edit, table will be generated automatically
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+      </tr>
   </tbody>
 </table>
