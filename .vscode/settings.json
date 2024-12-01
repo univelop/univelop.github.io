@@ -3,6 +3,10 @@
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[liquid]": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
+        "editor.formatOnSave": true
+    },
     "cSpell.dictionaryDefinitions": [
         {
             "name": "de",
