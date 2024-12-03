@@ -3,7 +3,7 @@ layout: default
 title: ChatGPT
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 27
+nav_order: 28
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">psychology</span> **Baustein _ChatGPT_**</span>

@@ -3,7 +3,7 @@ layout: default
 title: Änderungsprotokoll
 parent: Erweiterte Bausteine
 grand_parent: Die Bausteine und deren Einstellungen
-nav_order: 25
+nav_order: 26
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">smart*button</span> \*\*Baustein *Änderungsprotokoll\_\*\*</span>
