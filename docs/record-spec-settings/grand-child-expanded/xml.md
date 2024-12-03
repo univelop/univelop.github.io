@@ -6,8 +6,8 @@ grand_parent: Die Bausteine und deren Einstellungen
 nav_order: 24
 ---
 
-// TODO: In Docs, explain why hideIf is not needed
-// TODO: Special characters in params will be escaped
+<!-- // TODO: In Docs, explain why hideIf is not needed
+// TODO: Special characters in params will be escaped -->
 
 _Diese Seite wird noch erstellt_
 
