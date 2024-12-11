@@ -1,0 +1,13 @@
+{% if include.category == "text" %}
+  Text-Formeln
+{% elsif include.category == "number" %}
+  Zahlen-Formeln
+{% elsif include.category == "date" %}
+  Datums-Formeln
+{% elsif include.category == "list" %}
+  Listen-Formeln
+{% elsif include.category == "logic" %}
+  Logik-Formeln
+{% else %}
+  {{ include.category }}
+{% endif %}
