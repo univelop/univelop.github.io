@@ -12,7 +12,7 @@ grand_parent: Workflows
 
 _Hinweis: Dieser Baustein unterstützt derzeit nur Azure als E-Mail-Provider und kann nur in Workflows ausgeführt werden, welche auf dem Server laufen._
 
-Um E-Mails von Azure abrufen zu können, muss dies zuerst eingerichtet und im Arbeitsbereich konfiguriert werden, wie in [dieser Anleitung](/docs/azure-mailing) beschrieben.
+Um E-Mails von Azure abrufen zu können, muss dies zuerst eingerichtet und im Arbeitsbereich konfiguriert werden, wie in dieser Anleitung beschrieben.
 
 Abgerufen werden die ersten **50** E-Mails aus dem Ordner **Posteingang (Inbox)** des angegebenen Postfaches, welche zu den gesetzten Einstellungen passen. Wenn es mehr als 50 E-Mails gibt, die zu den Einstellungen passen, wird in den Logs eine Warnung diesbezüglich ausgegeben.
 

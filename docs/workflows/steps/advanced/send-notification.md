@@ -25,4 +25,4 @@ grand_parent: Workflows
    Die IDs und oder Namen der Rollen und Teams bei Versand an Benutzergruppen.
    IDs und e-Mails von Nutzern bei Versand an einzelne Nutzer.
 7. <span style="color:#0b5394">**Versendezeitpunkt\***</span>
-   Siehe [Versendezeitpunkt von Push-Nachrichten in Arbeitsbereichen](/docs/global-settings-and-functions.html#versendezeitpunkt)
+   Siehe Versendezeitpunkt von Push-Nachrichten in Arbeitsbereichen

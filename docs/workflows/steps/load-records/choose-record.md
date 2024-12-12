@@ -15,5 +15,5 @@ grand_parent: Workflows
    Über diesen Namen sind die Werte des Eintrages im folgenden Workflow zugreifbar
 2. <span style="color:#0b5394">**Aus Datensatzliste füllen**</span>  
    Um sich das manuelle Auswählen eines Eintrages zu sparen, kann über diese Einstellung ermöglicht werden.
-   Es wird automatisch der Eintrag gewählt, bei dem der Workflow über den [Baustein _Workflow_](/docs/record-spec-settings/grand-child-expanded/workflow.html) gestartet wurde.
+   Es wird automatisch der Eintrag gewählt, bei dem der Workflow über den Baustein _Workflow_ gestartet wurde.
 3. <span style="color:#0b5394">**Filter und Sortierung**</span>
