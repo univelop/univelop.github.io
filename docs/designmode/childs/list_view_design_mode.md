@@ -7,8 +7,7 @@ nav_order: 3
 
 ## <span style="color:#0b5394">**Liste**</span>
 
-Nach dem Öffnen einer Kachel wird auf der linken Seite eine
-[Liste der vorhandenen Einträge](/docs/software-structure.html#listen)
+Nach dem Öffnen einer Kachel wird auf der linken Seite eine Liste der vorhandenen Einträge
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 
 ![list](\assets\design-mode-setting\list.png 'list')
@@ -19,13 +18,13 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
     - Vorgenommene Einstellungen werden nur temporär, also für die aktuelle aktive Nutzung, gespeichert.
       Globale Einstellungen zu _Filter und Sortierung_ werden direkt in den Kacheleinstellungen vorgenommen.  
       Die temporäre Einstellung von _Filter und Sortierung_ kann über den Button _Speicherkarte_ als
-      [**eigene** Kachel](/docs/design-mode-settings.html#kachel)
+      **eigene** Kachel
       im Arbeitsbereich gespeichert werden.
 4. <span style="color:#0b5394">**Weitere Einstellungen**</span>
     - Designmodus der Liste aufrufen
     - Benachrichtigungen für sich selbst aktivieren
     - Alle als gelesen markieren
-    - [Von Excel importieren und nach Excel exportieren](/docs/import-export.html#datens%C3%A4tze-und-inhalte)
+    - Von Excel importieren und nach Excel exportieren
     - Alle löschen  
       **HINWEIS:**  
       diese Funktion löscht **ALLE** Daten!
@@ -34,10 +33,8 @@ angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite da
 
 Im Designmodus der Liste kann die Darstellung der Listeneinträge angepasst und die Mehrfachauswahl inkl. Shortcuts eingestellt werden kann.
 
-Zur anpassung der Darstellung werden werden auf der linken Seite die verfügbaren
-[Bausteine](/docs/record-spec-settings/record-spec-settings.html)
-der Listeneinträge angezeigt. Via _Drag and Drop_ können die Bausteine in eins der 6 Felder in der Mitte
-gezogen werden.
+Zur Anpassung der Darstellung werden auf der linken Seite die verfügbaren Bausteine
+der Listeneinträge angezeigt. Via _Drag and Drop_ können die Bausteine in eins der 6 Felder in der Mitte gezogen werden.
 ![list2](\assets\design-mode-setting\list2.png 'list2')
 Auf der linken Bildschirmhälfte werden alle Bausteine aus dem Datensatz angezeigt, welche eine Darstellung für die Listenansicht besitzen.
 Klickt man auf ein Element aus der Mitte des Bildschirmes, werden Rechts die Einstellungen und das Löschen von einzelnen Bausteinen vorgenommen.

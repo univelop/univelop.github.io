@@ -35,21 +35,15 @@ befinden sich vier Symbole:
 
     - **Nur Lesen**  
       Mit dieser Funktion werden Schreibrechte blockiert, können jedoch unter Bedingungen zugelassen werden.
-      Zum Beispiel "
-      [Benutzerrolle](/docs/global-settings-and-functions.html#rollen)
-      = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
-      wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der
-      [Baustein _Status_](/docs/record-spec-settings/grand-child-expanded/status.html)
-      erforderlich.
+      Zum Beispiel "Benutzerrolle = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
+      wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der Baustein erforderlich.
 
     - **Baustein verstecken**  
       Bausteine können versteckt werden, können jedoch unter Bedingungen zugelassen werden.
 
     - **In Schnellerfassung verstecken**  
-      Wie bereits bei den
-      [Kacheleinstellungen](/docs/design-mode-settings.html#kachel)
-      beschrieben, können Bausteine in der Schnellerfassung versteckt werden, um die Listenansicht für den
-      Einzelfall der Erfassung zu reduzieren.
+      Wie bereits bei den Kacheleinstellungen beschrieben, können Bausteine in der Schnellerfassung versteckt werden, um
+      die Listenansicht für den Einzelfall der Erfassung zu reduzieren.
 
     - **Duplizieren und Löschen**  
       Beim Duplizieren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
@@ -68,7 +62,7 @@ befinden sich vier Symbole:
    Klickt man im Designmodus auf den Titel, werden im rechten Bereich Einstellungen für den Titel, Tabs und Sekundärschlüssel angezeigt.
    Der Titel kann aus bis zu drei Bausteinen, einem selbst vergebenen Text und Trennzeichen bestehen. Dieser wird bei einem geöffneten Eintrag
    am oberen Bildschirmrand angezeigt.
-   Sobald Tabs über die Einstellung unter der Titel-Einstellung angeschaltet werden, können [Tabs](/docs/global-settings-and-functions.html#tabs) hinzugefügt und mit Bausteinen konfiguriert werden.
+   Sobald Tabs über die Einstellung unter der Titel-Einstellung angeschaltet werden, können Tabs hinzugefügt und mit Bausteinen konfiguriert werden.
    Sekundärschlüssel sind ein Weg, um zu definieren, welche Bausteine unter Einträgen immer einzigartig sein sollen.
    Es können bis zu drei Bausteine definiert werden, welche in Kombination immer eine einzigartige Kombination ergeben müssen.
    Sobald mehrere Einträge mit dem selben Sekundärschlüssel existieren, werden diese als solche markiert und in der Listenansicht hervorgehoben.

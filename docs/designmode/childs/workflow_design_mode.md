@@ -24,7 +24,7 @@ Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop 
 1. <span style="color:#0b5394">**Name des Workflows**</span>  
    Dieser Name wird in der Liste von Workflows sowie in Workflow-Bausteinen angezeigt.
 1. <span style="color:#0b5394">**Technischer Name**</span>  
-   Der technische Name dient dazu, den Workflow über unsere [API](https://docs.univelop.de/docs/interface.html) anzusprechen. Der technische Name wird nicht zur Darstellung genutzt.
+   Der technische Name dient dazu, den Workflow über unsere API anzusprechen. Der technische Name wird nicht zur Darstellung genutzt.
 
 ### <span style="color:#0b5394">Verhalten</span>
 

@@ -15,11 +15,9 @@ ca. 2 Sekunden lang gedrückt hält.
 ![select design mode](\assets\design-mode-setting\select design mode.png "select design mode")
 
 Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
-zuerst alle
-[allgemeinen Kacheln](/docs/software-structure.html#kacheln)
-und darunter die eigenen Kacheln zu sehen. Wenn Kacheln "versteckt" wurden, werden diese farblich
-leicht ausgegraut und ein Symbol mit durchgestrichenen Auge wird gesetzt. Die Kacheln können einfach
-via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
+zuerst alle allgemeinen Kacheln und darunter die eigenen Kacheln zu sehen.
+Wenn Kacheln "versteckt" wurden, werden diese farblich leicht ausgegraut und ein Symbol mit durchgestrichenen Auge wird gesetzt.
+Die Kacheln können einfach via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
 
 ## <span style="color:#0b5394">Kachel</span>
 
@@ -39,21 +37,15 @@ die Kacheleinstellungen bearbeitet werden.
 5. <span style="color:#0b5394">**Icon**</span>
     - Festlegen des Icons der Kachel (ggf. mit Anzeige in der Kachel)
 6. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
-    - (s.
-      [Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen](/docs/formulary/childs/formula%20date.html#darstellungen-von-dynamischen-zeitspannen-mit-formelberechnungen)
-      ).
+    - (s. Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen).
 7. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
 
     ![tile2](\assets\design-mode-setting\tile2.png 'tile2')
 
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
-    - Für bestimmte
-      [Benutzerrollen](/docs/global-settings-and-functions.html#rollen)
-      freigeben
+    - Für bestimmte Benutzerrollen freigeben
     - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
-    - Für bestimmte
-      [Benutzerteams](/docs/global-settings-and-functions.html#teams)
-      freigeben
+    - Für bestimmte Benutzerteams freigeben
 9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
 
     - **technischer Name ändern**  
