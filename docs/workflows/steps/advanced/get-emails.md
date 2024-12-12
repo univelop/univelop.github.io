@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Rufe E-Mails ab
 parent: Erweitert
 grand_parent: Workflows
+icon: mark_email_unread
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">mark_email_unread</span> **Rufe E-Mails ab**</span>
 
 
 Über den Baustein _Rufe E-Mails ab_ können E-Mails aus einem Postfach abgerufen werden.

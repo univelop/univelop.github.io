@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Erstelle Eintrag
 parent: Einträge laden
 grand_parent: Workflows
+icon: add_circle_outline
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">add_circle_outline</span> **Erstelle einen neuen Eintrag**</span>
 
 Über den Baustein _Erstelle einen neuen Eintrag_ wird ein Eintrag für die ausgewählte Kachel erstellt und mit Werten besetzt.
 

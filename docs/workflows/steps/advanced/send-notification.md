@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Sende Push-Nachricht
 parent: Erweitert
 grand_parent: Workflows
+icon: notification_add
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">notification_add</span> **Versende Push-Nachricht**</span>
 
 Über den Baustein _Versende Push-Nachricht_ wird eine individuell konfigurierte Push-Nachricht an ausgewählte Nutzer(-gruppen) versendet.
 

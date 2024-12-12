@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Erstelle ein neues Mitglied
 parent: Erweitert
 grand_parent: Workflows
+icon: format_list_numbered
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">format_list_numbered</span> **Erstelle ein neues Mitglied**</span>
 
 Mit dem Baustein _Erstelle ein neues Mitglied_ wird ein Nutzer mit den angegebenen Daten erstellt und in den aktuellen Arbeitsbereich hinzugefügt.
 

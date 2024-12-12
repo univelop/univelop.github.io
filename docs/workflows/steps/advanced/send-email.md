@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Sende E-Mail
 parent: Erweitert
 grand_parent: Workflows
+icon: notification_add
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">notification_add</span> **Sende E-Mail**</span>
 
 Über den Baustein _Sende E-Mail_ wird eine individuelle E-Mail an einen gewählten Empfänger versendet.
 

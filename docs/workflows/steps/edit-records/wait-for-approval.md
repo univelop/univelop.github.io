@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Warte auf Genehmigung
 parent: Einträge bearbeiten
 grand_parent: Workflows
+icon: approval
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">approval</span> **Warte auf Genehmigung**</span>
 
 Über den Baustein _Warte auf Genehmigung_ wird auf die Genehmigung, Ablehnung oder auf eins von Beidem gewartet und dadurch der Workflow gestoppt, bis das Ereignis eintritt.
 

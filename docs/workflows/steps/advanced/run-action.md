@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Führe Aktion aus
 parent: Erweitert
 grand_parent: Workflows
+icon: ads_click
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">ads_click</span> **Aktion ausführen**</span>
 
 Über den Baustein _Aktion ausführen_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt und dessen Aktion ausgeführt.
 

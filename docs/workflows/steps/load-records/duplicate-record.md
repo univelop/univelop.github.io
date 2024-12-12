@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Dupliziere einen Eintrag
 parent: Einträge laden
 grand_parent: Workflows
+icon: content_copy
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">content_copy</span> **Dupliziere einen Eintrag**</span>
 
 Mit diesem Workflow-Baustein kann ein beliebiger Eintrag mithilfe der Eintrag-ID dupliziert werden.
 Die Einstellungen umfassen die Verbindung zu einer Liste sowie die Eintrags-ID.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Struktur
 parent: Workflows
 ---

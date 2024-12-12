@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Import und Export
 parent: Schnittstellen
 ---

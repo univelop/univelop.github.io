@@ -1,11 +1,10 @@
 ---
-layout: default
-title: Importiere Tabelle
+layout: workflow-step
+title: Erstelle Einladungslink
 parent: Erweitert
 grand_parent: Workflows
+icon: add_link
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">add_link</span> **Erstelle Einladungslink**</span>
 
 Mit diesem Baustein wird ein Einladungslink entsprechend der Einstellungen erstellt.
 Ein Nutzer, welcher über diesen Link beitritt, bekommt die angegebene Rolle, das angegebene Team und die Lizenz.

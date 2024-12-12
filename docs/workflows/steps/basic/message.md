@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Zeige Nachricht
 parent: Basis
 grand_parent: Workflows
+icon: message
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">message</span> **Zeige Nachricht**</span>
 
 Über den Baustein _Zeige Nachricht_ wird eine PopUp-Nachricht bei der Ausführung des Workflows angezeigt.
 Die Nachricht verfügt über einen Titel und einen Text, welcher in den Einstellungen angegeben wird.

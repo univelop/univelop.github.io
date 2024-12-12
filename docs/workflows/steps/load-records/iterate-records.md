@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Iteriere über Einträge
 parent: Einträge laden
 grand_parent: Workflows
+icon: list
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">list</span> **Iteriere über Einträge**</span>
 
 Mit dem Baustein _Iteriere über Einträge_ können Workflow Bausteine für jeden Eintrag einer Kachel ausgeführt werden.
 

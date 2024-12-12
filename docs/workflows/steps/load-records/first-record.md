@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Finde ersten Eintrag
 parent: Einträge laden
 grand_parent: Workflows
+icon: manage_search
 ---
-
-
-# <span style="color:#0b5394"><span class="material-icons">manage_search</span> **Finde ersten Eintrag**</span>
 
 Mit dem Baustein _Finde ersten Eintrag_ wird der erste Eintrag einer Kachel ausgewählt.
 Der "Erste" ist dabei zufällig und ohne Filter nicht definierbar, sondern der Erste der durch das System gefunden wird.

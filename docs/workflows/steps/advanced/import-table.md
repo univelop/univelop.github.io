@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Importiere Tabelle
 parent: Erweitert
 grand_parent: Workflows
+icon: vertical_align_top
 ---
-
-
-# <span style="color:#0b5394"><span class="material-icons">vertical_align_top</span> **Importiere Excel-Tabelle**</span>
 
 Mit dem Workflowstep _Importiere Excel-Tabelle_ können Daten aus einer über den Datei Upload-Baustein hochgeladenen Excel-Tabelle importiert werden.
 

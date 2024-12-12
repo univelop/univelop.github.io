@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Setze Variablen
 parent: Basis
 grand_parent: Workflows
+icon: description
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">description</span> **Setze Variablen**</span>
 
 Mit dem Baustein _Setze Variablen_ werden Variablen, konkret benutzerdefinierte Werte welche über einen selbst definierten Namen zugegriffen werden können, den folgenden Workflow Bausteinen zur Verfügung gestellt.
 

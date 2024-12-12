@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Iteriere über Werte
 parent: Struktur
 grand_parent: Workflows
+icon: format_list_numbered
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">format_list_numbered</span> **Iteriere über Werte**</span>
 
 Mit dem Baustein _Iteriere über Werte_ kann über einen dynamischen Wert bzw. eine Liste von Werten iteriert werden.
 Dabei muss für den dynamischen Wert in den Einstellungen eine explizite Liste (z.B. "[0,1,2,3]", "[a,b,c,d]") oder eine

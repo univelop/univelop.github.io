@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Wähle Eintrag
 parent: Einträge laden
 grand_parent: Workflows
+icon: youtube_searched_for
 ---
-
-# <span style="color:#0b5394">**Wähle Eintrag**</span>
 
 Über den Baustein _Wähle Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.
 

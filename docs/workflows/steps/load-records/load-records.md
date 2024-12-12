@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Einträge laden
 parent: Workflows
 ---

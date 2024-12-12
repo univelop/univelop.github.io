@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: workflow-step
 title: Ändere einen Eintrag
 parent: Einträge bearbeiten
 grand_parent: Workflows
+icon: change_circle
 ---
-
-# <span style="color:#0b5394"><span class="material-icons">change_circle</span> **Ändere einen Eintrag**</span>
 
 Über den Baustein _Ändere einen Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.
 
