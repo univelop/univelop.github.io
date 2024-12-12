@@ -31,7 +31,7 @@ Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werde
     Nur E-Mails ausgeben mit Empfangsdatum vor dem hier definierten Zeitpunkt.
 
 In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
+Diese kann in einem Iteriere über Werte Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
 
 Variablen:
 1. **id**: Eindeutige Id des E-Mail-Objektes innerhalb von Azure
