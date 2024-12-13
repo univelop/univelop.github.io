@@ -2,6 +2,8 @@
 title: Programmstruktur
 nav_order: 2
 layout: title
+redirect_from:
+    - /docs/software-structure.html
 ---
 
 In Univelop existieren verschiedene grundlegende Konzepte, die sich gegenseitig ergänzen und für ein umfassendes Verständnis der Plattform unerlässlich sind. Die wichtigsten dieser Konzepte werden nachfolgend kurz vorgestellt. Eine ausführlichere Beschreibung erfolgt jeweils auf eigenen Seiten.

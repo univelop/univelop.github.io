@@ -3,6 +3,8 @@ title: Workflows
 nav_order: 10
 layout: title
 has_toc: false
+redirect_from:
+   - /docs/workflows/workflow.html
 ---
 
 ## <span style="color:#0b5394">Allgemeines zu Workflows</span>

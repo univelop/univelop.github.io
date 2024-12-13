@@ -3,6 +3,8 @@ title: Changelog
 nav_order: 99
 layout: title
 has_toc: false
+redirect_from:
+  - /docs/last-updates/latest-updates.html
 ---
 
 <table>
