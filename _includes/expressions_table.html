@@ -1,0 +1,34 @@
+{% assign category_name = include.category %}
+{% assign all_expressions = site.data.expressions_docs %}
+{% assign filtered_expressions = all_expressions | where: "category", category_name %}
+
+<table>
+  <thead>
+    <tr>
+      <th>Formel</th>
+      <th>Parameter</th>
+      <th>Beispiel</th>
+      <th>Beschreibung</th>
+      <th>Rückgabe</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in filtered_expressions %}
+      <tr>
+        <td><code>{{ item.expression }}</code></td>
+        <td>
+          {% if item.parameters and item.parameters.size > 0 %}
+            {% for param in item.parameters %}
+              {{ forloop.index }}. Wert: {{ param.type }}{% if param.optional %} (Optional){% endif %}{% if forloop.last == false %},<br>{% endif %}
+            {% endfor %}
+          {% else %}
+            Keine Parameter
+          {% endif %}
+        </td>
+        <td>{{ item.example | markdownify }}</td>
+        <td>{{ item.description | markdownify }}</td>
+        <td>{{ item.returns }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
