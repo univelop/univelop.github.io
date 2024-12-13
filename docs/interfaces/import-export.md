@@ -2,9 +2,9 @@
 layout: title
 title: Import und Export
 parent: Schnittstellen
+redirect_from:
+    - /docs/import-export.html
 ---
-
-# <span style="color:#0b5394">**Import und Export**</span>
 
 ## <span style="color:#0b5394">Arbeitsbereiche</span>
 

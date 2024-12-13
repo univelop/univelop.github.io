@@ -2,10 +2,9 @@
 layout: title
 title: Kalenderfreigaben
 parent: Schnittstellen
+redirect_from:
+    - /docs/calendar-shares.html
 ---
-
-<!-- cspell:ignore Kalenderanwendung Kalenderanwendungen Kalenderfreigabe -->
-# <span style="color:#0b5394">**Kalenderfreigaben**</span>
 
 Kalenderfreigaben ermöglichen es, Datensätze aus Listen direkt in persönlichen Kalendern anzuzeigen. Je nach Kalenderanwendung werden die Datensätze dabei grundsätzlich ein- bis zweimal täglich aktualisiert und so über Änderungen aktuell gehalten. Die Funktion von Kalenderfreigaben ist auch als Kalender-Abonnement bekannt. Da Kalenderfreigaben es ermöglichen Datensätze aus dem Arbeitsbereich ohne weitere Authentifizierung abzurufen, können diese nur von Admins und Besitzern eingerichtet werden.
 

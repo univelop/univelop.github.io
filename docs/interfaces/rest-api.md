@@ -1,13 +1,10 @@
 ---
-layout: default
-title: Schnittstellen
-parent: Alte Docs
-nav_order: 11
+layout: title
+title: REST-API
+parent: Schnittstellen
+redirect_from:
+    - /docs/interface.html
 ---
-
-# <span style="color:#0b5394">Schnittstellen</span>
-
-## <span style="color:#0b5394">REST API</span>
 
 Neben dem In- und Export von Excel Dateien bietet Univelop ebenfalls eine API-Schnittstelle um mit deinen Fremdsystemen Daten austauschen zu können.
 Über unsere API kannst du alle Datensätze einer Kachel abrufen, einzelne Datensätze erstellen, jeden einzelnen Baustein eines Datensatzes bearbeiten und löschen.

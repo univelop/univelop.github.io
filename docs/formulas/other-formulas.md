@@ -3,6 +3,8 @@ title: Weitere Formeln
 layout: title
 parent: Formelsammlung
 nav_order: 6
+redirect_from:
+    - /docs/formulas/childs/other-formulas.html
 ---
 
 ## <span style="color:#0b5394">**Operatoren**</span>
