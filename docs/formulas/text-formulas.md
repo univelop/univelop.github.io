@@ -1,7 +1,7 @@
 ---
 title: Textformeln
 layout: title
-parent: Formeln
+parent: Formelsammlung
 nav_order: 3
 ---
 

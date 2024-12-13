@@ -1,5 +1,5 @@
 ---
-title: Formeln
+title: Formelsammlung
 nav_order: 8
 layout: title
 ---

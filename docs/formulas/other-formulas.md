@@ -1,7 +1,7 @@
 ---
 title: Weitere Formeln
 layout: title
-parent: Formeln
+parent: Formelsammlung
 nav_order: 6
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Datumsformeln
 layout: title
-parent: Formeln
+parent: Formelsammlung
 nav_order: 2
 ---
 

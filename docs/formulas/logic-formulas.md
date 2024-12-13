@@ -1,7 +1,7 @@
 ---
 title: Logikformeln
 layout: title
-parent: Formeln
+parent: Formelsammlung
 nav_order: 1
 ---
 
