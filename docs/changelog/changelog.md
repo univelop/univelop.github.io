@@ -2,7 +2,6 @@
 title: Changelog
 nav_order: 99
 layout: title
-has_children: true
 has_toc: false
 ---
 
