@@ -3,6 +3,8 @@ layout: default
 title: Ändere einen Eintrag
 parent: Workflow Bausteine
 grand_parent: Workflows
+redirect_from:
+   - /docs/record-spec-settings/grand-childs-form/multi-selection-redirect.html
 ---
 
 # <span style="color:#0b5394"><span class="material-icons">change_circle</span> **Ändere einen Eintrag**</span>

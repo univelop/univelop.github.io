@@ -33,7 +33,8 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
     - jekyll-feed
     - jekyll-remote-theme
-
+    - jekyll-redirect-from
+    
 footer_content: 'Copyright &copy; 2024 Univelop GmbH'
 
 # Footer "Edit this page on GitHub" link text
