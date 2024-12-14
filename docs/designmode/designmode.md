@@ -3,7 +3,7 @@ title: Designmodi
 nav_order: 4
 layout: title
 redirect_from:
-  - /docs/design-mode-settings.html
+    - /docs/design-mode-settings.html
 ---
 
 # <span style="color:#0b5394">**Die Designmodi und deren Einstellungen**</span>
@@ -65,43 +65,6 @@ der rechten Seite befinden sich die globalen Einstellungen des Arbeitsbereichs:
    und zu bearbeiten. Mit einem Klick auf eine Benutzerkachel stehen dem Administrator auch hier alle gewohnten Einstellungs-
    möglichkeiten zur Verfügung. Sind zum Beispiel Standard-Kacheln auf eine Gruppe Benutzer verteilt und an diesen Kacheln
    muss eine Änderung vorgenommen werden, kann der Administrator dies über diese Funktion einfach umsetzen.
-
-## <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
-
-![homeSettings](\assets\design-mode-setting\homeSettings.png 'home settings')
-
-1. <span style="color:#0b5394">**Allgemein**</span>
-
-    - Name des Arbeitsbereiches festlegen
-    - Arbeitsbereich ID (**darf nicht verändert werden!**)
-    - Service Account Key
-        - Hinzufügen neuer
-          [Mitglieder](/docs/global-settings-and-functions.html#mitglieder) in den Arbeitsbereich
-    - Zeitzone für Anzeige von Daten
-
-2. <span style="color:#0b5394">**Design**</span>
-    - Bilder des Arbeitsbereichs anpassen
-        - Banner für den Homescreen, welches über den Kacheln erscheint
-        - Firmenlogo, erscheint oben links im Homescreen über dem Banner
-        - Hintergrund im Anmeldefenster (s. Einrichtung Portalmodus)
-    - Farbschema des Arbeitsbereiches anpassen:
-        - Auswahl Primär- und Sekundärfarbe
-        - Auswahl bis zu sechs weiteren Kachelfarben
-        - Festlegung über die Farbskala oder einen RTX-Wert
-3. <span style="color:#0b5394">**Benachrichtigungen**</span>
-
--   [Push-Nachrichten anpassen](/docs/global-settings-and-functions.html#versendezeitpunkt)
-
-4. <span style="color:#0b5394">**Domain**</span>
-    - Portal Domains
-    - [Einrichtung Portalmodus](/docs/portal-mode.html)
-5. <span style="color:#0b5394">**Arbeitsbereich Zustand**</span>
-    - Hier kann der Arbeitsbereich auf zu Große Zahlen im Zahlenbaustein sowie auf fehlerhafte Formeln geprüft werden.
-
-Über den
-[Button _Export_](/docs/import-export.html#arbeitsbereiche)(drei Punkte oben rechts im Bereich _Allgemein_)
-kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
-einen neuen Arbeitsbereich einzufügen. Der Button _Löschen_ führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
 
 ---
 
