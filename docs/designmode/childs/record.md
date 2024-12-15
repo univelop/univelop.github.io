@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Eintrag
 parent: Designmodi
 nav_order: 2

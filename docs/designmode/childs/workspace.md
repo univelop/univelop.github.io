@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Arbeitsbereich
 parent: Designmodi
 nav_order: 1

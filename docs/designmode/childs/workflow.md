@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: title
 title: Workflow
 parent: Designmodi
 nav_order: 4
