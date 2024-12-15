@@ -2,8 +2,6 @@
 title: Designmodi
 nav_order: 4
 layout: title
-redirect_from:
-    - /docs/designmode/designmode.html
 ---
 
 # <span style="color:#0b5394">**Die Designmodi und deren Einstellungen**</span>

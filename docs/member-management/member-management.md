@@ -2,8 +2,6 @@
 title: Mitgliederverwaltung
 nav_order: 7
 layout: title
-redirect_from:
-    - /docs/member-management/member-management.html
 ---
 
 # <span style="color:#0b5394">**Mitgliederverwaltung**</span>
