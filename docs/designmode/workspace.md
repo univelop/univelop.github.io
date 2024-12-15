@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: title
 title: Arbeitsbereich
 parent: Designmodi
 nav_order: 1
+redirect_from:
+    - /docs/designmode/childs/workspace.html
 ---
 
 ## <span style="color:#0b5394">**Arbeitsbereich**</span>

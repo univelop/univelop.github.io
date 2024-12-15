@@ -1,8 +1,10 @@
 ---
 title: ChatGPT
 nav_order: 9
-layout: default
+layout: title
 parent: Arbeitsbereich Einstellungen
+redirect_from:
+    - /docs/workspace-settings/childs/chatgpt.html
 ---
 
 # <span style="color:#0b5394">**Einrichten der ChatGPT Anbindung**</span>
