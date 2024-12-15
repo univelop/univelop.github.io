@@ -4,7 +4,7 @@ title: Listenansicht
 parent: Designmodi
 nav_order: 3
 redirect_from:
-    - /docs/designmode/childs/list_view.html
+    - /docs/designmode/childs/list-view.html
 ---
 
 ## <span style="color:#0b5394">**Liste**</span>
