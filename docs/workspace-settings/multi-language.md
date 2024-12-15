@@ -4,7 +4,7 @@ nav_order: 9
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:
-    - /docs/workspace-settings/childs/multi-language.html
+    - /docs/multi-language.html
 ---
 
 # <span style="color:#0b5394">**Mehrsprachigkeit**</span>

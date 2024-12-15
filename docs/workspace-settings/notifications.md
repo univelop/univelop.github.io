@@ -4,7 +4,7 @@ nav_order: 9
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:
-    - /docs/workspace-settings/childs/notifications.html
+    - /docs/global-settings-and-functions.html
 ---
 
 ## <span style="color:#0b5394">**(Push-)Benachrichtigungen**</span>

@@ -2,6 +2,8 @@
 title: Arbeitsbereich Einstellungen
 nav_order: 9
 layout: title
+redirect_from:
+    - /docs/design-mode-settings.html
 ---
 
 # <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>

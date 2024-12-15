@@ -2,6 +2,8 @@
 title: Mitgliederverwaltung
 nav_order: 7
 layout: title
+redirect_from:
+    - /docs/global-settings-and-functions.html
 ---
 
 # <span style="color:#0b5394">**Mitgliederverwaltung**</span>
