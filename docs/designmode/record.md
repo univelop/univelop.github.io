@@ -3,6 +3,8 @@ layout: title
 title: Eintrag
 parent: Designmodi
 nav_order: 2
+redirect_from:
+    - /docs/designmode/childs/record.html
 ---
 
 ## <span style="color:#0b5394">**Eintrag**</span>

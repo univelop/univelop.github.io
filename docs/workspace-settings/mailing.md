@@ -3,6 +3,8 @@ title: E-Mail-Versand
 nav_order: 9
 layout: title
 parent: Arbeitsbereich Einstellungen
+redirect_from:
+    - /docs/workspace-settings/childs/mailing.html
 ---
 
 ## <span style="color:#0b5394">**Mailversand über Microsoft Azure**</span>

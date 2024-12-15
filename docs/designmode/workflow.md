@@ -3,6 +3,8 @@ layout: title
 title: Workflow
 parent: Designmodi
 nav_order: 4
+redirect_from:
+    - /docs/designmode/childs/workflow.html
 ---
 
 ## <span style="color:#0b5394">**Workflow**</span>
