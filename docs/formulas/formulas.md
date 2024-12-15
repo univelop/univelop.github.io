@@ -2,14 +2,13 @@
 title: Formelsammlung
 nav_order: 8
 layout: title
-redirect_from:
-  - /docs/formulas/formulas.html
 ---
 
 {% assign all_expressions = site.data.expressions_docs %}
 {% assign categories = all_expressions | group_by: 'category' %}
 
 <!-- Order in which the categories should be rendered -->
+
 {% assign category_order = "logic,number,date,text,list" | split: "," %}
 
 <table>

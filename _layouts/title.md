@@ -58,3 +58,42 @@ layout: default
     <a href="{{ next_page.url }}" class="btn">Weiterlesen: {{ next_page.title }}</a>
   </div>
 {%- endif -%}
+
+{%- if next_page == nil and next_sub_page == nil -%}
+
+<!-- We search for the next site on the grand-parent level!-->
+
+{%- assign grand_parent_name = page.grand_parent -%}
+{%- assign grand_parent_page = nil -%}
+
+<!-- We search for the grand parent-->
+
+{%- for p in pages_list -%}
+{%- if p.title == grand_parent_name -%}
+{%- assign grand_parent_page = p -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+
+<!--Now we search for the next page of our grand parent on the top level-->
+
+{%- assign found_current = false -%}
+{%- assign next_page = nil -%}
+
+{%- for p in pages_list -%}
+{%- if p.url == grand_parent_page.url -%}
+{%- assign found_current = true -%}
+{%- elsif found_current == true and p.parent == grand_parent_page.parent -%}
+{%- assign next_page = p -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+
+{%- if next_page -%}
+
+  <div class="next-button">
+    <a href="{{ next_page.url }}" class="btn">Weiterlesen: {{ next_page.title }}</a>
+  </div>
+{%- endif -%}
+
+{%- endif -%}

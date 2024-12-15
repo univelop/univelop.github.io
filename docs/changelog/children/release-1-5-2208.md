@@ -5,8 +5,6 @@ nav_order: 94
 parent: Changelog
 ---
 
-# <span style="color:#0b5394">**Release Version 1.5.0**</span>
-
 Folgende Neuerungen und Verbesserungen wurden mit der Version 1.5.0 ausgerollt:
 
 ## <span style="color:#0b5394">**Neuer Baustein _Tabelle_**</span>
