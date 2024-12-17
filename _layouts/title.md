@@ -1,99 +1,51 @@
 ---
-layout: default
+layout: table_wrappers
 ---
 
-<h1> <span style="color:#0b5394"><b>{{ page.title }}</b></span></h1>
+<!DOCTYPE html>
 
-{{ content }}
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include head.html %}
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  {% include icons/icons.html %}
+  {% if page.nav_enabled == true %}
+    {% include components/sidebar.html %}
+  {% elsif layout.nav_enabled == true and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% endif %}
+  <div class="main" id="top">
+    {% include components/header.html %}
+    <div class="main-content-wrap">
+      {% include components/breadcrumbs.html %}
+      <div id="main-content" class="main-content">
+        <main>
+          <h1> <span style="color:#0b5394"><b>{{ page.title }}</b></span></h1>
 
-{% assign current_page = page.url %}
-{% assign current_parent = page.parent %}
-{% assign pages_list = site.pages | sort: 'nav_order' %}
+          {% if site.heading_anchors != false %}
+            {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+          {% else %}
+            {{ content }}
+          {% endif %}
 
-{% assign found_current = false %}
-{% assign next_page = nil %}
+          {% include navigation_buttons.html %}
 
-{% for p in pages_list %}
-{%- if p.url == current_page -%}
-{%- assign found_current = true -%}
-{%- elsif found_current == true and p.parent == current_parent -%}
-{%- assign next_page = p -%}
-{%- break -%}
-{%- endif -%}
-{% endfor %}
-
-{% assign next_sub_page = nil %}
-
-{% for p in pages_list %}
-{%- if p.parent == page.title -%}
-{%- assign next_sub_page = p -%}
-{%- break -%}
-{%- endif -%}
-{% endfor %}
-
-{%- if next_sub_page -%}
-
-  <div class="next-button">
-    <a href="{{ next_sub_page.url }}" class="btn">Weiterlesen: {{ next_sub_page.title }}</a>
+          {% if page.has_toc != false %}
+            {% include components/children_nav.html %}
+          {% endif %}
+        </main>
+        {% include components/footer.html %}
+      </div>
+    </div>
+    {% if site.search_enabled != false %}
+      {% include components/search_footer.html %}
+    {% endif %}
   </div>
-{%- endif -%}
 
-{%- if next_page == nil and next_sub_page == nil -%}
-{%- assign parent_found = false -%}
-{%- assign parent_page = nil -%}
-{%- for p in pages_list -%}
-{%- if p.title == current_parent -%}
-{%- assign parent_found = true -%}
-{%- assign parent_page = p -%}
-{%- elsif parent_found and p.parent == parent_page.parent -%}
-{%- assign next_page = p -%}
-{%- break -%}
-{%- endif -%}
-{%- endfor -%}
-{%- endif  -%}
-
-{%- if next_sub_page == nil and next_page -%}
-
-  <div class="next-button">
-    <a href="{{ next_page.url }}" class="btn">Weiterlesen: {{ next_page.title }}</a>
-  </div>
-{%- endif -%}
-
-{%- if next_page == nil and next_sub_page == nil -%}
-
-<!-- We search for the next site on the grand-parent level!-->
-
-{%- assign grand_parent_name = page.grand_parent -%}
-{%- assign grand_parent_page = nil -%}
-
-<!-- We search for the grand parent-->
-
-{%- for p in pages_list -%}
-{%- if p.title == grand_parent_name -%}
-{%- assign grand_parent_page = p -%}
-{%- break -%}
-{%- endif -%}
-{%- endfor -%}
-
-<!--Now we search for the next page of our grand parent on the top level-->
-
-{%- assign found_current = false -%}
-{%- assign next_page = nil -%}
-
-{%- for p in pages_list -%}
-{%- if p.url == grand_parent_page.url -%}
-{%- assign found_current = true -%}
-{%- elsif found_current == true and p.parent == grand_parent_page.parent -%}
-{%- assign next_page = p -%}
-{%- break -%}
-{%- endif -%}
-{%- endfor -%}
-
-{%- if next_page -%}
-
-  <div class="next-button">
-    <a href="{{ next_page.url }}" class="btn">Weiterlesen: {{ next_page.title }}</a>
-  </div>
-{%- endif -%}
-
-{%- endif -%}
+  {% if site.mermaid %}
+    {% include components/mermaid.html %}
+  {% endif %}
+</body>
+</html>
