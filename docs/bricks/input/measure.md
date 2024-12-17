@@ -19,4 +19,4 @@ Es gibt folgende Einstellmöglichkeiten:
 3. <span style="color:#0b5394">**Einheit eines Feldes als Text**</span>
 4. <span style="color:#0b5394">**Gesamtbetrag**</span>
 5. <span style="color:#0b5394">**Formel des Gesamtbetrages**</span>  
-   Die Berechnung eines Wertes aus den vorherigen Feldern geschieht über dessen technischen Namen, wie es z. B. bei den [Formelbausteinen](/docs/formulary/formulary.md) üblich ist.
+   Die Berechnung eines Wertes aus den vorherigen Feldern geschieht über dessen technischen Namen, wie es z. B. bei den Formelbausteinen üblich ist.

@@ -69,5 +69,5 @@ kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend
 ![record-list2](\assets\record-spec-settings\record-list2.png 'record-list2')
 
 Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
-[Verknüpfen von Listen](/docs/link-lists.html)
+Verknüpfen von Listen
 zu finden.

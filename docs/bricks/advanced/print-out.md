@@ -13,7 +13,7 @@ und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gest
 auf die Liste beziehen in welcher die PDF-Datei erstellt wird. Alle darstellbaren Inhalte sind andruckbar,
 neben Buchstaben und Zahlen auch Bilddateien und die Unterschrift. Zusätzlich können verknüpfte Datensatz-Listen
 ausgegeben werden.  
-Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. [Import und Export / Dateiimport / -export via PowerShell](/docs/import-export.html#dateiimport---export-via-powershell))
+Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. Import und Export / Dateiimport / -export via PowerShell)
 
 ## <span style="color:#0b5394">Vorbereitung der Word-Vorlage</span>
 
@@ -25,12 +25,12 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 
 2. <span style="color:#0b5394">**Ausgabe von Schaltern**</span>  
    Die Ausgabe des
-   [Bausteins _Schalter_](/docs/record-spec-settings/grand-childs-form/switch.html)
+   Bausteins _Schalter_
    kann im Designmodus in den Einstellungen des Bausteins unter "Darstellung als Ausdruck" als "Checkbox",
    "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
 
 3. <span style="color:#0b5394">**Ausgabe von Datensatz-Liste**</span>  
-   Um die Daten eines [Baustein _Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html) auszugeben, muss in der Word-Vorlage eine entsprechende Tabelle gezeichnet werden.
+   Um die Daten eines Baustein _Datensatz Liste_ auszugeben, muss in der Word-Vorlage eine entsprechende Tabelle gezeichnet werden.
 
     So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
 
@@ -89,9 +89,9 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 
 ## <span style="color:#0b5394">Einstellungen des direkten Mail-Versands</span>
 
-Um eine E-Mail Adresse für den direkten Mailversand zu verwenden, benötigt der Baustein _PDF erstellen_ einen Empfänger über einen [Baustein _Textfeld_](/docs/record-spec-settings/grand-childs-form/text.html), wo die entsprechende E-Mail Adresse eingetragen wird.
-Bleibt die E-Mail Adresse für den direkten Mailversand immer gleich, kann der [Baustein _Textfeld_](/docs/record-spec-settings/grand-childs-form/text.html) versteckt und als Standard-Text wird die E-Mail Adresse hinterlegt.  
-Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferanten pro Artikel, etc.) kann der benötigte [Baustein _Textfeld_](/docs/record-spec-settings/grand-childs-form/text.html), bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. [Verknüpfung über den Baustein _Datensatz_](/docs/link-lists.html)).
+Um eine E-Mail Adresse für den direkten Mailversand zu verwenden, benötigt der Baustein _PDF erstellen_ einen Empfänger über einen Baustein _Textfeld_, wo die entsprechende E-Mail Adresse eingetragen wird.
+Bleibt die E-Mail Adresse für den direkten Mailversand immer gleich, kann der Baustein _Textfeld_ versteckt und als Standard-Text wird die E-Mail Adresse hinterlegt.  
+Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferanten pro Artikel, etc.) kann der benötigte Baustein _Textfeld_, bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. Verknüpfung über den Baustein _Datensatz_).
 
 Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vorgenommen werden.
 

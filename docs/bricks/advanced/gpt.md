@@ -13,7 +13,7 @@ redirect_from:
 Mit dem ChatGPT Baustein kann ein Datensatz anhand eines Textes bzw. einer Spracheingabe ausgefüllt werden.
 Der Baustein nutzt im Kern ChatGPT, um aus einer Eingabe den aktuellen Datensatz auszufüllen.
 
-Nutzbar ist der Baustein erst nach einer [erfolgreichen Aktivierung der ChatGPT Anbindung](/docs/chat-gpt-integration.html)!
+Nutzbar ist der Baustein erst nach einer erfolgreichen Aktivierung der ChatGPT Anbindung!
 
 ## <span style="color:#0b5394">**Unterstützte Bausteine**</span>
 

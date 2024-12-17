@@ -42,6 +42,6 @@ Pro Status kann ein individuelles Icon und eine Farbe gesetzt werden.
 6. Die _Datensatz sperren_ Funktion kann nun auch hier im Status gewählt werden. Beim Setzen des Status wird der Datensatz
    gesperrt und kann weder bearbeitet, noch gelöscht werden.
 
-Eine Statusänderung erfolgt entweder per Klick auf den Status oder über verschiedene [Bausteine _Status Button_](/docs/record-spec-settings/grand-child-expanded/button-status.html).
+Eine Statusänderung erfolgt entweder per Klick auf den Status oder über verschiedene Bausteine _Status Button_.
 
-Unter der _Datensatz sperren_ Funktion wird noch der technischer Name des Status angezeigt, welcher nicht änderbar ist. Dieser kann bspw. für [_Formeln_](/docs/formulary/formulary.html) oder zum Filtern verwendet werden.
+Unter der _Datensatz sperren_ Funktion wird noch der technischer Name des Status angezeigt, welcher nicht änderbar ist. Dieser kann bspw. für _Formeln_ oder zum Filtern verwendet werden.

@@ -1,6 +1,6 @@
 ---
 title: Mitgliederverwaltung
-nav_order: 7
+nav_order: 8
 layout: title
 redirect_from:
     - /docs/global-settings-and-functions.html

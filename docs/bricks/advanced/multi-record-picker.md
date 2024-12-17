@@ -26,5 +26,5 @@ würde man sich die Werte ausgeben lassen.
 ![records](\assets\record-spec-settings\records.png 'records')
 
 Verknüpfungsmöglichkeiten sind in den Docs unter
-[Verknüpfen von Listen](/docs/link-lists.html)
+Verknüpfen von Listen
 zu finden.

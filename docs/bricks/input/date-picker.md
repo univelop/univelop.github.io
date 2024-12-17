@@ -16,7 +16,7 @@ Das heutige Datum ist immer voreingestellt.
 Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
 
 Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
-Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des [Baustein _Kalender_](/docs/record-spec-settings/grand-child-expanded/calender.html) an.
+Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des Baustein _Kalender_ an.
 
 Über die Einstellung _frühestmögliches Datum_ kann eingestellt werden, welches Datum als erstes ausgewählt werden kann.
 Ist hier bspw. der 15.06.2021 angegeben, kann im Baustein kein Datum vor dem 15.06.2021 gewählt werden.

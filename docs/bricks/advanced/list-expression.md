@@ -16,8 +16,8 @@ Alternativ kann man auch auf andere Bausteine referenzieren wie z.B. auf den Dat
 
 Wird ein Wert in der Formel verwendet, der nicht einer Liste entspricht, ist es notwendig, diesen Wert mit der Funktion _parseList(wert)_ in eine Listenform zu konvertieren, um mögliche Format- oder Berechnungsfehler zu vermeiden.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [_Formelsammlung_](/docs/formulas/formulas.html) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter [Formelbausteine](/docs/formulary/formulary.html) zu finden.
+Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.

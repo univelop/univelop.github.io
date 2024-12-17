@@ -29,8 +29,8 @@ Das Löschen der Unterschrift erfolgt auf gleichem Weg wie das Unterschreiben.
 Ein Klick auf das Unterschrifts-Feld und anschließend über den Button "Löschen" die Erfassung
 löschen. Die Erfassung der Unterschrift ist sowohl online- als auch offlinefähig.
 
-Um beim [PDF-Ausdruck](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) eines Eintrages mit Unterschrift neben dieser auch noch
+Um beim PDF-Ausdruck eines Eintrages mit Unterschrift neben dieser auch noch
 den eingetragenen Namen und das Datum der Unterschrift einzufügen, kann hinter dem
 technischen Namen des Baustein _Unterschrift_ "\_text" hinzugefügt werden.
 Heißt ein Baustein _Unterschrift_ bspw. "signatur", so wird dieser in einer
-docx-Vorlage für den Baustein [_PDF erstellen_](/docs/record-spec-settings/grand-child-expanded/create-pdf.html) über "signatur_text" referenziert, damit auch der Name und das Datum der Unterschrift mit eingefügt werden.
+docx-Vorlage für den Baustein _PDF erstellen_ über "signatur_text" referenziert, damit auch der Name und das Datum der Unterschrift mit eingefügt werden.

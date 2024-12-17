@@ -21,7 +21,7 @@ Wo und wie die Einstellungen eines jeweiligen Gerätes zu finden sind, steht i. 
 [Link: Hinzufügen/Entfernen eines Suffix auf einem Android-Endgerät mit CommonES (Honeywell)](https://honeywellaidc.force.com/supportppr/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater)  
 Durch den Klick auf den Link verlässt man UnivelopDocs und wechselt zu der Website der Honeywell Support-Community.
 
-Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins _Artikel Scanner_ werden ebenfalls zwei zusätzliche [Kacheln](/docs/software-structure.html#kacheln) benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modi, die entsprechend der Anforderung ausgewählt werden können.
+Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins _Artikel Scanner_ werden ebenfalls zwei zusätzliche Kacheln benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modi, die entsprechend der Anforderung ausgewählt werden können.
 
 ## <span style="color:#0b5394">Modus "Artikel hinzufügen"</span>
 
@@ -81,11 +81,11 @@ Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elekt
 
 Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzufügen". In dem Modus "Artikel abarbeiten" besteht die Möglichkeit Mengen aufzusummieren, statt zu überschreiben. Diese Einstellung hat zur Folge, dass z. B. vier Mengeneinheiten ausgegeben werden sollen, verteilt jedoch auf zwei Lagerläufe (erster Lauf: 3 Mengeneinheiten ausgegeben, zweiter Lauf: 1 Mengeneinheiten ausgegeben). In dieser Einstellung wird die Menge nicht überschrieben, sondern in Summe die auszugebende Menge aufgezeigt.
 
-Die Warenausgabe benötigt einen [Baustein _Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html) der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
+Die Warenausgabe benötigt einen Baustein _Datensatz Liste_ der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
 
 ![article scanner filter](\assets\record-spec-settings\article scanner filter.png "article scanner filter")
 
-In der Einstellung "Menge vorbelegen" kann eine entsprechende [Formel](/docs/formulary/childs/condition-calculate-with.html) hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
+In der Einstellung "Menge vorbelegen" kann eine entsprechende Formel hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
 offene Mengen der einzelnen Positionen vorbelegt.
 Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und der Lagerplatz muss ebenfalls mitgescannt werden.
 
@@ -107,7 +107,7 @@ Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher B
    Dies führt dazu, dass mehrere Scanvorgänge zu einer Artikelbewegung durchgeführt werden können, ohne dass die im 1. Scanvorgang erfasste Menge überschrieben wird.
 
 6. <span style="color:#0b5394">**Menge vorbelegen mit einer Formel**</span>  
-   Hier kann nicht nur eine Zahl vorgegeben werden, sondern diese lässt sich anhand einer [Formel](/docs/formulary/childs/condition-calculate-with.html) auch berechnen. In diesem Beispiel wird von der angefragten Menge die bereits ausgegebene Menge abgezogen, sodass dann die noch offene Menge vorbelegt wird.
+   Hier kann nicht nur eine Zahl vorgegeben werden, sondern diese lässt sich anhand einer Formel auch berechnen. In diesem Beispiel wird von der angefragten Menge die bereits ausgegebene Menge abgezogen, sodass dann die noch offene Menge vorbelegt wird.
 
 7. <span style="color:#0b5394">**Mengenbaustein**</span>  
    Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll

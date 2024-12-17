@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 Mit dem Baustein _Ja-Nein-Formel_ wird das Ergebnis einer Formel als Kästchen mit oder ohne Haken dargestellt.
-Die Formel sollte als Ergebnis einen Wahrheitswert bilden. Dies ist ohne weiteres möglich, wenn man einen Baustein [_Schalter_](/docs/record-spec-settings/grand-childs-form/switch.html) referenziert.
-Kombiniert man Werte, so müssen diese schlussendlich mit [Operatoren](/docs/formulary/childs/symbol-operator.html#rechensymbole--operatoren) zu einem Wahrheitswert kombiniert werden.
+Die Formel sollte als Ergebnis einen Wahrheitswert bilden. Dies ist ohne weiteres möglich, wenn man einen Baustein _Schalter_ referenziert.
+Kombiniert man Werte, so müssen diese schlussendlich mit Operatoren zu einem Wahrheitswert kombiniert werden.
 
 So kann anhand einer Formel bspw. für Arbeitszeiten angezeigt werden, ob diese abrechnungfähig sind.
 
@@ -22,8 +22,8 @@ Mittels der Ja/Nein Formel können komplexe Abhängigkeiten abgefragt werden. Hi
 als Operatoren im Ausdrucksfeld gearbeitet werden. Möchte ich zum Beispiel einen alten Datensatz identifizieren,
 reicht es bereits im Ausdruck _datum < today() -10 && status == 'Abgerechnet'_ stehen zu haben.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [_Formelsammlung_](/docs/formulas/formulas.html) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter [Formelbausteine](/docs/formulary/formulary.html) zu finden.
+Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.

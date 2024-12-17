@@ -1,6 +1,6 @@
 ---
 title: Arbeitsbereich Einstellungen
-nav_order: 10
+nav_order: 11
 layout: title
 redirect_from:
     - /docs/design-mode-settings.html

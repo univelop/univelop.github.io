@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Der _Kalender_ Baustein ist im Prinzip eine andere Darstellung einer Datensatz-Liste, für die eine Summe angezeigt wird.
-Der Baustein wird verwendet, um Einträge, die mit einem [Baustein _Datum_](/docs/record-spec-settings/grand-childs-form/date.html) ausgewählt sind,
+Der Baustein wird verwendet, um Einträge, die mit einem Baustein _Datum_ ausgewählt sind,
 in einer Kalenderform darzustellen. Beispiele sind Arbeitszeiten von Mitarbeitern, Wiedervorlageeinträge, Ablaufdatum,
 Aufgabenverwaltung, etc. Der Baustein _Kalender_ verweist dazu auf die Einträge die innerhalb des Kalender angezeigt werden.
 
@@ -29,7 +29,7 @@ Eine zusätzliche Einstellung ist die Anzeige einer Summe in den einzelnen Tagen
    der zurück schaut auf die eigene Liste.
 
 3. <span style="color:#0b5394">**Verknüpfung zu Datum**</span>  
-   Verweis auf den [Baustein _Datum_](/docs/record-spec-settings/grand-childs-form/date.html) für die Zuordnung der einzelnen Tage
+   Verweis auf den Baustein _Datum_ für die Zuordnung der einzelnen Tage
 
 4. <span style="color:#0b5394">**Anzahl der Vorschau**</span>  
    Einstellung der Anzahl der Datensätze zur Vorschau
@@ -47,4 +47,4 @@ Eine zusätzliche Einstellung ist die Anzeige einer Summe in den einzelnen Tagen
     - zwei Wochen
     - eine Woche
 
-Verwandte Beschreibungen zum Verknüpfen finden sich in der [_Datensatz-Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
+Verwandte Beschreibungen zum Verknüpfen finden sich in der _Datensatz-Liste_

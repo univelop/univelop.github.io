@@ -19,4 +19,4 @@ Sobald ein neues Mitglied dem Arbeitsbereich betritt, für den ein Eintrag in di
 Im Designmodus können die Einträge um weitere Bausteine erweitert werden, um bspw. einfache Daten wir Telefonnummern oder
 Adresse hinzuzufügen oder aber den Nutzern einen Standort, ein
 aktuelles Projekt oder seine aktuellen Arbeitszeiten zuzuweisen.
-Alle Bausteine aus dieser Kachel können bei den [Rechten](/docs/global-settings-and-functions.html#rechte--berechtigungen) zur Konfiguration verwendet werden.
+Alle Bausteine aus dieser Kachel können bei den Rechten zur Konfiguration verwendet werden.

@@ -14,7 +14,7 @@ Es gibt folgende Einstellungen für den Scanner:
    Hier wird angegeben, ob es sich um ein übliches Mobilgerät (Smartphone, Tablet) oder um ein Scannergerät handelt.
 2. <span style="color:#0b5394">**Baustein**</span>  
    Auf dem hier ausgewählten Baustein wird gesucht. Um einen funktionierenden Scanner zu garantieren, soll hier derselbe Baustein gewählt werden, welcher auch beim
-   zu scannendem Baustein [_QR-/Barcode_](/docs/record-spec-settings/grand-child-expanded/qr-barcode.html) gewählt wurde.
+   zu scannendem Baustein _QR-/Barcode_ gewählt wurde.
    Wird bei der internen Suche des Scanners nur ein passender Eintrag gefunden, so wird dieser direkt geöffnet.
    Bei mehreren Ergebnissen, wenn z.B. der QR-Code nur aus einem Datum besteht, wird eine Liste dieser angegeben.
 

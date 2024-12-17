@@ -14,5 +14,5 @@ Anders als Datum + Uhrzeit rechnet dieser Baustein (Von - Bis) auch die Stunden 
 ![interval](\assets\record-spec-settings\1interval.png 'interval')
 
 In Kombination mit dem
-[Baustein _Zahlenformel_](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
+Baustein _Zahlenformel_
 kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.

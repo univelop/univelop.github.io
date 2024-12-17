@@ -20,7 +20,7 @@ Dort können Formeln, für dynamische Beschränkungen, als auch Zahlen, für gle
 
 Der Vorteil des Bausteins _Nummer_ ist, dass Falscheingaben vorgebeugt werden kann wie z.B. Beträge,
 Auftragsnummern oder Zeiten. Die Bausteine _Nummer_ dienen auch zur Grundlage für Berechnungen im
-[Baustein _Zahlenformel_](/docs/record-spec-settings/grand-child-expanded/numberformular.html).
+Baustein _Zahlenformel_.
 
 **Bitte beachten:**  
 Falscheingaben werden nach Verlassen des Dialogfensters gelöscht.

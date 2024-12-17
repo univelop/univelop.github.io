@@ -41,5 +41,5 @@ Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
 ![recordPicker2](\assets\record-spec-settings\recordpicker2.png 'recordPicker2')
 
 Die Verknüpfungsmöglichkeiten sind in den Docs unter
-[Verknüpfen von Listen](/docs/link-lists.html)
+Verknüpfen von Listen
 zu finden.

@@ -17,7 +17,7 @@ von Transportfahrzeugen oder Arbeitsgeräten.
 In der linken Spalte (Zeilen) werden die verbundenen Ressourcen angezeigt, auf welche sich die Buchungen beziehen.
 Die Ressourcen, sowie die Buchungen selbst, können individuell gefiltert und sortiert werden.
 Drückt man auf das + Icon in einer beliebigen Zelle, so wird eine Buchung für das Datum der Spalte und die Ressource der Zeile erstellt.
-Es öffnet sich die Schnellerfassung des Datensatzes, welche man bereits aus der [_Datensatz-Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html) kennt.
+Es öffnet sich die Schnellerfassung des Datensatzes, welche man bereits aus der _Datensatz-Liste_ kennt.
 
 Konkret:
 Für den Terminplaner Baustein wird eine Liste benötigt, in der Buchungen vorgenommen werden können. Zum Beispiel Arbeitsberichte.
@@ -52,4 +52,4 @@ Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, 
    Einschränken der angezeigten Buchungen im _Terminplaner_.
 9. <span style="color:#0b5394">**Vorschau der Buchungen**</span>  
    Angezeigte Bausteine und deren Anordnung in der Vorschau der Buchungen im Terminplaner. Diese weicht von der Listenansicht ab.
-   Die Einstellung wird wie in der [Einstellung der Listenansicht](/docs/design-mode-settings.html#designmodus-liste) vorgenommen.
+   Die Einstellung wird wie in der Einstellung der Listenansicht vorgenommen.

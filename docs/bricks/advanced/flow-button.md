@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/workflow.html
 ---
 
-Über den Baustein _Workflow_ kann ein verbundener [Workflow](/docs/workflows/workflow.html) gestartet werden.
+Über den Baustein _Workflow_ kann ein verbundener Workflow gestartet werden.
 In den Einstellungen kann man neben dem verbundenen Workflow,
 auch ein optionales Icon wählen sowie eine Bezeichnung für den Baustein eintippen.
 

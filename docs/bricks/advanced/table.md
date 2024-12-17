@@ -23,7 +23,7 @@ In der Tabelle gibt es folgende Funktionalitäten:
    Der Baustein, über den die Tabelle verbunden ist (Verknüpfung über und Filter), wird vorbelegt.
    Hier z. B. _Hausbau_ beim Feld _Zugehöriges Projekt_.
 4. <span style="color:#0b5394">**_Datensatz_ Vorbelegen (hier _"Baumaschinen vorbelegen"_)**</span>  
-   Für diese Funktion muss ein [Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html) in der ersten Spalte liegen, welcher mit einer Liste [verbunden](/docs/link-lists.html) ist. Beim Vorbelegen wird für jeden Datensatz, der in dieser verbundenen Liste liegt, ein Tabelleneintrag erzeugt. So kann mit einem Klick ein Tabelleneintrag für z. B. jeden Mitarbeiter oder für jede Baumaschine im Fuhrpark erzeugt werden. Die zu erzeugenden Datensätze können gefiltert werden.
+   Für diese Funktion muss ein Baustein _Datensatz_ in der ersten Spalte liegen, welcher mit einer Liste verbunden ist. Beim Vorbelegen wird für jeden Datensatz, der in dieser verbundenen Liste liegt, ein Tabelleneintrag erzeugt. So kann mit einem Klick ein Tabelleneintrag für z. B. jeden Mitarbeiter oder für jede Baumaschine im Fuhrpark erzeugt werden. Die zu erzeugenden Datensätze können gefiltert werden.
 
 ---
 

@@ -20,7 +20,7 @@ Desweiteren bietet die Listenansicht viele weitere Funktionen:
 
 ## Einstellungen
 
-Folgende Einstellungen bietet die Kachel neben den [allgemeinen Einstellungen](/docs/tiles/general-settings):
+Folgende Einstellungen bietet die Kachel neben den allgemeinen Einstellungen:
 
 -   Kachel-Info: Neben dem Icon, welches bei jeder Kachel definiert werden kann, kann bei der einfach Liste statt dessen eine Info angezeigt werden. Diese ist entweder die Summer der Datensätze, oder die Summe eines Bausteins über aller Datensätze.
 -   Filter und Sortierung: Um die Anzahl der Datensätze in der Listenansicht zu beschränken, können Filter definiert werden. Diese Filter beinflussen auch die Kachel-Info Summe. Die Sortierung legt die Reihenfolge der Datensätze in der Listenansicht fest.

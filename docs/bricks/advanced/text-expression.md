@@ -12,10 +12,10 @@ Mit dem Baustein _Textformel_ wird das Ergebnis einer Formel als Text ohne weite
 
 Sobald ein nicht-textueller Wert angegeben ist, wird die Funktion `toText(nichtTextuellerWert)` zur geregelten Umwandlung von nicht-textuellen Werten, wie z. B. einem Datum oder einer Zahl, in eine textuelle Darstellung benötigt, um mögliche Formatierungs- oder Berechnungsfehler zu vermeiden.
 
-So kann bspw. anhand eines Wertes ein individueller Text angegeben werden, oder anhand einer Kombination von einem Baustein [_Nummer_](/docs/record-spec-settings/grand-childs-form/number.html) und [_Text_](/docs/record-spec-settings/grand-childs-form/text.html) ein eigener Sortiercode erzeugt werden.
+So kann bspw. anhand eines Wertes ein individueller Text angegeben werden, oder anhand einer Kombination von einem Baustein _Nummer_ und _Text_ ein eigener Sortiercode erzeugt werden.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter [_Formelsammlung_](/docs/formulas/formulas.html) zu finden.
+Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
 
 ## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter [Formelbausteine](/docs/formulary/formulary.html) zu finden.
+Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.

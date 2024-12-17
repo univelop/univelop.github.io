@@ -24,7 +24,7 @@ Zum grundsätzlichen Aufbau:
    Wurde der Datensatz gesperrt kann dieser über "Entsperren" wieder freigegeben werden
    (anders als beim Sperren über Status)
 4. <span style="color:#0b5394">**Eine Verknüpfung mit dem**</span>
-   [Baustein _Status_](/docs/record-spec-settings/grand-child-expanded/status.html)
+   Baustein _Status_
    <span style="color:#0b5394">**ist möglich**</span>
    Die Verknüpfung wird gesetzt, indem in dem entsprechenden Status der Schalter auf _Datensatz sperren_ = Ja gesetzt wird.
 5. <span style="color:#0b5394">**Sämtliche Pflichtfelder (Prüfung bei _Datensatz sperren_) müssen einzeln angehakt werden**</span>
@@ -44,13 +44,13 @@ Gesperrte Datensätze können nicht gelöscht werden.
    gekennzeichnet wird, erhält dieser das altbekannte Sternchen um auf eine Pflichteingabe hinzuweisen. Wird ein
    Baustein als Pflichtfeld markiert und dieses versteckt, wird die Pflichtfeldprüfung automatisch ausgesetzt. Ist nur
    ein Baustein _Datensatz sperren_ eingebaut und kein
-   [Baustein _Status_](/docs/record-spec-settings/grand-child-expanded/status.html),
+   Baustein _Status_,
    werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Sperrung betätigt wird.
 2. Das Bearbeiten und Löschen von gesperrten Datensätzen ist nicht möglich. Die Datensätze, sowie verknüpfte Datensätze
    müssen entsperrt werden (Mutter- & Tochter-Datensätze über
-   [Baustein _Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html))
+   Baustein _Datensatz Liste_)
 3. Wer Datensätze sperren und entsperren darf wird in den
-   [Rollen und Rechten](/docs/global-settings-and-functions.html#rechte--berechtigungen)
+   Rollen und Rechten
    festgelegt.
 
 ![lock4](\assets\record-spec-settings\4lock.png 'lock4')
