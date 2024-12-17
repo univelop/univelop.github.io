@@ -4,6 +4,8 @@ title: Status Button
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 7
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/button-status.html
 ---
 
 Den Baustein _Status Button_ kann nur mit dem [Baustein _Status_](/docs/record-spec-settings/grand-child-expanded/status.html) verknüpft werden. Über "Verknüpfung mit" wird der gewünschte

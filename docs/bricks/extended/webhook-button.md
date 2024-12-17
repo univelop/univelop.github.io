@@ -4,6 +4,8 @@ title: Webhook
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 14
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/webhook.html
 ---
 
 Der Baustein _Webhook_ wird verwendet um einen URL-basierten Prozess anzusteuern und auszulösen (z. B. Ansteuerung einer API-Schnittstelle, externe Workflow-Prozesse, etc.)

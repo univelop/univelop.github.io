@@ -4,7 +4,7 @@ nav_order: 99
 layout: title
 has_toc: false
 redirect_from:
-  - /docs/last-updates/latest-updates.html
+    - /docs/last-updates/latest-updates.html
 ---
 
 <table>
@@ -33,7 +33,7 @@ redirect_from:
       {% for i in (1..empty_cells) %}
         <td></td>
       {% endfor %}
-      </tr>
     {% endif %}
+      </tr>
   </tbody>
 </table>

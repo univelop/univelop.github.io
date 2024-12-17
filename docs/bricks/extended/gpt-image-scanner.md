@@ -4,6 +4,8 @@ title: Bild-Erkennung
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 29
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/chatgpt-image-scanner.html
 ---
 
 Mit dem Baustein _Bild-Erkennung_ kann der Inhalt eines Bildes, z.B. die Kontaktdaten auf einer Visitenkarte oder eine Adresse aus einem Schreiben, in einen Eintrag übernommen werden.

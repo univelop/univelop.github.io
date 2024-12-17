@@ -4,6 +4,8 @@ title: Bild Upload
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 9
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/upload-image.html
 ---
 
 Mit dem Baustein _Bild Upload_ können beliebig viele Bilder hochgeladen werden.  

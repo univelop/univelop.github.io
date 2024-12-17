@@ -4,6 +4,8 @@ title: ChatGPT
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 28
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/chatgpt.html
 ---
 
 <span style="color:#0b5394">Hinweis: Der ChatGPT Baustein befindet sich in der Beta-Phase und ist nur auf Anfrage benutzbar. Bei Interesse gerne bei uns unter support@univelop.de melden!</span>

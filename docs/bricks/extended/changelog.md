@@ -4,6 +4,8 @@ title: Änderungsprotokoll
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 26
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/change-log.html
 ---
 
 Der Baustein _Änderungsprotokoll_ zeichnet alle Änderungen auf, die in einem Eintrag vorgenommen wurden.

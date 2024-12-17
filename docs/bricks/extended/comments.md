@@ -4,6 +4,8 @@ title: Kommentar
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 22
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/comment.html
 ---
 
 Der Baustein _Kommentare_ ist aufgebaut wie ein Chat/Forum. Zu bestimmten Datensätze bietet sich dieser

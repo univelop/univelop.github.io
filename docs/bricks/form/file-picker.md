@@ -4,6 +4,8 @@ title: Datei Upload
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 10
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/upload-file.html
 ---
 
 Der Baustein _Datei Upload_ ermöglicht das Hochladen verschiedener Dateien aller Art (ebenso Mehrfachupload).

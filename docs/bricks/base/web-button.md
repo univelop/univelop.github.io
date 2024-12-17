@@ -4,6 +4,8 @@ title: Web Link
 parent: Basis-Bausteine
 grand_parent: Bausteine
 nav_order: 4
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-base/web-link.html
 ---
 
 Durch den Baustein _Web Link_ können in den Listeneinträgen zentrale URLs bzw. Links hinterlegt werden.

@@ -4,6 +4,8 @@ title: Nummer
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 2
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/number.html
 ---
 
 Der Baustein _Nummer_ kann ausschließlich mit Zahlenwerten gefüllt werden.

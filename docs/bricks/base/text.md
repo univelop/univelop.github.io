@@ -4,6 +4,8 @@ title: Hinweis
 parent: Basis-Bausteine
 grand_parent: Bausteine
 nav_order: 3
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-base/hint.html
 ---
 
 Mit dem Baustein _Hinweis_ werden Hinweistexte erfasst. Der Hinweistext wird über die Bezeichnung geschrieben. Hier

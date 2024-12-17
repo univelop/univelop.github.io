@@ -4,6 +4,8 @@ title: E-Mail
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 11
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/e-mail.html
 ---
 
 Durch den Baustein _E-Mail_ können Mailadressen im System hinterlegt werden. Befindet man sich in einem Datensatz

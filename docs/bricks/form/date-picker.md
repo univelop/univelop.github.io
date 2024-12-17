@@ -4,6 +4,8 @@ title: Datum
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 6
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/date.html
 ---
 
 Mit dem Baustein _Datum_ kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit und Anzeige des Wochentags.

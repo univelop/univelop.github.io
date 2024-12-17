@@ -4,6 +4,8 @@ title: Abmessungen
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 14
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/measure.html
 ---
 
 Der Baustein _Abmessungen_ dient dazu, Maße zu speichern und optional ein zusätzliches Feld für einen Gesamtbetrag, welcher aus den vorherigen Messfeldern berechnet wird, anzuzeigen. Damit können bspw. die Maße eines Rohrs eingegeben und dazu das Volumen in einem Baustein berechnet werden.

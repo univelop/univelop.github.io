@@ -4,6 +4,8 @@ title: Adresse
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 13
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/address.html
 ---
 
 Durch den Baustein _Adresse_ können individuelle Adressen in einem einzelnen Baustein erfasst werden.

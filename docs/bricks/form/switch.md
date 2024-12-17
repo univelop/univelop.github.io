@@ -4,6 +4,8 @@ title: Schalter
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 3
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/switch.html
 ---
 
 Mit dem Baustein _Schalter_ werden einfache "Ja / Nein"-, "Erfüllt / Nicht erfüllt"-Abfragen in der App dargestellt.

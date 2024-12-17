@@ -4,6 +4,8 @@ title: Datums-Formel
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 18
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/dateformular.html
 ---
 
 Mit dem Baustein _Datums-Formel_ wird anhand einer Formel ein Datum dargestellt.

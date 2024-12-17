@@ -4,6 +4,8 @@ title: Navigation
 parent: Basis-Bausteine
 grand_parent: Bausteine
 nav_order: 7
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-base/navigate.html
 ---
 
 Um bei Prozessen zwischen mehreren Einträgen zu vereinfachen und die Nutzbarkeit für bspw. Portal-Nutzer zu verbessern, kann der Baustein _Navigation_ genutzt werden. Dieser Baustein ist ein Button, welcher mit verschiedenen Navigationszielen versehen werden kann.

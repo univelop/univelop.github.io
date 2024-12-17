@@ -4,6 +4,8 @@ title: Mehrfach-Auswahl
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 5
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/multi-selection.html
 ---
 
 Durch den Baustein _Mehrfach-Auswahl_ können, ähnlich wie beim [Drop-Down Baustein](/docs/record-spec-settings/grand-childs-form/drop-down.html), individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.

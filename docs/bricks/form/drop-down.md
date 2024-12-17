@@ -4,6 +4,8 @@ title: Drop-Down
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 4
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/drop-down.html
 ---
 
 Durch den Baustein _Drop-Down_ können individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten

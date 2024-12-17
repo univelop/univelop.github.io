@@ -4,6 +4,8 @@ title: Datei Referenz
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 30
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/file-link.html
 ---
 
 Der _Datei Referenz_ Baustein bietet die Möglichkeit, Dateien und Bilder aus einem verknüpften Datensätzen oder aus anderen Tabs oder Abschnitten anzuzeigen.

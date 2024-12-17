@@ -4,6 +4,8 @@ title: GPS Position
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 15
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/geo-location.html
 ---
 
 Der Baustein _GPS Position_ ermöglicht die Erfassung der genauen Position (Breitengrad, Längengrad) von iOS und Android Geräten.

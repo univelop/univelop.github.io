@@ -4,6 +4,8 @@ title: Genehmigung
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 5
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/approval.html
 ---
 
 Mit dem Baustein _Genehmigung_ kann ein Genehmigungsablauf zu einem Datensatz, welcher bspw. eine Bestellanforderung darstellt, gelöst werden. Ein Datensatz kann von einem ausgewählten Nutzer genehmigt oder abgelehnt werden.

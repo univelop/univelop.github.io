@@ -4,6 +4,8 @@ title: Zeitspanne
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 7
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/interval.html
 ---
 
 Durch den Baustein _Zeitspanne_ besteht die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.

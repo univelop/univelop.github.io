@@ -4,6 +4,8 @@ title: Timer
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 8
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/timer.html
 ---
 
 Durch den Baustein _Timer_ besteht die Möglichkeit, eine Zeitspanne, genau wie beim [Baustein _Zeitspanne_](), inklusive Pausen zu erfassen.

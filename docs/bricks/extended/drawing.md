@@ -4,6 +4,8 @@ title: Zeichnung
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 20
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/drawing.html
 ---
 
 Mit dem Baustein _Zeichnung_ können auf mobilen Geräten Zeichnungen erstellt werden.

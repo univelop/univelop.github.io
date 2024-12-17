@@ -4,6 +4,8 @@ title: Abschnitt
 parent: Basis-Bausteine
 grand_parent: Bausteine
 nav_order: 1
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-base/section.html
 ---
 
 Mit dem Baustein _Abschnitt_ können die Listeneinträge thematisch getrennt werden.

@@ -4,6 +4,8 @@ title: Datensatz
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 1
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/record.html
 ---
 
 Mit dem Baustein _Datensatz_ wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem

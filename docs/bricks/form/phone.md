@@ -4,6 +4,8 @@ title: Telefon
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 12
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/telephone.html
 ---
 
 Mit dem Baustein _Telefon_ kann eine beliebige Telefonnummer hinterlegt werden. Analog zu dem Baustein _E-Mail_

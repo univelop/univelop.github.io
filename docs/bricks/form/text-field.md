@@ -4,6 +4,8 @@ title: Textfeld
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 1
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-form/text.html
 ---
 
 Mit dem Baustein _Textfeld_ können beliebige textuelle Inhalte erfasst werden.

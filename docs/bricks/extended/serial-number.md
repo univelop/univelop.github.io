@@ -4,6 +4,8 @@ title: Laufende Nummer
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 12
+redirect_from:
+    - /docs/record-spec-settings/grand-childs-expanded/rolling-number.html
 ---
 
 Den Baustein _Laufende Nummer_ wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
