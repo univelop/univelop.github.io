@@ -11,4 +11,4 @@ has_toc: false
 
 Die Basis-Bausteine bieten die Möglichkeit, Datensätze optisch aufzuwerten und statische Inhalte wie Hinweise oder Datei-Downloads anzuzeigen.
 
-{% include_relative base-bricks-table.md %}
+{% include_relative basic-bricks-table.md %}

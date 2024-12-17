@@ -12,4 +12,4 @@ has_toc: false
 
 Die Formular-Bausteine haben die Funktion, Daten wie Texte oder Zahlen in den Datensätzen zu speichern und sind zugleich die Eingabefelder dafür. Sie bilden den interaktiven Teil der Datensätze, in dem Daten eingegeben werden.
 
-{% include_relative form-bricks-table.md %}
+{% include_relative input-bricks-table.md %}
