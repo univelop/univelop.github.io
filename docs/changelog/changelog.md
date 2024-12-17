@@ -10,13 +10,11 @@ redirect_from:
 Unsere bisherigen Release-Notes.
 
 <table>
-  <!-- <thead>
+    <thead>
     <tr>
-      <th></th>
-      <th><em>Releases</em></th>
-      <th></th>
+      <th colspan="2"><em>Release Notes</em></th>
     </tr>
-  </thead> -->
+  </thead>
   <tbody>
     {% assign pages = site.pages | where: "parent", "Changelog" | sort: 'nav_order' %}
     {% assign count = 0 %}
