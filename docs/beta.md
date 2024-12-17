@@ -4,8 +4,6 @@ nav_order: 14
 layout: title
 ---
 
-# <span style="color:#0b5394">**Erklärung zum Univelop Beta-Programm**</span>
-
 ### <span style="color:#0b5394">**Alle Features aus der kommenden Version.**</span>
 
 Univelop wächst stetig und kommt regelmäßig mit neuen nützlichen und mächtigen Funktionen. Damit du diese Funktionen und neue Features bereits vor dem offiziellen Release nutzen und ausprobieren kannst, gibt es das Univelop Beta-Programm.
