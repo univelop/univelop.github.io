@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 13
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/workflow.html
+    - /docs/record-spec-settings/grand-child-expanded/workflow.html
 ---
 
 Über den Baustein _Workflow_ kann ein verbundener [Workflow](/docs/workflows/workflow.html) gestartet werden.

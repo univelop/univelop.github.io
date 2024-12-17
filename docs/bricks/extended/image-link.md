@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 31
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/image-link.html
+    - /docs/record-spec-settings/grand-child-expanded/image-link.html
 ---
 
 Der _Bild Referenz_ Baustein bietet die Möglichkeit, Bilder aus einem verknüpften Datensätzen oder aus anderen Tabs oder Abschnitten anzuzeigen.

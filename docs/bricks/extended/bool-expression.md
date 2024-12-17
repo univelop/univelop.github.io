@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 17
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/boolformular.html
+    - /docs/record-spec-settings/grand-child-expanded/boolformular.html
 ---
 
 Mit dem Baustein _Ja-Nein-Formel_ wird das Ergebnis einer Formel als Kästchen mit oder ohne Haken dargestellt.

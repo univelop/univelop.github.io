@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 23
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/create-pdf.html
+    - /docs/record-spec-settings/grand-child-expanded/create-pdf.html
 ---
 
 Mit dem Baustein _PDF erstellen_ kann, ausgehend von einer Word Vorlage, eine PDF Datei erstellt

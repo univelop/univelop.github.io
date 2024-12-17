@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 9
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/scheduler.html
+    - /docs/record-spec-settings/grand-child-expanded/scheduler.html
 ---
 
 Mit dem Baustein _Terminplaner_ kann ein Wochenplan von Buchungen, welche mit einer Ressource verbunden sind, erstellt werden.

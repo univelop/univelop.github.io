@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 19
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/listformular.html
+    - /docs/record-spec-settings/grand-child-expanded/listformular.html
 ---
 
 Mit dem Baustein _Listen-Formel_ wird das Ergebnis einer Formel als eine Liste von Chips dargestellt. Diese Chips können mit einem beliebigen Inhalt beschrieben werden. Die Formel sollte als Ergebnis eine Liste bilden.

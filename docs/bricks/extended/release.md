@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 4
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/lock.html
+    - /docs/record-spec-settings/grand-child-expanded/lock.html
 ---
 
 Der _Datensatz sperren_ Baustein erlaubt es Datensätze unveränderbar zu sichern. Der Baustein wird als

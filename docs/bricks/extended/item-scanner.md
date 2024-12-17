@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 25
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/article%20scanner.html
+    - /docs/record-spec-settings/grand-child-expanded/article%20scanner.html
 ---
 
 Der Baustein _Artikel Scanner_ bietet die Möglichkeit mittels eines entsprechenden Endgeräts mit Scanlaser Artikelbewegungen (zusätzlich mit Scanfunktion weiterer Bausteine z. B. Lagerplatz) zu erfassen.

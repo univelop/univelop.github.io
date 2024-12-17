@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 8
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/calender.html
+    - /docs/record-spec-settings/grand-child-expanded/calender.html
 ---
 
 Der _Kalender_ Baustein ist im Prinzip eine andere Darstellung einer Datensatz-Liste, für die eine Summe angezeigt wird.

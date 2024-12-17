@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 11
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/matrix.html
+    - /docs/record-spec-settings/grand-child-expanded/matrix.html
 ---
 
 Mit dem Matrix Baustein werden Buchungen bearbeitet. Diese Buchungen beziehen sich auf zwei Listen. Diese zwei Listen bilden in der Matrix die Zeilen und Spalten. Die Buchungen sind Einträge die mit der Zeile und Spalte verknüpft sind.

@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 21
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/signature.html
+    - /docs/record-spec-settings/grand-child-expanded/signature.html
 ---
 
 Mit dem Baustein _Unterschrift_ kann je Datensatz / je Baustein eine Unterschrift erfasst werden.

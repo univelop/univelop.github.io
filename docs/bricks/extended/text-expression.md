@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 15
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/textformular.html
+    - /docs/record-spec-settings/grand-child-expanded/textformular.html
 ---
 
 Mit dem Baustein _Textformel_ wird das Ergebnis einer Formel als Text ohne weitere Formatierung dargestellt. Die Formel funktioniert ohne weiteres, wenn nur Textbausteine referenziert oder ein Text in der Form **'Beispieltext'**(inklusive der Hochkommata) angegeben bzw. kombiniert werden.

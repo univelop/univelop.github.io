@@ -1,11 +1,11 @@
 ---
 layout: title
-title: Kommentar
+title: Kommentare
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 22
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/comment.html
+    - /docs/record-spec-settings/grand-child-expanded/comment.html
 ---
 
 Der Baustein _Kommentare_ ist aufgebaut wie ein Chat/Forum. Zu bestimmten Datensätze bietet sich dieser

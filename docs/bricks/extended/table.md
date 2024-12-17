@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 10
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/table.html
+    - /docs/record-spec-settings/grand-child-expanded/table.html
 ---
 
 Auch der _Tabellenbaustein_ ist eine Darstellungsform einer Datensatz-Liste.

@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 6
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/status.html
+    - /docs/record-spec-settings/grand-child-expanded/status.html
 ---
 
 Mit dem Baustein _Status_ können sowohl einfache Zustandsstati vergeben, als auch ein kompletter Prozess im

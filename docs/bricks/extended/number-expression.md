@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 16
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/numberformular.html
+    - /docs/record-spec-settings/grand-child-expanded/numberformular.html
 ---
 
 Mit dem Baustein _Zahlenformel_ wird das Ergebnis einer Formel als Zahl mit optionaler Formatierung dargestellt. Die Formatierung funktioniert analog zum Baustein [_Nummer_](/docs/record-spec-settings/grand-childs-form/number.html). Die Formel funktioniert ohne Funktionen, wenn nur numerische Bausteine (z. B. Nummer oder Laufende Nummer) referenziert und Zahlen angegeben und kombiniert werden.

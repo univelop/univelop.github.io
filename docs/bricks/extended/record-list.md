@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 3
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/record-list.html
+    - /docs/record-spec-settings/grand-child-expanded/record-list.html
 ---
 
 Der Baustein _Datensatz Liste_ zeigt beliebige Einträge einer Liste an.

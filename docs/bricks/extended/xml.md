@@ -5,7 +5,7 @@ parent: Erweiterte Bausteine
 grand_parent: Bausteine
 nav_order: 24
 redirect_from:
-    - /docs/record-spec-settings/grand-childs-expanded/xml.html
+    - /docs/record-spec-settings/grand-child-expanded/xml.html
 ---
 
 <!-- // TODO: In Docs, explain why hideIf is not needed
