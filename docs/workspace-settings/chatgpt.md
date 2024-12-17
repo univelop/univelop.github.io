@@ -1,6 +1,6 @@
 ---
 title: ChatGPT
-nav_order: 9
+nav_order: 2
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:

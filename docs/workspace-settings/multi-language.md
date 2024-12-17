@@ -1,6 +1,6 @@
 ---
 title: Mehrsprachigkeit
-nav_order: 9
+nav_order: 5
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:

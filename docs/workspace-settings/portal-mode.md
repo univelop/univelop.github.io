@@ -1,6 +1,6 @@
 ---
 title: Portal-Modus
-nav_order: 9
+nav_order: 6
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:

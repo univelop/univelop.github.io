@@ -1,6 +1,6 @@
 ---
 title: (Push-)Benachrichtigungen
-nav_order: 9
+nav_order: 3
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:
