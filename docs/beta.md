@@ -1,10 +1,8 @@
 ---
 title: Univelop Beta
-nav_order: 14
+nav_order: 15
 layout: title
 ---
-
-# <span style="color:#0b5394">**Erklärung zum Univelop Beta-Programm**</span>
 
 ### <span style="color:#0b5394">**Alle Features aus der kommenden Version.**</span>
 
