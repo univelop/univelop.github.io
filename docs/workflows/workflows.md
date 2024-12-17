@@ -1,13 +1,11 @@
 ---
 title: Workflows
-nav_order: 10
+nav_order: 11
 layout: title
 has_toc: false
 redirect_from:
    - /docs/workflows/workflow.html
 ---
-
-## <span style="color:#0b5394">Allgemeines zu Workflows</span>
 
 Mit Workflows können einfache Prozesse innerhalb von Univelop modelliert und automatisiert werden.
 So können bspw. durch den Baustein _Workflow_ bei einem abgeschlossenen Auftrag eine Rechnung oder ein Protokoll in Form eines neuen, ausgefüllten Eintrages erstellt werden.

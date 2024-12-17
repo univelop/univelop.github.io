@@ -16,8 +16,8 @@ Die einzelnen Bausteine teilen sich in folgende Gruppen auf:
 please do not edit, tables will be generated automatically
 -->
 
-{% include_relative base-bricks-table.md %}
+{% include_relative basic-bricks-table.md %}
 
-{% include_relative form-bricks-table.md %}
+{% include_relative input-bricks-table.md %}
 
-{% include_relative extended-bricks-table.md %}
+{% include_relative advanced-bricks-table.md %}

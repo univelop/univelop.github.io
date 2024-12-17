@@ -6,8 +6,6 @@ redirect_from:
     - /docs/start-app.html
 ---
 
-# <span style="color:#0b5394">**Der Start in die App**</span>
-
 ## <span style="color:#0b5394">Registrieren und Anmelden</span>
 
 Zugang zu dem System erhält man im Apple Appstore oder Google Play-Store, sowie über jeden beliebigen Browser über
