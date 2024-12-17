@@ -5,8 +5,6 @@ parent: Designmodi
 nav_order: 1
 ---
 
-## <span style="color:#0b5394">**Arbeitsbereich**</span>
-
 Im Arbeitsbereich oben rechts sind zwei Buttons zu finden.Über den _Haus-Button_ wird der Arbeitsbereich
 gewechselt. In den Designmodus des Arbeitsbereichs wechselt man, indem auf den _Drei-Punkte-Button_
 klickt und anschließend den Designmodus auswählt, oder indem man mit der linken Maustaste eine Kachel

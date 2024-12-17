@@ -7,8 +7,6 @@ redirect_from:
     - /docs/global-settings-and-functions.html
 ---
 
-## <span style="color:#0b5394">**(Push-)Benachrichtigungen**</span>
-
 Es können Benachrichtigungen für Änderungen an Datensätzen angezeigt werden. Die Benachrichtigung ist
 eine rot eingekreiste Zahl auf der Kachel, welche die Anzahl der neuen Datensätze oder Änderungen
 beinhaltet. Beim Klick in die Kachel ist der jeweilige Datensatz mit einem roten Punkt markiert.

@@ -5,8 +5,6 @@ parent: Designmodi
 nav_order: 4
 ---
 
-## <span style="color:#0b5394">**Workflow**</span>
-
 Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop zusammenstellen. Dabei ist der Workflow ein wasserfallartiger Ablauf, sprich er läuft nur in eine Richtung ab.
 
 ![designmode workflows](\assets\workflows\designmode workflows.png "designmode workflows")

@@ -7,8 +7,6 @@ redirect_from:
     - /docs/multi-language.html
 ---
 
-# <span style="color:#0b5394">**Mehrsprachigkeit**</span>
-
 Die Mehrsprachigkeit ermöglicht einen Internationalen Einsatz von Univelop.
 Dadurch kann Univelop mit dem selben Aufbau in verschiedensten sprachen genutzt und angezeigt werden.
 Aktuell unterstützt Univelop die Sprachen Deutsch und Englisch.

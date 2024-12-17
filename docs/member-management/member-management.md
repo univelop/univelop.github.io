@@ -6,8 +6,6 @@ redirect_from:
     - /docs/global-settings-and-functions.html
 ---
 
-# <span style="color:#0b5394">**Mitgliederverwaltung**</span>
-
 Ein Mitglied ist eine Person, die auf den Arbeitsbereich Zugriff hat.
 Mitglied wird jemand, der einen Einladungslink zum Arbeitsbereich erhalten hat.
 
