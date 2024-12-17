@@ -30,7 +30,7 @@ layout: table_wrappers
             {{ content }}
           {% endif %}
 
-          {% include navigation_buttons.html %}
+          {% include next_page_button.html %}
 
           {% if page.has_toc != false %}
             {% include components/children_nav.html %}
