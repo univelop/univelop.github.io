@@ -7,8 +7,6 @@ redirect_from:
     - /docs/azure-mailing.html
 ---
 
-## <span style="color:#0b5394">**Mailversand über Microsoft Azure**</span>
-
 Um aus Univelop heraus Mails über die Azure-Plattform senden oder abrufen zu können, muss in Azure AD eine App angelegt und drei Werte dieser in Univelop eingepflegt werden:
 
 ![univelop_settings](\assets\azure-mail-setup\0_univelop_settings.png 'Univelop Settings')

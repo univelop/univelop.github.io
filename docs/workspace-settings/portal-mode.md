@@ -7,8 +7,6 @@ redirect_from:
     - /docs/portal-mode.html
 ---
 
-# <span style="color:#0b5394">**Der Univelop Portalmodus**</span>
-
 Unter gewissen Umständen werden Arbeitsbereiche für Externe geschaffen (Aufgabenplanung Subunternehmer, Kundenportal, etc). Um externen Benutzern einen guten Mehrwert zu bieten, ohne dass man Ihnen die App oder ähnliches zur Verfügung stellt, kann auch der Portalmodus von Univelop aktiviert werden.
 In den Einstellungen des Arbeitsbereiches kann eine Portal-URL eingesetzt werden.
 

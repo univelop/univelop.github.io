@@ -5,8 +5,6 @@ parent: Designmodi
 nav_order: 3
 ---
 
-## <span style="color:#0b5394">**Liste**</span>
-
 Nach dem Öffnen einer Kachel wird auf der linken Seite eine Liste der vorhandenen Einträge
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 

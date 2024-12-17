@@ -6,8 +6,6 @@ redirect_from:
     - /docs/design-mode-settings.html
 ---
 
-# <span style="color:#0b5394">**Globale Einstellungen des Arbeitsbereichs**</span>
-
 ![homeSettings](\assets\design-mode-setting\homeSettings.png 'home settings')
 
 1. <span style="color:#0b5394">**Allgemein**</span>

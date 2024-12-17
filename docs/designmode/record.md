@@ -5,8 +5,6 @@ parent: Designmodi
 nav_order: 2
 ---
 
-## <span style="color:#0b5394">**Eintrag**</span>
-
 Wurde in einer Kachel in der Liste ein Eintrag ausgewählt, erscheint rechts der Listeneintrag. Oben rechts
 befinden sich vier Symbole:
 
