@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Website Kachel
+title: Website
 nav_order: 6
 parent: Kacheln
 ---

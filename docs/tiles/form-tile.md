@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Formular Kachel
+title: Formular
 nav_order: 5
 parent: Kacheln
 ---

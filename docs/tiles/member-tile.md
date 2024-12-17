@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Mitgliederkachel
+title: Mitglieder
 nav_order: 4
 parent: Kacheln
 ---

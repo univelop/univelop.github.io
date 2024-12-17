@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Scanner Kachel
+title: Scanner
 nav_order: 8
 parent: Kacheln
 ---

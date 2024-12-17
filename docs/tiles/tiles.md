@@ -20,4 +20,4 @@ So kann sich schneller Zugriff auf bestimmte Einträge aus beliebigen Listen ver
 
 Da das ganze Thema abstrakt ist, werden die Kacheln konkret am Beispiel einer Urlaubsplanung erklärt.
 Urlaubsanträge werden in einer einfachen Liste gespeichert und dargestellt. Die Mitarbeiter werden in der Mitgliederkachel verwaltet.
-Um als Teamleitung die Urlaubsanträge zu genehmigen und einen Überblick zu haben, hat man eine Filterkachel auf alle offenen Urlaubsanträge in seinem Bereich erstellt. Dort sieht man immer alle Urlaubsanträge, die man noch prüfen muss. Die allgemeine Übersicht über die geplanten Urlaube aller Mitarbeiter werden in der Seitenkachel dargestellt.
+Um als Teamleitung die Urlaubsanträge zu genehmigen und einen Überblick zu haben, gibt es eine Filterkachel auf alle offenen Urlaubsanträge in seinem Bereich erstellt. Dort sind alle Urlaubsanträge, die noch zu prüfen sind. Die allgemeine Übersicht über die geplanten Urlaube aller Mitarbeiter werden in der Seitenkachel dargestellt.
