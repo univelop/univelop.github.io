@@ -1,7 +1,5 @@
 ---
 title: Solutions
 nav_order: 13
-layout: title
+layout: coming-soon
 ---
-
-Demnächst verfügbar

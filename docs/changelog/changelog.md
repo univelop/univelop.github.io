@@ -7,6 +7,8 @@ redirect_from:
     - /docs/last-updates/latest-updates.html
 ---
 
+Unsere bisherigen Release-Notes.
+
 <table>
   <!-- <thead>
     <tr>

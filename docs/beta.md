@@ -10,7 +10,7 @@ Univelop wächst stetig und kommt regelmäßig mit neuen nützlichen und mächti
 
 ### <span style="color:#0b5394">**Wie funktioniert das Beta-Programm?**</span>
 
-Du erreichst die Beta unter [beta.univelop.de](<[url](https://beta.univelop.de/)>). Du arbeitest hier auf der selben Datengrundlage (selbe Datenbank) wie unter [app.univelop.de](<[url](https://app.univelop.de/)>). Es entsteht kein Mehraufwand durch die Nutzung der Beta-Version. Du kannst also alle Funktionen bereits vor der Auslieferung in eurer realen Arbeitsumgebung (oder Testumgebung) ausprobieren und damit neue Prozesse vorbereiten. Unter Umständen macht es Sinn, die neuen Funktionen nicht direkt in bestehende Prozesse zu integrieren, da Nutzer der aktuellen Version die Features aus der Beta noch nicht nutzen können.
+Du erreichst die Beta unter [beta.univelop.de](https://beta.univelop.de). Du arbeitest hier auf der selben Datengrundlage (selbe Datenbank) wie unter [app.univelop.de](https://app.univelop.de). Es entsteht kein Mehraufwand durch die Nutzung der Beta-Version. Du kannst also alle Funktionen bereits vor der Auslieferung in eurer realen Arbeitsumgebung (oder Testumgebung) ausprobieren und damit neue Prozesse vorbereiten. Unter Umständen macht es Sinn, die neuen Funktionen nicht direkt in bestehende Prozesse zu integrieren, da Nutzer der aktuellen Version die Features aus der Beta noch nicht nutzen können.
 
 ### <span style="color:#0b5394">**Dir ist ein Fehler aufgefallen?**</span>
 
