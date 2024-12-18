@@ -1,0 +1,12 @@
+{% assign examples = include.examples %}
+
+{% if examples and examples.size > 0 %}
+  {% assign example_output = "" %}
+  {% for example in examples %}
+    {% capture line %}`{{ example.expression }}` ergibt `{{ example.returnValue }}`{% unless forloop.last %}<br>{% endunless %}{% endcapture %}
+    {% assign example_output = example_output | append: line %}
+  {% endfor %}
+  {{ example_output | markdownify }}
+{% else %}
+  Kein Beispiel vorhanden
+{% endif %}

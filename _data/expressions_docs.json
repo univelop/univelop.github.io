@@ -2,7 +2,6 @@
   {
     "name": "toText",
     "description": "Wandelt einen nicht textuellen Wert (Zahlen, dynamische Werte, Datum, Objekte) in eine textuelle Darstellung des Wertes um",
-    "example": "`toText(12)` liefert \"12\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -13,12 +12,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toText(123)",
+        "returnValue": "123",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "contains",
     "description": "Gibt true/false abhängig davon zurück, ob *sub* in *text* vorhanden ist.",
-    "example": "`contains(\"Hallo du\",\"du\")` liefert *true*",
     "returns": "Ja/Nein",
     "category": "text",
     "categoryName": "Text",
@@ -34,12 +39,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "contains(\"Hello World\", \"World\")",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      }
     ]
   },
   {
     "name": "replace",
     "description": "Ersetzt jedes vorkommen von *find* in *text* mit *sub*",
-    "example": "`replace(\"Hallo du\",\"du\",\"ihr\")` liefert \"Hallo ihr\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -60,12 +71,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "replace(\"Hello World\", \"World\", \"Universe\")",
+        "returnValue": "Hello Universe",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "replaceRegExp",
     "description": "Ersetzt jedes vorkommen von *regexpText* in *text* mit *sub*",
-    "example": "`replaceRegExp(\"xyz 123 xyz\", \"xyz\", \"zxy\")` liefert \"zxy 123 zxy\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -86,12 +103,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "replaceRegExp(\"Hello World\", \"W.*d\", \"Universe\")",
+        "returnValue": "Hello Universe",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "substring",
     "description": "Liefert den Ausschnitt aus *text*, welcher an Zeichen *start* - 1 beginnt und an *end* endet. Wird *end* nicht angegeben, so wird der Text ab *start* bis zum Ende zurückgegeben",
-    "example": "`substring(\"Hallo Welt\", 2, 5)` liefert \"llo\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -112,12 +135,18 @@
         "type": "Zahl",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "substring(\"Hello World\", 6)",
+        "returnValue": "World",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "trim",
     "description": "Entfernt führende oder nachgestellte Leerzeichen von *text*",
-    "example": "`trim(\"      Hallo    Welt     \")` liefert \"Hallo    Welt\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -128,12 +157,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "trim(\"   Hello World   \")",
+        "returnValue": "Hello World",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "basicAuth",
     "description": "Verschlüsselt *username* und *password*",
-    "example": "`basicAuth(\"name\", \"1234\")` liefert \"Basic bmFtZToxMjM0\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -149,12 +184,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "basicAuth(\"Univelop\",\"uni123!\")",
+        "returnValue": "VW5pdmVsb3A6dW5pMTIzIQ==",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "randomString",
     "description": "Erzeugt eine zufällige Zeichenkette mit der Länge *length* (bestehend aus Kleinbuchstaben und Zahlen)",
-    "example": "`randomString(10)` liefert \"f49gf623bk\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -165,12 +206,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "randomString(10)",
+        "returnValue": "f49gf623bk",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "firstLetters",
     "description": "Gibt *count* Zeichen von Beginn an zurück",
-    "example": "`firstLetters(\"Hallo Welt\",5)` liefert \"Hallo\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -186,12 +233,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "firstLetters(\"Hello World\", 5)",
+        "returnValue": "Hello",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "lastLetters",
     "description": "Liefert die Anzahl an *count* Zeichen vom Ende des Textes",
-    "example": "`lastLetters(\"Hallo Welt\",4)' liefert \"Welt\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -207,12 +260,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "lastLetters(\"Hello World\", 5)",
+        "returnValue": "World",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "firstWords",
     "description": "Gibt *count* Worte von Beginn an zurück. Als Worte zählen solche, die durch mindestens ein Leerzeichen getrennt sind.",
-    "example": "`firstWords(\"Hallo du große Welt\",2)` liefert \"Hallo du\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -228,12 +287,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "firstWords(\"Hello World\", 1)",
+        "returnValue": "Hello",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "lastWords",
     "description": "Liefert die Anzahl an *count* Wörtern vom Ende des Textes. Als Wörter zählen solche, die durch mindestens ein Leerzeichen getrennt sind.",
-    "example": "`lastWords(\"Hallo du große Welt\",2)` liefert \"große Welt\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -249,12 +314,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "lastWords(\"Hello World\", 1)",
+        "returnValue": "World",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "getFirst",
     "description": "Sucht in *text* nach dem ersten Treffer von *regexText*. Mit *groupIndexOrName* kann eine spezifische Capture Group zurückgegeben werden, andernfalls wird der gesamte Treffer zurückgegeben. Wenn kein Treffer gefunden wird, gibt es einen leeren String zurück.",
-    "example": "`getFirst(\"xy\", \"xyz\")` liefert \"xy\"; `getFirst(\"(\\d+)\", \"abc 123 def\", 1)` liefert \"123\"; `getFirst(\"(?<letters>[a-z]+)\", \"abc123\", \"letters\")` liefert \"abc\".",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -275,12 +346,23 @@
         "type": "Dynamischer Wert",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "getFirst(\"(d+)\", \"abc 123 def\", 1)",
+        "returnValue": "123",
+        "returnType": "Text"
+      },
+      {
+        "expression": "getFirst(\"(?<letters>[a-z]+)",
+        "returnValue": "abc123",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "getAll",
     "description": "Durchsucht *text* nach allen Vorkommen von *regexText* und gibt eine Liste von Maps zurück, in denen der Key die jeweilige Capture Group repräsentiert.",
-    "example": "`getAll(\"([a-z]+)(\\d+)\", \"abc123abc123\")` liefert \"[{full: abc123, 1: abc, 2: 123}, {full: abc123, 1: abc, 2: 123}]\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -296,12 +378,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "getAll(\"([a-z]+)(\\d+)\", \"abc123abc123\")",
+        "returnValue": "[{full: abc123, 1: abc, 2: 123}, {full: abc123, 1: abc, 2: 123}]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "toUpperCase",
     "description": "Konvertiert *text* zu Großbuchstaben",
-    "example": "`toUpperCase(\"Hallo Welt!\")` liefert \"HALLO WELT!\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -312,12 +400,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toUpperCase(\"Hello World\")",
+        "returnValue": "HELLO WORLD",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "toLowerCase",
     "description": "Konvertiert *text* zu Kleinbuchstaben",
-    "example": "`toLowerCase(\"Hallo Welt!\")` liefert \"hallo welt!\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -328,12 +422,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toLowerCase(\"Hello World\")",
+        "returnValue": "hello world",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "base64Encode",
     "description": "Kodiert den gegebenen Text mithilfe des base64 Verfahrens",
-    "example": "`base64Encode(\"Hallo, Welt!\")` liefert \"SGFsbG8sIFdlbHQh\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -344,12 +444,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "base64Encode(\"Hello World\")",
+        "returnValue": "SGVsbG8gV29ybGQ=",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "base64Decode",
     "description": "Dekodiert einen mit dem base64 kodierten Text zurück in den Ursprung",
-    "example": "`base64Decode(\"SGFsbG8sIFdlbHQh\")` liefert \"Hallo, Welt!\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -360,12 +466,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "base64Decode(\"SGVsbG8gV29ybGQ=\")",
+        "returnValue": "Hello World",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "parseJson",
     "description": "Konvertiert einen Json-String zu einem Json-Objekt",
-    "example": "`parseJson(\"{id:123}\")` liefert {id:123}",
     "returns": "Dynamischer Wert",
     "category": "text",
     "categoryName": "Text",
@@ -376,12 +488,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "parseJson('{\"name\":\"John\"}')",
+        "returnValue": "{name: John}",
+        "returnType": "Dynamischer Wert"
+      }
     ]
   },
   {
     "name": "jsonEncode",
     "description": "Wandelt *value* in einen JSON String um.",
-    "example": "`jsonEncode({\"text\": \"foo\", \"value\": 2})` liefert {\"text\":\"foo\",\"value\":2}",
     "returns": "Dynamischer Wert",
     "category": "text",
     "categoryName": "Text",
@@ -392,12 +510,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "jsonEncode({name: \"John\"})",
+        "returnValue": "{\"name\":\"John\"}",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "toCharCode",
     "description": "Wandelt das angegebene Zeichen in dessen numerischen Zeichencode um",
-    "example": "`toCharCode(\"a\")` liefert 97",
     "returns": "Zahl",
     "category": "text",
     "categoryName": "Text",
@@ -408,12 +532,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toCharCode(\"a\")",
+        "returnValue": "97",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "fromCharCode",
     "description": "Wandelt den angegebenen numerischen Zeichencode in das entsprechende Zeichen um",
-    "example": "`fromCharCode(97)` liefert \"a\"",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -424,12 +554,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "fromCharCode(97)",
+        "returnValue": "a",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "toRadixString",
     "description": "Wandelt die angegebene Zahl, dargestellt als Zeichenkette in der entsprechenden Basis, zurück in den numerischen Wert um.(2: Binär, 16: Hexadezimal, 8: Oktal, 36: Base36)",
-    "example": "`fromRadixString(\"1010\", 2)` liefert 10",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -445,12 +581,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toRadixString(10, 2)",
+        "returnValue": "1010",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "fromRadixString",
     "description": "Wandelt die angegebene Zahl in eine Zeichenkettendarstellung der entsprechenden Basis um.(2: Binär, 16: Hexadezimal, 8: Oktal, 36: Base36)",
-    "example": "`toRadixString(10, 2)` liefert \"1010\"",
     "returns": "Zahl",
     "category": "text",
     "categoryName": "Text",
@@ -466,12 +608,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "fromRadixString(\"1010\", 2)",
+        "returnValue": "10",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "split",
     "description": "Teilt *text* and jedem *delimiter*",
-    "example": "`split(\"Hallo Welt\", \" \")` liefert [\"Hallo\",\" Welt\"]",
     "returns": "Liste",
     "category": "text",
     "categoryName": "Text",
@@ -487,12 +635,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "split(\"Hello World\", \" \")",
+        "returnValue": "[\"Hello\", \"World\"]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "ceil",
     "description": "Aufrunden auf eine ganze Zahl",
-    "example": "ceil(3.1) liefert 4",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -503,12 +657,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "ceil(1.5)",
+        "returnValue": "2",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "floor",
     "description": "Abrunden auf eine ganze Zahl",
-    "example": "floor(3.9) liefert 3",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -519,12 +679,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "floor(1.5)",
+        "returnValue": "1",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "round",
     "description": "Runden auf die nächstgelegene ganze Zahl",
-    "example": "round(3.499) liefert 3,  round(3.511) liefert 4",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -535,12 +701,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "round(1.5)",
+        "returnValue": "2",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "decimalRound",
     "description": "Runden auf bestimmte Anzahl von Nachkommastellen",
-    "example": "decimalRound(3.1789,2) liefert 3.19, decimalRound(3.2911,3) liefert 3.291",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -556,12 +728,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "decimalRound(1.2345, 2)",
+        "returnValue": "1.23",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "power",
     "description": "Berechnet number1 hoch number2",
-    "example": "power(2, 5) liefert 32",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -577,12 +755,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "power(2, 3)",
+        "returnValue": "8",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "abs",
     "description": "Betragsfunktion",
-    "example": "abs(-4) liefert 4",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -593,12 +777,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "abs(-5)",
+        "returnValue": "5",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "toNumber",
     "description": "Wandelt einen Text in eine numerische Darstellung des Wertes um",
-    "example": "toNumber(\"123\") liefert 123",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -609,12 +799,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "toNumber(\"123\")",
+        "returnValue": "123",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "textLength",
     "description": "Gibt die Textlänge inklusive aller Sonderzeichen und Leerzeichen aus",
-    "example": "textLength(\"Hallo Welt\") liefert 10",
     "returns": "Zahl",
     "category": "number",
     "categoryName": "Nummer",
@@ -625,12 +821,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "textLength(\"Hello World\")",
+        "returnValue": "11",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "formatNumber",
     "description": "Formatiert die Nummer ins gewünschte Format",
-    "example": "formatNumber(1000,2,true) liefert 1.000,00",
     "returns": "Text",
     "category": "number",
     "categoryName": "Nummer",
@@ -651,12 +853,18 @@
         "type": "Ja/Nein",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "formatNumber(1234.567, 2, true)",
+        "returnValue": "1.234,57",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "range",
     "description": "Generiere eine Liste an Zahlen, von *start* bis *end* mit einer Schrittgröße von *step*. Standardmäßig ist *step=1*",
-    "example": "`range(0, 2)` liefert [0, 1, 2], `range(2, 0)` liefert [2, 1, 0], `range(0, 1, 0.3)` liefert [0, 0.3, 0.6, 0.9]",
     "returns": "Liste",
     "category": "number",
     "categoryName": "Nummer",
@@ -677,12 +885,18 @@
         "type": "Zahl",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "range(1, 5)",
+        "returnValue": "[1, 2, 3, 4, 5]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "formatDate",
     "description": "Die Formel formatDate(date, format) dient dem strukturierten Ausgeben von Datumswerten. Dabei wird ein Datum und das gewünschte Format angegeben. Das gewünschte Format wird über einen Text für format angegeben. Mögliche Formatierungen gibt es in den [Univelop Docs](https://docs.univelop.de/docs/formulas/childs/date-formulas.html#formatdate)",
-    "example": "formatDate(today(), \"dd.MM.yyyy\") liefert \"15.06.2021\"",
     "returns": "Text",
     "category": "date",
     "categoryName": "Datum",
@@ -698,12 +912,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "formatDate(now(), \"dd.MM.yyyy\")",
+        "returnValue": "01.01.2022",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "date",
     "description": "Erstellt ein Datum aus gegebenem Jahr, Monat und Tag",
-    "example": "date(2021, 6, 15) liefert das Datum 15.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -724,12 +944,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "date(2022, 1, 1)",
+        "returnValue": "01.01.2022",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "parseDate",
     "description": "Erstellt Datum aus Text im Format \"dd.mm.yy\" oder \"dd.mm.yyyy\", nur dieses Format ist zulässig",
-    "example": "parseDate(\"15.06.2021\") liefert 15.06.2021 08:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -740,12 +966,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "parseDate(\"01.01.2022\")",
+        "returnValue": "01.01.2022",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "tryParseDate",
     "description": "Versucht ein Datum aus *value* zu machen. Tritt ein Fehler auf wird defaultDateTime zurück gegeben",
-    "example": "`tryParseDate(\"11.11.24\")` liefert 2024-11-11 00:00:00.000; `tryParseDate(1k.02.24)` liefert 1970-01-01 00:00:00.000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -756,32 +988,50 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "tryParseDate(\"01.01.2022\")",
+        "returnValue": "01.01.2022",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "today",
     "description": "Datum, bestehend aus dem aktuellen Tag um 00:00 Uhr",
-    "example": "today() liefert 15.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
     "expression": "today()",
-    "parameters": []
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "today()",
+        "returnValue": "01.01.2022 00:00:00.000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "now",
     "description": "Datum, bestehend aus dem aktuellen Zeitpunkt",
-    "example": "now() liefert 15.06.2021 08:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
     "expression": "now()",
-    "parameters": []
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "now()",
+        "returnValue": "01.01.2022 12:23:57.432",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "calendarWeek",
     "description": "Kalenderwoche des gegebenen Datums",
-    "example": "calendarWeek(today()) liefert 24",
     "returns": "Zahl",
     "category": "date",
     "categoryName": "Datum",
@@ -792,32 +1042,62 @@
         "type": "Datum",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "calendarWeek(now())",
+        "returnValue": "24",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "startOfWeek",
     "description": "Start der aktuellen Kalenderwoche",
-    "example": "startOfWeek() liefert 14.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "startOfWeek()",
-    "parameters": []
+    "expression": "startOfWeek([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "startOfWeek(now())",
+        "returnValue": "14.06.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "endOfWeek",
     "description": "Ende der aktuellen Kalenderwoche",
-    "example": "endOfWeek() liefert 20.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "endOfWeek()",
-    "parameters": []
+    "expression": "endOfWeek([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "endOfWeek(now())",
+        "returnValue": "20.06.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "dateToWeek",
     "description": "Kalenderwoche des Datums",
-    "example": "dateToWeek(date(2024,01,01)) liefert \"2024-W01\"",
     "returns": "Text",
     "category": "date",
     "categoryName": "Datum",
@@ -828,12 +1108,18 @@
         "type": "Datum",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "calendarWeek(now())",
+        "returnValue": "24",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "addWeeks",
     "description": "Wochen auf ein Datum oder einen Wochentext addieren",
-    "example": "addWeeks(date(2021,06,15), 1), liefert 22.06.2021 0:00:00.000000; addWeeks(\"2021-W24\", 1) liefert \"2021-W25\"",
     "returns": "Dynamischer Wert",
     "category": "date",
     "categoryName": "Datum",
@@ -849,12 +1135,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addWeeks(today(),1)",
+        "returnValue": "22.06.2021 8:00:00.000000",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "subtractWeeks",
     "description": "Subtrahiere Wochen von einem Datum oder Wochentext",
-    "example": "subtractWeeks(date(2021,06,15), 1), liefert 8.06.2021 0:00:00.000000; subtractWeeks(\"2021-W24\", 1) liefert \"2021-W23\"",
     "returns": "Dynamischer Wert",
     "category": "date",
     "categoryName": "Datum",
@@ -870,32 +1162,62 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "subtractWeeks(today(),1)",
+        "returnValue": "15.06.2021 8:00:00.000000",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "startOfMonth",
     "description": "Beginn des aktuellen Monats",
-    "example": "Ende des aktuellen Monats",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "startOfMonth()",
-    "parameters": []
+    "expression": "startOfMonth([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "startOfMonth()",
+        "returnValue": "01.06.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "endOfMonth",
     "description": "Ende des aktuellen Monats",
-    "example": "endOfMonth() liefert 30.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "endOfMonth()",
-    "parameters": []
+    "expression": "endOfMonth([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "endOfMonth()",
+        "returnValue": "30.06.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "dateToMonth",
     "description": "Jahr und Monat im Format YYYY-MM",
-    "example": "dateToMonth(date(2024,01,01)) liefert \"2024-01\"",
     "returns": "Text",
     "category": "date",
     "categoryName": "Datum",
@@ -906,12 +1228,12 @@
         "type": "Datum",
         "optional": false
       }
-    ]
+    ],
+    "examples": []
   },
   {
     "name": "addMonths",
     "description": "Monate auf ein Datum oder Monatstext addieren",
-    "example": "addMonths(date(2021,06,15), 1), liefert 15.07.2021 0:00:00.000000; addMonths(\"2021-05\", 1) liefert \"2021-06\"",
     "returns": "Dynamischer Wert",
     "category": "date",
     "categoryName": "Datum",
@@ -927,12 +1249,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addMonths(today(), 1)",
+        "returnValue": "01.07.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "subtractMonths",
     "description": "Monate von einem Datum oder Monatstext subtrahieren",
-    "example": "subtractMonths(date(2021,06,15), 1), liefert 15.05.2021 0:00:00.000000; subtractMonths(\"2021-05\", 1) liefert \"2021-04\"",
     "returns": "Dynamischer Wert",
     "category": "date",
     "categoryName": "Datum",
@@ -948,52 +1276,106 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "subtractMonths(today(), 1)",
+        "returnValue": "01.05.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "startOfQuarter",
     "description": "Beginn des aktuellen Quartals",
-    "example": "startOfQuarter() liefert 01.04.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "startOfQuarter()",
-    "parameters": []
+    "expression": "startOfQuarter([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "startOfQuarter()",
+        "returnValue": "01.04.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "endOfQuarter",
     "description": "Ende des aktuellen Quartals",
-    "example": "endOfQuarter() liefert 30.06.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "endOfQuarter()",
-    "parameters": []
+    "expression": "endOfQuarter([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "endOfQuarter()",
+        "returnValue": "30.06.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "startOfYear",
     "description": "Beginn des aktuellen Jahres",
-    "example": "startOfYear() liefert 01.01.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "startOfYear()",
-    "parameters": []
+    "expression": "startOfYear([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "startOfYear()",
+        "returnValue": "01.01.2021 00:00:00.000000, ",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "endOfYear",
     "description": "Ende des aktuellen Jahres",
-    "example": "endOfYear() liefert 31.12.2021 00:00:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
-    "expression": "endOfYear()",
-    "parameters": []
+    "expression": "endOfYear([date])",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "endOfYear()",
+        "returnValue": "31.12.2021 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ]
   },
   {
     "name": "addMinutes",
     "description": "Minuten auf einen Zeitpunkt addieren",
-    "example": "addMinutes(date(2021,06,15), 1), liefert 15.06.2021 0:01:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1009,12 +1391,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addMinutes(now(), 2)",
+        "returnValue": "01.01.2022 12:23:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "subtractMinutes",
     "description": "Minuten von einem Zeitpunkt subtrahieren",
-    "example": "subtractMinutes(date(2021,06,15), 1), liefert 14.06.2021 23:59:00.000000",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1030,12 +1418,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "subtractMinutes(now(), 2)",
+        "returnValue": "01.01.2022 12:21:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "addHours",
     "description": "Keine Beschreibung vorhanden",
-    "example": "Keine Beschreibung vorhanden",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1051,12 +1445,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addHours(now(), 2)",
+        "returnValue": "01.01.2022 14:23:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "subtractHours",
     "description": "Keine Beschreibung vorhanden",
-    "example": "Keine Beschreibung vorhanden",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1072,12 +1472,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "subtractHours(now(), 2)",
+        "returnValue": "01.01.2022 10:23:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "addDays",
     "description": "Keine Beschreibung vorhanden",
-    "example": "Keine Beschreibung vorhanden",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1093,12 +1499,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addDays(now(), 1)",
+        "returnValue": "02.01.2022 12:23:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "subtractDays",
     "description": "Keine Beschreibung vorhanden",
-    "example": "Keine Beschreibung vorhanden",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1114,12 +1526,18 @@
         "type": "Zahl",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "subtractDays(now(), 1)",
+        "returnValue": "31.12.2021 12:23:57.432",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "datesBetween",
     "description": "Daten zwischen den zwei gegebenen Daten. Unter [option] kann optional über den Text \"weekdays\" angegeben werden, dass nur Werktage angegeben werden sollen.",
-    "example": "datesBetween(today(), date(2021,6,19)) liefert [15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021, 19.06.2021], datesBetween(today(), date(2021,6,19), \"weekdays\") liefert [15.06.2021, 16.06.2021, 17.06.2021, 18.06.2021]",
     "returns": "Liste",
     "category": "date",
     "categoryName": "Datum",
@@ -1140,12 +1558,18 @@
         "type": "Text",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "datesBetween(date(2022, 1, 1), date(2022, 1, 5))",
+        "returnValue": "[01.01.2022, 02.01.2022, 03.01.2022, 04.01.2022, 05.01.2022]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "daysBetween",
     "description": "Anzahl der Tage zwischen dem *startDate* und dem *endDate*",
-    "example": "`daysBetween(date(2024,2,18), date(2021,2,20))` liefert 2, `daysBetween(date(2024,2,18), addHours(date(2024,2,20), 12))` liefert 2,5, `daysBetween(date(2024,2,20), date(2024,2,18))` liefert -2",
     "returns": "Zahl",
     "category": "date",
     "categoryName": "Datum",
@@ -1161,12 +1585,18 @@
         "type": "Datum",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "daysBetween(date(2022, 1, 1), date(2022, 1, 5))",
+        "returnValue": "4",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "hoursBetween",
     "description": "Anzahl der Stunden zwischen dem *startDate* und dem *endDate*",
-    "example": "`hoursBetween(date(2024,2,18), date(2021,2,20))` liefert 48, `hoursBetween(date(2024,2,18), addHours(date(2024,2,20), 12))` liefert 60, `hoursBetween(date(2024,2,20), date(2024,2,18))` liefert -48",
     "returns": "Zahl",
     "category": "date",
     "categoryName": "Datum",
@@ -1182,12 +1612,18 @@
         "type": "Datum",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "hoursBetween(parseDate(\"10.10.2022 06:00:00\"), parseDate(\"10.10.2022 10:00:00\"))",
+        "returnValue": "4",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "get",
     "description": "Holt den Wert von *key* aus *map/list*. *defaultValue* kann optional angegeben werden und wird zurück gegeben wenn ein Fehler auftritt",
-    "example": "`get([0,1,2,3], 2)` liefert 2, `get({\"Fahrrad\": 2, \"Auto\": 4}, \"Auto\")` liefert 4, get({\"F\": 2, \"A\": 4}, \"Auto\", 0)` liefert 0 ",
     "returns": "Dynamischer Wert",
     "category": "list",
     "categoryName": "Liste",
@@ -1208,22 +1644,33 @@
         "type": "Dynamischer Wert",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "get({name: \"John\", age: 30}, \"name\")",
+        "returnValue": "John",
+        "returnType": "Text"
+      },
+      {
+        "expression": "get([0,1,2,3], 2)",
+        "returnValue": "2",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "toMap",
     "description": "Keine Beschreibung vorhanden",
-    "example": "Keine Beschreibung vorhanden",
     "returns": "Dynamischer Wert",
     "category": "list",
     "categoryName": "Liste",
     "expression": "toMap()",
-    "parameters": []
+    "parameters": [],
+    "examples": []
   },
   {
     "name": "count",
     "description": "Zählt die Elemente einer Liste/eines dynamischen Wertes",
-    "example": "count([1,2,4]) liefert 3",
     "returns": "Zahl",
     "category": "list",
     "categoryName": "Liste",
@@ -1234,12 +1681,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "count([1,2,2,3])",
+        "returnValue": "4",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "listToText",
     "description": "Listet alle Elemente einer Liste auf, getrennt durch einen optionalen Separator (wenn nicht angegeben, wird standardmäßig ',' genommen).",
-    "example": "listToText([1,2,3], '--') liefert 1--2--3",
     "returns": "Text",
     "category": "list",
     "categoryName": "Liste",
@@ -1255,12 +1708,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listToText([1,2,3], \"-\")",
+        "returnValue": "1-2-3",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "addToList",
     "description": "Fügt einer Liste ein Element hinten an.",
-    "example": "addToList([1,2], 3) liefert [1,2,3]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1276,12 +1735,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "addToList([1,2,3], 4)",
+        "returnValue": "[1,2,3,4]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "removeFromList",
     "description": "Entfernt ein Element aus einer Liste.",
-    "example": "removeFromList([1,2,3], 3) liefert [1,2]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1297,12 +1762,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "removeFromList([1,2,3], 2)",
+        "returnValue": "[1,3]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "joinLists",
     "description": "Verbindet zwei Listen, indem die zweite Liste der ersten angehängt wird.",
-    "example": "joinLists([1,2], [3,4]) liefert [1,2,3,4]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1318,12 +1789,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "joinLists([1,2], [3,4])",
+        "returnValue": "[1,2,3,4]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "parseList",
     "description": "Parst einen String in eine Liste, getrennt durch einen optionalen Separator.",
-    "example": "`parseList(\"1; 2; 3\", \"; \")` liefert [1, 2, 3]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1339,12 +1816,18 @@
         "type": "Text",
         "optional": true
       }
+    ],
+    "examples": [
+      {
+        "expression": "parseList(\"1,2,3\", \",\")",
+        "returnValue": "[1, 2, 3]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "listIntersection",
     "description": "Gibt die Schnittmenge zweier Listen zurück.",
-    "example": "`listIntersection([1, 2], [2, 3])` liefert [2]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1360,12 +1843,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listIntersection([1,2], [2,3])",
+        "returnValue": "[2]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "listUnion",
     "description": "Gibt die Vereinigung zweier Listen zurück.",
-    "example": "`listUnion([1, 2], [2, 3])` liefert [1, 2, 3]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1381,12 +1870,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listUnion([1,2,3], [2,3,4])",
+        "returnValue": "[1,2,3,4]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "listEquals",
     "description": "Keine Beschreibung vorhanden",
-    "example": "`listEquals([1, 2], [1, 2])` liefert *true*",
     "returns": "Ja/Nein",
     "category": "list",
     "categoryName": "Liste",
@@ -1402,12 +1897,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listEquals([1,2,3], [1,2,3])",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      }
     ]
   },
   {
     "name": "listDifference",
     "description": "Gibt die Differenz zweier Listen zurück.",
-    "example": "`listDifference([1, 2, 3], [2, 3])` liefert [1]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1423,12 +1924,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listDifference([1,2,3], [2,3])",
+        "returnValue": "[1]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "listSymmetricDifference",
     "description": "Keine Beschreibung vorhanden",
-    "example": "`listSymmetricDifference([1, 2], [2, 3])` liefert [1, 3]",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1444,12 +1951,18 @@
         "type": "Liste",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "listSymmetricDifference([1,2,3], [2,3,4])",
+        "returnValue": "[1,4]",
+        "returnType": "Liste"
+      }
     ]
   },
   {
     "name": "contains",
     "description": "Gibt true/false abhängig davon zurück, ob *sub* in *text* vorhanden ist.",
-    "example": "`contains(\"Hallo du\",\"du\")` liefert *true*",
     "returns": "Ja/Nein",
     "category": "list",
     "categoryName": "Liste",
@@ -1465,12 +1978,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "containsList([1,2,3], 2)",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      }
     ]
   },
   {
     "name": "indexOf",
     "description": "Gibt den index von *value* in *list/text* zurück",
-    "example": "`indexOf(\"Hello\", \"e\")` liefert 1",
     "returns": "Zahl",
     "category": "list",
     "categoryName": "Liste",
@@ -1486,12 +2005,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "indexOf([1,2,3], 2)",
+        "returnValue": "1",
+        "returnType": "Zahl"
+      }
     ]
   },
   {
     "name": "if",
     "description": "Wenn die Bedingung wahr ist, dann liefere den 'then' Wert.",
-    "example": "if(1 == 1, 'Ja') liefert 'Ja'",
     "returns": "Dynamischer Wert",
     "category": "logic",
     "categoryName": "Logik",
@@ -1507,12 +2032,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "if(true, \"Hello\")",
+        "returnValue": "Hello",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "ifElse",
     "description": "Wenn die Bedingung wahr ist, dann liefere den 'then' Wert, ansonsten den 'else' Wert.",
-    "example": "ifElse(1 == 1, 'Ja', 'Nein') liefert 'Ja', ifElse(1 == 2, 'Ja', 'Nein') liefert 'Nein'",
     "returns": "Dynamischer Wert",
     "category": "logic",
     "categoryName": "Logik",
@@ -1533,12 +2064,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "ifElse(true, \"Hello\", \"World\")",
+        "returnValue": "Hello",
+        "returnType": "Text"
+      }
     ]
   },
   {
     "name": "empty",
     "description": "Prüft ob *value* leer ist",
-    "example": "`empty(\"\")` returns true; `empty(\"smth\")` returns false",
     "returns": "Ja/Nein",
     "category": "logic",
     "categoryName": "Logik",
@@ -1549,12 +2086,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "empty(\"\")",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      }
     ]
   },
   {
     "name": "notEmpty",
     "description": "Prüft ob *value* nicht leer ist",
-    "example": "`notEmpty(\"smth\")` returns true; `notEmpty(\"\")` retruns false",
     "returns": "Ja/Nein",
     "category": "logic",
     "categoryName": "Logik",
@@ -1565,12 +2108,18 @@
         "type": "Dynamischer Wert",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "notEmpty(\"Hello World\")",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      }
     ]
   },
   {
     "name": "combineDateAndTime",
     "description": "combineDateAndTime(today(), \"12:00\") liefert das Datum von heute mit der Uhrzeit 12:00",
-    "example": "Kombiniert ein Datum und einen Uhrzeit-Text im Format \"HH:mm\"",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1586,12 +2135,18 @@
         "type": "Text",
         "optional": false
       }
+    ],
+    "examples": [
+      {
+        "expression": "combineDateAndTime(now(), \"12:00\")",
+        "returnValue": "01.01.2022 12:00:00.000",
+        "returnType": "Datum"
+      }
     ]
   },
   {
     "name": "removeDuplicates",
     "description": "removeDuplicates([1,2,3,1,1,3]) liefert [1,2,3]",
-    "example": "Entfernt Duplikate aus der Liste",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1601,6 +2156,13 @@
         "name": "list",
         "type": "Liste",
         "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "removeDuplicates([1,2,2,3,4,4])",
+        "returnValue": "[1,2,3,4]",
+        "returnType": "Text"
       }
     ]
   }

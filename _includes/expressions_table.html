@@ -25,7 +25,9 @@
             Keine Parameter
           {% endif %}
         </td>
-        <td>{{ item.example | markdownify }}</td>
+        <td>
+          {% include expression_example.html examples=item.examples %}
+        </td>
         <td>{{ item.description | markdownify }}</td>
         <td>{{ item.returns }}</td>
       </tr>

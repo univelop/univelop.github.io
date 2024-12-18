@@ -29,7 +29,7 @@ layout: title
         {% for item in cat_group.items %}
           <tr>
             <td><code>{{ item.expression }}</code></td>
-            <td>{{ item.example | markdownify }}</td>
+            <td>{% include expression_example.html examples=item.examples %}</td>
             <td>{{ item.description | markdownify }}</td>
           </tr>
         {% endfor %}
