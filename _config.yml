@@ -66,3 +66,9 @@ aux_links:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# For Callouts see https://just-the-docs.com/docs/configuration/
+# cspell:ignore callouts
+callouts:
+  warning:
+    title: WARNUNG
+    color: yellow
