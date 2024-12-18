@@ -30,11 +30,11 @@ layout: table_wrappers
             {{ content }}
           {% endif %}
 
-          {% include next_page_button.html %}
-
           {% if page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
+
+          {% include next_page_button.html %}
         </main>
         {% include components/footer.html %}
       </div>
