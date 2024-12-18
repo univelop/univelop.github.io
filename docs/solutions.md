@@ -1,9 +1,5 @@
 ---
-layout: default
-title: Univelop Solutions
-nav_order: 99
+title: Solutions
+nav_order: 14
+layout: coming-soon
 ---
-
-# <span style="color:#0b5394">**Univelop Solutions**</span>
-
-Coming soon

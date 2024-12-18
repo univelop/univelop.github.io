@@ -103,6 +103,7 @@ Formelberechnungen
 Formelkategorie
 Fragmentsuche
 fullscreen
+Funktionserklärungen
 Genehmiger
 Genehmigungs
 Genehmigungsablauf
@@ -145,6 +146,7 @@ Kacheltypen
 Kalenderansicht
 Kalenderformat
 Kalenderformats
+Kalenderfreigaben
 kommaseparierte
 Kommentarbausteins
 Kurzansicht
@@ -299,4 +301,3 @@ Zieldatensatz
 zoomable
 Zufgriffsfilter
 Zustandsstati
-Kalenderfreigaben

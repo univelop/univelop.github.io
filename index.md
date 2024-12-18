@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Startseite
 nav_order: 0
 ---
 
@@ -29,5 +29,3 @@ Vorkenntnisse in Informatik werden bei der Arbeit mit Univelop nicht benötigt. 
 Das erfahrene Univelop Team oder unsere Partnerunternehmen stehen dir selbstverständlich beratend zur Seite. Von der ersten Anfrage bis zur Implementierung des Systems kann eine intensive Begleitung des Projekts erfolgen.
 
 <span style="color:#0b5394">**Viel Spaß beim Erkunden der UnivelopDocs!**</span>
-
-Ohne auf die detaillierten Erklärungen der einzelnen Bausteine, Funktionen, etc. sofort einzugehen, wird vorab der Nachbau des Tutorials [“Erstellen einer To-Do-Liste”](/docs/tutorials/childs/to-do-list.html) empfohlen. Dieses Tutorial ist mit Animationen ausgestattet, sodass die einfache Bedienbarkeit von Univelop verdeutlicht wird.
