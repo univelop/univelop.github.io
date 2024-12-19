@@ -21,7 +21,9 @@ Für die erfolgreiche Nutzung ist nötig, dass Ihnen die Formeln und dessen Aufb
 ## <span style="color:#0b5394">Formel Editor</span>
 
 Der Formel Editor dient zur einfachen Bearbeitung von Formeln. Zum öffnen drückt man auf das Symbol mit den 4 Rechensymbolen neben einem Eingabefeld. 
+
 Der Formel Editor ist aufgeteilt in 2 Hälften. In der oberen Hälfte ist das Eingabefeld. Hier kann die Formel beliebig selber eingegeben und mit Leerzeichen und Zeilenumbrüchen strukturiert werden.
+
 In der unteren Hälfte sind alle eingebbaren Formeln kategorisiert in Text, Zahlen, Datum, Listen, Logik und Operatoren. Zusätzlich gibt es ein Tab für alle Variablen die genutzt werden können. Auch kann man jede Formel entweder einmal anklicken um eine Info zu erhalten oder doppelt anklicken um die Formel ins Eingabefeld einzufügen.
 
 ## <span style="color:#0b5394">Technischer Name</span>
