@@ -4,6 +4,8 @@ nav_order: 6
 layout: title
 redirect_from:
     - /docs/record-spec-settings/record-spec-settings.html
+    - /docs/record-spec-settings/grand-childs-form/user.html
+    - /docs/record-spec-settings/grand-childs-form/team.html
 has_toc: false
 ---
 

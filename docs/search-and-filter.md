@@ -2,6 +2,8 @@
 title: Suchen und Filtern
 layout: title
 nav_order: 7
+redirect_from:
+    - /docs/search-and-filters.html
 ---
 
 ## <span style="color:#0b5394">Suchen</span>
