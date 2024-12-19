@@ -4,6 +4,8 @@ title: Sende Push-Nachricht
 parent: Erweitert
 grand_parent: Workflows
 icon: notification_add
+redirect_from:
+    - /workflows/grand-childs-bricks/send-notification.html
 ---
 
 Über den Baustein _Versende Push-Nachricht_ wird eine individuell konfigurierte Push-Nachricht an ausgewählte Nutzer(-gruppen) versendet.

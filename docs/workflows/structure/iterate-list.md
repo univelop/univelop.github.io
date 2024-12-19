@@ -4,6 +4,8 @@ title: Iteriere über Werte
 parent: Struktur
 grand_parent: Workflows
 icon: format_list_numbered
+redirect_from:
+    - /workflows/grand-childs-bricks/iterate-values.html
 ---
 
 Mit dem Baustein _Iteriere über Werte_ kann über einen dynamischen Wert bzw. eine Liste von Werten iteriert werden.

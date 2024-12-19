@@ -4,6 +4,8 @@ title: Sende Web-Request
 parent: Erweitert
 grand_parent: Workflows
 icon: http
+redirect_from:
+    - /workflows/grand-childs-bricks/web-request.html
 ---
 
 Mit dem Baustein _Sende Web Request_ können Web-Anfragen gestellt werden, dessen Antwort dann im weiteren Workflow zugreifbar ist. Die Funktion gleicht dem Baustein _Webhook_.

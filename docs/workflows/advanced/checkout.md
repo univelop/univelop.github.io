@@ -4,6 +4,8 @@ title: Check Out
 parent: Erweitert
 grand_parent: Workflows
 icon: check_circle
+redirect_from:
+    - /workflows/grand-childs-bricks/check-out.html
 ---
 
 Über den Baustein _Check Out_ wird ein Popup eingeblendet, welcher einen individuellen Titel und eine Nachricht anzeigt.
