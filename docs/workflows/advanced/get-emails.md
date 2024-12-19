@@ -5,7 +5,7 @@ parent: Erweitert
 grand_parent: Workflows
 icon: mark_email_unread
 redirect_from:
-    - /workflows/grand-childs-bricks/get-emails.html
+    - /docs/workflows/grand-childs-bricks/get-emails.html
 ---
 
 Über den Baustein _Rufe E-Mails ab_ können E-Mails aus einem Postfach abgerufen werden.

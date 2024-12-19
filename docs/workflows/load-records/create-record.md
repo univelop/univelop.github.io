@@ -5,7 +5,7 @@ parent: Einträge laden
 grand_parent: Workflows
 icon: add_circle_outline
 redirect_from:
-    - /workflows/grand-childs-bricks/create-record.html
+    - /docs/workflows/grand-childs-bricks/create-record.html
 ---
 
 Über den Baustein _Erstelle einen neuen Eintrag_ wird ein Eintrag für die ausgewählte Kachel erstellt und mit Werten besetzt.

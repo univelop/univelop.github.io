@@ -5,7 +5,7 @@ parent: Erweitert
 grand_parent: Workflows
 icon: vertical_align_top
 redirect_from:
-    - /workflows/grand-childs-bricks/import-excel.html
+    - /docs/workflows/grand-childs-bricks/import-excel.html
 ---
 
 Mit dem Workflowstep _Importiere Excel-Tabelle_ können Daten aus einer über den Datei Upload-Baustein hochgeladenen Excel-Tabelle importiert werden.

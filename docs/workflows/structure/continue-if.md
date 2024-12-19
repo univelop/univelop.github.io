@@ -5,7 +5,7 @@ parent: Struktur
 grand_parent: Workflows
 icon: skip_next
 redirect_from:
-    - /workflows/grand-childs-bricks/continue-if.html
+    - /docs/workflows/grand-childs-bricks/continue-if.html
 ---
 
 Über den Baustein _Laufe weiter, wenn_ wird der Workflow anhand einer in den Einstellungen angegebener Ja-Nein-Formel entweder weitergeführt oder beendet.

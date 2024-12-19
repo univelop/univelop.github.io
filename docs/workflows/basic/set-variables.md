@@ -5,7 +5,7 @@ parent: Basis
 grand_parent: Workflows
 icon: description
 redirect_from:
-    - /workflows/grand-childs-bricks/set-variable.html
+    - /docs/workflows/grand-childs-bricks/set-variable.html
 ---
 
 Mit dem Baustein _Setze Variablen_ werden Variablen, konkret benutzerdefinierte Werte welche über einen selbst definierten Namen zugegriffen werden können, den folgenden Workflow Bausteinen zur Verfügung gestellt.

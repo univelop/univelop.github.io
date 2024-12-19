@@ -5,7 +5,7 @@ parent: Einträge laden
 grand_parent: Workflows
 icon: manage_search
 redirect_from:
-    - /workflows/grand-childs-bricks/get-first-record.html
+    - /docs/workflows/grand-childs-bricks/get-first-record.html
 ---
 
 Mit dem Baustein _Finde ersten Eintrag_ wird der erste Eintrag einer Kachel ausgewählt.

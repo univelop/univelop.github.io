@@ -5,7 +5,7 @@ parent: Erweitert
 grand_parent: Workflows
 icon: ads_click
 redirect_from:
-    - /workflows/grand-childs-bricks/run-action.html
+    - /docs/workflows/grand-childs-bricks/run-action.html
 ---
 
 Über den Baustein _Aktion ausführen_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt und dessen Aktion ausgeführt.

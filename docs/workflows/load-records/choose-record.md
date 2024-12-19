@@ -5,7 +5,7 @@ parent: Einträge laden
 grand_parent: Workflows
 icon: youtube_searched_for
 redirect_from:
-    - /workflows/grand-childs-bricks/choose-record.html
+    - /docs/workflows/grand-childs-bricks/choose-record.html
 ---
 
 Über den Baustein _Wähle Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.

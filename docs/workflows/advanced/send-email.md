@@ -5,7 +5,7 @@ parent: Erweitert
 grand_parent: Workflows
 icon: notification_add
 redirect_from:
-    - /workflows/grand-childs-bricks/send-mail.html
+    - /docs/workflows/grand-childs-bricks/send-mail.html
 ---
 
 Über den Baustein _Sende E-Mail_ wird eine individuelle E-Mail an einen gewählten Empfänger versendet.

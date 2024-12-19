@@ -5,7 +5,7 @@ parent: Basis
 grand_parent: Workflows
 icon: message
 redirect_from:
-    - /workflows/grand-childs-bricks/show-message.html
+    - /docs/workflows/grand-childs-bricks/show-message.html
 ---
 
 Über den Baustein _Zeige Nachricht_ wird eine PopUp-Nachricht bei der Ausführung des Workflows angezeigt.

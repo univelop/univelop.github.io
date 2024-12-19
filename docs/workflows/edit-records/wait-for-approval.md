@@ -5,7 +5,7 @@ parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: approval
 redirect_from:
-    - /workflows/grand-childs-bricks/await-approval.html
+    - /docs/workflows/grand-childs-bricks/await-approval.html
 ---
 
 Über den Baustein _Warte auf Genehmigung_ wird auf die Genehmigung, Ablehnung oder auf eins von Beidem gewartet und dadurch der Workflow gestoppt, bis das Ereignis eintritt.

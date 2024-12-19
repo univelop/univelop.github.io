@@ -5,7 +5,7 @@ parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: change_circle
 redirect_from:
-    - /workflows/grand-childs-bricks/alter-record.html
+    - /docs/workflows/grand-childs-bricks/alter-record.html
 ---
 
 Über den Baustein _Ändere einen Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.

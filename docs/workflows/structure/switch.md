@@ -5,7 +5,7 @@ parent: Struktur
 grand_parent: Workflows
 icon: alt_route
 redirect_from:
-    - /workflows/grand-childs-bricks/choose-path.html
+    - /docs/workflows/grand-childs-bricks/choose-path.html
 ---
 
 Über den Baustein _Wähle Pfade_ kann der Workflow in mehrere, parallel liegende Pfade aufgeteilt werden. Diese werden in den Einstellungen mit einer Ja-Nein-Formel ausgestattet, welche kontrolliert ob dieser Pfad im Workflow zur Ausführung kommt.
