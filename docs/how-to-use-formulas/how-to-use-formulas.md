@@ -18,6 +18,14 @@ Formeln (und die technischen Namen) werden an folgenden Stellen eingesetzt:
 
 Für die erfolgreiche Nutzung ist nötig, dass Ihnen die Formeln und dessen Aufbau sowie die technischen Namen bekannt sind, welche im folgenden erläutert werden.
 
+## <span style="color:#0b5394">Formel Editor</span>
+
+Der Formel Editor dient zur einfachen Bearbeitung von Formeln. Zum öffnen drückt man auf das Symbol mit den 4 Rechensymbolen neben einem Eingabefeld. 
+
+Der Formel Editor ist aufgeteilt in 2 Hälften. In der oberen Hälfte ist das Eingabefeld. Hier kann die Formel beliebig selber eingegeben und mit Leerzeichen und Zeilenumbrüchen strukturiert werden.
+
+In der unteren Hälfte sind alle eingebbaren Formeln kategorisiert in Text, Zahlen, Datum, Listen, Logik und Operatoren. Zusätzlich gibt es ein Tab für alle Variablen die genutzt werden können. Auch kann man jede Formel entweder einmal anklicken um eine Info zu erhalten oder doppelt anklicken um die Formel ins Eingabefeld einzufügen.
+
 ## <span style="color:#0b5394">Technischer Name</span>
 
 Das Konzept der technischen Namen bietet die Möglichkeit, Daten jeglicher Bausteine zu verarbeiten, diese (mit oder ohne Formeln) zu kombinieren und einfache sowie komplexe Berechnungen mit diesen Daten durchzuführen.
