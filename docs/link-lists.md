@@ -89,12 +89,9 @@ für bestimmte Perioden anzeigen zu lassen.
 ## <span style="color:#0b5394">Verknüpfung über den Baustein _Datensatz_</span>
 
 Wie der Name schon sagt, kann über den
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
-auf einen Datensatz zugegriffen werden. Genauer gesagt auf einen Datensatz einer anderen Liste.
+Baustein _Datensatz_ auf einen Datensatz zugegriffen werden. Genauer gesagt auf einen Datensatz einer anderen Liste.
 
-Nachdem der
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
-einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
+Nachdem der Baustein _Datensatz_ einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
 Funktionen des Bausteins vorgenommen werden:
 
 ![brick record settings](\assets\link-lists\brick record settings.png "brick record settings")
@@ -109,11 +106,7 @@ Funktionen des Bausteins vorgenommen werden:
    erneut eingeben werden müssen und somit eventuelle Übertragungsfehler reduziert werden.
 
     Dabei ist darauf zu achten, dass die zu Quell- und Zielbausteine der Liste den gleichen Typ aufweisen
-    müssen, bedeutet nur
-    [Textfeld](/docs/record-spec-settings/grand-childs-form/text.html)
-    zu Textfeld,
-    [Datum](/docs/record-spec-settings/grand-childs-form/date.html)
-    zu Datum etc. Alle Werte jedoch könnten auch in ein Textfeld geschrieben werden.
+    müssen, bedeutet nur Textfeld zu Textfeld, Datum zu Datum etc. Alle Werte jedoch könnten auch in ein Textfeld geschrieben werden.
 
     Darüber hinaus können die übernommenen Daten synchron gehalten werden. Bedeutet, wird der Switch nicht
     aktiviert, werden die Daten einmalig mit der Auswahl des Datensatzes übernommen. Beim synchron halten werden
@@ -134,14 +127,11 @@ Funktionen des Bausteins vorgenommen werden:
    Artikelbewegungen im Datensatz Baustein Lieferschein diesen Schalter zu aktivieren, damit die Bewegungen gelöscht werden, sobald der
    Lieferschein gelöscht wird.
 
-Informationen zu den Möglichkeiten zu _Filter und Sortierungen_ sind auf der Docs-Seite des Bausteins
-[_Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-zu finden.
+Informationen zu den Möglichkeiten zu _Filter und Sortierungen_ sind auf der Docs-Seite des Bausteins _Datensatz Liste_ zu finden.
 
 ## <span style="color:#3d85c6">Zusammenfassung</span>
 
-Über den
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
+Über den Baustein _Datensatz_
 wird eine einfache Verknüpfung mit **einem** Datensatz einer anderen Liste
 geschaffen und es besteht die Möglichkeit Daten einmalig oder dauerhaft zu übernehmen, sowie den Eintrag
 zu löschen oder zu duplizieren, wenn dies gleichzeitig mit dem Löschen und Duplizieren des Hauptdatensatz
@@ -151,20 +141,12 @@ erfolgt.
 
 ## <span style="color:#0b5394">Verknüpfung über den Baustein _Datensatz Liste_</span>
 
-Der
-[_Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-bietet die Möglichkeit sich mehrere Datensätze einer anderen Liste anzeigen zu lassen und über die
+Der _Datensatz Liste_ bietet die Möglichkeit sich mehrere Datensätze einer anderen Liste anzeigen zu lassen und über die
 Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
-Ähnlich wie bei dem
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
-wird eine passende Bezeichnung und mit "Verknüpfung mit" der Baustein mit der gewünschten Liste verknüpft.
+Ähnlich wie bei dem Baustein _Datensatz_ wird eine passende Bezeichnung und mit "Verknüpfung mit" der Baustein mit der gewünschten Liste verknüpft.
 
-Über die Funktion "Verknüpfung über" wir der
-[_Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-über einen
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
-eine eindeutige Zuordnung aufgebaut.
+Über die Funktion "Verknüpfung über" wir der _Datensatz Liste_ über einen Baustein _Datensatz_ eine eindeutige Zuordnung aufgebaut.
 
 ![record list settings](\assets\link-lists\record list settings.png "record list settings")
 
@@ -173,9 +155,7 @@ funktionieren, da sich hierüber immer ausschließlich auf den eigenen Datensatz
 der Liste eine Verknüpfung mit einer Stammdatenliste vorhanden und es wurde eine weitere Liste mit Stammdaten
 erstellt, die dieser Liste angehört, dann muss über _Filter und Sortierung_ ein eindeutiger Zusammenhang
 herstellt werden. Dies bedeutet konkret es wurde eine "Verknüpfung mit" gewählt und sowohl in der verknüpften
-Liste als auch in dieser Liste ein
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
-eingebaut, der auf den gleichen Datensatz verweist, über die die Daten verknüpft werden können. In _Filter
+Liste als auch in dieser Liste ein Baustein _Datensatz_ eingebaut, der auf den gleichen Datensatz verweist, über die die Daten verknüpft werden können. In _Filter
 und Sortierung_ wählt man den Zieldatensatz aus der verknüpften Liste aus und nutzt der Operator =B als
 Filterkriterium aus. =B bedeutet = Baustein. Also der Baustein _Datensatz_ soll dem Baustein _Datensatz_
 aus meiner Liste entsprechen.
@@ -183,8 +163,7 @@ aus meiner Liste entsprechen.
 <span style="color:#3d85c6">**Beispiel für "Verknüpfung über":**</span>
 
 Es sind zwei Kacheln mit den Namen "Aufmaß" und "Aufmaßpositionen" (Hilfskachel) vorhanden. In der Aufmaßliste
-sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurde der
-[Baustein _Datensatz_](/docs/record-spec-settings/grand-child-expanded/record.html)
+sollen nun die dazugehörigen Aufmaßpositionen erfasst werden. In den Aufmaßpositionen wurde der Baustein _Datensatz_
 eingebaut, welcher mit den Aufmaßen verknüpft ist. In "Verknüpfung über" kann jetzt die Liste "Aufmaß" ausgewählt
 werden.
 
@@ -202,17 +181,15 @@ Kachel "Bauvorhaben" gibt es den Baustein "Auftraggeber".
 
 ### <span style="color:#3d85c6">Art der Darstellung: Link zur Liste</span>
 
-Der
-[_Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
+Der _Datensatz Liste_ kann auch als einfacher Link ohne Vorschau angezeigt werden. Im Standard wird nur der Name der Verknüpfung angezeigt,
 sowie die Anzahl der verknüpften Datensätze.
 
 Zusätzlich kann für den Baustein _Datensatz Liste_ eine Summe angezeigt werden. Hier lässt sich wählen zwischen der Anzahl der beinhalteten Datensätze oder der Summe über einen bestimmten Baustein. Wählt man die Variante
 "Summe über einen Baustein", kann in "Summe über" der entsprechende Baustein ausgewählt werden. Vorgeschlagen zur Auswahl stehen nur verwendete Bausteine aus der verknüpften Kachel. Mögliche auswählbare Bausteine:
 
--   [Baustein _Nummer_](/docs/record-spec-settings/grand-childs-form/number.html)
--   [Baustein _Zeitspanne_](/docs/record-spec-settings/grand-childs-form/interval.html)
--   [Baustein _Zahlenformel_](/docs/record-spec-settings/grand-child-expanded/numberformular.html)
+-   Baustein _Nummer_
+-   Baustein _Zeitspanne_
+-   Baustein _Zahlenformel_
 -   Filter
 -   Datensatz-Verknüpfungen
 
@@ -234,9 +211,7 @@ der verknüpften Liste.
 
 ## <span style="color:#0b5394">Schnellerfassung für den Baustein _Datensatz Liste_</span>
 
-Wird ein
-[_Datensatz Liste_](/docs/record-spec-settings/grand-child-expanded/record-list.html)
-als _eingebettete Liste_ verwendet kann die Funktion einer Schnellerfassung, aktiviert werden. Dies ist eine
+Wird ein _Datensatz Liste_ als _eingebettete Liste_ verwendet kann die Funktion einer Schnellerfassung, aktiviert werden. Dies ist eine
 charmante Art und Weise Einträge für die verknüpfte Liste in der aktuellen Kachel zu erstellen.
 Die Einstellung wird mit dem entsprechenden Schalter im Baustein Datensatz-Liste aktiviert.
 
