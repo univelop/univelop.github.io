@@ -1,5 +1,90 @@
 [
   {
+    "name": "currentUserName",
+    "description": "Name des aktuellen Benutzers",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentUserName",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentUserName",
+        "returnValue": "John Doe",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentUserId",
+    "description": "ID des aktuellen Benutzers",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentUserId",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentUserId",
+        "returnValue": "zdxmHQXUMJWsZHKwKInRePrK6Tt2",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentUserEmail",
+    "description": "E-Mail des aktuellen Benutzers",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentUserEmail",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentUserEmail",
+        "returnValue": "john.doe@email.com",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentUserRoleName",
+    "description": "Rollenname des aktuellen Benutzers",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentUserRoleName",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentUserRoleName",
+        "returnValue": "Admin",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentUserRoleId",
+    "description": "Rollen-Id des aktuellen Benutzers",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentUserRoleId",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentUserRoleId",
+        "returnValue": "87898ob2",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
     "name": "toText",
     "description": "Wandelt einen nicht textuellen Wert (Zahlen, dynamische Werte, Datum, Objekte) in eine textuelle Darstellung des Wertes um",
     "returns": "Text",
@@ -19,7 +104,8 @@
         "returnValue": "123",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "contains",
@@ -45,8 +131,14 @@
         "expression": "contains(\"Hello World\", \"World\")",
         "returnValue": "true",
         "returnType": "Ja/Nein"
+      },
+      {
+        "expression": "contains(\"Hello World\", \"Sun\")",
+        "returnValue": "false",
+        "returnType": "Ja/Nein"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "replace",
@@ -78,7 +170,8 @@
         "returnValue": "Hello Universe",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "replaceRegExp",
@@ -110,7 +203,8 @@
         "returnValue": "Hello Universe",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "substring",
@@ -142,7 +236,8 @@
         "returnValue": "World",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "trim",
@@ -164,7 +259,8 @@
         "returnValue": "Hello World",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "basicAuth",
@@ -191,7 +287,8 @@
         "returnValue": "VW5pdmVsb3A6dW5pMTIzIQ==",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "randomString",
@@ -213,7 +310,8 @@
         "returnValue": "f49gf623bk",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "firstLetters",
@@ -240,7 +338,8 @@
         "returnValue": "Hello",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "lastLetters",
@@ -267,7 +366,8 @@
         "returnValue": "World",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "firstWords",
@@ -294,7 +394,8 @@
         "returnValue": "Hello",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "lastWords",
@@ -321,7 +422,8 @@
         "returnValue": "World",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "getFirst",
@@ -358,7 +460,8 @@
         "returnValue": "abc123",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "getAll",
@@ -385,7 +488,8 @@
         "returnValue": "[{full: abc123, 1: abc, 2: 123}, {full: abc123, 1: abc, 2: 123}]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toUpperCase",
@@ -407,7 +511,8 @@
         "returnValue": "HELLO WORLD",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toLowerCase",
@@ -429,7 +534,8 @@
         "returnValue": "hello world",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "base64Encode",
@@ -451,7 +557,8 @@
         "returnValue": "SGVsbG8gV29ybGQ=",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "base64Decode",
@@ -473,7 +580,8 @@
         "returnValue": "Hello World",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "parseJson",
@@ -495,7 +603,8 @@
         "returnValue": "{name: John}",
         "returnType": "Dynamischer Wert"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "jsonEncode",
@@ -517,7 +626,8 @@
         "returnValue": "{\"name\":\"John\"}",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toCharCode",
@@ -539,7 +649,8 @@
         "returnValue": "97",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "fromCharCode",
@@ -561,7 +672,8 @@
         "returnValue": "a",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toRadixString",
@@ -588,7 +700,8 @@
         "returnValue": "1010",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "fromRadixString",
@@ -615,7 +728,8 @@
         "returnValue": "10",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "split",
@@ -642,7 +756,8 @@
         "returnValue": "[\"Hello\", \"World\"]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "ceil",
@@ -664,7 +779,8 @@
         "returnValue": "2",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "floor",
@@ -686,7 +802,8 @@
         "returnValue": "1",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "round",
@@ -708,7 +825,8 @@
         "returnValue": "2",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "decimalRound",
@@ -735,7 +853,8 @@
         "returnValue": "1.23",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "power",
@@ -762,7 +881,8 @@
         "returnValue": "8",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "abs",
@@ -784,7 +904,8 @@
         "returnValue": "5",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toNumber",
@@ -806,7 +927,8 @@
         "returnValue": "123",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "textLength",
@@ -828,7 +950,8 @@
         "returnValue": "11",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "formatNumber",
@@ -860,7 +983,8 @@
         "returnValue": "1.234,57",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "range",
@@ -892,7 +1016,8 @@
         "returnValue": "[1, 2, 3, 4, 5]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "formatDate",
@@ -919,7 +1044,8 @@
         "returnValue": "01.01.2022",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "date",
@@ -951,7 +1077,8 @@
         "returnValue": "01.01.2022",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "parseDate",
@@ -973,7 +1100,8 @@
         "returnValue": "01.01.2022",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "tryParseDate",
@@ -995,7 +1123,8 @@
         "returnValue": "01.01.2022",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "today",
@@ -1011,7 +1140,8 @@
         "returnValue": "01.01.2022 00:00:00.000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "now",
@@ -1027,7 +1157,42 @@
         "returnValue": "01.01.2022 12:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "defaultDateTime",
+    "description": "Gibt das Datum 00:00 01.01.1970. Dieses Datum wird nicht angezeigt",
+    "returns": "Datum",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "defaultDateTime",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "defaultDateTime",
+        "returnValue": "1970-01-01 00:00:00.000",
+        "returnType": "Datum"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentWeek",
+    "description": "Aktuelle Kalenderwoche",
+    "returns": "Text",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "currentWeek",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentWeek",
+        "returnValue": "2022-W01",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
   },
   {
     "name": "calendarWeek",
@@ -1049,7 +1214,8 @@
         "returnValue": "24",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "startOfWeek",
@@ -1071,7 +1237,8 @@
         "returnValue": "14.06.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "endOfWeek",
@@ -1093,7 +1260,8 @@
         "returnValue": "20.06.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "dateToWeek",
@@ -1111,11 +1279,12 @@
     ],
     "examples": [
       {
-        "expression": "calendarWeek(now())",
-        "returnValue": "24",
+        "expression": "calendarWeek(parseDate(\"2025-01-20\"))",
+        "returnValue": "2025-W04",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "addWeeks",
@@ -1142,7 +1311,8 @@
         "returnValue": "22.06.2021 8:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "subtractWeeks",
@@ -1169,7 +1339,42 @@
         "returnValue": "15.06.2021 8:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "currentMonth",
+    "description": "Liefert den aktuellen Monat in Form eines Textes",
+    "returns": "Text",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "currentMonth",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentMonth",
+        "returnValue": "2024-06",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
+    "name": "currentYear",
+    "description": "Keine Beschreibung vorhanden",
+    "returns": "Zahl",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "currentYear",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentYear",
+        "returnValue": "2025",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": true
   },
   {
     "name": "startOfMonth",
@@ -1191,7 +1396,8 @@
         "returnValue": "01.06.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "endOfMonth",
@@ -1213,7 +1419,8 @@
         "returnValue": "30.06.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "dateToMonth",
@@ -1229,7 +1436,14 @@
         "optional": false
       }
     ],
-    "examples": []
+    "examples": [
+      {
+        "expression": "dateToMonth(parseDate(\"2025-01-17\"))",
+        "returnValue": "2025-01",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
   },
   {
     "name": "addMonths",
@@ -1256,7 +1470,8 @@
         "returnValue": "01.07.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "subtractMonths",
@@ -1283,7 +1498,64 @@
         "returnValue": "01.05.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "addYears",
+    "description": "Keine Beschreibung vorhanden",
+    "returns": "Datum",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "addYears(date, years)",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": false
+      },
+      {
+        "name": "years",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "addYears(today(), 5)",
+        "returnValue": "20.01.2030 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "subtractYears",
+    "description": "Keine Beschreibung vorhanden",
+    "returns": "Datum",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "subtractYears(date, years)",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": false
+      },
+      {
+        "name": "years",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "subtractYears(today(), 5)",
+        "returnValue": "20.01.2020 00:00:00.000000",
+        "returnType": "Datum"
+      }
+    ],
+    "isVariable": false
   },
   {
     "name": "startOfQuarter",
@@ -1305,7 +1577,8 @@
         "returnValue": "01.04.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "endOfQuarter",
@@ -1327,7 +1600,8 @@
         "returnValue": "30.06.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "startOfYear",
@@ -1349,7 +1623,8 @@
         "returnValue": "01.01.2021 00:00:00.000000, ",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "endOfYear",
@@ -1371,7 +1646,8 @@
         "returnValue": "31.12.2021 00:00:00.000000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "addMinutes",
@@ -1398,7 +1674,8 @@
         "returnValue": "01.01.2022 12:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "subtractMinutes",
@@ -1425,11 +1702,12 @@
         "returnValue": "01.01.2022 12:21:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "addHours",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Addiert Stunden auf den gegebenen Zeitpunkt.",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1452,11 +1730,12 @@
         "returnValue": "01.01.2022 14:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "subtractHours",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Subtrahiert Stunden von dem gegebenen Zeitpunkt.",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1479,11 +1758,12 @@
         "returnValue": "01.01.2022 10:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "addDays",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Addiert Tage auf den gegebenen Zeitpunkt.",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1506,11 +1786,12 @@
         "returnValue": "02.01.2022 12:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "subtractDays",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Subtrahiert Tage von dem gegebenen Zeitpunkt.",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1533,7 +1814,8 @@
         "returnValue": "31.12.2021 12:23:57.432",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "datesBetween",
@@ -1565,7 +1847,8 @@
         "returnValue": "[01.01.2022, 02.01.2022, 03.01.2022, 04.01.2022, 05.01.2022]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "daysBetween",
@@ -1592,7 +1875,8 @@
         "returnValue": "4",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "hoursBetween",
@@ -1619,7 +1903,8 @@
         "returnValue": "4",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "get",
@@ -1656,17 +1941,30 @@
         "returnValue": "2",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "toMap",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Konvertiert ein Objekt in eine Map.",
     "returns": "Dynamischer Wert",
     "category": "list",
     "categoryName": "Liste",
     "expression": "toMap()",
     "parameters": [],
-    "examples": []
+    "examples": [
+      {
+        "expression": "toMap(file).name",
+        "returnValue": "Report.txt",
+        "returnType": "Text"
+      },
+      {
+        "expression": "toMap(file)",
+        "returnValue": "{}",
+        "returnType": "Dynamischer Wert"
+      }
+    ],
+    "isVariable": false
   },
   {
     "name": "count",
@@ -1688,7 +1986,8 @@
         "returnValue": "4",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listToText",
@@ -1713,9 +2012,15 @@
       {
         "expression": "listToText([1,2,3], \"-\")",
         "returnValue": "1-2-3",
-        "returnType": "Liste"
+        "returnType": "Text"
+      },
+      {
+        "expression": "listToText([\"Peter\",\"Mark\",\"David\"], \", \")",
+        "returnValue": "Peter, Mark, David",
+        "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "addToList",
@@ -1741,8 +2046,14 @@
         "expression": "addToList([1,2,3], 4)",
         "returnValue": "[1,2,3,4]",
         "returnType": "Liste"
+      },
+      {
+        "expression": "addToList([\"Peter\",\"Mark\"], \"Alan\")",
+        "returnValue": "[\"Peter\", \"Mark\", \"Alan\"]",
+        "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "removeFromList",
@@ -1768,8 +2079,14 @@
         "expression": "removeFromList([1,2,3], 2)",
         "returnValue": "[1,3]",
         "returnType": "Liste"
+      },
+      {
+        "expression": "removeFromList([\"Peter\",\"Mark\",\"David\"], \"Mark\")",
+        "returnValue": "[\"Peter\", \"David\"]",
+        "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "joinLists",
@@ -1796,7 +2113,8 @@
         "returnValue": "[1,2,3,4]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "parseList",
@@ -1823,7 +2141,8 @@
         "returnValue": "[1, 2, 3]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listIntersection",
@@ -1850,7 +2169,8 @@
         "returnValue": "[2]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listUnion",
@@ -1877,11 +2197,12 @@
         "returnValue": "[1,2,3,4]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listEquals",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Prüft, ob sich zwei Listen gleichen.",
     "returns": "Ja/Nein",
     "category": "list",
     "categoryName": "Liste",
@@ -1904,7 +2225,8 @@
         "returnValue": "true",
         "returnType": "Ja/Nein"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listDifference",
@@ -1931,11 +2253,12 @@
         "returnValue": "[1]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "listSymmetricDifference",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Berechnet die symmetrische Differenz zweier Listen.",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
@@ -1958,7 +2281,8 @@
         "returnValue": "[1,4]",
         "returnType": "Liste"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "contains",
@@ -1981,11 +2305,17 @@
     ],
     "examples": [
       {
-        "expression": "containsList([1,2,3], 2)",
+        "expression": "contains([1,2,3], 2)",
+        "returnValue": "true",
+        "returnType": "Ja/Nein"
+      },
+      {
+        "expression": "contains([\"Peter\",\"Mark\",\"David\"], \"Mark\")",
         "returnValue": "true",
         "returnType": "Ja/Nein"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "indexOf",
@@ -2012,7 +2342,8 @@
         "returnValue": "1",
         "returnType": "Zahl"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "if",
@@ -2039,7 +2370,8 @@
         "returnValue": "Hello",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "ifElse",
@@ -2071,7 +2403,8 @@
         "returnValue": "Hello",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "empty",
@@ -2093,7 +2426,8 @@
         "returnValue": "true",
         "returnType": "Ja/Nein"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "notEmpty",
@@ -2115,7 +2449,8 @@
         "returnValue": "true",
         "returnType": "Ja/Nein"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "combineDateAndTime",
@@ -2142,7 +2477,8 @@
         "returnValue": "01.01.2022 12:00:00.000",
         "returnType": "Datum"
       }
-    ]
+    ],
+    "isVariable": false
   },
   {
     "name": "removeDuplicates",
@@ -2164,6 +2500,7 @@
         "returnValue": "[1,2,3,4]",
         "returnType": "Text"
       }
-    ]
+    ],
+    "isVariable": false
   }
 ]
