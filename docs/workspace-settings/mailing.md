@@ -25,7 +25,7 @@ Um diese App anzulegen, folge bitte folgenden Schritten:
 
 ![6_add_secret](\assets\azure-mail-setup\6_add_secret.png 'Add Secret')
 
-![7_copy_secret](\assets\azure-mail-setup\7_copy_secret.png 'Copy Secret')
+![7_copy_value](\assets\azure-mail-setup\7_copy_value.png 'Copy Value')
 
 Nachdem diese Werte erstellt und in Univelop eingetragen wurden, müssen noch die richtigen Berechtigungen gesetzt werden. Um Mails versenden zu können, werden die beiden Microsoft Graph Berechtigungen "User.Read.All" und "Mail.Send" benötigt. Sollen auch E-Mails abgerufen werden können, ist ebenfalls die Berechtigung "Mail.ReadWrite" notwendig.
 
