@@ -61,6 +61,11 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 | `formatDate(today(),"QQQQ, yyyy")`                        | "2. Quartal, 2021"              |
 | `formatDate(today(),"'Der 'dd. MMMM' ist ein Feiertag'")` | "Der 15. Juni ist ein Feiertag" |
 
+## <span style="color:#0b5394">**Datumskonstanten**</span>
+
+{% include expression_variables_table.html category="date" %}
+
+
 ## <span style="color:#0b5394">**Formelübersicht**</span>
 
 {% include expressions_table.html category="date" %}

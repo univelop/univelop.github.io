@@ -1,13 +1,12 @@
 {% assign category_name = include.category %}
 {% assign all_expressions = site.data.expressions_docs %}
 {% assign filtered_expressions_by_category = all_expressions | where: "category", category_name %}
-{% assign filtered_expressions = filtered_expressions_by_category | where: "isVariable", false %}
+{% assign filtered_expressions = filtered_expressions_by_category | where: "isVariable", true %}
 
 <table>
   <thead>
     <tr>
-      <th>Formel</th>
-      <th>Parameter</th>
+      <th>Konstante</th>
       <th>Beispiel</th>
       <th>Beschreibung</th>
       <th>Rückgabe</th>
@@ -17,15 +16,6 @@
     {% for item in filtered_expressions %}
       <tr>
         <td><code>{{ item.expression }}</code></td>
-        <td>
-          {% if item.parameters and item.parameters.size > 0 %}
-            {% for param in item.parameters %}
-              {{ forloop.index }}. Wert: {{ param.type }}{% if param.optional %} (Optional){% endif %}{% if forloop.last == false %},<br>{% endif %}
-            {% endfor %}
-          {% else %}
-            Keine Parameter
-          {% endif %}
-        </td>
         <td>
           {% include expression_example.html examples=item.examples %}
         </td>
