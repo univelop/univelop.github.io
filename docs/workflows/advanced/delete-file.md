@@ -3,7 +3,7 @@ layout: workflow-step
 title: Lösche Datei
 parent: Erweitert
 grand_parent: Workflows
-icon: file
+icon: draft
 nav_exclude: true
 ---
 
