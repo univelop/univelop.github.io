@@ -4,8 +4,10 @@ title: Erstelle Eintrag
 parent: Einträge laden
 grand_parent: Workflows
 icon: add_circle_outline
+nav_order: 1
 redirect_from:
     - /docs/workflows/grand-childs-bricks/create-record.html
+    - /docs/workflows/load-records/create-record.html
 ---
 
 Über den Baustein _Erstelle einen neuen Eintrag_ wird ein Eintrag für die ausgewählte Kachel erstellt und mit Werten besetzt.

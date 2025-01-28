@@ -4,8 +4,10 @@ title: Iteriere über Einträge
 parent: Einträge laden
 grand_parent: Workflows
 icon: list
+nav_order: 5
 redirect_from:
     - /docs/workflows/grand-childs-bricks/iterate-records.html
+    - /docs/workflows/load-records/iterate-records.html
 ---
 
 Mit dem Baustein _Iteriere über Einträge_ können Workflow Bausteine für jeden Eintrag einer Kachel ausgeführt werden.
