@@ -1021,7 +1021,7 @@
   },
   {
     "name": "formatDate",
-    "description": "Die Formel formatDate(date, format) dient dem strukturierten Ausgeben von Datumswerten. Dabei wird ein Datum und das gewünschte Format angegeben. Das gewünschte Format wird über einen Text für format angegeben. Mögliche Formatierungen gibt es in den [Univelop Docs](https://docs.univelop.de/docs/formulas/childs/date-formulas.html#formatdate)",
+    "description": "Formatiert ein Datum in die gewählte Formatierung",
     "returns": "Text",
     "category": "date",
     "categoryName": "Datum",
@@ -1361,7 +1361,7 @@
   },
   {
     "name": "currentYear",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Aktuelles Jahr als Zahl",
     "returns": "Zahl",
     "category": "date",
     "categoryName": "Datum",
@@ -1503,7 +1503,7 @@
   },
   {
     "name": "addYears",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Addiert eine Anzahl von Jahren zu einem Datum",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1531,7 +1531,7 @@
   },
   {
     "name": "subtractYears",
-    "description": "Keine Beschreibung vorhanden",
+    "description": "Subtrahiert eine Anzahl von Jahren von einem Datum",
     "returns": "Datum",
     "category": "date",
     "categoryName": "Datum",
@@ -1950,8 +1950,14 @@
     "returns": "Dynamischer Wert",
     "category": "list",
     "categoryName": "Liste",
-    "expression": "toMap()",
-    "parameters": [],
+    "expression": "toMap(object)",
+    "parameters": [
+      {
+        "name": "object",
+        "type": "Dynamischer Wert",
+        "optional": false
+      }
+    ],
     "examples": [
       {
         "expression": "toMap(file).name",
@@ -1959,7 +1965,7 @@
         "returnType": "Text"
       },
       {
-        "expression": "toMap(file)",
+        "expression": "toMap(null)",
         "returnValue": "{}",
         "returnType": "Dynamischer Wert"
       }
@@ -2498,6 +2504,98 @@
       {
         "expression": "removeDuplicates([1,2,2,3,4,4])",
         "returnValue": "[1,2,3,4]",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "fileNames",
+    "description": "Liste der Dateinamen für eine Liste von Dateien",
+    "returns": "Liste",
+    "category": "list",
+    "categoryName": "Liste",
+    "expression": "fileNames(list)",
+    "parameters": [
+      {
+        "name": "list",
+        "type": "Liste",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "fileNames(files)",
+        "returnValue": "[\"Report.txt\", \"Invoice.pdf\"]",
+        "returnType": "Liste"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "fileUrls",
+    "description": "Liste der Download-URLs für eine Liste von Dateien",
+    "returns": "Liste",
+    "category": "list",
+    "categoryName": "Liste",
+    "expression": "fileUrls(list)",
+    "parameters": [
+      {
+        "name": "list",
+        "type": "Liste",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "fileUrls(files)",
+        "returnValue": "[\"url1\", \"url2\"]",
+        "returnType": "Liste"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "fileHashes",
+    "description": "Liste der Datei-Hashes für eine Liste von Dateien",
+    "returns": "Liste",
+    "category": "list",
+    "categoryName": "Liste",
+    "expression": "fileHashes(list)",
+    "parameters": [
+      {
+        "name": "list",
+        "type": "Liste",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "fileHashes(files)",
+        "returnValue": "[\"ee6748d5b2b6db8b51380cedce2cb0dd\"]",
+        "returnType": "Liste"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "urlEncode",
+    "description": "Kodiert einen Text ins URL-Format",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "urlEncode(text)",
+    "parameters": [
+      {
+        "name": "text",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "urlEncode(\"Hello World\")",
+        "returnValue": "Hello%20World",
         "returnType": "Text"
       }
     ],
