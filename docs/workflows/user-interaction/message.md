@@ -7,7 +7,7 @@ icon: message
 nav_order: 1
 redirect_from:
     - /docs/workflows/grand-childs-bricks/show-message.html
-    - /docs/workflows/basic/show-message.html
+    - /docs/workflows/basic/message.html
 ---
 
 Über den Baustein _Zeige Nachricht_ wird eine PopUp-Nachricht bei der Ausführung des Workflows angezeigt.
