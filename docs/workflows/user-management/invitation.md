@@ -1,12 +1,13 @@
 ---
 layout: workflow-step
 title: Erstelle Einladungslink
-parent: Erweitert
+parent: Benutzerverwaltung
 grand_parent: Workflows
 icon: add_link
-nav_order: 6
+nav_order: 4
 redirect_from:
     - /docs/workflows/grand-childs-bricks/create-invitation-link.html
+    - /docs/workflows/advanced/invitation.html
 ---
 
 Mit diesem Baustein wird ein Einladungslink entsprechend der Einstellungen erstellt.
