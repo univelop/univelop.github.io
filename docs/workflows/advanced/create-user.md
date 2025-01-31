@@ -4,6 +4,7 @@ title: Erstelle ein neues Mitglied
 parent: Erweitert
 grand_parent: Workflows
 icon: format_list_numbered
+nav_order: 5
 redirect_from:
     - /docs/workflows/grand-childs-bricks/create-user.html
 ---

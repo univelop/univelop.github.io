@@ -1,11 +1,13 @@
 ---
 layout: workflow-step
 title: Check Out
-parent: Erweitert
+parent: Benutzerinteraktion
 grand_parent: Workflows
 icon: check_circle
+nav_order: 1
 redirect_from:
     - /docs/workflows/grand-childs-bricks/check-out.html
+    - /docs/workflows/advanced/checkout.html
 ---
 
 Über den Baustein _Check Out_ wird ein Popup eingeblendet, welcher einen individuellen Titel und eine Nachricht anzeigt.

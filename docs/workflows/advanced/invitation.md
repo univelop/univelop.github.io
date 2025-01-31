@@ -4,6 +4,7 @@ title: Erstelle Einladungslink
 parent: Erweitert
 grand_parent: Workflows
 icon: add_link
+nav_order: 6
 redirect_from:
     - /docs/workflows/grand-childs-bricks/create-invitation-link.html
 ---

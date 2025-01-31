@@ -4,8 +4,10 @@ title: Fordere Genehmigung an
 parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: approval
+nav_order: 4
 redirect_from:
     - /docs/workflows/grand-childs-bricks/request-approval.html
+    - /docs/workflows/edit-records/send-approval-request.html
 ---
 
 Über den Baustein _Genehmigung anfordern_ wird die Genehmigung auf einen verbundenen Baustein _Genehmigung_ angefordert. Bei erfolgreicher Anforderung läuft der Workflow ohne Stopp weiter.

@@ -4,6 +4,7 @@ title: Wähle Pfade
 parent: Struktur
 grand_parent: Workflows
 icon: alt_route
+nav_order: 1
 redirect_from:
     - /docs/workflows/grand-childs-bricks/choose-path.html
 ---

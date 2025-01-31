@@ -4,6 +4,7 @@ title: Iteriere über Werte
 parent: Struktur
 grand_parent: Workflows
 icon: format_list_numbered
+nav_order: 5
 redirect_from:
     - /docs/workflows/grand-childs-bricks/iterate-values.html
 ---

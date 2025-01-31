@@ -4,6 +4,7 @@ title: Sende Web-Request
 parent: Erweitert
 grand_parent: Workflows
 icon: http
+nav_order: 1
 redirect_from:
     - /docs/workflows/grand-childs-bricks/web-request.html
 ---

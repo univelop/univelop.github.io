@@ -4,6 +4,7 @@ title: Laufe weiter, wenn
 parent: Struktur
 grand_parent: Workflows
 icon: skip_next
+nav_order: 2
 redirect_from:
     - /docs/workflows/grand-childs-bricks/continue-if.html
 ---

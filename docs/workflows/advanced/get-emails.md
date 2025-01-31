@@ -4,6 +4,7 @@ title: Rufe E-Mails ab
 parent: Erweitert
 grand_parent: Workflows
 icon: mark_email_unread
+nav_order: 4
 redirect_from:
     - /docs/workflows/grand-childs-bricks/get-emails.html
 ---
