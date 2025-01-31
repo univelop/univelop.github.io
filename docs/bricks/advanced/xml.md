@@ -3,7 +3,7 @@ layout: title
 title: XML erstellen
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 24
+nav_order: 25
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/xml.html
 ---

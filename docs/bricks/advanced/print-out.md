@@ -3,7 +3,7 @@ layout: title
 title: PDF erstellen
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 23
+nav_order: 24
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/create-pdf.html
 ---
