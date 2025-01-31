@@ -29,7 +29,7 @@ Having this project open, you can 'clone' it with the provided url (see image be
 1. Click on the green code button.
 2. Copy the provided url under the 'HTTPS'
 
-![howtoclone](https://github.com/univelop/univelop.github.io/assets/81417798/7f9bad65-058b-4b52-aca0-1fc009ed116e)
+![howtoclone](https://github.com/univelop/univelop.github.io/old_assets/81417798/7f9bad65-058b-4b52-aca0-1fc009ed116e)
 
 3. Clone the repository into a local folder via command line interface.
     - For Windows users: Open the folder where you want the repository to be located. Press right-click and find the action 'Git Bash Here'. Now, a command line interface should be open. Into this interface, type 'git clone' followed by a space and the url to the repository you copied earlier.

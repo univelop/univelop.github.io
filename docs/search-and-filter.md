@@ -74,14 +74,14 @@ Suche ich nach abgeschlossenen Aufträgen, könnten die Stati "Fertig" und "Abge
 
 **Beispiel:**
 Alle Baumaschinen ausgeben, die sich gerade in Wartung befinden oder defekt sind.
-![or filter](\assets\global-settings-and-functions\or filter.png "or filter")
+![or filter](\old_assets\global-settings-and-functions\or filter.png "or filter")
 
 Gibt es eine große kontinuierliche Spanne von Werten, wie z. B. eine laufende Nummer, Zahlenwerte oder das Datum, bei der es nicht sinnvoll ist alle Werte für den IN-Filter einzutragen, kann mit einer Kombination von einem <= und einem => (bzw. < und >) Filter identisch gefiltert werden.
 Damit kann man mit dem >= die untere Werteschranke angeben, und mit dem <= die obere Werteschranke.
 
 **Beispiel:**
 Alle Arbeitszeiten ausgeben, die zwischen dem 01.08.2022 und 01.09.2022 liegen.
-![or filter date](\assets\global-settings-and-functions\or filter date.png "or filter date")
+![or filter date](\old_assets\global-settings-and-functions\or filter date.png "or filter date")
 
 ## Besondere Datumsfilter:
 
@@ -90,7 +90,7 @@ So ist es möglich mit = Operatoren eine Zeitspanne zu filtern, die theoretisch 
 Jeder Datumsbaustein wird bei Auswahl der Filter mit Datum, Datum - Woche und Datum - Monat angezeigt (Sofern das Feld Datum heißt).
 Das Jahr kann mittels Textformel ermittelt werden. Wenn das Datumsfeld Datum heißt, wäre der Ausdruck in der Formel formatDate(datum,'yyyy')
 
-![dat opt](\assets\global-settings-and-functions\dat opt.png "dat opt")
+![dat opt](\old_assets\global-settings-and-functions\dat opt.png "dat opt")
 
 **Beispiel Filterformat**
 
@@ -101,7 +101,7 @@ Das Jahr kann mittels Textformel ermittelt werden. Wenn das Datumsfeld Datum hei
 
 Für eine dynamische Filterung sorgen die Formeln currentWeek und currentMonth.
 
-![dat filters](\assets\global-settings-and-functions\dat filters.png "dat filters")
+![dat filters](\old_assets\global-settings-and-functions\dat filters.png "dat filters")
 
 ## <span style="color:#0b5394">Lückenhafte Ergebnisse</span>
 
@@ -114,7 +114,7 @@ Die Verwendung der angegebenen Filter hat mehr als 200 Ergebnisse zurückgegeben
 Mit der Standard Filteroption "Letzte 2 Monate" zeigen wir nur Einträge an, die im aktuellen oder letzten Monat angelegt oder bearbeitet wurden.
 Diese Filterung entspricht einer Suche nach aktuellen Datensätzen.
 
-![Filter letzte zwei Monate](\assets\search-and-filters\last-two-month-filter.png)
+![Filter letzte zwei Monate](\old_assets\search-and-filters\last-two-month-filter.png)
 
 Wir empfehlen, verschiedene Kombinationen von Filtern auszuprobieren, um die bestmöglichen Ergebnisse zu erzielen.
 
@@ -122,7 +122,7 @@ Wir empfehlen, verschiedene Kombinationen von Filtern auszuprobieren, um die bes
 
 Bei der Verwendung von spezifischen Filterkombinationen, kann die Suche nicht richtig ausgeführt werden. Es erscheint folgende Meldung:
 
-![Suche konnte nicht ausgeführt werden](\assets\search-and-filters\ugly-search.png)
+![Suche konnte nicht ausgeführt werden](\old_assets\search-and-filters\ugly-search.png)
 
 Es ist wichtig zu beachten, dass bei der Kombination von Gleichheits- und Ungleichheitsfiltern die Gleichheitsfilter zuerst auf dem Server angewendet werden. Wenn die Anzahl der übereinstimmenden Datensätze jedoch immer noch zu groß ist, können die Ungleichheitsfilter möglicherweise nicht mehr angewendet werden. In diesem Fall werden ggf. keine Ergebnisse zurückgegeben.
 

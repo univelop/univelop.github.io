@@ -15,7 +15,7 @@ Der Wert des Bausteines kann, wie auch bei dem Baustein Adresse, über das Karte
 
 Um die aktuelle Position erfassen zu können, muss auf den jeweiligen iOS und Android Geräten der Gerätestandort aktiviert sein und der Univelop App müssen in den Geräteeinstellungen die Berechtigungen auf den Gerätestandort erteilt werden.
 
-![GPS Position](\assets\record-spec-settings\geo-location-brick.png 'GPS Position')
+![GPS Position](\old_assets\record-spec-settings\geo-location-brick.png 'GPS Position')
 
 Wird auf einem iOS oder Android Gerät der "Aktueller Standort"-Button gedrückt, öffnet sich ein Dialogfenster welcher die Genauigkeit der aktuell erkannten Position zeigt.
 Hier können verschiedene Faktoren, wie unter anderem eine aktive WLAN-Verbindung, zu besseren Ergebnissen beitragen.

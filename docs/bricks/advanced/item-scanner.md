@@ -32,7 +32,7 @@ Im nächsten Schritt kann eine Menge vorbelegt werden, die als Platzhalter dient
 
 Anschließend wird der hinzugefügte Artikel-Baustein verwendet, der über die ausgewählte Kachel bei "Verknüpfung über" ausgewählt wird.
 
-![article scanner filter1](\assets\record-spec-settings\article scanner filter1.png "article scanner filter1")
+![article scanner filter1](\old_assets\record-spec-settings\article scanner filter1.png "article scanner filter1")
 
 1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
    Hier wird die Kachel verknüpft, in die die gescannte Artikelbewegung geschrieben werden soll
@@ -43,7 +43,7 @@ Anschließend wird der hinzugefügte Artikel-Baustein verwendet, der über die a
 4. <span style="color:#0b5394">**Menge vorbelegen**</span>  
    Vorgabe der Menge, die im Scanvorgang bei jedem Warenausgang vorbelegt werden soll
 
-    ![article scanner filter2](\assets\record-spec-settings\article scanner filter2.png "article scanner filter2")
+    ![article scanner filter2](\old_assets\record-spec-settings\article scanner filter2.png "article scanner filter2")
 
 5. <span style="color:#0b5394">**Mengenbaustein**</span>  
    Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
@@ -57,7 +57,7 @@ Anschließend wird der hinzugefügte Artikel-Baustein verwendet, der über die a
 
 Wird nun der Baustein _Artikel Scanner_ in dem Modus "Artikel hinzufügen" genutzt, wird zuerst der Artikel gescannt. Anschließend überträgt der Scanner die Nummer in die Suche und der gefundene Artikel wird eingetragen. Bestätigt man nun den Scanvorgang, wird der Artikel mit der angegebenen Menge in der Kachel "Warenausgang" (Verknüpfung über) entsprechend als Warenausgang erfasst und ist anschließend unter "Artikelbewegung Abgeschlossen" zu finden.
 
-![article scanner add article1](\assets\record-spec-settings\article scanner add article1.png "article scanner add article1")
+![article scanner add article1](\old_assets\record-spec-settings\article scanner add article1.png "article scanner add article1")
 
 1. <span style="color:#0b5394">**Scan-Nummer**</span>  
    Hier wird die Nummer des gescannten Barcodes eingesetzt und anschließend durch den automatischen Tabs des Endgerätes die Artikelsuche ausgelöst (s. 6.)
@@ -75,7 +75,7 @@ Wird nun der Baustein _Artikel Scanner_ in dem Modus "Artikel hinzufügen" genut
 Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elektronisch über Univelop erfolgen (z. B. per E-Mail, etc.) In der Kachel "Warenausgang" wird eine entsprechender Warenausgang mit Nummer angelegt und der Modus "Artikel hinzufügen" fügt anschließend lediglich die gescannten Artikel dem Warenausgang zu.
 
 **Beispiel:**  
-![article scanner add article](\assets\record-spec-settings\article scanner add article.png "article scanner add article")
+![article scanner add article](\old_assets\record-spec-settings\article scanner add article.png "article scanner add article")
 
 ## <span style="color:#0b5394">Modus "Artikel abarbeiten"</span>
 
@@ -83,13 +83,13 @@ Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzu
 
 Die Warenausgabe benötigt einen Baustein _Datensatz Liste_ der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
 
-![article scanner filter](\assets\record-spec-settings\article scanner filter.png "article scanner filter")
+![article scanner filter](\old_assets\record-spec-settings\article scanner filter.png "article scanner filter")
 
 In der Einstellung "Menge vorbelegen" kann eine entsprechende Formel hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
 offene Mengen der einzelnen Positionen vorbelegt.
 Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und der Lagerplatz muss ebenfalls mitgescannt werden.
 
-![article scanner work off1](\assets\record-spec-settings\article scanner work off1.png "article scanner work off1")
+![article scanner work off1](\old_assets\record-spec-settings\article scanner work off1.png "article scanner work off1")
 
 1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
    Hier wird die Kachel verknüpft, in die die gescannte Artikelbewegung geschrieben werden soll
@@ -112,7 +112,7 @@ Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher B
 7. <span style="color:#0b5394">**Mengenbaustein**</span>  
    Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
 
-    ![article scanner article work off2](\assets\record-spec-settings\article scanner work off2.png "article scanner work off2")
+    ![article scanner article work off2](\old_assets\record-spec-settings\article scanner work off2.png "article scanner work off2")
 
 8. <span style="color:#0b5394">**Artikel Baustein**</span>  
    Angabe des Bausteins, der auf die Kachel "Artikel" zurückgreift
@@ -127,11 +127,11 @@ Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher B
     Anstatt manuell jeden einzelnen Scanvorgang abzuschließen, kann dieser nach dem Scanvorgang und dem Einsetzen aller Parameter
     auch automatisch bestätigt werden
 
-![article scanner work off4](\assets\record-spec-settings\article scanner work off4.png "article scanner work off4")
+![article scanner work off4](\old_assets\record-spec-settings\article scanner work off4.png "article scanner work off4")
 
 1. <span style="color:#0b5394">**Ziel**</span>  
    Aus der Datensatz Liste "Artikelbewegung offen" werden die Artikel entsprechend vorgeschlagen, die als Nächstes zu scanne ist und wo die angegebene Menge "verbucht" wird. Mit einem Klick auf den aktuell angezeigten Artikel kann der Benutzer aus allen vorhandenen Scanvorgängen einen auswählen und mit diesem beginnen.
-   ![article scanner work off5](\assets\record-spec-settings\article scanner work off5.png "article scanner work off5")
+   ![article scanner work off5](\old_assets\record-spec-settings\article scanner work off5.png "article scanner work off5")
 2. <span style="color:#0b5394">**Scan-Nummer**</span>  
    Hier wird die Nummer des gescannten Barcodes eingesetzt und anschließend durch den automatischen Tabs des Endgerätes die Artikelsuche ausgelöst (s. 5.)
 3. <span style="color:#0b5394">**Menge ausgegeben**</span>  
@@ -153,4 +153,4 @@ Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher B
 Der Baustein _Scanner Artikel_ führt nun dazu, dass die vorbelegte Menge als "offen" ausgegeben wird. Nun muss zum einem der Artikel und zu anderem der Lagerplatz gescannt werden. Durch die Bestätigung des Scanvorgangs wird dieser abgespeichert. Die Reihenfolge des Scanvorgangs ist dabei nicht vorgeschrieben. Über das vorangestellte Icon kann der Baustein ausgewählt werden, der entsprechend gescannt werden soll.
 
 **Beispiel:**
-![article scanner work off3](\assets\record-spec-settings\article scanner work off3.png "article scanner work off3")
+![article scanner work off3](\old_assets\record-spec-settings\article scanner work off3.png "article scanner work off3")

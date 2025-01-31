@@ -14,4 +14,4 @@ In den Einstellungen des Bausteins wird zuerst die URL eingetragen. Wird eine AP
 Zusätzlich kann eine Erfolgsmeldung angezeigt werden und ob die Seite sich bei erfolgreicher Durchführung schließen soll.
 Der angezeigte Button kann zusätzlich auch als Link angezeigt werden.
 
-![webhook](\assets\record-spec-settings\webhook.png 'webhook')
+![webhook](\old_assets\record-spec-settings\webhook.png 'webhook')

@@ -11,7 +11,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.9.0 ausgerollt:
 
 Damit Admins über die Mitgliederliste eines Arbeitsbereiches den Mitgliedern direkt Rollen oder Teams zuweisen oder entfernen können, gibt es in der neuen Version eine Detailansicht für Nutzerdaten. Auf dieser kann dazu das aktive Team oder die aktive Rolle geändert werden. Neben den zugeteilten Rollen und Teams wird auch die letzte Aktivität in dem Arbeitsbereich angezeigt. Das schafft einen besseren Überblick über die Rollen- und Team-Zuweisung.
 
-![release member edit screen](\assets\latest-updates\release member edit screen.png "release member edit screen")
+![release member edit screen](\old_assets\latest-updates\release member edit screen.png "release member edit screen")
 
 ## <span style="color:#0b5394">**Neue Formeln für Formelbausteine**</span>
 
@@ -21,7 +21,7 @@ Für mehr Möglichkeiten mit den Formelbausteinen haben wir zwei neue Formeln im
 
 Der Designmodus der App wurde von uns neu designt. Dieser ist jetzt simpler gestaltet, hat jedoch denselben Aufbau. Alle Kacheln, Bausteine, Einstellungen etc. finden sich an gewohnter Stelle wieder.
 
-![release designmode](\assets\latest-updates\release designmode.png "release designmode")
+![release designmode](\old_assets\latest-updates\release designmode.png "release designmode")
 
 ## <span style="color:#0b5394">**Wertübernahme bei Baustein _Datensatz_**</span>
 
@@ -31,13 +31,13 @@ Um bei der Wertübernahme mehr Möglichkeiten zu bieten, haben wir diese auf meh
 
 Zu den Workflows ist der neue Baustein _Genehmigung anfordern_ hinzugekommen. Er erweitert die Funktionalität des Bausteins _Genehmigung_ auf die Workflows. Bei _Genehmigung anfordern_ wird ein Genehmiger ausgewählt und die Funktion “Anfordern”, wie sie im Baustein vorhanden ist, ausgeführt. Dieser Baustein kann also bspw. ausgeführt werden, wenn im Workflow davor eine Bedingung eintritt.
 
-![release workflow request approval](\assets\latest-updates\release workflow request approval.png "release workflow request approval")
+![release workflow request approval](\old_assets\latest-updates\release workflow request approval.png "release workflow request approval")
 
 ## <span style="color:#0b5394">**Workflow-Baustein _Warte auf Genehmigung_**</span>
 
 Ein weiterer neuer Baustein _Warte auf Genehmigung_ ist auch zu den Workflows hinzugekommen. Dieser kann einen Workflow anstoßen, sobald eine Genehmigung in einem verbundenen Baustein _Genehmigung_ erteilt wird.
 
-![release workflow await approval](\assets\latest-updates\release workflow await approval.png "release workflow await approval")
+![release workflow await approval](\old_assets\latest-updates\release workflow await approval.png "release workflow await approval")
 
 ## <span style="color:#0b5394">**Genehmiger beim Baustein _Genehmigung_**</span>
 

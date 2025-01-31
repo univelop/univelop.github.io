@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Hinweis_ werden Hinweistexte erfasst. Der Hinweistext wird über die Bezeichnung geschrieben. Hier
 ist es möglich auch längere Hinweistexte zu erfassen und diese abschnittsweise mit der Enter-Taste zu trennen.
 
-![hint](\assets\record-spec-settings\1hint.png 'hint')
+![hint](\old_assets\record-spec-settings\1hint.png 'hint')
 
 **Bitte beachten:**  
 Eventuell sollte der technische Namen u. U. gekürzt werden, da andernfalls der gesamte Hinweistext als

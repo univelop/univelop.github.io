@@ -10,7 +10,7 @@ redirect_from:
 
 Durch den Baustein _Web Link_ können in den Listeneinträgen zentrale URLs bzw. Links hinterlegt werden.
 
-![link](\assets\record-spec-settings\1link.png 'link')
+![link](\old_assets\record-spec-settings\1link.png 'link')
 
 Diese können entweder als Button oder als Link angezeigt werden. Dies ist dann sinnvoll, wenn Sie immer auf den gleichen
 Pfad verweisen, zum Beispiel die eigenen allgemeinen Geschäftsbedingungen.

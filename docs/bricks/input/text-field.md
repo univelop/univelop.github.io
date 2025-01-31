@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Textfeld_ können beliebige textuelle Inhalte erfasst werden.
 Für wichtige Vermerke kann der Text über die Einstellungen in rot dargestellt werden.
 
-![text](\assets\record-spec-settings\1text.png 'text')
+![text](\old_assets\record-spec-settings\1text.png 'text')
 
 1. <span style="color:#0b5394">**Anzahl der Zeilen für ein mehrzeiliges Textfeld**</span>  
    Standardmäßig ist hier keine Zeilenzahl für ein mehrzeiliges Textfeld angegeben.

@@ -13,7 +13,7 @@ Mit dem Baustein _Tabelle_ können innerhalb eines Listeneintrags Einträge zu e
 So kann beispielsweise innerhalb eines Projektes der Einsatz der eigenen Fahrzeuge und Baumaschinen geplant und dargestellt werden.
 In der Tabelle gibt es folgende Funktionalitäten:
 
-![table1](\assets\record-spec-settings\1table1.png 'table1')
+![table1](\old_assets\record-spec-settings\1table1.png 'table1')
 
 1. <span style="color:#0b5394">**Öffnen des gesamten Listeneintrags / Datensatzes**</span>
 2. <span style="color:#0b5394">**Optionen zum Eintrag**</span>  
@@ -31,7 +31,7 @@ In der Tabelle gibt es folgende Funktionalitäten:
 
 Folgende Einstellungen bietet die Tabelle:
 
-![table2](\assets\record-spec-settings\2table.png 'table2')
+![table2](\old_assets\record-spec-settings\2table.png 'table2')
 
 1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
    Hier wird die Liste ausgewählt, die durch die Tabelle stellvertretend dargestellt wird.

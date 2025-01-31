@@ -28,7 +28,7 @@ Folgende Punkte zeichnet der Baustein bei Änderungen auf:
 
 &nbsp;
 
-![changelog](\assets\record-spec-settings\changelog.png 'changelog')
+![changelog](\old_assets\record-spec-settings\changelog.png 'changelog')
 
 &nbsp;
 
@@ -38,4 +38,4 @@ Mit einem Mausklick auf "Änderungsprotokoll" wird die komplette Änderungshisto
 
 &nbsp;
 
-![changelog](\assets\record-spec-settings\changelog1.png 'changelog')
+![changelog](\old_assets\record-spec-settings\changelog1.png 'changelog')

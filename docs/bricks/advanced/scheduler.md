@@ -12,7 +12,7 @@ Mit dem Baustein _Terminplaner_ kann ein Wochenplan von Buchungen, welche mit ei
 Bspw. können so Einsätze von Fahrzeugen oder Mitarbeitern geplant und übersichtlich dargestellt werden, oder aber auch Verfügbarkeiten
 von Transportfahrzeugen oder Arbeitsgeräten.
 
-![1scheduler](\assets\record-spec-settings\1scheduler.png '1scheduler')
+![1scheduler](\old_assets\record-spec-settings\1scheduler.png '1scheduler')
 
 In der linken Spalte (Zeilen) werden die verbundenen Ressourcen angezeigt, auf welche sich die Buchungen beziehen.
 Die Ressourcen, sowie die Buchungen selbst, können individuell gefiltert und sortiert werden.
@@ -32,7 +32,7 @@ Das sorgt dafür, dass der Kalender über den ganzen Bildschirm angezeigt wird, 
 
 ## <span style="color:#0b5394"><span class="material-icons">event_note</span> **Einstellungen\***</span>
 
-![2scheduler](\assets\record-spec-settings\2scheduler.png '2scheduler')
+![2scheduler](\old_assets\record-spec-settings\2scheduler.png '2scheduler')
 
 1. <span style="color:#0b5394">**Nur 5-Tage Woche anzeigen**</span>  
    Bei bedarf kann die Woche auf Mo-Fr gekürzt werden. Standardweise wird Mo-So angezeigt.

@@ -11,7 +11,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.2.0 ausgerollt:
 
 Für eine bessere Übersicht und Zuordnung von Datensätzen mit Datumsbezug wurde der Baustein _Kalender_ entwickelt. Sollen die Mitarbeiter einen kompakten Überblick über ihre Arbeitszeiten erhalten oder Terminaufgaben strukturiert angezeigt werden, kann der neue Baustein _Kalender_ mit den entsprechenden Kacheln verknüpft werden. Je nach Anforderung kann der Baustein _Kalender_ hinsichtlich der Ansicht eingestellt werden (Monats- oder Wochenansicht, Anzeige von Summen je Tag, Vorschau der Datensätze, etc.).
 
-![release calender](\assets\latest-updates\release calender.png "release calender")
+![release calender](\old_assets\latest-updates\release calender.png "release calender")
 
 ## <span style="color:#0b5394">**Neuer Baustein _Änderungsprotokoll_**</span>
 
@@ -26,19 +26,19 @@ In der Vorschau des Bausteins werden nur die neusten Veränderungen angezeigt. U
 
 Wird der Stammdatensatz in anderen Kacheln über den Baustein “Datensatz” verwendet und Daten in dort vorhandenen Bausteinen übernommen und synchron gehalten, werden die Änderungen aus dem Stammdatensatz an die Unterdatensätze bekanntlich weitergegeben. Diese Änderungen werden ebenfalls durch den Baustein _Änderungsprotokoll_ im Stammdatensatz aufgezeichnet.
 
-![release change-log](\assets\latest-updates\release change-log.png "release change-log")
+![release change-log](\old_assets\latest-updates\release change-log.png "release change-log")
 
 ## <span style="color:#0b5394">**Neuer Kachelmodus _Website_**</span>
 
 Univelop bietet ab sofort, neben den bereits bekannten Kacheln “Einfache Liste” und “Gefilterte Liste”, die Kachel _Website_. Über diese Kachel können Websites eingebettet werden, die man in der alltäglichen Arbeit mit Univelop benötigt, ohne einen zusätzlichen Browser öffnen zu müssen. Müssen zum Beispiel Daten von einer bestimmten Website regelmäßig eingesehen werden, oder sind Tools im Einsatz, die über eine Website genutzt werden, kann die URL in dieser neuen Kachel direkt eingebettet werden. Dazu wird die benötigte URL in den Kacheleinstellungen unter “URL” eingesetzt. Klickt man anschließend auf die Kachel, wird die hinterlegte Website innerhalb der Kachel aufgerufen.
 
-![release tile website](\assets\latest-updates\release tile website.png "release tile website")
+![release tile website](\old_assets\latest-updates\release tile website.png "release tile website")
 
 ## <span style="color:#0b5394">**Pushbenachrichtigungen bei Änderungen und Neueinträgen**</span>
 
 Pushbenachrichtigungen sind ein gutes Mittel, wenn es darum geht, Benutzer auf Änderungen bzw. Neueinträgen hinzuweisen. Wir haben die Pushbenachrichtigungen schon in Univelop implementiert. Im Laufe diesen Monats wird sie auf die Betriebssysteme Android und iOS ausgerollt.
 
-![release push notification](\assets\latest-updates\release push notification.png "release push notification")
+![release push notification](\old_assets\latest-updates\release push notification.png "release push notification")
 
 ## <span style="color:#0b5394">**Zuordnung von Rollen und Teams in der Mitgliederverwaltung**</span>
 

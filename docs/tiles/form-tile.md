@@ -8,7 +8,7 @@ parent: Kacheln
 Die Kachel _Formular_ dient dem vereinfachten Ausfüllen eines Listeneintrages. Die Kachel legt beim Öffnen einen neuen Listeneintrag an, und öffnet diesen direkt zum Ausfüllen, ohne die Einträge einer Kachel zu laden. Beim Anlegen einer Formular-Kachel wird sie mit einer einfachen Kachel verbunden, bei der dann die Einträge hinzugefügt werden.
 Diese Art von Kachel kann z. B. für eine vereinfachte Zeiterfassung genutzt werden.
 
-![tile form](\assets\software-structure\tile form.png "tile form")
+![tile form](\old_assets\software-structure\tile form.png "tile form")
 
 Es gibt folgende Einstellungen für eine individuelle Formular-Funktion:
 

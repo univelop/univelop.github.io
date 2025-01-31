@@ -12,7 +12,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.3.0 ausgerollt:
 Wir haben denBaustein _Adresse_ in Univelop implementiert. Um Adressdaten zu erfassen, müssen zukünftig nicht mehr verschiedene Text- und Nummernbausteine verwendet werden.
 Als Zusatzfunktion wurde eine Verlinkung zu Google Maps eingebaut. In gewissen Bereichen wird die Adresse z. B. für eine Navigation genutzt. Nach der Eingabe der Adresse, kann über das abgebildete Kartensymbol die Adresse in Google Maps geöffnet werden und, bei Bedarf, die Navigation manuell gestartet werden.
 
-![release brick address](\assets\latest-updates\release brick address.png "release brick address")
+![release brick address](\old_assets\latest-updates\release brick address.png "release brick address")
 
 ## <span style="color:#0b5394">**Update zu der neuen Kachel _Website_**</span>
 
@@ -25,7 +25,7 @@ In unserem letzten Newsletter haben wir die neue Kachelart _Website_ präsentier
 -   ### <span style="color:#0b5394">Externer Link</span>
     die hinterlegte Website wird mit einem Klick auf die Kachel immer im Standard-Browser aufgerufen (auch auf mobilen Endgeräten)
 
-![release tile website rework](\assets\latest-updates\release tile website rework.png "release tile website rework")
+![release tile website rework](\old_assets\latest-updates\release tile website rework.png "release tile website rework")
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
 
