@@ -19,34 +19,34 @@ So ist bspw. das Format `"Der dd. MMMM ist ein Feiertag"` nicht zulässig, da de
 
 Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 
-| Symbol | Beschreibung                                         | Ausgabe in    | Beispiel    |
-| ------ | ---------------------------------------------------- | ------------- | ----------- |
-| G      | Bezeichnung                                          | (Text)        | AD          |
-| yyyy   | Jahr                                                 | (Zahl)        | 2022        |
-| M      | Monat im Jahr (kurz)                                 | (Zahl)        | 1           |
-| MM     | Monat im Jahr (lang)                                 | (Zahl)        | 01          |
-| MMM    | Monatsname (kurz)                                    | (Text)        | Jan         |
-| MMMM   | Monatsname (lang)                                    | (Text)        | Januar      |
-| L      | alleinstehender Monat                                | (Text & Zahl) | Januar & 01 |
-| d      | Tag im Monat                                         | (Zahl)        | 5           |
-| dd     | Tag im Monat (lang)                                  | (Zahl)        | 05          |
-| c      | alleinstehender Tag                                  | (Zahl)        | 10          |
-| h      | Stunde am/pm (1~12)                                  | (Zahl)        | 12          |
-| H      | Stunde in Tag (0~23)                                 | (Zahl)        | 0           |
-| m      | Minuten einer Stunde                                 | (Zahl)        | 30          |
-| s      | Sekunden einer Minute                                | (Zahl)        | 55          |
-| S      | fractional second                                    | (Zahl)        | 978         |
-| EEE    | Wochentag (kurz)                                     | (Text)        | Do.         |
-| EEEE   | Wochentag (lang)                                     | (Text)        | Donnerstag  |
-| D      | Tag im Jahr                                          | (Number)      | 189         |
-| a      | am/pm marker                                         | (Text)        | PM          |
-| k      | hour in day (1~24)                                   | (Number)      | 24          |
-| K      | hour in am/pm (0~11)                                 | (Number)      | 0           |
-| Q      | Quartal                                              | (Zahl)        | 3           |
-| QQQ    | Quartal (kurz)                                       | (Text & Zahl) | Q3          |
-| QQQQ   | Quartal (lang)                                       | (Text & Zahl) | 3. Quartal  |
-| '      | Angabe von Text innerhalb des Formates               | (Delimiter)   | 'Date='     |
-| ''     | Angabe von Text innerhalb des Formates mit hochkomma | (Literal)     | ''o'clock'' |
+| Symbol | Beschreibung                                         | Beispiel    |
+| ------ | ---------------------------------------------------- | ----------- |
+| G      | Bezeichnung                                          | AD          |
+| yyyy   | Jahr                                                 | 2022        |
+| M      | Monat im Jahr (kurz)                                 | 1           |
+| MM     | Monat im Jahr (lang)                                 | 01          |
+| MMM    | Monatsname (kurz)                                    | Jan         |
+| MMMM   | Monatsname (lang)                                    | Januar      |
+| L      | alleinstehender Monat                                | Januar & 01 |
+| d      | Tag im Monat                                         | 5           |
+| dd     | Tag im Monat (lang)                                  | 05          |
+| c      | alleinstehender Tag                                  | 10          |
+| h      | Stunde am/pm (1~12)                                  | 12          |
+| H      | Stunde in Tag (0~23)                                 | 0           |
+| m      | Minuten einer Stunde                                 | 30          |
+| s      | Sekunden einer Minute                                | 55          |
+| S      | fractional second                                    | 978         |
+| EEE    | Wochentag (kurz)                                     | Do.         |
+| EEEE   | Wochentag (lang)                                     | Donnerstag  |
+| D      | Tag im Jahr                                          | 189         |
+| a      | am/pm marker                                         | PM          |
+| k      | hour in day (1~24)                                   | 24          |
+| K      | hour in am/pm (0~11)                                 | 0           |
+| Q      | Quartal                                              | 3           |
+| QQQ    | Quartal (kurz)                                       | Q3          |
+| QQQQ   | Quartal (lang)                                       | 3. Quartal  |
+| '      | Angabe von Text innerhalb des Formates               | 'Date='     |
+| ''     | Angabe von Text innerhalb des Formates mit hochkomma | ''o'clock'' |
 
 **Hinweis:** Das Symbol "E" sollte nicht mehr verwendet werden, da es zu unerwarteten Ergebnissen führen kann; stattdessen können "EEE" oder "EEEE" genutzt werden.
 
