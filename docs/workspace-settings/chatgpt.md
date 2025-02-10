@@ -6,8 +6,8 @@ parent: Arbeitsbereich Einstellungen
 redirect_from:
     - /docs/chat-gpt-integration.html
 ---
-
-<span style="color:#0b5394">**Hinweis: Die ChatGPT Anbindung, bspw. über den ChatGPT Baustein, befindet sich in der Beta-Phase und wird nur auf Anfrage freigeschaltet. Das aktuelle Vorgehen weicht somit vom letzten Schritt der Aktivierung ab. Bei Interesse gerne bei uns unter support@univelop.de melden!**</span>
+{: .warning}
+Die ChatGPT Anbindung, bspw. über den ChatGPT Baustein, befindet sich in der Beta-Phase und wird nur auf Anfrage freigeschaltet. Das aktuelle Vorgehen weicht somit vom letzten Schritt der Aktivierung ab. Bei Interesse gerne bei uns unter support@univelop.de melden!
 
 Um im Univelop die ChatGPT Anbindung zu nutzen, bspw. über den ChatGPT Baustein, muss zunächst der Arbeitsbereich mit ChatGPT verknüpft werden.
 Hierfür wird ein eigener OpenAI Account und ein gültiger OpenAI API-Schlüssel benötigt.
