@@ -2,6 +2,8 @@
 title: Formelsammlung
 nav_order: 9
 layout: title
+redirect_from:
+    - /docs//formulary/formulary.html
 ---
 
 {% assign all_expressions = site.data.expressions_docs %}

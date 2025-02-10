@@ -82,7 +82,7 @@ und es ist auf einen Blick ersichtlich welche Artikel in welcher Menge auf diese
 Aus Sicht des Artikel ist es nun möglich in die Bewegungen zu schauen und dort Abgänge für den Lagerbestand zu ermitteln und sich den Absatz
 für bestimmte Perioden anzeigen zu lassen.
 
-![linklistexample](\assets\link-lists\linklistexample.png 'linklistexample')
+![linklistexample](\old_assets\link-lists\linklistexample.png 'linklistexample')
 
 ---
 
@@ -94,7 +94,7 @@ Baustein _Datensatz_ auf einen Datensatz zugegriffen werden. Genauer gesagt auf 
 Nachdem der Baustein _Datensatz_ einer Liste hinzugefügt wurde, können verschiedene Einstellungen in Bezug auf die weiteren
 Funktionen des Bausteins vorgenommen werden:
 
-![brick record settings](\assets\link-lists\brick record settings.png "brick record settings")
+![brick record settings](\old_assets\link-lists\brick record settings.png "brick record settings")
 
 1. <span style="color:#0b5394">**Baustein _Datensatz_ Funktion "Verknüpfung mit"**</span>  
    Damit der Baustein einwandfrei funktioniert, muss in den Einstellungen unter "Verknüpfung mit" die
@@ -118,7 +118,7 @@ Funktionen des Bausteins vorgenommen werden:
     Bei der Aktualisierung von z. B. Adress- und Stammdaten einer Rechnungsadresse ist das Synchronhalten der Daten
     sinnvoll.
 
-    ![take on records + synchro](\assets\link-lists\take on records + synchro.png "take on records + synchro")
+    ![take on records + synchro](\old_assets\link-lists\take on records + synchro.png "take on records + synchro")
 
 3. <span style="color:#0b5394">**Funktion "Datensatz löschen / duplizieren, wenn verknüpfter Datensatz gelöscht / dupliziert wird"**</span>  
    Wird der Switch dieser Funktion aktiviert, wird der betreffende Datensatz gelöscht oder dupliziert, sobald der
@@ -148,7 +148,7 @@ Verknüpfung weitere zusammengehörige Datensätze zu erstellen.
 
 Über die Funktion "Verknüpfung über" wir der _Datensatz Liste_ über einen Baustein _Datensatz_ eine eindeutige Zuordnung aufgebaut.
 
-![record list settings](\assets\link-lists\record list settings.png "record list settings")
+![record list settings](\old_assets\link-lists\record list settings.png "record list settings")
 
 Soll sich auf einen dritten Datensatz bezogen werden, wird es nicht mit der Funktion "Verknüpfung über"
 funktionieren, da sich hierüber immer ausschließlich auf den eigenen Datensatz bezogen wird. Ist also in
@@ -195,7 +195,7 @@ Zusätzlich kann für den Baustein _Datensatz Liste_ eine Summe angezeigt werden
 
 Für eine eindeutigere Anzeige kann ein _Summen Suffix_ sowie die _Anzahl der Nachkommastellen_ festgelegt werden.
 
-![record list settings2](\assets\link-lists\record list settings2.png "record list settings2")
+![record list settings2](\old_assets\link-lists\record list settings2.png "record list settings2")
 
 ### <span style="color:#3d85c6">Art der Darstellung: Eingebettete Liste</span>
 
@@ -205,7 +205,7 @@ Anzahl kann beliebig angepasst werden. Die angezeigten Daten in der Vorschau ent
 der verknüpften Liste.
 
 **Beispiel einer eingebetteten Liste:**
-![record list settings3](\assets\link-lists\record list settings3.png "record list settings3")
+![record list settings3](\old_assets\link-lists\record list settings3.png "record list settings3")
 
 ---
 

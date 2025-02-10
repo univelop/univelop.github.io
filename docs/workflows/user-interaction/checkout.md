@@ -16,4 +16,4 @@ einfach zur Hauptseite weiterzuleiten.
 
 _Hinweis: Dieser Baustein kann nur in Workflows ausgeführt werden, welche NICHT auf dem Server laufen._
 
-![check out popup](\assets\workflows\check out popup.png "check out popup")
+![check out popup](\old_assets\workflows\check out popup.png "check out popup")

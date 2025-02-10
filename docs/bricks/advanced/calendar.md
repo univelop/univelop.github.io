@@ -13,13 +13,13 @@ Der Baustein wird verwendet, um Einträge, die mit einem Baustein _Datum_ ausgew
 in einer Kalenderform darzustellen. Beispiele sind Arbeitszeiten von Mitarbeitern, Wiedervorlageeinträge, Ablaufdatum,
 Aufgabenverwaltung, etc. Der Baustein _Kalender_ verweist dazu auf die Einträge die innerhalb des Kalender angezeigt werden.
 
-![calender](\assets\record-spec-settings\calender.png 'calender')
+![calender](\old_assets\record-spec-settings\calender.png 'calender')
 
 Der Kalender wird mit zwei Kacheln verknüpft um die gewünschten Einträge entsprechend anzuzeigen.
 Bei der Auswahl eines Tages wird entsprechend den Einstellungen ebenfalls unter dem Kalender eine Vorschau der Einträge angezeigt.
 Eine zusätzliche Einstellung ist die Anzeige einer Summe in den einzelnen Tagen und auch das entsprechende Kalenderformat kann angepasst werden:
 
-![calender](\assets\record-spec-settings\calender-settings.png 'calender')
+![calender](\old_assets\record-spec-settings\calender-settings.png 'calender')
 
 1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
    Hier wird die Kachel ausgewählt, die die Einträge für den Kalender beinhaltet. Sprich die anzuzeigenden Datensätze.

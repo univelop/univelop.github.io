@@ -20,12 +20,12 @@ Hier wird der Baustein "Formel" im Eintrag der Arbeitszeit hinzugefügt und mit 
 Das Formelergebnis ist nun eine Kombination aus dem Mitarbeiternamen und dem Datum der erfassten Arbeitszeit.
 Das Ergebnis könnte wie folgt aussehen: **Schäfer20220131**.
 
-![formula sortcode](\assets\formulary\formula sortcode.png "formula sortcode")
+![formula sortcode](\old_assets\formulary\formula sortcode.png "formula sortcode")
 
 Wenn Sie nun nach diesem Feld aufsteigend sortieren, sehen Sie die Arbeitszeiten blockweise sortiert, also in
 der Erstsortierung nach dem Mitarbeiternamen und in der Zweitsortierung nach dem Datum.
 
-![formula sortcode](\assets\formulary\formula sortcode2.png "formula sortcode")
+![formula sortcode](\old_assets\formulary\formula sortcode2.png "formula sortcode")
 
 ### <span style="color:#3d85c6">Erstellen von Kettenformeln 1</span>
 
@@ -79,4 +79,4 @@ Sollen nun eine Berechnung der Lagerbestände der einzelnen Artikel erfolgen, wi
 Baustein _Datensatz Liste_
 verwendet und die Summe über die Bewegungen errechnet. Hierbei werden alle Bewegungen (negativ und positiv) aufsummiert.
 
-![ifElse combination](\assets\formulary\ifElse combination.png "ifElse combination")
+![ifElse combination](\old_assets\formulary\ifElse combination.png "ifElse combination")

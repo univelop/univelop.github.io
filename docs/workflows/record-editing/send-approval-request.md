@@ -13,7 +13,7 @@ redirect_from:
 Über den Baustein _Genehmigung anfordern_ wird die Genehmigung auf einen verbundenen Baustein _Genehmigung_ angefordert. Bei erfolgreicher Anforderung läuft der Workflow ohne Stopp weiter.
 Sofern schon der Eintrag genehmigt wurde geschieht in diesem Schritt nichts.
 
-![request approval docs](\assets\workflows\request approval docs.png "request approval docs")
+![request approval docs](\old_assets\workflows\request approval docs.png "request approval docs")
 
 1. <span style="color:#0b5394">**Verknüpfen mit**</span>  
    Kachel zu der der Eintrag gehört, welcher geändert werden soll.

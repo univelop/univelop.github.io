@@ -3,7 +3,7 @@ layout: title
 title: ChatGPT
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 28
+nav_order: 29
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/chatgpt.html
 ---
@@ -59,7 +59,7 @@ So ist z.B. die Benennung eines Artikels über die EAN oder Artikelnummer besser
 
 ### <span style="color:#0b5394">**Beispielanwendung Zeiterfassung**</span>
 
-![Zeiterfassung](\assets\record-spec-settings\chatgpt_time_tracking.png 'Zeiterfassung')
+![Zeiterfassung](\old_assets\record-spec-settings\chatgpt_time_tracking.png 'Zeiterfassung')
 
 | Baustein         | Tooltip                                                                                                                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

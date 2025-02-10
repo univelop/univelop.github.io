@@ -3,7 +3,7 @@ layout: title
 title: PDF erstellen
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 23
+nav_order: 24
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/create-pdf.html
 ---
@@ -17,7 +17,7 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 
 ## <span style="color:#0b5394">Vorbereitung der Word-Vorlage</span>
 
-![create pdf](\assets\record-spec-settings\1create pdf.png "create pdf")
+![create pdf](\old_assets\record-spec-settings\1create pdf.png "create pdf")
 
 1. <span style="color:#0b5394">**Ausgabe von Einzelwerten**</span>  
    Die Ausgabe von Einzelwerten erfolgt indem in der Word-Vorlage der technische Name eines Bausteins innerhalb der
@@ -69,7 +69,7 @@ Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes
 
 ## <span style="color:#0b5394">Einstellungen des Bausteins _PDF erstellen_</span>
 
-![create pdf settings](\assets\record-spec-settings\2create pdf settings.png "create pdf settings")
+![create pdf settings](\old_assets\record-spec-settings\2create pdf settings.png "create pdf settings")
 
 1. <span style="color:#0b5394">**Dateivorlage hinzufügen**</span>  
    Über den Plus-Button öffnet sich ein Auswahl-Dialog, worüber die Word-Vorlage ausgewählt wird. Anschließend wird
@@ -95,7 +95,7 @@ Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgeset
 
 Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vorgenommen werden.
 
-![create pdf settings](\assets\record-spec-settings\1create pdf settings.png "create pdf settings")
+![create pdf settings](\old_assets\record-spec-settings\1create pdf settings.png "create pdf settings")
 
 1. <span style="color:#0b5394">**CC-Empfänger**</span>
 2. <span style="color:#0b5394">**Benutzer in CC hinzufügen**</span>  

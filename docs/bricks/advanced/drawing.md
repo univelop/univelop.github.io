@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Zeichnung_ können auf mobilen Geräten Zeichnungen erstellt werden.
 Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
 
-![1drawing](\assets\record-spec-settings\1drawing.png '1drawing')
+![1drawing](\old_assets\record-spec-settings\1drawing.png '1drawing')
 
 1. <span style="color:#0b5394">**Editieren**</span>  
    Nur auf mobilen Geräten sichtbar. Öffnet den Zeichnen-Modus.
@@ -24,7 +24,7 @@ Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und a
 
 ## <span style="color:#0b5394">Zeichnen</span>
 
-![2drawing](\assets\record-spec-settings\2drawing.png '2drawing')
+![2drawing](\old_assets\record-spec-settings\2drawing.png '2drawing')
 
 1. <span style="color:#0b5394">**Schritt zurück/vor**</span>  
    Die letzte Aktion(Form eingefügt, Linie gezeichnet etc.) wird zurückgenommen bzw. wieder eingefügt.

@@ -14,7 +14,7 @@ Erweitert.
 Der technische Name wird in vielen Fällen automatisch durch die Bezeichnung des Bausteins vorgegeben, außer dieser
 wird im Nachgang abgeändert.
 
-![technical name](\assets\formulary\technical name.png "technical name")
+![technical name](\old_assets\formulary\technical name.png "technical name")
 
 Diese Funktion lässt sich nun in vielerlei Hinsicht mit Formelbausteinen kombinieren.
 
@@ -29,16 +29,16 @@ Wenn in der Liste unter anderem noch eine Arbeitszeit (hier mit techn. Namen _ar
 z. B. zur Berechnung eines Arbeitslohns der erfassten Tätigkeit. Dazu wird die Formel mit dem technischen
 Namen des Bausteins erweitert, der die Arbeitszeit enthält, also _mitarbeiterLohn_ \* **_arbZeit_**.
 
-![formulabrick technical name](\assets\formulary\example formula brick technical name.png "formulabrick technical name")
+![formulabrick technical name](\old_assets\formulary\example formula brick technical name.png "formulabrick technical name")
 
 1. Übernahme eines Wertes aus eines verbundenen Datensatz in den aktuellen hinzufügen
-   ![formulabrick technical name](\assets\formulary\example formula brick technical name6.png "formulabrick technical name")
+   ![formulabrick technical name](\old_assets\formulary\example formula brick technical name6.png "formulabrick technical name")
 2. Auswahl Baustein Zahlenformel
 3. Eingabe des Verweis _mitarbeiterLohn_
 4. Die Formel sucht nun die Kachel mit dem technischen Namen _mitarbeiterLohn_, nimmt dessen Wert und nutzt ihn für die restliche Formel.
 
 **Ergebnis:**  
-![formulabrick technical name](\assets\formulary\example formula brick technical name3.png "formulabrick technical name")
+![formulabrick technical name](\old_assets\formulary\example formula brick technical name3.png "formulabrick technical name")
 
 Es bietet sich an den technischen Namen für PDF-Vordrucke oder lange Formeln abzukürzen. Für das Beispiel
 des Stundenlohns könnte die Abkürzung **stdlo** gewählt werden. Je nach Anbindungswunsch an ein Fremdsystem
@@ -56,10 +56,10 @@ Multiplikators wiederholt. Eine Berechnung mit einer Dezimalzahl ist hier nicht 
 Fehlermeldung.
 
 **Beispiel:**
-![formula text brick](\assets\formulary\formula with text brick.png "formula text brick")
+![formula text brick](\old_assets\formulary\formula with text brick.png "formula text brick")
 
 **Ergebnis:**
-![formula text brick](\assets\formulary\formula with text brick2.png "formula text brick")
+![formula text brick](\old_assets\formulary\formula with text brick2.png "formula text brick")
 
 <span style="color:#3d85c6">**Berechnung mit Baustein _Nummer_**</span>
 

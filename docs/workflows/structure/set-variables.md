@@ -12,7 +12,7 @@ redirect_from:
 
 Mit dem Baustein _Setze Variablen_ werden Variablen, konkret benutzerdefinierte Werte welche über einen selbst definierten Namen zugegriffen werden können, den folgenden Workflow Bausteinen zur Verfügung gestellt.
 
-![set variables docs](\assets\workflows\set variables docs.png "set variables docs")
+![set variables docs](\old_assets\workflows\set variables docs.png "set variables docs")
 
 1. <span style="color:#0b5394">**Name der Variable**</span>  
    Über diesen Namen werden die Bausteine und Daten der Einträge in folgenden Workflow-Bausteinen referenziert, bspw. bestellungen.id für die ID des aktuellen Eintrages.

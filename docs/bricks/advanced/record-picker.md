@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Datensatz_ wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem
 Arbeitsbereich hergestellt.
 
-![recordPicker](\assets\record-spec-settings\recordpicker.png 'recordPicker')
+![recordPicker](\old_assets\record-spec-settings\recordpicker.png 'recordPicker')
 
 1. Verknüpfung mit:
    Mittels dieser Einstellung wird festgelegt aus welcher Liste ein Datensatz ausgewählt werden soll.
@@ -38,7 +38,7 @@ Arbeitsbereich hergestellt.
 Bei der Nutzung des Datensatz Bausteins wird beim Klick auf den Baustein die Datensatz-Suche geöffnet.
 Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
 
-![recordPicker2](\assets\record-spec-settings\recordpicker2.png 'recordPicker2')
+![recordPicker2](\old_assets\record-spec-settings\recordpicker2.png 'recordPicker2')
 
 Die Verknüpfungsmöglichkeiten sind in den Docs unter
 Verknüpfen von Listen

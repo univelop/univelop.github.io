@@ -10,7 +10,7 @@ gewechselt. In den Designmodus des Arbeitsbereichs wechselt man, indem auf den _
 klickt und anschließend den Designmodus auswählt, oder indem man mit der linken Maustaste eine Kachel
 ca. 2 Sekunden lang gedrückt hält.
 
-![select design mode](\assets\design-mode-setting\select design mode.png "select design mode")
+![select design mode](\old_assets\design-mode-setting\select design mode.png "select design mode")
 
 Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
 zuerst alle allgemeinen Kacheln und darunter die eigenen Kacheln zu sehen.
@@ -22,7 +22,7 @@ Die Kacheln können einfach via Drag and Drop verschoben werden, um die gewünsc
 Markiert man im Designmodus des Arbeitsbereichs eine beliebige Kachel, können auf der rechten Seite
 die Kacheleinstellungen bearbeitet werden.
 
-![tile](\assets\design-mode-setting\tile.png 'tile')
+![tile](\old_assets\design-mode-setting\tile.png 'tile')
 
 1. <span style="color:#0b5394">**Designmodus der Einträge**</span>
 2. <span style="color:#0b5394">**Designmodus der Liste**</span>
@@ -38,7 +38,7 @@ die Kacheleinstellungen bearbeitet werden.
     - (s. Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen).
 7. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
 
-    ![tile2](\assets\design-mode-setting\tile2.png 'tile2')
+    ![tile2](\old_assets\design-mode-setting\tile2.png 'tile2')
 
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
     - Für bestimmte Benutzerrollen freigeben

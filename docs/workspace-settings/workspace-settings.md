@@ -6,7 +6,7 @@ redirect_from:
     - /docs/design-mode-settings.html
 ---
 
-![homeSettings](\assets\design-mode-setting\homeSettings.png 'home settings')
+![homeSettings](\old_assets\design-mode-setting\homeSettings.png 'home settings')
 
 1. <span style="color:#0b5394">**Allgemein**</span>
 

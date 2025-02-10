@@ -15,7 +15,7 @@ verwendet werden, wenn dort der Formelbutton zu sehen ist.
 
 <span style="color:#3d85c6">**Beispiel:**</span>
 
-![example formula button](\assets\formulary\example formula button.png "example formula button")
+![example formula button](\old_assets\formulary\example formula button.png "example formula button")
 
 1. Datumsfeld in Filter und Sortierung auswählen
 2. Formelbutton auswählen
@@ -95,7 +95,7 @@ errechnen, die in den Filteroptionen (z. B. einer Kachel) leicht verwendet werde
 | subtractMonths(startOfMonth(),1) und startOfMonth()-1 | Letzter Monat   |                 01.05.2021 und 31.05.2021                  |
 
 **Beispiel _"alle Datensätze aus dem Vormonat_ (Berechnungszeitpunkt: _15.03.2022_):"**  
-![example previous month](\assets\formulary\example previous month.png "example previous month")
+![example previous month](\old_assets\formulary\example previous month.png "example previous month")
 
 1. Designmodus _Arbeitsbereich_ öffnen
 2. Kachel auswählen und in den Einstellungen _Filter & Sortierung_ öffnen
@@ -104,4 +104,4 @@ errechnen, die in den Filteroptionen (z. B. einer Kachel) leicht verwendet werde
 5. über den jeweiligen Formelbutton die Datumsformel inkl. Formelberechnung eingeben
 
 Im Ergebnis wird der gesetzte Filter beim Aufrufen des Bausteins automatisch anhand der Berechnung vorbelegt:
-![example previous month2](\assets\formulary\example previous month2.png "example previous month2")
+![example previous month2](\old_assets\formulary\example previous month2.png "example previous month2")

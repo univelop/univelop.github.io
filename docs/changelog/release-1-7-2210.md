@@ -11,7 +11,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.7.0 ausgerollt:
 
 Mit den neuen Workflows lassen sich einfache Arbeitsabläufe auf Basis von Listeneinträgen innerhalb von Univelop modellieren und automatisieren. So können bspw. durch den dazugehörigen, neuen Listen-Baustein _Workflow_ bei einem abgeschlossenen Auftrag eine Rechnung oder ein Protokoll in Form eines neuen, ausgefüllten Eintrages erstellt werden. Diese neuen Arbeitsabläufe bestehen aus (Workflow-)Bausteinen, welche wie bei Univelop üblich per Drag-and-Drop zusammengestellt werden, und ihre eigenen Einstellmöglichkeiten bieten. Somit ist es weiterhin leicht, ohne Programmierkenntnisse eigene Workflows zu entwerfen.
 
-![release workflows](\assets\latest-updates\release workflows.png "release workflows")
+![release workflows](\old_assets\latest-updates\release workflows.png "release workflows")
 
 ## <span style="color:#0b5394">**Übernehmen von Daten aus beliebigen Bausteinen in Textbaustein**</span>
 
@@ -29,7 +29,7 @@ Mit diesem neuen Baustein können bis zu 4 Felder angezeigt und mit einer Bezeic
 In diese können Zahlenwerte eingetragen werden, welche per Einstellung beliebig viele Nachkommastellen mit anzeigen.
 Ein Feld für den Gesamtbetrag kann bei Bedarf eingeblendet werden, welcher in den Einstellungen eine Formel und eine Einheit bekommt, um z. B. das Produkt von vorigen 3 Feldern zu berechnen. So kann bspw. die Abmessung eines Kabels oder eines Tanks inklusive berechneten Volumens kompakt in einem einzigen Baustein angezeigt werden. Dadurch wird ein Eintrag deutlich schmaler, denn eine Kombination aus 1 oder mehr Bausteinen _Nummer_ und einem Baustein _Zahlen-Formel_, um solche Maße zu speichern, ist nicht mehr notwendig.
 
-![release measure brick](\assets\latest-updates\release measure brick.png "release measure brick")
+![release measure brick](\old_assets\latest-updates\release measure brick.png "release measure brick")
 
 ## <span style="color:#0b5394">**Duplizieren von Kacheln**</span>
 
@@ -48,7 +48,7 @@ Desweiteren gibt es kleine Anpassungen für eine verbesserte Darstellung.
 
 Wir haben die Usability der Schnellerfassung überarbeitet. Nun können Einträge auf- und wieder zugeklappt werden. Weiterhin haben wir das Anlegen neuer Einträge vereinfacht.
 
-![release quickadd](\assets\latest-updates\release quickadd.png "release quickadd")
+![release quickadd](\old_assets\latest-updates\release quickadd.png "release quickadd")
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
 

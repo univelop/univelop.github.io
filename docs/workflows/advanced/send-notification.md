@@ -11,7 +11,7 @@ redirect_from:
 
 Über den Baustein _Versende Push-Nachricht_ wird eine individuell konfigurierte Push-Nachricht an ausgewählte Nutzer(-gruppen) versendet.
 
-![send notification docs](\assets\workflows\send notification docs.png "send notification docs")
+![send notification docs](\old_assets\workflows\send notification docs.png "send notification docs")
 
 1. <span style="color:#0b5394">**Titel**</span>  
    Titel der Push-Notification. Einschluss von Werten aus dem Workflow mit '${variablenname}' möglich.
