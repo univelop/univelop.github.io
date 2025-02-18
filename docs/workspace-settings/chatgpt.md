@@ -6,6 +6,7 @@ parent: Arbeitsbereich Einstellungen
 redirect_from:
     - /docs/chat-gpt-integration.html
 ---
+
 {: .warning}
 Die ChatGPT Anbindung, bspw. über den ChatGPT Baustein, befindet sich in der Beta-Phase und wird nur auf Anfrage freigeschaltet. Das aktuelle Vorgehen weicht somit vom letzten Schritt der Aktivierung ab. Bei Interesse gerne bei uns unter support@univelop.de melden!
 
@@ -25,9 +26,11 @@ In diesem Falle können die folgenden drei Schritte übersprungen werden und Sie
 1. <span style="color:#0b5394">**OpenAI Account erstellen**</span>
    Der erste Schritt ist nur notwendig, wenn noch kein Konto für ChatGPT vorhanden ist. In dem Falle geht es bei Schritt 2 weiter.
    Um diesen API-Schlüssel zu erhalten, müssen Sie sich auf der OpenAI-Website registrieren und ein Konto erstellen.
+   Hierbei ist wichtig, dass kein Abo bzw. "Plan" für die Nutzung von ChatGPT im Browser/als App abgeschlossen wird.
 
 2. <span style="color:#0b5394">**API-Schlüssel erstellen**</span>
    Nachdem Sie sich bei OpenAI angemeldet haben, können Sie einen API-Schlüssel erstellen. Dieser Schlüssel ist notwendig, damit Univelop mit ChatGPT kommunizieren kann. Für die Nutzung vom ChatGPT Baustein wird nur _ein einziger_ API-Schlüssel pro Arbeitsbereich benötigt.
+   Zur Erstellung des API-Schlüssels muss eine Organisation erstellt werden. Danach muss ein Projekt angelegt werden, um [API-Schlüssel](https://platform.openai.com/settings/organization/api-keys) zu erstellen.
    Bei den Berechtigungen wird ein eingeschränkter Zugriff auf die Modelle und die "Model capabilities" empfohlen:
    ![api key permissions](\old_assets\chat-gpt-integration\api_key_permissions.png 'api key permissions')
    _Stand 10.07.2024, die aktuellen Berechtigungseinstellungen bei der OpenAI API können abweichen_ <br>
