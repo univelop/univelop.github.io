@@ -39,7 +39,3 @@ Bei der Nutzung des Datensatz Bausteins wird beim Klick auf den Baustein die Dat
 Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
 
 ![recordPicker2](\old_assets\record-spec-settings\recordpicker2.png 'recordPicker2')
-
-Die Verknüpfungsmöglichkeiten sind in den Docs unter
-Verknüpfen von Listen
-zu finden.

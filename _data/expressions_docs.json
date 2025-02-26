@@ -241,7 +241,7 @@
   },
   {
     "name": "trim",
-    "description": "Entfernt führende oder nachgestellte Leerzeichen von *text*",
+    "description": "Entfernt Leerzeichen am Anfang und Ende eines Textes",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -727,6 +727,52 @@
         "expression": "fromRadixString(\"1010\", 2)",
         "returnValue": "10",
         "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "base64ToBinary",
+    "description": "Konvertiert einen Base64-String in eine Binäre Liste.",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "base64ToBinary(text)",
+    "parameters": [
+      {
+        "name": "text",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "base64ToBinary(\"SGVsbG8gV29ybGQ=\")",
+        "returnValue": "01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "binaryToBase64",
+    "description": "Konvertiert eine Binäre Liste in einen Base64-String.",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "binaryToBase64(text)",
+    "parameters": [
+      {
+        "name": "text",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "binaryToBase64(\"01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100\")",
+        "returnValue": "SGVsbG8gV29ybGQ=",
+        "returnType": "Text"
       }
     ],
     "isVariable": false
@@ -2597,6 +2643,95 @@
         "expression": "urlEncode(\"Hello World\")",
         "returnValue": "Hello%20World",
         "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "hours",
+    "description": "Stunden von einer Uhrzeit",
+    "returns": "Zahl",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "hours(timeString)",
+    "parameters": [
+      {
+        "name": "timeString",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "hours(\"16:20\")",
+        "returnValue": "16",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "minutes",
+    "description": "Minuten von einer Uhrzeit",
+    "returns": "Zahl",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "minutes(timeString)",
+    "parameters": [
+      {
+        "name": "timeString",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "minutes(\"16:20\")",
+        "returnValue": "20",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "overlapInMinutes",
+    "description": "Überschneidung zweier Uhrzeitspannen in Minuten.",
+    "returns": "Zahl",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "overlapInMinutes(startTime1, endTime1, startTime2, endTime2)",
+    "parameters": [
+      {
+        "name": "startTime1",
+        "type": "Text",
+        "optional": false
+      },
+      {
+        "name": "endTime1",
+        "type": "Text",
+        "optional": false
+      },
+      {
+        "name": "startTime2",
+        "type": "Text",
+        "optional": false
+      },
+      {
+        "name": "endTime2",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "overlapInMinutes(\"17:00\",\"19:00\",\"18:00\",\"20:00\")",
+        "returnValue": "60",
+        "returnType": "Zahl"
+      },
+      {
+        "expression": "overlapInMinutes(\"13:00\",\"14:00\",\"17:00\",\"18:00\")",
+        "returnValue": "0",
+        "returnType": "Zahl"
       }
     ],
     "isVariable": false
