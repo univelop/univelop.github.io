@@ -10,9 +10,9 @@ nav_order: 6
 Über den Schritt _Setze Genehmigung zurück_ kann ein Genehmigungsbaustein zurückgesetzt werden.
 
 1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
-   Die Liste, die den Eintrag enthält, welcher genehmigt werden soll.
+   Die Liste, die den Eintrag enthält, von welchem die Genehmigung zurückgesetzt werden soll.
 2. <span style="color:#0b5394">**Eintrag ID**</span>  
-   Die ID zum eindeutigen Identifizieren des Eintrags, welcher genehmigt wird.
+   Die ID zum eindeutigen Identifizieren des Eintrags, von welchem die Genehmigung zurückgesetzt werden soll.
 3. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
    Der Baustein _Genehmigung_, dessen Wert zurückgesetzt werden soll.
 4. <span style="color:#0b5394">**Genehmiger zurücksetzen**</span>  
