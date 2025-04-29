@@ -11,8 +11,6 @@ redirect_from:
 
 Über den Baustein _Rufe E-Mails ab_ können E-Mails aus einem Postfach abgerufen werden.
 
-_Hinweis: Dieser Baustein unterstützt derzeit nur Azure als E-Mail-Provider und kann nur in Workflows ausgeführt werden, welche auf dem Server laufen._
-
 Um E-Mails von Azure abrufen zu können, muss dies zuerst eingerichtet und im Arbeitsbereich konfiguriert werden, wie in dieser Anleitung beschrieben.
 
 Abgerufen werden die ersten **50** E-Mails aus dem Ordner **Posteingang (Inbox)** des angegebenen Postfaches, welche zu den gesetzten Einstellungen passen. Wenn es mehr als 50 E-Mails gibt, die zu den Einstellungen passen, wird in den Logs eine Warnung diesbezüglich ausgegeben.
@@ -47,8 +45,8 @@ Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werd
 1. **subject**: Betreff der E-Mail
 1. **body**: Inhalt der E-Mail, falls vorhanden (HTML E-Mails werden automatisch zu Text konvertiert)
 1. **received_at**: Empfangszeitpunkt der E-Mail als Text (Beispiel: 2023-05-23 18:45:13.562)
-1. **sender_email**: E-Mail-Adresse des Absenders der E-Mail
-1. **sender_name**: Name des Absenders der E-Mail, sofern von diesem festgelegt
+1. **fromEmail**: E-Mail-Adresse des Absenders der E-Mail
+1. **fromName**: Name des Absenders der E-Mail, sofern von diesem festgelegt
 1. **is_read**: Ja/Nein, ob die E-Mail vor dem Abrufen bereits Gelesen war
 1. **has_attachments**: Ja/Nein, ob die E-Mail Anhänge beinhaltet
 1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](iterate-values) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden: `toMap(attachment).name`.
