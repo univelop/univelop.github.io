@@ -3,7 +3,7 @@ layout: title
 title: GPS Position
 parent: Formular-Bausteine
 grand_parent: Bausteine
-nav_order: 15
+nav_order: 16
 redirect_from:
     - /docs/record-spec-settings/grand-childs-form/geo-location.html
 ---

@@ -3,7 +3,7 @@ layout: title
 title: Datum
 parent: Formular-Bausteine
 grand_parent: Bausteine
-nav_order: 6
+nav_order: 7
 redirect_from:
     - /docs/record-spec-settings/grand-childs-form/date.html
 ---

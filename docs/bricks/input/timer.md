@@ -3,7 +3,7 @@ layout: title
 title: Timer
 parent: Formular-Bausteine
 grand_parent: Bausteine
-nav_order: 8
+nav_order: 9
 redirect_from:
     - /docs/record-spec-settings/grand-childs-form/timer.html
 ---

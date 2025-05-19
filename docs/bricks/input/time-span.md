@@ -3,7 +3,7 @@ layout: title
 title: Zeitspanne
 parent: Formular-Bausteine
 grand_parent: Bausteine
-nav_order: 7
+nav_order: 8
 redirect_from:
     - /docs/record-spec-settings/grand-childs-form/interval.html
 ---
