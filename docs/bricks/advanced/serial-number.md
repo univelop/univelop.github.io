@@ -3,7 +3,7 @@ layout: title
 title: Laufende Nummer
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 12
+nav_order: 13
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/rolling-number.html
 ---

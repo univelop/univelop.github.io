@@ -3,7 +3,7 @@ layout: title
 title: Workflow
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 13
+nav_order: 14
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/workflow.html
 ---

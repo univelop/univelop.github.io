@@ -3,7 +3,7 @@ layout: title
 title: Editor
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 22
+nav_order: 23
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/editor.html
 ---

@@ -3,7 +3,7 @@ layout: title
 title: Bild-Erkennung
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 30
+nav_order: 32
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/chatgpt-image-scanner.html
 ---

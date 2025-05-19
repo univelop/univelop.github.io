@@ -3,7 +3,7 @@ layout: title
 title: Ja-Nein-Formel
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 17
+nav_order: 18
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/boolformular.html
 ---
