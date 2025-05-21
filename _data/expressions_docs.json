@@ -585,7 +585,7 @@
   },
   {
     "name": "parseJson",
-    "description": "Konvertiert einen Json-String zu einem Json-Objekt",
+    "description": "Konvertiert einen Json-String zu einem Json-Objekt oder einer Json-Liste. Nutze parseJsonObject oder parseJsonArray, wenn der Typ des Json-Strings bekannt ist.",
     "returns": "Dynamischer Wert",
     "category": "text",
     "categoryName": "Text",
@@ -602,6 +602,57 @@
         "expression": "parseJson('{\"name\":\"John\"}')",
         "returnValue": "{name: John}",
         "returnType": "Dynamischer Wert"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "parseJsonObject",
+    "description": "Konvertiert einen Json-String zu einem Json-Objekt",
+    "returns": "Dynamischer Wert",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "parseJsonObject(jsonText)",
+    "parameters": [
+      {
+        "name": "jsonText",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "parseJsonObject('{\"name\":\"John\"}')",
+        "returnValue": "{name: \"John\"}",
+        "returnType": "Dynamischer Wert"
+      },
+      {
+        "expression": "parseJsonObject('{\"name\":\"John\"}').name",
+        "returnValue": "John",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "parseJsonArray",
+    "description": "Konvertiert einen Json-String zu einem Json-Array (Liste).",
+    "returns": "Dynamischer Wert",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "parseJsonArray(jsonText)",
+    "parameters": [
+      {
+        "name": "jsonText",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "parseJsonArray('[{\"name\":\"John\"},{\"name\":\"Peter\"}]')",
+        "returnValue": "[{name: \"John\"},{name: \"Peter\"}]",
+        "returnType": "Liste"
       }
     ],
     "isVariable": false
@@ -1991,6 +2042,39 @@
     "isVariable": false
   },
   {
+    "name": "setMapValue",
+    "description": "Setzt einen Wert in einer Map.",
+    "returns": "Dynamischer Wert",
+    "category": "list",
+    "categoryName": "Liste",
+    "expression": "setMapValue(map, key, value)",
+    "parameters": [
+      {
+        "name": "map",
+        "type": "Dynamischer Wert",
+        "optional": false
+      },
+      {
+        "name": "key",
+        "type": "Text",
+        "optional": false
+      },
+      {
+        "name": "value",
+        "type": "Dynamischer Wert",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "setMapValue({name: \"John\", age: 30}, \"age\", 31)",
+        "returnValue": "{name: \"John\", age: 31}",
+        "returnType": "Dynamischer Wert"
+      }
+    ],
+    "isVariable": false
+  },
+  {
     "name": "toMap",
     "description": "Konvertiert ein Objekt in eine Map.",
     "returns": "Dynamischer Wert",
@@ -2735,5 +2819,22 @@
       }
     ],
     "isVariable": false
+  },
+  {
+    "name": "currentWorkspaceId",
+    "description": "ID des aktuellen Arbeitsbereichs",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentWorkspaceId",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentWorkspaceId",
+        "returnValue": "b3Jz84u1xBJO4afA8g7V",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
   }
 ]
