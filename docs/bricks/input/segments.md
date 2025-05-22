@@ -10,8 +10,6 @@ redirect_from:
 
 Mit dem Baustein _Segmente_ können vordefinierte Auswahlmöglichkeiten als Segmente dargestellt werden. Die Anzahl der Segmente ist auf mindestens 2 und maximal 5 begrenzt. Jeder Eintrag darf maximal 15 Zeichen lang sein.
 
-![segments](\old_assets\record-spec-settings\segments.png 'segments')
-
 1. <span style="color:#0b5394">**Optionen (Segment-Auswahlmöglichkeiten)**</span>  
    Unter Optionen werden die Segmente festgelegt. Es müssen mindestens 2 und dürfen maximal 5 Segmente angelegt werden.  
    Jeder Segmentname darf höchstens 15 Zeichen umfassen.  
