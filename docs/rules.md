@@ -6,7 +6,7 @@ layout: title
 
 Regeln ermöglichen ereignis­basierte Automatisierungen. Von einfachen Hinweis­meldungen bis hin zur automatisierten Feld­aktualisierung, sobald ein Datensatz spezifische Bedingungen erfüllt.
 
-Eine besteht dabei aus einem Trigger sowie einem Regel-Workflow. Der Trigger ist das Ereignis, bei welchem der Regel-Workflow ausgeführt werden soll. Der Regel-Workflow ist dementsprechend die Aktion, welche bei Erfüllung des Ereignisses ausgeführt werden soll.
+Eine Regel besteht dabei aus einem Trigger sowie einem Regel-Workflow. Der Trigger ist das Ereignis, bei welchem der Regel-Workflow ausgeführt werden soll. Der Regel-Workflow ist dementsprechend die Aktion, welche bei Erfüllung des Ereignisses ausgeführt werden soll.
 
 ## Verwaltung von Regeln
 
