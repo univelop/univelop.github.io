@@ -1,9 +1,12 @@
 ---
 layout: workflow-step
 title: Lösche Datei
-parent: Erweitert
+parent: Dateihandling
 grand_parent: Workflows
 icon: description
+nav_order: 2
+redirect_from:
+    - /docs/workflows/advanced/delete-file.html
 ---
 
 Mit dem Schritt _Lösche Datei_ kann eine Datei aus einem Datei Upload oder Bild Upload Baustein gelöscht werden.

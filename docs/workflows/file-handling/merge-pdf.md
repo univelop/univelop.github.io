@@ -1,10 +1,10 @@
 ---
 layout: workflow-step
 title: PDF zusammenfügen
-parent: Erweitert
+parent: Dateihandling
 grand_parent: Workflows
 icon: vertical_align_top
-nav_order: 9
+nav_order: 3
 ---
 
 Demnächst in der Version 1.37.0 verfügbar.
