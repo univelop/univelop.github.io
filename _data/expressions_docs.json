@@ -2930,11 +2930,6 @@
         "expression": "htmlEncode(\"multiple \n lines\")",
         "returnValue": "\"multiple <br /> lines\"",
         "returnType": "Text"
-      },
-      {
-        "expression": "htmlEncode('\"doulbeQuotedText\" and \"single quoted text\"')",
-        "returnValue": "\"&quot;doulbeQuotedText&quot; and &quot;single quoted text&quot;\"",
-        "returnType": "Text"
       }
     ],
     "isVariable": false
