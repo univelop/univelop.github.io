@@ -1117,6 +1117,52 @@
     "isVariable": false
   },
   {
+    "name": "exp",
+    "description": "Gibt e^x zurück",
+    "returns": "Zahl",
+    "category": "number",
+    "categoryName": "Nummer",
+    "expression": "exp(number)",
+    "parameters": [
+      {
+        "name": "number",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "exp(1.609437912)",
+        "returnValue": "5",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "ln",
+    "description": "Gibt den natürlichen Logarithmus von x zurück",
+    "returns": "Zahl",
+    "category": "number",
+    "categoryName": "Nummer",
+    "expression": "ln(number)",
+    "parameters": [
+      {
+        "name": "number",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "ln(5)",
+        "returnValue": "1.609437912",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
     "name": "formatDate",
     "description": "Formatiert ein Datum in die gewählte Formatierung",
     "returns": "Text",
@@ -2836,5 +2882,155 @@
       }
     ],
     "isVariable": true
+  },
+  {
+    "name": "md5",
+    "description": "Liefert den MD5-Hash eines Textes",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "md5(text)",
+    "parameters": [
+      {
+        "name": "text",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "md5(\"Hello World\")",
+        "returnValue": "b10a8db164e0754105b7a99be72e3fe5",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "htmlEncode",
+    "description": "Wandelt bestimmte Zeichen im gegebenen Text in HTML-Entities um.",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "htmlEncode(text)",
+    "parameters": [
+      {
+        "name": "text",
+        "type": "Text",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "htmlEncode(\"<Hello World & Everybody>\")",
+        "returnValue": "\"&lt;Hello World &amp; Everybody&gt;\"",
+        "returnType": "Text"
+      },
+      {
+        "expression": "htmlEncode(\"multiple \n lines\")",
+        "returnValue": "\"multiple <br /> lines\"",
+        "returnType": "Text"
+      },
+      {
+        "expression": "htmlEncode('\"doulbeQuotedText\" and \"single quoted text\"')",
+        "returnValue": "\"&quot;doulbeQuotedText&quot; and &quot;single quoted text&quot;\"",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "min",
+    "description": "Gibt das Minimum einer Liste oder zweier Zahlen zurück",
+    "returns": "Zahl",
+    "category": "number",
+    "categoryName": "Nummer",
+    "expression": "min(numberOrArray, [number])",
+    "parameters": [
+      {
+        "name": "numberOrArray",
+        "type": "Dynamischer Wert",
+        "optional": false
+      },
+      {
+        "name": "number",
+        "type": "Zahl",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "min(1, 2)",
+        "returnValue": "1",
+        "returnType": "Zahl"
+      },
+      {
+        "expression": "min([1, 2, 3])",
+        "returnValue": "1",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "max",
+    "description": "Gibt das Maximum einer Liste oder zweier Zahlen zurück",
+    "returns": "Zahl",
+    "category": "number",
+    "categoryName": "Nummer",
+    "expression": "max(numberOrArray, [number])",
+    "parameters": [
+      {
+        "name": "numberOrArray",
+        "type": "Dynamischer Wert",
+        "optional": false
+      },
+      {
+        "name": "number",
+        "type": "Zahl",
+        "optional": true
+      }
+    ],
+    "examples": [
+      {
+        "expression": "max(5, 2)",
+        "returnValue": "5",
+        "returnType": "Zahl"
+      },
+      {
+        "expression": "max([1, 2, 3])",
+        "returnValue": "3",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "randomNumber",
+    "description": "Gibt eine zufällige Zahl zwischen min und max zurück",
+    "returns": "Zahl",
+    "category": "number",
+    "categoryName": "Nummer",
+    "expression": "randomNumber(min, max)",
+    "parameters": [
+      {
+        "name": "min",
+        "type": "Zahl",
+        "optional": false
+      },
+      {
+        "name": "max",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "randomNumber(1, 10)",
+        "returnValue": "5",
+        "returnType": "Zahl"
+      }
+    ],
+    "isVariable": false
   }
 ]
