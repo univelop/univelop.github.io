@@ -4,9 +4,7 @@ title: Startseite
 nav_order: 0
 ---
 
-### <span style="color:#3d85c6">UnivelopDocs - Für Anwender und die, die es werden wollen</span>
-
-# <span style="color:#0b5394">**Die No-Code Plattform für dein Business**</span>
+# <span style="color:#0b5394">**Die No-Code- und KI-gesteuerte Plattform für Geschäftsanwendungen**</span>
 
 <span style="color:#0b5394">**Willkommen bei den UnivelopDocs!**</span>
 
