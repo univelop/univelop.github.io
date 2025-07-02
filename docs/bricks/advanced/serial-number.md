@@ -24,7 +24,3 @@ Den Baustein _Laufende Nummer_ wird überall dort wo Datensätzen mit einer fort
 4. <span style="color:#0b5394">**Mit manuellen Nummern**</span>  
    Erfassung der laufenden Nummer über den Button "Nächste Nummer" oder per manueller Eingabe ermöglichen.
    Der Stift zur manuellen Eingabe wird durch diese Einstellung ein- oder ausgeblendet.
-5. <span style="color:#0b5394">**Nächste Nummer automatisch vergeben**</span>
-   Die nächste Nummer kann auch ohne Drücken des Buttons automatisch vergeben werden.
-   Es sollte darauf geachtet werden diese Einstellung nur zu aktivieren,
-   wenn dies auch wirklich gewünscht wird und immer der Fall ist, dass die nächste Nummer gezogen werden soll.
