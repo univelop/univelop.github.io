@@ -4,7 +4,7 @@ title: Datumsspanne
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 8
-published: false
+nav_exclude: true
 ---
 
 Mit dem Baustein _Datum_ kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit und Anzeige des Wochentags.
