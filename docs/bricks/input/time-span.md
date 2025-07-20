@@ -16,3 +16,6 @@ Anders als Datum + Uhrzeit rechnet dieser Baustein (Von - Bis) auch die Stunden 
 In Kombination mit dem
 Baustein _Zahlenformel_
 kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.
+
+{: .tip }
+Verwende die Formel `formatDate(addMinutes(today(),round(time_span_break_time * 60)),"HH:mm")` um die Pause im Format HH:mm auszugeben.

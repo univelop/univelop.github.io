@@ -14,3 +14,6 @@ erfasst. Wenn über die Einstellung auch Pausen mit aufgezeichnet werden, so kö
 die Erfassung der Hauptzeit gestoppt, intern aber die Dauer der Pause weiter aufgezeichnet.
 Nach dem Stopp wird dann neben der aufgezeichneten Zeit auch die
 Dauer der Pausen angezeigt.
+
+{: .tip }
+Verwende die Formel `formatDate(addMinutes(today(),round(timer_break_time * 60)),"HH:mm")` um die Pause im Format HH:mm auszugeben.
