@@ -76,3 +76,6 @@ callouts:
     important:
         title: WICHTIG
         color: red
+    tip:
+        title: 💡 TIPP
+        color: green
