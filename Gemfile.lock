@@ -30,8 +30,10 @@ GEM
     execjs (2.10.0)
     faraday (2.0.0)
       ruby2_keywords (>= 0.0.4)
+    ffi (1.17.0)
     ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x64-unknown)
+    ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (223)
@@ -266,6 +268,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   universal-darwin-24
+  x64-mingw-ucrt
   x64-unknown
 
 DEPENDENCIES
