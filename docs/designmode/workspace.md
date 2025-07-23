@@ -70,7 +70,7 @@ passiert im Produktivsystem live, muss jedoch initial gesetzt werden.
 **_ohne Vorlagen und ohne Datensätze_**. Eine exportierte Kachel kann über den Button **_Import_** in einen
 anderen Arbeitsbereich eingefügt werden.
 
-**HINWEIS:**  
+{: .warning }
 Hierbei handelt es sich um eine Einbahnstraße. Die exportierte Kachel erhält die ID des
 exportierten Arbeitsbereich und kann nicht zurück ex- und importiert werden! Wir empfehlen einen Demo
 Arbeitsbereich, in welchem sämtliche Änderungen vorgenommen werden, die anschließend in den Hauptarbeitsbereich

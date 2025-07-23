@@ -7,7 +7,6 @@ redirect_from:
     - /docs/formulas/childs/date-formulas.html
 ---
 
-
 ## <span style="color:#0b5394">**formatDate**</span>
 
 Die Formel `formatDate(date, format)` dient dem strukturierten Ausgeben von Datumswerten. Dabei wird ein Datum und das gewünschte Format angegeben. Das gewünschte Format wird über einen Text für `format` angegeben.
@@ -48,7 +47,8 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 | '      | Angabe von Text innerhalb des Formates               | 'Date='     |
 | ''     | Angabe von Text innerhalb des Formates mit hochkomma | ''o'clock'' |
 
-**Hinweis:** Das Symbol "E" sollte nicht mehr verwendet werden, da es zu unerwarteten Ergebnissen führen kann; stattdessen können "EEE" oder "EEEE" genutzt werden.
+{: .hint }
+Das Symbol "E" sollte nicht mehr verwendet werden, da es zu unerwarteten Ergebnissen führen kann; stattdessen können "EEE" oder "EEEE" genutzt werden.
 
 ### <span style="color:#0b5394">Formatierungsbeispiele</span>
 
@@ -64,7 +64,6 @@ Das Format kann beliebig aus den folgenden Symbolen zusammengesetzt werden:
 ## <span style="color:#0b5394">**Datumskonstanten**</span>
 
 {% include expression_variables_table.html category="date" %}
-
 
 ## <span style="color:#0b5394">**Formelübersicht**</span>
 

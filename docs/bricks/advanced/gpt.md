@@ -8,7 +8,8 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/chatgpt.html
 ---
 
-<span style="color:#0b5394">Hinweis: Der ChatGPT Baustein befindet sich in der Beta-Phase und ist nur auf Anfrage benutzbar. Bei Interesse gerne bei uns unter support@univelop.de melden!</span>
+{: .hint }
+Der ChatGPT Baustein befindet sich in der Beta-Phase und ist nur auf Anfrage benutzbar. Bei Interesse gerne bei uns unter support@univelop.de melden!
 
 Mit dem ChatGPT Baustein kann ein Datensatz anhand eines Textes bzw. einer Spracheingabe ausgefüllt werden.
 Der Baustein nutzt im Kern ChatGPT, um aus einer Eingabe den aktuellen Datensatz auszufüllen.
@@ -102,4 +103,5 @@ Benutzt man im eigenen Anwendungsfall auch 11 Bausteine, heißt dies nicht, dass
 | 6 Bausteine, inkl. Datensatzliste    | ~4.000                   | ~1.500                    | $0,00425           | $4,25 / 3,90€            |
 | 26 Bausteine, inkl 4 Datensatzlisten | ~19.000                  | ~3.000                    | $0,014             | $14 / 13€                |
 
-_Hinweis: Dies ist nur eine Beispielrechnung. Sie bildet keineswegs die tatsächlich anfallenden Kosten bei der Nutzung im eigenen Anwendungsfall ab._
+{: .hint }
+Dies ist nur eine Beispielrechnung. Sie bildet keineswegs die tatsächlich anfallenden Kosten bei der Nutzung im eigenen Anwendungsfall ab.
