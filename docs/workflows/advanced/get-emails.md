@@ -37,7 +37,7 @@ In nachfolgenden Schritten des Workflows kann über den technischen Namen des Ba
 Diese kann in einem Iteriere über Werte Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
 
 In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die nachfolgenden Variablen zur Verfügung stehen.
+Diese kann in einem [Iteriere über Werte](../structure/iterate-list.md) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die nachfolgenden Variablen zur Verfügung stehen.
 
 ### <span style="color:#0b5394">**Variablen**</span>
 
@@ -49,4 +49,4 @@ Diese kann in einem [Iteriere über Werte](iterate-values) Baustein genutzt werd
 1. **fromName**: Name des Absenders der E-Mail, sofern von diesem festgelegt
 1. **is_read**: Ja/Nein, ob die E-Mail vor dem Abrufen bereits Gelesen war
 1. **has_attachments**: Ja/Nein, ob die E-Mail Anhänge beinhaltet
-1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](iterate-values) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden: `toMap(attachment).name`.
+1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](../structure/iterate-list.md) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden: `toMap(attachment).name`.
