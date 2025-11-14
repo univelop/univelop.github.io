@@ -3,7 +3,7 @@ layout: title
 title: Datei
 parent: Basis-Bausteine
 grand_parent: Bausteine
-nav_order: 6
+nav_order: 7
 redirect_from:
     - /docs/record-spec-settings/grand-childs-base/file.html
 ---
