@@ -5,9 +5,10 @@ parent: Struktur
 grand_parent: Workflows
 icon: keyboard_return
 nav_order: 11
+nav_exclude: true
 ---
 
-Mit dem Workflow-Schritt _Gib Wert zurück_ kann Workflow Rückgabewerte an den aufrufenden Prozess senden. Dies wird derzeit bereits von der API V2 über den Endpunkt `run-and-wait` unterstützt. 
+Mit dem Workflow-Schritt _Gib Wert zurück_ kann ein Workflow Rückgabewerte an den aufrufenden Prozess senden. Dies wird derzeit bereits von der API V2 über den Endpunkt `run-and-wait` unterstützt.
 
 Rückgabewerte müssen, wie auch beim Starte-Workflow Schritt, als (Rückgabe-)Parameter mit dem richtigen Dateityp definiert werden. Der Schritt darf nur einmal innerhalb von Server Workflows und nur als letzter Schritt verwendet werden.
 
