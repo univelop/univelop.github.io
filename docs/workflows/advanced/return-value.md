@@ -5,7 +5,6 @@ parent: Struktur
 grand_parent: Workflows
 icon: keyboard_return
 nav_order: 11
-published: false
 ---
 
 Mit dem Workflow-Schritt _Gib Wert zurück_ kann Workflow Rückgabewerte an den aufrufenden Prozess senden. Dies wird derzeit bereits von der API V2 über den Endpunkt `run-and-wait` unterstützt. 
