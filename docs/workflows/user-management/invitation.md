@@ -11,8 +11,8 @@ redirect_from:
 ---
 
 Mit diesem Baustein wird ein Einladungslink entsprechend der Einstellungen erstellt.
-Ein Nutzer, welcher über diesen Link beitritt, bekommt die angegebene Rolle, das angegebene Team und die Lizenz.
-Dieser Link ist im folgenden Workflow über den technischen Namen zugreifbar.
+Ein Nutzer, welcher über diesen Link beitritt, bekommt die angegebene Rolle sowie die gewählte Lizenz.
+Dieser Link ist im folgenden Workflow über den technischen Namen direkt als Text verwendbar.
 
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
@@ -24,6 +24,6 @@ Aus Abwärtskompatibilitätsgründen sind derzeit folgende Lizenz-Schlüssel zu 
 - Power-User: **adminUser**
 - Essential-User: **proUser**
 - Light-User (Module): **lightUserPlus3**
-- Light-User (Part-Time) **lightUserPartTime**
+- Light-User (Part-Time): **lightUserPartTime**
 - External-User: **externalUser**
 - Test-User: **testUser**
