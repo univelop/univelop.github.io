@@ -17,5 +17,13 @@ Dieser Link ist im folgenden Workflow über den technischen Namen zugreifbar.
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
 1. <span style="color:#0b5394">**Rollenname/-ID**</span>
-2. <span style="color:#0b5394">**Teamname/-ID**</span>
-3. <span style="color:#0b5394">**Lizenzname**</span>
+1. <span style="color:#0b5394">**E-Mail (optional)**</span>
+1. <span style="color:#0b5394">**Lizenzname**</span>
+
+Aus Abwärtskompatibilitätsgründen sind derzeit folgende Lizenz-Schlüssel zu verwenden:
+- Power-User: **adminUser**
+- Essential-User: **proUser**
+- Light-User (Module): **lightUserPlus3**
+- Light-User (Part-Time) **lightUserPartTime**
+- External-User: **externalUser**
+- Test-User: **testUser**
