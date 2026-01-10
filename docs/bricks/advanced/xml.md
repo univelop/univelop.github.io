@@ -16,16 +16,17 @@ Als zusätzliches Feature lassen sich generierte XML-Dateien über ein selbsters
 
 Im Gegensatz zum PDF-Baustein verwendet der XML-Baustein spezielle XML-Tags mit dem `uni:`-Namespace für Schleifen und bedingte Anzeigen, anstatt der `${repeat(...)}` Syntax.
 
-> **Hinweis:** Dieser Baustein ist ein Power-Feature und erfordert entsprechende Berechtigung.
+{: .hint }
+Dieser Baustein ist ein Power-Feature und erfordert entsprechende Berechtigung.
 
 ## <span style="color:#0b5394">Vorbereitung der XML-Vorlage</span>
 
 1. <span style="color:#0b5394">**Ausgabe von Einzelwerten**</span>  
-    Die Ausgabe von Einzelwerten erfolgt, indem in der XML-Vorlage der technische Name eines Bausteins innerhalb von
-    zwei geschwungenen Klammern mit einem Dollar-Zeichen davor gesetzt wird. Beispiel: `${belegnummer}` für die Ausgabe einer Belegnummer.
+   Die Ausgabe von Einzelwerten erfolgt, indem in der XML-Vorlage der technische Name eines Bausteins innerhalb von
+   zwei geschwungenen Klammern mit einem Dollar-Zeichen davor gesetzt wird. Beispiel: `${belegnummer}` für die Ausgabe einer Belegnummer.
 
- 2. <span style="color:#0b5394">**Ausgabe von Datensatz-Listen**</span>  
-    Um die Daten eines Baustein _Datensatz Liste_ auszugeben, werden spezielle XML-Tags mit dem `uni:` Namespace verwendet. Das `<uni:repeat>` Tag definiert, über welche Liste iteriert werden soll.
+2. <span style="color:#0b5394">**Ausgabe von Datensatz-Listen**</span>  
+   Um die Daten eines Baustein _Datensatz Liste_ auszugeben, werden spezielle XML-Tags mit dem `uni:` Namespace verwendet. Das `<uni:repeat>` Tag definiert, über welche Liste iteriert werden soll.
 
     So könnte die XML-Struktur zur Ausgabe einer ganzen Liste aussehen:
 
@@ -43,11 +44,13 @@ Im Gegensatz zum PDF-Baustein verwendet der XML-Baustein spezielle XML-Tags mit 
     ```
 
     **Attribute des `<uni:repeat>` Tags:**
+
     - `ref`: Der technische Name des Bausteins (Pflichtfeld)
     - `name`: Der Name, unter dem die Datensätze in der Vorlage verfügbar sind (optional, standardmäßig wird der `ref`-Wert verwendet)
     - Zusätzlich steht die Variable `__index__` für die aktuelle Iterationsnummer zur Verfügung (beginnend bei 1)
 
     **Unterstützte Bausteine für `<uni:repeat>`:**
+
     - _Datensatz Liste_
     - _Mehrfach-Datensatz-Auswahl_
     - _Tabelle_
@@ -79,8 +82,8 @@ Im Gegensatz zum PDF-Baustein verwendet der XML-Baustein spezielle XML-Tags mit 
     </maschinenliste>
     ```
 
- 4. <span style="color:#0b5394">**Ein-/Ausblenden von Inhalten**</span>  
-    Sollten gewisse XML-Elemente abhängig von einer Bedingung ausgeblendet werden, kann dies über das `<uni:showIf>` Tag realisiert werden.
+3. <span style="color:#0b5394">**Ein-/Ausblenden von Inhalten**</span>  
+   Sollten gewisse XML-Elemente abhängig von einer Bedingung ausgeblendet werden, kann dies über das `<uni:showIf>` Tag realisiert werden.
 
     Wenn wir das obige Beispiel (Zeiterfassung) erweitern möchten und z.B. anzeigen möchten, dass es sich bei der aufgeführten Zeit um Reisezeit handelte, können wir so etwas machen:
 
@@ -100,13 +103,15 @@ Im Gegensatz zum PDF-Baustein verwendet der XML-Baustein spezielle XML-Tags mit 
     ```
 
     **Attribute des `<uni:showIf>` Tags:**
+
     - `exp`: Die Bedingung, die ausgewertet werden soll (Pflichtfeld, muss in einem Wahrheitswert resultieren)
 
     In diesem Beispiel wird das XML-Element `<reisezeit>` nur hinzugefügt, wenn der Schalter `istReisezeit` gesetzt ist. Das `<uni:showIf>` Tag kann auch außerhalb von `<uni:repeat>`-Blöcken verwendet werden.
 
-    _Hinweis:_ Die Bedingung im `exp`-Attribut kann auf Schalter, Ja-/Nein-Formel-Bausteine oder andere Ausdrücke angewendet werden.
+    {: .hint }
+    Die Bedingung im `exp`-Attribut kann auf Schalter, Ja-/Nein-Formel-Bausteine oder andere Ausdrücke angewendet werden.
 
-5. <span style="color:#0b5394">**Sonderzeichen und Escape-Sequenzen**</span>  
+4. <span style="color:#0b5394">**Sonderzeichen und Escape-Sequenzen**</span>  
    Sonderzeichen in Parametern werden automatisch für XML escapiert, um eine gültige XML-Struktur zu gewährleisten.
 
 ## <span style="color:#0b5394">Einstellungen des Bausteins _XML erstellen_</span>
@@ -148,21 +153,22 @@ Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen 
 
 6. <span style="color:#0b5394">**Inhalt der E-Mail vordefinieren**</span>  
    Über `${}` kann der Inhalt der E-Mail ebenfalls dynamisch gestaltet werden, z.B.:
-   ```
-   Sehr geehrte Damen und Herren,
 
-   anbei erhalten Sie die XML-Datei für ${belegnummer}.
+    ```
+    Sehr geehrte Damen und Herren,
 
-   Mit freundlichen Grüßen
-   ```
+    anbei erhalten Sie die XML-Datei für ${belegnummer}.
+
+    Mit freundlichen Grüßen
+    ```
 
 ## <span style="color:#0b5394">Verwendung und Anwendungsfälle</span>
 
 Der XML-Baustein eignet sich besonders für:
-- **E-Rechnungen**
-- **Datenexport** für andere Systeme, die XML-Format benötigen
-- **API-Integration** durch strukturierte Datenübertragung
-- **Archivierung** von Daten in einem standardisierten Format
-- **Berichtswesen** mit strukturierten Datenausgaben
-- **Systemintegration** durch einheitliche Datenformate
 
+-   **E-Rechnungen**
+-   **Datenexport** für andere Systeme, die XML-Format benötigen
+-   **API-Integration** durch strukturierte Datenübertragung
+-   **Archivierung** von Daten in einem standardisierten Format
+-   **Berichtswesen** mit strukturierten Datenausgaben
+-   **Systemintegration** durch einheitliche Datenformate

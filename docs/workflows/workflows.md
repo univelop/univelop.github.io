@@ -4,7 +4,7 @@ nav_order: 12
 layout: title
 has_toc: false
 redirect_from:
-   - /docs/workflows/workflow.html
+    - /docs/workflows/workflow.html
 ---
 
 Mit Workflows können einfache Prozesse innerhalb von Univelop modelliert und automatisiert werden.
@@ -44,7 +44,7 @@ Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop 
    Ob Benachrichtigung am unteren Rande des Bildschirms angezeigt werden soll, wenn der Workflow startet, endet oder Fehler wirft.
 2. <span style="color:#0b5394">**Auf Server ausführen**</span>  
    Ob der Workflow auf dem Server ausgeführt werden soll. Ist dies deaktiviert, wird der Workflow lokal, also auf dem Gerät des Nutzers ausgeführt.
-   Diese Einstellung ist für einige Workflow Bausteine relevant. So können bspw. Mails nur versendet werden, wenn der Workflow auf dem Server läuft, und Nachrichten angezeigt werden, wenn der Workflow lokal läuft.
+   Diese Einstellung ist für einige Workflow Bausteine relevant. So können die Bausteine der Kategorie Nutzerinteraktion, bspw. Zeige Nachricht, nur genutzt werden, wenn der Workflow lokal läuft.
 3. <span style="color:#0b5394">**Nachricht bei Start**</span>
    Welche Nachricht am unteren Rand des Bildschirms angezeigt werden soll, wenn der Workflow startet.
 4. <span style="color:#0b5394">**Nachricht nach Ausführung**</span>

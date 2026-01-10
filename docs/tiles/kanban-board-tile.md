@@ -4,7 +4,9 @@ title: Kanban Board
 nav_order: 6
 parent: Kacheln
 ---
-> **Hinweis:** Die Kanban Board Kachel ist ein [Power Feature](/docs/power-features).
+
+{: .hint }
+Die Kanban Board Kachel ist ein [Power Feature](/docs/power-features).
 
 Die _Kanban Board Kachel_ ermöglicht die übersichtliche Darstellung und Verwaltung von Einträgen in Spalten nach ihrem Status. Jede Spalte steht für einen Status, z.B. "Offen", "In Bearbeitung" oder "Erledigt". Die Kachel eignet sich besonders für die Organisation von Aufgaben, Projekten oder Prozessen, bei denen Einträge verschiedene Bearbeitungsphasen durchlaufen.
 
@@ -22,8 +24,8 @@ Um die Spalten der Kanban Board Kachel zu definieren, wird ein Status-Baustein a
 
 ### Weitere Einstellungen
 
-- **Filter & Sortierung:**  
-  Optional können Filter- und Sortierregeln definiert werden, um die angezeigten Einträge weiter einzuschränken oder zu sortieren.
+-   **Filter & Sortierung:**  
+    Optional können Filter- und Sortierregeln definiert werden, um die angezeigten Einträge weiter einzuschränken oder zu sortieren.
 
-- **Eintragsvorschau:**  
-  Die Darstellung der Karten (Einträge) kann individuell angepasst werden. Über die Einstellung "Eintragsvorschau" lässt sich festlegen, welche Informationen auf den Karten angezeigt werden.
+-   **Eintragsvorschau:**  
+    Die Darstellung der Karten (Einträge) kann individuell angepasst werden. Über die Einstellung "Eintragsvorschau" lässt sich festlegen, welche Informationen auf den Karten angezeigt werden.

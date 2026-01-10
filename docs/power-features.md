@@ -12,4 +12,5 @@ Power Features stehen ausschließlich Nutzern mit einer **Power User-Lizenz** zu
 
 Nutzer ohne entsprechende Lizenz können Power Features lediglich im Lesemodus (read only) betrachten, aber keine Änderungen vornehmen.
 
-> **Hinweis:** Power Features sind als solche in der Dokumentation und in der App gekennzeichnet.
+{: .hint }
+Power Features sind als solche in der Dokumentation und in der App gekennzeichnet.

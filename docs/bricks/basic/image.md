@@ -3,7 +3,7 @@ layout: title
 title: Bild
 parent: Basis-Bausteine
 grand_parent: Bausteine
-nav_order: 5
+nav_order: 6
 redirect_from:
     - /docs/record-spec-settings/grand-childs-base/image.html
 ---

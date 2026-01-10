@@ -3,7 +3,7 @@ layout: title
 title: Web Link
 parent: Basis-Bausteine
 grand_parent: Bausteine
-nav_order: 4
+nav_order: 5
 redirect_from:
     - /docs/record-spec-settings/grand-childs-base/web-link.html
 ---

@@ -7,19 +7,15 @@ nav_order: 8
 nav_exclude: true
 ---
 
-Mit dem Baustein _Datum_ kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit und Anzeige des Wochentags.
+Mit dem Baustein _Datumsspanne_ kann eine Datumsspanne als Start und Enddatum gespeichert werden. Eine Datumsspanne kann **1 - 366** Tage lang sein. Der Baustein kann nur einmal je Liste verwendet werden.
 
-![date](\old_assets\record-spec-settings\1date.png 'date')
+## Einstellungen
 
-Das heutige Datum ist immer voreingestellt.
-Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
+Der Baustein bietet die folgenden Einstellungsmöglichkeiten:
 
-Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
-Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des Baustein _Kalender_ an.
-
-Über die Einstellung _frühestmögliches Datum_ kann eingestellt werden, welches Datum als erstes ausgewählt werden kann.
-Ist hier bspw. der 15.06.2021 angegeben, kann im Baustein kein Datum vor dem 15.06.2021 gewählt werden.
-Die Einstellung _spätestmögliches Datum_ gibt das letztmögliche Datum an.
-Ist hier bspw. der 16.06.2021 angegeben, kann im Baustein kein Datum nach dem 16.06.2021 gewählt werden.
-Sind beide Einstellungen wie genannt gesetzt, können nur der 15.06.2021 und der 16.06.2021 gewählt werden.
-Beide Einstellungen sind als Datumsformel anzugeben. Somit kann z.B. für die Beantragung von Urlaub die Datumsangabe auf Tage beschränkt werden, die mindestens 30 Tage im Voraus, aber noch im selben Jahr liegen.
+-   ### **Größtmögliche Datumsspanne in Tagen**
+    Eine Datumsspanne kann einen maximalen Zeitraum von **366** Tagen speichern. Für individuelle Anwendungsfälle kann die mögliche Spanne auf einen kleineren Zeitraum gesetzt werden.
+-   ### **Frühestmögliches Datum**
+    Ermöglicht die Angabe eines Ausdrucks, welcher ein Datum zurückgeben muss. Dieses wird dann als erstes auswählbares Datum verwendet. Das errechnete Datum muss vor oder gleich dem spätestmöglichem Datum sein.
+-   ### **Spätestmögliches Datum**
+    Ermöglicht die Angabe eines Ausdrucks, welcher ein Datum zurückgeben muss. Dieses wird dann als letztes auswählbares Datum verwendet. Das errechnete Datum muss nach oder gleich dem spätestmöglichen Datum sein.

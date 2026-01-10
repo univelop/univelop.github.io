@@ -3,7 +3,7 @@ layout: title
 title: Navigation
 parent: Basis-Bausteine
 grand_parent: Bausteine
-nav_order: 7
+nav_order: 8
 redirect_from:
     - /docs/record-spec-settings/grand-childs-base/navigate.html
 ---
