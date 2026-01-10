@@ -62,10 +62,10 @@ Die Datensätze zu allen Mitgliedern sowie den angelegten Nutzerrollen können �
 ### <span style="color:#0b5394">Im- und Export von Mitgliedern</span>
 
 Um die Mitglieder eines Arbeitsbereiches zu verwalten, können Admins die Mitglieder im- als auch exportieren.
-Beim Export gibt es die Spalten für personenbezogenen Daten (ID, E-Mail, Vor-, Nachname) sowie die aktiven und die möglichen Rollen und Teams eines Mitgliedes.
+Beim Export gibt es die Spalten für personenbezogenen Daten (ID, E-Mail, Vor-, Nachname) sowie die aktiven und die möglichen Rollen eines Mitgliedes.
 Den Import von Mitgliedern kann man z. B. nutzen, um damit gleich mehrere neue Mitglieder in seinen Arbeitsbereich hinzuzufügen.
 Dabei muss neben Vor-, Nachname und E-Mail in der Spalte _Passwort_ ein Passwort für das jeweilige Mitglied angegeben werden.
-Optional können mögliche Teams und Rollen angegeben und eine aktive Rolle sowie ein aktives Team angegeben werden.
+Optional können mögliche Rollen angegeben und eine aktive Rolle angegeben werden.
 Die Spalte _Passwort_ wird nur beim Import genutzt und bleibt beim Export leer.
 
 ### <span style="color:#0b5394">Im- und Export von Rollen</span>
@@ -135,7 +135,7 @@ zu löschen. Bei Problemen stehen stehen wir gerne mit Rat und Tat zur Seite.
 
 ### <span style="color:#0b5394">Dateiimport / -export via PowerShell</span>
 
-Mit den Bausteinen _Datei Upload_ und _PDF erstellen_kann ebenfalls eine Synchronisation mit PowerShell erfolgen.
+Mit den Bausteinen _Datei Upload_ und \_PDF erstellen_kann ebenfalls eine Synchronisation mit PowerShell erfolgen.
 
 Wird die Option in den Bausteineinstellungen aktiviert, kann man sich in einfachen Schritten ein PowerShell-Skript erstellen und herunterladen. Dieses erstellte Skript kann dann entweder manuell ausgeführt werden oder in der Windows Aufgabenplanung verwendet werden, um einen Automatismus für das Hochladen neuer Dokumente einzurichten.
 

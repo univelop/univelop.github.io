@@ -43,7 +43,6 @@ die Kacheleinstellungen bearbeitet werden.
 8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
     - Für bestimmte Benutzerrollen freigeben
     - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
-    - Für bestimmte Benutzerteams freigeben
 9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
 
     - **technischer Name ändern**  

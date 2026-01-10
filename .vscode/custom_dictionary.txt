@@ -32,17 +32,13 @@ Bausteineinstellungen
 Beispielausgabe
 Beispieldatensätze
 Beispielrolle
-Beispielteam
 Belegkopf
 Benachrichtigungsfunktion
 Benachrichtigungszeit
 Benutzerbaustein
 Benutzerbausteine
 Benutzerkachel
-Benutzerteam
-Benutzerteams
 Berechtigungseinstellungen
-Besitzerteam
 Bezahlungsfrist
 Buchungsliste
 Buchungsvorschau
@@ -254,7 +250,6 @@ swsteinburg
 Synchronhalten
 Tabellenbaustein
 tabledata
-teamfilter
 tearoffs
 teiligen
 Textformelbaustein
