@@ -14,12 +14,12 @@ redirect_from:
 
 ![await approval docs](\old_assets\workflows\await approval docs.png "await approval docs")
 
-1. <span style="color:#0b5394">**Warten auf**</span>  
-   Ereignis, auf das gewartet werden soll. Es kann auf ein die Genehmigung, die Ablehnung, oder beliebiges von beidem gewartet werden.
-2. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
+1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
    Die Liste, die den Eintrag enthält, welcher genehmigt werden soll.
-3. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
+2. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
    Der Baustein _Genehmigung_, auf dessen Aktion gewartet wird.
    Achtung: der technische Name dieses Bausteins muss gesetzt sein!
-4. <span style="color:#0b5394">**Eintrag ID**</span>  
+3. <span style="color:#0b5394">**Eintrag ID**</span>  
    Die ID zum eindeutigen Identifizieren des Eintrags, welcher genehmigt wird.
+4. <span style="color:#0b5394">**Warten auf...**</span>  
+   Ereignis, bei dem der Workflow fortgesetzt werden soll. Zur Auswahl stehen: _Genehmigung_, _Genehmigung oder Ablehnung_ sowie _Genehmigung, Ablehnung oder Zurücksetzen_. In allen anderen Fällen wird der Workflow abgebrochen, wenn das entsprechende Ereignis eintritt.
