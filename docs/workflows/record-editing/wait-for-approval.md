@@ -23,3 +23,5 @@ redirect_from:
    Die ID zum eindeutigen Identifizieren des Eintrags, welcher genehmigt wird.
 4. <span style="color:#0b5394">**Warten auf...**</span>  
    Ereignis, bei dem der Workflow fortgesetzt werden soll. Zur Auswahl stehen: _Genehmigung_, _Genehmigung oder Ablehnung_ sowie _Genehmigung, Ablehnung oder Zurücksetzen_. In allen anderen Fällen wird der Workflow abgebrochen, wenn das entsprechende Ereignis eintritt.
+
+Um im weiteren Verlauf des Workflows zu differenzieren, welcher der Fälle eingetreten ist, kann darauf geprüft werden, ob der Status des Bausteins _inactive_, _pending_, _approved_ oder _refused_ ist.

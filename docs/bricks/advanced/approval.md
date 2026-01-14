@@ -14,6 +14,8 @@ Mit dem Baustein _Genehmigung_ kann ein Genehmigungsablauf zu einem Datensatz, w
 
 Im ersten Schritt fordert ein Nutzer die Genehmigung von einem weiteren, berechtigten Nutzer an, welcher in den Einstellungen auch festgelegt werden kann. Nur dieser kann im zweiten Schritt nach dem Prüfen des Datensatzes diesen mit einer Bemerkung ablehnen oder genehmigen. Beim Genehmigen kann optional eine Unterschrift vom Genehmiger gefordert sein und der Datensatz gesperrt werden. Die Ablehnung oder Genehmigung kann jederzeit von einem Nutzer mit entsprechenden Rechten zurückgesetzt werden.
 
+Der Status des Bausteins kann _inactive_, _pending_, _approved_ oder _refused_ sein.
+
 ![2approval](\old_assets\record-spec-settings\2approval.png '2approval')
 
 1. <span style="color:#0b5394">**Fester Genehmiger**</span>  
