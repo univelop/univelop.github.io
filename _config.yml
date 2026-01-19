@@ -34,7 +34,7 @@ plugins:
     - jekyll-feed
     - jekyll-remote-theme
     - jekyll-redirect-from
-footer_content: 'Copyright &copy; 2025 Univelop GmbH'
+footer_content: 'Copyright &copy; 2026 Univelop GmbH'
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
