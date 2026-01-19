@@ -22,62 +22,62 @@ Ein Beispielszenario könnte wie folgt aussehen:
 
 ### Ressource
 
-#### Verknüpfung mit (erforderlich)
+### 1. Verknüpfung mit (erforderlich)
 
 Über diese Einstellung muss die Liste ausgewählt werden, welche die Ressourcen beinhaltet.
 
-#### Verknüpfung über (optional)
+### 2. Verknüpfung über (optional)
 
 Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Ressourcen mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
 
-#### Filter und Sortierung (optional)
+### 3. Filter und Sortierung (optional)
 
 Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
 
-#### Eintragsvorschau (optional)
+### 4. Eintragsvorschau (optional)
 
 Die Darstellung der Datensätze auf der Ressourcen-Zuweisungs Oberfläche.
 Standardmäßig wird die Darstellung der verknüpften Ressourcne-Liste verwendet.
 
 ### Zuweisung
 
-#### Verknüpfung mit (erforderlich)
+### 1. Verknüpfung mit (erforderlich)
 
 Über diese Einstellung muss die Liste ausgewählt werden, welche die Zuweisungen beinhaltet.
 
-#### Verknüpfung über (optional)
+### 2. Verknüpfung über (optional)
 
 Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Zuweisungen mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
 
-#### Filter und Sortierung (optional)
+### 3. Filter und Sortierung (optional)
 
 Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
 
-#### Verknüpfung zur Ressource (erforderlich)
+### 4. Verknüpfung zur Ressource (erforderlich)
 
 Hier muss ein Baustein in der Zuweisungs-Liste ausgewählt werden, welcher auf die Ressourcen zeigt.
 Wird eine Ressource vom Nutzer zu einem Zuweisungs-Ziel gezogen, wird dieser Baustein automatisch mit der gezogenen Ressource befüllt - also eine neue Zuweisung erstellt.
 
-#### Verknüpfung zum Zuweisungs-Ziel (erforderlich)
+### 5. Verknüpfung zum Zuweisungs-Ziel (erforderlich)
 
 Hier muss ein Baustein in der Zuweisungs-Liste ausgewählt werden, welcher auf die Ressourcen-Ziele zeigt.
 Wird eine Ressource vom Nutzer zu einem Zuweisungs-Ziel gezogen, wird dieser Baustein automatisch mit dem Zuweisungs-Ziel befüllt, auf welches der Nutzer die Ressource fallengelassen hat.
 
-### Zuweisungs-Ziel (erforderlich)
+### Zuweisungs-Ziel
 
-#### Verknüpfung mit (erforderlich)
+### 1. Verknüpfung mit (erforderlich)
 
 Über diese Einstellung muss die Liste ausgewählt werden, welche die Zuweisungs-Ziele beinhaltet.
 
-#### Verknüpfung über (optional)
+### 2. Verknüpfung über (optional)
 
 Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Zuweisungs-Ziele mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
 
-#### Filter und Sortierung (optional)
+### 3. Filter und Sortierung (optional)
 
 Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
 
-#### Eintragsvorschau (optional)
+### 4. Eintragsvorschau (optional)
 
 Die Darstellung der Datensätze auf der Ressourcen-Zuweisungs Oberfläche.
 Standardmäßig wird die Darstellung der verknüpften Ressourcne-Liste verwendet.
