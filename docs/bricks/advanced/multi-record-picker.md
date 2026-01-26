@@ -15,6 +15,8 @@ der verknüpften Liste gewählt werden können.
 Die Einstellungen dieses Bausteins sind allerdings eingeschränkter, als der Datensatz Baustein.
 Es wird eine Verknüpfung mit einer Liste hergestellt und die Einträge können gefiltert und sortiert werden.
 Über die Funktion _Filter und Sortierung_ lassen sich je nach Einstellung nur bestimmte Datensätze anzeigen.
+Die Sortierung ist nur für die Auswahl der Datensätze relevant- und das auch nur, solange keine Sucheingabe erfolgt ist.
+Auf die Aufzählung der ausgewählten Datensätze hat die konfigurierte Sortierung keinen Einfluss. Diese erfolgt immer alphabetisch.
 
 Mit aktuellem Benutzer vorbelegen:
 Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
@@ -25,6 +27,4 @@ würde man sich die Werte ausgeben lassen.
 
 ![records](\old_assets\record-spec-settings\records.png 'records')
 
-Verknüpfungsmöglichkeiten sind in den Docs unter
-Verknüpfen von Listen
-zu finden.
+Verknüpfungsmöglichkeiten sind in den Docs unter Verknüpfen von Listen zu finden.
