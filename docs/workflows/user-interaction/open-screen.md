@@ -7,4 +7,5 @@ icon: open_in_new
 nav_order: 4
 ---
 
-Demnächst verfügbar
+Öffnet eine gewünschten Seite auf dem Gerät. Dabei können entweder Listen, bestehende Einträge direkt sowie neu erstellte Einträge geöffnet werden.
+Funktioniert nur auf Client-Workflows.

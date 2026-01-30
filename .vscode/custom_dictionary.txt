@@ -260,6 +260,8 @@ themself
 Titeldarstellung
 trackpad
 typedefs
+Typen
+über
 unawaited
 unfocus
 Ungleichheitsfilter
@@ -279,6 +281,7 @@ vorerfasst
 vsync
 Warenausgänge
 wegtuschiert
+werden
 Werteschranke
 wght
 Wiedervorlageeinträge
@@ -295,4 +298,5 @@ Zahlenformeln
 Zieldatensatz
 zoomable
 Zufgriffsfilter
+zurück
 Zustandsstati
