@@ -25,7 +25,7 @@ Dabei kann eine Formel schnell sehr lang werden und an Übersichtlichkeit verlie
 Um dabei trotzdem einen Überblick zu behalten, und besser zu kontrollieren, ob die Formel korrekt ist, sollten diese nicht direkt in die Vorlage/den Text eingebunden werden,
 sondern in einen passenden Baustein ausgelagert werden.
 
-![best practices replace formula](\old_assets\formulary\best_practices replace formula.png "best practices replace formula")
+![best practices replace formula](/old_assets/formulary/best_practices replace formula.png "best practices replace formula")
 
 Dies sollte nicht für jede Formel gemacht werden, sondern nur für diejenigen, die sehr lang sind und/oder häufig verwendet werden. Auch Formeln, die zwar lang sind, aber z.B. nur in einer einzigen Vorlage einmalig verwendet werden, müssen nicht in einen Formelbaustein ausgelagert werden.
 Hier sollte abgewägt werden, wie umfangreich der Listeneintrag im Vergleich zur Vorlage oder zum Text ist.

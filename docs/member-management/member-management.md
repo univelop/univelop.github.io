@@ -12,13 +12,13 @@ Mitglied wird jemand, der einen Einladungslink zum Arbeitsbereich erhalten hat.
 Die Mitgliederverwaltung ist in den Einstellungen des
 Arbeitsbereichs
 (Button _Zahnrad_) zu finden.
-![member administration](\old_assets\global-settings-and-functions\member administration.png "member administration")
+![member administration](/old_assets/global-settings-and-functions/member administration.png "member administration")
 
 Im Bereich "Mitglieder" erhält man einen kompletten Überblick über alle vorhandenen Benutzer des aktuellen Arbeitsbereichs.
-![member list](\old_assets\global-settings-and-functions\member list.png "member list")
+![member list](/old_assets/global-settings-and-functions/member list.png "member list")
 Zusätzlich erhält man die Information, welche Rolle das jeweilige Mitglied derzeit inne hat. Zusätzlich wird für jedes vorhandene Mitglied der letzte Anmeldezeitpunkt bei Univelop angezeigt.
 Bei Klick auf ein Mitglied öffnet sich für Admins die Detailansicht. Auf diesem hat man Überblick über die möglichen als auch aktiven Rollen, die Nutzerdaten sowie den letzten Login-Zeitpunkt und das Gerät. Die aktiven als auch zugeteilten Rollen lassen sich hierüber ändern.
-![members](\old_assets\global-settings-and-functions\members.png 'members')
+![members](/old_assets/global-settings-and-functions/members.png 'members')
 
 Neue Mitglieder/Benutzer können über den Button auf drei Wege dem Arbeitsbereich hinzugefügt werden:
 
@@ -30,7 +30,7 @@ Neue Mitglieder/Benutzer können über den Button auf drei Wege dem Arbeitsberei
    Der Benutzer kann manuell angelegt werden. Meldet sich der Benutzer anschließend mit E-Mail
    und Passwort an, ist der Arbeitsbereich bereits bei dem Benutzer hinterlegt.
 
-    ![new member](\old_assets\global-settings-and-functions\new member.png "new member")
+    ![new member](/old_assets/global-settings-and-functions/new member.png "new member")
 
 3. <span style="color:#0b5394">**Neuer Benutzer durch Import anlegen**</span>  
    Durch den Import einer Excel Liste der Mitglieder können auch neue Nutzer hinzugefügt werden.
@@ -54,7 +54,7 @@ Wird eine neue Rolle in dem Arbeitsbereich angelegt, erhalten Benutzer mit der R
 "Besitzer" automatisch die neuen Rollen zugeteilt, da diese grundsätzlich über alle Funktionalitäten
 des Arbeitsbereichs verfügen sollen.
 
-![role admin owner](\old_assets\global-settings-and-functions\role admin owner other roles.png "role admin owner")
+![role admin owner](/old_assets/global-settings-and-functions/role admin owner other roles.png "role admin owner")
 
 ## <span style="color:#0b5394">Benutzern mehrere Rollen zuordnen</span>
 
@@ -66,7 +66,7 @@ angelegt werden. In der Mitgliederverwaltung sind die einzelnen Benutzer des Arb
 Auf Klick auf einen Benutzer öffnet sich die Detailansicht, wo die Zuordnung der einzelnen Rollen vorgenommen werden kann (Administratoren und Besitzer dürfen Rollen zuordnen). Anschließend erhalten die jeweiligen Benutzer in dem Arbeitsbereich die Berechtigung entsprechend der Zuteilung die
 Rolle zu wechseln.
 
-![link user roles teams](\old_assets\global-settings-and-functions\link user to roles_teams.png "link user roles teams")
+![link user roles teams](/old_assets/global-settings-and-functions/link user to roles_teams.png "link user roles teams")
 
 ## <span style="color:#0b5394">Rolle wechseln</span>
 
@@ -76,8 +76,8 @@ Nach Auswahl der Wechselmethode erscheint ein Pop-Up Fenster mit dem ihm zugetei
 es Benutzern zu erlauben die Ansicht in Univelop vertretungsweise zu wechseln und mit den dafür benötigten Kacheln und
 Datensätzen zu arbeiten, ohne das man die Rechteeinstellungen der Kacheln für Vertretungen, etc. extra ändern muss.
 
-![change role team](\old_assets\global-settings-and-functions\change role_team.png "change role team")  
-![change role team](\old_assets\global-settings-and-functions\change role_team1.png "change role team")
+![change role team](/old_assets/global-settings-and-functions/change role_team.png "change role team")  
+![change role team](/old_assets/global-settings-and-functions/change role_team1.png "change role team")
 
 ## <span style="color:#0b5394">Rechte / Berechtigungen</span>
 
@@ -109,7 +109,7 @@ Folgende weitere Einstellungen können vorgenommen werden:
     geschaltet werden sollen, kann dies je Baustein erfolgen, indem der Baustein versteckt wird und unter
     _Für Benutzerrollen anzeigen_ die entsprechenden Rollen Zugriff erteilen.
 
-    ![hide tile roles](\old_assets\global-settings-and-functions\hide tile roles.png "hide tile roles")
+    ![hide tile roles](/old_assets/global-settings-and-functions/hide tile roles.png "hide tile roles")
 
     Die gleichen Filter können für das Bearbeiten und Löschen gewählt werden.
 

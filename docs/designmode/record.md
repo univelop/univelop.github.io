@@ -8,7 +8,7 @@ nav_order: 2
 Wurde in einer Kachel in der Liste ein Eintrag ausgewählt, erscheint rechts der Listeneintrag. Oben rechts
 befinden sich vier Symbole:
 
-![four symbols](\old_assets\design-mode-setting\four symbols.png "four symbols")
+![four symbols](/old_assets/design-mode-setting/four symbols.png "four symbols")
 
 1. <span style="color:#0b5394">**Benachrichtigungen für den ausgewählten Eintrag aktivieren**</span>
 2. <span style="color:#0b5394">**Designmodus für Einträge öffnen**</span>
@@ -17,7 +17,7 @@ befinden sich vier Symbole:
 
 **Designmodus für Einträge**
 
-![record](\old_assets\design-mode-setting\record.png 'record')
+![record](/old_assets/design-mode-setting/record.png 'record')
 
 1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
 2. <span style="color:#0b5394">**Bearbeiten des Titels** (am Anfang steht immer der Titel des Datensatzes / des Listeneintrags, frei wählbar)</span>

@@ -17,7 +17,7 @@ In den Einstellungen des Workflowsteps wird zunächst die Liste gewählt, in wel
 
 Mit der Option „Anzahl Kopfzeilen“ (4) wählst du aus, ab welcher Zeile in der hochgeladenen Excel-Tabelle, die zu berücksichtigenden Daten beginnen. Wenn in der ersten Zeile also die die Bezeichnungen der Spalten stehen ist der einzugebende Wert „1“.
 
-![import excel docs](\old_assets\workflows\import excel docs.png "import excel docs")
+![import excel docs](/old_assets/workflows/import excel docs.png "import excel docs")
 
 ## <span style="color:#0b5394">**Voraussetzungen für die Verarbeitung der Excel Tabelle**</span>
 
@@ -36,4 +36,4 @@ Um auf Grundlage der eingelesenen Daten neue Datensätze zu erstellen, verwendes
 Beispiel:
 Möchtest du Das Feld Vorname belegen und der entsprechende Wert befindet sich in deiner Excel Tabelle in Spalte A, entspricht der Wert für die Variable ‚zeile [0]‘, siehe Screenshot.
 
-![import excel docs2](\old_assets\workflows\import excel docs2.png "import excel docs2")
+![import excel docs2](/old_assets/workflows/import excel docs2.png "import excel docs2")

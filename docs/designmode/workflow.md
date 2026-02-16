@@ -7,7 +7,7 @@ nav_order: 4
 
 Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop zusammenstellen. Dabei ist der Workflow ein wasserfallartiger Ablauf, sprich er läuft nur in eine Richtung ab.
 
-![designmode workflows](\old_assets\workflows\designmode workflows.png "designmode workflows")
+![designmode workflows](/old_assets/workflows/designmode workflows.png "designmode workflows")
 
 1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
 2. <span style="color:#0b5394">**Der Workflow**</span>

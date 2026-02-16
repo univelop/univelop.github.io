@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Bild Upload_ können beliebig viele Bilder hochgeladen werden.  
 Folgende Einstellungen sind möglich:
 
-![upload picture](\old_assets\record-spec-settings\1upload picture.png "upload picture")
+![upload picture](/old_assets/record-spec-settings/1upload picture.png "upload picture")
 
 1. <span style="color:#0b5394">**Mehrere Bilder hochladen erlauben**</span>  
    Bezieht sich ausschließlich auf den Upload, nicht auf das Aufnehmen von mehrere Bildern über ein mobiles
@@ -35,7 +35,7 @@ In der App auf Android und iOs kann auch auf Bildern gezeichnet werden.
 Bei Klick auf dieses Icon öffnet sich ein neues Fenster. In diesem lässt sich auf dem Bild
 mit verschiedenen Farben und Strichstärken zeichnen und Texte und Formen ins Bild einfügen.
 
-![upload picture draw](\old_assets\record-spec-settings\2upload picture.png "upload picture draw")
+![upload picture draw](/old_assets/record-spec-settings/2upload picture.png "upload picture draw")
 
 Es gibt folgende Funktionen:
 

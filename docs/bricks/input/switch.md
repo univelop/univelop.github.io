@@ -10,7 +10,7 @@ redirect_from:
 
 Mit dem Baustein _Schalter_ werden einfache "Ja / Nein"-, "Erfüllt / Nicht erfüllt"-Abfragen in der App dargestellt.
 
-![switch](\old_assets\record-spec-settings\1switch.png 'switch')
+![switch](/old_assets/record-spec-settings/1switch.png 'switch')
 
 Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Darüber hinaus kann im Ausdruck gewählt
 werden, ob der Schalter als Ja / Nein, Checkbox, _Bezeichnung oder nichts_ oder _Anderer Text oder nichts_ dargestellt werden soll.

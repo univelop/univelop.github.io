@@ -42,7 +42,7 @@ Die Filterung dieses Bausteins könnte aussagen "Gebe mir alle Artikelbewegungen
 Feld Kunde das gleiche steht, wie in meinem Feld Kunde im Lieferschein".
 In Univelop entspricht das "Kunde =B Kunde".
 
-![record-list1](\old_assets\record-spec-settings\record-list1.png 'record-list1')
+![record-list1](/old_assets/record-spec-settings/record-list1.png 'record-list1')
 
 ## <span style="color:#0b5394">Einstellungen der Oberfläche</span>
 
@@ -66,7 +66,7 @@ erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen kö
 Zu guter Letzt gibt es noch "Summe anzeigen". Hier kann zwischen einer Summe über die Anzahl der Datensätze in der verknüpften Liste und einer Summe über einen Baustein gewählt werden. Diese Summe kann gefiltert werden oder damit
 kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend Steuer und Brutto denken.
 
-![record-list2](\old_assets\record-spec-settings\record-list2.png 'record-list2')
+![record-list2](/old_assets/record-spec-settings/record-list2.png 'record-list2')
 
 Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
 Verknüpfen von Listen

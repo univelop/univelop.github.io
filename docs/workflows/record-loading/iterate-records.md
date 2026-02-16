@@ -12,7 +12,7 @@ redirect_from:
 
 Mit dem Baustein _Iteriere über Einträge_ können Workflow Bausteine für jeden Eintrag einer Kachel ausgeführt werden.
 
-![iterate records docs](\old_assets\workflows\iterate records docs.png "iterate records docs")
+![iterate records docs](/old_assets/workflows/iterate records docs.png "iterate records docs")
 
 1. <span style="color:#0b5394">**Technischer Name**</span>  
    Über diesen Namen werden die Bausteine und Daten der Einträge in folgenden Workflow-Bausteinen referenziert, bspw. bestellungen.id für die ID des aktuellen Eintrages.

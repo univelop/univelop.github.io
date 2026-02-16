@@ -13,7 +13,7 @@ Baustein an, da er, im Gegensatz zu dem mehrzeiligen Textfeld, den Vorteil hat, 
 sowie das Datum und die Uhrzeit automatisch mit angelegt werden. Ggf. bietet sich diese Kommentarfunktion an für den
 Austausch von Problemen vor Ort, o. ä.
 
-![comment](\old_assets\record-spec-settings\comment.png 'comment')
+![comment](/old_assets/record-spec-settings/comment.png 'comment')
 
 Um Benutzer direkt in einer Konversation innerhalb eines Kommentarbausteins zu erwähnen,
 kann per '@' und dem folgenden Benutzernamen der entsprechende Benutzer getaggt werden.

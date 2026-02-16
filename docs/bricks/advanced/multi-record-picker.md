@@ -10,7 +10,7 @@ Mit dem Baustein _Datensätze_ wird eine mehrfache Verknüpfung zu beliebigen Da
 Arbeitsbereich hergestellt. Es handelt sich um eine Erweiterung des Datensatz Bausteins, sodass n Datensätze aus
 der verknüpften Liste gewählt werden können.
 
-![records2](\old_assets\record-spec-settings\records2.png 'records2')
+![records2](/old_assets/record-spec-settings/records2.png 'records2')
 
 Die Einstellungen dieses Bausteins sind allerdings eingeschränkter, als der Datensatz Baustein.
 Es wird eine Verknüpfung mit einer Liste hergestellt und die Einträge können gefiltert und sortiert werden.
@@ -25,6 +25,6 @@ In der Nutzung können Datensätze an- und abgewählt werden.
 Der Feldinhalt ist immer eine Liste von Elementen. Es steht per default immer [] in dem Baustein,
 würde man sich die Werte ausgeben lassen.
 
-![records](\old_assets\record-spec-settings\records.png 'records')
+![records](/old_assets/record-spec-settings/records.png 'records')
 
 Verknüpfungsmöglichkeiten sind in den Docs unter Verknüpfen von Listen zu finden.

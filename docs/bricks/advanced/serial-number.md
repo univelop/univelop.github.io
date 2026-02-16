@@ -11,7 +11,7 @@ redirect_from:
 Den Baustein _Laufende Nummer_ wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
 (z. B. Kunden, Bauvorhaben, Lieferscheine, etc.) verwendet.
 
-![rollingNumber](\old_assets\record-spec-settings\rollingnumber.png 'rollingNumber')
+![rollingNumber](/old_assets/record-spec-settings/rollingnumber.png 'rollingNumber')
 
 1. <span style="color:#0b5394">**Präfix**</span>  
    i. d. R. werden hierfür einzelne Buchstaben, Buchstabenkombinationen oder "Jahreszahl-" verwendet.

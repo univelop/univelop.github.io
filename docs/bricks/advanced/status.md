@@ -11,7 +11,7 @@ redirect_from:
 Mit dem Baustein _Status_ können sowohl einfache Zustandsstati vergeben, als auch ein kompletter Prozess im
 Unternehmen dargestellt werden.
 
-![status1](\old_assets\record-spec-settings\1status.png 'status1')
+![status1](/old_assets/record-spec-settings/1status.png 'status1')
 
 1. Über das Plus wird ein neuer Status erfasst
 
@@ -26,11 +26,11 @@ Unternehmen dargestellt werden.
    Ebenso ist zu beachten, dass der Standard-Status bei Workflows ebenso gesetzt wird, selbst wenn im Workflowstep zum Erzeugen ein anderer Status genannt ist.
    Und der Standard Status wird beim Erzeugen über Filterkacheln ebenso gesetzt.
 
-![status switch](\old_assets\record-spec-settings\status switch.png "status switch")
+![status switch](/old_assets/record-spec-settings/status switch.png "status switch")
 
 ---
 
-![status2](\old_assets\record-spec-settings\2status.png 'status2')
+![status2](/old_assets/record-spec-settings/2status.png 'status2')
 
 Folgende Status-Einstellungen (Punkt 2) sind möglich:
 

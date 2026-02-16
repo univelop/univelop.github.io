@@ -18,4 +18,4 @@ im Baustein _Datei Upload_ erfolgt.
 
 Zusätzlich können über ein selbsterstelltes Skript Dateien automatisch aus einem bestimmten Ordner hochgeladen werden. (s. Import und Export / Dateiimport / -export via PowerShell)
 
-![upload file](\old_assets\record-spec-settings\1upload file.png "upload file")
+![upload file](/old_assets/record-spec-settings/1upload file.png "upload file")

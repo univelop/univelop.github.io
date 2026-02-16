@@ -15,4 +15,4 @@ Informationen, o. ä. nicht veränderbar abgelegt werden sollen.
 Alle Dateiformate und ein Mehrfachupload ist möglich. Das Hinterlegen der Dateien erfolgt im Designmodus in den
 Einstellungen des Bausteins selbst.
 
-![file](\old_assets\record-spec-settings\1file.png 'file')
+![file](/old_assets/record-spec-settings/1file.png 'file')

@@ -8,7 +8,7 @@ nav_order: 3
 Nach dem Öffnen einer Kachel wird auf der linken Seite eine Liste der vorhandenen Einträge
 angezeigt. Nach einem Klick auf einen Eintrag erscheint auf der rechten Seite dann der Listeneintrag.
 
-![list](\old_assets\design-mode-setting\list.png 'list')
+![list](/old_assets/design-mode-setting/list.png 'list')
 
 1. <span style="color:#0b5394">**Pfeil zurück in den Arbeitsbereich**</span>
 2. <span style="color:#0b5394">**Suchfunktion über alle Listeneinträge**</span>
@@ -33,7 +33,7 @@ Im Designmodus der Liste kann die Darstellung der Listeneinträge angepasst und 
 
 Zur Anpassung der Darstellung werden auf der linken Seite die verfügbaren Bausteine
 der Listeneinträge angezeigt. Via _Drag and Drop_ können die Bausteine in eins der 6 Felder in der Mitte gezogen werden.
-![list2](\old_assets\design-mode-setting\list2.png 'list2')
+![list2](/old_assets/design-mode-setting/list2.png 'list2')
 Auf der linken Bildschirmhälfte werden alle Bausteine aus dem Datensatz angezeigt, welche eine Darstellung für die Listenansicht besitzen.
 Klickt man auf ein Element aus der Mitte des Bildschirmes, werden Rechts die Einstellungen und das Löschen von einzelnen Bausteinen vorgenommen.
 

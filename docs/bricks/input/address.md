@@ -11,7 +11,7 @@ redirect_from:
 Durch den Baustein _Adresse_ können individuelle Adressen in einem einzelnen Baustein erfasst werden.
 Der Baustein hat zudem ein Karten-Icon, welcher bei Klick die Adresse über Google Maps öffnet. Die Adresse kann nur geöffnet werden, wenn mindestens ein Feld angegeben ist.
 
-![address1](\old_assets\record-spec-settings\1address.png 'address1')
+![address1](/old_assets/record-spec-settings/1address.png 'address1')
 
 ## <span style="color:#0b5394">Einstellungen</span>
 

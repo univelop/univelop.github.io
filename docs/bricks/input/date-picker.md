@@ -10,7 +10,7 @@ redirect_from:
 
 Mit dem Baustein _Datum_ kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit und Anzeige des Wochentags.
 
-![date](\old_assets\record-spec-settings\1date.png 'date')
+![date](/old_assets/record-spec-settings/1date.png 'date')
 
 Das heutige Datum ist immer voreingestellt.
 Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.

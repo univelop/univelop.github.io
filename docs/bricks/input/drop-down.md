@@ -11,7 +11,7 @@ redirect_from:
 Durch den Baustein _Drop-Down_ können individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten
 vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.
 
-![drop-down](\old_assets\record-spec-settings\1drop-down.png 'drop-down')
+![drop-down](/old_assets/record-spec-settings/1drop-down.png 'drop-down')
 
 1. <span style="color:#0b5394">**Optionen (Vorgabe Auswahlmöglichkeiten)**</span>  
    Unter Optionen werden die Auswahlmöglichkeiten vorgegeben. Über das Mülleimer-Symbol können die Auswahlmöglichkeiten

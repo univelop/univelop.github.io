@@ -13,17 +13,17 @@ Zu jeder Unterschrift kann auch eine Klausel erfasst werden (z. B. Hinweis auf A
 
 Im Bearbeitungsmodus ist ein Klick auf das weiße Feld "Hier unterschreiben" notwendig.
 
-![signature](\old_assets\record-spec-settings\1signature.png 'signature')
+![signature](/old_assets/record-spec-settings/1signature.png 'signature')
 
 Es öffnet sich ein neues Fenster, in dem die festgelegte Klausel noch einmal erscheint. Unterschrieben
 werden kann auf einem mobilen Endgerät auf dem Display oder per Mauszeiger. Des Weiteren kann
 der Namen der Person zu notieren. Wird die Unterschrift gespeichert, wird neben dem Klarnamen auch
 das Unterschriftsdatum ausgegeben.
 
-![signature](\old_assets\record-spec-settings\1signature2.png 'signature')
+![signature](/old_assets/record-spec-settings/1signature2.png 'signature')
 
 **Beispielergebnis:**  
-![signature](\old_assets\record-spec-settings\1signature3.png 'signature')
+![signature](/old_assets/record-spec-settings/1signature3.png 'signature')
 
 Das Löschen der Unterschrift erfolgt auf gleichem Weg wie das Unterschreiben.
 Ein Klick auf das Unterschrifts-Feld und anschließend über den Button "Löschen" die Erfassung

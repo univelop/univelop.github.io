@@ -12,7 +12,7 @@ redirect_from:
 
 Über den Baustein _Erstelle einen neuen Eintrag_ wird ein Eintrag für die ausgewählte Kachel erstellt und mit Werten besetzt.
 
-![create record docs](\old_assets\workflows\create record docs.png "create record docs")
+![create record docs](/old_assets/workflows/create record docs.png "create record docs")
 
 1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
    In diese ausgewählte Kachel wird der neue Eintrag eingefügt.

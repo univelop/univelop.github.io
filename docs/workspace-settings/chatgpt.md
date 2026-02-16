@@ -32,7 +32,7 @@ In diesem Falle können die folgenden drei Schritte übersprungen werden und Sie
    Nachdem Sie sich bei OpenAI angemeldet haben, können Sie einen API-Schlüssel erstellen. Dieser Schlüssel ist notwendig, damit Univelop mit ChatGPT kommunizieren kann. Für die Nutzung vom ChatGPT Baustein wird nur _ein einziger_ API-Schlüssel pro Arbeitsbereich benötigt.
    Zur Erstellung des API-Schlüssels muss eine Organisation erstellt werden. Danach muss ein Projekt angelegt werden, um [API-Schlüssel](https://platform.openai.com/settings/organization/api-keys) zu erstellen.
    Bei den Berechtigungen wird ein eingeschränkter Zugriff auf die Modelle und die "Model capabilities" empfohlen:
-   ![api key permissions](\old_assets\chat-gpt-integration\api_key_permissions.png 'api key permissions')
+   ![api key permissions](/old_assets/chat-gpt-integration/api_key_permissions.png 'api key permissions')
    _Stand 10.07.2024, die aktuellen Berechtigungseinstellungen bei der OpenAI API können abweichen_ <br>
    Die [Dokumentation von OpenAI](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) ist hierzu umfangreich und sollte jegliche Fragen beantworten können.
    Sollten trotzdem Fragen offen bleiben, können Sie uns gerne kontaktieren.

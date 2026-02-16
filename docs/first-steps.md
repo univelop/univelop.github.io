@@ -23,7 +23,7 @@ Nach erfolgreicher Registrierung ist die Anmeldung mit der angegebenen E-Mail Ad
 Entweder wird ein neuer Arbeitsbereich erstellt, oder es liegt eine Einladung zu einem Arbeitsbereich via Link vor.
 Der Arbeitsbereich ist die Umgebung, in welcher man sich befindet.
 
-![registration](\old_assets\start-app\registration.png 'registration')
+![registration](/old_assets/start-app/registration.png 'registration')
 
 Falls Sie einen bereits existierenden Account mit OAuth (Microsoft Account, Google Account, Apple Account, Andere...) verbinden wollen geht dies leider nicht direkt. Sie können jedoch:
 
@@ -42,7 +42,7 @@ Falls Sie Fragen oder Probleme dabei haben wenden Sie sich gerne an unseren Supp
 Das Erstellen eines Arbeitsbereichs wird direkt nach der Anmeldung vorgeschlagen. Nach dem Erstellen
 eines Titels des neuen Arbeitsbereichs kann "drauf los gekachelt" werden.
 
-![new-workspace](\old_assets\start-app\new-workspace.png 'new-workspace')
+![new-workspace](/old_assets/start-app/new-workspace.png 'new-workspace')
 
 1. <span style="color:#0b5394">**Neuer Arbeitsbereich**</span>  
    Ein neuer Arbeitsbereich wird angelegt. Gestartet wird im Designmodus ohne Kacheln

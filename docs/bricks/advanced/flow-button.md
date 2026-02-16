@@ -19,4 +19,4 @@ Für mehr Details muss die Ausführungshistorie des Workflows geöffnet und da d
 Die Ausführungshistorie wird in einer Liste nur bei Verwendung des Workflow Buttons (mit verknüpften Workflow) eingeblendet und
 befindet sich oben rechts im Eintrag.
 
-![workflow](\old_assets\record-spec-settings\workflow.png 'workflow')
+![workflow](/old_assets/record-spec-settings/workflow.png 'workflow')

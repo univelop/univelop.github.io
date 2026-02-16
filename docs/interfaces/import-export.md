@@ -12,18 +12,18 @@ nav_order: 3
 Es besteht die Möglichkeit ganze Arbeitsbereiche zu exportieren und wieder zu importieren. Im Designmodus vom Homescreen des Arbeitsbereiches
 befindet sich in den Einstellungen der Button "Export". Nachdem der Button betätigt wurde, erscheint ein Popup-Fenster in dem man wählen kann, ob nur die Struktur des Arbeitsbereiches (nur Kacheln) oder ob sowohl die Struktur als auch die dazugehörigen Daten exportiert werden sollen.
 
-![button export2](\old_assets\import-export\button export2.png "button export2")
+![button export2](/old_assets/import-export/button export2.png "button export2")
 
 Nach Betätigen des Buttons wird der Arbeitsbereich als ZIP-Datei heruntergeladen.
 
-![button export](\old_assets\import-export\button export.png "button export")
+![button export](/old_assets/import-export/button export.png "button export")
 
 Nachdem man in den Homescreen wieder zurückkehrt, kann über den Haus-Button den Arbeitsbereich
 wechseln oder einen neuen anzulegen. Nachdem "+ Neuer Arbeitsbereich" ausgewählt wurde, kann zwischen den zwei
 Hauptoptionen oder einer der Vorlagen gewählt werden. Über die Option "Arbeitsbereich importieren" wird ein Auswahl-Dialog geöffnet, wo
 die zuvor heruntergeladene ZIP-Datei ausgewählt und anschließend eingelesen wird.
 
-![import workspace](\old_assets\import-export\import workspace.png "import workspace")
+![import workspace](/old_assets/import-export/import workspace.png "import workspace")
 
 ## <span style="color:#0b5394">Kacheln</span>
 
@@ -38,12 +38,12 @@ Im Kachel-Designmodus befindet sich, wie beim Export von Arbeitsbereichen, in de
 Beim Exportieren von Kacheln wird eine JSON-Datei heruntergeladen, in welcher sich der Quellcode für
 die Kachel befindet.
 
-![export tile](\old_assets\import-export\export tile.png "export tile")
+![export tile](/old_assets/import-export/export tile.png "export tile")
 
 Im Designmodus des Ziel-Arbeitsbereichs, in dem die Kachel importiert werden soll, kann über den Button
 "Kachel importieren" die zuvor heruntergeladene JSON-Datei über einen Auswahl-Dialog eingelesen werden.
 
-![import tile](\old_assets\import-export\import tile.png "import tile")
+![import tile](/old_assets/import-export/import tile.png "import tile")
 
 **Bitte beachten:**
 
@@ -86,7 +86,7 @@ Ebenso können auch Datensätze importiert und exportiert werden. Dies ist beson
 wenn viele Datensätze und Stammdaten erfasst werden sollen. Der Im- und Export erfolgt immer im
 Bearbeitungsmodus über die drei Punkte der Listenansicht.
 
-![import export record](\old_assets\import-export\import export record.png "import export record")
+![import export record](/old_assets/import-export/import export record.png "import export record")
 
 Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folgenden zwei Szenarien:.
 
@@ -116,7 +116,7 @@ Die Ein- und Ausgabedatei ist im Excel-Format. Zusätzliche Hinweise in den folg
 
 Beim Im- und Export von Datensätzen unterscheidet die App zwischen zwei Arten von Bausteinen. Es gibt die simplen Bausteine, wie z. B. der Baustein _Nummer_, welcher nur aus einer Spalte besteht und somit einfach ein- und ausgelesen werden kann. Die zweite Art bilden die komplexen Bausteine, welche sich nicht durch nur eine Spalte sinnvoll im- und exportieren lassen. Diese bieten in den Einstellungen für jedes wichtige Feld an, einen eindeutigen technischen Namen zu setzten, damit die Werte des Bausteins eindeutig beim Export aufgeteilt werden.
 
-![setting interval](\old_assets\import-export\setting interval.png "setting interval")
+![setting interval](/old_assets/import-export/setting interval.png "setting interval")
 
 Als Beispiel dazu ist der Baustein _Zeitspanne_ mit einer Anfangs- und Endzeit sowie der Gesamtzeit und einer Pausenzeit.
 
@@ -144,7 +144,7 @@ Wird die Option in den Bausteineinstellungen aktiviert, kann man sich in einfach
 <span style="color:#0b5394">**Baustein _Datei Upload_**</span>  
 Um über den Baustein _Datei Upload_ ein Skript für den Automatismus zu erstellen, geht man wie folgt vor:
 
-![settings file upload powershell](\old_assets\import-export\brick settings file upload powershell.png "settings file upload powershell")
+![settings file upload powershell](/old_assets/import-export/brick settings file upload powershell.png "settings file upload powershell")
 
 1. <span style="color:#0b5394">**"Per PowerShell mit Dateisystem synchronisieren" aktivieren**</span>
 2. <span style="color:#0b5394">**Angabe des Pfades unter "Sync mit Ordner"**</span>
@@ -160,7 +160,7 @@ Dieses Skript kann nun via PowerShell manuell ausgelöst werden, oder in die Win
 <span style="color:#0b5394">**Baustein _PDF erstellen_**</span>  
 Wird mit dem Baustein _PDF erstellen_ eine PDF generiert, kann die erzeugte PDF ebenfalls via PowerShell an einem bestimmten Zielordner abgelegt werden.
 
-![settings create pdf powershell](\old_assets\import-export\brick settings create pdf powershell.png "settings create pdf powershell")
+![settings create pdf powershell](/old_assets/import-export/brick settings create pdf powershell.png "settings create pdf powershell")
 
 1. <span style="color:#0b5394">**"Per PowerShell mit Dateisystem synchronisieren" aktivieren**</span>
 2. <span style="color:#0b5394">**Angabe des Pfades unter "Sync mit Ordner"**</span>
@@ -171,4 +171,4 @@ Beispielsweise füllen Mitarbeiter einen Stundennachweis aus und erzeugen daraus
 
 <span style="color:#0b5394">**Beispiel für die Nutzung des Windows Aufgabenplaners:**</span>
 
-![example windows task scheduler](\old_assets\import-export\example windows task scheduler.png "example windows task scheduler")
+![example windows task scheduler](/old_assets/import-export/example windows task scheduler.png "example windows task scheduler")

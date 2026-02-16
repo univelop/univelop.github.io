@@ -16,4 +16,4 @@ Externe Benutzer wählen sich wie gewohnt mit ihren Zugangsdaten in dem Portal a
 
 Bei Interesse sprecht uns gerne an.
 
-![portalmode](\old_assets\1portalmode.png 'portalmode')
+![portalmode](/old_assets/1portalmode.png 'portalmode')

@@ -12,7 +12,7 @@ redirect_from:
 
 Über den Baustein _Warte auf Genehmigung_ wird auf die Genehmigung, Ablehnung oder auf eins von Beidem gewartet und dadurch der Workflow gestoppt, bis das Ereignis eintritt.
 
-![await approval docs](\old_assets\workflows\await approval docs.png "await approval docs")
+![await approval docs](/old_assets/workflows/await approval docs.png "await approval docs")
 
 1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
    Die Liste, die den Eintrag enthält, welcher genehmigt werden soll.

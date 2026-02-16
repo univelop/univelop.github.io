@@ -12,7 +12,7 @@ redirect_from:
 
 Über den Baustein _Wähle Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.
 
-![choose record docs](\old_assets\workflows\choose record docs.png "choose record docs")
+![choose record docs](/old_assets/workflows/choose record docs.png "choose record docs")
 
 1. <span style="color:#0b5394">**Technischer Name**</span>  
    Über diesen Namen sind die Werte des Eintrages im folgenden Workflow zugreifbar

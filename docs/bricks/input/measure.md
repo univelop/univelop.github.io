@@ -12,7 +12,7 @@ Der Baustein _Abmessungen_ dient dazu, Maße zu speichern und optional ein zusä
 
 Es gibt folgende Einstellmöglichkeiten:
 
-![1measure](\old_assets\record-spec-settings\1measure.png '1measure')
+![1measure](/old_assets/record-spec-settings/1measure.png '1measure')
 
 1. <span style="color:#0b5394">**Anzahl der Felder/verschiedenen Maße**</span>
 2. <span style="color:#0b5394">**Bezeichnung eines Feldes**</span>

@@ -14,7 +14,7 @@ mit diesem Baustein eine Pflichtfeldprüfung durchzuführen.
 
 Zum grundsätzlichen Aufbau:
 
-![lock](\old_assets\record-spec-settings\1lock.png 'lock')
+![lock](/old_assets/record-spec-settings/1lock.png 'lock')
 
 1. <span style="color:#0b5394">**Der Sperren-Button**</span>  
    dieser wird bei nicht freigegebenen Datensätzen farblich gekennzeichnet angezeigt.
@@ -35,7 +35,7 @@ Zudem sind gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildsc
 Wird ein Datensatz über den Status gesperrt und es ist kein Sperr-Baustein verbaut, kann der Datensatz nur über das Schloss entsperrt werden.
 Gesperrte Datensätze können nicht gelöscht werden.
 
-![lock2](\old_assets\record-spec-settings\2lock.png 'lock2') ![lock3](\old_assets\record-spec-settings\3lock.png 'lock3')
+![lock2](/old_assets/record-spec-settings/2lock.png 'lock2') ![lock3](/old_assets/record-spec-settings/3lock.png 'lock3')
 
 **Zusammenfassung:**
 
@@ -53,4 +53,4 @@ Gesperrte Datensätze können nicht gelöscht werden.
    Rollen und Rechten
    festgelegt.
 
-![lock4](\old_assets\record-spec-settings\4lock.png 'lock4')
+![lock4](/old_assets/record-spec-settings/4lock.png 'lock4')

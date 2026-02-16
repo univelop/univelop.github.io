@@ -60,7 +60,7 @@ So ist z.B. die Benennung eines Artikels über die EAN oder Artikelnummer besser
 
 ### <span style="color:#0b5394">**Beispielanwendung Zeiterfassung**</span>
 
-![Zeiterfassung](\old_assets\record-spec-settings\chatgpt_time_tracking.png 'Zeiterfassung')
+![Zeiterfassung](/old_assets/record-spec-settings/chatgpt_time_tracking.png 'Zeiterfassung')
 
 | Baustein         | Tooltip                                                                                                                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
