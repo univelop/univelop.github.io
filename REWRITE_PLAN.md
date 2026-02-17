@@ -4,13 +4,13 @@
 
 The Univelop documentation site (`docs.univelop.de`) has grown organically and suffers from major inconsistencies: pages range from 5 to 174 lines, 50% are under 20 lines, formatting varies wildly, and ~15-20 features in the codebase have no documentation at all. The goal is a complete rewrite that is **consistent, clean, expansive, and grounded in the actual code** from `univelop-master/`.
 
-The rewrite will touch ~170+ content pages (excluding changelog), create ~15-20 new pages, and establish standardized templates for each page type.
+The rewrite will touch ~170+ content pages (excluding changelog), create ~25-30 new pages (including concept pages), and establish standardized templates for each page type.
 
 ---
 
-## Phase 0: Foundation — Templates, Structure & Tracking File
+## Phase 0: Foundation — Templates, Structure, Terminology & Tracking File
 
-**Goal:** Establish the standard page templates and create the screenshot tracking file before touching any content.
+**Goal:** Establish the standard page templates, terminology conventions, and tracking file before touching any content.
 
 ### 0.1 Create `SCREENSHOTS_NEEDED.md` in repo root
 Track every screenshot that needs to be created. Format:
@@ -25,7 +25,129 @@ Track every screenshot that needs to be created. Format:
 - New images go in `/assets/docs/{category}/{page-name}/`
 - Fix all 291 backslash-path references across 102 files
 
-### 0.3 Create shared "Allgemeine Baustein-Einstellungen" reference page
+### 0.3 Establish terminology conventions
+
+Many product concepts use their **English names** even in the German UI (confirmed via `de.jsonc`). The documentation must mirror the product, not translate further. When in doubt, check the `de.jsonc` translation file.
+
+**Terms to keep in English** (as used in the product UI):
+
+| English Term | NOT | Usage |
+|---|---|---|
+| Solution | ~~Lösung~~ | Product packaging concept |
+| Solution Store | ~~Lösungs-Shop~~ | Marketplace for solutions |
+| Workflow | ~~Arbeitsablauf~~ | Automation feature |
+| Power Feature | ~~Erweiterte Funktion~~ | Premium feature tier |
+| Credits | ~~Guthaben~~ | Automation consumption unit |
+| Tab | ~~Reiter~~ | Section divider in records |
+| Icon | ~~Symbol~~ | Brick/status icon |
+| Design | ~~Gestaltung~~ | Workspace/tile appearance |
+| Theme | ~~Farbschema~~ | Color scheme |
+| Banner | ~~Titelbild~~ | Workspace header image |
+| Logo | ~~Firmenzeichen~~ | Workspace logo |
+| Home | ~~Startseite~~ | Home screen |
+| Scanner | ~~Abtaster~~ | Barcode scanner feature |
+| Kanban Board | ~~Kanban-Tafel~~ | Board brick/tile |
+| Matrix | ~~Matrix~~ | Matrix brick |
+| Timer | ~~Zeitmesser~~ | Timer brick |
+| ChatGPT | — | AI feature name |
+| AI Agent | ~~KI-Assistent~~ | AI workflow step |
+| Integration | — | External service connection |
+| Managed Integration | — | Univelop-managed integrations |
+| API Key | — | Authentication tokens (use "API-Schlüssel" in settings context) |
+| Status | — | Status brick/concept |
+| Beta | — | Feature maturity label |
+| Feedback | — | User feedback |
+| Request Body / Header | — | Webhook settings |
+| CC / BCC | — | Email fields |
+| PDF / XML / JSON / CSV | — | File format names |
+| HTML | — | Markup format |
+| SMTP / STARTTLS | — | Email protocol names |
+| OpenAI / BigQuery / Zoho | — | Service brand names |
+
+**Terms that ARE translated** (use the German form):
+
+| German Term | NOT | Code/English |
+|---|---|---|
+| Baustein | ~~Brick~~ | Brick |
+| Kachel | ~~Tile~~ | Tile |
+| Datensatz | ~~Record~~ | Record |
+| Arbeitsbereich | ~~Workspace~~ | Workspace |
+| Formel | ~~Expression~~ | Expression |
+| Technischer Name | ~~Technical Name~~ | technicalNameMap |
+| Pflichtfeld | ~~Required Field~~ | Mandatory |
+| Rollen und Rechte | ~~Roles and Rights~~ | UserRole, UserRight |
+| Listenansicht | ~~List View~~ | ListView |
+| Designmodus | ~~Design Mode~~ | DesignMode |
+| Schnellerfassung | ~~Quick Add~~ | QuickAdd |
+
+**Rule of thumb:** If the user sees the English term in the app UI, use it in the docs. If the app shows a German term, use German. Brand names and technical protocol names are always English.
+
+### 0.4 Create concept pages
+
+Create a new `docs/concepts/` section for cross-cutting concepts that are referenced from many places. Each concept page provides a single authoritative explanation, avoiding repetition across brick, workflow, and tile pages.
+
+**File structure:**
+```
+docs/concepts/
+├── concepts.md              (index — "Konzepte", nav_order 3)
+├── technical-names.md       (Technische Namen)
+├── expressions.md           (Formeln & Ausdrücke)
+├── filters.md               (Filter & Sortierung)
+├── record-linking.md        (Listen verknüpfen)
+├── roles-and-rights.md      (Rollen & Rechte)
+├── solutions.md             (Solutions)
+├── power-features.md        (Power Features)
+├── credits.md               (Credits)
+├── offline.md               (Offline-Modus)
+└── lifecycle.md             (Datensatz-Lifecycle)
+```
+
+**Concept pages (priority order):**
+
+| File | Title | Why needed | References from |
+|------|-------|-----------|-----------------|
+| `technical-names.md` | Technische Namen | Central concept for formulas, workflows, API — currently explained ad-hoc | All brick pages, formula pages, API docs |
+| `expressions.md` | Formeln & Ausdrücke | Overview of the expression system, where it's used (formula bricks, conditions, dynamic text) — distinct from the formula *reference* pages | Formula bricks, showIf/enableIf, PDF templates, mail subjects |
+| `filters.md` | Filter & Sortierung | Every list-referencing brick uses filters; currently unexplained | Record list, calendar, scheduler, matrix, table, kanban, tiles |
+| `record-linking.md` | Listen verknüpfen | "Verknüpfung mit" / "Verknüpfung über" appears in 20+ brick settings | Record picker, record list, table, calendar, scheduler, matrix |
+| `roles-and-rights.md` | Rollen & Rechte | Permission model referenced in common settings, tiles, member management | Common settings, tile settings, member management |
+| `solutions.md` | Solutions | Product packaging concept — English name kept per UI | Solution store, workspace settings |
+| `power-features.md` | Power Features | Premium feature tier — referenced on ~15 brick pages | All power-feature brick pages |
+| `credits.md` | Credits | Consumption unit for automations — referenced in workflows, AI bricks | Workflow pages, GPT brick, AI agent |
+| `offline.md` | Offline-Modus | Offline behavior affects many bricks and workflows differently | Various brick and workflow pages |
+| `lifecycle.md` | Datensatz-Lifecycle | Record lifecycle (create → save → lock → delete) referenced in release, status, approval bricks | Release, status, approval, workflow steps |
+
+**Concept page template (Template G):**
+```markdown
+---
+layout: title
+title: [German Name]
+parent: Konzepte
+nav_order: N
+---
+
+[2-4 sentence overview of this concept: what it is, why it matters.]
+
+## Überblick
+
+[Detailed explanation of the concept — 2-5 paragraphs depending on complexity.]
+
+## Verwendung
+
+[Where this concept appears in the product. Bulleted list with links to specific pages.]
+
+## Hinweise
+
+- [Tips, common mistakes, best practices]
+
+## Verwandte Konzepte
+
+- [Links to other concept pages]
+```
+
+Each concept page should be **authoritative but concise** (30-80 lines). Other pages link here instead of re-explaining the concept. Use phrasing like: *"Technische Namen identifizieren Bausteine eindeutig — siehe [Technische Namen](/docs/concepts/technical-names)."*
+
+### 0.5 Create shared "Allgemeine Baustein-Einstellungen" reference page
 
 Before rewriting individual brick pages, create a new page at `docs/bricks/common-settings.md` that documents the settings shared by **all** bricks. This avoids repeating the same information on every brick page. Individual brick pages will link here with a short note like: *"Allgemeine Einstellungen wie Sichtbarkeit, Pflichtfeld und Nur Lesen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben."*
 
@@ -53,7 +175,7 @@ Before rewriting individual brick pages, create a new page at `docs/bricks/commo
 - `univelop-master/packages/uni_core/lib/src/bricks/util/catalog_setting.dart` (CommonSettings)
 - `univelop-master/packages/univelop/lib/bricks/widgets/brick_settings.dart` (settings UI)
 
-### 0.4 Define standard page templates
+### 0.6 Define standard page templates
 
 Every page type gets a consistent structure. The templates below define the **sections** each page must have (content length scales with feature complexity).
 
@@ -224,11 +346,107 @@ redirect_from: [old URLs]
 - [Notes, prerequisites, limitations]
 ```
 
+### 0.7 Implement automatic term-to-link replacement (auto-linking)
+
+To ensure every mention of a known concept, brick, or workflow step is hyperlinked without relying on manual effort, implement an automatic linking system.
+
+**Approach: Custom Jekyll plugin + GitHub Actions deployment**
+
+The site currently deploys via GitHub Pages classic build, which does not support custom plugins. Migration to **GitHub Actions** deployment unlocks custom Ruby plugins.
+
+**Step 1: Create `_data/autolinks.yml`**
+
+A data file mapping terms to their target URLs and optional aliases:
+
+```yaml
+# Concept pages
+- term: Technischer Name
+  url: /docs/concepts/technical-names
+  aliases: [Technische Namen, technischen Namen, technischen Namens]
+- term: Power Feature
+  url: /docs/concepts/power-features
+  aliases: [Power Features]
+- term: Credits
+  url: /docs/concepts/credits
+- term: Solution
+  url: /docs/concepts/solutions
+  aliases: [Solutions]
+- term: Filter & Sortierung
+  url: /docs/concepts/filters
+  aliases: [Filter und Sortierung, Filtern und Sortieren]
+
+# Bricks (selected high-value ones)
+- term: Datensatz
+  url: /docs/bricks/advanced/record-picker
+  aliases: [Datensatz-Baustein]
+  context_only: true  # only link when "Baustein" follows within 2 words
+- term: Status
+  url: /docs/bricks/advanced/status
+  context_only: true
+- term: Tabelle
+  url: /docs/bricks/advanced/table
+  context_only: true
+# ... more entries
+
+# Workflow steps
+- term: Geschäftsprozess
+  url: /docs/workflows/workflows
+  aliases: [Geschäftsprozesse, Geschäftsprozessen]
+```
+
+**Step 2: Create `_plugins/autolink_glossary.rb`**
+
+A Jekyll hook (`:documents, :post_render`) that uses **Nokogiri** to walk the HTML DOM:
+- Iterates over text nodes only (skips `<a>`, `<code>`, `<pre>`, `<h1>`-`<h6>` elements)
+- For each term in `autolinks.yml`, replaces the **first occurrence per page** with a hyperlink
+- Skips linking on the term's own page (no self-links)
+- Supports `context_only` flag for ambiguous terms
+- Excludes pages listed in a `skip_autolink` front matter key
+
+**Step 3: Migrate to GitHub Actions deployment**
+
+Create `.github/workflows/jekyll.yml`:
+```yaml
+name: Deploy Jekyll site
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - uses: actions/upload-pages-artifact@v3
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+Then switch the repo's Pages settings from "Deploy from branch" to "GitHub Actions".
+
+**Fallback (if migration is not desired):** A client-side JavaScript approach using `_includes/autolink.html` that runs in the browser. This works without migration but has no SEO benefit and a slight flash of unlinked content.
+
+**Implementation note:** Auto-linking is done in Phase 7 after all content is written, so the link targets are stable. The `autolinks.yml` file is maintained alongside the docs — when a new concept or brick page is added, an entry is added to the YAML.
+
 ---
 
 ## Phase 1: Structural Changes
 
-**Goal:** Reorganize navigation hierarchy where beneficial.
+**Goal:** Reorganize navigation hierarchy where beneficial, and create concept pages.
 
 ### 1.1 Proposed hierarchy changes
 
@@ -245,9 +463,29 @@ The current hierarchy is mostly sound. Changes:
    - Document: AWS SES, Microsoft (App-Only + Delegated), SendGrid, SMTP/IMAP, OpenAI, Zoho
    - Currently only REST API and Calendar Shares are documented
 
-3. **Keep all other categories as-is** — Bausteine, Kacheln, Workflows, Designmodi, Mitgliederverwaltung, Arbeitsbereich Einstellungen, Changelog are well-structured
+3. **Add "Konzepte" as new top-level section** (nav_order 3)
+   - Houses cross-cutting concept pages that are linked from many places
+   - See Phase 0.4 for the full list of concept pages
+
+4. **Keep all other categories as-is** — Bausteine, Kacheln, Workflows, Designmodi, Mitgliederverwaltung, Arbeitsbereich Einstellungen, Changelog are well-structured
 
 ### 1.2 New pages to create
+
+**Concept pages:**
+
+| File Path | Title | Parent | Layout |
+|-----------|-------|--------|--------|
+| `docs/concepts/concepts.md` | Konzepte | — (top-level) | title |
+| `docs/concepts/technical-names.md` | Technische Namen | Konzepte | title |
+| `docs/concepts/expressions.md` | Formeln & Ausdrücke | Konzepte | title |
+| `docs/concepts/filters.md` | Filter & Sortierung | Konzepte | title |
+| `docs/concepts/record-linking.md` | Listen verknüpfen | Konzepte | title |
+| `docs/concepts/roles-and-rights.md` | Rollen & Rechte | Konzepte | title |
+| `docs/concepts/solutions.md` | Solutions | Konzepte | title |
+| `docs/concepts/power-features.md` | Power Features | Konzepte | title |
+| `docs/concepts/credits.md` | Credits | Konzepte | title |
+| `docs/concepts/offline.md` | Offline-Modus | Konzepte | title |
+| `docs/concepts/lifecycle.md` | Datensatz-Lifecycle | Konzepte | title |
 
 **Shared reference pages:**
 
@@ -490,7 +728,7 @@ The code defines 14 distinct settings destinations. Current docs cover 8. Fill t
 
 ---
 
-## Phase 7: Global Cleanup & Cross-References
+## Phase 7: Global Cleanup, Cross-References & Auto-Linking
 
 ### 7.1 Fix all image paths
 - Replace all `\old_assets\...` with `/old_assets/...` (291 occurrences in 102 files)
@@ -503,15 +741,48 @@ The code defines 14 distinct settings destinations. Current docs cover 8. Fill t
 - No inline `<span style="color:...">` — let the theme handle colors
 - Callout blocks use `{: .warning }`, `{: .hint }`, `{: .important }`, `{: .tip }` consistently
 
-### 7.3 Add cross-references
-- Every brick page links to related workflow steps (e.g. Approval brick → Send Approval Request, Wait for Approval, Reset Approval steps)
-- Every workflow step that operates on bricks links back to the brick
-- Tile pages link to related features
-- Formula pages link to expression bricks
+### 7.3 Add manual cross-references
 
-### 7.4 Update `CLAUDE.md`
+Ensure every page has explicit links to related content. **Linking rules:**
+
+1. **Brick pages:** Link to related workflow steps in a "Verwandte Bausteine" section (e.g. Approval brick → Send Approval Request, Wait for Approval, Reset Approval steps)
+2. **Workflow step pages:** Link back to bricks they operate on, and to related steps
+3. **Tile pages:** Link to related bricks and features
+4. **Formula pages:** Link to expression bricks and concept pages
+5. **Concept pages:** Link to all pages that use the concept (via "Verwendung" section)
+6. **Inline mentions:** Whenever text mentions another brick, step, tile, or concept by name, wrap it in a markdown link. For example: "Der _[Status](/docs/bricks/advanced/status)_-Baustein muss..." instead of "Der _Status_-Baustein muss..."
+
+**Linking checklist per page type:**
+
+| Page Type | Must link to |
+|-----------|-------------|
+| Basic Brick | Related input/advanced bricks, concept pages (if applicable) |
+| Input Brick | Related bricks, workflow steps that read/write this brick |
+| Advanced Brick | Related bricks, workflow steps, concept pages (filters, linking, lifecycle) |
+| Workflow Step | Bricks it operates on, related steps, concept pages (credits, lifecycle) |
+| Tile | Related bricks/lists, concept pages |
+| Concept | All pages that reference this concept |
+
+### 7.4 Implement auto-linking
+
+Execute the auto-linking plan from Phase 0.7:
+
+1. **Create `_data/autolinks.yml`** — Populate with all concept pages, high-value brick pages, and workflow step pages. Estimated ~80-120 entries.
+2. **Create `_plugins/autolink_glossary.rb`** — Implement the Nokogiri-based post-render hook.
+3. **Migrate to GitHub Actions** — Create `.github/workflows/jekyll.yml`, switch repo Pages settings.
+4. **Test & tune** — Build locally, verify links are correct, adjust aliases and exclusions. Ensure no double-linking (manual + auto) by removing manual links that the plugin will handle, or by adding `skip_autolink: true` to specific pages.
+
+### 7.5 Verify terminology consistency
+
+Run a final check across all pages against the terminology table from Phase 0.3:
+- Search for German translations of English terms (e.g. "Lösung" instead of "Solution") and fix
+- Search for English terms that should be German (e.g. "Brick" instead of "Baustein") and fix
+- Verify `de.jsonc` is still the source of truth for any edge cases
+
+### 7.6 Update `CLAUDE.md`
 - Update with any structural changes made
 - Add the template definitions for future consistency
+- Document the auto-linking system and `autolinks.yml` maintenance process
 
 ---
 
@@ -519,16 +790,16 @@ The code defines 14 distinct settings destinations. Current docs cover 8. Fill t
 
 | Phase | Scope | Est. Pages |
 |-------|-------|-----------|
-| 0 | Foundation (templates, tracking file, common-settings page, path convention) | 1 new page + setup |
-| 1 | Structural changes (hierarchy, create new pages) | ~24 new pages created |
+| 0 | Foundation (templates, terminology, concept page definitions, tracking file, common-settings page, auto-linking design) | 1 new page + setup files |
+| 1 | Structural changes (hierarchy, create concept pages, create new content stubs) | ~35 new pages created (11 concepts + 24 others) |
 | 2 | Brick pages | ~78 pages (67 existing + 11 new) |
 | 3 | Workflow step pages | ~51 pages (48 existing + 3 new) |
 | 4 | Tile pages | ~16 pages (15 existing + 1 new) |
 | 5 | Formula pages (merge + rewrite) | ~10 pages |
 | 6 | Remaining sections (designmode, members, workspace settings, interfaces, standalone) | ~41 pages (35 existing + 6 new workspace settings) |
-| 7 | Global cleanup, cross-refs, image fixes | All pages |
+| 7 | Global cleanup, cross-refs, auto-linking, terminology check, image fixes | All pages + plugin + CI |
 
-**Total: ~200 content pages rewritten/created**
+**Total: ~210+ content pages rewritten/created, plus auto-linking infrastructure**
 
 ---
 
@@ -563,4 +834,11 @@ After each phase:
 - `_includes/*.html` — if brick table includes need updating
 - `_layouts/` — no changes expected
 - `docs/**/*.md` — all content pages
+- `docs/concepts/*.md` — new concept pages
+- `_data/autolinks.yml` — auto-linking term definitions (new)
+- `_plugins/autolink_glossary.rb` — auto-linking plugin (new)
+- `.github/workflows/jekyll.yml` — GitHub Actions deployment (new)
 - `CLAUDE.md` — update after structural changes
+
+**Terminology source:**
+- `univelop-master/packages/uni_core/assets/translations/de.jsonc` — German UI translations (source of truth for English vs. German terms)
