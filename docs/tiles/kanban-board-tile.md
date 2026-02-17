@@ -8,24 +8,29 @@ parent: Kacheln
 {: .hint }
 Die Kanban Board Kachel ist ein [Power Feature](/docs/power-features).
 
-Die _Kanban Board Kachel_ ermöglicht die übersichtliche Darstellung und Verwaltung von Einträgen in Spalten nach ihrem Status. Jede Spalte steht für einen Status, z.B. "Offen", "In Bearbeitung" oder "Erledigt". Die Kachel eignet sich besonders für die Organisation von Aufgaben, Projekten oder Prozessen, bei denen Einträge verschiedene Bearbeitungsphasen durchlaufen.
+Die _Kanban Board_-Kachel zeigt Einträge einer Liste als Spaltenansicht, sortiert nach ihrem Status. Jede Spalte entspricht einem Statuswert, z. B. „Offen", „In Bearbeitung" oder „Erledigt". Die Kachel eignet sich besonders für die Organisation von Aufgaben, Projekten oder Prozessen, bei denen Einträge verschiedene Bearbeitungsphasen durchlaufen.
 
-Einträge können schnell per Drag & Drop einfach zwischen den Spalten verschoben werden und so den Status ändern. Zudem lassen sich mit nur einem Klick Einträge – sofern die entsprechenden Rechte vorhanden sind – direkt bearbeiten.
+## Funktionsweise
 
-## <span style="color:#0b5394">Einstellungen</span>
+- Jede Ausprägung des gewählten [Status-Bausteins](/docs/bricks/advanced/status) wird als eigene Spalte dargestellt.
+- Einträge können per **Drag & Drop** zwischen den Spalten verschoben werden, wodurch sich der Status automatisch ändert.
+- Einträge können direkt aus der Kanban-Ansicht geöffnet und bearbeitet werden.
 
-### 1. Verknüpft mit
+## Einstellungen
 
-Zuerst wird eine Referenz auf eine Datensatzliste gesetzt. Diese Liste enthält die Einträge, die in der Kanban Board Kachel angezeigt und verwaltet werden sollen.
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
 
-### 2. Status Baustein
+1. **Verknüpft mit** — Die [Einfache Liste](/docs/tiles/basic-tile), deren Einträge im Kanban Board angezeigt werden.
+2. **Status-Baustein** — Der [Status-Baustein](/docs/bricks/advanced/status), dessen Ausprägungen die Spalten definieren.
+3. **Filter und Sortierung** — Optionale Filter- und Sortierregeln, um die angezeigten Einträge einzuschränken oder zu ordnen.
+4. **Schnellfilter** — Dynamische Filter, die direkt in der Kanban-Ansicht umgeschaltet werden können.
+5. **Eintragsvorschau** — Konfiguration, welche Felder auf den Karten in der Spaltenansicht angezeigt werden.
 
-Um die Spalten der Kanban Board Kachel zu definieren, wird ein Status-Baustein ausgewählt. Jede Ausprägung des Status-Feldes entspricht dabei einer Spalte. Die Einträge werden automatisch anhand ihres Status in die jeweilige Spalte einsortiert.
+## Verwandte Kacheln
 
-### Weitere Einstellungen
+- [Einfache Liste](/docs/tiles/basic-tile) — Die Basisliste für das Kanban Board
+- [Gefilterte Liste](/docs/tiles/filter-tile) — Alternative für vorgefilterte Listenansichten
 
--   **Filter & Sortierung:**  
-    Optional können Filter- und Sortierregeln definiert werden, um die angezeigten Einträge weiter einzuschränken oder zu sortieren.
+## Verwandte Bausteine
 
--   **Eintragsvorschau:**  
-    Die Darstellung der Karten (Einträge) kann individuell angepasst werden. Über die Einstellung "Eintragsvorschau" lässt sich festlegen, welche Informationen auf den Karten angezeigt werden.
+- [Status](/docs/bricks/advanced/status) — Der Baustein, der die Kanban-Spalten definiert

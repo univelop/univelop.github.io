@@ -4,16 +4,21 @@ title: Farbauswahl
 parent: Formular-Bausteine
 grand_parent: Bausteine
 nav_order: 18
-nav_exclude: true
 ---
 
-Der Baustein _Farbauswahl_ ermöglicht die Auswahl einer vordefinierten Farbe aus dem Arbeitsbereich oder einer komplett benutzerdefinierten Farbe. Wird eine Arbeitsbereich Farbe gewählt, so wird diese vom System automatisch aktualisiert, wenn die entsprechende Farbe im Arbeitsbereich geändert wird.
-
-Farbauswahl Bausteine können im Listen-Designmodus als Registerfarbe sowie im normalen Designmodus als Titelfarbe verwendet werden. Die Registerfarbe färbt den Listeneintrag des Datensatzes. Wird an anderen Stellen des Systems mit einem Datensatz-Baustein auf den Eintrag referenziert, so wird dieser dort in der Titelfarbe dargestellt.
+Der Baustein _Farbauswahl_ ermöglicht die Auswahl einer Farbe aus den 8 vordefinierten Arbeitsbereich-Farben oder optional einer benutzerdefinierten Farbe. Wird eine Arbeitsbereich-Farbe gewählt, wird diese automatisch aktualisiert, wenn die entsprechende Farbe im Arbeitsbereich geändert wird.
 
 ## Einstellungen
 
-Der Baustein bietet die folgenden Einstellungsmöglichkeiten:
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
--   ### **Individuelle Farben erlauben**
-    Schalter, welcher die Möglichkeit aktiviert, komplett benutzerdefinierte Farben zu wählen. Standardmäßig ist diese Option aktiviert. Wird sie deaktiviert, kann nur noch eine der 8 vordefinierten Arbeitsbereich Farben gewählt werden.
+1. **Individuelle Farben erlauben** — Ermöglicht die Auswahl einer komplett benutzerdefinierten Farbe zusätzlich zu den Arbeitsbereich-Farben. Bei Deaktivierung können nur die 8 vordefinierten Arbeitsbereich-Farben gewählt werden.
+
+## Hinweise
+
+- Im Listen-Designmodus kann die Farbauswahl als **Registerfarbe** verwendet werden, die den Listeneintrag einfärbt.
+- Im normalen Designmodus kann sie als **Titelfarbe** verwendet werden. Wird an anderen Stellen mit einem Datensatz-Baustein auf den Eintrag referenziert, wird dieser in der Titelfarbe dargestellt.
+
+## Verwandte Bausteine
+
+- [Drop-Down](/docs/bricks/input/drop-down) — Für Auswahl aus textuellen Optionen

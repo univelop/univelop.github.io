@@ -1,40 +1,58 @@
 ---
-title: Arbeitsbereich Einstellungen
-nav_order: 11
 layout: title
-redirect_from:
-    - /docs/design-mode-settings.html
+title: Allgemein
+parent: Arbeitsbereich Einstellungen
+nav_order: 0
 ---
 
-![homeSettings](\old_assets\design-mode-setting\homeSettings.png 'home settings')
+Unter **Allgemein** werden die grundlegenden Angaben des Arbeitsbereichs verwaltet.
 
-1. <span style="color:#0b5394">**Allgemein**</span>
+## Einstellungen
 
-    - Name des Arbeitsbereiches festlegen
-    - Arbeitsbereich ID (**darf nicht verändert werden!**)
-    - Service Account Key
-    - Hinzufügen neuer Mitglieder in den Arbeitsbereich
-    - Zeitzone für Anzeige von Daten
+1. **Name** — der Anzeigename des Arbeitsbereichs. Bei aktivierter Mehrsprachigkeit kann der Name pro Sprache übersetzt werden.
+2. **Arbeitsbereich-ID** — die eindeutige Kennung des Arbeitsbereichs. Diese darf nicht verändert werden.
+3. **Arbeitsbereichstyp** — der Typ des Arbeitsbereichs (Produktion, Test, Entwurf, Solution)
+4. **Zeitzone** — die Zeitzone, die für die Anzeige und Berechnung von Datumswerten verwendet wird (Standard: Europe/Berlin)
 
-2. <span style="color:#0b5394">**Design**</span>
-    - Bilder des Arbeitsbereichs anpassen
-        - Banner für den Homescreen, welches über den Kacheln erscheint
-        - Firmenlogo, erscheint oben links im Homescreen über dem Banner
-        - Hintergrund im Anmeldefenster (s. Einrichtung Portalmodus)
-    - Farbschema des Arbeitsbereiches anpassen:
-        - Auswahl Primär- und Sekundärfarbe
-        - Auswahl bis zu sechs weiteren Kachelfarben
-        - Festlegung über die Farbskala oder einen RTX-Wert
-3. <span style="color:#0b5394">**Benachrichtigungen**</span>
+## Arbeitsbereichstypen
 
-    - Push-Nachrichten anpassen
+| Typ           | Beschreibung                                                     |
+| ------------- | ---------------------------------------------------------------- |
+| **Produktiv** | Standard-Arbeitsbereich für den produktiven Einsatz              |
+| **Test**      | Testkopie eines Produktiv-Arbeitsbereichs                        |
+| **Demo**      | Demo-Arbeitsbereich, der nach 90 Tagen automatisch gelöscht wird |
+| **Solution**  | Arbeitsbereich zum Erstellen von Solutions                       |
 
-4. <span style="color:#0b5394">**Domain**</span>
-    - Portal Domains
-    - Einrichtung Portalmodus
-5. <span style="color:#0b5394">**Arbeitsbereich Zustand**</span>
-    - Hier kann der Arbeitsbereich auf zu Große Zahlen im Zahlenbaustein sowie auf fehlerhafte Formeln geprüft werden.
+## Dokumentation exportieren
 
-Über den Button _Export_ (drei Punkte oben rechts im Bereich _Allgemein_)
-kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
-einen neuen Arbeitsbereich einzufügen. Der Button _Löschen_ führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
+Über das Drei-Punkte-Menü kann eine vollständige Dokumentation des Arbeitsbereichs als eigenständige HTML-Datei exportiert werden. Die Datei lässt sich in jedem Browser öffnen und eignet sich zur Archivierung, zum Wissenstransfer oder als Nachschlagewerk.
+
+### Inhalt der Dokumentation
+
+Die generierte Datei enthält:
+
+- **Arbeitsbereich-Name** und Erstellungsdatum der Dokumentation
+- **Alle Listen** des Arbeitsbereichs (ohne Seiten- und Einstellungs-Kacheln)
+- **Bausteine pro Liste** — Name, Typ und technischer Name jedes Bausteins
+- **Verknüpfungsdiagramme** — interaktive Diagramme, die zeigen, welche Listen über _Datensatz_- und _Datensätze_-Bausteine miteinander verknüpft sind (ein- und ausgehende Verknüpfungen)
+- **Suchfunktion** — eine Suchleiste zum schnellen Finden von Listen und Bausteinen
+- **Inhaltsverzeichnis** — Sprungmarken zu jeder Liste
+
+### Verwendung
+
+1. **Arbeitsbereich-Einstellungen** öffnen und **Allgemein** auswählen
+2. Über das **Drei-Punkte-Menü** den Punkt **Dokumentation exportieren** klicken
+3. Die HTML-Datei wird generiert und zum Download bereitgestellt
+
+Die Datei wird nach dem Muster `{Arbeitsbereich}_Documentation_{Datum}.html` benannt.
+
+### Hinweise
+
+- Die Dokumentation enthält ausschließlich die Struktur (Listen, Bausteine, Verknüpfungen) — keine Datensatzinhalte
+- Die HTML-Datei ist vollständig eigenständig und benötigt keine Internetverbindung zum Anzeigen
+- Die Verknüpfungsdiagramme werden automatisch als Flussdiagramme dargestellt und passen ihr Layout an die Anzahl der verknüpften Listen an
+
+## Export und Löschen
+
+- **Export** — exportiert den gesamten Arbeitsbereich als ZIP-Datei (mit oder ohne Daten)
+- **Löschen** — entfernt den Arbeitsbereich unwiderruflich
