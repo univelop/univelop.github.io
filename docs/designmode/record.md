@@ -5,62 +5,46 @@ parent: Designmodi
 nav_order: 2
 ---
 
-Wurde in einer Kachel in der Liste ein Eintrag ausgewählt, erscheint rechts der Listeneintrag. Oben rechts
-befinden sich vier Symbole:
+Im Eintrags-Designmodus wird die Struktur eines Datensatzes festgelegt. Hier werden Bausteine hinzugefügt, angeordnet und konfiguriert.
 
-![four symbols](\old_assets\design-mode-setting\four symbols.png "four symbols")
+## Designmodus öffnen
 
-1. <span style="color:#0b5394">**Benachrichtigungen für den ausgewählten Eintrag aktivieren**</span>
-2. <span style="color:#0b5394">**Designmodus für Einträge öffnen**</span>
-3. <span style="color:#0b5394">**Duplizieren des ausgewählten Eintrags**</span>
-4. <span style="color:#0b5394">**Löschen des ausgewählten Eintrags**</span>
+Den Eintrags-Designmodus erreicht man über zwei Wege:
 
-**Designmodus für Einträge**
+1. Im [Arbeitsbereich-Designmodus](/docs/designmode/workspace) eine Kachel auswählen und **Designmodus der Einträge** klicken.
+2. Einen Datensatz öffnen und oben rechts das **Stift-Symbol** (Designmodus) klicken.
 
-![record](\old_assets\design-mode-setting\record.png 'record')
+## Bausteine hinzufügen
 
-1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
-2. <span style="color:#0b5394">**Bearbeiten des Titels** (am Anfang steht immer der Titel des Datensatzes / des Listeneintrags, frei wählbar)</span>
-3. <span style="color:#0b5394">**Anzeige welcher Baustein gerade bearbeitet wird**</span>
-4. <span style="color:#0b5394">**Pflichtfeld**</span>
+Auf der linken Seite werden alle verfügbaren Bausteine angezeigt. Per **Drag-and-Drop** können Bausteine in den Datensatz in der Mitte gezogen werden. Die Reihenfolge der Bausteine lässt sich ebenfalls per Drag-and-Drop ändern.
 
-    - Prüfung nach Verlassen des Datensatzes ob der Baustein mit einem Wert gefüllt ist
+## Bausteineinstellungen
 
-5. <span style="color:#0b5394">**Erweiterte Einstellungen**</span>
+Wird ein Baustein im Designmodus ausgewählt, erscheinen rechts die Einstellungen. Die für alle Bausteine gemeinsamen Einstellungen sind unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-    - **Technischer Name**
-      (s. o.)
+Zusätzlich stehen folgende Aktionen zur Verfügung:
 
-    - **Nur Lesen**  
-      Mit dieser Funktion werden Schreibrechte blockiert, können jedoch unter Bedingungen zugelassen werden.
-      Zum Beispiel "Benutzerrolle = Admin" oder auch "Status = Offen". Bedeutet, dass der Baustein nur bearbeitet werden darf
-      wenn jemand die Admin Rolle inne hat oder der Status noch auf "offen" steht. Hierzu wäre der Baustein erforderlich.
+1. **Pflichtfeld** — legt fest, ob der Baustein beim Verlassen des Datensatzes einen Wert enthalten muss
+2. **Nur Lesen** — blockiert Schreibrechte. Über Bedingungen kann festgelegt werden, wann der Baustein trotzdem bearbeitbar ist (z. B. `benutzerrolle = 'Admin'` oder `status = 'Offen'`)
+3. **Baustein verstecken** — blendet den Baustein aus. Über Bedingungen kann gesteuert werden, wann er sichtbar wird
+4. **In Schnellerfassung verstecken** — blendet den Baustein in der Schnellerfassung aus, um die Eingabemaske zu vereinfachen
+5. **Baustein sperren/entsperren** — schützt die Einstellungen des Bausteins vor versehentlichen Änderungen. Beim Sperren muss eine Begründung angegeben werden, damit andere Admins den Grund der Sperrung nachvollziehen können
+6. **In anderen Tab verschieben** — verschiebt den Baustein in einen anderen Tab (wird nur angezeigt, wenn Tabs aktiviert sind)
+7. **Duplizieren** — erstellt eine Kopie des Bausteins. Der technische Name der Kopie erhält den Zusatz "2" und sollte nach dem Duplizieren angepasst werden
+8. **Löschen** — entfernt den Baustein aus dem Datensatz
 
-    - **Baustein verstecken**  
-      Bausteine können versteckt werden, können jedoch unter Bedingungen zugelassen werden.
+## Titel
 
-    - **In Schnellerfassung verstecken**  
-      Wie bereits bei den Kacheleinstellungen beschrieben, können Bausteine in der Schnellerfassung versteckt werden, um
-      die Listenansicht für den Einzelfall der Erfassung zu reduzieren.
+Klickt man im Designmodus auf den Titel, werden Einstellungen für den Datensatz-Titel angezeigt. Der Titel kann aus bis zu drei Bausteinen, einem frei wählbaren Text und Trennzeichen bestehen. Er wird am oberen Bildschirmrand angezeigt, wenn ein Eintrag geöffnet ist.
 
-    - **Duplizieren und Löschen**  
-      Beim Duplizieren eines Datensatzes ist auf den technischen Namen zu achten. Beim Duplizieren wird der
-      ursprüngliche technische Name mit dem Zusatz "2" versehen und sollte nach dem Duplizieren abgeändert werden.
+## Tabs
 
-    - **Baustein sperren/entsperren**
-      Um die Einstellungen des Bausteins zu sichern, so dass diese nicht ohne weiteres änderbar sind, kann der Baustein _gesperrt_ werden.
-      Dabei muss eine Begründung angegeben werden, damit weitere Admins im Designmodus über den Grund der Sperrung bescheid wissen.
-      Ist ein Baustein gesperrt, kann dieser wieder entsperrt werden. Dabei sollte die Begründung der Sperrung beachtet werden.
+Unter der Titel-Einstellung können Tabs aktiviert werden. Tabs unterteilen den Datensatz in mehrere Abschnitte, zwischen denen der Benutzer wechseln kann. Nach der Aktivierung können Tabs hinzugefügt und Bausteine den jeweiligen Tabs zugeordnet werden.
 
-    - **In anderen Tab verschieben**
-      Wird angezeigt, wenn tabs für den Eintrag vorhanden sind. Über den Button wird der ausgewählte Baustein aus dem aktuellen Tab
-      in den gewählten Tab verschoben.
+## Sekundärschlüssel
 
-6. <span style="color:#0b5394">**Titel und weiteres**</span>
-   Klickt man im Designmodus auf den Titel, werden im rechten Bereich Einstellungen für den Titel, Tabs und Sekundärschlüssel angezeigt.
-   Der Titel kann aus bis zu drei Bausteinen, einem selbst vergebenen Text und Trennzeichen bestehen. Dieser wird bei einem geöffneten Eintrag
-   am oberen Bildschirmrand angezeigt.
-   Sobald Tabs über die Einstellung unter der Titel-Einstellung angeschaltet werden, können Tabs hinzugefügt und mit Bausteinen konfiguriert werden.
-   Sekundärschlüssel sind ein Weg, um zu definieren, welche Bausteine unter Einträgen immer einzigartig sein sollen.
-   Es können bis zu drei Bausteine definiert werden, welche in Kombination immer eine einzigartige Kombination ergeben müssen.
-   Sobald mehrere Einträge mit dem selben Sekundärschlüssel existieren, werden diese als solche markiert und in der Listenansicht hervorgehoben.
+Sekundärschlüssel definieren, welche Bausteine unter den Einträgen einer Liste immer einzigartig sein müssen. Es können bis zu drei Bausteine festgelegt werden, die in Kombination eine einzigartige Kombination ergeben müssen. Einträge mit doppelten Sekundärschlüsseln werden als solche markiert und in der Listenansicht hervorgehoben.
+
+## Regeln verwalten
+
+Über **Regeln verwalten** in der rechten Einstellungsleiste können Regel-Workflows erstellt werden. Weitere Informationen dazu finden sich unter [Regeln](/docs/rules).

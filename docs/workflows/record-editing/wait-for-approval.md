@@ -10,18 +10,30 @@ redirect_from:
     - /docs/workflows/edit-records/wait-for-approval.html
 ---
 
-Über den Baustein _Warte auf Genehmigung_ wird auf die Genehmigung, Ablehnung oder auf eins von Beidem gewartet und dadurch der Workflow gestoppt, bis das Ereignis eintritt.
+Mit dem Schritt _Warte auf Genehmigung_ wird der Workflow pausiert, bis der angegebene [Genehmigung](/docs/bricks/advanced/approval)-Baustein genehmigt, abgelehnt oder zurückgesetzt wird.
 
-![await approval docs](\old_assets\workflows\await approval docs.png "await approval docs")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
-   Die Liste, die den Eintrag enthält, welcher genehmigt werden soll.
-2. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
-   Der Baustein _Genehmigung_, auf dessen Aktion gewartet wird.
-   Achtung: der technische Name dieses Bausteins muss gesetzt sein!
-3. <span style="color:#0b5394">**Eintrag ID**</span>  
-   Die ID zum eindeutigen Identifizieren des Eintrags, welcher genehmigt wird.
-4. <span style="color:#0b5394">**Warten auf...**</span>  
-   Ereignis, bei dem der Workflow fortgesetzt werden soll. Zur Auswahl stehen: _Genehmigung_, _Genehmigung oder Ablehnung_ sowie _Genehmigung, Ablehnung oder Zurücksetzen_. In allen anderen Fällen wird der Workflow abgebrochen, wenn das entsprechende Ereignis eintritt.
+1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+2. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, auf den gewartet wird.
+3. **Datensatz-ID** — Die ID des Datensatzes.
+4. **Warten auf** — Das Ereignis, bei dem der Workflow fortgesetzt wird:
+   - **Genehmigung** — Nur bei Genehmigung wird fortgesetzt.
+   - **Genehmigung oder Ablehnung** — Bei Genehmigung oder Ablehnung.
+   - **Genehmigung, Ablehnung oder Zurücksetzen** — Bei jedem Statuswechsel.
 
-Um im weiteren Verlauf des Workflows zu differenzieren, welcher der Fälle eingetreten ist, kann darauf geprüft werden, ob der Status des Bausteins _inactive_, _pending_, _approved_ oder _refused_ ist.
+{: .important }
+Der technische Name des Genehmigung-Bausteins muss gesetzt sein.
+
+## Funktionsweise
+
+Nach der Pause kann der Genehmigungsstatus über den technischen Namen des Bausteins abgefragt werden. Die möglichen Werte sind: `inactive`, `pending`, `approved`, `refused`. Mit einem [Wähle Pfade](/docs/workflows/structure/switch)-Schritt können unterschiedliche Folgeaktionen je nach Ergebnis definiert werden.
+
+## Hinweise
+
+- Dieser Schritt ist **nur in Geschäftsprozessen** verfügbar — nicht in Client- oder Server-Automatisierungen.
+
+## Verwandte Schritte
+
+- [Fordere Genehmigung an](/docs/workflows/record-editing/send-approval-request) — Sendet die Genehmigungsanfrage
+- [Setze Genehmigung zurück](/docs/workflows/record-editing/reset-approval) — Setzt den Genehmigungsstatus zurück

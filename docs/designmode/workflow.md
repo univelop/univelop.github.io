@@ -5,42 +5,45 @@ parent: Designmodi
 nav_order: 4
 ---
 
-Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop zusammenstellen. Dabei ist der Workflow ein wasserfallartiger Ablauf, sprich er läuft nur in eine Richtung ab.
+Im Workflow-Designmodus werden Workflows erstellt und konfiguriert. Ein Workflow besteht aus einer Abfolge von Schritten, die wasserfallartig — also nur in eine Richtung — ablaufen.
 
-![designmode workflows](\old_assets\workflows\designmode workflows.png "designmode workflows")
+## Designmodus öffnen
 
-1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
-2. <span style="color:#0b5394">**Der Workflow**</span>
-3. <span style="color:#0b5394">**Einstellungen**</span>
-    - Name des Workflows sowie manuelles Ausführen und löschen des Workflows
-    - Bei auswählen eines Bausteins im Workflow öffnet sich hier die erweiterten Einstellungen des Bausteins
+Den Workflow-Designmodus einer Kachel erreicht man über die Kacheleinstellungen im [Arbeitsbereich-Designmodus](/docs/designmode/workspace). Im Bereich **Workflows** kann ein neuer Workflow erstellt oder ein bestehender bearbeitet werden.
 
-## <span style="color:#0b5394">Einstellungen von Workflows</span>
+## Aufbau
 
-### <span style="color:#0b5394">Namen</span>
+Der Workflow-Designmodus ist in drei Bereiche unterteilt:
 
-1. <span style="color:#0b5394">**Name des Workflows**</span>  
-   Dieser Name wird in der Liste von Workflows sowie in Workflow-Bausteinen angezeigt.
-1. <span style="color:#0b5394">**Technischer Name**</span>  
-   Der technische Name dient dazu, den Workflow über unsere API anzusprechen. Der technische Name wird nicht zur Darstellung genutzt.
+1. **Links — Bausteinkatalog** — alle verfügbaren Workflow-Schritte, die per Drag-and-Drop in den Workflow gezogen werden können
+2. **Mitte — Workflow** — die Abfolge der Schritte, die den Workflow bilden
+3. **Rechts — Einstellungen** — Einstellungen des Workflows oder des ausgewählten Schritts
 
-### <span style="color:#0b5394">Verhalten</span>
+## Workflow-Einstellungen
 
-1. <span style="color:#0b5394">**Benachrichtigungen anzeigen**</span>  
-   Ob Benachrichtigung am unteren Rande des Bildschirms angezeigt werden soll, wenn der Workflow startet, endet oder Fehler wirft.
-2. <span style="color:#0b5394">**Auf Server ausführen**</span>  
-   Ob der Workflow auf dem Server ausgeführt werden soll. Ist dies deaktiviert, wird der Workflow lokal, also auf dem Gerät des Nutzers ausgeführt.
-   Diese Einstellung ist für einige Workflow Bausteine relevant. So können die Bausteine der Kategorie Nutzerinteraktion, bspw. Zeige Nachricht, nur genutzt werden, wenn der Workflow lokal läuft.
-3. <span style="color:#0b5394">**Nachricht bei Start**</span>
-   Welche Nachricht am unteren Rand des Bildschirms angezeigt werden soll, wenn der Workflow startet.
-4. <span style="color:#0b5394">**Nachricht nach Ausführung**</span>
-   Welche Nachricht am unteren Rand des Bildschirms angezeigt werden soll, wenn der Workflow geendet hat. Wenn leer, wird keine Nachricht angezeigt.
-5. <span style="color:#0b5394">**Zwischenstände anzeigen**</span>
-   Ob der Durchlauf vom Workflow in der Ansicht farblich dargestellt werden soll. Es wird der aktuelle Baustein
+### Name
 
-### <span style="color:#0b5394">Zeit-Trigger</span>
+1. **Name** — der Anzeigename des Workflows, der in der Liste der Workflows und in Workflow-Bausteinen angezeigt wird
+2. **Technischer Name** — dient dazu, den Workflow über die REST-API anzusprechen. Wird nicht zur Darstellung genutzt.
 
-Diese Einstellungsgruppe wird nur angezeigt, wenn der Workflow auf dem Server läuft.
-Hier kann eingestellt werden, dass der Workflow regelmäßig zu einer bestimmten Zeit ausgeführt wird.
-Es wird hier die Zeit und das Datum der erstmaligen Ausführung gewählt. Soll der Workflow nicht nur einmal ausgeführt werden, kann hier auch ein Intervall eingestellt werden. Will man z.B., dass ein Workflow jeden Montag um 8 Uhr ausgeführt wird, so stellt man den nächsten Montag 08:00 Uhr im Kalender ein
-und als Intervall "X mal pro Woche" und dann eine 1 ein.
+### Verhalten
+
+1. **Benachrichtigungen anzeigen** — steuert, ob am unteren Bildschirmrand eine Meldung erscheint, wenn der Workflow startet, endet oder einen Fehler wirft
+2. **Auf Server ausführen** — legt fest, ob der Workflow auf dem Server läuft. Ist dies deaktiviert, läuft er lokal auf dem Gerät des Nutzers. Schritte der Kategorie [Benutzerinteraktion](/docs/workflows/user-interaction/user-interaction) können nur in lokal ausgeführten Workflows verwendet werden.
+3. **Nachricht bei Start** — Meldung, die beim Start des Workflows angezeigt wird
+4. **Nachricht nach Ausführung** — Meldung, die nach Abschluss des Workflows angezeigt wird. Bleibt das Feld leer, wird keine Meldung angezeigt.
+5. **Zwischenstände anzeigen** — hebt den aktuell ausgeführten Schritt im Workflow farblich hervor
+
+### Zeit-Trigger
+
+Diese Einstellungsgruppe wird nur angezeigt, wenn der Workflow **auf dem Server** läuft. Hier kann eingestellt werden, dass der Workflow regelmäßig zu einer bestimmten Zeit automatisch ausgeführt wird.
+
+1. **Datum und Uhrzeit** — Zeitpunkt der erstmaligen Ausführung
+2. **Intervall** — Wiederholungsrhythmus (z. B. "X mal pro Woche")
+
+Soll ein Workflow beispielsweise jeden Montag um 8:00 Uhr laufen, wird der nächste Montag um 08:00 Uhr als Startzeit eingestellt und das Intervall auf "1 mal pro Woche" gesetzt.
+
+## Weitere Aktionen
+
+- **Manuell ausführen** — startet den Workflow sofort
+- **Löschen** — entfernt den Workflow

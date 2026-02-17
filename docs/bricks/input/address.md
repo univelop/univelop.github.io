@@ -8,23 +8,24 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/address.html
 ---
 
-Durch den Baustein _Adresse_ können individuelle Adressen in einem einzelnen Baustein erfasst werden.
-Der Baustein hat zudem ein Karten-Icon, welcher bei Klick die Adresse über Google Maps öffnet. Die Adresse kann nur geöffnet werden, wenn mindestens ein Feld angegeben ist.
+Mit dem Baustein _Adresse_ können strukturierte Adressen mit Straße, Hausnummer, PLZ, Ort und optional Land erfasst werden. Über das Karten-Symbol kann die erfasste Adresse direkt in der Karten-App (z. B. Google Maps) geöffnet werden.
 
-![address1](\old_assets\record-spec-settings\1address.png 'address1')
+## Einstellungen
 
-## <span style="color:#0b5394">Einstellungen</span>
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Baustein bietet die folgenden Einstellungsmöglichkeiten:
+1. **Inklusive Land** — Blendet ein zusätzliches Feld für den Ländernamen ein.
+2. **Hausnummer anzeigen** — Blendet das Feld für die Hausnummer ein oder aus. Standard: aktiviert.
+3. **Adresse übernehmen** — Ermöglicht die automatische Übernahme einer Adresse aus einem anderen Adress-Baustein im selben Eintrag.
+4. **Quell-Baustein** — Der Adress-Baustein, aus dem die Adresse übernommen wird. Nur verfügbar wenn _Adresse übernehmen_ aktiviert ist.
+5. **"Aktueller Standort"-Button zeigen** — Zeigt einen Button, mit dem auf iOS- und Android-Geräten automatisch der aktuelle Standort als Adresse eingetragen werden kann.
 
--   <span style="color:#0b5394">**Inklusive Land**</span>
+## Hinweise
 
-    Die Einstellung _Inklusive Land_ dient dem Ein- und Ausblenden eines zusätzlichen Feldes, welches mit einem Landesnamen ausgefüllt wird. Dies wird beim Öffnen der Adresse mit abgefragt.
+- Die einzelnen Adressfelder (Straße, Hausnummer, PLZ, Ort, Land) stehen als separate Werte in Formeln und Workflows zur Verfügung.
+- Für die Nutzung des „Aktueller Standort"-Buttons muss der Gerätestandort aktiviert und die Standortberechtigung für Univelop erteilt sein. Die Genauigkeit kann je nach Netzwerkverbindung variieren.
+- Die Adresse kann nur über das Karten-Symbol geöffnet werden, wenn mindestens ein Feld ausgefüllt ist.
 
--   <span style="color:#0b5394">**"Aktueller Standort"-Button zeigen**</span>
+## Verwandte Bausteine
 
-    Ist diese Einstellung aktiviert, wird unter den Adressfeldern ein Button angezeigt, mit welchem auf iOS und Android Geräten automatisch der aktuelle Standort eingetragen werden kann.
-
-    Um diese Funktion nutzen zu können, muss auf den jeweiligen iOS und Android Geräten der Gerätestandort aktiviert sein und der Univelop App müssen in den Geräteeinstellungen die Berechtigungen auf den Gerätestandort erteilt werden.
-
-    Die Genauigkeit kann von verschiedenen Faktoren, wie unter anderem eine aktive WLAN-Verbindung, beeinflusst werden.
+- [GPS Position](/docs/bricks/input/geo-location) — Für exakte GPS-Koordinaten statt strukturierter Adressen

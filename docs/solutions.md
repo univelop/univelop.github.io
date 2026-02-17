@@ -4,9 +4,17 @@ nav_order: 15
 layout: title
 ---
 
-Solutions sind vorgefertigte Prozess-Pakete, mit denen gängige Anwendungsfälle – vom Onboarding bis zur Inventur – in wenigen Sekunden aktiviert werden können. Jede Solution bringt alle benötigten Listen, Bausteine, Workflows und Kacheln bereits mit - komplett fertig konfiguriert.
+Solutions sind vorgefertigte Prozess-Pakete, mit denen gängige Anwendungsfälle — vom Onboarding bis zur Inventur — in wenigen Sekunden aktiviert werden können. Jede Solution bringt alle benötigten Listen, Bausteine, Workflows und Kacheln bereits fertig konfiguriert mit.
 
-Solutions können sowohl öffentlich als auch privat, zum Beispiel zur Versionierung zwischen Testumgebung und Produktivumgebung genutzt werden. Öffentliche Solutions können in der Beta unseres [Solution-Stores](https://app.univelop.de/#/store) eingesehen werden.
+## Funktionsweise
+
+Solutions können sowohl **öffentlich** als auch **privat** genutzt werden. Private Solutions eignen sich beispielsweise zur Versionierung zwischen Test- und Produktivumgebung.
+
+Öffentliche Solutions können im Solution-Store eingesehen werden: [app.univelop.de/#/store](https://app.univelop.de/#/store)
 
 {: .hint }
-Der Solution-Store ist aktuell noch in der Beta, einige Funktionen, wie die Installation in den eigenen bestehenden Arbeitsbereich, stehen daher noch nicht zur Verfügung.
+Der Solution-Store befindet sich aktuell in der Beta. Einige Funktionen, wie die Installation in einen bestehenden Arbeitsbereich, stehen daher noch nicht zur Verfügung.
+
+## Solutions erstellen
+
+Um eigene Solutions zu erstellen, wird ein Arbeitsbereich vom Typ **Solution** benötigt. Dieser kann in den [Arbeitsbereich-Einstellungen](/docs/workspace-settings/general) konfiguriert werden.

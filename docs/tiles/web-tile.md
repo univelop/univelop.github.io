@@ -5,11 +5,16 @@ nav_order: 7
 parent: Kacheln
 ---
 
-Die Kachel _Website_ ermöglicht die Einbindung einer Website direkt in Univelop ohne die Nutzung eines separaten
-Webbrowsers o. ä. Diese Methode bietet sich zum Beispiel für das Abrufen von Daten von Websites, Nutzung von webbasierten Tools, usw.
+Die _Website_-Kachel ermöglicht die Einbindung einer externen Website direkt in Univelop. Beim Öffnen wird die hinterlegte URL geladen und als eingebettete Webseite angezeigt. Das eignet sich für das Abrufen externer Informationen, die Nutzung webbasierter Tools oder die Anzeige von Dashboards.
 
-![tile website](\old_assets\software-structure\tile website.png "tile website")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Name der Kachel**</span>
-2. <span style="color:#0b5394">**URL**</span>  
-   Hier wird aufzurufende Website eingesetzt
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
+
+1. **URL** — Die Adresse der Website, die beim Öffnen der Kachel geladen wird. Muss mit `http://` oder `https://` beginnen.
+2. **Im Browser einbetten** — Steuert, ob die Website innerhalb von Univelop eingebettet oder in einem externen Browser geöffnet wird.
+3. **Auf Mobilgeräten einbetten** — Steuert, ob die Einbettung auch auf Mobilgeräten erfolgt.
+
+## Hinweise
+
+- Nicht alle Websites erlauben die Einbettung in andere Anwendungen. Websites mit restriktiven Sicherheitseinstellungen (z. B. `X-Frame-Options`) werden möglicherweise nicht angezeigt.

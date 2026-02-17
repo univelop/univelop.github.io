@@ -13,7 +13,7 @@ Der Baustein _Artikel Scanner_ reiht sich nun in die Bausteinfamilie mit ein. Ü
 
 Ein weiterer Baustein, der die alltägliche Arbeit um ein vielfaches vereinfacht. Sprecht uns gerne darauf an.
 
-![release article scanner](\old_assets\latest-updates\release article scanner.png "release article scanner")
+![release article scanner](/old_assets/latest-updates/release article scanner.png "release article scanner")
 
 ## <span style="color:#0b5394">**Offlinefähigkeit für Bilder- und Dateiupload**</span>
 
@@ -23,7 +23,7 @@ Ab sofort wird der Offlinemodus auch auf Bilder- und Dateiuploads ausgeweitet. S
 
 Der Baustein _Datum_ wurde erweitert und es kann sich nun zusätzlich zu dem Datum auch der Wochentag angezeigt werden lassen. Dazu ist in den Einstellungen des Bausteins ein Switch eingebaut, der dazu führt, dass vor dem Datum das jeweilige Wochentag-Kürzel mit angezeigt wird.
 
-![release date with day of the week](\old_assets\latest-updates\release date with day of the week.png "release date with day of the week")
+![release date with day of the week](/old_assets/latest-updates/release date with day of the week.png "release date with day of the week")
 
 ## <span style="color:#0b5394">**Performanceverbesserungen**</span>
 

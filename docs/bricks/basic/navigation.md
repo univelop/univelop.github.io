@@ -8,28 +8,28 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-base/navigate.html
 ---
 
-Um bei Prozessen zwischen mehreren Einträgen zu vereinfachen und die Nutzbarkeit für bspw. Portal-Nutzer zu verbessern, kann der Baustein _Navigation_ genutzt werden. Dieser Baustein ist ein Button, welcher mit verschiedenen Navigationszielen versehen werden kann.
+Der Baustein _Navigation_ zeigt einen Button an, der bei Klick eine konfigurierbare Navigation innerhalb der App auslöst. Er vereinfacht Prozesse zwischen mehreren Listen und verbessert die Nutzbarkeit, insbesondere für Portal-Nutzer.
 
-Die Einstellungen des Bausteins umfassen die Auswahl der Aktion selber und zusätzliche Filter.
-Die Aktion legt das "Ziel" der Navigation fest, also was bei Klick auf den Button geschehen soll.
-Mit den Filtern kann diese Aktion weiter eingeschränkt werden, um bspw. nur bestimmte Einträge sichtbar zu machen.
+## Einstellungen
 
-## <span style="color:#0b5394">**Navigation zu einer Liste**</span>
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Mit der Aktion "Zu Liste navigieren" kann die Navigation zu einer Liste eingestellt werden. In den Einstellungen wird hier die zugehörige
-Liste ausgewählt. Dazu können Filter eingestellt werden, um die gezeigten Einträge der Liste zu beschränken.
+1. **Aktion** — Das Navigationsziel, das bei Klick auf den Button ausgelöst wird:
+   - _Zu Liste navigieren_ — Öffnet eine ausgewählte Liste. Über Filter können die angezeigten Einträge eingeschränkt werden.
+   - _Zu Eintrag navigieren_ — Öffnet einen bestimmten Eintrag. Die Filter müssen den Eintrag eindeutig identifizieren. Wird kein Eintrag gefunden, erhält der Nutzer eine entsprechende Meldung. Werden mehrere Einträge gefunden, wird kein Eintrag geöffnet.
+   - _Neuen Eintrag erstellen_ — Erstellt einen neuen Eintrag in einer ausgewählten Liste. Über Filter können dem neuen Eintrag Standardwerte mitgegeben werden.
+   - _Zum Homescreen navigieren_ — Navigiert zurück zum Homescreen des Arbeitsbereichs.
+   - _Zu Seite navigieren_ — Öffnet eine bestimmte Seite innerhalb des Arbeitsbereichs.
+2. **Zielliste** — Die Liste, zu der navigiert wird oder in der ein Eintrag erstellt/gesucht wird. Verfügbar bei den Aktionen _Zu Liste navigieren_, _Zu Eintrag navigieren_ und _Neuen Eintrag erstellen_.
+3. **Filter** — Filterbedingungen, um die Navigation einzuschränken oder Standardwerte zu setzen.
+4. **Sortierung** — Der Baustein, nach dem die Ergebnisse sortiert werden, sowie die Sortierrichtung (aufsteigend/absteigend).
+5. **Als Dialog öffnen** — Öffnet das Navigationsziel als Dialog-Overlay statt als vollständige Navigation.
+6. **Eintrag erstellen, wenn keiner gefunden** — Erstellt automatisch einen neuen Eintrag, wenn die Filter kein Ergebnis liefern. Nur verfügbar bei _Zu Eintrag navigieren_.
 
-## <span style="color:#0b5394">**Navigation zu einem Eintrag**</span>
+## Hinweise
 
-Mit der Aktion "Zu Eintrag navigieren" kann die Navigation auf einen konkreten Eintrag eingestellt werden.
-In den Einstellungen wird hier die Liste ausgewählt. Hier werden die Filter gesetzt, welche den konkreten Eintrag festlegen.
+- Dieser Baustein ist in geteilten Datensätzen (Shared Record Specs) nicht verfügbar.
 
-Wird anhand der Filter kein Eintrag gefunden, erhält der Nutzer eine entsprechende Meldung.
-Grenzen die Filter nicht stark genug ein, so dass mehrere Einträge gefunden werden,
-wird der Nutzer darauf hingewiesen und es wird kein Eintrag geöffnet.
+## Verwandte Bausteine
 
-## <span style="color:#0b5394">**Navigation zu einem neuen Eintrag**</span>
-
-"Erstelle einen neuen Eintrag" dient zum Erstellen eines Eintrages auf Knopfdruck.
-In den Einstellungen wird hier die Liste ausgewählt, in welcher der neue Eintrag erstellt werden soll.
-Hier können zusätzlich Filter gesetzt werden, um den neuen Eintrag mit gewünschten Werten zu füllen.
+- [Web Link](/docs/bricks/basic/web-button) — Für Navigation zu externen URLs

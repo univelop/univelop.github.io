@@ -8,16 +8,22 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/file-link.html
 ---
 
-Der _Datei Referenz_ Baustein bietet die Möglichkeit, Dateien und Bilder aus einem verknüpften Datensätzen oder aus anderen Tabs oder Abschnitten anzuzeigen.
-Dadurch müssen keine Dateien mehr doppelt hochgeladen oder synchronisiert werden.
-Bilder werden wie Dateien einfach per Dateinamen angezeigt und können nur heruntergeladen werden.
+Der Baustein _Datei Referenz_ zeigt Dateien und Bilder aus einem verknüpften Datensatz oder aus anderen Tabs bzw. Abschnitten des gleichen Eintrags an. Dateien müssen dadurch nicht doppelt hochgeladen oder synchronisiert werden.
 
-## <span style="color:#0b5394">Einstellung</span>
+## Einstellungen
 
-Der Baustein hat zwei Modi.
-Der Modus "Datei aus diesem Datensatz anzeigen" ermöglicht es, Dateien aus dem aktuellen Datensatz anzuzeigen, auch die, welche in einem anderen
-Tab liegen oder durch Rechte für den Benutzer nicht sichtbar sind.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Die Einstellung "Datei aus verknüpftem Datensatz anzeigen" ermöglicht es, Dateien aus einem anderen Datensatz anzuzeigen.
-In diesem Modus muss ein Datensatz-Baustein angegeben werden, welcher den verknüpften Datensatz enthält.
-Aus diesem kann dann eine beliebige Datei angezeigt werden.
+1. **Modus** — Bestimmt die Quelle der angezeigten Dateien:
+   - _Datei aus diesem Datensatz anzeigen_ — Zeigt Dateien aus dem aktuellen Eintrag an, auch wenn diese in einem anderen Tab liegen oder für den Benutzer nicht sichtbar sind.
+   - _Datei aus verknüpftem Datensatz anzeigen_ — Zeigt Dateien aus einem über einen _Datensatz_-Baustein verknüpften Eintrag an.
+2. **Quell-Baustein** — Der Datei-Upload-, Bild-Upload-, Zeichnungs- oder PDF-Baustein, dessen Dateien angezeigt werden.
+
+## Hinweise
+
+- Im Unterschied zur _Bild Referenz_ werden Dateien als einfache Dateinamen angezeigt und können nur heruntergeladen werden.
+
+## Verwandte Bausteine
+
+- [Bild Referenz](/docs/bricks/advanced/image-link) — Für Bildreferenzen mit Bildvorschau
+- [Datei Upload](/docs/bricks/input/file-picker) — Zum direkten Hochladen von Dateien

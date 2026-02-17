@@ -5,9 +5,20 @@ nav_order: 8
 parent: Kacheln
 ---
 
-Die Kachel dient dem Gruppieren von mehreren Kacheln und dem aufräumen vom Homescreen.
-Es können beliebige Kacheln in den Ordner untergebracht werden.
+Die _Ordner_-Kachel gruppiert mehrere Kacheln auf dem Homescreen, um für Übersicht zu sorgen. Das Prinzip ist analog zu App-Ordnern auf dem Smartphone.
 
-Die Ordnerkachel funktioniert analog zum App-Ordner auf dem Homescreen des Smartphones.
-Hier werden nur die Kacheln in den Ordner nicht per Drag-and-Drop verschoben,
-sondern in den Einstellungen der Ordnerkachel aus der Kachelliste ausgewählt.
+## Funktionsweise
+
+- Beim Öffnen des Ordners werden alle zugehörigen Kacheln angezeigt.
+- Die Zuordnung von Kacheln zum Ordner erfolgt über die Einstellungen der jeweiligen Kachel, nicht per Drag & Drop.
+- Ordner können beliebige Kacheltypen enthalten.
+
+## Einstellungen
+
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
+
+1. **Enthaltene Kacheln** — Die Kacheln, die in diesem Ordner angezeigt werden sollen. Die Zuordnung erfolgt in den Einstellungen der einzelnen Kacheln über das Feld _Ordner_.
+
+## Hinweise
+
+- Ordner können nicht verschachtelt werden — ein Ordner kann keinen weiteren Ordner enthalten.

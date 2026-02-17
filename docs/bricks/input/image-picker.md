@@ -8,40 +8,39 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/upload-image.html
 ---
 
-Mit dem Baustein _Bild Upload_ können beliebig viele Bilder hochgeladen werden.  
-Folgende Einstellungen sind möglich:
+Mit dem Baustein _Bild Upload_ können Bilder pro Eintrag hochgeladen oder mit der Kamera aufgenommen werden. Auf hochgeladenen Bildern kann direkt gezeichnet und annotiert werden.
 
-![upload picture](\old_assets\record-spec-settings\1upload picture.png "upload picture")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Mehrere Bilder hochladen erlauben**</span>  
-   Bezieht sich ausschließlich auf den Upload, nicht auf das Aufnehmen von mehrere Bildern über ein mobiles
-   Endgerät
-2. <span style="color:#0b5394">**Zoom verbieten**</span>
-3. <span style="color:#0b5394">**Qualität**</span>  
-   Einstellung der hochgeladenen Qualität
-4. <span style="color:#0b5394">**Größe**</span>  
-   Wie groß sollen die Bilder in dem Ausdruck angezeigt werden
-5. <span style="color:#0b5394">**Anordnung der Bilder**</span>  
-   Auswahlmöglichkeiten: nebeneinander oder untereinander  
-   **Bitte beachten:**  
-   In der App werden Bilder immer standardmäßig nebeneinander dargestellt.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Baustein _Bild Upload_ ist sowohl online- als auch offlinefähig.
+1. **Maximale Anzahl** — Maximale Anzahl an Bildern pro Eintrag. Standard: 100.
+2. **Einzelnes Bild überschreiben** — Ersetzt das vorhandene Bild beim Hochladen eines neuen, wenn die maximale Anzahl auf 1 gesetzt ist.
+3. **Neueste zuerst** — Zeigt die zuletzt hochgeladenen Bilder oben an.
+4. **Zoom verbieten** — Deaktiviert die Zoom-Funktion beim Öffnen von Bildern.
+5. **Qualität** — Bildqualität beim Upload:
+   - _Niedrig_ — Komprimiert (Standard)
+   - _Mittel_ — Mittlere Komprimierung
+   - _Hoch_ — Geringe Komprimierung
+   - _Original_ — Keine Komprimierung
+6. **Bilder in Vorschau** — Anzahl der in der Vorschau angezeigten Bilder. Standard: 15.
+7. **Beim Duplizieren nicht kopieren** — Verhindert, dass Bilder beim Duplizieren eines Eintrags mit kopiert werden.
+8. **Wasserzeichen: Standort** — Fügt die GPS-Koordinaten als Wasserzeichen auf dem Bild ein.
+9. **Koordinatenformat** — Format der Standort-Koordinaten: _Dezimalgrad_ oder _Grad, Minute, Sekunde_.
+10. **Wasserzeichen: Zeitstempel** — Fügt Datum und Uhrzeit als Wasserzeichen auf dem Bild ein.
+11. **Wasserzeichen-Position** — Position des Wasserzeichens auf dem Bild (unten links, unten rechts, oben links, oben rechts).
 
-## <span style="color:#0b5394">Zeichnen in Bildern</span>
+### Ausdruck-Einstellungen
 
-In der App auf Android und iOs kann auch auf Bildern gezeichnet werden.
-Öffnet man ein Bild, so gibt es ein Icon _Zeichnen_ links neben dem Teilen-Icon.
-Bei Klick auf dieses Icon öffnet sich ein neues Fenster. In diesem lässt sich auf dem Bild
-mit verschiedenen Farben und Strichstärken zeichnen und Texte und Formen ins Bild einfügen.
+12. **Größe im Ausdruck** — Darstellungsgröße der Bilder im PDF-Ausdruck: _Klein_, _Mittel_ (Standard), _Groß_.
+13. **Anordnung im Ausdruck** — Anordnung der Bilder im Ausdruck: _Nebeneinander_ (Standard) oder _Untereinander_.
 
-![upload picture draw](\old_assets\record-spec-settings\2upload picture.png "upload picture draw")
+## Hinweise
 
-Es gibt folgende Funktionen:
+- In der App auf iOS und Android kann direkt auf Bildern gezeichnet werden. Beim Öffnen eines Bildes gibt es ein Zeichen-Icon mit Funktionen für Pinsel, Text, Formen, Radierer sowie Farb- und Strichstärkenanpassung.
+- Der Baustein ist sowohl online- als auch offlinefähig.
 
-1. <span style="color:#0b5394">**Ein Aktion zurück/ vorwärts**</span>
-2. <span style="color:#0b5394">**Pinsel**</span>
-3. <span style="color:#0b5394">**Text**</span>
-4. <span style="color:#0b5394">**Form einfügen**</span>
-5. <span style="color:#0b5394">**Radierer**</span>
-6. <span style="color:#0b5394">**Farbe und Strichstärke**</span>
+## Verwandte Bausteine
+
+- [Datei Upload](/docs/bricks/input/file-picker) — Für allgemeine Dateien aller Art
+- [Bild](/docs/bricks/basic/image) — Für ein festes, unveränderliches Bild

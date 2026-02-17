@@ -8,7 +8,20 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/qr-barcode.html
 ---
 
-Mit diesem Baustein kann der Wert eines beliebigen Text- oder Zahlen-Baustein als QR-Code oder Barcode codiert werden. Dieser wird in den Einstellungen der Bausteins ausgewählt.
+Der Baustein _QR-/Barcode_ erzeugt aus dem Wert eines verknüpften Text- oder Zahlen-Bausteins einen QR-Code oder Barcode (Code 128). Der erzeugte Code kann direkt vom Bildschirm gescannt oder in PDF-Ausdrucken als Bild eingebunden werden.
 
-Der erzeugte QR-/Barcode kann bspw. direkt mit einem weiteren Gerät vom Bildschirm gescannt, oder in einem
-PDF-Ausdruck als Bild mit eingebunden werden. Letzteres geschieht wie mit dem Bild-Baustein über den technischen Namen.
+## Einstellungen
+
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+1. **Typ** — Art des Codes: _QR-Code_ oder _Barcode (Code 128)_.
+2. **Größe** — Darstellungsgröße des Codes im Eintrag.
+3. **Verknüpfter Baustein** — Der Text- oder Zahlen-Baustein, dessen Wert codiert wird.
+
+## Hinweise
+
+- Für die Einbindung in PDF-Ausdrucke wird der technische Name des Bausteins als Bildplatzhalter verwendet.
+
+## Verwandte Bausteine
+
+- [Artikel Scanner](/docs/bricks/advanced/item-scanner) — Zum Scannen und Verarbeiten von Barcodes

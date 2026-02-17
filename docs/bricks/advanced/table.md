@@ -8,44 +8,41 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/table.html
 ---
 
-Auch der _Tabellenbaustein_ ist eine Darstellungsform einer Datensatz-Liste.
-Mit dem Baustein _Tabelle_ können innerhalb eines Listeneintrags Einträge zu einer verbundenen Liste hinzugefügt, bearbeitet und gelöscht werden.
-So kann beispielsweise innerhalb eines Projektes der Einsatz der eigenen Fahrzeuge und Baumaschinen geplant und dargestellt werden.
-In der Tabelle gibt es folgende Funktionalitäten:
+Mit dem Baustein _Tabelle_ können Einträge einer verknüpften Liste in tabellarischer Form innerhalb eines Datensatzes dargestellt, bearbeitet und erstellt werden. Er ist eine Darstellungsform der _Datensatz Liste_ und eignet sich z. B. für Positionen in Angeboten, Materialaufstellungen oder Fahrzeugeinsätze.
 
-![table1](\old_assets\record-spec-settings\1table1.png 'table1')
+## Einstellungen
 
-1. <span style="color:#0b5394">**Öffnen des gesamten Listeneintrags / Datensatzes**</span>
-2. <span style="color:#0b5394">**Optionen zum Eintrag**</span>  
-   Bei Klick auf das Icon öffnen sich die Optionen, den Eintrag zu duplizieren oder zu löschen.
-3. <span style="color:#0b5394">**Neue Zeile**</span>
-   Erzeugt eine neue Zeile, bzw. einen neuen Datensatz in der verknüpften Liste.
-   Der Baustein, über den die Tabelle verbunden ist (Verknüpfung über und Filter), wird vorbelegt.
-   Hier z. B. _Hausbau_ beim Feld _Zugehöriges Projekt_.
-4. <span style="color:#0b5394">**_Datensatz_ Vorbelegen (hier _"Baumaschinen vorbelegen"_)**</span>  
-   Für diese Funktion muss ein Baustein _Datensatz_ in der ersten Spalte liegen, welcher mit einer Liste verbunden ist. Beim Vorbelegen wird für jeden Datensatz, der in dieser verbundenen Liste liegt, ein Tabelleneintrag erzeugt. So kann mit einem Klick ein Tabelleneintrag für z. B. jeden Mitarbeiter oder für jede Baumaschine im Fuhrpark erzeugt werden. Die zu erzeugenden Datensätze können gefiltert werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
----
+1. **Verknüpfung mit** — Die Liste, deren Einträge in der Tabelle dargestellt werden.
+2. **Verknüpfung über** — _Optional._ Ein _Datensatz_-Baustein in der verknüpften Liste, der die Zuordnung zum aktuellen Datensatz herstellt.
+3. **Filter und Sortierung** — Filtert und sortiert die Tabelleneinträge. Filter werden beim Erzeugen neuer Zeilen als Vorbelegung übernommen.
+4. **Bausteine für Tabelle** — Wählt die Bausteine der verknüpften Liste aus, die als Spalten in der Tabelle angezeigt werden. Die Reihenfolge und Spaltenbreite kann individuell angepasst werden.
+5. **Automatisches Erzeugen von Zeilen erlauben** — Aktiviert die Funktion _Datensatz vorbelegen_. Dazu muss ein _Datensatz_-Baustein in der ersten Spalte liegen, der mit einer Stammdatenliste verknüpft ist.
+6. **Filter und Sortierung beim Erzeugen** — Filtert die Datensätze, die beim automatischen Erzeugen berücksichtigt werden (z. B. nur verfügbare Fahrzeuge).
 
-## <span style="color:#0b5394"><span class="material-icons">table_chart</span> **Einstellungen**</span>
+## Funktionsweise
 
-Folgende Einstellungen bietet die Tabelle:
+### Tabellenzeilen
 
-![table2](\old_assets\record-spec-settings\2table.png 'table2')
+Jede Zeile in der Tabelle entspricht einem Datensatz in der verknüpften Liste. Folgende Aktionen stehen zur Verfügung:
 
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
-   Hier wird die Liste ausgewählt, die durch die Tabelle stellvertretend dargestellt wird.
-2. <span style="color:#0b5394">**Verknüpfung über**</span>  
-   _Optionale Einstellung_, hier wird der Baustein _Datensatz_ gewählt, der den Filter auf den eigenen Datensatz zurückgibt.
-   Dieses referenziert die Tabelle, in welcher der Datensatz angezeigt werden soll. Es wird immer über sich selbst verknüpft.
-3. <span style="color:#0b5394">**Filter und Sortierung**</span>  
-   Filtern und Sortieren der Einträge der Tabelle. Filter werden beim Erzeugen von Tabellenzeilen ebenfalls vorbelegt.
-4. <span style="color:#0b5394">**Bausteine für Tabelle**</span>  
-   Für jede Tabelle können beliebige Bausteine der verbundenen Liste (= Spalten) ausgewählt und für die Darstellung innerhalb der Tabelle beliebig umsortiert werden.
-   Es können nur Bausteine ausgewählt werden, die in der anderen Liste verbaut worden sind. Hier kann außerdem die Spaltenbreite angepasst werden.
-5. <span style="color:#0b5394">**Automatisches Erzeugen von Zeilen erlauben**</span>  
-   Ist diese Option aktiv, wird die obige Funktion _Datensatz Vorbelegen_ (3.) freigeschaltet.
-   Hierzu ist ein Datensatz Baustein, der auf eine Stammdatenliste schaut notwendig.
-6. <span style="color:#0b5394">**Filter und Sortierung beim Erzeugen**</span>
-   Die Datensätze, die erzeugt werden, können vorgefiltert werden.
-   Filtere ich zum Beispiel auf meine Fahrzeuge, könnte ich ein Feld zur Abfrage haben, welches verfügbar = Ja abfragt.
+- **Öffnen** — Öffnet den vollständigen Datensatz in der Detailansicht.
+- **Optionen** — Bietet über ein Icon Aktionen wie Duplizieren oder Löschen.
+- **Neue Zeile** — Erzeugt einen neuen Datensatz in der verknüpften Liste. Der Baustein der _Verknüpfung über_ sowie aktive Filter werden automatisch vorbelegt.
+
+### Datensatz vorbelegen
+
+Liegt ein _Datensatz_-Baustein in der ersten Spalte, der mit einer Stammdatenliste verknüpft ist, kann die Funktion _Datensatz vorbelegen_ aktiviert werden. Damit wird mit einem Klick für jeden Datensatz in der Stammdatenliste eine Tabellenzeile erzeugt — z. B. ein Eintrag für jeden Mitarbeiter oder jede Baumaschine. Die zu erzeugenden Datensätze können über den separaten Filter eingeschränkt werden.
+
+## Hinweise
+
+- Es können nur Bausteine als Spalten ausgewählt werden, die in der verknüpften Liste verbaut sind.
+- Die Tabelle basiert auf der gleichen Verknüpfungslogik wie die _Datensatz Liste_.
+- Spaltenbreiten werden pro Baustein konfiguriert und bleiben für alle Nutzer gleich.
+
+## Verwandte Bausteine
+
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Listenanzeige verknüpfter Einträge
+- [Matrix](/docs/bricks/advanced/matrix) — Für zweidimensionale Zuordnungen
+- [Kalender](/docs/bricks/advanced/calendar) — Für die Kalenderdarstellung verknüpfter Einträge

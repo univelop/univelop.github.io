@@ -8,19 +8,19 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/text.html
 ---
 
-Mit dem Baustein _Textfeld_ können beliebige textuelle Inhalte erfasst werden.
-Für wichtige Vermerke kann der Text über die Einstellungen in rot dargestellt werden.
+Mit dem Baustein _Textfeld_ können beliebige textuelle Inhalte erfasst werden. Dieser Baustein eignet sich für Namen, Beschreibungen, Notizen und alle weiteren Freitexteingaben.
 
-![text](\old_assets\record-spec-settings\1text.png 'text')
+## Einstellungen
 
-1. <span style="color:#0b5394">**Anzahl der Zeilen für ein mehrzeiliges Textfeld**</span>  
-   Standardmäßig ist hier keine Zeilenzahl für ein mehrzeiliges Textfeld angegeben.
-   Wird der Wert 1 eingegeben, können über die Enter-Taste mehrere Zeilen verwendet werden. Wird ein größerer
-   Wert bereits eingetragen, wird die Anzahl der vorgegeben Zeilen bereits in dem Baustein berücksichtigt
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-2. <span style="color:#0b5394">**Standard Text**</span>  
-   Vorgabe eines Standardtext (dieser kann in der Eingabe eines Listeneintrags überschrieben werden)
+1. **Anzahl der Zeilen** — Aktiviert ein mehrzeiliges Textfeld. Ohne Angabe wird ein einzeiliges Feld angezeigt. Bei Wert 1 kann über die Enter-Taste mehrzeilig geschrieben werden. Bei höheren Werten wird das Feld direkt in der entsprechenden Höhe angezeigt.
+2. **Standard Text** — Ein vorausgefüllter Text, der beim Erstellen eines neuen Eintrags automatisch eingetragen wird. Kann vom Nutzer überschrieben werden.
+3. **Text in rot darstellen** — Zeigt den eingegebenen Text in roter Schrift an, z. B. für wichtige Vermerke.
+4. **Bedingung für roten Text** — Formel, die bestimmt, unter welchen Bedingungen der Text rot dargestellt wird. Nur verfügbar wenn _Text in rot darstellen_ aktiviert ist.
 
-3. <span style="color:#0b5394">**Tooltip**</span>  
-   Tooltips werden genutzt um den Nutzer bei der Eingabe Hinweistexte anzeigen zu lassen um z. B. auf bestimmte
-   Eingabebedingungen hinzuweisen oder Hilfestellungen anzubieten. Tooltips erscheinen in einem kleinen Pop-Up Fenster.
+## Verwandte Bausteine
+
+- [Nummer](/docs/bricks/input/number-field) — Für reine Zahlenwerte
+- [E-Mail](/docs/bricks/input/email) — Speziell für E-Mail-Adressen mit Validierung
+- [Telefon](/docs/bricks/input/phone) — Speziell für Telefonnummern

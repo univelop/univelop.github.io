@@ -8,7 +8,20 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/multi-selection.html
 ---
 
-Durch den Baustein _Mehrfach-Auswahl_ können, ähnlich wie beim Drop-Down Baustein, individuelle Antwortmöglichkeiten vergeben und hierdurch eventuelle Abhängigkeiten vergeben werden. Die Anzahl der Antwortmöglichkeiten ist unbeschränkt.
-Beim Baustein _Mehrfach-Auswahl_ können jedoch mehrere Antwortmöglichkeiten gleichzeitig ausgewählt werden.
+Mit dem Baustein _Mehrfach-Auswahl_ können mehrere Optionen gleichzeitig aus einer vordefinierten Liste ausgewählt werden. Er funktioniert wie der Baustein _Drop-Down_, erlaubt aber die Auswahl von mehr als einer Option.
 
-Die Einstellungen sind identisch zum Drop-Down Baustein.
+## Einstellungen
+
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+1. **Optionen** — Die verfügbaren Auswahlmöglichkeiten. Über das Mülleimer-Symbol können Optionen entfernt und über das =-Symbol kann die Reihenfolge geändert werden.
+2. **Standard Optionen** — Vorausgewählte Optionen beim Erstellen eines neuen Eintrags. Es können mehrere Standard-Optionen gleichzeitig gesetzt werden.
+
+## Hinweise
+
+- Beim Import werden mehrere Werte durch Semikolon getrennt übergeben.
+
+## Verwandte Bausteine
+
+- [Drop-Down](/docs/bricks/input/drop-down) — Wenn nur eine einzelne Option gewählt werden soll
+- [Segmente](/docs/bricks/input/segments) — Für visuelle Auswahl aus wenigen Optionen mit optionaler Mehrfachauswahl

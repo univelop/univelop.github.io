@@ -11,28 +11,31 @@ redirect_from:
 {: .hint }
 Das Kanban Board ist ein [Power Feature](/docs/power-features)
 
-Mit dem _Kanban Board_ Baustein können Einträge übersichtlich in Spalten nach ihrem Status dargestellt und verwaltet werden. Jede Spalte repräsentiert dabei einen Status, z.B. "Offen", "In Bearbeitung" oder "Erledigt". Das Kanban Board eignet sich besonders für die Organisation von Aufgaben, Projekten oder Prozessen, bei denen Einträge verschiedene Bearbeitungsphasen durchlaufen.
+Mit dem Baustein _Kanban Board_ können Einträge einer verknüpften Liste übersichtlich in Spalten nach ihrem Status dargestellt und verwaltet werden. Jede Spalte repräsentiert einen Status (z. B. „Offen", „In Bearbeitung", „Erledigt"). Der Baustein eignet sich besonders für die Organisation von Aufgaben, Projekten oder Prozessen, bei denen Einträge verschiedene Bearbeitungsphasen durchlaufen.
 
-Einträge können schnell per Drag & Drop einfach zwischen den Spalten verschoben werden und so den Status ändern. Zudem lassen sich mit nur einem Klick Einträge – sofern die entsprechenden Rechte vorhanden sind – direkt bearbeiten.
+## Einstellungen
 
-## <span style="color:#0b5394">Einstellung</span>
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-### 1. Verknüpft mit
+1. **Verknüpfung mit** — Die Liste, deren Einträge im Kanban Board angezeigt werden sollen.
+2. **Verknüpfung über** — Ein _Datensatz_-Baustein in der verknüpften Liste, der die Zuordnung zum aktuellen Datensatz herstellt.
+3. **Status** — Der _Status_-Baustein in der verknüpften Liste, dessen Ausprägungen die Spalten des Boards definieren.
+4. **Filter und Sortierung** — Schränkt die angezeigten Einträge ein oder sortiert sie innerhalb der Spalten.
+5. **Schnellfilter** — Ermöglicht es, Bausteine als Schnellfilter oberhalb des Boards anzuzeigen, um die Einträge interaktiv zu filtern.
+6. **Eintragsvorschau** — Legt fest, welche Informationen auf den Karten im Board angezeigt werden. Die Darstellung kann individuell angepasst werden.
+7. **Erfassungs-Button ausblenden** — Versteckt den Button zum Anlegen neuer Einträge.
 
-Zunächst muss eine Referenz auf eine Datensatzliste gesetzt werden. Diese Liste enthält die Einträge, die im Kanban Board angezeigt und verwaltet werden sollen.
+## Funktionsweise
 
-### 2. Verknüpfung über
+Einträge werden als Karten in der Spalte ihres aktuellen Status dargestellt. Per Drag & Drop können Karten zwischen Spalten verschoben werden, wodurch sich der Status des Eintrags ändert. Mit einem Klick auf eine Karte kann der Eintrag direkt bearbeitet werden, sofern die entsprechenden Rechte vorhanden sind.
 
-Im nächsten Schritt wird festgelegt, wie die Verknüpfung zwischen dem Kanban Board und den Einträgen der referenzierten Liste erfolgt. Hier wird das Feld ausgewählt, über das die Zuordnung stattfindet, sodass alle relevanten Daten dem jeweiligen Board zugeordnet werden können.
+## Hinweise
 
-### 3. Status
+- Der Baustein benötigt einen _Status_-Baustein in der verknüpften Liste, um die Spalten zu definieren.
+- Das Kanban Board ist eine Darstellungsform, die auf der gleichen Verknüpfungslogik wie die _Datensatz Liste_ basiert.
 
-Um die Spalten des Kanban Boards zu definieren, wird ein Status-Baustein ausgewählt. Jede Ausprägung des Status-Feldes entspricht dabei einer Spalte im Board. Die Einträge werden automatisch anhand ihres Status in die jeweilige Spalte einsortiert.
+## Verwandte Bausteine
 
-### Weitere Einstellungen
-
--   **Filter & Sortierung:**  
-    Optional können Filter- und Sortierregeln definiert werden, um die angezeigten Einträge weiter einzuschränken oder zu sortieren.
-
--   **Eintragsvorschau:**  
-    Die Darstellung der Karten (Einträge) im Board kann individuell angepasst werden. Über die Einstellung "Eintragsvorschau" lässt sich festlegen, welche Informationen auf den Karten angezeigt werden.
+- [Status](/docs/bricks/advanced/status) — Definiert die Spalten des Kanban Boards
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Listenanzeige verknüpfter Einträge
+- [Tabelle](/docs/bricks/advanced/table) — Für die tabellarische Darstellung verknüpfter Einträge

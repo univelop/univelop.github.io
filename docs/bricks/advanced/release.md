@@ -8,49 +8,38 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/lock.html
 ---
 
-Der _Datensatz sperren_ Baustein erlaubt es Datensätze unveränderbar zu sichern. Der Baustein wird als
-Button angezeigt und kann zusätzlich funktionell im Status mit verwendet werden. Zudem ist es möglich
-mit diesem Baustein eine Pflichtfeldprüfung durchzuführen.
+Der Baustein _Datensatz sperren_ ermöglicht es, Datensätze unveränderbar zu sichern. Er wird als Button angezeigt und kann zusätzlich mit dem Baustein _Status_ verknüpft werden, um Datensätze statusabhängig zu sperren.
 
-Zum grundsätzlichen Aufbau:
+## Einstellungen
 
-![lock](\old_assets\record-spec-settings\1lock.png 'lock')
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. <span style="color:#0b5394">**Der Sperren-Button**</span>  
-   dieser wird bei nicht freigegebenen Datensätzen farblich gekennzeichnet angezeigt.
-2. <span style="color:#0b5394">**Zeitstempel für gesperrte Datensätze**</span>  
-   Bei gesperrten Datensätzen erfolgt eine Beschreibung der Sperrung (Nutzer / Datum).
-3. <span style="color:#0b5394">**Entsperren eines gesperrten Datensatzes**</span>  
-   Wurde der Datensatz gesperrt kann dieser über "Entsperren" wieder freigegeben werden
-   (anders als beim Sperren über Status)
-4. <span style="color:#0b5394">**Eine Verknüpfung mit dem**</span>
-   Baustein _Status_
-   <span style="color:#0b5394">**ist möglich**</span>
-   Die Verknüpfung wird gesetzt, indem in dem entsprechenden Status der Schalter auf _Datensatz sperren_ = Ja gesetzt wird.
-5. <span style="color:#0b5394">**Sämtliche Pflichtfelder (Prüfung bei _Datensatz sperren_) müssen einzeln angehakt werden**</span>
-   In jedem Baustein, welcher ein Pflichtfeld werden soll, muss der Schalter Pflichtfeld = Ja gesetzt werden.
-   Im Anschluss wird das Pflichtfeld im Moment der Datensatzsperre geprüft.
+Der Baustein hat keine zusätzlichen bausteinspezifischen Einstellungen. Die Sperrfunktion wird über den Button selbst oder über die _Datensatz sperren_-Option im Baustein _Status_ gesteuert.
 
-Zudem sind gesperrte Datensätze an dem kleinen Schloss am oberen rechten Bildschirmrand zu erkennen.
-Wird ein Datensatz über den Status gesperrt und es ist kein Sperr-Baustein verbaut, kann der Datensatz nur über das Schloss entsperrt werden.
-Gesperrte Datensätze können nicht gelöscht werden.
+## Funktionsweise
 
-![lock2](\old_assets\record-spec-settings\2lock.png 'lock2') ![lock3](\old_assets\record-spec-settings\3lock.png 'lock3')
+### Sperren und Entsperren
 
-**Zusammenfassung:**
+- Bei nicht gesperrten Datensätzen wird der Sperren-Button farblich hervorgehoben angezeigt.
+- Nach dem Sperren wird ein Zeitstempel mit Benutzer und Datum der Sperrung angezeigt.
+- Über den Button „Entsperren" kann ein gesperrter Datensatz wieder freigegeben werden (anders als beim Sperren über den _Status_-Baustein, wo nur über das Schloss-Symbol entsperrt werden kann).
+- Gesperrte Datensätze sind am Schloss-Symbol am oberen rechten Bildschirmrand erkennbar.
 
-1. Über den Baustein _Datensatz sperren_ ist eine Pflichtfeldprüfung möglich. Hierzu muss in den Einstellungen des
-   Bausteins unter "Validierung" der Switch _Pflichtfeld_ gesetzt werden. Sobald ein Baustein als _Pflichtfeld_
-   gekennzeichnet wird, erhält dieser das altbekannte Sternchen um auf eine Pflichteingabe hinzuweisen. Wird ein
-   Baustein als Pflichtfeld markiert und dieses versteckt, wird die Pflichtfeldprüfung automatisch ausgesetzt. Ist nur
-   ein Baustein _Datensatz sperren_ eingebaut und kein
-   Baustein _Status_,
-   werden diese Bausteine grundsätzlich auf Inhalte geprüft, wenn die Sperrung betätigt wird.
-2. Das Bearbeiten und Löschen von gesperrten Datensätzen ist nicht möglich. Die Datensätze, sowie verknüpfte Datensätze
-   müssen entsperrt werden (Mutter- & Tochter-Datensätze über
-   Baustein _Datensatz Liste_)
-3. Wer Datensätze sperren und entsperren darf wird in den
-   Rollen und Rechten
-   festgelegt.
+### Pflichtfeldprüfung
 
-![lock4](\old_assets\record-spec-settings\4lock.png 'lock4')
+Der Baustein löst beim Sperren eine Pflichtfeldprüfung aus. Dazu muss in den Einstellungen der gewünschten Bausteine der Schalter _Pflichtfeld_ aktiviert sein. Nur Bausteine, die als Pflichtfeld markiert und gleichzeitig sichtbar sind, werden geprüft — versteckte Pflichtfelder werden automatisch ausgesetzt.
+
+### Verknüpfung mit Status
+
+In den Einstellungen eines _Status_-Bausteins kann pro Status die Option _Datensatz sperren_ aktiviert werden. Beim Setzen dieses Status wird der Datensatz automatisch gesperrt. Ist kein _Datensatz sperren_-Baustein verbaut, kann der Datensatz nur über das Schloss-Symbol entsperrt werden.
+
+## Hinweise
+
+- Gesperrte Datensätze können weder bearbeitet noch gelöscht werden. Auch verknüpfte Datensätze (Mutter- und Tochter-Datensätze über _Datensatz Liste_) müssen separat entsperrt werden.
+- Wer Datensätze sperren und entsperren darf, wird in den [Rollen und Rechten](/docs/member-management/roles-rights) festgelegt.
+- Ist nur ein _Datensatz sperren_-Baustein verbaut und kein _Status_-Baustein, werden alle Pflichtfelder grundsätzlich bei der Sperrung geprüft.
+
+## Verwandte Bausteine
+
+- [Status](/docs/bricks/advanced/status) — Für statusabhängiges Sperren
+- [Genehmigung](/docs/bricks/advanced/approval) — Für Genehmigungsprozesse mit optionaler Datensatzsperre

@@ -13,7 +13,7 @@ Für das Zeichnen in Bildern gibt es nun die neue Funktion“Zeichnen” im Baus
 
 Diese Funktion ist zunächst nur in der Univelop-App auf Android und iOS verfügbar.
 
-![release picture drawing](\old_assets\latest-updates\release picture drawing.png "release picture drawing")
+![release picture drawing](/old_assets/latest-updates/release picture drawing.png "release picture drawing")
 
 ## <span style="color:#0b5394">**Aufteilung der Formelbausteine**</span>
 
@@ -24,7 +24,7 @@ Der Baustein _Datumsformel_ errechnet ein Datum, wie z. B. eine voraussichtliche
 Die dynamische Texterzeugung aus anderen Bausteinen ermöglicht der Baustein _Textformel_. Damit kann bspw. ein standardisierter Text mit dem richtigen Adressaten ausgefüllt oder Sortiercodes erstellt werden.
 Für eine einfache Anzeige, ob etwas zutrifft oder nicht, gibt es den Baustein*Ja-Nein-Formel*. Hierüber kann direkt angezeigt werden, ob bspw. ein Material für einen Auftrag in genügender Menge vorhanden ist.
 
-![release formula bricks](\old_assets\latest-updates\release formula bricks.png "release formula bricks")
+![release formula bricks](/old_assets/latest-updates/release formula bricks.png "release formula bricks")
 
 ## <span style="color:#0b5394">**Zeitlich gesteuerte Pushnachrichten**</span>
 
