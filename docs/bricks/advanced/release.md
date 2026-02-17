@@ -36,7 +36,7 @@ In den Einstellungen eines _Status_-Bausteins kann pro Status die Option _Datens
 ## Hinweise
 
 - Gesperrte Datensätze können weder bearbeitet noch gelöscht werden. Auch verknüpfte Datensätze (Mutter- und Tochter-Datensätze über _Datensatz Liste_) müssen separat entsperrt werden.
-- Wer Datensätze sperren und entsperren darf, wird in den [Rollen und Rechten](/docs/member-administration/roles-rights) festgelegt.
+- Wer Datensätze sperren und entsperren darf, wird in den [Rollen und Rechten](/docs/member-management/roles-rights) festgelegt.
 - Ist nur ein _Datensatz sperren_-Baustein verbaut und kein _Status_-Baustein, werden alle Pflichtfelder grundsätzlich bei der Sperrung geprüft.
 
 ## Verwandte Bausteine

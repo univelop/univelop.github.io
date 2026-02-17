@@ -6,35 +6,31 @@ redirect_from:
     - /docs/design-mode-settings.html
 ---
 
-![homeSettings](/old_assets/design-mode-setting/homeSettings.png 'home settings')
+In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design und Benachrichtigungen bis hin zu Integrationen und Abrechnung. Die Einstellungen sind nur für Besitzer und Administratoren zugänglich.
 
-1. <span style="color:#0b5394">**Allgemein**</span>
+## Übersicht
 
-    - Name des Arbeitsbereiches festlegen
-    - Arbeitsbereich ID (**darf nicht verändert werden!**)
-    - Service Account Key
-    - Hinzufügen neuer Mitglieder in den Arbeitsbereich
-    - Zeitzone für Anzeige von Daten
+| Einstellung | Beschreibung |
+|---|---|
+| [Allgemein](/docs/workspace-settings/general) | Name, Zeitzone, Arbeitsbereichstyp |
+| [Design](/docs/workspace-settings/design) | Banner, Logo, Farbschema |
+| [E-Mail-Versand](/docs/workspace-settings/mailing) | Integration für E-Mail-Versand und -Empfang |
+| [(Push-)Benachrichtigungen](/docs/workspace-settings/notifications) | Versendezeitpunkte für Push-Nachrichten |
+| [Ausdruck](/docs/workspace-settings/print-out) | Konfiguration für Druckausgaben |
+| [Mehrsprachigkeit](/docs/workspace-settings/multi-language) | Sprachen für den Arbeitsbereich |
+| [Portal-Modus](/docs/workspace-settings/portal-mode) | Eigene Domain für externen Zugang |
+| [Tastenkürzel](/docs/workspace-settings/shortcuts) | Übersicht der Tastenkürzel |
+| [ChatGPT](/docs/workspace-settings/chatgpt) | OpenAI-Anbindung konfigurieren |
+| [API-Schlüssel](/docs/workspace-settings/api-keys) | Schlüssel für die REST-API |
+| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste anbinden |
+| [Abrechnung](/docs/workspace-settings/billing) | Lizenzen, Zahlungsmethode, Credits |
+| [Statusprüfung](/docs/workspace-settings/health-check) | Arbeitsbereich auf Fehler prüfen |
 
-2. <span style="color:#0b5394">**Design**</span>
-    - Bilder des Arbeitsbereichs anpassen
-        - Banner für den Homescreen, welches über den Kacheln erscheint
-        - Firmenlogo, erscheint oben links im Homescreen über dem Banner
-        - Hintergrund im Anmeldefenster (s. Einrichtung Portalmodus)
-    - Farbschema des Arbeitsbereiches anpassen:
-        - Auswahl Primär- und Sekundärfarbe
-        - Auswahl bis zu sechs weiteren Kachelfarben
-        - Festlegung über die Farbskala oder einen RTX-Wert
-3. <span style="color:#0b5394">**Benachrichtigungen**</span>
+## Export und Import
 
-    - Push-Nachrichten anpassen
+Über den Button **Export** in den allgemeinen Einstellungen kann ein ganzer Arbeitsbereich als ZIP-Datei exportiert werden. Es kann gewählt werden, ob nur die Struktur (Kacheln) oder auch die Daten exportiert werden sollen. Über **Import** kann eine exportierte ZIP-Datei in einen neuen Arbeitsbereich eingelesen werden.
 
-4. <span style="color:#0b5394">**Domain**</span>
-    - Portal Domains
-    - Einrichtung Portalmodus
-5. <span style="color:#0b5394">**Arbeitsbereich Zustand**</span>
-    - Hier kann der Arbeitsbereich auf zu Große Zahlen im Zahlenbaustein sowie auf fehlerhafte Formeln geprüft werden.
+Der Button **Löschen** entfernt den kompletten Arbeitsbereich.
 
-Über den Button _Export_ (drei Punkte oben rechts im Bereich _Allgemein_)
-kann ein ganzer Arbeitsbereich als ZIP Datei exportiert werden, um ihn in
-einen neuen Arbeitsbereich einzufügen. Der Button _Löschen_ führt zu einer **Löschung** des **kompletten** Arbeitsbereichs.
+{: .warning }
+Das Löschen eines Arbeitsbereichs kann nicht rückgängig gemacht werden.

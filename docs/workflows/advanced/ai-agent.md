@@ -7,16 +7,20 @@ icon: psychology
 nav_order: 10
 ---
 
-Mit dem Schritt _AI Agent_ kann ein Prompt an einen zuvor erstellten AI-Agent gesendet werden. Dieser verarbeitet die Anfrage mithilfe der ihm zur Verfügung stehenden Tools.  
-Der Baustein kann nur in Arbeitsbereichen verwendet werden, in denen die KI-Features aktiviert sind. (Melde dich bei [support@univelop.de](mailto:support@univelop.de), um diese aktivieren zu lassen.)
+Mit dem Schritt _AI Agent_ wird ein Prompt an einen zuvor erstellten AI Agent gesendet. Der Agent verarbeitet die Anfrage mithilfe der ihm zur Verfügung stehenden Tools und kann mehrere Gesprächsrunden durchlaufen. Die Antwort ist in folgenden Schritten über den technischen Namen zugreifbar.
 
-### <span style="color:#0b5394">**Einstellungen**</span>
+## Einstellungen
 
-1. <span style="color:#0b5394">**AI Agent**</span>  
-   Wähle hier den **AI-Agent** aus, der die Anfrage verarbeiten soll.
-2. <span style="color:#0b5394">**Prompt**</span>  
-   Gib hier deinen Prompt für den AI-Agent ein.
-3. <span style="color:#0b5394">**Antwortformat**</span>  
-   Wähle hier das Antwortformat, das der AI-Agent zurückgeben soll. Möglich sind **Freitext** oder **JSON**.
-4. <span style="color:#0b5394">**Antwort-Schema**</span>  
-   Wenn du **JSON** als Antwortformat ausgewählt hast, kannst du hier ein [JSON-Schema](https://json-schema.org/overview/what-is-jsonschema) angeben, das die Struktur der Antwort definiert.
+1. **AI Agent** — Der AI Agent, der die Anfrage verarbeiten soll. AI Agents werden über die entsprechende Kachel erstellt.
+2. **Prompt** — Der Text, der an den AI Agent gesendet wird. Kann dynamisch mit `${}` gestaltet werden.
+3. **Antwortformat** — Das erwartete Format der Antwort: **Freitext** oder **JSON**.
+4. **Antwort-Schema** — _Nur bei JSON._ Ein [JSON-Schema](https://json-schema.org/overview/what-is-jsonschema), das die Struktur der Antwort definiert.
+
+## Hinweise
+
+- Die KI-Features müssen im Arbeitsbereich aktiviert sein. Kontakt: [support@univelop.de](mailto:support@univelop.de).
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Frag KI](/docs/workflows/advanced/ask-ai) — Für einzelne KI-Anfragen ohne Agent-Kontext

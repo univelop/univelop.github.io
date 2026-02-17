@@ -9,7 +9,20 @@ redirect_from:
     - /docs/workflows/grand-childs-bricks/choose-path.html
 ---
 
-Über den Baustein _Wähle Pfade_ kann der Workflow in mehrere, parallel liegende Pfade aufgeteilt werden. Diese werden in den Einstellungen mit einer Ja-Nein-Formel ausgestattet, welche kontrolliert ob dieser Pfad im Workflow zur Ausführung kommt.
+Mit dem Schritt _Wähle Pfade_ wird der Workflow in mehrere parallele Pfade aufgeteilt. Jeder Pfad hat eine eigene Bedingung, die bestimmt, ob er ausgeführt wird. Es können beliebig viele Pfade definiert werden.
 
-Neben den normalen Pfaden gibt es noch einen _Standard-Pfad_, welcher immer dann zur Ausführung kommt, wenn kein anderer normaler Pfad ausgeführt wird.
-Abhängig von den eingegebenen Bedingungen können also nur der _Standard-Pfad_, oder alle bis auf diesen ausgeführt werden.
+## Einstellungen
+
+1. **Pfad-Bedingungen** — Für jeden Pfad wird eine Ja/Nein-Formel angegeben. Ergibt die Formel `true`, wird der Pfad ausgeführt.
+2. **Standard-Pfad** — Wird automatisch ausgeführt, wenn kein anderer Pfad aktiv ist. Wird mindestens ein normaler Pfad ausgeführt, wird der Standard-Pfad übersprungen.
+
+## Funktionsweise
+
+Alle Pfade, deren Bedingung zutrifft, werden parallel ausgeführt. Die inneren Schritte jedes Pfades laufen sequentiell ab. Der Workflow setzt erst fort, wenn alle aktiven Pfade abgeschlossen sind.
+
+## Hinweise
+
+- Es können mehrere Pfade gleichzeitig aktiv sein — es handelt sich nicht um ein Entweder-Oder.
+- Der Standard-Pfad eignet sich als Fallback, z. B. für Fehlermeldungen wenn keine Bedingung zutrifft.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).

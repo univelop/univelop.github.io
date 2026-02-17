@@ -10,26 +10,32 @@ redirect_from:
     - /docs/workflows/load-records/first-record.html
 ---
 
-Mit dem Baustein _Finde ersten Eintrag_ wird der erste Eintrag einer Kachel ausgewählt.
-Der "Erste" ist dabei zufällig und ohne Filter nicht definierbar, sondern der Erste der durch das System gefunden wird.
+Mit dem Schritt _Finde ersten Eintrag_ wird der erste passende Datensatz einer Liste geladen. Ohne Sortierung ist die Reihenfolge nicht definiert — nur mit gesetzter Sortierung ist der Treffer konsistent.
 
-Es können Filter als Einstellung des Bausteins hinzugefügt werden, um die möglichen Einträge einzuschränken.
-Auch mit Filter, zu denen es mehrere passende Einträge gibt, ist es zufällig welcher Eintrag durch das System gewählt wird.
+## Einstellungen
 
-Nur mit gesetzter Sortierung ist der erste Eintrag konsistent und nicht zufällig.
+1. **Verknüpfung mit** — Die Liste, in der gesucht wird.
+2. **Filter und Sortierung** — Schränkt die möglichen Treffer ein und bestimmt die Reihenfolge.
+3. **Modus (wenn kein Eintrag gefunden)** — Bestimmt das Verhalten bei keinem Treffer:
+   - **Fehler anzeigen und Workflow abbrechen** — Standardverhalten. Der Workflow bricht mit einem Fehler ab.
+   - **Erstellen** — Ein neuer Datensatz wird erstellt. Filterwerte werden als Anfangswerte in den neuen Datensatz übernommen.
+   - **Ignorieren (null zurückgeben)** — Der Schritt gibt `null` zurück. Folgende Schritte müssen dies per `ifElse(eintrag != null, ...)` oder [Laufe weiter, wenn](/docs/workflows/structure/continue-if) behandeln.
 
-Über die Einstellung _Modus_ kann angepasst werden, wie sich der Baustein verhält, wenn kein passender Eintrag gefunden wird. Dabei stehen die folgenden Optionen zur Auswahl:
+## Beispiel
 
-1. <span style="color:#0b5394">**Fehler anzeigen und Workflow abbrechen**</span>  
-   Dies ist die Standardoption des Bausteines. Gibt es keinen passenden Eintrag, wird der komplette Workflow an dieser Stelle mit einem Fehler abgebrochen.
-2. <span style="color:#0b5394">**Erstellen**</span>  
-   Bei dieser Option wird ein neuer Eintrag erstellt, wenn es keinen passenden gibt. Wie auch beim manuellen Filtern und Erstellen von Einträgen in Listen, werden hier alle Werte aus den gegebenen Filtern direkt in den neuen Eintrag geschrieben.
-3. <span style="color:#0b5394">**Ignorieren (null zurückgeben)**</span>  
-   Diese Option erlaubt den Fall, dass kein passender Eintrag existiert. Nachfolgende Workflow Bausteine haben so mehr Kontrolle gezielt mit dem Szenario umzugehen, dass kein Eintrag existiert.
+Mit dem Modus _Ignorieren_ kann geprüft werden, ob ein Datensatz existiert:
 
-    Dies kann zum Beispiel so aussehen:
-    `ifElse(mitglieder_eintrag != null,mitglieder_eintrag.title,'Kein Eintrag gefunden.')`  
-     Wird diese Formel in einem [_Zeige Nachricht_](../user-interaction/message.md) Baustein genutzt, kann so abhängig davon, ob ein Eintrag gefunden wurde, der Titel oder ein generischer Platzhalter angezeigt werden.
-    Wird kein Eintrag gefunden, kann auch nicht auf Werte des Eintrages zugegriffen werden. Würde der [_Zeige Nachricht_](../user-interaction/message.md) Baustein also einfach nur `mitglieder_eintrag.title` als Formel haben, so würde der Workflow mit einem Fehler abbrechen, wenn zuvor kein Eintrag gefunden wurde.
+```
+ifElse(mitglieder_eintrag != null, mitglieder_eintrag.title, 'Kein Eintrag gefunden.')
+```
 
-    Generell ist es also Sinnvoll, nachfolgend vermehrt mit der Formel `ifElse` oder den Bausteinen [_Laufe weiter, wenn_](../structure/continue-if.md) und [_Wähle Pfade_](../structure/switch.md) zu arbeiten.
+## Hinweise
+
+- Ohne Filter und Sortierung ist der zurückgegebene Datensatz zufällig.
+- Auch mit Filter, zu dem mehrere Datensätze passen, ist ohne Sortierung nicht definiert, welcher Datensatz zurückgegeben wird.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Wähle Eintrag](/docs/workflows/record-loading/choose-record) — Für die Auswahl eines Datensatzes aus dem Workflow-Kontext
+- [Iteriere über Einträge](/docs/workflows/record-loading/iterate-records) — Für die Verarbeitung mehrerer Datensätze

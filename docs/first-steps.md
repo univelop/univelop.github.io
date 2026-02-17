@@ -6,59 +6,30 @@ redirect_from:
     - /docs/start-app.html
 ---
 
-## <span style="color:#0b5394">Registrieren und Anmelden</span>
+## Registrieren und Anmelden
 
-Zugang zu dem System erhält man im Apple Appstore oder Google Play-Store, sowie über jeden beliebigen Browser über
-www.app.univelop.de
+Univelop ist über den Apple App Store, den Google Play Store sowie über jeden beliebigen Browser unter [app.univelop.de](https://app.univelop.de) erreichbar.
 
-Zu Anfang bitte mit den geforderten Daten registrieren (**DSGVO-konforme-Speicherung**):
+Zur Registrierung werden folgende Angaben benötigt:
 
--   Vorname
--   Nachname
--   E-Mail
--   doppelte Passwort-Eingabe.
+- Vorname
+- Nachname
+- E-Mail
+- Passwort
 
-Nach erfolgreicher Registrierung ist die Anmeldung mit der angegebenen E-Mail Adresse sowie dem festgelegten Passwort möglich.
+Nach erfolgreicher Registrierung kann die Anmeldung mit E-Mail und Passwort erfolgen. Alternativ ist die Anmeldung über OAuth-Anbieter (Microsoft, Google, Apple) möglich.
 
-Entweder wird ein neuer Arbeitsbereich erstellt, oder es liegt eine Einladung zu einem Arbeitsbereich via Link vor.
-Der Arbeitsbereich ist die Umgebung, in welcher man sich befindet.
+{: .hint }
+Falls ein bestehender Account mit einem OAuth-Anbieter verbunden werden soll, muss ein neuer Account mit OAuth erstellt, in die bestehenden Arbeitsbereiche eingeladen und der alte Account gelöscht werden. Bei Fragen hilft der Support unter support@univelop.de.
 
-![registration](/old_assets/start-app/registration.png 'registration')
+## Arbeitsbereich erstellen
 
-Falls Sie einen bereits existierenden Account mit OAuth (Microsoft Account, Google Account, Apple Account, Andere...) verbinden wollen geht dies leider nicht direkt. Sie können jedoch:
+Nach der ersten Anmeldung wird das Erstellen eines Arbeitsbereichs vorgeschlagen. Es stehen drei Optionen zur Verfügung:
 
-1. Einen neuen Account mit OAuth erstellen.
-2. Diesen Account zu ihren Arbeitsbereichen einladen.
-3. Den alten Account löschen.
+1. **Neuer Arbeitsbereich** — ein leerer Arbeitsbereich wird angelegt, in dem direkt mit dem Aufbau begonnen werden kann
+2. **Arbeitsbereich importieren** — ein zuvor exportierter Arbeitsbereich wird als neuer, eigenständiger Arbeitsbereich eingelesen
+3. **Vorlage auswählen** — ein Arbeitsbereich mit vordefinierten Kacheln und Beispieldatensätzen wird erstellt, der an die eigenen Anforderungen angepasst werden kann
 
-Falls Sie Fragen oder Probleme dabei haben wenden Sie sich gerne an unseren Support (support@univelop.de).
+## Einem Arbeitsbereich beitreten
 
----
-
-## <span style="color:#0b5394">Erstellen eines Arbeitsbereichs</span>
-
-**Wenn Sie neu bei uns sind**
-
-Das Erstellen eines Arbeitsbereichs wird direkt nach der Anmeldung vorgeschlagen. Nach dem Erstellen
-eines Titels des neuen Arbeitsbereichs kann "drauf los gekachelt" werden.
-
-![new-workspace](/old_assets/start-app/new-workspace.png 'new-workspace')
-
-1. <span style="color:#0b5394">**Neuer Arbeitsbereich**</span>  
-   Ein neuer Arbeitsbereich wird angelegt. Gestartet wird im Designmodus ohne Kacheln
-
-2. <span style="color:#0b5394">**Arbeitsbereich importieren**</span>  
-   Ein zuvor exportierter Arbeitsbereich kann wieder importiert werden (man tritt dem bestehenden
-   Arbeitsbereich nicht bei, es wird dadurch ein komplett neuer Arbeitsbereich angelegt)
-
-3. <span style="color:#0b5394">**Auswahl einer Vorlage**</span>  
-   Für den Start in einen neuen Arbeitsbereich kann eine Vorlage ausgewählt werden mit vordefinierten
-   Kacheln und Beispieldatensätze. Diese lassen sich je nach Anforderung entsprechend anpassen
-   und erweitern.
-
----
-
-## <span style="color:#0b5394">Einem Arbeitsbereich beitreten</span>
-
-Nach dem Erhalt eines Einladungslinks (via Mail, Messenger oder anderen Programmen) zu einem Arbeitsbereich
-tritt man bei Klick auf den Link in den entsprechenden Arbeitsbereich ein und kann dort beginnen, zu arbeiten.
+Über einen Einladungslink (per E-Mail, Messenger oder andere Kanäle) kann einem bestehenden Arbeitsbereich beigetreten werden. Nach Klick auf den Link und Anmeldung bei Univelop ist der Arbeitsbereich sofort verfügbar.

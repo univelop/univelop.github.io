@@ -5,17 +5,30 @@ nav_order: 1
 parent: Kacheln
 ---
 
-Die Kacheln in Univelop können durch verschiedenste Einstellungen konfiguriert werden.
+Jede Kachel in Univelop verfügt über einen gemeinsamen Satz an Einstellungen, die unabhängig vom Kacheltyp konfiguriert werden können.
 
-Die erste und wichtigste Einstellung ist der Kachelname. Dieser wird immer auf dem Homescreen in der Kachel und an vielen weiteren Stellen in der App angezeigt.
+## Darstellung
 
-Zur Darstellung im Homescreen gehört noch das Icon und die Kachelfarbe. Die Kachelfarbe lässt sich aus einigen fest definierten Farben auswählen.
-Das Icon bzw. die Kachel-Info wird in der Mitte der Kachel dargestellt und dient in Verbindung mit dem Namen und der Farbe dazu, die Kachel von anderen Kacheln zu unterscheiden und Ihren Zweck klar zu definieren.
+1. **Kachelname** — Der angezeigte Name auf dem Homescreen und an anderen Stellen in der App. Kann mehrsprachig vergeben werden.
+2. **Icon** — Das Symbol, das in der Mitte der Kachel angezeigt wird. Wählbar aus der Material-Design-Bibliothek.
+3. **Kachelfarbe** — Die Hintergrundfarbe der Kachel auf dem Homescreen. Auswahl aus vordefinierten Farben.
 
-Die Einstellungen zur Sichbarkeit definieren, welche Nutzergruppen die Kachel zu sehen bekommen.
-Wird die Einstellung "Kachel verstecken" angeschaltet, ist die Kachel erstmal für niemanden mehr sichtbar. Nun kann man über "Für Benutzerrollen anzeigen" granular definieren, welche [Benutzerrollen](/docs/member-management/member-management#rollen) die Kachel sehen dürfen. Zuletzt kann man die Kachel für sich selber ausblenden, wenn diese für einen irrelevant ist. Die Sichtbarkeitseinstellungen betreffen immer nur den Homescreen. Sobald man als Admin in den Designmodus springt, werden alle Kacheln wieder sichtbar, um diese einstellen zu können.
+## Kachel-Info (Indikator)
 
-Über die Einstellung ["Solution"](/docs/solutions) wird angezeigt, zu welcher Solution die Kachel gehört. Ist das Feld leer, so gehört sie noch zu keiner Solution.
+Je nach Kacheltyp kann in der Mitte der Kachel statt des Icons eine Information angezeigt werden:
 
-Der technische Name ist für API-Abfragen wichtig. Über diesen Namen werden die einzelnen Listen per API angesprochen.
-Ein sprechender und möglichst kurzer Name wird hier empfohlen.
+- **Anzahl** — Zeigt die Anzahl der Datensätze an.
+- **Summe** — Zeigt die Summe eines numerischen Bausteins über alle Datensätze. Dafür wird der gewünschte Baustein sowie optional die Dezimalstellen und ein Suffix (z. B. „€") konfiguriert.
+- **Icon** — Zeigt nur das gewählte Icon ohne Zahlenwert an.
+
+## Sichtbarkeit
+
+1. **Kachel verstecken** — Blendet die Kachel für alle Nutzer auf dem Homescreen aus. Im [Designmodus](/docs/designmode/workspace) bleibt sie für Admins sichtbar.
+2. **Für Benutzerrollen anzeigen** — Definiert, welche [Benutzerrollen](/docs/member-management/roles-rights) die Kachel sehen dürfen. Nur relevant, wenn die Kachel versteckt ist.
+3. **Für mich ausblenden** — Blendet die Kachel nur für den eigenen Nutzer aus, unabhängig von den allgemeinen Sichtbarkeitseinstellungen.
+
+## Weitere Einstellungen
+
+1. **Solution** — Zeigt an, zu welcher [Solution](/docs/solutions) die Kachel gehört. Ist das Feld leer, gehört sie keiner Solution an.
+2. **Technischer Name** — Ein eindeutiger Bezeichner für API-Abfragen. Ein kurzer, sprechender Name wird empfohlen.
+3. **Ordner** — Legt fest, in welchem [Ordner](/docs/tiles/folder-tile) die Kachel auf dem Homescreen angezeigt wird.

@@ -7,13 +7,19 @@ redirect_from:
     - /docs/portal-mode.html
 ---
 
-Unter gewissen Umständen werden Arbeitsbereiche für Externe geschaffen (Aufgabenplanung Subunternehmer, Kundenportal, etc). Um externen Benutzern einen guten Mehrwert zu bieten, ohne dass man Ihnen die App oder ähnliches zur Verfügung stellt, kann auch der Portalmodus von Univelop aktiviert werden.
-In den Einstellungen des Arbeitsbereiches kann eine Portal-URL eingesetzt werden.
+Der Portal-Modus ermöglicht es, einen Arbeitsbereich über eine eigene Domain zugänglich zu machen. So entsteht für externe Benutzer der Eindruck einer eigenständigen Anwendung — inklusive individuellem Anmeldefenster und eigenem Branding.
 
-Wird eine Portal-URL gesetzt, lässt sich diese gut verteilen oder auch auf der eigenen Homepage einbinden.
-Der Vorteil daran ist, dass der Arbeitsbereich so aufgebaut werden kann, dass es wie eine eigens entwickelte Software aussieht. Auch das Anmeldefenster ist so aufgesetzt, dass es nach einer Eigenentwicklung aussieht.
-Externe Benutzer wählen sich wie gewohnt mit ihren Zugangsdaten in dem Portal an. Kunden erhalten dadurch nur für ihre Bereiche Zugriff und werden für andere Arbeitsbereiche (wenn vorhanden) nicht freigeschaltet.
+## Anwendungsfälle
 
-Bei Interesse sprecht uns gerne an.
+- **Kundenportal** — Kunden erhalten Zugang zu ihren eigenen Daten
+- **Subunternehmer-Portal** — externe Partner arbeiten in einem dedizierten Bereich
+- **Mitarbeiterportal** — Mitarbeitende nutzen Univelop über eine firmeneigene URL
 
-![portalmode](/old_assets/1portalmode.png 'portalmode')
+## Einrichtung
+
+In den Arbeitsbereich-Einstellungen unter **Domain** wird die Portal-URL konfiguriert. Die Domain kann anschließend verteilt oder auf der eigenen Webseite eingebunden werden.
+
+Externe Benutzer melden sich mit ihren Zugangsdaten über die Portal-URL an. Sie sehen nur die Kacheln und Datensätze, die ihrer Rolle entsprechen — ohne Zugang zu anderen Arbeitsbereichen.
+
+{: .hint }
+Über das [Design](/docs/workspace-settings/design) können Banner, Logo und Farben angepasst werden, sodass das Portal dem eigenen Corporate Design entspricht.

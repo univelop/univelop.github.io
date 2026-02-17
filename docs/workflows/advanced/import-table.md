@@ -9,31 +9,32 @@ redirect_from:
     - /docs/workflows/grand-childs-bricks/import-excel.html
 ---
 
-Mit dem Workflowstep _Importiere Excel-Tabelle_ können Daten aus einer über den Datei Upload-Baustein hochgeladenen Excel-Tabelle importiert werden.
+Mit dem Schritt _Importiere Tabelle_ werden Daten aus einer Excel- oder CSV-Datei eingelesen, die über einen [Datei-Upload](/docs/bricks/input/file-picker)-Baustein hochgeladen wurde. Die eingelesenen Daten sind in folgenden Schritten als Liste zugreifbar.
 
-## <span style="color:#0b5394">**Einstellungen**</span>
+## Einstellungen
 
-In den Einstellungen des Workflowsteps wird zunächst die Liste gewählt, in welcher sich der Datei-Upload Baustein, über den die Excel-Tabelle hochgeladen werden soll, befindet (1). Anschließend wird der entsprechende Datei-Upload Baustein ausgewählt (2). Abschließend gibst du die Variable ein, über die der passende Datensatz, in welchen geschrieben werden soll, ausgewählt wird (3). Dieser ist in den meisten Fällen schon vorbelegt und entspricht dem im Workflowstep „Wähle Eintrag“ gewählten Datensatz.
+1. **Verknüpfung mit** — Die Liste, die den [Datei-Upload](/docs/bricks/input/file-picker)-Baustein enthält.
+2. **Verknüpfung mit Baustein** — Der Datei-Upload-Baustein, über den die Tabelle hochgeladen wurde.
+3. **Datensatz-ID** — Die ID des Datensatzes mit der hochgeladenen Datei.
+4. **Dateiformat** — Das Format der Datei: _Excel_ (.xlsx) oder _CSV_.
+5. **Anzahl Kopfzeilen** — Die Anzahl der Zeilen, die als Kopfzeilen übersprungen werden. Bei `1` beginnen die Daten ab Zeile 2.
+6. **CSV-Feldtrennzeichen** — _Nur bei CSV._ Das Trennzeichen zwischen Feldern (Standard: Komma).
+7. **CSV-Texttrennzeichen** — _Nur bei CSV._ Das Zeichen für Textumrahmung (Standard: Anführungszeichen).
 
-Mit der Option „Anzahl Kopfzeilen“ (4) wählst du aus, ab welcher Zeile in der hochgeladenen Excel-Tabelle, die zu berücksichtigenden Daten beginnen. Wenn in der ersten Zeile also die die Bezeichnungen der Spalten stehen ist der einzugebende Wert „1“.
+## Voraussetzungen
 
-![import excel docs](/old_assets/workflows/import excel docs.png "import excel docs")
+- **Excel:** Dateiformat .xlsx, nur ein Tabellenblatt, nur eine Datei im Upload-Baustein.
+- **CSV:** Korrekte Trennzeichen-Konfiguration.
 
-## <span style="color:#0b5394">**Voraussetzungen für die Verarbeitung der Excel Tabelle**</span>
+## Verarbeitung der Daten
 
-Damit die zu importierenden Daten fehlerfrei verarbeitet werden können, müssen folgende Bedingungen erfüllt sein:
+Die eingelesenen Daten sind über `technischer_name.data` als Liste von Zeilen verfügbar. Per [Iteriere über Werte](/docs/workflows/structure/iterate-list) können die Zeilen durchlaufen werden. Spalten werden über den Index angesprochen (ab 0):
 
--   Dateiformat: .xlsx
--   Datei darf nur ein Tabellenblatt enthalten
--   Es darf nur eine Datei über den Datei-Upload Baustein hochgeladen sein
+- `zeile[0]` — Wert aus Spalte A
+- `zeile[1]` — Wert aus Spalte B
 
-## <span style="color:#0b5394">**Möglichkeiten zur Verarbeitung der zu importierenden Daten**</span>
+Per [Erstelle Eintrag](/docs/workflows/record-loading/create-record) können die Zeilenwerte in neue Datensätze geschrieben werden.
 
-Um die Daten aus der Excel Tabelle den richtigen Bausteinen in Univelop zuzuordnen, bietet sich zunächst eine Iteration über die Daten der Tabelle an. Hierzu verwendest du den Workflowstep „Iteriere über Werte“. Um über die einzelnen Zeilen der hochzuladenden Excel-Tabelle zu iterieren, wählst du unter der Option „Wert (Dynamischer Wert)“ die entsprechende Datei aus (auszuwählen über den technischen Namen, welchen du im Workflowstep „Importiere Excel-Datei“ gesetzt hast), gefolgt von dem Selektor „data“.
+## Hinweise
 
-Um auf Grundlage der eingelesenen Daten neue Datensätze zu erstellen, verwendest du den Baustein „Erstelle neuen Eintrag“. Hier setzt du die Verknüpfung zu der Liste, in welche du die Datensätze importieren möchtest. Nun kannst du die in der Liste vorhandenen Bausteine als Variablen auswählen und mit Werten aus der Excel-Tabelle belegen. Die Spalte der hochgeladenen Tabelle, welche den zu setzenden Wert enthält wählst du mit ‚zeile[Spaltennummer]‘ aus. Beachte: die Zählung beginnt bei 0.
-
-Beispiel:
-Möchtest du Das Feld Vorname belegen und der entsprechende Wert befindet sich in deiner Excel Tabelle in Spalte A, entspricht der Wert für die Variable ‚zeile [0]‘, siehe Screenshot.
-
-![import excel docs2](/old_assets/workflows/import excel docs2.png "import excel docs2")
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung.

@@ -5,4 +5,6 @@ parent: Schnittstellen
 nav_order: 5
 ---
 
-_Diese Seite wird im Rahmen der Dokumentationsüberarbeitung erstellt._
+Eine detaillierte Beschreibung aller unterstützten Integrationstypen und deren Einrichtung befindet sich unter [Arbeitsbereich-Einstellungen — Integrationen](/docs/workspace-settings/integrations).
+
+Die Einrichtung der E-Mail-Integrationen (Microsoft, SMTP, SendGrid, Amazon SES) wird unter [E-Mail-Versand](/docs/workspace-settings/mailing) beschrieben.

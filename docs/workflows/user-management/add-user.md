@@ -10,7 +10,19 @@ redirect_from:
     - /docs/workflows/advanced/add-user.html
 ---
 
-Mit dem Baustein _Füge einen Benutzer hinzu_ wird ein bestehender Nutzer mit den angegebenen Daten in den aktuellen Arbeitsbereich hinzugefügt.
+Mit dem Schritt _Füge einen Benutzer hinzu_ wird ein bereits existierender Benutzer zum aktuellen Arbeitsbereich hinzugefügt. Der Benutzer muss bereits einen Univelop-Account besitzen.
 
-Damit können mit einer Iteration über die Stammdaten von bspw. Mitarbeitern so bequem mehrere Nutzer
-hinzugefügt werden, ohne dass jede betroffene Person manuell dem Arbeitsbereich beitreten muss.
+## Einstellungen
+
+1. **Benutzer-ID oder E-Mail** — Die ID oder E-Mail-Adresse des hinzuzufügenden Benutzers. Kann als Formel angegeben werden.
+2. **Lizenz** — Der Lizenztyp für den Benutzer im Arbeitsbereich.
+3. **Rollenname** — Die Rolle, die dem Benutzer zugewiesen wird.
+
+## Hinweise
+
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Erstelle ein neues Mitglied](/docs/workflows/user-management/create-user) — Zum Erstellen eines neuen Benutzer-Accounts
+- [Entferne einen Benutzer](/docs/workflows/user-management/remove-user) — Zum Entfernen aus dem Arbeitsbereich

@@ -5,4 +5,4 @@ parent: Workflows
 nav_order: 6
 ---
 
-Workflow-Schritte der Kategorie Erweitert ermöglichen erweiterte Funktionalitäten die über den einfachen Prozessablauf sowie das Laden und Bearbeiten von Datensätzen hinausgehen. Mithilfe von Workflow-Schritten dieser Kategorie können verschiedene Fremdsysteme angesprochen werden und so zum Beispiel Datenstände synchron gehalten werden.
+Workflow-Schritte der Kategorie _Erweitert_ ermöglichen die Kommunikation mit externen Systemen, den Versand von E-Mails und Push-Nachrichten, den Import von Tabellendaten, die Nutzung von KI sowie die Rückgabe von Werten an aufrufende Prozesse.

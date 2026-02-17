@@ -5,18 +5,33 @@ nav_order: 4
 parent: Kacheln
 ---
 
-Die Mitgliederkachel ist im Kern eine normale Liste, die aber speziell dem Verwalten der
-Mitglieder des Arbeitsbereiches dient.
-Diese Kachel enthält einen Eintrag für jedes Mitglied des Arbeitsbereiches, und umfasst den Namen, E-Mail-Adresse und Status des Nutzers.
+Die _Mitglieder_-Kachel ist eine spezielle Liste zur Verwaltung der Mitglieder eines Arbeitsbereichs. Jedes Mitglied hat automatisch einen Eintrag mit Name, E-Mail-Adresse und Status.
 
-Standardmäßig können die E-Mail, der Name, die ID und nicht verändert werden, solange der Status des Nutzers auf "Aktiv" steht.
-Sobald der Nutzer nicht aktiv ist, d.h. nicht mehr im Arbeitsbereich ist, können alle Bausteine, abgesehen vom Status, verändert werden und es kann der Eintrag auch gelöscht werden.
+## Funktionsweise
 
-Um Mitglieder zu verwalten, die aber nicht im Arbeitsbereich sind, können in der Liste wie üblich Einträge dafür erstellt und bearbeitet werden. Diese Mitglieder besitzen dabei immer den Status 'Nicht aktiv'.
+- Für jedes Mitglied des Arbeitsbereichs wird automatisch ein Eintrag angelegt.
+- Die Felder **Name**, **E-Mail** und **ID** sind bei aktiven Mitgliedern nicht änderbar.
+- Verlässt ein Mitglied den Arbeitsbereich, wird sein Status auf _Nicht aktiv_ gesetzt. Danach können alle Felder (außer dem Status) bearbeitet und der Eintrag gelöscht werden.
+- Wird ein Eintrag für ein nicht-aktives Mitglied manuell angelegt und dieses Mitglied tritt später dem Arbeitsbereich bei, wird sein Status automatisch auf _Aktiv_ gesetzt — sofern die E-Mail-Adresse übereinstimmt.
 
-Sobald ein neues Mitglied dem Arbeitsbereich betritt, für den ein Eintrag in dieser Kachel mit der selben E-Mail vorhanden ist, wird der Status auf 'Aktiv' gesetzt. Verlässt ein Mitglied den Arbeitsbereich, wird der Status in seinem Eintrag auf 'Nicht aktiv' gesetzt.
+## Erweiterung
 
-Im Designmodus können die Einträge um weitere Bausteine erweitert werden, um bspw. einfache Daten wir Telefonnummern oder
-Adresse hinzuzufügen oder aber den Nutzern einen Standort, ein
-aktuelles Projekt oder seine aktuellen Arbeitszeiten zuzuweisen.
-Alle Bausteine aus dieser Kachel können bei den Rechten zur Konfiguration verwendet werden.
+Im [Designmodus](/docs/designmode/record) kann die Mitglieder-Kachel um beliebige Bausteine erweitert werden, z. B.:
+
+- Telefonnummer oder Adresse
+- Zugewiesenes Projekt oder Abteilung
+- Aktuelle Arbeitszeiten
+
+Alle Bausteine der Mitglieder-Kachel können in den [Rollen und Rechten](/docs/member-management/roles-rights) zur Konfiguration von Berechtigungen verwendet werden.
+
+## Einstellungen
+
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
+
+1. **Kachel-Info** — Anzahl der Mitglieder oder Summe eines Bausteins.
+2. **Filter und Sortierung** — Filter und Sortierreihenfolge für die Mitgliederliste.
+
+## Verwandte Seiten
+
+- [Mitgliederverwaltung](/docs/member-management/member-management) — Überblick über die Verwaltung von Mitgliedern
+- [Rollen und Rechte](/docs/member-management/roles-rights) — Konfiguration von Benutzerrollen und Zugriffsrechten

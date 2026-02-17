@@ -46,7 +46,7 @@ Der Baustein stellt folgende Werte bereit, die in Formeln und Filtern verwendet 
 
 ## Hinweise
 
-- Der Genehmigungsprozess kann über die Workflow-Schritte [Genehmigung anfordern](/docs/workflows/user-interaction/send-approval-request) und [Warte auf Genehmigung](/docs/workflows/user-interaction/wait-for-approval) auch vollständig in Workflows abgebildet werden.
+- Der Genehmigungsprozess kann über die Workflow-Schritte [Genehmigung anfordern](/docs/workflows/record-editing/send-approval-request) und [Warte auf Genehmigung](/docs/workflows/record-editing/wait-for-approval) auch vollständig in Workflows abgebildet werden.
 - Der Status des Bausteins kann in Bedingungen und Filtern verwendet werden, z. B. `genehmigung.status == 'approved'`.
 
 ## Verwandte Bausteine

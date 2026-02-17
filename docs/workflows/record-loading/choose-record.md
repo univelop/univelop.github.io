@@ -10,13 +10,23 @@ redirect_from:
     - /docs/workflows/load-records/choose-record.html
 ---
 
-Über den Baustein _Wähle Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.
+Mit dem Schritt _Wähle Eintrag_ wird ein Datensatz geladen, damit dessen Werte im weiteren Workflow zugreifbar sind. Der Datensatz wird entweder automatisch aus dem Kontext übernommen (z. B. wenn der Workflow per [Workflow-Button](/docs/bricks/advanced/flow-button) aus einem Datensatz gestartet wurde) oder über Filter bestimmt.
 
-![choose record docs](/old_assets/workflows/choose record docs.png "choose record docs")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Technischer Name**</span>  
-   Über diesen Namen sind die Werte des Eintrages im folgenden Workflow zugreifbar
-2. <span style="color:#0b5394">**Aus Datensatzliste füllen**</span>  
-   Um sich das manuelle Auswählen eines Eintrages zu sparen, kann über diese Einstellung ermöglicht werden.
-   Es wird automatisch der Eintrag gewählt, bei dem der Workflow über den Baustein _Workflow_ gestartet wurde.
-3. <span style="color:#0b5394">**Filter und Sortierung**</span>
+1. **Verknüpfung mit** — Die Liste, aus der der Datensatz geladen wird.
+2. **Aus Datensatzliste füllen** — Wenn aktiviert, wird automatisch der Datensatz verwendet, aus dem der Workflow gestartet wurde. Spart die manuelle Auswahl.
+3. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein.
+
+## Funktionsweise
+
+Die Bausteinwerte des gewählten Datensatzes sind in folgenden Schritten über den technischen Namen des Schritts zugreifbar, z. B. `bestellungen.titel` für den Titel-Baustein eines Datensatzes mit dem Schrittnamen `bestellungen`.
+
+## Hinweise
+
+- Wird ein Workflow per [Starte Workflow](/docs/workflows/structure/start-workflow) mit einer Datensatz-ID gestartet, wählt dieser Schritt automatisch den übergebenen Datensatz.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Finde ersten Eintrag](/docs/workflows/record-loading/first-record) — Findet einen Datensatz per Filter ohne Benutzerinteraktion

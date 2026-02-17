@@ -4,16 +4,24 @@ title: Check Out
 parent: Benutzerinteraktion
 grand_parent: Workflows
 icon: check_circle
-nav_order: 1
+nav_order: 2
 redirect_from:
     - /docs/workflows/grand-childs-bricks/check-out.html
     - /docs/workflows/advanced/checkout.html
 ---
 
-Über den Baustein _Check Out_ wird ein Popup eingeblendet, welcher einen individuellen Titel und eine Nachricht anzeigt.
-Dieses Popup besitzt noch einen Button, um zur Hauptseite zurückzukehren, um bspw. nach einem erfolgreich eingereichten Eintrag den Nutzer wieder
-einfach zur Hauptseite weiterzuleiten.
+Mit dem Schritt _Check Out_ wird ein Popup mit Titel, Nachricht und einem Button zur Rückkehr auf die Hauptseite angezeigt. Er eignet sich als Abschluss eines Workflows, um den Benutzer nach erfolgreicher Einreichung zurück zum Homescreen zu leiten.
 
-_Hinweis: Dieser Baustein kann nur in Workflows ausgeführt werden, welche NICHT auf dem Server laufen._
+## Einstellungen
 
-![check out popup](/old_assets/workflows/check out popup.png "check out popup")
+1. **Titel** — Der Titel des Popups. Kann dynamisch mit `${}` gestaltet werden.
+2. **Nachricht** — Der Nachrichtentext. Kann dynamisch mit `${}` gestaltet werden.
+
+## Hinweise
+
+- Nur in **Client-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).
+
+## Verwandte Schritte
+
+- [Zeige Nachricht](/docs/workflows/user-interaction/message) — Für reine Informationsanzeige ohne Navigation

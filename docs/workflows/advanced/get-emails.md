@@ -9,44 +9,43 @@ redirect_from:
     - /docs/workflows/grand-childs-bricks/get-emails.html
 ---
 
-Über den Baustein _Rufe E-Mails ab_ können E-Mails aus einem Postfach abgerufen werden.
+Mit dem Schritt _Rufe E-Mails ab_ werden E-Mails aus einem Postfach abgerufen. Pro Aufruf werden maximal **50 E-Mails** aus dem Posteingang geladen.
 
-Um E-Mails von Azure abrufen zu können, muss dies zuerst eingerichtet und im Arbeitsbereich konfiguriert werden, wie in dieser Anleitung beschrieben.
+## Einstellungen
 
-Abgerufen werden die ersten **50** E-Mails aus dem Ordner **Posteingang (Inbox)** des angegebenen Postfaches, welche zu den gesetzten Einstellungen passen. Wenn es mehr als 50 E-Mails gibt, die zu den Einstellungen passen, wird in den Logs eine Warnung diesbezüglich ausgegeben.
+1. **Integration** — Die E-Mail-Integration (z. B. Microsoft).
+2. **Empfänger-E-Mail** — Die E-Mail-Adresse des abzurufenden Postfachs.
+3. **Von Zeitpunkt** — _Optional._ Nur E-Mails nach diesem Datum.
+4. **Bis Zeitpunkt** — _Optional._ Nur E-Mails vor diesem Datum.
+5. **Nur ungelesene** — Wenn aktiviert, werden nur ungelesene E-Mails abgerufen.
+6. **Nach Abrufen auf Gelesen stellen** — Wenn aktiviert, werden abgerufene E-Mails als gelesen markiert.
+7. **Inkl. Anhänge** — Wenn aktiviert, werden Dateianhänge mitgeladen.
+8. **Inkl. eingebettete Bilder** — Wenn aktiviert, werden eingebettete Bilder mitgeladen.
 
-Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werden, indem die Einstellungen **Nur ungelesene** sowie **Nach dem Abrufen auf Gelesen stellen** beide auf Ja gesetzt werden und der Baustein innerhalb einer Iteration so lange aufgerufen wird, bis es keine Datensätze mehr gibt.
+{: .warning }
+Die Option _Inkl. Anhänge_ kann sehr [Credit](/docs/credits)-intensiv sein. Nur aktivieren, wenn Anhänge benötigt werden.
 
-### <span style="color:#0b5394">**Einstellungen**</span>
+## Ausgabevariablen
 
-1. <span style="color:#0b5394">**Empfänger-E-Mail (Text)**</span>  
-   Hier muss die E-Mail-Adresse des Postfachs angegeben werden, aus welchem E-Mails abgerufen werden sollen.
-1. <span style="color:#0b5394">**Nur ungelesene (Ja/Nein)**</span>  
-   Wird diese Option auf Ja gesetzt, werden nur ungelesene E-Mails ausgegeben. Andernfalls werden sowohl ungelesene als auch gelesene abgerufen.
-1. <span style="color:#0b5394">**Nach dem Abrufen auf Gelesen stellen (Ja/Nein)**</span>  
-   Wenn diese Option auf Ja gesetzt wird, werden abgerufene E-Mails automatisch auf gelesen gesetzt.
-1. <span style="color:#0b5394">**Inkl. Anhänge (Ja/Nein)**</span>  
-   Ist diese Option auf Ja gesetzt, werden die Anhänge der E-Mails automatisch mitgeladen und stehen als Variable zur Verfügung.
-   **Warnung: Da diese Option sehr Credit-Intensiv sein kann, sollte sie nur aktiviert werden, wenn die Anhänge wirklich benötigt werden.**
-1. <span style="color:#0b5394">**Von Zeitpunkt (Datum)**</span>  
-   Nur E-Mails ausgeben mit Empfangsdatum nach dem hier definierten Zeitpunkt.
-1. <span style="color:#0b5394">**Bis Zeitpunkt (Datum)**</span>  
-   Nur E-Mails ausgeben mit Empfangsdatum vor dem hier definierten Zeitpunkt.
+Über `technischer_name.data` ist die Liste der abgerufenen E-Mails zugreifbar. Per [Iteriere über Werte](/docs/workflows/structure/iterate-list) können die einzelnen E-Mails durchlaufen werden. Jede E-Mail enthält:
 
-In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem Iteriere über Werte Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
+| Variable | Beschreibung |
+|----------|-------------|
+| `id` | Eindeutige ID der E-Mail |
+| `subject` | Betreff |
+| `body` | Inhalt (HTML wird automatisch zu Text konvertiert) |
+| `received_at` | Empfangszeitpunkt als Text (z. B. `2023-05-23 18:45:13.562`) |
+| `fromEmail` | E-Mail-Adresse des Absenders |
+| `fromName` | Name des Absenders |
+| `is_read` | Ob die E-Mail vor dem Abrufen bereits gelesen war |
+| `has_attachments` | Ob die E-Mail Anhänge hat |
+| `attachments` | Liste der Anhänge (nur bei aktivierter Option). Dateinamen per `toMap(attachment).name` |
 
-In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem [Iteriere über Werte](../structure/iterate-list.md) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die nachfolgenden Variablen zur Verfügung stehen.
+## Hinweise
 
-### <span style="color:#0b5394">**Variablen**</span>
+- Bei mehr als 50 passenden E-Mails wird eine Warnung in den Logs ausgegeben. Für die Verarbeitung größerer Mengen: _Nur ungelesene_ und _Nach Abrufen auf Gelesen stellen_ aktivieren und in einer Iteration wiederholt aufrufen.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
 
-1. **id**: Eindeutige Id des E-Mail-Objektes innerhalb von Azure
-1. **subject**: Betreff der E-Mail
-1. **body**: Inhalt der E-Mail, falls vorhanden (HTML E-Mails werden automatisch zu Text konvertiert)
-1. **received_at**: Empfangszeitpunkt der E-Mail als Text (Beispiel: 2023-05-23 18:45:13.562)
-1. **fromEmail**: E-Mail-Adresse des Absenders der E-Mail
-1. **fromName**: Name des Absenders der E-Mail, sofern von diesem festgelegt
-1. **is_read**: Ja/Nein, ob die E-Mail vor dem Abrufen bereits Gelesen war
-1. **has_attachments**: Ja/Nein, ob die E-Mail Anhänge beinhaltet
-1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](../structure/iterate-list.md) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden: `toMap(attachment).name`.
+## Verwandte Schritte
+
+- [Sende E-Mail](/docs/workflows/advanced/send-email) — Für den Versand von E-Mails
