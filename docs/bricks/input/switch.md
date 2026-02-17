@@ -8,13 +8,26 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/switch.html
 ---
 
-Mit dem Baustein _Schalter_ werden einfache "Ja / Nein"-, "Erfüllt / Nicht erfüllt"-Abfragen in der App dargestellt.
+Mit dem Baustein _Schalter_ werden einfache Ja/Nein-Abfragen in Einträgen dargestellt. Er eignet sich für Bestätigungen, Checklisten-Punkte und alle Felder mit zwei Zuständen.
 
-![switch](/old_assets/record-spec-settings/1switch.png 'switch')
+## Einstellungen
 
-Der Schalter kann als solcher oder als Checkbox in der App dargestellt werden. Darüber hinaus kann im Ausdruck gewählt
-werden, ob der Schalter als Ja / Nein, Checkbox, _Bezeichnung oder nichts_ oder _Anderer Text oder nichts_ dargestellt werden soll.
-Letzteren beiden dienen für spezielle Formulare, wo bspw. ein "Ja / Nein" innerhalb einer Tabelle nicht sinnvoll ist, und durch die Bezeichnung des Bausteins bzw. einen benutzerdefinierten Text ersetzt werden soll.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Mit dem Baustein _Schalter_ kann ebenfalls gesteuert werden, ob versteckte Bausteine unter der Bedingung des Schalters
-angezeigt werden sollen (z. B. wird der Schalter auf "Ja" gestellt, zeige den Baustein "Auftragsnummer" an).
+1. **Darstellung** — Legt fest, ob der Baustein als Schalter (Switch) oder als Checkbox angezeigt wird.
+2. **Standardwert** — Der vorausgewählte Wert beim Erstellen eines neuen Eintrags (an/aus).
+3. **Darstellung im Ausdruck** — Legt fest, wie der Schalter in PDF-Ausdrucken dargestellt wird:
+   - _Ja/Nein_ — Zeigt "Ja" oder "Nein" an
+   - _Checkbox_ — Zeigt eine angekreuzte oder leere Checkbox an
+   - _Bezeichnung oder nichts_ — Zeigt die Bezeichnung des Bausteins an, wenn aktiviert, sonst nichts
+   - _Anderer Text oder nichts_ — Zeigt einen benutzerdefinierten Text an, wenn aktiviert, sonst nichts
+4. **Text im Ausdruck** — Der benutzerdefinierte Text für die Ausdruck-Option _Anderer Text oder nichts_. Nur bei dieser Option verfügbar.
+
+## Hinweise
+
+- Der Schalter kann als Bedingung für das bedingte Anzeigen anderer Bausteine verwendet werden (z. B. „Zeige Baustein X an, wenn Schalter aktiviert ist").
+
+## Verwandte Bausteine
+
+- [Drop-Down](/docs/bricks/input/drop-down) — Für Auswahl aus mehr als zwei Möglichkeiten
+- [Segmente](/docs/bricks/input/segments) — Für visuelle Auswahl aus wenigen Optionen

@@ -9,99 +9,69 @@ redirect_from:
 ---
 
 {: .hint }
-Der ChatGPT Baustein befindet sich in der Beta-Phase und ist nur auf Anfrage benutzbar. Bei Interesse gerne bei uns unter support@univelop.de melden!
+Der ChatGPT-Baustein befindet sich in der Beta-Phase und ist nur auf Anfrage nutzbar. Bei Interesse bitte unter support@univelop.de melden.
 
-Mit dem ChatGPT Baustein kann ein Datensatz anhand eines Textes bzw. einer Spracheingabe ausgefüllt werden.
-Der Baustein nutzt im Kern ChatGPT, um aus einer Eingabe den aktuellen Datensatz auszufüllen.
+Mit dem Baustein _ChatGPT_ kann ein Datensatz anhand einer Text- oder Spracheingabe automatisch ausgefüllt werden. Der Baustein nutzt im Kern OpenAI, um aus einer natürlichen Eingabe die passenden Felder im aktuellen Datensatz zu befüllen.
 
-Nutzbar ist der Baustein erst nach einer erfolgreichen Aktivierung der ChatGPT Anbindung!
+## Einstellungen
 
-## <span style="color:#0b5394">**Unterstützte Bausteine**</span>
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Mit unterstützten Bausteinen sind die gemeint, welche sich durch ChatGPT ausfüllen lassen.
-Aktuell werden folgende Bausteine unterstützt:
+Der Baustein hat keine zusätzlichen bausteinspezifischen Einstellungen. Die Konfiguration erfolgt über die _Tooltips_ der einzelnen Bausteine im Datensatz (siehe Einrichtung).
 
--   Textfeld
--   Nummer
--   Schalter
--   Datum
--   Zeitspanne, Timer
--   Dropdown, Mehrfachauswahl
--   Adresse
--   Abmessungen
--   Benutzer
--   Telefon, E-Mail
--   Datensatz, Datensätze, Datensatzliste
--   Datensatz sperren
--   Status
+## Voraussetzungen
 
-## <span style="color:#0b5394">**Einrichtung (Vor der Anwendung)**</span>
+Der Baustein ist erst nach erfolgreicher Aktivierung der ChatGPT-Anbindung in den [Arbeitsbereich-Einstellungen](/docs/workspace-settings/chatgpt) nutzbar.
 
-ChatGPT erhält nicht den vollständigen Datensatz, also nicht alle Bausteine, sondern nur die Bausteine,
-die für den aktuellen Benutzer sichtbar sind und dazu ein Tooltip haben. Das Tooltip dient als Hilfe für ChatGPT,
-um die einzelnen Bausteine besser zu verstehen.
-Damit man also den ChatGPT Baustein erfolgreich nutzen kann, müssen alle Baustein, die von ChatGPT ausgefüllt werden sollen,
-mit einem Tooltip versehen werden. Darin sollte kurz aber klar beschrieben werden, was eingetragen wird.
+## Einrichtung
 
-Wenn bspw. ein Datensatz Baustein für einen Artikel vorliegt, kann im Tooltip erklärt werden, welchem Muster die Artikelnummer folgt.
-Hat man zwei gleichnamig oder semantisch ähnlich benannte Bausteine, lohnt es sich, diese in dessen Tooltips deutlich zu beschreiben um diese dadurch unterscheidbar zu machen.
+ChatGPT erhält nicht alle Bausteine eines Datensatzes, sondern nur diejenigen, die für den aktuellen Benutzer sichtbar sind **und** ein Tooltip haben. Das Tooltip dient als Beschreibung für ChatGPT, um die einzelnen Bausteine korrekt zuzuordnen.
 
-## <span style="color:#0b5394">**Anwendung**</span>
+Damit der Baustein funktioniert, müssen alle Bausteine, die von ChatGPT ausgefüllt werden sollen, mit einem aussagekräftigen Tooltip versehen werden. Darin sollte kurz und klar beschrieben werden, was eingetragen werden soll. Beispiele:
 
-Ist der Baustein konfiguriert, kann die Benutzung los gehen. Der Benutzer kann nun einen Text ins Textfeld eintippen,
-oder über den Mikrofon-Button am rechten Rand per Sprache etwas rein sprechen.
+- Bei einem _Datensatz_-Baustein für Artikel kann im Tooltip erklärt werden, welchem Muster die Artikelnummer folgt.
+- Bei zwei ähnlich benannten Bausteinen sollten die Tooltips deutlich unterscheidbar formuliert sein.
 
-Der gesprochene oder eingetippte Text soll möglichst klar beschreiben, was im Datensatz eingetragen werden soll.
-Dabei hilft mehr Beschreibung oft zu besseren Ergebnissen, solange sich die Beschreibung nur auf das Wesentliche im Datensatz beschränkt. Die Eingabe kann in Stichpunkten oder in ganzen Sätzen erfolgen. Ob als Anweisung oder als beschreibende Information ("Du sollst das heutige Datum eintragen"/ "Am heutigen Datum...") ist auch nicht relevant.
+### Unterstützte Bausteine
 
-Die Eingabe sollte möglichst keine Abkürzungen oder umgangssprachliche Reden beinhalten.
-Nummern oder IDs sind gerne gesehen und funktionieren besser, als eine Umschreibung des gesuchten Wertes.
-So ist z.B. die Benennung eines Artikels über die EAN oder Artikelnummer besser, als über den Namen (13/BE128431-01 statt "Ein roter Eimer mit 5l Fassungsvermögen").
+Folgende Bausteine können von ChatGPT ausgefüllt werden:
 
-### <span style="color:#0b5394">**Beispielanwendung Zeiterfassung**</span>
+- Textfeld, Nummer, Schalter, Datum
+- Zeitspanne, Timer
+- Dropdown, Mehrfachauswahl
+- Adresse, Abmessungen
+- Benutzer, Telefon, E-Mail
+- Datensatz, Datensätze, Datensatz Liste
+- Datensatz sperren, Status
 
-![Zeiterfassung](/old_assets/record-spec-settings/chatgpt_time_tracking.png 'Zeiterfassung')
+## Funktionsweise
 
-| Baustein         | Tooltip                                                                                                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Datum            | Trage hier das Datum deiner Arbeitszeit ein.                                                                                                                                                                  |
-| Zeitspanne       | Trage hier die Start- und Enduhrzeit ein. Du kannst auch Pausen, z.B. Mittagspausen direkt abziehen. Achte darauf, dass sich deine Arbeitszeiten nicht überschneiden                                          |
-| Mitarbeiter      | Trage dich selbst ein                                                                                                                                                                                         |
-| Projekt          | Trage das Projekt ein, für welches du die Zeit erfassen möchtest.                                                                                                                                             |
-| Art              | Trage die Kategorie ein, in welche sich die Arbeit einordnen lässt.                                                                                                                                           |
-| Bemerkung Kunde  | Trage hier eine Bemerkung ein, die der Kunde versteht. Diese kann der Kunde auf dem Leistungsnachweis einsehen. Wenn unklar ist, was du hier erfassen sollst frage am besten deine Projekt- oder Teamleitung. |
-| Bemerkung intern | Trage hier eine interne Bemerkung ein. Diese kann der Kunde nicht sehen.                                                                                                                                      |
+Der Benutzer tippt einen Text ins Textfeld oder nutzt den Mikrofon-Button für eine Spracheingabe. Die Eingabe sollte möglichst klar beschreiben, was im Datensatz eingetragen werden soll. Die Eingabe kann in Stichpunkten oder ganzen Sätzen erfolgen.
 
-Für eine Zeiterfassung werden folgend einige Beispiele genannt, welche als Eingabe möglich sind:
+**Tipps für gute Eingaben:**
+- Nummern oder IDs verwenden statt Umschreibungen (z. B. `13/BE128431-01` statt „Ein roter Eimer mit 5l").
+- Keine Abkürzungen oder umgangssprachliche Formulierungen verwenden.
+- Mehr Details führen zu besseren Ergebnissen, solange sie sich auf den Datensatz beschränken.
 
--   Ich habe heute am Projekt ABC für die Firma XY von 12 bis 18 Uhr gearbeitet
--   Projekt ABC, Firma XY, 12-18 Uhr, Mitarbeiter Max Mustermann
--   Bitte trage mich ins Feld Mitarbeiter ein, ins Projektfeld das Projekt ABC, in das Firmenfeld XY und in die Uhrzeit bitte 12 bis 18.
--   Das Projekt ist ABD, der Mitarbeiter bin ich, die Firma ist XY und die Arbeitszeit war von 12 bis 18 Uhr.
+### Beispiel: Zeiterfassung
 
-Folgende Eingaben für eine Zeiterfassung sind nicht sinnvoll und würden unbefriedigende Ergebnisse liefern:
+| Baustein | Tooltip |
+| --- | --- |
+| Datum | Trage hier das Datum deiner Arbeitszeit ein. |
+| Zeitspanne | Trage hier die Start- und Enduhrzeit ein. Achte darauf, dass sich Arbeitszeiten nicht überschneiden. |
+| Mitarbeiter | Trage dich selbst ein. |
+| Projekt | Trage das Projekt ein, für welches du die Zeit erfassen möchtest. |
+| Art | Trage die Kategorie ein, in welche sich die Arbeit einordnen lässt. |
 
--   ~~Ich hab heute für meine Lieblingsfirma wie üblich fünf stunden geackert~~
--   ~~Ich hab ab 12 Uhr für den Rest des Tages am aktuellen Projekt gearbeitet und es hat gar keinen Spaß gebracht~~
+Mögliche Eingaben:
+- „Ich habe heute am Projekt ABC für die Firma XY von 12 bis 18 Uhr gearbeitet"
+- „Projekt ABC, Firma XY, 12-18 Uhr, Mitarbeiter Max Mustermann"
 
-## <span style="color:#0b5394">**Kosten**</span>
+## Hinweise
 
-Der ChatGPT Baustein nutzt im Hintergrund GPT 3.5 Turbo. Dies ist das kostengünstigste Modell von OpenAI und
-bietet eine gute Balance zwischen zufriedenstellenden Ergebnissen, geringen Kosten und hoher Geschwindigkeit.
+- Pro Abfrage werden je nach Datensatzgröße zwischen 1.000 und 25.000 Input-Tokens und 200 bis 3.000 Output-Tokens verbraucht.
+- Die KI-Beschreibung (_Tooltip_) jedes Bausteins ist entscheidend für die Qualität der Ergebnisse.
 
-Pro abgesendetem Text an ChatGPT können zwischen 1.000 und 25.000 Tokens im Input und rund 200 bis 3.000 Tokens im Output verbraucht werden.
-Die exakte Anzahl hängt von der Anzahl der auszufüllenden Bausteinen im Datensatz ab.
-Stand 10.07.2024 kosten mit dem Modell GPT 3.5 Turbo 1.000.000 Input-Tokens $0,50 und 1.000.000 Output-Tokens $1,50.
-Diese Zahlen werden für die folgende Berechnung der Kosten pro Abfrage herangezogen.
+## Verwandte Bausteine
 
-Diese Berechnung dient der Veranschaulichung und soll eine Hilfe zur Vorstellung der Kosten sein.
-Benutzt man im eigenen Anwendungsfall auch 11 Bausteine, heißt dies nicht, dass die eigenen Kosten dem des Beispiels entsprechen.
-
-| Größe vom Datensatz                  | Input-Tokens pro Abfrage | Output-Tokens pro Abfrage | Kosten pro Abfrage | Kosten pro 1000 Abfragen |
-| ------------------------------------ | ------------------------ | ------------------------- | ------------------ | ------------------------ |
-| 11 Bausteine, ohne Datensatzliste    | ~2.800                   | ~400                      | $0,0020            | $2 / 1,85€               |
-| 6 Bausteine, inkl. Datensatzliste    | ~4.000                   | ~1.500                    | $0,00425           | $4,25 / 3,90€            |
-| 26 Bausteine, inkl 4 Datensatzlisten | ~19.000                  | ~3.000                    | $0,014             | $14 / 13€                |
-
-{: .hint }
-Dies ist nur eine Beispielrechnung. Sie bildet keineswegs die tatsächlich anfallenden Kosten bei der Nutzung im eigenen Anwendungsfall ab.
+- [Bild-Erkennung](/docs/bricks/advanced/gpt-image-scanner) — Für die Befüllung eines Datensatzes aus einem Bild

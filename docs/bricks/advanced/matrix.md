@@ -8,86 +8,59 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/matrix.html
 ---
 
-Mit dem Matrix Baustein werden Buchungen bearbeitet. Diese Buchungen beziehen sich auf zwei Listen. Diese zwei Listen bilden in der Matrix die Zeilen und Spalten. Die Buchungen sind Einträge die mit der Zeile und Spalte verknüpft sind.
+Mit dem Baustein _Matrix_ werden Buchungen bearbeitet, die sich auf zwei Listen beziehen. Diese zwei Listen bilden die Zeilen und Spalten der Matrix. Die Buchungen sind Einträge, die jeweils mit einer Zeile und einer Spalte verknüpft sind. Der Baustein eignet sich z. B. für Lizenzmanagement (Kunden × Produkte), Berechtigungsmatrizen oder Schichtpläne.
 
-## <span style="color:#0b5394">Einstellungen</span>
+## Einstellungen
 
-Im folgenden wird der Baustein anhand des Beispiels von einer Produktverwaltung erklärt.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
--   <span style="color:#0b5394">**Spalten**</span>
+### Spalten
 
-    Hier wird die erste Liste gewählt, auf die sich bezogen wird. Bezogen auf das Beispiel wären das die Produkte.
-    Optional kann eine Verbindung zum Eintrag der Matrix erstellt werden.
+1. **Verknüpfung mit** — Die Liste für die Spalten der Matrix (z. B. Produkte).
+2. **Verknüpfung über** — _Optional._ Verbindung zum aktuellen Datensatz, um die Spalten zu filtern.
+3. **Filter und Sortierung** — Schränkt die angezeigten Spalten ein.
 
-    ![matrixColumn](/old_assets/record-spec-settings/matrixSpalten.png 'matrixColumn')
+### Zeilen
 
--   <span style="color:#0b5394">**Zeilen**</span>
+4. **Verknüpfung mit** — Die Liste für die Zeilen der Matrix (z. B. Kunden).
+5. **Verknüpfung über** — _Optional._ Verbindung zum aktuellen Datensatz, um die Zeilen zu filtern.
+6. **Filter und Sortierung** — Schränkt die angezeigten Zeilen ein.
 
-    Hier wird die zweite Liste gewählt, auf die sich bezogen wird. Bezogen auf das Beispiel wären das die Kunden, welche die Produkte in Anspruch nehmen.
-    Optional kann eine Verbindung zum Eintrag der Matrix erstellt werden.
+### Zellen
 
-    ![matrixRow](/old_assets/record-spec-settings/matrixZeilen.png 'matrixRow')
+7. **Verknüpfung mit** — Die Liste, die die Buchungen (Zellen) enthält.
+8. **Verknüpfung über** — _Optional._ Verbindung zum aktuellen Datensatz.
+9. **Verknüpfung zur Zeile** — Der _Datensatz_-Baustein in der Buchungsliste, der auf die Zeilen-Liste zeigt.
+10. **Verknüpfung zur Spalte** — Der _Datensatz_-Baustein in der Buchungsliste, der auf die Spalten-Liste zeigt.
 
--   <span style="color:#0b5394">**Zellen**</span>
+### Darstellung
 
-    Hier wird die Liste gewählt, die die Buchungen enthält. Bezogen auf das Beispiel wären das die Buchungen, die die Kunden mit den Produkten verbinden.
-    Optional kann eine Verbindung zum Eintrag der Matrix erstellt werden.
+11. **Darstellung der Zellen** — Wählt Bausteine aus, die in den Zellen angezeigt werden. Nur _Schalter_-Bausteine sind in den Zellen direkt editierbar — alle anderen Bausteine werden nur dargestellt.
+12. **Detailansicht und Mehrfachauswahl** — Aktiviert oder deaktiviert die Buttons für Detailansicht und Mehrfachauswahl.
 
-    ![matrixCell](/old_assets/record-spec-settings/matrixZellen.png 'matrixCell')
+### Spaltensumme und Kapazität
 
--   <span style="color:#0b5394">**Verknüpfung zwischen Zellen und Zeilen/Spalten**</span>
+13. **Spaltensumme** — Zeigt unterhalb jeder Spalte eine Zusammenfassung an: _Anzahl der Einträge_ oder _Summe über einen Baustein_.
+14. **Kapazität** — Ein numerischer Baustein aus der Spaltenliste, der angibt, wie viele Zellen maximal pro Spalte gefüllt werden dürfen. Wird die Kapazität überschritten, wird sie rot dargestellt.
 
-    Hier werden die Bausteine in der Buchungsliste gewählt, welche die verknüpfung der Buchungen mit den Zeilen und Spalten herstellen.
-    Bezogen auf das Beispiel wären das die Datensatz-Bausteine, die sich auf die Kunden und die Produkte beziehen.
+### Erweitert
 
-    ![matrixLinks](/old_assets/record-spec-settings/matrixLinks.png 'matrixLinks')
+15. **Leere Einträge automatisch löschen** — Löscht Buchungen automatisch, wenn deren Zellen geleert werden (z. B. ein Schalter von Ja auf Nein gesetzt wird).
 
--   <span style="color:#0b5394">**Darstellung der Zellen**</span>
+## Funktionsweise
 
-    Hier können Bausteine gewählt werden, welche in den Zellen angezeigt werden sollen.
-    Es sind nur Schalter-Bausteine in den Zellen editierbar, alle restlichen Bausteine werden nur dargestellt, wenn diese einen Wert besitzen,
-    jedoch kann in diese über die Matrix kein Wert eingetragen werden.
-    Für das Beispiel kann hier ein Baustein Schalter gewählt werden, der angibt ob das Produkt für gegebenen Kunden lizenziert ist.
+Die Matrix zeigt eine Gitteransicht, bei der die Zeilen und Spalten aus den konfigurierten Listen stammen. Jede Zelle repräsentiert eine mögliche Buchung zwischen einer Zeile und einer Spalte. Wird z. B. ein Schalter in einer Zelle aktiviert, wird automatisch ein Buchungsdatensatz erstellt, der die entsprechende Zeile und Spalte verknüpft. Die Kapazitätsanzeige zählt die gefüllten Zellen pro Spalte mit und zeigt eine Warnung bei Überschreitung.
 
-    ![matrixDisplay](/old_assets/record-spec-settings/matrixDisplay.png 'matrixDisplay')
+Über die Detailansicht kann eine gefüllte Zelle geöffnet werden, um den vollständigen Buchungsdatensatz zu bearbeiten.
 
--   <span style="color:#0b5394">**Detailansicht und Mehrfachauswahl**</span>
+## Hinweise
 
-    Ein- und Abschalten von Mehrfachauswahl- und Detailansicht-Buttons.
+- Die Matrix erzeugt und löscht Buchungsdatensätze automatisch basierend auf den Zellenaktionen.
+- _Schalter_-Bausteine eignen sich am besten für Zellen, da sie direkt in der Matrix editiert werden können.
+- Filter und Sortierung können für Spalten, Zeilen und Zellen unabhängig konfiguriert werden.
 
-    ![matrixDetail](/old_assets/record-spec-settings/matrixDetail.png 'matrixDetail')
+## Verwandte Bausteine
 
--   <span style="color:#0b5394">**Spaltensumme und Kapazität**</span>
-
-    Die Spaltensumme dient dem Überblick, wie viele Zellen schon für gegebene Spalte gefüllt sind. Hier kann die Anzahl der Einträge pro Spalte
-    oder die Summe über einen Baustein gewählt werden. Diese Summe wird über alle Einträge der Spalte errechnet.
-    Die Kapazität ist ein Baustein aus der Spaltenliste, der angibt wie viele Zellen maximal für die Spalte gefüllt werden können.
-    Bezogen auf das Beispiel wäre für letzteres ein Zahlenbaustein geeignet, welcher angibt wie viele Lizenzen für das Produkt verfügbar sind.
-
-    ![matrixSum](/old_assets/record-spec-settings/matrixSum.png 'matrixSum')
-
--   <span style="color:#0b5394">**Erweiterte Einstellungen**</span>
-
-    Hier kann die Darstellung konfiguriert werden.
-    Dazu kann eingestellt werden, ob EInträge, welche zunächst gefüllt sind, und danach geleert werden, wieder automatisch gelöscht werden sollen.
-
-    ![matrixExtended](/old_assets/record-spec-settings/matrixExtended.png 'matrixExtended')
-
-## <span style="color:#0b5394">Nutzung des Bausteins</span>
-
-Fertig konfiguriert, sollte der Baustein ungefähr so aussehen:
-![matrixView](/old_assets/record-spec-settings/matrix view.png "matrixView")
-
-Die Zellen sind inital nicht gefüllt, entsprechen sind alle Kapazitäten auf 0.
-Sobald der Baustein Schalter in einer Zelle aktiviert wird, wird ein Eintrag für den gegebenen Kunden und das gegebene Produkt erstellt und die Kapazität um 1 erhöht.
-![matrixPreview](/old_assets/record-spec-settings/matrixPreview.png 'matrixPreview')
-
-Tut man dies so oft, bis die Kapazität überschritten ist, wird diese rot dargestellt.
-![matrixCapacity](/old_assets/record-spec-settings/matrixOverflow.png 'matrixCapacity')
-
-Nimmt man nun eine Zelle, und wählt diese ab, so wird der Eintrag, wenn diese Einstellung gesetzt wurde, wieder gelöscht und die Kapazität wieder um 1 verringert.
-
-Öffnet man eine gefüllte Zelle zur Detailansicht, so wird der Eintrag der die Zelle darstellt, geöffnet.
-Hier ist zu sehen, dass für den Kunden und das Produkt entsprechend der Zeilen und Spalten ausgefüllt ist,
-und auch der Schalter auf ja steht.
-![matrixDetailView](/old_assets/record-spec-settings/matrixPopup.png 'matrixDetailView')
+- [Tabelle](/docs/bricks/advanced/table) — Für eindimensionale tabellarische Darstellung
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für einfache Listenverknüpfungen
+- [Ressourcen-Zuweisung](/docs/bricks/advanced/resource-allocation) — Für Drag-&-Drop-Zuweisungen

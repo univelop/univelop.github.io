@@ -8,100 +8,72 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/create-pdf.html
 ---
 
-Mit dem Baustein _PDF erstellen_ kann, ausgehend von einer Word Vorlage, eine PDF Datei erstellt
-und, wenn gewünscht, per E-Mail versendet. Die Word-Datei kann individuell gestaltet werden und sich
-auf die Liste beziehen in welcher die PDF-Datei erstellt wird. Alle darstellbaren Inhalte sind andruckbar,
-neben Buchstaben und Zahlen auch Bilddateien und die Unterschrift. Zusätzlich können verknüpfte Datensatz-Listen
-ausgegeben werden.  
-Als zusätzliches Feature lassen sich generierte PDFs über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. Import und Export / Dateiimport / -export via PowerShell)
+Mit dem Baustein _PDF erstellen_ kann ausgehend von einer Word-Vorlage eine PDF-Datei generiert und optional per E-Mail versendet werden. Die Word-Vorlage kann individuell gestaltet werden und über Platzhalter auf Bausteine der aktuellen Liste zugreifen. Neben Text und Zahlen können auch Bilder, Unterschriften und verknüpfte Datensatz-Listen ausgegeben werden.
 
-## <span style="color:#0b5394">Vorbereitung der Word-Vorlage</span>
+## Einstellungen
 
-![create pdf](/old_assets/record-spec-settings/1create pdf.png "create pdf")
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. <span style="color:#0b5394">**Ausgabe von Einzelwerten**</span>  
-   Die Ausgabe von Einzelwerten erfolgt indem in der Word-Vorlage der technische Name eines Bausteins innerhalb der
-   zwei geschwungenen Klammern gesetzt wird. Beispiel: Rechnungsnummer ${belegnummer}.
+1. **Dateivorlage** — Die Word-Vorlage (.docx), die als Basis für die PDF-Erstellung dient. Über den Plus-Button wird die Vorlage hochgeladen.
+2. **Dateiname** — Ein optionaler abweichender Dateiname. Kann dynamisch gestaltet werden, z. B. `${belegnummer}` für einen Dateinamen basierend auf der Belegnummer.
+3. **In PDF konvertieren** — Konvertiert die erzeugte Datei automatisch in das PDF-Format.
+4. **PDF/A-Format** — Erzeugt die PDF im archivierungsfähigen PDF/A-Format.
+5. **PowerShell-Synchronisation** — Ermöglicht die automatische Dateiübertragung in einen Zielordner per PowerShell-Skript.
+6. **Direkter Mailversand** — Aktiviert den Versand der erzeugten PDF per E-Mail.
 
-2. <span style="color:#0b5394">**Ausgabe von Schaltern**</span>  
-   Die Ausgabe des
-   Bausteins _Schalter_
-   kann im Designmodus in den Einstellungen des Bausteins unter "Darstellung als Ausdruck" als "Checkbox",
-   "Ja / Nein" oder "Nennen des Inhalts" festgelegt werden.
+### Mail-Einstellungen
 
-3. <span style="color:#0b5394">**Ausgabe von Datensatz-Liste**</span>  
-   Um die Daten eines Baustein _Datensatz Liste_ auszugeben, muss in der Word-Vorlage eine entsprechende Tabelle gezeichnet werden.
+Nur verfügbar wenn _Direkter Mailversand_ aktiviert ist:
 
-    So könnte die Tabelle zur Ausgabe einer ganzen Liste, mittels Serienbrieffunktionalität aussehen:
+7. **Empfänger** — Ein _Textfeld_- oder _E-Mail_-Baustein, der die Empfänger-Adresse enthält.
+8. **CC-Empfänger** — Zusätzliche CC-Adressen.
+9. **Benutzer in CC hinzufügen** — Fügt den auslösenden Benutzer automatisch in CC hinzu.
+10. **BCC** — Zusätzliche BCC-Adressen.
+11. **Betreff** — Der E-Mail-Betreff, kann dynamisch mit `${}` gestaltet werden.
+12. **Inhalt** — Der E-Mail-Text, kann dynamisch mit `${}` gestaltet werden.
 
-    |**Arbeitszeit** |**Mitarbeiter**|
-    |${repeat(mitarbeiterZeiten)}            |           |
-    |${mitarbeiterZeiten.Arbeitszeit} |${mitarbeiterZeiten.name}|
-    |${endrepeat} | |
+## Vorbereitung der Word-Vorlage
 
-    Die gezeichnete Tabelle in der Word-Vorlage kann um beliebig viele Spalten erweitert werden, solange
-    diese in der Datensatz-Liste vorkommen.
+### Einzelwerte
 
-    Verschachtelte Aufrufe des `repeat(...)` ineinander sind auch möglich. Es muss jedoch eine Liste referenziert werden, welche von der umschließenden Liste erreichbar ist (z. B. durch einen Baustein Datensatz-Liste). Auch wichtig ist, dass bei dem `endrepeat` der Name der Liste angegeben wird, über die iteriert wird. Dadurch kann z. B. die tägliche Nutzungszeit einer Baumaschine, welche aus Einsätzen bei mehreren Kunden besteht, geordnet und mit einer Vorlage zu einem PDF-Dokument erzeugt werden.
-    Eine solche Tabelle könnte wie folgt aussehen:
+Die Ausgabe von Einzelwerten erfolgt über den technischen Namen in geschweiften Klammern mit Dollar-Zeichen: `${belegnummer}`.
 
-    |**Maschine** |**Nutzzeit** |**Auftrag**|
-    |${repeat(maschZeiten)}             |                           |           |
-    |${maschZeiten.maschine} |${maschZeiten.gesDauer}    |           |
-    |${repeat(maschZeiten.einsaetze)} | | |
-    | |${maschZeiten.einsaetze.dauer}|${maschZeiten.einsaetze.auftrNr}|
-    |${endrepeat(maschZeiten.einsaetze)}|                           |           |
-    |${endrepeat} | | |
+### Schalter
 
-4. <span style="color:#0b5394">**Ein/-Ausblenden von Inhalten**</span>  
-   Sollten gewisse Inhalte zB abhängig von einem Schalter ausgeblendet werden, kann dies über die `showIf` bzw. `hideIf` Funktion realisiert werden.
+Die Darstellung eines _Schalter_-Bausteins im PDF wird über dessen Einstellung „Darstellung als Ausdruck" gesteuert (z. B. Checkbox, Ja/Nein, eigener Text).
 
-    Wenn wir das obige Beispiel (Zeiterfassung) erweitern möchten, und zB anzeigen möchten, dass es sich bei der aufgeführten Zeit um Reisezeit handelte kann man zB so etwas machen:
+### Datensatz-Listen (repeat)
 
-    |**Arbeitszeit** |**Mitarbeiter**| |
-    |${repeat(mitarbeiterZeiten)}            |           | |
-    |${mitarbeiterZeiten.Arbeitszeit} |${mitarbeiterZeiten.name}| ${showIf(mitarbeiterZeit.istReisezeit)}Reisezeit${endShowIf(mitarbeiterZeit.istReisezeit)} |
-    |${endrepeat} | |
+Um Einträge einer _Datensatz Liste_ auszugeben, wird eine Tabelle mit der `repeat`-Syntax verwendet:
 
-    In diesem Beispiel wird der Text "Reisezeit" nur angezeigt, wenn der Schalter `istReisezeit` gesetzt ist. `showIf` und `hideIf` können auch auch außerhalb von `repeat`-Blöcken verwendet werden, wichtig ist nur, das ein `endShowIf` bzw. `endHideIf` folgt.
+| Spalte A | Spalte B |
+| --- | --- |
+| `${repeat(mitarbeiterZeiten)}` | |
+| `${mitarbeiterZeiten.Arbeitszeit}` | `${mitarbeiterZeiten.name}` |
+| `${endrepeat}` | |
 
-    {: .hint }
-    `showIf` und `hideIf` können nur auf Schalter / Ja-/Nein-Formel-Bausteine angewendet werden. Die direkte Eingabe von Formeln ist nicht möglich.
+Verschachtelte `repeat`-Blöcke sind möglich, solange die innere Liste von der äußeren erreichbar ist. Beim verschachtelten `endrepeat` muss der Listenname angegeben werden: `${endrepeat(maschZeiten.einsaetze)}`.
 
-## <span style="color:#0b5394">Einstellungen des Bausteins _PDF erstellen_</span>
+### Bedingte Inhalte (showIf / hideIf)
 
-![create pdf settings](/old_assets/record-spec-settings/2create pdf settings.png "create pdf settings")
+Inhalte können abhängig von einem _Schalter_- oder _Ja-Nein-Formel_-Baustein ein- oder ausgeblendet werden:
 
-1. <span style="color:#0b5394">**Dateivorlage hinzufügen**</span>  
-   Über den Plus-Button öffnet sich ein Auswahl-Dialog, worüber die Word-Vorlage ausgewählt wird. Anschließend wird
-   sie in den Baustein hochgeladen.
+`${showIf(istReisezeit)}Reisezeit${endShowIf(istReisezeit)}`
 
-2. <span style="color:#0b5394">**abweichender bzw. dynamischer Dateiname**</span>  
-   Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Soll der Dateiname zum Teil dynamisch sein
-   kann ebenfalls ein Platzhalter mit Bezug zu einem Baustein eingesetzt werden. Soll die PDF-Datei zum Beispiel so
-   heißen wie die Belegnummer, können Sie hier ${belegnummer} eingeben.
+{: .hint }
+`showIf` und `hideIf` können nur auf Schalter- oder Ja-Nein-Formel-Bausteine angewendet werden. Die direkte Eingabe von Formeln ist nicht möglich.
 
-3. <span style="color:#0b5394">**automatische Dateiübertragung per PowerShell**</span>  
-   Zur automatischen Dateiübertragung können Sie auch Dateien Per Powershell mit dem Dateisystem
-   synchronisieren.
+### Unterschriften
 
-4. <span style="color:#0b5394">**Direkter Mailversand**</span>  
-   Die erstellte PDF kann über diese Funktion direkt per E-Mail versendet werden.
+Eine Unterschrift wird über den technischen Namen referenziert. Für die zusätzliche Ausgabe von Name und Datum wird `_text` angehängt, z. B. `${signatur_text}`.
 
-## <span style="color:#0b5394">Einstellungen des direkten Mail-Versands</span>
+## Hinweise
 
-Um eine E-Mail Adresse für den direkten Mailversand zu verwenden, benötigt der Baustein _PDF erstellen_ einen Empfänger über einen Baustein _Textfeld_, wo die entsprechende E-Mail Adresse eingetragen wird.
-Bleibt die E-Mail Adresse für den direkten Mailversand immer gleich, kann der Baustein _Textfeld_ versteckt und als Standard-Text wird die E-Mail Adresse hinterlegt.  
-Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferanten pro Artikel, etc.) kann der benötigte Baustein _Textfeld_, bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. Verknüpfung über den Baustein _Datensatz_).
+- Die E-Mail-Adresse für den Empfänger kann fest (verstecktes Textfeld mit Standardwert) oder dynamisch (aus Stammdaten übernommen) konfiguriert werden.
+- Generierte PDFs können zusätzlich per PowerShell-Skript automatisch in einen Zielordner synchronisiert werden.
 
-Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vorgenommen werden.
+## Verwandte Bausteine
 
-![create pdf settings](/old_assets/record-spec-settings/1create pdf settings.png "create pdf settings")
-
-1. <span style="color:#0b5394">**CC-Empfänger**</span>
-2. <span style="color:#0b5394">**Benutzer in CC hinzufügen**</span>  
-   der auslösende Benutzer der PDF-Erstellung wird automatisch in CC genommen (z. B. bei Urlaubsanträge, etc.)
-3. <span style="color:#0b5394">**BCC**</span>
-4. <span style="color:#0b5394">**Betreff vordefinieren**</span>
-5. <span style="color:#0b5394">**Inhalt der E-Mail vordefinieren**</span>  
-   Über ${} kann ebenfalls der Inhalt dynamisch gestaltet werden
+- [XML erstellen](/docs/bricks/advanced/xml) — Für die Erzeugung von XML-Dateien
+- [Unterschrift](/docs/bricks/advanced/signature) — Für die Erfassung von Unterschriften im PDF
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Listen, die im PDF ausgegeben werden

@@ -10,78 +10,47 @@ nav_exclude: true
 {: .hint }
 Die Ressourcen-Zuweisung ist ein [Power Feature](/docs/power-features)
 
-Mit der Ressourcen-Zuweisung können **Ressourcen** als **Zuweisungen** auf **Zuweisungs-Ziele** zugeordnet werden.
-Die Ressourcen-Zuweisung bietet eine Oberfläche, die es intuitiv ermöglicht **Ressourcen** auf **Zuweisungs-Ziele** zu ziehen und somit **Zuweisungen** zu erstellen. **Zuweisungen** können innerhalb von **Zuweisungs-Zielen** verschoben werden oder zurückgezogen werden, um den **Zuweisungs-Datensatz** zu löschen.
+Mit dem Baustein _Ressourcen-Zuweisung_ können Ressourcen per Drag & Drop auf Zuweisungs-Ziele zugeordnet werden. Der Baustein arbeitet mit drei Listen: einer Ressourcen-Liste, einer Zuweisungs-Liste und einer Zuweisungs-Ziel-Liste. Er eignet sich z. B. für die Zuordnung von Materialien zu Warengruppen, Mitarbeitern zu Projekten oder Fahrzeugen zu Einsätzen.
 
-Ein Beispielszenario könnte wie folgt aussehen:
-- **Ressourcen**: Materialien-Liste
-- **Zuweisungen**: Liste, welche Materialien mit Warengruppen kombiniert. Diese Liste muss mindestens einen Datensatz-Baustein auf die **Ressourcen** sowie einen auf die **Zuweisungs-Ziele** beinhalten. Diese Liste kann weitere Bausteine, wie bspw. eine Nummer als Menge, beinhalten
-- **Zuweisungs-Ziele**: Warengruppe-Liste 
+## Einstellungen
 
-## <span style="color:#0b5394">Einstellung</span>
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 ### Ressource
 
-### 1. Verknüpfung mit (erforderlich)
-
-Über diese Einstellung muss die Liste ausgewählt werden, welche die Ressourcen beinhaltet.
-
-### 2. Verknüpfung über (optional)
-
-Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Ressourcen mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
-
-### 3. Filter und Sortierung (optional)
-
-Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
-
-### 4. Eintragsvorschau (optional)
-
-Die Darstellung der Datensätze auf der Ressourcen-Zuweisungs Oberfläche.
-Standardmäßig wird die Darstellung der verknüpften Ressourcne-Liste verwendet.
+1. **Verknüpfung mit** — Die Liste, die die Ressourcen enthält (z. B. Materialien).
+2. **Verknüpfung über** — _Optional._ Filtert die Ressourcen auf den aktuellen Datensatz.
+3. **Filter und Sortierung** — Schränkt die angezeigten Ressourcen ein.
+4. **Eintragsvorschau** — Die Darstellung der Ressourcen auf der Zuweisungs-Oberfläche. Standardmäßig wird die Listenansicht der verknüpften Liste verwendet.
 
 ### Zuweisung
 
-### 1. Verknüpfung mit (erforderlich)
-
-Über diese Einstellung muss die Liste ausgewählt werden, welche die Zuweisungen beinhaltet.
-
-### 2. Verknüpfung über (optional)
-
-Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Zuweisungen mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
-
-### 3. Filter und Sortierung (optional)
-
-Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
-
-### 4. Verknüpfung zur Ressource (erforderlich)
-
-Hier muss ein Baustein in der Zuweisungs-Liste ausgewählt werden, welcher auf die Ressourcen zeigt.
-Wird eine Ressource vom Nutzer zu einem Zuweisungs-Ziel gezogen, wird dieser Baustein automatisch mit der gezogenen Ressource befüllt - also eine neue Zuweisung erstellt.
-
-### 5. Verknüpfung zum Zuweisungs-Ziel (erforderlich)
-
-Hier muss ein Baustein in der Zuweisungs-Liste ausgewählt werden, welcher auf die Ressourcen-Ziele zeigt.
-Wird eine Ressource vom Nutzer zu einem Zuweisungs-Ziel gezogen, wird dieser Baustein automatisch mit dem Zuweisungs-Ziel befüllt, auf welches der Nutzer die Ressource fallengelassen hat.
+5. **Verknüpfung mit** — Die Liste, die die Zuweisungen enthält. Diese Liste verbindet Ressourcen mit Zuweisungs-Zielen und muss mindestens je einen _Datensatz_-Baustein auf die Ressource und auf das Zuweisungs-Ziel enthalten.
+6. **Verknüpfung über** — _Optional._ Filtert die Zuweisungen auf den aktuellen Datensatz.
+7. **Filter und Sortierung** — Schränkt die angezeigten Zuweisungen ein.
+8. **Verknüpfung zur Ressource** — Der _Datensatz_-Baustein in der Zuweisungs-Liste, der auf die Ressource zeigt. Wird beim Zuweisen automatisch befüllt.
+9. **Verknüpfung zum Zuweisungs-Ziel** — Der _Datensatz_-Baustein in der Zuweisungs-Liste, der auf das Zuweisungs-Ziel zeigt. Wird beim Zuweisen automatisch befüllt.
 
 ### Zuweisungs-Ziel
 
-### 1. Verknüpfung mit (erforderlich)
+10. **Verknüpfung mit** — Die Liste, die die Zuweisungs-Ziele enthält (z. B. Warengruppen).
+11. **Verknüpfung über** — _Optional._ Filtert die Zuweisungs-Ziele auf den aktuellen Datensatz.
+12. **Filter und Sortierung** — Schränkt die angezeigten Zuweisungs-Ziele ein.
+13. **Eintragsvorschau** — Die Darstellung der Zuweisungs-Ziele auf der Oberfläche.
 
-Über diese Einstellung muss die Liste ausgewählt werden, welche die Zuweisungs-Ziele beinhaltet.
+## Funktionsweise
 
-### 2. Verknüpfung über (optional)
+Die Oberfläche zeigt links die verfügbaren Ressourcen und rechts die Zuweisungs-Ziele. Per Drag & Drop wird eine Ressource auf ein Zuweisungs-Ziel gezogen, wodurch automatisch ein Zuweisungs-Datensatz erstellt wird. Die Bausteine _Verknüpfung zur Ressource_ und _Verknüpfung zum Zuweisungs-Ziel_ werden dabei automatisch befüllt.
 
-Optional kann eine `Verknüpfung über` definiert werden. Diese verknüpft die Zuweisungs-Ziele mit dem aktuellen Datensatz, auf welchem sich der Baustein befindet. Ist dies gesetzt, werden die Datensätze direkt auf entsprechenden Datensatz heruntergefiltert.
+Zuweisungen können innerhalb von Zuweisungs-Zielen verschoben oder zurückgezogen werden, um den Zuweisungs-Datensatz zu löschen.
 
-### 3. Filter und Sortierung (optional)
+## Hinweise
 
-Optional können Filter und/oder eine Sortierung angegeben werden, um die angezeigten Datensätze einzuschränken.
+- Die Zuweisungs-Liste kann weitere Bausteine enthalten (z. B. eine Nummer für die Menge), die beim Zuweisen manuell ausgefüllt werden können.
+- Die optionalen _Verknüpfung über_-Einstellungen ermöglichen es, Ressourcen und Zuweisungen auf den Kontext eines bestimmten Datensatzes (z. B. eines Projekts) zu beschränken.
 
-### 4. Eintragsvorschau (optional)
+## Verwandte Bausteine
 
-Die Darstellung der Datensätze auf der Ressourcen-Zuweisungs Oberfläche.
-Standardmäßig wird die Darstellung der verknüpften Ressourcne-Liste verwendet.
-
-
-
-
+- [Matrix](/docs/bricks/advanced/matrix) — Für zweidimensionale Zuordnungen in Gitterform
+- [Terminplaner](/docs/bricks/advanced/scheduler) — Für die zeitbasierte Ressourcenplanung
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die einfache Listenanzeige verknüpfter Einträge

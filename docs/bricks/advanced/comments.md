@@ -8,13 +8,16 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/comment.html
 ---
 
-Der Baustein _Kommentare_ ist aufgebaut wie ein Chat/Forum. Zu bestimmten Datensätze bietet sich dieser
-Baustein an, da er, im Gegensatz zu dem mehrzeiligen Textfeld, den Vorteil hat, dass der Kommentar-Verfasser,
-sowie das Datum und die Uhrzeit automatisch mit angelegt werden. Ggf. bietet sich diese Kommentarfunktion an für den
-Austausch von Problemen vor Ort, o. ä.
+Der Baustein _Kommentare_ stellt eine Chat-artige Kommentarfunktion für Einträge bereit. Jeder Kommentar wird automatisch mit Verfasser, Datum und Uhrzeit versehen.
 
-![comment](/old_assets/record-spec-settings/comment.png 'comment')
+## Einstellungen
 
-Um Benutzer direkt in einer Konversation innerhalb eines Kommentarbausteins zu erwähnen,
-kann per '@' und dem folgenden Benutzernamen der entsprechende Benutzer getaggt werden.
-Der getaggte Benutzer erhält eine Benachrichtigung über die Erwähnung.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+Dieser Baustein besitzt keine zusätzlichen bausteinspezifischen Einstellungen.
+
+## Hinweise
+
+- Um Benutzer in einer Konversation zu erwähnen, kann per `@` und dem folgenden Benutzernamen der entsprechende Benutzer getaggt werden. Der getaggte Benutzer erhält eine Benachrichtigung.
+- Im Vergleich zu einem mehrzeiligen Textfeld bietet der Kommentarbaustein den Vorteil, dass Verfasser und Zeitstempel automatisch erfasst werden.
+- Der Baustein eignet sich besonders für den Austausch bei Problemen, Rückfragen oder Abstimmungen zu einem Eintrag.

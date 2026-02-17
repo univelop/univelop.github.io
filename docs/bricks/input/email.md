@@ -8,7 +8,15 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/e-mail.html
 ---
 
-Durch den Baustein _E-Mail_ können Mailadressen im System hinterlegt werden. Befindet man sich in einem Datensatz
-mit einer hinterlegten E-Mail-Adresse kann über das Brief-Symbol das Standard-Mailprogramm geöffnet werden.
+Mit dem Baustein _E-Mail_ können E-Mail-Adressen erfasst werden. Das Format wird automatisch validiert. Über das Brief-Symbol im Eintrag kann direkt das Standard-Mailprogramm mit der hinterlegten Adresse geöffnet werden.
 
-![mail](/old_assets/record-spec-settings/1mail.png 'mail')
+## Einstellungen
+
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+Dieser Baustein besitzt keine zusätzlichen bausteinspezifischen Einstellungen.
+
+## Verwandte Bausteine
+
+- [Telefon](/docs/bricks/input/phone) — Für Telefonnummern mit Anruffunktion
+- [Textfeld](/docs/bricks/input/text-field) — Für allgemeine Texteingaben ohne Validierung

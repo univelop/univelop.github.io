@@ -8,8 +8,15 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/telephone.html
 ---
 
-Mit dem Baustein _Telefon_ kann eine beliebige Telefonnummer hinterlegt werden. Analog zu dem Baustein _E-Mail_
-öffnet sich auch hier durch das Klicken auf das Hörer-Symbol Ihr Telefondienst und die Telefonnummer wird direkt
-angerufen.
+Mit dem Baustein _Telefon_ können Telefonnummern erfasst werden. Das Format wird automatisch validiert. Über das Hörer-Symbol im Eintrag kann direkt der Telefondienst des Geräts gestartet und die hinterlegte Nummer angerufen werden.
 
-![telephone](/old_assets/record-spec-settings/1telephone.png 'telephone')
+## Einstellungen
+
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+Dieser Baustein besitzt keine zusätzlichen bausteinspezifischen Einstellungen.
+
+## Verwandte Bausteine
+
+- [E-Mail](/docs/bricks/input/email) — Für E-Mail-Adressen mit Mailfunktion
+- [Textfeld](/docs/bricks/input/text-field) — Für allgemeine Texteingaben ohne Validierung

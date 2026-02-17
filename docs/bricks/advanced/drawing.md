@@ -8,31 +8,43 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/drawing.html
 ---
 
-Mit dem Baustein _Zeichnung_ können auf mobilen Geräten Zeichnungen erstellt werden.
-Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
+Mit dem Baustein _Zeichnung_ können auf mobilen Geräten und im Web Zeichnungen erstellt werden. Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
 
-![1drawing](/old_assets/record-spec-settings/1drawing.png '1drawing')
+## Einstellungen
 
-1. <span style="color:#0b5394">**Editieren**</span>  
-   Nur auf mobilen Geräten sichtbar. Öffnet den Zeichnen-Modus.
-2. <span style="color:#0b5394">**Hintergrund Ändern**</span>  
-   Ändern des Hintergrundes. Dabei wird die existierende Zeichnung gelöscht.
-3. <span style="color:#0b5394">**Löschen**</span>  
-   Löscht die Zeichnung
-4. <span style="color:#0b5394">**Teilen/Herunterladen**</span>  
-   Im Web wird hier die Zeichnung heruntergeladen. Auf mobilen Geräten (Android, iOS) kann die Zeichnung geteilt werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-## <span style="color:#0b5394">Zeichnen</span>
+1. **Breite** — Die Breite der Zeichenfläche in Pixeln.
+2. **Höhe** — Die Höhe der Zeichenfläche in Pixeln.
+3. **Qualität** — Die Bildqualität der gespeicherten Zeichnung.
+4. **Hintergrundbild** — Ein optionales Bild, das als Hintergrund für die Zeichnung dient.
 
-![2drawing](/old_assets/record-spec-settings/2drawing.png '2drawing')
+## Funktionsweise
 
-1. <span style="color:#0b5394">**Schritt zurück/vor**</span>  
-   Die letzte Aktion(Form eingefügt, Linie gezeichnet etc.) wird zurückgenommen bzw. wieder eingefügt.
-2. <span style="color:#0b5394">**Zeichnen**</span>  
-   Wenn ausgewählt, kann auf dem Hintergrund gezeichnet werden.
-3. <span style="color:#0b5394">**Text einfügen**</span>
-4. <span style="color:#0b5394">**Form einfügen**</span>  
-   HIer können beliebige Formen ausgewählt und eingefügt werden.
-5. <span style="color:#0b5394">**Undo-Pinsel**</span>  
-   Wenn ausgewählt, können existierende Linien wegtuschiert werden.
-6. <span style="color:#0b5394">**Farbe und Pinselgröße**</span>
+Im Ansichtsmodus wird die fertige Zeichnung angezeigt. Folgende Aktionen stehen zur Verfügung:
+
+- **Editieren** — Öffnet den Zeichenmodus (auf mobilen Geräten auf dem Display, im Web per Mauszeiger).
+- **Hintergrund ändern** — Ersetzt den Hintergrund. Die bestehende Zeichnung wird dabei gelöscht.
+- **Löschen** — Entfernt die gesamte Zeichnung.
+- **Teilen/Herunterladen** — Im Web wird die Zeichnung heruntergeladen. Auf mobilen Geräten kann sie geteilt werden.
+
+### Zeichenwerkzeuge
+
+Im Zeichenmodus stehen folgende Werkzeuge zur Verfügung:
+
+- **Schritt zurück/vor** — Macht die letzte Aktion rückgängig oder stellt sie wieder her.
+- **Zeichnen** — Freihandzeichnung auf der Zeichenfläche.
+- **Text einfügen** — Fügt Textfelder auf der Zeichnung ein.
+- **Form einfügen** — Bietet verschiedene geometrische Formen zur Auswahl.
+- **Radierer** — Entfernt bestehende Linien.
+- **Farbe und Pinselgröße** — Passt Farbe und Stärke des Zeichenstifts an.
+
+## Hinweise
+
+- Die Zeichnung wird als Bilddatei gespeichert und kann in PDF-Ausdrücken über den technischen Namen referenziert werden.
+- Die Zeichnung ist sowohl online als auch offline verfügbar.
+
+## Verwandte Bausteine
+
+- [Unterschrift](/docs/bricks/advanced/signature) — Für die Erfassung von Unterschriften
+- [Bildauswahl](/docs/bricks/input/image-picker) — Für die Aufnahme und Auswahl von Fotos

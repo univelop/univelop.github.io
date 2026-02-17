@@ -6,25 +6,29 @@ grand_parent: Bausteine
 nav_order: 2
 ---
 
-Mit dem Baustein _Datensätze_ wird eine mehrfache Verknüpfung zu beliebigen Datensätzen einer anderen Liste aus dem
-Arbeitsbereich hergestellt. Es handelt sich um eine Erweiterung des Datensatz Bausteins, sodass n Datensätze aus
-der verknüpften Liste gewählt werden können.
+Mit dem Baustein _Datensätze_ wird eine mehrfache Verknüpfung zu beliebig vielen Datensätzen einer anderen Liste hergestellt. Er erweitert den Baustein _Datensatz_ um die Möglichkeit, mehrere Einträge auszuwählen.
 
-![records2](/old_assets/record-spec-settings/records2.png 'records2')
+## Einstellungen
 
-Die Einstellungen dieses Bausteins sind allerdings eingeschränkter, als der Datensatz Baustein.
-Es wird eine Verknüpfung mit einer Liste hergestellt und die Einträge können gefiltert und sortiert werden.
-Über die Funktion _Filter und Sortierung_ lassen sich je nach Einstellung nur bestimmte Datensätze anzeigen.
-Die Sortierung ist nur für die Auswahl der Datensätze relevant- und das auch nur, solange keine Sucheingabe erfolgt ist.
-Auf die Aufzählung der ausgewählten Datensätze hat die konfigurierte Sortierung keinen Einfluss. Diese erfolgt immer alphabetisch.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Mit aktuellem Benutzer vorbelegen:
-Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
+1. **Verknüpfung mit** — Die Liste, aus der Datensätze ausgewählt werden können.
+2. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein. Die Sortierung gilt nur für die Auswahlliste, nicht für die Anzeige der gewählten Datensätze. Sobald eine Sucheingabe erfolgt, wird die Sortierung ignoriert.
+3. **Mit aktuellem Benutzer vorbelegen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht.
+4. **Benachrichtigungen für eingetragene Benutzer** — Sendet Benachrichtigungen an die im Baustein eingetragenen Benutzer.
 
-In der Nutzung können Datensätze an- und abgewählt werden.
-Der Feldinhalt ist immer eine Liste von Elementen. Es steht per default immer [] in dem Baustein,
-würde man sich die Werte ausgeben lassen.
+## Funktionsweise
 
-![records](/old_assets/record-spec-settings/records.png 'records')
+In der Nutzung können Datensätze an- und abgewählt werden. Der Feldinhalt ist immer eine Liste von Elementen — standardmäßig steht `[]` (leere Liste) im Baustein. Die Aufzählung der ausgewählten Datensätze wird immer alphabetisch sortiert dargestellt.
 
-Verknüpfungsmöglichkeiten sind in den Docs unter Verknüpfen von Listen zu finden.
+## Hinweise
+
+- Die Einstellungen sind gegenüber dem Baustein _Datensatz_ eingeschränkt — es gibt z. B. keine _Werte übernehmen_-Funktion.
+- Der Wert kann in Formeln als Liste verwendet werden, z. B. mit Listenfunktionen.
+- Verknüpfungsmöglichkeiten sind unter [Verknüpfen von Listen](/docs/link-lists) beschrieben.
+
+## Verwandte Bausteine
+
+- [Datensatz](/docs/bricks/advanced/record-picker) — Für die Verknüpfung mit einem einzelnen Datensatz
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Anzeige verknüpfter Einträge als eingebettete Liste
+- [Listen-Formel](/docs/bricks/advanced/list-expression) — Für berechnete Listen

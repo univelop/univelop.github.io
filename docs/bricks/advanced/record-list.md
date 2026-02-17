@@ -8,66 +8,48 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/record-list.html
 ---
 
-Der Baustein _Datensatz Liste_ zeigt beliebige Einträge einer Liste an.
-Die Verknüpfung und bedingte Anzeige kennt bei diesem Baustein zwei Wege.
-Entweder zeigt sie alle Einträge einer Liste an, die die eingestellten Filter erfüllen, oder solche Einträge, die mit dem aktuellen Datensatz explizit verbunden sind.
-In jedem Fall müssen Sie zunächst, wie bei dem Datensatz Baustein,
-eine einfache Verknüpfung mit einer anderen Liste wählen.
+Der Baustein _Datensatz Liste_ zeigt Einträge einer verknüpften Liste innerhalb eines Datensatzes an. Anders als bei den Bausteinen _Datensatz_ und _Datensätze_ werden hier keine bestehenden Datensätze ausgewählt, sondern neue Datensätze direkt erfasst. Er eignet sich z. B. für Positionen in einem Auftrag, Arbeitszeiten zu einem Projekt oder Artikelbewegungen zu einem Lieferschein.
 
-Da Ihnen durch die einfache Verknüpfung alle Datensätze der verknüpften Liste angezeigt werden, müssen Sie
-die Anzeige nun bedingt filtern. Diese Filterung kennt zwei Wege. Entweder mittels "Verknüpfung über" oder
-mit der Filterung und Sortierung. Anders als bei den Datensatz und Datensätze Bausteinen wird mit der Datensatz-Liste
-kein Datensatz gepickt, sondern vielmehr erfasst (neu erstellt).
+## Einstellungen
 
----
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-## <span style="color:#0b5394">Verknüpfung über und Filterung</span>
+1. **Verknüpfung mit** — Die Liste, deren Einträge angezeigt werden sollen.
+2. **Verknüpfung über** — Ein _Datensatz_-Baustein in der verknüpften Liste, der auf die eigene Liste zurückzeigt. Damit werden nur Einträge angezeigt, die mit dem aktuellen Datensatz verbunden sind.
+3. **Filter und Sortierung** — Zusätzliche oder alternative Filterung der angezeigten Einträge. Über den `=B`-Filter kann dynamisch gefiltert werden.
+4. **Darstellung** — Wählt zwischen _Eingebettete Liste_ und _Link zur Liste_.
+5. **Anzahl der Datensätze in Vorschau** — Anzahl der sichtbaren Einträge bei eingebetteter Liste (Standard: 3).
+6. **Schnellerfassung** — Ermöglicht das Anlegen neuer Datensätze direkt in einer Vorschau, ohne den Datensatz vollständig zu öffnen. Bausteine können für die Schnellerfassung ausgeblendet werden.
+7. **Erfassungs-Button ausblenden** — Versteckt den Button zum Anlegen neuer Einträge.
+8. **Detailansicht-Button ausblenden** — Versteckt den Button zur Detailansicht einzelner Einträge.
+9. **Summe anzeigen** — Zeigt eine Summe unterhalb der Liste an. Verfügbare Optionen: _Anzahl der Punkte_ (ein Punkt pro Eintrag), _Anzahl der Einträge_ (als Zahl) oder _Summe über einen Baustein_ (z. B. Arbeitszeit pro Tag). Nur verfügbar wenn eine _Verknüpfung über_ gewählt wurde.
 
-Nach einer Verknüpfung mit einer anderen Liste, kann eine Verknüpfung über gewählt werden.
+## Funktionsweise
 
-_Die goldene Regel lautet: "Verknüpfe immer über dich selbst"._
+### Verknüpfung über
 
-Das heißt in der verknüpften Liste gibt es einen Datensatz Baustein, der zurück guckt.
-Habe ich in meiner Liste Lieferscheine eine Datensatz-Liste in Richtung Artikelbewegungen,
-benötige ich für die Verknüpfung über einen Datensatz-Baustein in den Artikelbewegungen,
-der mit den Lieferscheinen verknüpft ist.
+Die _Verknüpfung über_ folgt der Regel: „Verknüpfe immer über dich selbst". Das bedeutet, in der verknüpften Liste muss ein _Datensatz_-Baustein existieren, der auf die eigene Liste zeigt. Beispiel: Hat eine Liste _Lieferscheine_ eine Datensatz-Liste in Richtung _Artikelbewegungen_, benötigt man in den _Artikelbewegungen_ einen _Datensatz_-Baustein, der mit _Lieferscheinen_ verknüpft ist.
 
-Im Prinzip wird mit der Verknüpfung über ein sehr einfacher Filter gesetzt, nämlich
-nur auf die Datensätze, die mit einem selbst verknüpft sind.
-"Summe anzeigen" ist nur möglich, wenn eine Verknüpfung über gewählt wurde.
+### Darstellung als Link
 
-Zusätzlich oder stattdessen kann auch eine Filterung auf ein bestimmtes Merkmal gesetzt werden.
-Hier eignet sich zum dynamischen Filtern der =B (= Baustein) Filter.
-Die Filterung dieses Bausteins könnte aussagen "Gebe mir alle Artikelbewegungen, in dessen
-Feld Kunde das gleiche steht, wie in meinem Feld Kunde im Lieferschein".
-In Univelop entspricht das "Kunde =B Kunde".
+Bei der Darstellung als _Link zur Liste_ gelangt man beim Klick auf den Baustein in die verknüpfte Liste und sieht dort die gefilterten Datensätze in der Listenansicht.
 
-![record-list1](/old_assets/record-spec-settings/record-list1.png 'record-list1')
+### Darstellung als eingebettete Liste
 
-## <span style="color:#0b5394">Einstellungen der Oberfläche</span>
+Bei der eingebetteten Liste wird die Listenansicht der verknüpften Liste direkt im Datensatz angezeigt. Über die _Schnellerfassung_ können neue Einträge direkt in einer Vorschau erfasst werden.
 
-Die Datensatz-Liste kann als eingebettete Liste oder als Link zur Liste dargestellt werden.
+### Summen
 
-Bei einem Link zur Liste gelangt man mit Drücken auf den Baustein in der verknüpften Liste und sieht dort
-in der Listenansicht die gefilterten Datensätze.
+Summen über einen Baustein können in Formeln weiterverwendet werden — z. B. für Netto-Umsatz, darauf aufbauend Steuer und Brutto.
 
-Wird eine eingebettete Liste gewählt, ergeben sich weitere Darstellungsoptionen.
-Zunächst kann die Anzahl der Datensätze in Vorschau gewählt werden. Im Standard eine 3.
-Die Vorschau enthält immer die Listenansicht der verknüpften Liste.
+## Hinweise
 
-Aktiviert man die Schnellerfassung, rutscht das + zum Anlegen neuer Datensätze von oben rechts
-nach unten und man kann in einer Vorschau den neuen Datensatz erfassen, statt dass dieser
-geöffnet wird. Bausteine der verknüpften Liste könnten für die Schnellerfassung ausgeblendet werden.
+- Filter werden beim Erzeugen neuer Tabellenzeilen automatisch als Vorbelegung übernommen.
+- Bei der _Verknüpfung über_ wird beim Erstellen eines neuen Eintrags der aktuelle Datensatz automatisch im verknüpften Baustein eingetragen.
+- Verknüpfungs- und Filtermöglichkeiten sind unter [Verknüpfen von Listen](/docs/link-lists) beschrieben.
 
-Weiterhin könnte der Erfassungs-Button ausgeblendet werden und der Button zur Detailansicht kann
-versteckt werden. Dies sind Sicherheitseinstellungen, damit Personen ohne Berechtigungen a keine Datensätze
-erfassen können und b im Zweifel nur die Inhalte der Schnellerfassung sehen können.
+## Verwandte Bausteine
 
-Zu guter Letzt gibt es noch "Summe anzeigen". Hier kann zwischen einer Summe über die Anzahl der Datensätze in der verknüpften Liste und einer Summe über einen Baustein gewählt werden. Diese Summe kann gefiltert werden oder damit
-kann weiter gerechnet werden, wenn wir z.B. an Netto-Umsatz und darauf aufbauend Steuer und Brutto denken.
-
-![record-list2](/old_assets/record-spec-settings/record-list2.png 'record-list2')
-
-Verknüpfungs- und Filtermöglichkeiten sind in den Docs unter
-Verknüpfen von Listen
-zu finden.
+- [Datensatz](/docs/bricks/advanced/record-picker) — Für die Verknüpfung mit einem einzelnen Datensatz
+- [Tabelle](/docs/bricks/advanced/table) — Für tabellarische Darstellung verknüpfter Einträge
+- [Kalender](/docs/bricks/advanced/calendar) — Für die Kalenderdarstellung verknüpfter Einträge

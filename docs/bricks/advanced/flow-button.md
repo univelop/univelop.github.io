@@ -8,15 +8,22 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/workflow.html
 ---
 
-Über den Baustein _Workflow_ kann ein verbundener Workflow gestartet werden.
-In den Einstellungen kann man neben dem verbundenen Workflow,
-auch ein optionales Icon wählen sowie eine Bezeichnung für den Baustein eintippen.
+Über den Baustein _Workflow_ kann ein verbundener Workflow per Button-Klick aus einem Eintrag heraus gestartet werden. Während der Ausführung zeigt ein Lade-Spinner den Fortschritt an. Bei Fehlern wird eine Warnung unter dem Button angezeigt.
 
-Wird der Workflow ausgeführt, so gibt ein Lade-Spinner neben dem Button an, dass der Workflow noch durchläuft.
-Bei Fehlern in der Ausführung wird eine Warnung in rot unter dem Button angezeigt, um eine grobe Beschreibung des Problems zu geben.
-Für mehr Details muss die Ausführungshistorie des Workflows geöffnet und da die letzte Ausführung gefunden werden.
+## Einstellungen
 
-Die Ausführungshistorie wird in einer Liste nur bei Verwendung des Workflow Buttons (mit verknüpften Workflow) eingeblendet und
-befindet sich oben rechts im Eintrag.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-![workflow](/old_assets/record-spec-settings/workflow.png 'workflow')
+1. **Verknüpfter Workflow** — Der Workflow, der bei Klick auf den Button ausgeführt wird.
+2. **Pflichtfelder prüfen** — Validiert vor der Ausführung, ob alle als Pflichtfeld markierten Bausteine ausgefüllt sind.
+3. **Parameter** — Optionale Variablen, die an den Workflow übergeben werden.
+
+## Hinweise
+
+- Die Ausführungshistorie wird oben rechts im Eintrag eingeblendet, sobald ein Workflow-Button verbaut ist. Dort können Details zu vergangenen Ausführungen eingesehen werden.
+- Dieser Baustein ist in geteilten Datensätzen nicht verfügbar.
+
+## Verwandte Bausteine
+
+- [Webhook](/docs/bricks/advanced/webhook-button) — Für direkte HTTP-Anfragen an externe Systeme
+- [Status-Button](/docs/bricks/advanced/status-button) — Zum Ändern eines Status per Button

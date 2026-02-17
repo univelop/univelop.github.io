@@ -8,25 +8,49 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/approval.html
 ---
 
-Mit dem Baustein _Genehmigung_ kann ein Genehmigungsablauf zu einem Datensatz, welcher bspw. eine Bestellanforderung darstellt, gelöst werden. Ein Datensatz kann von einem ausgewählten Nutzer genehmigt oder abgelehnt werden.
+Mit dem Baustein _Genehmigung_ kann ein Genehmigungsablauf zu einem Datensatz abgebildet werden. Ein Datensatz wird von einem ausgewählten Genehmiger geprüft und kann mit einer Bemerkung genehmigt oder abgelehnt werden. Der Baustein eignet sich z. B. für Bestellanforderungen, Urlaubsanträge oder Freigabeprozesse.
 
-![approval](/old_assets/record-spec-settings/1approval.png 'approval')
+## Einstellungen
 
-Im ersten Schritt fordert ein Nutzer die Genehmigung von einem weiteren, berechtigten Nutzer an, welcher in den Einstellungen auch festgelegt werden kann. Nur dieser kann im zweiten Schritt nach dem Prüfen des Datensatzes diesen mit einer Bemerkung ablehnen oder genehmigen. Beim Genehmigen kann optional eine Unterschrift vom Genehmiger gefordert sein und der Datensatz gesperrt werden. Die Ablehnung oder Genehmigung kann jederzeit von einem Nutzer mit entsprechenden Rechten zurückgesetzt werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Status des Bausteins kann _inactive_, _pending_, _approved_ oder _refused_ sein.
+1. **Fester Genehmiger** — Legt einen festen Benutzer als Genehmiger fest. Ist kein fester Genehmiger gesetzt, kann der Anfordernde den Genehmiger bei der Anfrage auswählen.
+2. **Genehmiger über Benutzer-Baustein** — Ermöglicht es, den Genehmiger über einen oder mehrere _Benutzer_-Bausteine im Datensatz zu bestimmen.
+3. **Genehmiger nach Rollen filtern** — Schränkt die auswählbaren Genehmiger auf bestimmte Rollen ein.
+4. **Genehmigungsfrist (Tage)** — Die Anzahl der Tage, innerhalb derer die Genehmigung erfolgen soll (Standard: 7).
+5. **Eintrag automatisch sperren** — Sperrt den Datensatz bei Genehmigung automatisch.
+6. **Unterschrift erforderlich** — Fordert vom Genehmiger eine Unterschrift beim Genehmigen.
+7. **Workflow starten** — Wählt einen Workflow aus, der bei Genehmigung oder Ablehnung gestartet wird.
 
-![2approval](/old_assets/record-spec-settings/2approval.png '2approval')
+## Funktionsweise
 
-1. <span style="color:#0b5394">**Fester Genehmiger**</span>  
-   Soll kein Genehmiger ausgewählt werden können, kann ein fester Nutzer gesetzt werden.
-2. <span style="color:#0b5394">**Genehmiger Filtern**</span>  
-   Sollen nicht alle Mitglieder eines Arbeitsbereiches zur Auswahl stehen, gibt es die Möglichkeit, diese anhand von Rollen zu filtern.
-3. <span style="color:#0b5394">**Eintrag automatisch sperren**</span>  
-   Bei Genehmigung wird der Eintrag gesperrt und kann nicht mehr verändert werden.
-4. <span style="color:#0b5394">**Unterschrift erforderlich**</span>  
-   Ob der Genehmiger eine Unterschrift zum genehmigen abgeben muss.
-5. <span style="color:#0b5394">**Workflow starten**</span>  
-   Auswahl für einen Workflow, welcher bei Genehmigung als auch Ablehnung gestartet wird.
-   Der Genehmigungs-Workflow kann auch die Workflowsteps "Genehmigung anfordern" und "Warte auf Genehmigung" enthalten,
-   um den Genehmigungsprozess komplett abzubilden.
+Der Genehmigungsprozess durchläuft vier Zustände:
+
+- **Inaktiv** (`inactive`) — Keine Genehmigung angefordert.
+- **Ausstehend** (`pending`) — Genehmigung wurde angefordert und wartet auf Prüfung.
+- **Genehmigt** (`approved`) — Der Genehmiger hat den Datensatz genehmigt.
+- **Abgelehnt** (`rejected`) — Der Genehmiger hat den Datensatz mit einer Bemerkung abgelehnt.
+
+Im ersten Schritt fordert ein Benutzer die Genehmigung an und wählt ggf. einen Genehmiger aus. Der Genehmiger kann den Datensatz prüfen und mit einer Bemerkung genehmigen oder ablehnen. Bei der Genehmigung kann optional eine Unterschrift gefordert sein. Die Genehmigung oder Ablehnung kann jederzeit von einem Benutzer mit entsprechenden Rechten zurückgesetzt werden.
+
+### Abgeleitete Werte
+
+Der Baustein stellt folgende Werte bereit, die in Formeln und Filtern verwendet werden können:
+
+- **Status** — Der aktuelle Genehmigungszustand.
+- **Genehmiger-ID** — Die ID des Genehmigers.
+- **Genehmiger-Name** — Der Name des Genehmigers.
+- **Bemerkung** — Die Bemerkung bei Genehmigung oder Ablehnung.
+- **Unterschrift** — Die optionale Unterschrift des Genehmigers.
+- **Zeitpunkt** — Der Zeitpunkt der letzten Statusänderung.
+
+## Hinweise
+
+- Der Genehmigungsprozess kann über die Workflow-Schritte [Genehmigung anfordern](/docs/workflows/user-interaction/send-approval-request) und [Warte auf Genehmigung](/docs/workflows/user-interaction/wait-for-approval) auch vollständig in Workflows abgebildet werden.
+- Der Status des Bausteins kann in Bedingungen und Filtern verwendet werden, z. B. `genehmigung.status == 'approved'`.
+
+## Verwandte Bausteine
+
+- [Datensatz sperren](/docs/bricks/advanced/release) — Für die manuelle Datensatzsperre
+- [Unterschrift](/docs/bricks/advanced/signature) — Für separate Unterschriftenerfassung
+- [Status](/docs/bricks/advanced/status) — Für allgemeine Statusverwaltung

@@ -8,34 +8,33 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/record.html
 ---
 
-Mit dem Baustein _Datensatz_ wird eine einfache Verknüpfung zu einem einzelnen Datensatz einer anderen Liste aus dem
-Arbeitsbereich hergestellt.
+Mit dem Baustein _Datensatz_ wird eine Verknüpfung zu einem einzelnen Datensatz einer anderen Liste hergestellt. Er eignet sich z. B. für die Zuordnung eines Kunden zu einem Auftrag, eines Artikels zu einer Position oder eines Mitarbeiters zu einem Einsatz.
 
-![recordPicker](/old_assets/record-spec-settings/recordpicker.png 'recordPicker')
+## Einstellungen
 
-1. Verknüpfung mit:
-   Mittels dieser Einstellung wird festgelegt aus welcher Liste ein Datensatz ausgewählt werden soll.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-2. Filter und Sortierung:
-   Es kann anhand der Werte in der verknüpften Liste das angezeigte Ergebnis vorgefiltert werden.
-   Mittels =B Filter ist es sogar dynamisch auf Grundlage der eigenen Werte möglich.
+1. **Verknüpfung mit** — Die Liste, aus der ein Datensatz ausgewählt werden kann.
+2. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein. Über den `=B`-Filter kann dynamisch auf Grundlage eigener Werte gefiltert werden.
+3. **Werte übernehmen** — Übernimmt einmalig oder synchron Werte aus dem verknüpften Datensatz. Beispiel: Beim Artikel wird die Einheit automatisch übernommen.
+4. **Datensatz initial setzen** — Setzt den Datensatz automatisch, wenn die Filterung nur einen einzigen Treffer ergibt.
+5. **Mit aktuellem Benutzer vorbelegen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht.
+6. **Benachrichtigungen für eingetragenen Benutzer** — Sendet Benachrichtigungen an den im Baustein eingetragenen Benutzer.
+7. **Besitzer ändern** — Ändert den Besitzer des Datensatzes auf den im Baustein eingetragenen Benutzer.
+8. **Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht oder dupliziert wird** — Koppelt die Lebenszyklen beider Datensätze. Dies hat auch Auswirkungen auf die Datensatzsperre und das Änderungsprotokoll: Beides wird über den übergeordneten Datensatz gesteuert.
 
-3. Werte des verknüpften Datensatzes übernehmen:
-   Es ist möglich einmalig oder synchron Werte aus dem verknüpften Datensatz in diesen zu übernehmen.
-   Beim Artikel kann z.B. die Einheit übernommen werden.
+## Funktionsweise
 
-4. Datensatz initial setzen:
-   Wenn die Auswahl nur einen Datensatz zulassen würde, würde dieser automatisch gesetzt werden.
+Beim Klick auf den Baustein öffnet sich die Datensatz-Suche. Hier können die verfügbaren Datensätze durchgescrollt oder per Suchfeld gesucht werden. Die Darstellung in der Suche entspricht der Listenansicht der verknüpften Liste.
 
-5. Mit aktuellem Benutzer vorbelegen:
-   Beim Erstellen eines neuen Eintrages wird der aktuelle Benutzer eingetragen, sofern dieser zu den angegebenen Filtern passt.
+## Hinweise
 
-6. Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht oder dupliziert wird:
-   Mittels diesem Schalter wird die im Titel beschriebene Funktion aktiviert. Sie verheiratet die Datensätze
-   ebenso miteinander, was Auswirkungen auf die Datensatzsperre und das Änderungsprotokoll hat.
-   Die Sperre erfolgt über den übergeordneten Datensatz und das Änderungsprotokoll ist ebenso dort zu finden.
+- Der Baustein speichert die ID des verknüpften Datensatzes. In Formeln kann über den technischen Namen auf Felder des verknüpften Datensatzes zugegriffen werden.
+- Über die _Werte übernehmen_-Funktion können Felder synchron gehalten werden — Änderungen im verknüpften Datensatz werden automatisch übertragen.
+- Verknüpfungsmöglichkeiten sind unter [Verknüpfen von Listen](/docs/link-lists) beschrieben.
 
-Bei der Nutzung des Datensatz Bausteins wird beim Klick auf den Baustein die Datensatz-Suche geöffnet.
-Hier können die Datensätze durchgescrollt oder nach ihnen gesucht werden.
+## Verwandte Bausteine
 
-![recordPicker2](/old_assets/record-spec-settings/recordpicker2.png 'recordPicker2')
+- [Datensätze](/docs/bricks/advanced/multi-record-picker) — Für die Verknüpfung mit mehreren Datensätzen
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Anzeige verknüpfter Einträge als Liste
+- [Status](/docs/bricks/advanced/status) — Für die Statusverwaltung von Datensätzen
