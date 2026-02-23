@@ -1,7 +1,7 @@
 ---
 layout: workflow-step
 title: Datei in Cloud-Speicher hochladen
-parent: Erweitert
+parent: Dateihandling
 grand_parent: Workflows
 icon: cloud_upload
 nav_order: 4
