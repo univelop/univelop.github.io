@@ -9,6 +9,9 @@ redirect_from:
     - /docs/bricks/planner.html
 ---
 
+{: .warning }
+Dieses Feature ist noch nicht verfügbar und wird in einer zukünftigen Version erscheinen.
+
 Mit dem Baustein _Planner_ (Tages- und Wochenplaner) werden Buchungen oder Termine in einem zeit- und ressourcenbasierten Raster dargestellt. Eine Zeile pro Ressource (z. B. Räume, Personen), Spalten für Zeitslots bzw. Tage – typisch für Kalender- oder Buchungsansichten. Der Planner unterstützt sowohl Tages- als auch Wochenansicht und nutzt dafür das UI-Paket **uni_planner**, das in der Univelop-App als Planner-Brick eingebunden wird.
 
 Der Planner-Brick ist ein Power-Feature und wird über die Feature-Flag **enablePlannerBrick** gesteuert. Ohne gesetzte Flag erscheint der Baustein nicht im Katalog.
