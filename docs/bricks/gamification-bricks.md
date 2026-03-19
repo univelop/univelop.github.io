@@ -1,5 +1,5 @@
 ---
-title: Gamification Bausteine
+title: Gamification-Bausteine
 nav_order: 4
 layout: title
 parent: Bausteine
