@@ -1,11 +1,12 @@
 ---
 layout: workflow-step
 title: Rufe E-Mails ab
-parent: Erweitert
+parent: E-Mails
 grand_parent: Workflows
 icon: mark_email_unread
-nav_order: 4
+nav_order: 2
 redirect_from:
+    - /docs/workflows/advanced/get-emails.html
     - /docs/workflows/grand-childs-bricks/get-emails.html
 ---
 
@@ -19,22 +20,19 @@ Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werde
 
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
-1. <span style="color:#0b5394">**Empfänger-E-Mail (Text)**</span>  
+1. <span style="color:#0b5394">**Empfänger-E-Mail (Text)**</span>
    Hier muss die E-Mail-Adresse des Postfachs angegeben werden, aus welchem E-Mails abgerufen werden sollen.
-1. <span style="color:#0b5394">**Nur ungelesene (Ja/Nein)**</span>  
+1. <span style="color:#0b5394">**Nur ungelesene (Ja/Nein)**</span>
    Wird diese Option auf Ja gesetzt, werden nur ungelesene E-Mails ausgegeben. Andernfalls werden sowohl ungelesene als auch gelesene abgerufen.
-1. <span style="color:#0b5394">**Nach dem Abrufen auf Gelesen stellen (Ja/Nein)**</span>  
+1. <span style="color:#0b5394">**Nach dem Abrufen auf Gelesen stellen (Ja/Nein)**</span>
    Wenn diese Option auf Ja gesetzt wird, werden abgerufene E-Mails automatisch auf gelesen gesetzt.
-1. <span style="color:#0b5394">**Inkl. Anhänge (Ja/Nein)**</span>  
+1. <span style="color:#0b5394">**Inkl. Anhänge (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, werden die Anhänge der E-Mails automatisch mitgeladen und stehen als Variable zur Verfügung.
    **Warnung: Da diese Option sehr Credit-Intensiv sein kann, sollte sie nur aktiviert werden, wenn die Anhänge wirklich benötigt werden.**
-1. <span style="color:#0b5394">**Von Zeitpunkt (Datum)**</span>  
+1. <span style="color:#0b5394">**Von Zeitpunkt (Datum)**</span>
    Nur E-Mails ausgeben mit Empfangsdatum nach dem hier definierten Zeitpunkt.
-1. <span style="color:#0b5394">**Bis Zeitpunkt (Datum)**</span>  
+1. <span style="color:#0b5394">**Bis Zeitpunkt (Datum)**</span>
    Nur E-Mails ausgeben mit Empfangsdatum vor dem hier definierten Zeitpunkt.
-
-In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
-Diese kann in einem Iteriere über Werte Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die folgenden Variablen zur Verfügung stehen.
 
 In nachfolgenden Schritten des Workflows kann über den technischen Namen des Bausteins mit dem Selektor ".data" auf die Liste abgerufener E-Mails zugegriffen werden. (Beispiel: emails.data)
 Diese kann in einem [Iteriere über Werte](../structure/iterate-list.md) Baustein genutzt werden, innerhalb welchem dann für jedes E-Mail-Objekt in der Liste die nachfolgenden Variablen zur Verfügung stehen.

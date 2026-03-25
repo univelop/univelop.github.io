@@ -4,7 +4,7 @@ title: Frag KI
 parent: Erweitert
 grand_parent: Workflows
 icon: psychology
-nav_order: 9
+nav_order: 5
 ---
 
 Mit dem Schritt _Frag KI_ kann ein Prompt an eine KI gesendet werden.  

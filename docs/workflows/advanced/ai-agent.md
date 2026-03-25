@@ -4,7 +4,7 @@ title: AI Agent
 parent: Erweitert
 grand_parent: Workflows
 icon: psychology
-nav_order: 10
+nav_order: 6
 ---
 
 Mit dem Schritt _AI Agent_ kann ein Prompt an einen zuvor erstellten AI-Agent gesendet werden. Dieser verarbeitet die Anfrage mithilfe der ihm zur Verfügung stehenden Tools.  

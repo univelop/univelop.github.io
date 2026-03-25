@@ -1,11 +1,12 @@
 ---
 layout: workflow-step
 title: Sende E-Mail
-parent: Erweitert
+parent: E-Mails
 grand_parent: Workflows
 icon: notification_add
-nav_order: 3
+nav_order: 1
 redirect_from:
+    - /docs/workflows/advanced/send-email.html
     - /docs/workflows/grand-childs-bricks/send-mail.html
 ---
 
