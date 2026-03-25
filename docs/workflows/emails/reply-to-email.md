@@ -33,5 +33,6 @@ nav_order: 3
    Dateien, die der Antwort-E-Mail als Anhang beigefügt werden sollen.
 1. <span style="color:#0b5394">**Anhänge aus Baustein**</span>
    Dynamische Anhänge aus einem Datei-Baustein oder einer Variable.
-1. <span style="color:#0b5394">**In Gesendete speichern (Ja/Nein)**</span>
-   Wenn diese Option auf Ja gesetzt wird, wird die gesendete Antwort im Ordner "Gesendete Elemente" des Postfachs gespeichert.
+1. <span style="color:#0b5394">**Im "Gesendet" Ordner speichern (Ja/Nein)**</span>
+   Wenn diese Option auf Ja gesetzt wird, wird die gesendete Antwort im Ordner "Gesendet" des Postfachs gespeichert.
+   Einige E-Mail-Dienste tun dies automatisch, auch ohne das diese Einstellung aktiviert ist. In dem Fall lässt sich dies nicht verhindern.
