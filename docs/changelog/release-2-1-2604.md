@@ -22,17 +22,13 @@ Kommt es zu einem Konflikt, erscheint ein Dialog, der fragt, ob die eigenen Änd
 
 ### <span style="color:#0b5394">**Neuer Schritt: E-Mail beantworten**</span>
 
-Mit dem neuen Workflow-Schritt „E-Mail beantworten" können E-Mails direkt aus einem Workflow heraus beantwortet werden. Der Schritt unterstützt HTML-Antworten, sowie das Hinzufügen von CC-Empfängern und BCC Empfängern.
+Mit dem neuen Workflow-Schritt „Antworte auf E-Mail" können E-Mails direkt aus einem Workflow heraus beantwortet werden. Der Schritt unterstützt HTML-Antworten, sowie das Hinzufügen von CC-Empfängern und BCC Empfängern.
 
 ### <span style="color:#0b5394">**Neuer Schritt: XML zu JSON konvertieren**</span>
 
-Der neue Workflow-Schritt „XML zu JSON konvertieren" wandelt XML-Strings in ein JSON-Format um. Dabei stehen fünf verschiedene Konvertierungsmodi zur Auswahl, und optional kann per XPath gezielt ein Teilbereich des Dokuments extrahiert werden.
+Der neue Workflow-Schritt „XML zu JSON" wandelt XML-Strings in ein JSON-Format um. Dabei stehen fünf verschiedene Konvertierungsmodi zur Auswahl, und optional kann per XPath gezielt ein Teilbereich des Dokuments extrahiert werden.
 
-### <span style="color:#0b5394">**Neuer Trigger: Bausteinwert geändert**</span>
 
-Ab sofort steht ein neuer Trigger-Typ zur Verfügung: „Bausteinwert geändert". Der Trigger wird ausgelöst, wenn ein Datensatz gespeichert wird und sich mindestens einer der überwachten Bausteinwerte dabei geändert hat.
-
-Es können bis zu 20 Bausteinwerte überwacht werden. Zusätzlich lassen sich Bedingungen definieren, damit der Trigger nur für bestimmte Datensätze greift.
 
 ### <span style="color:#0b5394">**Statische IP für Web-Anfragen**</span>
 
