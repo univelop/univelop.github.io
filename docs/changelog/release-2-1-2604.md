@@ -5,7 +5,7 @@ nav_order: 53
 parent: Changelog
 ---
 
-## <span style="color:#0b5394">**Kacheln**</span>
+## <span style="color:#0b5394">**Komponenten**</span>
 
 ### <span style="color:#0b5394">**Einklappbare Datensatzliste auf Mobilgeräten**</span>
 
