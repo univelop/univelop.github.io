@@ -22,9 +22,9 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 ## Funktionsweise 
 Der Segmentbautstein hat Optionen - diese habe ebenfalls technische Namen. 
-![segment](segment-option-menu.png 'segment')!
-Wenn wir wissen wollen, welche/s Segment/e aktiviert ist/sind, müssen wir den Wert des 'technischen Namen: Bezeichnung' oder des 'technischen Namen: ID' benutzen. Diese Abfrage der Variable gibt eine Liste zurück, da mehrere Segmente aktiv sein können. Deshalb brauchen wir hier ein contains(beispiel_id, "option1") - bzw. statt „option1“ der technische Name deiner Option. 
-![segment](segemente-get-selected.png 'segment')
+![segment](/assets/docs/input/segment-option-menu.png 'segment')
+Wenn wir wissen wollen, welche/s Segment/e aktiviert ist/sind, müssen wir den Wert des 'technischen Namen: Bezeichnung' oder des 'technischen Namen: ID' benutzen. Diese Abfrage der Variable gibt eine Liste zurück, da mehrere Segmente aktiv sein können. Deshalb brauchen wir hier ein contains(beispiel_id, “option1”) - bzw. statt „option1” der technische Name deiner Option. 
+![segment](/assets/docs/input/segemente-get-selected.png 'segment')
 
 ## Verwandte Bausteine
 
