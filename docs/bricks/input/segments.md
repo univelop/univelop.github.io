@@ -14,10 +14,17 @@ Mit dem Baustein _Segmente_ werden vordefinierte Auswahlmöglichkeiten als neben
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Optionen** — Die verfügbaren Segmente. Es müssen mindestens 2 und dürfen maximal 5 Segmente angelegt werden. Jeder Segmentname darf höchstens 15 Zeichen umfassen. Leere oder doppelte Optionen sind nicht zulässig. Über das Mülleimer-Symbol können Segmente entfernt und über das =-Symbol kann die Reihenfolge geändert werden.
+1. **Optionen hinzufügen** — Die verfügbaren Segmente. Es müssen mindestens 2 und dürfen maximal 5 Segmente angelegt werden. Jeder Segmentname darf höchstens 15 Zeichen umfassen. Leere oder doppelte Optionen sind nicht zulässig. Über das Mülleimer-Symbol können Segmente entfernt und über das =-Symbol kann die Reihenfolge geändert werden. Per Mausklick auf die jeweilige Option können die Einstellungen der jeweiligen Option aufgerufen werden.
+
 2. **Auswahlmodus** — Legt fest, ob einzelne oder mehrere Segmente gleichzeitig ausgewählt werden können:
     - _Einzelauswahl_ — Es kann nur ein Segment aktiv sein (Standard)
     - _Mehrfachauswahl_ — Es können mehrere Segmente gleichzeitig aktiv sein
+
+## Funktionsweise 
+Der Segmentbautstein hat Optionen - diese habe ebenfalls technische Namen. 
+![alt text](segment-option-menu.png)![alt text]
+Wenn wir wissen wollen, welche/s Segment/e aktiviert ist/sind, müssen wir den Wert des 'technischen Namen: Bezeichnung' oder des 'technischen Namen: ID' benutzen. Diese Abfrage der Variable gibt eine Liste zurück, da mehrere Segmente aktiv sein können. Deshalb brauchen wir hier ein contains(beispiel_id, "option1") - bzw. statt „option1“ der technische Name deiner Option. 
+![alt text](segemente-get-selected.png)
 
 ## Verwandte Bausteine
 
