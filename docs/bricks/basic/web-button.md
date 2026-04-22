@@ -30,7 +30,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 ## Funktionsweise
 Nachdem wir  unsere URL unter _URL für Button_ hinterlegt haben können User durch einen Klick auf die hinterlegte URL weitergeleitet werden. 
 
-![alt text](/assets/workflows/advanced/bricks/basic/web-link.png)
+![alt text](/assets/workflows/advanced/bricks/basic/web-link-v2.png)
 
 ## Verwandte Bausteine
 

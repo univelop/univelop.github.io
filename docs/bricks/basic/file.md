@@ -24,7 +24,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 ## Funktionsweise
 
 Über den Plus Button können Datein im Design-Modus hochgeladen werden.
-![alt text](/assets/workflows/advanced/bricks/basic/image-example.png)
+![alt text](/assets/workflows/advanced/bricks/basic/file-example.png)
 
 ## Verwandte Bausteine
 

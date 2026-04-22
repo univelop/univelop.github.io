@@ -32,8 +32,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 Nachdem der Hinweistext über die Bezeichnung des Bausteins im Designmodus eingegeben wurde, kann über die Einstellung _Stil_ ein Stil ausgewählt werden (z.B. hier: Warnung).
 
-![alt text](/assets/workflows/advanced/bricks/basic/text-hint.png)
-
+![alt text](/assets/workflows/advanced/bricks/basic/text-hint-v2.png)
 ## Verwandte Bausteine
 
 - [Formatierter Hinweis](/docs/bricks/basic/rich-text-hint) — Für Hinweistexte mit Formatierungen, Bildern und Auflistungen

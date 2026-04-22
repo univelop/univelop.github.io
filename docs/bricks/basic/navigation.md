@@ -33,13 +33,14 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 ## Hinweise
 
 - Dieser Baustein ist in geteilten Datensätzen (Shared Record Specs) nicht verfügbar.
+
 ## Funktionsweise
 
 Um zu einem spezifischem Eintrag zu kommen können wir unter _Verknüpfung mit_ die Liste auswählen, in dem sich der Eintrag befindet. 
-![alt text](/assets/workflows/advanced/bricks/basic/navigation-example-connect-list.png)
+![alt text](image.png)
+![alt text](/assets/workflows/advanced/bricks/basic/navigation-example-connect-list-v2.png)
 Anschließend können wir unter _Filter_ einen Filter mit einem Baustein der den Eintrag eindeutig identifiziert (idealerweise eine eindeutige ID) erstellen.
-![alt text](/assets/workflows/advanced/bricks/basic/navigation-example-filter.png)
-
+![alt text](/assets/workflows/advanced/bricks/basic/navigation-example-filter-v2.png)
 ## Verwandte Bausteine
 
 - [Web Link](/docs/bricks/basic/web-button) — Für Navigation zu externen URLs
