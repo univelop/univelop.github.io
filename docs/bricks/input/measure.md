@@ -13,7 +13,8 @@ Der Baustein _Abmessungen_ ermöglicht die Erfassung von bis zu 4 Maßwerten mit
 ## Einstellungen
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
-
+1. **Anzahl Nachkommastellen** — Anzahl der angezeigten Dezimalstellen. Bei 0 werden nur Ganzzahlen akzeptiert. Ohne Angabe werden standardmäßig 2 Nachkommastellen angezeigt.
+2. **Tausender-Trennzeichen** — Aktiviert die Anzeige von Tausender-Trennzeichen für bessere Lesbarkeit (z. B. 1.000.000).
 1. **Anzahl der Felder** — Anzahl der Maßfelder (1–4).
 2. **Bezeichnung Feld 1–4** — Individuelle Bezeichnung für jedes Feld (z. B. „Länge", „Breite", „Höhe").
 3. **Einheit Feld 1–4** — Einheit für jedes Feld als Text (z. B. „m", „cm", „kg").

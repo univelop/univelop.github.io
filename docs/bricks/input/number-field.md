@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/number.html
 ---
 
-Der Baustein _Nummer_ ermöglicht die Eingabe von Zahlenwerten. Er eignet sich für Beträge, Mengen, Auftragsnummern und alle weiteren numerischen Eingaben. Falscheingaben (z. B. Buchstaben) werden automatisch verhindert.
+Der Baustein _Nummer_ ermöglicht die Eingabe von Zahlenwerten. Er eignet sich für Beträge, Mengen und alle weiteren numerischen Eingaben. Falscheingaben (z. B. Buchstaben) werden automatisch verhindert.
 
 ## Einstellungen
 

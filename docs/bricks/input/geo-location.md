@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/geo-location.html
 ---
 
-Der Baustein _GPS Position_ ermöglicht die Erfassung der exakten GPS-Koordinaten (Breitengrad, Längengrad) von iOS- und Android-Geräten. Zusätzlich werden die Genauigkeit in Metern und die erkannte Adresse gespeichert. Über das Karten-Symbol kann die erfasste Position direkt in der Karten-App geöffnet werden.
+Der Baustein _GPS Position_ ermöglicht die Erfassung der GPS-Koordinaten (Breitengrad, Längengrad) von iOS- und Android-Geräten. Zusätzlich werden die Genauigkeit in Metern und die erkannte Adresse gespeichert. Über das Karten-Symbol kann die erfasste Position direkt in der Karten-App geöffnet werden.
 
 ## Einstellungen
 

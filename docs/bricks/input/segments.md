@@ -19,6 +19,12 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
    - _Einzelauswahl_ — Es kann nur ein Segment aktiv sein (Standard)
    - _Mehrfachauswahl_ — Es können mehrere Segmente gleichzeitig aktiv sein
 
+## Funktionsweise 
+Der Segmentbautstein hat Optionen - diese haben ebenfalls technische Namen. Mit einem Klick auf die Option können diese im Dialog abgelesen werden. 
+![segment](/assets/bricks/input/segment-option-menu.png ‘segment’)
+
+Bei einer Abfrage welche/s Segment/e aktiviert ist/sind, muss den Wert des ‘technischen Namen: Bezeichnung’ oder des ‘technischen Namen: ID’ benutzt werden. Diese Abfrage der Variable gibt eine Liste zurück, da mehrere Segmente aktiv sein können. Deshalb wird ein contains(beispiel_id, “option1”) - bzw. statt „option1” der technische Name deiner Option benötigt, um zu prüfen welche Segmente aktiv sind.
+![segment](/assets/bricks/input/segemente-get-selected.png ‘segment’)
 ## Verwandte Bausteine
 
 - [Drop-Down](/docs/bricks/input/drop-down) — Für Einzelauswahl aus beliebig vielen Optionen

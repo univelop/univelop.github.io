@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/date.html
 ---
 
-Mit dem Baustein _Datum_ kann ein einzelnes Datum erfasst werden, optional inklusive Uhrzeit. Er eignet sich für Termine, Fristen, Erstellungsdaten und alle weiteren datumsabhängigen Felder.
+Mit dem Baustein _Datum_ kann ein einzelnes Datum erfasst werden, optional inklusive Uhrzeit. Er eignet sich für Termine, Fristen, Erstellungsdaten und alle weiteren datumsabhängigen Felder. Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen. 
 
 ## Einstellungen
 
@@ -24,7 +24,6 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 ## Hinweise
 
-- Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen. 
 - Neben dem Datumswert stehen automatisch auch die Kalenderwoche und der Monat als abgeleitete Werte zur Verfügung, z. B. in Formeln.
 - Für eine kalendarische Darstellung mehrerer Datumseinträge eignet sich der Baustein [Kalender](/docs/bricks/advanced/calendar).
 

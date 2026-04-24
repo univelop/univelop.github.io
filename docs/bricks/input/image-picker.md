@@ -14,26 +14,24 @@ Mit dem Baustein _Bild Upload_ können Bilder pro Eintrag hochgeladen oder mit d
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Maximale Anzahl** — Maximale Anzahl an Bildern pro Eintrag. Standard: 100.
-2. **Einzelnes Bild überschreiben** — Ersetzt das vorhandene Bild beim Hochladen eines neuen, wenn die maximale Anzahl auf 1 gesetzt ist.
-3. **Neueste zuerst** — Zeigt die zuletzt hochgeladenen Bilder oben an.
-4. **Zoom verbieten** — Deaktiviert die Zoom-Funktion beim Öffnen von Bildern.
-5. **Qualität** — Bildqualität beim Upload:
+1. **Auf eine Datei beschränken** — Begrenzt die Anzahl an Bildern pro Datensatz auf ein Bild.
+2. **Einzelnes Bild überschreiben** — Ersetzt das vorhandene Bild beim Hochladen eines neuen, wenn die maximale Anzahl auf 1 gesetzt ist. Nur verfügbar wenn _Auf eine Datei beschränken_ aktiv ist. 
+3. **Maximale Anzahl an Bildern** — Maximale Anzahl an Bildern pro Eintrag. Standard: 100. Nur verfügbar wenn _Auf eine Datei beschränken_ nicht aktiv ist. 
+4. **Anzahl der Vorschau-Bilder** — Anzahl der in der Vorschau angezeigten Bilder. Standard: 15. Nur verfügbar wenn _Auf eine Datei beschränken_ nicht aktiv ist. 
+5. **Neueste zuerst** — Zeigt die zuletzt hochgeladenen Bilder oben an.
+6. **Zoom verbieten** — Deaktiviert die Zoom-Funktion beim Öffnen von Bildern.
+7. **Qualität** — Bildqualität beim Upload:
    - _Niedrig_ — Komprimiert (Standard)
    - _Mittel_ — Mittlere Komprimierung
    - _Hoch_ — Geringe Komprimierung
    - _Original_ — Keine Komprimierung
-6. **Bilder in Vorschau** — Anzahl der in der Vorschau angezeigten Bilder. Standard: 15.
-7. **Beim Duplizieren nicht kopieren** — Verhindert, dass Bilder beim Duplizieren eines Eintrags mit kopiert werden.
-8. **Wasserzeichen: Standort** — Fügt die GPS-Koordinaten als Wasserzeichen auf dem Bild ein.
-9. **Koordinatenformat** — Format der Standort-Koordinaten: _Dezimalgrad_ oder _Grad, Minute, Sekunde_.
-10. **Wasserzeichen: Zeitstempel** — Fügt Datum und Uhrzeit als Wasserzeichen auf dem Bild ein.
-11. **Wasserzeichen-Position** — Position des Wasserzeichens auf dem Bild (unten links, unten rechts, oben links, oben rechts).
-
-### Ausdruck-Einstellungen
-
-12. **Größe im Ausdruck** — Darstellungsgröße der Bilder im PDF-Ausdruck: _Klein_, _Mittel_ (Standard), _Groß_.
-13. **Anordnung im Ausdruck** — Anordnung der Bilder im Ausdruck: _Nebeneinander_ (Standard) oder _Untereinander_.
+8. **Inhalt nicht duplizieren** — Verhindert, dass Bilder beim Duplizieren eines Eintrags mit kopiert werden.
+9. **Wasserzeichen: Standort** — Fügt die GPS-Koordinaten als Wasserzeichen auf dem Bild ein.
+10. **Koordinatenformat** — Format der Standort-Koordinaten: _Dezimalgrad_ oder _Grad, Minute, Sekunde_.
+11. **Wasserzeichen: Zeitstempel** — Fügt Datum und Uhrzeit als Wasserzeichen auf dem Bild ein.
+12. **Wasserzeichen-Position** — Position des Wasserzeichens auf dem Bild (unten links, unten rechts, oben links, oben rechts).
+13. **Größe im Ausdruck** — Darstellungsgröße der Bilder im PDF-Ausdruck: _Klein_, _Mittel_ (Standard), _Groß_.
+14. **Anordnung im Ausdruck** — Anordnung der Bilder im Ausdruck: _Nebeneinander_ (Standard) oder _Untereinander_.
 
 ## Hinweise
 

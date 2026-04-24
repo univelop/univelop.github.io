@@ -14,8 +14,7 @@ Mit dem Baustein _Mehrfach-Auswahl_ können mehrere Optionen gleichzeitig aus ei
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Optionen** — Die verfügbaren Auswahlmöglichkeiten. Über das Mülleimer-Symbol können Optionen entfernt und über das =-Symbol kann die Reihenfolge geändert werden.
-2. **Standard Optionen** — Vorausgewählte Optionen beim Erstellen eines neuen Eintrags. Es können mehrere Standard-Optionen gleichzeitig gesetzt werden.
+1. **Optionen hinzufügen** — Die verfügbaren Auswahlmöglichkeiten. Über das Mülleimer-Symbol können Optionen entfernt und über das =-Symbol kann die Reihenfolge geändert werden.
 
 ## Hinweise
 
