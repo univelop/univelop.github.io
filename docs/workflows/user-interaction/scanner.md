@@ -9,16 +9,19 @@ redirect_from:
     - /docs/workflows/advanced/scanner.html
 ---
 
-Mit dem Schritt _Scanner_ wird ein Scan-Dialog geöffnet, in dem der Benutzer einen Barcode oder QR-Code scannen kann. Der gescannte Wert ist in folgenden Schritten über den technischen Namen als Text verfügbar.
+Mit dem Schritt _Öffne Scanner_ wird ein Scan-Dialog geöffnet, in dem der Benutzer einen Barcode oder QR-Code scannen kann. Der gescannte Wert ist in folgenden Schritten über den technischen Namen als Text verfügbar.
 
 ## Einstellungen
 
-1. **Manueller Suchpräfix** — _Optional._ Ein Text, der dem gescannten Wert vorangestellt wird. Kann als Formel angegeben werden.
+1. **Präfix für manuelle Suche** — Ein Text, der dem gescannten Wert vorangestellt wird. Kann als Formel angegeben werden.
+2. **Scan-Bestätigung erforderlich** - Bevor ein QR Code verarbeiet wird muss bestätig werden. dass dieser QR ausgewertet werden soll.
+3. **Standardkamera** - Kamera, die der Dialog verwendet. Standard: Rückkamera.
+4. **Scanner-Ton** - Spielt einen Ton ab, wenn erfolgreich ein QR-Code gescannt wurde.
 
 ## Hinweise
 
-- Nur in **Client-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
-- Dieser Schritt verbraucht keine [Credits](/docs/credits).
+- Nur in **Geräteseitige-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
+- Dieser Schritt verbraucht einen [Credit](/docs/credits).
 
 ## Verwandte Bausteine
 

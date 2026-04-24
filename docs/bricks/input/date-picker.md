@@ -16,16 +16,24 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 1. **Inklusive Uhrzeit** — Erweitert den Baustein um eine Zeiteingabe zusätzlich zum Datum.
 2. **Wochentag anzeigen** — Zeigt den Wochentag neben dem Datum an.
-3. **Heutiges Datum als Startwert** — Setzt beim Erstellen eines neuen Eintrags automatisch das aktuelle Datum (und ggf. die aktuelle Uhrzeit).
-4. **Frühestmögliches Datum** — Formel, die das früheste auswählbare Datum bestimmt. Unterstützt Datumsformeln für dynamische Grenzen (z. B. „mindestens 30 Tage im Voraus").
+3. **Aktuelles Datum standardmäßig setzen** — Setzt beim Erstellen eines neuen Eintrags automatisch das aktuelle Datum (und ggf. die aktuelle Uhrzeit).
+4. **Frühestmögliches Datum** — Formel, die das früheste auswählbare Datum bestimmt. Unterstützt Datumsformeln für dynamische Grenzen.
 5. **Spätestmögliches Datum** — Formel, die das späteste auswählbare Datum bestimmt. Unterstützt Datumsformeln für dynamische Grenzen.
-6. **Text in rot darstellen** — Zeigt das Datum in roter Schrift an.
-7. **Bedingung für roten Text** — Formel, die bestimmt, unter welchen Bedingungen das Datum rot dargestellt wird. Nur verfügbar wenn _Text in rot darstellen_ aktiviert ist.
+6. **Textfarbe rot** — Zeigt das Datum in roter Schrift an.
+7. **Textfarbe Bedingung** — Formel, die bestimmt, unter welchen Bedingungen das Datum rot dargestellt wird. Nur verfügbar wenn _Textfarbe rot_ aktiviert ist.
 
 ## Hinweise
 
+- Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen. 
 - Neben dem Datumswert stehen automatisch auch die Kalenderwoche und der Monat als abgeleitete Werte zur Verfügung, z. B. in Formeln.
 - Für eine kalendarische Darstellung mehrerer Datumseinträge eignet sich der Baustein [Kalender](/docs/bricks/advanced/calendar).
+
+## Funktionsweise
+
+Wollen wir eine dynamische Datenauswahl einstellen - z. B. nur Daten die 30 Tage im Voraus des aktuellen Tages liegen - können wir dies über _Frühestmögliches Datum_ im Design Modus einstellen. Dazu öffnen wir den Formeleditor des Datenbausteins und geben unsere benötigte Formeln ein. 
+![alt text](/assets/bricks/input/date-picker-editor.png)
+Im Auswahl Dialog des sind anschließend nur die erlaubten Daten auswählbar. Alle nicht auswählbaren Daten sind ausgegraut. 
+![alt text](/assets/bricks/input/date-picker-dialog.png)
 
 ## Verwandte Bausteine
 

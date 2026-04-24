@@ -14,15 +14,18 @@ Mit dem Baustein _Formatierter Hinweis_ können Hinweistexte mit Formatierungen,
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Format** — Legt das Bearbeitungsformat des Hinweistextes fest:
-   - _Delta_ — Rich-Text-Editor (Standard). Unterstützt Formatierungen wie Fett, Kursiv, Aufzählungen, Bilder und Links.
-   - _Markdown_ — Bearbeitung im Markdown-Format.
-2. **Hinweistext** — Der eigentliche Inhalt des Hinweises. Wird im gewählten Format bearbeitet und unterstützt Mehrsprachigkeit.
+1. **Hinweistext** — Der eigentliche Inhalt des Hinweises. Wird im Editordialog bearbeitet und unterstützt Mehrsprachigkeit.
 
 ## Hinweise
 
 - Bilder können direkt in den Hinweistext eingebettet werden.
 - Das bedingte Anzeigen und Verstecken ist möglich und dort sinnvoll, wo Hinweise nur unter bestimmten Bedingungen relevant sind.
+
+## Funktionsweise
+Unter _Hinweistext_ öffnet sich ein Editor welches zum Erstellen eines Hinweistexte mit Formatierungen, eingebetteten Bildern und Auflistungen.
+![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-editor-v2.png)
+Dieser Hinweis wird anschließen im Baustein angezeigt. 
+![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-overview-v2.png)
 
 ## Verwandte Bausteine
 
