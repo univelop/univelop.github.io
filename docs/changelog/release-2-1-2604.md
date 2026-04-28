@@ -11,6 +11,8 @@ parent: Changelog
 
 Auf Mobilgeräten öffnet sich ein Datensatz aus der Datensatzliste nun in einem geteilten Bildschirm: Die Liste klappt dabei automatisch zusammen und gibt dem Datensatz mehr Platz. Mit einem Tippen auf den Pfeil lässt sich die Liste jederzeit wieder einblenden.
 
+![xmltojson](/assets/changelog/2-0/collapse-mobile.png)
+
 ## <span style="color:#0b5394">**Bausteine**</span>
 
 ### <span style="color:#0b5394">**Konfliktbehandlung im Editor-Baustein**</span>
@@ -24,10 +26,14 @@ Kommt es zu einem Konflikt, erscheint ein Dialog, der fragt, ob die eigenen Änd
 
 Mit dem neuen Workflow-Schritt „Antworte auf E-Mail" können E-Mails direkt aus einem Workflow heraus beantwortet werden. Der Schritt unterstützt HTML-Antworten, sowie das Hinzufügen von CC-Empfängern und BCC Empfängern.
 
+![xmltojson](/assets/changelog/2-0/answer-email.png)
+
+
 ### <span style="color:#0b5394">**Neuer Schritt: XML zu JSON konvertieren**</span>
 
 Der neue Workflow-Schritt „XML zu JSON" wandelt XML-Strings in ein JSON-Format um. Dabei stehen fünf verschiedene Konvertierungsmodi zur Auswahl, und optional kann per XPath gezielt ein Teilbereich des Dokuments extrahiert werden.
 
+![xmltojson](/assets/changelog/2-0/xml-to-json.png)
 
 
 ### <span style="color:#0b5394">**Statische IP für Web-Anfragen**</span>
