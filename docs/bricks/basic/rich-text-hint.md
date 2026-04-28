@@ -23,9 +23,9 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 ## Funktionsweise
 Unter _Hinweistext_ öffnet sich ein Editor welcher zum Erstellen eines Hinweistexte mit Formatierungen, eingebetteten Bildern und Auflistungen.
-![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-editor.png)
+![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-editor-v2.png)
 Dieser Hinweis wird anschließend im Baustein angezeigt. 
-![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-overview.png)
+![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-overview-v2.png)
 ## Verwandte Bausteine
 
 - [Hinweis](/docs/bricks/basic/text) — Für einfache, unformatierte Hinweistexte
