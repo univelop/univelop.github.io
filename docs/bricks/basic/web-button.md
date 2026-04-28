@@ -28,7 +28,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Für dynamische Links, die sich pro Eintrag unterscheiden, können Formeln in der URL-Einstellung verwendet werden.
 
 ## Funktionsweise
-Nachdem wir  unsere URL unter _URL für Button_ hinterlegt haben können User durch einen Klick auf die hinterlegte URL weitergeleitet werden. 
+Nachdem eine URL unter _URL für Button_ hinterlegt wurde, werden Nutzer durch einen Klick auf die hinterlegte URL weitergeleitet. 
 
 ![alt text](/assets/workflows/advanced/bricks/basic/web-link-v2.png)
 
