@@ -18,7 +18,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
    - _Kein Stil_ — Einfache Anzeige als Listenzeile mit optionalem Icon
    - _Schlicht_ — Grauer, kursiver Text
    - _Info_ — Blaue Infobox mit Info-Icon
-   - _Warnung_ — Orange Warnungsbox mit Warndreick-Icon
+   - _Warnung_ — Orange Warnungsbox mit Warndreieck-Icon
    - _Erfolg_ — Grüne Erfolgsbox mit Checkhaken-Icon
    - _Fehler_ — Rote Fehlerbox mit Ausrufezeichen-Icon
 
