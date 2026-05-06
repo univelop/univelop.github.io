@@ -11,7 +11,7 @@ parent: Changelog
 
 Auf Mobilgeräten öffnet sich ein Datensatz aus der Datensatzliste nun in einem geteilten Bildschirm: Die Liste klappt dabei automatisch zusammen und gibt dem Datensatz mehr Platz. Mit einem Tippen auf den Pfeil lässt sich die Liste jederzeit wieder einblenden.
 
-![xmltojson](/assets/changelog/2-1/collapse-mobile.png)
+![callapse mobile](/assets/changelog/2-1/collapse-mobile.png)
 
 ## <span style="color:#0b5394">**Bausteine**</span>
 
@@ -26,7 +26,7 @@ Kommt es zu einem Konflikt, erscheint ein Dialog, der fragt, ob die eigenen Änd
 
 Mit dem neuen Workflow-Schritt „Antworte auf E-Mail" können E-Mails direkt aus einem Workflow heraus beantwortet werden. Der Schritt unterstützt HTML-Antworten, sowie das Hinzufügen von CC-Empfängern und BCC Empfängern.
 
-![xmltojson](/assets/changelog/2-1/answer-email.png)
+![answer email step](/assets/changelog/2-1/answer-email.png)
 
 
 ### <span style="color:#0b5394">**Neuer Schritt: XML zu JSON konvertieren**</span>
