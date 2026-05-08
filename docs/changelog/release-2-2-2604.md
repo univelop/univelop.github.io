@@ -26,6 +26,14 @@ Ausführungsprotokolle lassen sich nun direkt aus dem Bearbeitungsbildschirm ein
 
 ![direct log in workflow](/assets/changelog/2-2/direct-log-in-workflow.png)
 
+## <span style="color:#0b5394">**Verschiedenes**</span>
+
+### <span style="color:#0b5394">**Erweitertes Key-Management für die BigQuery-Anbindung**</span>
+
+Für die BigQuery-Anbindung wurde das Key-Management erweitert: Statt eines zentralen Keys können nun bis zu fünf individuelle Keys erstellt und gezielt verwendet werden. Das erhöht Sicherheit und Flexibilität, da Zugriffe besser getrennt und verwaltet werden können.
+
+Aus Sicherheitsgründen werden Keys künftig ausschließlich einmalig bei der Erstellung angezeigt und sollten daher eigenverantwortlich – idealerweise im eigenen Secret-Management – gespeichert werden.
+
 ## <span style="color:#0b5394">**Weitere Änderungen**</span>
 
 -   Abstände zwischen Schaltflächen in Univelop 2 korrigiert
