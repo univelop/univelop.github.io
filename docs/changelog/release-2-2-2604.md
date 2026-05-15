@@ -36,7 +36,7 @@ Aus Sicherheitsgründen werden Keys künftig ausschließlich einmalig bei der Er
 
 ## <span style="color:#0b5394">**Weitere Änderungen**</span>
 
--   Abstände zwischen Schaltflächen in Univelop 2 korrigiert
+-   Abstände zwischen Schaltflächen in Univelop 2.0 korrigiert
 -   Datensatzlisten werden auf breiten Bildschirmen nicht mehr unnötig gestreckt
 -   Datumsspanne in Suchergebnissen wird nun korrekt angezeigt
 -   Fehlerbildschirm beim Ändern des Empfängermodus im „Benachrichtigung senden"-Schritt behoben
