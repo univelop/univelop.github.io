@@ -3,7 +3,7 @@ layout: title
 title: Tabelle
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 10
+nav_order: 11
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/table.html
 ---

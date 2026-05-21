@@ -3,7 +3,7 @@ layout: title
 title: Fortschritt
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 37
+nav_order: 38
 ---
 
 Mit dem Baustein _Fortschritt_ wird ein Fortschrittsbalken oder ein Tachometer-Diagramm angezeigt, das einen aktuellen Wert im Verhältnis zu einem Minimum und einem Maximum visualisiert. Alle drei Werte werden über Formeln berechnet und aktualisieren sich automatisch, wenn sich verknüpfte Bausteine ändern. Typische Einsatzbereiche sind der Anteil erledigter Aufgaben, ein gemessener Füllstand oder der Projektfortschritt in Prozent.

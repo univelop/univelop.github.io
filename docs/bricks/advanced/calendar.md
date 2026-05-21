@@ -3,7 +3,7 @@ layout: title
 title: Kalender
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 8
+nav_order: 9
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/calender.html
 ---
