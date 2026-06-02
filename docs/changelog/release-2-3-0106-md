@@ -1,0 +1,44 @@
+---
+layout: title
+title: Release Version 2.3.0
+nav_order: TBD
+parent: Changelog
+---
+
+## <span style="color:#0b5394">**Bausteine**</span>
+
+### <span style="color:#0b5394">**Eingebetteter Datensatz**</span>
+
+Mit dem neuen Eingebetteter-Datensatz-Baustein können untergeordnete Datensätze direkt in der Detailansicht des übergeordneten Datensatzes eingebettet werden. Die Felder des untergeordneten Datensatzes erscheinen dabei inline und lassen sich ohne Listenöffnung bearbeiten. 
+
+### <span style="color:#0b5394">**Datensatzbaustein — Verknüpfung unveränderlich**</span>
+
+Ist beim Datensatzbaustein die Einstellung zur festen Elternverknüpfung aktiv, lässt sich die einmal gesetzte Verknüpfung ab sofort nicht mehr ändern oder entfernen. Diese Verhaltensänderung gilt übergreifend und ist die Grundlage für den neuen Eingebetteter-Datensatz-Baustein.
+
+### <span style="color:#0b5394">**Datensatzbaustein — Feldschlüssel-Aliase**</span>
+
+Datensatz- und Datensatz-Liste-Bausteine akzeptieren ab sofort auch `id`/`ids` und `title`/`titles` als alternative Feldschlüssel. Integrationen, die diese Bezeichner verwenden, funktionieren damit ohne Anpassung.
+
+## <span style="color:#0b5394">**Verschiedenes**</span>
+
+### <span style="color:#0b5394">**Mehrere Zahlungskontoadministratoren**</span>
+
+Zahlungskonten unterstützen ab sofort mehrere Zahlungskontoadministratoren. Der Zahlungskontobesitzer des Zahhlungskontos kann weitere Nutzer als Zahlungskontoadministratoren hinzufügen, die dann ebenfalls Zugriff auf das Stripe-Abrechnungsportal erhalten. Die Eigentümerschaft lässt sich zudem an einen bestehenden Zahlungskontoadministrator übertragen.
+
+### <span style="color:#0b5394">**Farbsystem auf Material Design 3 umgestellt**</span>
+
+Das App-Farbsystem wurde auf eine einheitliche Material-Design-3-Architektur umgestellt. Farben, Kontraste und Farbabstufungen passen sich damit konsistenter an helles und dunkles Design an.
+
+## <span style="color:#0b5394">**Weitere Änderungen**</span>
+
+-   Formeleditor-Tooltip im Dark Mode wieder lesbar
+-   Kein kurzzeitiges „Ungültiges Passwort" mehr nach erfolgreichem Login
+-   Rollen-Simulationsmodus wird nun auch für Tabellenkacheln korrekt angewendet
+-   Scrollen in Bausteineinstellungen springt beim Öffnen des Einstellungspanels nicht mehr zurück
+-   Endlosspinner im Design-Modus bei veralteter Datensatz-ID in der URL behoben
+-   Filter-Schaltflächen-Icons im Hellmodus korrigiert
+-   Dateiübertragungen für Dateireferenzen wieder fehlerfrei
+-   Filter auf „Bezieht-sich-auf"-Optionen nun korrekt angewendet
+-   Abrechnungszeitraum-Fehler bei Stripe behoben
+-   Billing-Referenz bei Lizenz-Upgrade überschreibbar
+-   Mehrfach-Abrechnungsfehler in der Adminoberfläche behoben

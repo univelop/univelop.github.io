@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Release Version 2.1
+title: Release Version 2.1.0
 nav_order: 53
 parent: Changelog
 ---
