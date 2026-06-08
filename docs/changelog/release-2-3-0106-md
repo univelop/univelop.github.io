@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Release Version 2.3.0
-nav_order: TBD
+nav_order: 53
 parent: Changelog
 ---
 
@@ -9,11 +9,19 @@ parent: Changelog
 
 ### <span style="color:#0b5394">**Eingebetteter Datensatz**</span>
 
-Mit dem neuen Eingebetteter-Datensatz-Baustein können untergeordnete Datensätze direkt in der Detailansicht des übergeordneten Datensatzes eingebettet werden. Die Felder des untergeordneten Datensatzes erscheinen dabei inline und lassen sich ohne Listenöffnung bearbeiten. 
+Mit dem neuen Eingebetteter-Datensatz-Baustein können untergeordnete Datensätze direkt in der Detailansicht des übergeordneten Datensatzes eingebettet werden. Die Felder des untergeordneten Datensatzes erscheinen dabei inline und lassen sich ohne Listenöffnung bearbeiten.
+
+![embedded record](/assets/changelog/2-3/embedded-record.png)
+
+### <span style="color:#0b5394">**Datei-Upload-Baustein — Tipp-Verhalten konfigurierbar**</span>
+
+Im Datei-Upload-Baustein lässt sich ab sofort das Verhalten beim Antippen einer Datei einstellen. Zur Auswahl stehen drei Optionen: **Vorschau öffnen** (Standardverhalten), **In Standard-App öffnen** sowie **Teilen / Mit … öffnen**.
+
+![image upload behavior](/assets/changelog/2-3/image-upload-behavior.png)
 
 ### <span style="color:#0b5394">**Datensatzbaustein — Verknüpfung unveränderlich**</span>
 
-Ist beim Datensatzbaustein die Einstellung zur festen Elternverknüpfung aktiv, lässt sich die einmal gesetzte Verknüpfung ab sofort nicht mehr ändern oder entfernen. Diese Verhaltensänderung gilt übergreifend und ist die Grundlage für den neuen Eingebetteter-Datensatz-Baustein.
+Ein häufiger Fehler bei Datensatz-Bausteinen mit der Option „Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht/dupliziert wird“ war das versehentliche Entfernen der Verknüpfung. Um dies zu verhindern, ist ein einmal ausgewählter Kopfdatensatz künftig schreibgeschützt.
 
 ### <span style="color:#0b5394">**Datensatzbaustein — Feldschlüssel-Aliase**</span>
 
@@ -23,7 +31,9 @@ Datensatz- und Datensatz-Liste-Bausteine akzeptieren ab sofort auch `id`/`ids` u
 
 ### <span style="color:#0b5394">**Mehrere Zahlungskontoadministratoren**</span>
 
-Zahlungskonten unterstützen ab sofort mehrere Zahlungskontoadministratoren. Der Zahlungskontobesitzer des Zahhlungskontos kann weitere Nutzer als Zahlungskontoadministratoren hinzufügen, die dann ebenfalls Zugriff auf das Stripe-Abrechnungsportal erhalten. Die Eigentümerschaft lässt sich zudem an einen bestehenden Zahlungskontoadministrator übertragen.
+Zahlungskonten unterstützen ab sofort mehrere Zahlungskontoadministratoren. Der Zahlungskontobesitzer kann weitere Nutzer als Zahlungskontoadministratoren hinzufügen, die dann ebenfalls Zugriff auf das Stripe-Abrechnungsportal erhalten. Die Eigentümerschaft lässt sich zudem an einen bestehenden Zahlungskontoadministrator übertragen.
+
+![billing admins](/assets/changelog/2-3/billing-admins.png)
 
 ### <span style="color:#0b5394">**Farbsystem auf Material Design 3 umgestellt**</span>
 
@@ -33,7 +43,6 @@ Das App-Farbsystem wurde auf eine einheitliche Material-Design-3-Architektur umg
 
 -   Formeleditor-Tooltip im Dark Mode wieder lesbar
 -   Kein kurzzeitiges „Ungültiges Passwort" mehr nach erfolgreichem Login
--   Rollen-Simulationsmodus wird nun auch für Tabellenkacheln korrekt angewendet
 -   Scrollen in Bausteineinstellungen springt beim Öffnen des Einstellungspanels nicht mehr zurück
 -   Endlosspinner im Design-Modus bei veralteter Datensatz-ID in der URL behoben
 -   Filter-Schaltflächen-Icons im Hellmodus korrigiert
@@ -42,3 +51,6 @@ Das App-Farbsystem wurde auf eine einheitliche Material-Design-3-Architektur umg
 -   Abrechnungszeitraum-Fehler bei Stripe behoben
 -   Billing-Referenz bei Lizenz-Upgrade überschreibbar
 -   Mehrfach-Abrechnungsfehler in der Adminoberfläche behoben
+-   Transfers im Tabellenbaustein beim Anlegen neuer Datensätze wieder korrekt übertragen
+-   Design-Modus verwendet beim Öffnen ohne Datensatz-Kontext keinen neu erstellten Vorschau-Datensatz mehr
+-   Doppelter Speichern-Dialog beim Teilen von Dateien auf iOS behoben
