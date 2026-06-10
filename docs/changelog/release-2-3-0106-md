@@ -9,7 +9,7 @@ parent: Changelog
 
 ### <span style="color:#0b5394">**Eingebetteter Datensatz**</span>
 
-Mit dem neuen Eingebetteter-Datensatz-Baustein können untergeordnete Datensätze direkt in der Detailansicht des übergeordneten Datensatzes eingebettet werden. Die Felder des untergeordneten Datensatzes erscheinen dabei inline und lassen sich ohne Listenöffnung bearbeiten.
+Mit dem neuen Eingebetteter-Datensatz-Baustein können untergeordnete Datensätze direkt in der Detailansicht des übergeordneten Datensatzes eingebettet werden. Die Bausteine des untergeordneten Datensatzes erscheinen dabei inline und lassen sich ohne Listenöffnung bearbeiten.
 
 ![embedded record](/assets/changelog/2-3/embedded-record.png)
 
@@ -22,10 +22,6 @@ Im Datei-Upload-Baustein lässt sich ab sofort das Verhalten beim Antippen einer
 ### <span style="color:#0b5394">**Datensatzbaustein — Verknüpfung unveränderlich**</span>
 
 Ein häufiger Fehler bei Datensatz-Bausteinen mit der Option „Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht/dupliziert wird“ war das versehentliche Entfernen der Verknüpfung. Um dies zu verhindern, ist ein einmal ausgewählter Kopfdatensatz künftig schreibgeschützt.
-
-### <span style="color:#0b5394">**Datensatzbaustein — Feldschlüssel-Aliase**</span>
-
-Datensatz- und Datensatz-Liste-Bausteine akzeptieren ab sofort auch `id`/`ids` und `title`/`titles` als alternative Feldschlüssel. Integrationen, die diese Bezeichner verwenden, funktionieren damit ohne Anpassung.
 
 ## <span style="color:#0b5394">**Verschiedenes**</span>
 
@@ -48,9 +44,7 @@ Das App-Farbsystem wurde auf eine einheitliche Material-Design-3-Architektur umg
 -   Filter-Schaltflächen-Icons im Hellmodus korrigiert
 -   Dateiübertragungen für Dateireferenzen wieder fehlerfrei
 -   Filter auf „Bezieht-sich-auf"-Optionen nun korrekt angewendet
--   Abrechnungszeitraum-Fehler bei Stripe behoben
 -   Billing-Referenz bei Lizenz-Upgrade überschreibbar
--   Mehrfach-Abrechnungsfehler in der Adminoberfläche behoben
 -   Transfers im Tabellenbaustein beim Anlegen neuer Datensätze wieder korrekt übertragen
 -   Design-Modus verwendet beim Öffnen ohne Datensatz-Kontext keinen neu erstellten Vorschau-Datensatz mehr
 -   Doppelter Speichern-Dialog beim Teilen von Dateien auf iOS behoben
