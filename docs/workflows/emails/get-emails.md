@@ -29,6 +29,8 @@ Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werde
 1. <span style="color:#0b5394">**Inkl. Anhänge (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, werden die Anhänge der E-Mails automatisch mitgeladen und stehen als Variable zur Verfügung.
    **Warnung: Da diese Option sehr Credit-Intensiv sein kann, sollte sie nur aktiviert werden, wenn die Anhänge wirklich benötigt werden.**
+1. <span style="color:#0b5394">**Inkl. eingebetteter Bilder (Ja/Nein)**</span>
+   Ist diese Option auf Ja gesetzt, werden zusätzlich die in den E-Mails eingebetteten Bilder (z.B. inline im E-Mail-Text angezeigte Grafiken) mitgeladen und stehen als eigene Variable zur Verfügung. Eingebettete Bilder können nur abgerufen werden, wenn die Option **Inkl. Anhänge** auf Ja gesetzt ist.
 1. <span style="color:#0b5394">**Von Zeitpunkt (Datum)**</span>
    Nur E-Mails ausgeben mit Empfangsdatum nach dem hier definierten Zeitpunkt.
 1. <span style="color:#0b5394">**Bis Zeitpunkt (Datum)**</span>
@@ -48,3 +50,4 @@ Diese kann in einem [Iteriere über Werte](../structure/iterate-list.md) Baustei
 1. **is_read**: Ja/Nein, ob die E-Mail vor dem Abrufen bereits Gelesen war
 1. **has_attachments**: Ja/Nein, ob die E-Mail Anhänge beinhaltet
 1. **attachments**: Liste von Anhängen der E-Mail. Nur gefüllt wenn die Option **Inkl. Anhänge (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail Anhänge hat. Anhänge können z.B. als Zuweisungs-Wert für einen Datei-Upload Baustein verwendet werden. Da die Anhänge eine Liste sind, kann über diese ebenfalls mit dem [Iteriere über Werte](../structure/iterate-list.md) Baustein über die einzelnen Dateien iteriert werden. Auf den Dateinamen inkl. Dateiendung einzelner Dateien kann mithilfe der folgenden Formel zugegriffen werden: `toMap(attachment).name`.
+1. **embedded_images**: Liste der in der E-Mail eingebetteten Bilder (z.B. inline im E-Mail-Text angezeigte Grafiken). Nur gefüllt wenn die Option **Inkl. eingebetteter Bilder (Ja/Nein)** auf Ja gestellt ist und die jeweilige E-Mail eingebettete Bilder hat. Wie bei den Anhängen handelt es sich um eine Liste, über die mit dem [Iteriere über Werte](../structure/iterate-list.md) Baustein über die einzelnen Bilder iteriert werden kann. Auf den Dateinamen inkl. Dateiendung einzelner Bilder kann mithilfe der folgenden Formel zugegriffen werden: `toMap(embeddedImage).name`.
