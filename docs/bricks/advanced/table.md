@@ -49,3 +49,5 @@ Folgende Einstellungen bietet die Tabelle:
 6. <span style="color:#0b5394">**Filter und Sortierung beim Erzeugen**</span>
    Die Datensätze, die erzeugt werden, können vorgefiltert werden.
    Filtere ich zum Beispiel auf meine Fahrzeuge, könnte ich ein Feld zur Abfrage haben, welches verfügbar = Ja abfragt.
+6. <span style="color:#0b5394">**Drag & Drop erlauben**</span>
+   Erlauben, dass Zellen über Drag & Drop verschoben werden kann. Die Zellen können nur verschoben werden, solange die Bausteine der Spalte miteinander kompatibel sind. Bspw. können Datensätze-Zellen nicht in eine Datum-Zelle verschoben werden.
