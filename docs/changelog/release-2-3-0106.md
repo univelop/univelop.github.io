@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Release Version 2.3.0
-nav_order: 53
+nav_order: 51
 parent: Changelog
 ---
 
