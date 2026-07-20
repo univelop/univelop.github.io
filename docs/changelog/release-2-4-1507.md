@@ -9,8 +9,9 @@ parent: Changelog
 
 ### <span style="color:#0b5394">**Zellenwerte per Drag & Drop verschieben**</span>
 
-In der klassischen Tabellenansicht könnt ihr Zellenwerte jetzt per Drag & Drop verschieben. Die Funktion lässt sich über eine Einstellung aktivieren.
+In der klassischen Tabellenansicht könnt ihr Zellenwerte jetzt per Drag & Drop verschieben. Die Funktion lässt sich über eine Einstellung aktivieren. Rein lesende Zellenwerte, wie z. B. Text-Formel-Bausteine, sind nicht per Drag & Drop verschiebbar.
 
+![drag and drop table](/assets/changelog/2-4/drag-drop-table.png)
 ## <span style="color:#0b5394">**Bausteine**</span>
 
 ### <span style="color:#0b5394">**Dynamische Höhe im Editor-Baustein**</span>
@@ -31,6 +32,7 @@ Der Text-Editor-Baustein nutzt ab sofort denselben Farbwähler wie Status- und A
 ### <span style="color:#0b5394">**Neuer Schritt "Mitgliedsrolle ändern"**</span>
 
 Mit dem neuen Workflow-Schritt "Mitgliedsrolle ändern" könnt ihr die Rolle eines Mitglieds automatisiert anpassen. Unzulässige Rollenwechsel bei Admins und Eigentümern werden dabei automatisch verhindert.
+![member role change](/assets/changelog/2-4/member-role-change.png)
 
 ### <span style="color:#0b5394">**Zeichenkodierung bei "XML zu JSON"**</span>
 
@@ -43,6 +45,7 @@ Der Workflow-Schritt "XML zu JSON" unterstützt ab sofort eine einstellbare Zeic
 
 Im Lizenz-Dialog seht ihr jetzt eine korrekte Vorschau des anteiligen Preises, bevor ihr eine Lizenzänderung bestätigt. Die Vorschau zeigt getrennt den künftigen Betrag pro Abrechnungszyklus und die einmalige Ausgleichszahlung für die laufende Periode.
 
+![license price preview](/assets/changelog/2-4/license-price-preview.png)
 ### <span style="color:#0b5394">**Vollbildansicht für Datensätze**</span>
 
 Die Vollbildansicht für Datensätze lässt sich nun unabhängig von der Bildschirmgröße nutzen, nicht mehr nur auf großen Displays.
