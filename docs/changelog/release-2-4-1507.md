@@ -25,11 +25,15 @@ Bild-, Zeichnungs-, QR-Code- und KI-Bilderkennungs-Bausteine könnt ihr nun mit 
 
 Der Editor-Baustein nutzt ab sofort denselben Farbwähler wie Status- und Auswahl-Felder für Text- und Hintergrundfarbe. So könnt ihr eure Workspace-Farben direkt beim Formatieren von Texten auswählen.
 
-### <span style="color:#0b5394">**Grundrissplan mit Markierungen**</span>
 
-Mit dem neuen Baustein "Grundrissplan mit Markierungen" könnt ihr PDF-Pläne anzeigen und mit Markierungen versehen, die auf verknüpfte Datensätze verweisen. Pläne lassen sich zoomen, hoch- und herunterladen und über ein Menü verwalten.
 
 ## <span style="color:#0b5394">**Workflows**</span>
+
+### <span style="color:#0b5394">**Neuer Schritt "Mitgliederrolle ändern"**</span>
+
+Mit dem neuen Workflow-Schritt "Mitgliederrolle ändern" könnt ihr die Rolle eines Mitglieds automatisiert anpassen. Unzulässige Rollenwechsel bei Admins und Besitzern werden dabei automatisch verhindert.
+
+![member role change](/assets/changelog/2-4/member-role-change.png)
 
 ### <span style="color:#0b5394">**Zeichenkodierung bei "XML zu JSON"**</span>
 
@@ -46,10 +50,6 @@ Im Lizenz-Dialog seht ihr jetzt eine korrekte Vorschau des anteiligen Preises, b
 ### <span style="color:#0b5394">**Vollbildansicht für Datensätze**</span>
 
 Die Vollbildansicht für Datensätze lässt sich nun unabhängig von der Bildschirmgröße nutzen, nicht mehr nur auf großen Displays.
-
-### <span style="color:#0b5394">**Überarbeitete Einladungslinks**</span>
-
-Die Gültigkeitsanzeige von Einladungslinks wurde überarbeitet: Abgelaufene Einladungen zeigen jetzt "Abgelaufen" statt einer negativen Zahl. Beim Beitritt über einen ungültigen oder abgelaufenen Link erscheint zudem eine verständliche Fehlermeldung direkt im Dialog statt der allgemeinen Fehlerseite.
 
 ## <span style="color:#0b5394">**Weitere Änderungen**</span>
 
