@@ -5,34 +5,31 @@ nav_order: 50
 parent: Changelog
 ---
 
-## <span style="color:#0b5394">**Komponenten**</span>
+## <span style="color:#0b5394">**Bausteine**</span>
 
 ### <span style="color:#0b5394">**Zellenwerte per Drag & Drop verschieben**</span>
 
-In der klassischen Tabellenansicht könnt ihr Zellenwerte jetzt per Drag & Drop verschieben. Die Funktion lässt sich über eine Einstellung aktivieren. Rein lesende Zellenwerte, wie z. B. Text-Formel-Bausteine, sind nicht per Drag & Drop verschiebbar.
+In der klassischen Tabellenansicht könnt ihr einzelne Zellenwerte jetzt per Drag & Drop verschieben. Die Funktion lässt sich über eine Einstellung aktivieren. Rein lesende Zellenwerte, wie z. B. Text-Formel-Bausteine, sind nicht per Drag & Drop verschiebbar.
 
 ![drag and drop table](/assets/changelog/2-4/drag-drop-table.png)
-## <span style="color:#0b5394">**Bausteine**</span>
 
 ### <span style="color:#0b5394">**Dynamische Höhe im Editor-Baustein**</span>
 
-Der Editor-Baustein unterstützt jetzt eine dynamische Höhe: Statt fester Höhe mit interner Bildlaufleiste passt sich die Ansicht automatisch an den gesamten Inhalt an.
+Der Editor-Baustein unterstützt jetzt eine dynamische Höhe: Statt fester Höhe passt sich die Ansicht automatisch an den gesamten Inhalt an.
 
 ### <span style="color:#0b5394">**Benutzerdefinierte Druckgröße**</span>
 
 Bild-, Zeichnungs-, QR-Code- und KI-Bilderkennungs-Bausteine könnt ihr nun mit einer benutzerdefinierten Druckgröße in Zentimetern versehen. Wird nur eine Seite angegeben, skaliert das Bild automatisch im passenden Seitenverhältnis.
 
-### <span style="color:#0b5394">**Farbwähler im Text-Editor**</span>
+### <span style="color:#0b5394">**Farbwähler im Editor**</span>
 
-Der Text-Editor-Baustein nutzt ab sofort denselben Farbwähler wie Status- und Auswahl-Felder für Text- und Hintergrundfarbe. So könnt ihr eure Workspace-Farben direkt beim Formatieren von Texten auswählen.
+Der Editor-Baustein nutzt ab sofort denselben Farbwähler wie Status- und Auswahl-Felder für Text- und Hintergrundfarbe. So könnt ihr eure Workspace-Farben direkt beim Formatieren von Texten auswählen.
 
+### <span style="color:#0b5394">**Grundrissplan mit Markierungen**</span>
+
+Mit dem neuen Baustein "Grundrissplan mit Markierungen" könnt ihr PDF-Pläne anzeigen und mit Markierungen versehen, die auf verknüpfte Datensätze verweisen. Pläne lassen sich zoomen, hoch- und herunterladen und über ein Menü verwalten.
 
 ## <span style="color:#0b5394">**Workflows**</span>
-
-### <span style="color:#0b5394">**Neuer Schritt "Mitgliedsrolle ändern"**</span>
-
-Mit dem neuen Workflow-Schritt "Mitgliedsrolle ändern" könnt ihr die Rolle eines Mitglieds automatisiert anpassen. Unzulässige Rollenwechsel bei Admins und Eigentümern werden dabei automatisch verhindert.
-![member role change](/assets/changelog/2-4/member-role-change.png)
 
 ### <span style="color:#0b5394">**Zeichenkodierung bei "XML zu JSON"**</span>
 
@@ -40,12 +37,12 @@ Der Workflow-Schritt "XML zu JSON" unterstützt ab sofort eine einstellbare Zeic
 
 ## <span style="color:#0b5394">**Verschiedenes**</span>
 
-
 ### <span style="color:#0b5394">**Anteilige Preisvorschau im Lizenz-Dialog**</span>
 
 Im Lizenz-Dialog seht ihr jetzt eine korrekte Vorschau des anteiligen Preises, bevor ihr eine Lizenzänderung bestätigt. Die Vorschau zeigt getrennt den künftigen Betrag pro Abrechnungszyklus und die einmalige Ausgleichszahlung für die laufende Periode.
 
 ![license price preview](/assets/changelog/2-4/license-price-preview.png)
+
 ### <span style="color:#0b5394">**Vollbildansicht für Datensätze**</span>
 
 Die Vollbildansicht für Datensätze lässt sich nun unabhängig von der Bildschirmgröße nutzen, nicht mehr nur auf großen Displays.
@@ -64,4 +61,3 @@ Die Gültigkeitsanzeige von Einladungslinks wurde überarbeitet: Abgelaufene Ein
 -   Admins können Workflows im Design-Modus auch bei aktivierter anderer Vorschau-Rolle bearbeiten
 -   Maximale Zeichenanzahl für Segment-Optionen von 15 auf 20 erhöht
 -   Verschieben von Kacheln in globale, für alle sichtbare Ordner auf Admins und Eigentümer beschränkt
-
