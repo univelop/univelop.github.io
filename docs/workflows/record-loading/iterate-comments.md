@@ -42,17 +42,17 @@ Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestim
 1. <span style="color:#0b5394">**Bei Fehler fortsetzen (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, wird ein Fehler innerhalb eines Durchlaufs im Workflow-Log vermerkt und mit dem nächsten Kommentar weitergemacht, anstatt den Workflow abzubrechen.
 1. <span style="color:#0b5394">**Abbruchbedingung (Ja/Nein)**</span>
-   Eine Formel, die vor jedem Durchlauf geprüft wird. Ergibt sie Ja, wird die Iteration beendet und der Workflow nach dem Baustein fortgeführt, z. B. `kommentar.authorName = "Admin Serveraccount"`.
+   Eine Formel, die vor jedem Durchlauf geprüft wird. Ergibt sie Ja, wird die Iteration beendet und der Workflow nach dem Baustein fortgeführt, z. B. `kommentar.author_name = "Admin Serveraccount"`.
 
 ### <span style="color:#0b5394">**Variablen**</span>
 
 Innerhalb der Iteration stehen die Werte des aktuellen Kommentars über den technischen Namen des Bausteins mit dem Punkt-Operator zur Verfügung. Die Beispiele gehen von dem technischen Namen `kommentar` aus.
 
 1. **text**: Der Text des Kommentars, z. B. `kommentar.text`. Erwähnungen erscheinen darin als Name, so wie sie im Kommentar-Baustein angezeigt werden.
-1. **authorName**: Der angezeigte Name des Verfassers, z. B. `kommentar.authorName`. Bei einem von einem Workflow verfassten Kommentar ist das _Admin Serveraccount_.
-1. **authorId**: Die Nutzer-ID des Verfassers, z. B. `kommentar.authorId`. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](../record-editing/create-comment.md) Baustein zu erwähnen.
-1. **createdAt**: Zeitpunkt, an dem der Kommentar geschrieben wurde.
-1. **modifiedAt**: Zeitpunkt der letzten Änderung des Kommentars.
-1. **isDeleted**: Ja/Nein, ob der Kommentar als gelöscht markiert ist. Nur von Belang, wenn **Gelöschte Kommentare einbeziehen** auf Ja gesetzt ist.
+1. **author_name**: Der angezeigte Name des Verfassers, z. B. `kommentar.author_name`. Bei einem von einem Workflow verfassten Kommentar ist das _Admin Serveraccount_.
+1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id`. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](../record-editing/create-comment.md) Baustein zu erwähnen.
+1. **created_at**: Zeitpunkt, an dem der Kommentar geschrieben wurde.
+1. **modified_at**: Zeitpunkt der letzten Änderung des Kommentars.
+1. **is_deleted**: Ja/Nein, ob der Kommentar als gelöscht markiert ist. Nur von Belang, wenn **Gelöschte Kommentare einbeziehen** auf Ja gesetzt ist.
 
 Der technische Name selbst — im Beispiel `kommentar` — steht für den Kommentar als Ganzes und sollte nicht direkt referenziert werden; die einzelnen Werte sind über den Punkt-Operator erreichbar.
