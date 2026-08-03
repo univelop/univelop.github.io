@@ -13,6 +13,8 @@ Mit dem Baustein _Iteriere über Kommentare_ werden die folgenden Workflow-Baust
 
 Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestimmten Eintrages. Deshalb müssen Liste, Baustein und Eintrag-ID gemeinsam angegeben werden. Wie viele Kommentare gefunden wurden, steht im Workflow-Log.
 
+Gelöschte Kommentare werden nie durchlaufen. Ein Kommentar, der nach Ablauf der Bearbeitungszeit gelöscht wird, bleibt technisch erhalten und ist nur als gelöscht markiert — für den Baustein ist er dennoch nicht vorhanden.
+
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
 1. <span style="color:#0b5394">**Technischer Name**</span>
@@ -32,8 +34,6 @@ Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestim
    Nur Kommentare durchlaufen, die nach diesem Zeitpunkt geschrieben wurden.
 1. <span style="color:#0b5394">**Geschrieben vor (Datum)**</span>
    Nur Kommentare durchlaufen, die vor diesem Zeitpunkt geschrieben wurden.
-1. <span style="color:#0b5394">**Gelöschte Kommentare einbeziehen (Ja/Nein)**</span>
-   Ein Kommentar, der nach Ablauf der Bearbeitungszeit gelöscht wird, wird nur als gelöscht markiert und bleibt erhalten. Ist diese Option auf Ja gesetzt, werden diese Kommentare mit durchlaufen; andernfalls werden sie übersprungen.
 
 ### <span style="color:#0b5394">**Verhalten**</span>
 
@@ -53,6 +53,5 @@ Innerhalb der Iteration stehen die Werte des aktuellen Kommentars über den tech
 1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id`. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](../record-editing/create-comment.md) Baustein zu erwähnen.
 1. **created_at**: Zeitpunkt, an dem der Kommentar geschrieben wurde.
 1. **modified_at**: Zeitpunkt der letzten Änderung des Kommentars.
-1. **is_deleted**: Ja/Nein, ob der Kommentar als gelöscht markiert ist. Nur von Belang, wenn **Gelöschte Kommentare einbeziehen** auf Ja gesetzt ist.
 
 Der technische Name selbst — im Beispiel `kommentar` — steht für den Kommentar als Ganzes und sollte nicht direkt referenziert werden; die einzelnen Werte sind über den Punkt-Operator erreichbar.
