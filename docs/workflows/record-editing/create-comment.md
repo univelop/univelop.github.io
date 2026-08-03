@@ -23,6 +23,8 @@ Ein Kommentar gehört immer zu einem bestimmten Kommentar-Baustein eines bestimm
    Der Text des Kommentars. Der Text wird so geschrieben, wie er eingegeben wird; Werte aus dem Workflow werden mit `${...}` eingesetzt, z. B. `Freigegeben von ${bestellungen.pruefer}`.
 1. <span style="color:#0b5394">**Schreiben als (Text)**</span>
    Der Verfasser des Kommentars, angegeben als Nutzer-ID, Mitglieds-ID oder E-Mail-Adresse. Bleibt die Einstellung leer, wird der Kommentar als Admin Serveraccount verfasst und im Kommentar-Baustein auch so angezeigt. Lässt sich ein angegebener Wert keinem Nutzer zuordnen, bricht der Workflow mit einem Fehler ab, anstatt den Kommentar einem falschen Verfasser zuzuschreiben.
+1. <span style="color:#0b5394">**Geschrieben am (Datum)**</span>
+   Der Zeitpunkt, der als Verfassungszeitpunkt des Kommentars gespeichert wird. Bleibt die Einstellung leer, wird der Zeitpunkt der Ausführung verwendet. Nützlich, wenn Kommentare aus einer bestehenden Quelle übernommen werden und ihr ursprüngliches Datum behalten sollen.
 1. <span style="color:#0b5394">**Benachrichtigung an Erwähnte Nutzer verschicken (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, erhalten die im Kommentar erwähnten Nutzer eine Benachrichtigung. Nutzer, die den Eintrag lediglich abonniert haben, werden nicht benachrichtigt — wie bei den übrigen Bausteinen, die Einträge bearbeiten. Der Verfasser selbst erhält nie eine Benachrichtigung über seinen eigenen Kommentar.
    Standardmäßig ist die Option aus, damit ein Workflow, der viele Kommentare schreibt, nicht für jeden einzelnen eine Benachrichtigung verschickt.
