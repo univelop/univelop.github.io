@@ -9,7 +9,7 @@ redirect_from:
     - /docs/workflows/load-records/iterate-comments.html
 ---
 
-Mit dem Baustein _Iteriere über Kommentare_ werden die folgenden Workflow-Bausteine für jeden Kommentar eines [Kommentar-Bausteins](../../bricks/advanced/comments.md) einmal ausgeführt. Ohne Filter wird der gesamte Verlauf durchlaufen, neueste zuerst.
+Mit dem Baustein _Iteriere über Kommentare_ werden die folgenden Workflow-Bausteine für jeden Kommentar eines [Kommentar-Bausteins](../../bricks/advanced/comments.md) einmal ausgeführt. Durchlaufen wird immer vom neuesten zum ältesten Kommentar; ohne Filter der gesamte Verlauf.
 
 Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestimmten Eintrages. Deshalb müssen Liste, Baustein und Eintrag-ID gemeinsam angegeben werden. Wie viele Kommentare gefunden wurden, steht im Workflow-Log.
 
@@ -37,8 +37,6 @@ Gelöschte Kommentare werden nie durchlaufen. Ein Kommentar, der nach Ablauf der
 
 ### <span style="color:#0b5394">**Verhalten**</span>
 
-1. <span style="color:#0b5394">**Neueste zuerst (Ja/Nein)**</span>
-   Bestimmt die Reihenfolge: Ja beginnt beim neuesten Kommentar, Nein beim ältesten. Standardmäßig auf Ja.
 1. <span style="color:#0b5394">**Bei Fehler fortsetzen (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, wird ein Fehler innerhalb eines Durchlaufs im Workflow-Log vermerkt und mit dem nächsten Kommentar weitergemacht, anstatt den Workflow abzubrechen.
 
