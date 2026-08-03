@@ -41,8 +41,6 @@ Gelöschte Kommentare werden nie durchlaufen. Ein Kommentar, der nach Ablauf der
    Bestimmt die Reihenfolge: Ja beginnt beim neuesten Kommentar, Nein beim ältesten. Standardmäßig auf Ja.
 1. <span style="color:#0b5394">**Bei Fehler fortsetzen (Ja/Nein)**</span>
    Ist diese Option auf Ja gesetzt, wird ein Fehler innerhalb eines Durchlaufs im Workflow-Log vermerkt und mit dem nächsten Kommentar weitergemacht, anstatt den Workflow abzubrechen.
-1. <span style="color:#0b5394">**Abbruchbedingung (Ja/Nein)**</span>
-   Eine Formel, die vor jedem Durchlauf geprüft wird. Ergibt sie Ja, wird die Iteration beendet und der Workflow nach dem Baustein fortgeführt, z. B. `kommentar.author_name = "Admin Serveraccount"`.
 
 ### <span style="color:#0b5394">**Variablen**</span>
 
