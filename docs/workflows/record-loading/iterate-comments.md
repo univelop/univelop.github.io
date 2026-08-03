@@ -20,7 +20,7 @@ Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestim
 1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>
    Die Liste, zu der der Eintrag mit dem Kommentar-Baustein gehört.
 1. <span style="color:#0b5394">**Verknüpfung mit Baustein**</span>
-   Der Kommentar-Baustein, dessen Kommentare durchlaufen werden, ausgewählt über seinen technischen Namen. Angeboten werden nur die Kommentar-Bausteine der gewählten Liste.
+   Der Kommentar-Baustein, dessen Kommentare durchlaufen werden, ausgewählt über seine Bezeichnung. Angeboten werden nur die Kommentar-Bausteine der gewählten Liste.
 1. <span style="color:#0b5394">**Datensatz-ID (Text)**</span>
    Die ID des Eintrages, dessen Kommentare durchlaufen werden.
 

@@ -16,7 +16,7 @@ Ein Kommentar gehört immer zu einem bestimmten Kommentar-Baustein eines bestimm
 1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>
    Die Liste, zu der der Eintrag mit dem Kommentar-Baustein gehört.
 1. <span style="color:#0b5394">**Verknüpfung mit Baustein**</span>
-   Der Kommentar-Baustein, in dem der Kommentar erstellt wird, ausgewählt über seinen technischen Namen. Angeboten werden nur die Kommentar-Bausteine der gewählten Liste. Wird die Liste nachträglich gewechselt, muss der Baustein neu gewählt werden.
+   Der Kommentar-Baustein, in dem der Kommentar erstellt wird, ausgewählt über seine Bezeichnung. Angeboten werden nur die Kommentar-Bausteine der gewählten Liste. Wird die Liste nachträglich gewechselt, muss der Baustein neu gewählt werden.
 1. <span style="color:#0b5394">**Datensatz-ID (Text)**</span>
    Die ID des Eintrages, an dem der Kommentar hängt, z. B. `bestellungen.id` innerhalb einer Iteration.
 1. <span style="color:#0b5394">**Kommentar (Text)**</span>
