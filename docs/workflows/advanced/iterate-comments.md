@@ -1,24 +1,23 @@
 ---
 layout: workflow-step
 title: Iteriere über Kommentare
-parent: Einträge laden
+parent: Erweitert
 grand_parent: Workflows
 icon: forum
-nav_order: 6
+nav_order: 8
 redirect_from:
     - /docs/workflows/load-records/iterate-comments.html
+    - /docs/workflows/record-loading/iterate-comments.html
 ---
 
-Mit dem Baustein _Iteriere über Kommentare_ werden die folgenden Workflow-Bausteine für jeden Kommentar eines [Kommentar-Bausteins](../../bricks/advanced/comments.md) einmal ausgeführt. Durchlaufen wird immer vom neuesten zum ältesten Kommentar; ohne Filter der gesamte Verlauf.
+Mit dem Baustein _Iteriere über Kommentare_ werden die nachfolgenden Workflow-Bausteine für jeden Kommentar eines [Kommentar-Bausteins](../../bricks/advanced/comments.md) einmal ausgeführt. Durchlaufen wird immer vom neuesten zum ältesten Kommentar; ohne Filter der gesamte Verlauf.
 
 Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestimmten Eintrages. Deshalb müssen Liste, Baustein und Eintrag-ID gemeinsam angegeben werden. Wie viele Kommentare gefunden wurden, steht im Workflow-Log.
-
-Gelöschte Kommentare werden nie durchlaufen. Ein Kommentar, der nach Ablauf der Bearbeitungszeit gelöscht wird, bleibt technisch erhalten und ist nur als gelöscht markiert — für den Baustein ist er dennoch nicht vorhanden.
 
 ### <span style="color:#0b5394">**Einstellungen**</span>
 
 1. <span style="color:#0b5394">**Technischer Name**</span>
-   Über diesen Namen werden die Werte des aktuellen Kommentars in den folgenden Workflow-Bausteinen referenziert, bspw. `kommentar.text`.
+   Über diesen Namen werden die Werte des aktuellen Kommentars in den nachfolgenden Workflow-Bausteinen referenziert, bspw. `kommentar.text`.
 1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>
    Die Liste, zu der der Eintrag mit dem Kommentar-Baustein gehört.
 1. <span style="color:#0b5394">**Verknüpfung mit Baustein**</span>
@@ -44,9 +43,9 @@ Gelöschte Kommentare werden nie durchlaufen. Ein Kommentar, der nach Ablauf der
 
 Innerhalb der Iteration stehen die Werte des aktuellen Kommentars über den technischen Namen des Bausteins mit dem Punkt-Operator zur Verfügung. Die Beispiele gehen von dem technischen Namen `kommentar` aus.
 
-1. **text**: Der Text des Kommentars, z. B. `kommentar.text`. Erwähnte Nutzer erscheinen darin als Verweis in der Form `@[nutzername]`. Genau diese Schreibweise versteht der [Erstelle einen neuen Kommentar](../record-editing/create-comment.md) Baustein wieder, sodass ein daraus geschriebener Kommentar dieselben Nutzer erwähnt.
-1. **author_name**: Der angezeigte Name des Verfassers, z. B. `kommentar.author_name`. Bei einem von einem Workflow verfassten Kommentar ist das _Admin Serveraccount_.
-1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id`. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](../record-editing/create-comment.md) Baustein zu erwähnen, als `@[${kommentar.author_id}]`.
+1. **text**: Der Text des Kommentars, z. B. `kommentar.text`. Erwähnte Nutzer erscheinen darin als Verweis in der Form `@[nutzername]`. Genau diese Schreibweise versteht der [Erstelle einen neuen Kommentar](create-comment.md) Baustein wieder, sodass ein daraus geschriebener Kommentar dieselben Nutzer erwähnt.
+1. **author_name**: Der angezeigte Name des Verfassers, z. B. `kommentar.author_name`. Bei einem von einem Workflow verfassten Kommentar ist das _Admin Serveraccount_, sofern dort kein Verfasser angegeben wurde — sonst der Name des angegebenen Nutzers.
+1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id` — nicht die Mitglieds-ID. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](create-comment.md) Baustein zu erwähnen, als `@[${kommentar.author_id}]`.
 1. **created_at**: Zeitpunkt, an dem der Kommentar geschrieben wurde.
 1. **modified_at**: Zeitpunkt der letzten Änderung des Kommentars.
 
