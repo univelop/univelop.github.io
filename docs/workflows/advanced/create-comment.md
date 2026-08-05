@@ -41,7 +41,7 @@ In den Klammern sind drei Kennungen möglich:
 1. **Nutzer- oder Mitglieds-ID**: `@[${bestellungen.pruefer_id}]` — die Form für Werte aus dem Workflow.
 1. **E-Mail-Adresse**: `@[max.mustermann@firma.de]`
 
-Erwähnt werden können alle aktiven Mitglieder des Arbeitsbereiches. Findet sich zu einer Kennung kein Mitglied, bricht der Workflow mit einem Fehler ab: die Klammern sind die Ansage, dass hier ein Nutzer gemeint ist, und ein Tippfehler soll nicht unbemerkt als gewöhnlicher Text im Kommentar landen. Dasselbe gilt für einen leeren Verweis, wie er entsteht, wenn die Variable in `@[${bestellungen.pruefer_id}]` keinen Wert hat — kommt das im Betrieb vor, sollte der Baustein über eine Bedingung übersprungen werden.
+Erwähnt werden können alle aktiven Mitglieder des Arbeitsbereichs. Findet sich zu einer Kennung kein Mitglied, bricht der Workflow mit einem Fehler ab. Die Klammern dienen dabei als eindeutige Kennzeichnung, dass an dieser Stelle ein Benutzerverweis erwartet wird. So fallen Tippfehler nicht unbemerkt als gewöhnlicher Text im Kommentar auf. Dasselbe gilt für einen leeren Verweis, wie er entsteht, wenn die Variable in @[${bestellungen.pruefer_id}] keinen Wert hat.
 
 Ein `@name` ohne Klammern wird ebenfalls noch aufgelöst, weil es die Schreibweise ist, die im Kommentar-Baustein eingegeben wird und die beim Kopieren eines Kommentartextes mitkommt. Ohne Klammern gilt aber nur der Name: eine ID oder E-Mail-Adresse ohne Klammern bleibt gewöhnlicher Text und erwähnt niemanden.
 
