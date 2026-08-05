@@ -22,7 +22,7 @@ Ein Kommentar gehört immer zu einem bestimmten Kommentar-Baustein eines bestimm
 1. <span style="color:#0b5394">**Datensatz-ID (Text)**</span>
    Die ID des Eintrages, an dem der Kommentar hängt, z. B. `bestellungen.id` innerhalb einer Iteration.
 1. <span style="color:#0b5394">**Autor (Text)**</span>
-   Der Verfasser des Kommentars, angegeben als Nutzer-ID, Mitglieds-ID oder E-Mail-Adresse. Bleibt die Einstellung leer, wird der Kommentar als _Admin Serveraccount_ verfasst und im Kommentar-Baustein auch so angezeigt. Lässt sich ein angegebener Wert keinem Nutzer zuordnen, bricht der Workflow mit einem Fehler ab, anstatt den Kommentar einem falschen Verfasser zuzuschreiben.
+   Der Verfasser des Kommentars, angegeben als Nutzer-ID, Mitglieds-ID oder E-Mail-Adresse. Bleibt die Einstellung leer, wird der Kommentar als _Admin Service Account_ verfasst und im Kommentar-Baustein auch so angezeigt. Lässt sich ein angegebener Wert keinem Nutzer zuordnen, bricht der Workflow mit einem Fehler ab, anstatt den Kommentar einem falschen Verfasser zuzuschreiben.
 1. <span style="color:#0b5394">**Kommentar (Text)**</span>
    Der Text des Kommentars. Der Text wird so geschrieben, wie er eingegeben wird; Werte aus dem Workflow werden mit `${...}` eingesetzt, z. B. `Freigegeben von ${bestellungen.pruefer_id}`.
 1. <span style="color:#0b5394">**Geschrieben am (Datum)**</span>
