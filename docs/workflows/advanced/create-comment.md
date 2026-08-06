@@ -45,4 +45,4 @@ Erwähnt werden können alle aktiven Mitglieder des Arbeitsbereiches. Findet sic
 
 Ein `@name` ohne Klammern wird ebenfalls noch aufgelöst, weil es die Schreibweise ist, die im Kommentar-Baustein eingegeben wird und die beim Kopieren eines Kommentartextes mitkommt. Ohne Klammern gilt aber nur der Name: eine ID oder E-Mail-Adresse ohne Klammern bleibt gewöhnlicher Text und erwähnt niemanden.
 
-Der [Iteriere über Kommentare](iterate-comments.md) Baustein gibt Erwähnungen in genau dieser Klammer-Schreibweise aus. Ein Kommentar, der aus einem gelesenen Kommentar geschrieben wird, erwähnt damit dieselben Nutzer — und benachrichtigt sie erneut, wenn die Benachrichtigung eingeschaltet ist.
+Der [Iteriere über Kommentare](iterate-comments.md) Baustein gibt Erwähnungen in genau dieser Klammer-Schreibweise aus, mit der E-Mail-Adresse als Kennung. Ein Kommentar, der aus einem gelesenen Kommentar geschrieben wird, erwähnt damit dieselben Nutzer — und benachrichtigt sie erneut, wenn die Benachrichtigung eingeschaltet ist.

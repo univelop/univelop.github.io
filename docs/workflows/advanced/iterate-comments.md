@@ -43,9 +43,10 @@ Iteriert werden die Kommentare eines bestimmten Kommentar-Bausteins eines bestim
 
 Innerhalb der Iteration stehen die Werte des aktuellen Kommentars über den technischen Namen des Bausteins mit dem Punkt-Operator zur Verfügung. Die Beispiele gehen von dem technischen Namen `kommentar` aus.
 
-1. **text**: Der Text des Kommentars, z. B. `kommentar.text`. Erwähnte Nutzer erscheinen darin als Verweis in der Form `@[nutzername]`. Genau diese Schreibweise versteht der [Erstelle einen neuen Kommentar](create-comment.md) Baustein wieder, sodass ein daraus geschriebener Kommentar dieselben Nutzer erwähnt.
+1. **text**: Der Text des Kommentars, z. B. `kommentar.text`. Erwähnte Nutzer erscheinen darin als Verweis auf ihre E-Mail-Adresse, `@[max.mustermann@firma.de]`. Genau diese Schreibweise versteht der [Erstelle einen neuen Kommentar](create-comment.md) Baustein wieder, sodass ein daraus geschriebener Kommentar dieselben Nutzer erwähnt. Ist zu einem erwähnten Nutzer keine Adresse hinterlegt, bricht der Baustein mit einem Fehler ab, anstatt die Erwähnung stillschweigend zu verlieren.
 1. **author_name**: Der angezeigte Name des Verfassers, z. B. `kommentar.author_name`. Bei einem von einem Workflow verfassten Kommentar ist das _Admin Service Account_, sofern dort kein Verfasser angegeben wurde — sonst der Name des angegebenen Nutzers.
-1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id` — nicht die Mitglieds-ID. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](create-comment.md) Baustein zu erwähnen, als `@[${kommentar.author_id}]`.
+1. **author_id**: Die Nutzer-ID des Verfassers, z. B. `kommentar.author_id` — nicht die Mitglieds-ID. Nur innerhalb des Arbeitsbereiches sinnvoll; für alles, was den Arbeitsbereich verlässt, ist die Adresse gedacht.
+1. **author_email**: Die E-Mail-Adresse des Verfassers, z. B. `kommentar.author_email`. Geeignet, um denselben Nutzer in einem [Erstelle einen neuen Kommentar](create-comment.md) Baustein zu erwähnen, als `@[${kommentar.author_email}]`. Bei einem von einem Workflow verfassten Kommentar steht hier die Adresse des Admin-Service-Accounts.
 1. **created_at**: Zeitpunkt, an dem der Kommentar geschrieben wurde.
 1. **modified_at**: Zeitpunkt der letzten Änderung des Kommentars.
 
