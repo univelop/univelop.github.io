@@ -23,7 +23,10 @@ In Formeln lässt sich nun der technische Name der Liste, zu der ein Datensatz g
 
 ## <span style="color:#0b5394">**Workflows**</span>
 
-
+### <span style="color:#0b5394">**Neue Workflow-Schritte für Kommentare**</span>
+ 
+Mit den neuen Schritten "Kommentar erstellen" und "Kommentare durchlaufen" lassen sich Kommentare direkt aus Workflows heraus schreiben und auswerten. Nutzer können dabei per @-Erwähnung in Kommentaren markiert werden, die dann als Automatisierung im Kommentarverlauf sichtbar sind.
+ 
 ### <span style="color:#0b5394">**Prüfung auf ungültige Baustein-Referenzen in Workflow-Schritten**</span>
 
 Workflow-Schritte werden jetzt automatisch darauf geprüft, ob referenzierte Bausteine noch existieren. So fallen leere oder ungültige Baustein-Referenzen schneller auf, bevor sie zu Fehlern im laufenden Workflow führen.
@@ -37,6 +40,7 @@ Für SMTP- und IMAP-Integrationen lässt sich nun eine statische IP-Adresse akti
 
 ## <span style="color:#0b5394">**Weitere Änderungen**</span>
 
+-   Hinweistext und Fehlermeldung bei ungültigen Nutzererwähnungen in Kommentaren verbessert
 -   Tabellen-Aktionsmenü wird ausgeblendet, wenn keine Aktion verfügbar ist
 -   Fehlermeldung bei der Baustein-Einrichtung "Farbe registrieren" verbessert
 -   Fehlermeldung bei fehlender Baustein-Spezifikation korrigiert
