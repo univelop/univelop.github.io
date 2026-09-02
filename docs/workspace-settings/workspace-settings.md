@@ -1,8 +1,7 @@
 ---
 layout: title
 title: Allgemein
-parent: Arbeitsbereich Einstellungen
-nav_order: 0
+nav_order: 5
 ---
 
 Unter **Allgemein** werden die grundlegenden Angaben des Arbeitsbereichs verwaltet.
