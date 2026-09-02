@@ -14,7 +14,7 @@ redirect_from:
 
 Abgerufen werden kann aus jedem Postfach, für das eine Integration eingerichtet ist, die das Abrufen von E-Mails unterstützt: _Microsoft - Anwendungszugriff_, _Microsoft - Delegierter Zugriff_ sowie _E-Mail (SMTP/IMAP)_.
 
-Die passende Integration muss zuvor im Arbeitsbereich eingerichtet werden. Für Microsoft ist das Vorgehen unter [E-Mail-Versand](../../workspace-settings/mailing.md) beschrieben.
+Die passende Integration muss zuvor im Arbeitsbereich eingerichtet werden: für Microsoft ist das Vorgehen unter [E-Mail-Versand](../../workspace-settings/mailing.md) beschrieben, für IMAP-Postfächer unter [E-Mail (SMTP/IMAP)](../../workspace-settings/smtp-imap.md).
 
 Abgerufen werden die ersten **50** E-Mails aus dem Ordner **Posteingang (Inbox)** des angegebenen Postfaches, welche zu den gesetzten Einstellungen passen. Wenn es mehr als 50 E-Mails gibt, die zu den Einstellungen passen, wird in den Logs eine Warnung diesbezüglich ausgegeben.
 
