@@ -5,19 +5,37 @@ layout: title
 has_toc: false
 ---
 
-Die Kacheln sind das Herzstück von Univelop. Sie bilden die Daten, Prozesse und Anwendungen im Arbeitsbereich ab.
-Eine Kachel wird dabei ähnlich wie Apps beim Smartphone auf dem Homescreen dargestellt. Auch die Funktion der Kachel ist von Kachel zu Kachel, wie beim Smartphone von App zu App, unterschiedlich.
+Die Kacheln sind das Herzstück von Univelop. Sie bilden die Daten, Prozesse und Anwendungen im Arbeitsbereich ab und werden wie Apps auf einem Smartphone auf dem Homescreen dargestellt.
 
-Es gibt verschiedenste Kacheltypen, die wiederum unterschiedliche Grundfunktionen bieten.
-Die wichtigste Kachel ist die "Einfache Liste". Sie stellt eine Liste von Einträgen dar, um einen Datenbestand aufzubauen und darauf zu arbeiten.
-Weitere Kacheln sind z.B. die Kachelart "Website", um externe Inhalte zu verlinken oder eingebettet darzustellen, die Art "Ordner", um andere Kacheln zu organisieren und die Kachelart "Seite", um statische Inhalte, wie z.B. tägliche Neuigkeiten darzustellen.
+## Kacheltypen
 
-Auf dem Homescreen kann zusätzlich zwischen dem Bereich für allgemeine Kacheln und eigene Kacheln unterscheiden werden. Die allgemeinen Kacheln sind die Sammlung aller "Apps", die im Arbeitsbereich genutzt werden können. Das bedeutet dabei aber nicht, dass jeder Nutzer diese Kacheln sehen kann.
+Univelop bietet verschiedene Kacheltypen mit unterschiedlichen Grundfunktionen:
 
-Um als einzelner Anwender besser durch die einzelnen Kacheln zu navigieren gibt es den Bereich der eigenen Kacheln.
-Das ist der eigene Teilbereich, um die persönlich wichtigsten Anwendungen für sich selber zu organisieren.
-So kann sich schneller Zugriff auf bestimmte Einträge aus beliebigen Listen verschafft werden.
+| Kacheltyp | Beschreibung |
+|-----------|-------------|
+| [Einfache Liste](/docs/tiles/basic-tile) | Listenansicht für Datensätze — der wichtigste Kacheltyp |
+| [Gefilterte Liste](/docs/tiles/filter-tile) | Vorgefilterte Ansicht einer bestehenden Liste |
+| [Formular](/docs/tiles/form-tile) | Vereinfachte Eingabemaske zum Erstellen von Einträgen |
+| [Mitglieder](/docs/tiles/member-tile) | Verwaltung der Arbeitsbereich-Mitglieder |
+| [Kanban Board](/docs/tiles/kanban-board-tile) | Spaltenansicht nach Status mit Drag & Drop |
+| [Website](/docs/tiles/web-tile) | Einbettung einer externen Website |
+| [Ordner](/docs/tiles/folder-tile) | Gruppierung mehrerer Kacheln |
+| [Scanner](/docs/tiles/scanner-tile) | QR-Code- und Barcode-Scanner zum Finden von Einträgen |
+| [Seite](/docs/tiles/page-tile) | Einzelner Eintrag für statische Inhalte |
+| [Einstellungen](/docs/tiles/settings-tile) | Globale Einstellungen als Bausteine |
+| [AI Agent](/docs/tiles/ai-agent-tile) | KI-gestützter Assistent mit konfigurierbarem Prompt |
 
-Da das ganze Thema abstrakt ist, werden die Kacheln konkret am Beispiel einer Urlaubsplanung erklärt.
-Urlaubsanträge werden in einer einfachen Liste gespeichert und dargestellt. Die Mitarbeiter werden in der Mitgliederkachel verwaltet.
-Um als Teamleitung die Urlaubsanträge zu genehmigen und einen Überblick zu haben, gibt es eine Filterkachel auf alle offenen Urlaubsanträge in seinem Bereich erstellt. Dort sind alle Urlaubsanträge, die noch zu prüfen sind. Die allgemeine Übersicht über die geplanten Urlaube aller Mitarbeiter werden in der Seitenkachel dargestellt.
+## Allgemeine und eigene Kacheln
+
+Auf dem Homescreen wird zwischen zwei Bereichen unterschieden:
+
+- **Allgemeine Kacheln** — Die Sammlung aller Kacheln, die im Arbeitsbereich verfügbar sind. Die Sichtbarkeit einzelner Kacheln kann per [Benutzerrolle](/docs/member-management/roles-rights) eingeschränkt werden.
+- **Eigene Kacheln** — Ein persönlicher Bereich, in dem jeder Nutzer seine wichtigsten Kacheln organisieren kann, um schnell auf bestimmte Einträge zuzugreifen.
+
+## Kacheln erstellen
+
+Neue Kacheln werden im [Designmodus des Arbeitsbereichs](/docs/designmode/workspace) erstellt. Per Drag & Drop wird der gewünschte Kacheltyp auf den Homescreen gezogen.
+
+## Gemeinsame Einstellungen
+
+Alle Kacheln verfügen über einen Satz [allgemeiner Einstellungen](/docs/tiles/general-settings) wie Name, Icon, Farbe und Sichtbarkeit.
