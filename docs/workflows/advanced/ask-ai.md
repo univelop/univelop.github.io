@@ -4,7 +4,7 @@ title: Frag KI
 parent: Erweitert
 grand_parent: Workflows
 icon: psychology
-nav_order: 9
+nav_order: 5
 ---
 
 Mit dem Schritt _Frag KI_ wird ein Prompt an eine KI (OpenAI) gesendet. Die Antwort ist in folgenden Schritten über den technischen Namen zugreifbar.

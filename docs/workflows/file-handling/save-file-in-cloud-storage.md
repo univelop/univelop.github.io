@@ -1,10 +1,12 @@
 ---
 layout: workflow-step
 title: Datei in Cloud-Speicher hochladen
-parent: Erweitert
+parent: Dateihandling
 grand_parent: Workflows
 icon: cloud_upload
-nav_order: 5
+nav_order: 4
+redirect_from:
+    - /docs/workflows/advanced/save-file-in-cloud-storage.html
 ---
 
 Mit dem Schritt _Datei in Cloud-Speicher hochladen_ wird eine Datei in einen externen Cloud-Speicher (z. B. Microsoft OneDrive oder SharePoint) hochgeladen. Die maximale Dateigröße beträgt 250 MB.
@@ -24,7 +26,13 @@ Mit dem Schritt _Datei in Cloud-Speicher hochladen_ wird eine Datei in einen ext
 Da ein Datei-Upload-Baustein eine Liste von Dateien enthält, muss eine einzelne Datei ausgewählt werden. Dafür den Schritt [Iteriere über Werte](/docs/workflows/structure/iterate-list) verwenden oder die Formel `get(datei_upload, 0)` für die erste Datei.
 
 {: .hint }
-**Pfad in OneDrive/SharePoint finden:** Zum gewünschten Ordner navigieren, oben rechts auf **Details** klicken, in der Seitenleiste nach unten scrollen und den **Pfad** kopieren.
+**Pfad in OneDrive/SharePoint finden:** Zum gewünschten Ordner navigieren, oben rechts auf **Details** klicken, in der Seitenleiste nach unten scrollen und den **Pfad** kopieren. Das Pfadformat hängt von der Integration ab.
+
+### Dynamische Ordnerstrukturen
+
+Ordnerstrukturen können dynamisch erzeugt werden, indem sie direkt in der Formel für **Dateiname überschreiben** (inkl. Unterordnern) angegeben werden.
+
+Beispiel: `projects/${project_name}/report.pdf` speichert die Datei im Unterordner `projects/<project_name>/` (relativ zum angegebenen **Pfad**).
 
 ## Hinweise
 

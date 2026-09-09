@@ -3,7 +3,7 @@ layout: title
 title: Checkliste
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 27
+nav_order: 28
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/checklist.html
 ---

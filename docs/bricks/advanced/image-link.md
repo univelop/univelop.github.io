@@ -3,7 +3,7 @@ layout: title
 title: Bild Referenz
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 34
+nav_order: 35
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/image-link.html
 ---

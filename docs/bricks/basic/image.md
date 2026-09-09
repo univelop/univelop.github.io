@@ -15,6 +15,7 @@ Der Baustein _Bild_ zeigt ein fest hinterlegtes Bild in jedem Eintrag einer List
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 1. **Bild** — Das im Designmodus hochgeladene Bild, das in jedem Eintrag angezeigt wird. Es wird immer in Originalqualität gespeichert.
+2. **Zoom deaktivieren** — Verhindert, dass das Bild im Eintrag per Pinch-Geste vergrößert werden kann.
 
 ## Hinweise
 

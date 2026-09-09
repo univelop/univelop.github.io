@@ -1,5 +1,22 @@
 [
   {
+    "name": "currentMemberId",
+    "description": "ID des aktuellen Mitglieds (Datensatz-ID vom Mitgliedereintrag)",
+    "returns": "Text",
+    "category": "text",
+    "categoryName": "Text",
+    "expression": "currentMemberId",
+    "parameters": [],
+    "examples": [
+      {
+        "expression": "currentMemberId",
+        "returnValue": "aY3kVzLPnXhC7mWqRjBtDfZs9gUe",
+        "returnType": "Text"
+      }
+    ],
+    "isVariable": true
+  },
+  {
     "name": "currentUserName",
     "description": "Name des aktuellen Benutzers",
     "returns": "Text",
@@ -18,7 +35,7 @@
   },
   {
     "name": "currentUserId",
-    "description": "ID des aktuellen Benutzers",
+    "description": "ID des aktuellen Benutzers. Nicht zu verwechseln mit currentMemberId.",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -756,7 +773,7 @@
   },
   {
     "name": "fromRadixString",
-    "description": "Wandelt die angegebene Zahl in eine Zeichenkettendarstellung der entsprechenden Basis um.(2: Binär, 16: Hexadezimal, 8: Oktal, 36: Base36)",
+    "description": "Wandelt die angegebene Zahl in eine Zeichenkettendarstellung der entsprechenden Basis um. (2: Binär, 16: Hexadezimal, 8: Oktal, 36: Base36)",
     "returns": "Zahl",
     "category": "text",
     "categoryName": "Text",
@@ -784,7 +801,7 @@
   },
   {
     "name": "base64ToBinary",
-    "description": "Konvertiert einen Base64-String in eine Binäre Liste.",
+    "description": "Konvertiert einen Base64-String in eine binäre Liste.",
     "returns": "Text",
     "category": "text",
     "categoryName": "Text",
@@ -1056,7 +1073,7 @@
     "returns": "Text",
     "category": "number",
     "categoryName": "Nummer",
-    "expression": "formatNumber(number, decimalCount, thousandSeparator)",
+    "expression": "formatNumber(number, [decimalCount, thousandSeparator])",
     "parameters": [
       {
         "name": "number",
@@ -1066,12 +1083,12 @@
       {
         "name": "decimalCount",
         "type": "Zahl",
-        "optional": false
+        "optional": true
       },
       {
         "name": "thousandSeparator",
         "type": "Ja/Nein",
-        "optional": false
+        "optional": true
       }
     ],
     "examples": [
@@ -1422,9 +1439,9 @@
     ],
     "examples": [
       {
-        "expression": "calendarWeek(parseDate(\"2025-01-20\"))",
-        "returnValue": "2025-W04",
-        "returnType": "Zahl"
+        "expression": "dateToWeek(date(2025, 07, 23))",
+        "returnValue": "2025-W30",
+        "returnType": "Text"
       }
     ],
     "isVariable": false
@@ -1793,6 +1810,62 @@
     "isVariable": false
   },
   {
+    "name": "addSeconds",
+    "description": "Sekunden auf einen Zeitpunkt addieren",
+    "returns": "Datum",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "addSeconds(date, seconds)",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": false
+      },
+      {
+        "name": "seconds",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "addSeconds(now(), 2)",
+        "returnValue": "01.01.2022 12:21:59.432",
+        "returnType": "Datum"
+      }
+    ],
+    "isVariable": false
+  },
+  {
+    "name": "subtractSeconds",
+    "description": "Sekunden von einem Zeitpunkt subtrahieren",
+    "returns": "Datum",
+    "category": "date",
+    "categoryName": "Datum",
+    "expression": "subtractSeconds(date, seconds)",
+    "parameters": [
+      {
+        "name": "date",
+        "type": "Datum",
+        "optional": false
+      },
+      {
+        "name": "seconds",
+        "type": "Zahl",
+        "optional": false
+      }
+    ],
+    "examples": [
+      {
+        "expression": "subtractSeconds(now(), 2)",
+        "returnValue": "01.01.2022 12:21:55.432",
+        "returnType": "Datum"
+      }
+    ],
+    "isVariable": false
+  },
+  {
     "name": "addMinutes",
     "description": "Minuten auf einen Zeitpunkt addieren",
     "returns": "Datum",
@@ -2051,7 +2124,7 @@
   },
   {
     "name": "get",
-    "description": "Holt den Wert von *key* aus *map/list*. *defaultValue* kann optional angegeben werden und wird zurück gegeben wenn ein Fehler auftritt",
+    "description": "Holt den Wert von *key* aus *map/list*. *defaultValue* kann optional angegeben werden und wird zurück gegeben, wenn ein Fehler auftritt",
     "returns": "Dynamischer Wert",
     "category": "list",
     "categoryName": "Liste",
@@ -2177,7 +2250,7 @@
     "returns": "Text",
     "category": "list",
     "categoryName": "Liste",
-    "expression": "listToText(list, separator)",
+    "expression": "listToText(list, [separator])",
     "parameters": [
       {
         "name": "list",
@@ -2187,7 +2260,7 @@
       {
         "name": "separator",
         "type": "Text",
-        "optional": false
+        "optional": true
       }
     ],
     "examples": [
@@ -2197,7 +2270,7 @@
         "returnType": "Text"
       },
       {
-        "expression": "listToText([\"Peter\",\"Mark\",\"David\"], \", \")",
+        "expression": "listToText([\"Peter\",\"Mark\",\"David\"])",
         "returnValue": "Peter, Mark, David",
         "returnType": "Text"
       }
@@ -2272,26 +2345,31 @@
   },
   {
     "name": "joinLists",
-    "description": "Verbindet zwei Listen, indem die zweite Liste der ersten angehängt wird.",
+    "description": "Verbindet zwei bis maximal zehn Listen miteinander, indem die Listen nacheinander der ersten angehängt werden.",
     "returns": "Liste",
     "category": "list",
     "categoryName": "Liste",
-    "expression": "joinLists(list, list2)",
+    "expression": "joinLists(list1, [list2...])",
     "parameters": [
       {
-        "name": "list",
+        "name": "list1",
         "type": "Liste",
         "optional": false
       },
       {
         "name": "list2",
         "type": "Liste",
-        "optional": false
+        "optional": true
       }
     ],
     "examples": [
       {
-        "expression": "joinLists([1,2], [3,4])",
+        "expression": "joinLists([1,2], [3,4], [5,6])",
+        "returnValue": "[1,2,3,4,5,6]",
+        "returnType": "Liste"
+      },
+      {
+        "expression": "joinLists([[1,2], [3,4]])",
         "returnValue": "[1,2,3,4]",
         "returnType": "Liste"
       }

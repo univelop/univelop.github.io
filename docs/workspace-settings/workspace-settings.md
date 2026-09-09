@@ -1,9 +1,7 @@
 ---
-title: Arbeitsbereich Einstellungen
-nav_order: 11
 layout: title
-redirect_from:
-    - /docs/design-mode-settings.html
+title: Allgemein
+nav_order: 5
 ---
 
 In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design und Benachrichtigungen bis hin zu Integrationen und Abrechnung. Die Einstellungen sind nur für Besitzer und Administratoren zugänglich.

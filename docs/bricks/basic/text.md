@@ -15,18 +15,24 @@ Mit dem Baustein _Hinweis_ können statische Hinweistexte in Einträgen angezeig
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 1. **Stil** — Legt das visuelle Erscheinungsbild des Hinweistextes fest. Mögliche Werte:
-   - _Standard_ — Einfache Anzeige als Listenzeile mit optionalem Icon
+   - _Kein Stil_ — Einfache Anzeige als Listenzeile mit optionalem Icon
    - _Schlicht_ — Grauer, kursiver Text
-   - _Information_ — Blaue Infobox
-   - _Warnung_ — Orange Warnungsbox
-   - _Erfolg_ — Grüne Erfolgsbox
-   - _Fehler_ — Rote Fehlerbox
+   - _Info_ — Blaue Infobox mit Info-Icon
+   - _Warnung_ — Orange Warnungsbox mit Warndreieck-Icon
+   - _Erfolg_ — Grüne Erfolgsbox mit Checkhaken-Icon
+   - _Fehler_ — Rote Fehlerbox mit Ausrufezeichen-Icon
 
 ## Hinweise
 
 - Der technische Name sollte ggf. gekürzt werden, da sonst der gesamte Hinweistext als technischer Name erscheinen kann.
 - Hinweistexte sind immer nur lesbar. Die Einstellung _Nur Lesen_ hat hier keine weitere Funktion.
 - Das bedingte Anzeigen und Verstecken von Hinweistexten ist möglich und dort sinnvoll, wo Hinweise nur unter bestimmten Bedingungen relevant sind.
+
+## Funktionsweise
+
+Nachdem der Hinweistext über die Bezeichnung des Bausteins im Designmodus eingegeben wurde, kann über die Einstellung _Stil_ ein Stil ausgewählt werden (z. B. hier: Warnung).
+
+![alt text](/assets/workflows/advanced/bricks/basic/text-hint-v2.png)
 
 ## Verwandte Bausteine
 

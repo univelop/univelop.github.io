@@ -22,11 +22,10 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Das bedingte Anzeigen und Verstecken ist möglich und dort sinnvoll, wo Hinweise nur unter bestimmten Bedingungen relevant sind.
 
 ## Funktionsweise
-Unter _Hinweistext_ öffnet sich ein Editor welches zum Erstellen eines Hinweistexte mit Formatierungen, eingebetteten Bildern und Auflistungen.
+Unter _Hinweistext_ öffnet sich ein Editor welcher zum Erstellen eines Hinweistexte mit Formatierungen, eingebetteten Bildern und Auflistungen.
 ![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-editor-v2.png)
-Dieser Hinweis wird anschließen im Baustein angezeigt. 
+Dieser Hinweis wird anschließend im Baustein angezeigt.
 ![alt text](/assets/workflows/advanced/bricks/basic/rich-text-hint-overview-v2.png)
-
 ## Verwandte Bausteine
 
 - [Hinweis](/docs/bricks/basic/text) — Für einfache, unformatierte Hinweistexte

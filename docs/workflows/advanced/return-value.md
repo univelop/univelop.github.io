@@ -4,7 +4,7 @@ title: Gib Wert zurück
 parent: Struktur
 grand_parent: Workflows
 icon: keyboard_return
-nav_order: 11
+nav_order: 6
 nav_exclude: true
 ---
 

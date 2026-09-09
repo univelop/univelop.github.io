@@ -8,18 +8,23 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-base/file.html
 ---
 
-Der Baustein _Datei_ zeigt fest hinterlegte Dateien in jedem Eintrag einer Liste an. Er eignet sich für allgemeingültige Dokumente wie Checklisten, Arbeitsschutz-Informationen oder Anleitungen, die unveränderbar bereitgestellt werden sollen.
+Der Baustein _Datei_ zeigt fest hinterlegte Dateien in jedem Eintrag einer Liste an. Er eignet sich für allgemeingültige Dokumente wie Arbeitsschutz-Informationen oder Anleitungen, die unveränderbar bereitgestellt werden sollen.
 
 ## Einstellungen
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Dateien** — Die im Designmodus hochgeladenen Dateien, die in jedem Eintrag angezeigt werden. Alle Dateiformate werden unterstützt und ein Mehrfachupload ist möglich.
+1. **Datei** — Die im Designmodus hochgeladenen Dateien, die in jedem Eintrag angezeigt werden. Alle Dateiformate werden unterstützt und ein Mehrfachupload ist möglich.
 
 ## Hinweise
 
 - Das Hinterlegen der Dateien erfolgt ausschließlich im Designmodus in den Einstellungen des Bausteins. Nutzer können die Dateien im Eintrag nur ansehen, nicht verändern.
 - Für Dateien, die pro Eintrag individuell hochgeladen werden sollen, den Baustein [Datei Upload](/docs/bricks/input/file-picker) verwenden.
+
+## Funktionsweise
+
+Über den Plus Button können Dateien im Design-Modus hochgeladen werden.
+![alt text](/assets/workflows/advanced/bricks/basic/file-example.png)
 
 ## Verwandte Bausteine
 

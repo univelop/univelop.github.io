@@ -3,7 +3,7 @@ layout: title
 title: Tabelle
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 10
+nav_order: 11
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/table.html
 ---
@@ -20,6 +20,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 4. **Bausteine für Tabelle** — Wählt die Bausteine der verknüpften Liste aus, die als Spalten in der Tabelle angezeigt werden. Die Reihenfolge und Spaltenbreite kann individuell angepasst werden.
 5. **Automatisches Erzeugen von Zeilen erlauben** — Aktiviert die Funktion _Datensatz vorbelegen_. Dazu muss ein _Datensatz_-Baustein in der ersten Spalte liegen, der mit einer Stammdatenliste verknüpft ist.
 6. **Filter und Sortierung beim Erzeugen** — Filtert die Datensätze, die beim automatischen Erzeugen berücksichtigt werden (z. B. nur verfügbare Fahrzeuge).
+7. **Drag & Drop erlauben** — Erlaubt es, Zellen per Drag & Drop zu verschieben. Zellen lassen sich nur verschieben, solange die Bausteine der Zielspalte kompatibel sind — eine Datensatz-Zelle kann z. B. nicht in eine Datum-Zelle verschoben werden.
 
 ## Funktionsweise
 

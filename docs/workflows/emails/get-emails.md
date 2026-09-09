@@ -1,11 +1,12 @@
 ---
 layout: workflow-step
 title: Rufe E-Mails ab
-parent: Erweitert
+parent: E-Mails
 grand_parent: Workflows
 icon: mark_email_unread
-nav_order: 4
+nav_order: 2
 redirect_from:
+    - /docs/workflows/advanced/get-emails.html
     - /docs/workflows/grand-childs-bricks/get-emails.html
 ---
 
@@ -39,7 +40,8 @@ Die Option _Inkl. Anhänge_ kann sehr [Credit](/docs/credits)-intensiv sein. Nur
 | `fromName` | Name des Absenders |
 | `is_read` | Ob die E-Mail vor dem Abrufen bereits gelesen war |
 | `has_attachments` | Ob die E-Mail Anhänge hat |
-| `attachments` | Liste der Anhänge (nur bei aktivierter Option). Dateinamen per `toMap(attachment).name` |
+| `attachments` | Liste der Anhänge (nur bei aktivierter Option _Inkl. Anhänge_). Dateinamen per `toMap(attachment).name` |
+| `embedded_images` | Liste der eingebetteten Bilder (nur bei aktivierter Option _Inkl. eingebettete Bilder_). Dateinamen per `toMap(embeddedImage).name` |
 
 ## Hinweise
 
@@ -48,4 +50,4 @@ Die Option _Inkl. Anhänge_ kann sehr [Credit](/docs/credits)-intensiv sein. Nur
 
 ## Verwandte Schritte
 
-- [Sende E-Mail](/docs/workflows/advanced/send-email) — Für den Versand von E-Mails
+- [Sende E-Mail](/docs/workflows/emails/send-email) — Für den Versand von E-Mails

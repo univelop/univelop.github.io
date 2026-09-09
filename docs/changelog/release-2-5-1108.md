@@ -1,0 +1,52 @@
+---
+layout: title
+title: Release Version 2.5.0
+nav_order: 49
+parent: Changelog
+---
+
+## <span style="color:#0b5394">**Komponenten**</span>
+
+### <span style="color:#0b5394">**Fehlerbericht für Excel/CSV-Importe**</span>
+
+Beim Import von Excel- und CSV-Dateien könnt ihr euch nun einen herunterladbaren Fehlerbericht erzeugen lassen. Der Import-Dialog zeigt außerdem den aktuellen Fortschritt und die Anzahl nicht verarbeitbarer Werte schon vor dem eigentlichen Import an.
+
+![import error report](/assets/changelog/2-5/import-error-report.png)
+## <span style="color:#0b5394">**Bausteine**</span>
+
+### <span style="color:#0b5394">**Sprachein- und -ausgabe für KI-Funktionen jetzt auch mit verwalteten Integrationen**</span>
+
+Sprachein- und -ausgabe im KI-Agent-Chat sowie im Baustein zur Spracherkennung funktionieren ab sofort auch mit von Univelop verwalteten KI-Integrationen. Zusätzlich nutzt die Spracherkennung im Browser jetzt KI-basierte Transkription statt der browsereigenen Spracherkennung und liefert dadurch deutlich genauere Ergebnisse.
+
+
+
+### <span style="color:#0b5394">**Neue Formel-Variable "Technischer Name der Liste"**</span>
+
+In Formeln lässt sich nun der technische Name der Liste, zu der ein Datensatz gehört, direkt als Variable verwenden. Wird die Liste umbenannt, folgt der Wert automatisch dem neuen technischen Namen.
+
+## <span style="color:#0b5394">**Workflows**</span>
+
+### <span style="color:#0b5394">**Neue Workflow-Schritte für Kommentare**</span>
+ 
+Mit den neuen Schritten "Kommentar erstellen" und "Kommentare durchlaufen" lassen sich Kommentare direkt aus Workflows heraus schreiben und auswerten. Nutzer können dabei per @-Erwähnung in Kommentaren markiert werden, die dann als Automatisierung im Kommentarverlauf sichtbar sind.
+ ![comment workflow steps](/assets/changelog/2-5/comment-workflow-steps.png)
+
+
+### <span style="color:#0b5394">**Prüfung auf ungültige Baustein-Referenzen in Workflow-Schritten**</span>
+
+Workflow-Schritte werden jetzt automatisch darauf geprüft, ob referenzierte Bausteine noch existieren. So fallen leere oder ungültige Baustein-Referenzen schneller auf, bevor sie zu Fehlern im laufenden Workflow führen.
+
+## <span style="color:#0b5394">**Verschiedenes**</span>
+
+### <span style="color:#0b5394">**Statische IP für Mail-Integrationen**</span>
+
+Für SMTP- und IMAP-Integrationen lässt sich nun eine statische IP-Adresse aktivieren. Das erleichtert es, den Mailserver-Zugriff eures Unternehmens gezielt für Univelop freizuschalten.
+![static ip mail integration](/assets/changelog/2-5/static-ip-mail-integration.png)
+
+## <span style="color:#0b5394">**Weitere Änderungen**</span>
+
+-   Hinweistext und Fehlermeldung bei ungültigen Nutzererwähnungen in Kommentaren verbessert
+-   Tabellen-Aktionsmenü wird ausgeblendet, wenn keine Aktion verfügbar ist
+-   Fehlermeldung bei der Baustein-Einrichtung "Farbe registrieren" verbessert
+-   Fehlermeldung bei fehlender Baustein-Spezifikation korrigiert
+-   Hinweistext und Fehlermeldung bei ungültigen Nutzererwähnungen in Kommentaren verbessert

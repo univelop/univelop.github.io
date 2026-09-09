@@ -3,7 +3,6 @@ layout: title
 title: To-Dos
 nav_order: 13
 parent: Kacheln
-nav_exclude: true
 ---
 
 Die _To-Dos_-Kachel zeigt offene Aufgaben und Fälligkeiten aus einer verknüpften Liste an. Die Kachel-Info zeigt automatisch die Anzahl der offenen To-Dos an.

@@ -3,7 +3,7 @@ layout: title
 title: Datensätze
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 2
+nav_order: 3
 ---
 
 Mit dem Baustein _Datensätze_ wird eine mehrfache Verknüpfung zu beliebig vielen Datensätzen einer anderen Liste hergestellt. Er erweitert den Baustein _Datensatz_ um die Möglichkeit, mehrere Einträge auszuwählen.

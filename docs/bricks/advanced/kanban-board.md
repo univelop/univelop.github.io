@@ -3,7 +3,7 @@ layout: title
 title: Kanban Board
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 12
+nav_order: 13
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/kanban-board.html
 ---
@@ -33,6 +33,7 @@ Einträge werden als Karten in der Spalte ihres aktuellen Status dargestellt. Pe
 
 - Der Baustein benötigt einen _Status_-Baustein in der verknüpften Liste, um die Spalten zu definieren.
 - Das Kanban Board ist eine Darstellungsform, die auf der gleichen Verknüpfungslogik wie die _Datensatz Liste_ basiert.
+- Wenn ein Benutzer keine Rechte hat, den Status-Baustein zu bearbeiten, kann er dies auch nicht über das Kanban-Board tun. Dadurch kann eingestellt werden, wer Datensätze verschieben darf.
 
 ## Verwandte Bausteine
 

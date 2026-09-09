@@ -4,7 +4,7 @@ title: Importiere Tabelle
 parent: Erweitert
 grand_parent: Workflows
 icon: vertical_align_top
-nav_order: 8
+nav_order: 4
 redirect_from:
     - /docs/workflows/grand-childs-bricks/import-excel.html
 ---

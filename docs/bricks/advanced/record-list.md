@@ -3,7 +3,7 @@ layout: title
 title: Datensatz Liste
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 3
+nav_order: 4
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/record-list.html
 ---
