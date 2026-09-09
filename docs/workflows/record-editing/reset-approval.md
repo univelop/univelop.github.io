@@ -7,14 +7,20 @@ icon: approval
 nav_order: 6
 ---
 
-Über den Schritt _Setze Genehmigung zurück_ kann ein Genehmigungsbaustein zurückgesetzt werden.
+Mit dem Schritt _Setze Genehmigung zurück_ wird ein [Genehmigung](/docs/bricks/advanced/approval)-Baustein auf den Ausgangszustand (inaktiv) zurückgesetzt.
 
-1. <span style="color:#0b5394">**Verknüpfen mit Liste**</span>  
-   Die Liste, die den Eintrag enthält, von welchem die Genehmigung zurückgesetzt werden soll.
-2. <span style="color:#0b5394">**Eintrag ID**</span>  
-   Die ID zum eindeutigen Identifizieren des Eintrags, von welchem die Genehmigung zurückgesetzt werden soll.
-3. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
-   Der Baustein _Genehmigung_, dessen Wert zurückgesetzt werden soll.
-4. <span style="color:#0b5394">**Genehmiger zurücksetzen**</span>  
-   Ja/Nein, ob der eingetragene Genehmiger ebenfalls zurückgesetzt werden soll.
-   Diese Einstellung hat keine Auswirkung, wenn eine feste Person oder ein dynmaischer Mitglied-Datensatz-Baustein als Genehmiger ausgewählt ist.
+## Einstellungen
+
+1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+2. **Datensatz-ID** — Die ID des Datensatzes.
+3. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, der zurückgesetzt werden soll.
+4. **Genehmiger zurücksetzen** — Wenn aktiviert, wird auch der eingetragene Genehmiger entfernt. Diese Einstellung hat keine Auswirkung, wenn eine feste Person oder ein dynamischer Mitglied-Baustein als Genehmiger konfiguriert ist.
+
+## Hinweise
+
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Fordere Genehmigung an](/docs/workflows/record-editing/send-approval-request) — Sendet die Genehmigungsanfrage
+- [Warte auf Genehmigung](/docs/workflows/record-editing/wait-for-approval) — Pausiert den Workflow bis zur Genehmigung
