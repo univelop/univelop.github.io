@@ -19,6 +19,13 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Im Listen-Designmodus kann die Farbauswahl als **Registerfarbe** verwendet werden, die den Listeneintrag einfärbt.
 - Im normalen Designmodus kann sie als **Titelfarbe** verwendet werden. Wird an anderen Stellen mit einem Datensatz-Baustein auf den Eintrag referenziert, wird dieser in der Titelfarbe dargestellt.
 
+## Funktionsweise
+
+Um Listeneinträge einzufärben, wählen wir zuerst im Farbauswahl-Baustein eine Farbe im Dialog aus.
+![alt text](/assets/bricks/input/color-picker-dialog.png)
+Anschließend können wir im Designmodus unter _Vorschau_ den Farbauswahl-Baustein in den Block zur _Registerfarbe_ hinzufügen.
+![alt text](/assets/bricks/input/color-picker-preview.png)
+
 ## Verwandte Bausteine
 
 - [Drop-Down](/docs/bricks/input/drop-down) — Für Auswahl aus textuellen Optionen
