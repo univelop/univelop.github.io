@@ -8,19 +8,18 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/rolling-number.html
 ---
 
-Den Baustein _Laufende Nummer_ wird überall dort wo Datensätzen mit einer fortlaufende Nummer versehen werden sollen
-(z. B. Kunden, Bauvorhaben, Lieferscheine, etc.) verwendet.
+Der Baustein _Laufende Nummer_ vergibt fortlaufende, eindeutige Nummern an Einträge. Er eignet sich für Kundennummern, Belegnummern, Auftragsnummern und ähnliche Anwendungsfälle.
 
-![rollingNumber](\old_assets\record-spec-settings\rollingnumber.png 'rollingNumber')
+## Einstellungen
 
-1. <span style="color:#0b5394">**Präfix**</span>  
-   i. d. R. werden hierfür einzelne Buchstaben, Buchstabenkombinationen oder "Jahreszahl-" verwendet.
-   Leerzeichen zur Trennung von Buchstabe und Zahl werden vom System ignoriert.
-2. <span style="color:#0b5394">**Anzahl der Ziffer**</span>  
-   Länge der laufenden Nummer. Beim überschreiten der Länge wird dennoch fortlaufend weiter gezählt.
-3. <span style="color:#0b5394">**letzte Nummer**</span>  
-   Die zuletzt gewählte Nummer wird angezeigt. Die kommende Nummer ist diese plus 1.
-   Sie kann bei einer versehentlichen Lücke korrigiert werden.
-4. <span style="color:#0b5394">**Mit manuellen Nummern**</span>  
-   Erfassung der laufenden Nummer über den Button "Nächste Nummer" oder per manueller Eingabe ermöglichen.
-   Der Stift zur manuellen Eingabe wird durch diese Einstellung ein- oder ausgeblendet.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
+
+1. **Präfix** — Optionaler Vorsatz vor der Nummer, z. B. einzelne Buchstaben, Kürzel oder „2025-". Leerzeichen zwischen Präfix und Nummer werden vom System ignoriert.
+2. **Anzahl der Ziffern** — Länge der Nummer mit führenden Nullen (z. B. 5 → „00001"). Beim Überschreiten der Länge wird dennoch fortlaufend weitergezählt.
+3. **Letzte Nummer** — Zeigt die zuletzt vergebene Nummer an. Die nächste Nummer ist diese plus 1. Kann bei einer versehentlichen Lücke manuell korrigiert werden.
+4. **Manuelle Nummern erlauben** — Aktiviert neben dem Button „Nächste Nummer" auch einen Stift zur manuellen Eingabe einer Nummer.
+
+## Hinweise
+
+- Die laufende Nummer wird erst beim Klick auf „Nächste Nummer" (oder bei manueller Eingabe) vergeben, nicht automatisch beim Erstellen eines Eintrags.
+- Die Eindeutigkeit der Nummer wird vom System geprüft.
