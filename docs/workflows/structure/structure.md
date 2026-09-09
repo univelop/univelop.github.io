@@ -5,4 +5,4 @@ parent: Workflows
 nav_order: 1
 ---
 
-Workflow-Schritte der Kategorie Struktur steuern den grundsätzlichen Prozessablauf eines Workflows und ermöglichen Funktionalitäten wie das Starten anderer Workflows, das Beenden des aktuellen Workflows oder das Aufrufen verschiedener Prozessabläufe innerhalb des aktuellen Workflows abhängig von Bedingungen.
+Workflow-Schritte der Kategorie _Struktur_ steuern den Ablauf eines Workflows. Sie ermöglichen das Verzweigen in mehrere Pfade, das Wiederholen von Schritten, das Setzen von Variablen und das Starten anderer Workflows.
