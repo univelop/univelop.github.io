@@ -7,61 +7,47 @@ redirect_from:
     - /docs/workflows/workflow.html
 ---
 
-Mit Workflows können einfache Prozesse innerhalb von Univelop modelliert und automatisiert werden.
-So können bspw. durch den Baustein _Workflow_ bei einem abgeschlossenen Auftrag eine Rechnung oder ein Protokoll in Form eines neuen, ausgefüllten Eintrages erstellt werden.
-Ein Workflow ist ein Arbeitsablauf, welcher aus beliebig vielen einzelnen Schritten, den Workflow-Bausteinen, besteht. Diese werden im Workflow-Designmodus zusammengestellt, welcher über den Homescreen erreichbar ist.
-Workflows können manuell im Workflow-Designmodus, in der Workflow Historie und per Baustein _Workflow_ gestartet werden.
+Mit Workflows können Prozesse innerhalb von Univelop modelliert und automatisiert werden. Ein Workflow besteht aus einzelnen Schritten, die im Workflow-Designmodus per Drag & Drop zusammengestellt werden. Die Ausführung erfolgt wasserfallartig — Schritt für Schritt von oben nach unten.
 
-## <span style="color:#0b5394">Workflow Bereich</span>
+## Workflow-Typen
 
-Die Workflows lassen sich im Homescreen über das Admin-Menü über den Punkt _Workflows_ erreichen. Dabei öffnet sich der zugehörige Bereich.
-Dort werden alle bestehenden Workflows angezeigt und es lassen sich hier auch neue anlegen. Für die bestehenden Workflows kann von hier die Historie und der Designmodus geöffnet werden.
+Univelop unterscheidet drei Ausführungsmodi:
 
-## <span style="color:#0b5394">Designmodus</span>
+- **Client-Automatisierung** — Der Workflow läuft lokal auf dem Gerät des Benutzers. Erlaubt Schritte mit Benutzerinteraktion (z. B. [Zeige Nachricht](/docs/workflows/user-interaction/message), [Scanner](/docs/workflows/user-interaction/scanner)).
+- **Server-Automatisierung** — Der Workflow läuft auf dem Server. Kann per Zeit-Trigger automatisch gestartet werden und eignet sich für Hintergrundaufgaben.
+- **Geschäftsprozess** — Ein Server-Workflow, der an definierten Stellen pausieren und auf externe Ereignisse warten kann (z. B. [Warte auf Genehmigung](/docs/workflows/record-editing/wait-for-approval)).
 
-Ein Workflow lässt sich wie ein Listeneintrag mit Bausteinen per Drag-and-Drop zusammenstellen. Dabei ist der Workflow ein wasserfallartiger Ablauf, sprich er läuft nur in eine Richtung ab.
+## Workflow-Einstellungen
 
-![designmode workflows](\old_assets\workflows\designmode workflows.png "designmode workflows")
+### Namen
 
-1. <span style="color:#0b5394">**Bausteine via Drag and Drop platzieren**</span>
-2. <span style="color:#0b5394">**Der Workflow**</span>
-3. <span style="color:#0b5394">**Einstellungen**</span>
-    - Name des Workflows sowie manuelles Ausführen und löschen des Workflows
-    - Bei auswählen eines Bausteins im Workflow öffnet sich hier die erweiterten Einstellungen des Bausteins
+1. **Name** — Der angezeigte Name des Workflows in der Workflow-Liste und in Workflow-Bausteinen.
+2. **Technischer Name** — Identifikator für den Zugriff über die REST-API. Wird nicht zur Darstellung genutzt.
 
-## <span style="color:#0b5394">Einstellungen von Workflows</span>
+### Verhalten
 
-### <span style="color:#0b5394">Namen</span>
+1. **Benachrichtigungen anzeigen** — Ob am unteren Bildschirmrand Benachrichtigungen bei Start, Ende oder Fehler angezeigt werden.
+2. **Auf Server ausführen** — Aktiviert die Server-Automatisierung. Ist dies deaktiviert, läuft der Workflow lokal auf dem Gerät.
+3. **Nachricht bei Start** — Benutzerdefinierte Nachricht bei Workflow-Start.
+4. **Nachricht nach Ausführung** — Benutzerdefinierte Nachricht nach Abschluss. Leer lassen, um keine Nachricht anzuzeigen.
+5. **Zwischenstände anzeigen** — Zeigt den aktuellen Schritt während der Ausführung farblich an.
 
-1. <span style="color:#0b5394">**Name des Workflows**</span>  
-   Dieser Name wird in der Liste von Workflows sowie in Workflow-Bausteinen angezeigt.
-1. <span style="color:#0b5394">**Technischer Name**</span>  
-   Der technische Name dient dazu, den Workflow über unsere API anzusprechen. Der technische Name wird nicht zur Darstellung genutzt.
+### Zeit-Trigger
 
-### <span style="color:#0b5394">Verhalten</span>
+Nur bei Server-Workflows verfügbar. Ermöglicht die automatische Ausführung zu einer bestimmten Zeit mit optionalem Intervall (z. B. jeden Montag um 08:00 Uhr).
 
-1. <span style="color:#0b5394">**Benachrichtigungen anzeigen**</span>  
-   Ob Benachrichtigung am unteren Rande des Bildschirms angezeigt werden soll, wenn der Workflow startet, endet oder Fehler wirft.
-2. <span style="color:#0b5394">**Auf Server ausführen**</span>  
-   Ob der Workflow auf dem Server ausgeführt werden soll. Ist dies deaktiviert, wird der Workflow lokal, also auf dem Gerät des Nutzers ausgeführt.
-   Diese Einstellung ist für einige Workflow Bausteine relevant. So können die Bausteine der Kategorie Nutzerinteraktion, bspw. Zeige Nachricht, nur genutzt werden, wenn der Workflow lokal läuft.
-3. <span style="color:#0b5394">**Nachricht bei Start**</span>
-   Welche Nachricht am unteren Rand des Bildschirms angezeigt werden soll, wenn der Workflow startet.
-4. <span style="color:#0b5394">**Nachricht nach Ausführung**</span>
-   Welche Nachricht am unteren Rand des Bildschirms angezeigt werden soll, wenn der Workflow geendet hat. Wenn leer, wird keine Nachricht angezeigt.
-5. <span style="color:#0b5394">**Zwischenstände anzeigen**</span>
-   Ob der Durchlauf vom Workflow in der Ansicht farblich dargestellt werden soll. Es wird der aktuelle Baustein
+## Starten eines Workflows
 
-### <span style="color:#0b5394">Zeit-Trigger</span>
+Workflows können auf mehrere Arten gestartet werden:
 
-Diese Einstellungsgruppe wird nur angezeigt, wenn der Workflow auf dem Server läuft.
-Hier kann eingestellt werden, dass der Workflow regelmäßig zu einer bestimmten Zeit ausgeführt wird.
-Es wird hier die Zeit und das Datum der erstmaligen Ausführung gewählt. Soll der Workflow nicht nur einmal ausgeführt werden, kann hier auch ein Intervall eingestellt werden. Will man z.B., dass ein Workflow jeden Montag um 8 Uhr ausgeführt wird, so stellt man den nächsten Montag 08:00 Uhr im Kalender ein
-und als Intervall "X mal pro Woche" und dann eine 1 ein.
+- **Manuell** im Workflow-Designmodus oder über die Workflow-Historie
+- **Per Baustein** über den [Workflow-Button](/docs/bricks/advanced/flow-button) oder [Aktions-Button](/docs/bricks/advanced/action-button) in einem Datensatz
+- **Per Zeit-Trigger** für Server-Workflows
+- **Per Webhook** über die REST-API (mit dem [Webhook](/docs/workflows/advanced/webhook)-Schritt als erstem Schritt)
 
-## <span style="color:#0b5394">Workflow Historie</span>
+## Workflow-Historie
 
-Nutzt man einen Workflow regelmäßig oder stößt dabei auf Probleme, kann man die Ausführungshistorie anschauen.
-Dabei wird jede Ausführung mit Auslösezeitpunkt gespeichert, und es wird angezeigt ob dieser Workflow geglückt, fehlgeschlagen oder durch einen _Fahre fort, wenn_ Baustein gestoppt wurde.
-Dazu lässt sich in der Detailansicht angucken, welcher konkreter Baustein geglückt ist, gestoppt hat oder fehlgeschlagen ist.
-_Diese Detailansicht ist nur sichtbar, wenn seit der Ausführung der Workflow im Aufbau nicht geändert wurde_
+Jede Ausführung wird mit Auslösezeitpunkt protokolliert. Die Historie zeigt an, ob der Workflow erfolgreich war, fehlgeschlagen ist oder durch einen [Laufe weiter, wenn](/docs/workflows/structure/continue-if)-Schritt gestoppt wurde. In der Detailansicht lässt sich der Verlauf einzelner Schritte nachvollziehen.
+
+{: .hint }
+Die Detailansicht ist nur verfügbar, wenn der Workflow-Aufbau seit der Ausführung nicht verändert wurde.

@@ -9,9 +9,19 @@ redirect_from:
     - /docs/workflows/advanced/delete-file.html
 ---
 
-Mit dem Schritt _Lösche Datei_ kann eine Datei aus einem Datei Upload oder Bild Upload Baustein gelöscht werden.
-Der angegebene Dateiname muss case-sensitiv vorhanden sein. Das heißt Groß- und Kleinschreibung wird beachtet.
+Mit dem Schritt _Lösche Datei_ wird eine Datei aus einem [Datei-Upload](/docs/bricks/input/file-picker)- oder [Bild-Upload](/docs/bricks/input/image-picker)-Baustein gelöscht.
 
-Um mehrere Dateien zu löschen, kann ein _Iteriere über Werte_ Schritt mit dem beispielhaften Ausdruck `fileNames(produkt_eintrag.dateiupload)` genutzt werden. Innerhalb dieser Iteration kann anschließend der _Lösche Datei_ Schritt verwendet werden.
+## Einstellungen
 
-![Löschen innerhalb einer iteration](/assets/workflows/advanced/delete-file/iteration.png)
+1. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
+2. **Verknüpfung mit Baustein** — Der Datei-Upload- oder Bild-Upload-Baustein.
+3. **Datensatz-ID** — Die ID des Datensatzes. Kann als Formel angegeben werden.
+4. **Dateiname** — Der Name der zu löschenden Datei. Groß- und Kleinschreibung wird beachtet (case-sensitiv).
+
+## Beispiel: Mehrere Dateien löschen
+
+Mit einem [Iteriere über Werte](/docs/workflows/structure/iterate-list)-Schritt und dem Ausdruck `fileNames(produkt_eintrag.dateiupload)` kann über alle Dateinamen eines Upload-Bausteins iteriert und jede Datei einzeln gelöscht werden.
+
+## Hinweise
+
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
