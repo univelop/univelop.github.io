@@ -10,15 +10,22 @@ redirect_from:
     - /docs/workflows/edit-records/send-approval-request.html
 ---
 
-Über den Baustein _Genehmigung anfordern_ wird die Genehmigung auf einen verbundenen Baustein _Genehmigung_ angefordert. Bei erfolgreicher Anforderung läuft der Workflow ohne Stopp weiter.
-Sofern schon der Eintrag genehmigt wurde geschieht in diesem Schritt nichts.
+Mit dem Schritt _Fordere Genehmigung an_ wird eine Genehmigungsanfrage an einen [Genehmigung](/docs/bricks/advanced/approval)-Baustein gesendet. Bei erfolgreicher Anforderung läuft der Workflow ohne Pause weiter. Wurde der Datensatz bereits genehmigt, passiert nichts.
 
-![request approval docs](\old_assets\workflows\request approval docs.png "request approval docs")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Verknüpfen mit**</span>  
-   Kachel zu der der Eintrag gehört, welcher geändert werden soll.
-2. <span style="color:#0b5394">**Verknüpfen mit Baustein**</span>  
-   Der Baustein _Genehmigung_, auf dessen Aktion gewartet wird.
-   Achtung: der technische Name dieses Bausteins muss gesetzt sein!
-3. <span style="color:#0b5394">**Eintrag ID**</span>  
-   Die ID zum eindeutigen Identifizieren des Eintrags, welcher genehmigt wird.
+1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+2. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, auf den sich die Anfrage bezieht.
+3. **Datensatz-ID** — Die ID des Datensatzes, der genehmigt werden soll.
+
+{: .important }
+Der technische Name des Genehmigung-Bausteins muss gesetzt sein.
+
+## Hinweise
+
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Warte auf Genehmigung](/docs/workflows/record-editing/wait-for-approval) — Pausiert den Workflow bis zur Genehmigung/Ablehnung
+- [Setze Genehmigung zurück](/docs/workflows/record-editing/reset-approval) — Setzt den Genehmigungsstatus zurück
