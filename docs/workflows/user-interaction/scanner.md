@@ -14,8 +14,8 @@ Mit dem Schritt _Öffne Scanner_ wird ein Scan-Dialog geöffnet, in dem der Benu
 ## Einstellungen
 
 1. **Präfix für manuelle Suche** — Ein Text, der dem gescannten Wert vorangestellt wird. Kann als Formel angegeben werden.
-2. **Scan-Bestätigung erforderlich** - Bevor ein QR Code verarbeiet wird muss bestätig werden. dass dieser QR ausgewertet werden soll.
-3. **Standardkamera** - Kamera, die der Dialog verwendet. Standard: Rückkamera.
+2. **Scan-Bestätigung erforderlich** - Bevor ein QR Code verarbeitet wird muss über einen Knopf bestätigt werden, dass dieser QR ausgewertet werden soll.
+3. **Standardkamera** - Kamera, die der Scan-Dialog verwendet. Standard: Rückkamera.
 4. **Scanner-Ton** - Spielt einen Ton ab, wenn erfolgreich ein QR-Code gescannt wurde.
 
 ## Hinweise
