@@ -3,7 +3,7 @@ layout: title
 title: PDF-Text-Markierungen
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 40
+nav_order: 42
 ---
 
 Mit dem Baustein _PDF-Text-Markierungen_ wird ein PDF hinterlegt, in dem der Nutzer Textstellen markieren kann. Hinter jeder Markierung steht ein vollständiger Datensatz. So werden Klauseln eines Vertrags zu Aufgaben, Anforderungen eines Lastenhefts zu Prüfpunkten oder Passagen eines Prüfberichts zu Mängeln.
