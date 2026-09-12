@@ -8,14 +8,22 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/interval.html
 ---
 
-Durch den Baustein _Zeitspanne_ besteht die Möglichkeit eine Zeitspanne, auch inklusive Pausen, einzugeben.
-Anders als Datum + Uhrzeit rechnet dieser Baustein (Von - Bis) auch die Stunden und Minuten der erfassten Zeitspanne aus.
+Mit dem Baustein _Zeitspanne_ kann ein Zeitraum als Von- und Bis-Uhrzeit erfasst werden. Die Dauer wird automatisch in Stunden und Minuten berechnet, optional inklusive Pausenzeit.
 
-![interval](\old_assets\record-spec-settings\1interval.png 'interval')
+## Einstellungen
 
-In Kombination mit dem
-Baustein _Zahlenformel_
-kann ein Dezimalwert von z. B. Arbeitsstunden errechnet werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-{: .tip }
-Verwende die Formel `formatDate(addMinutes(today(),round(time_span_break_time * 60)),"HH:mm")` um die Pause im Format HH:mm auszugeben.
+1. **Pausen erfassen** — Aktiviert ein zusätzliches Feld zur Erfassung der Pausenzeit. Die Pause wird von der Gesamtdauer abgezogen.
+
+## Hinweise
+
+- Die Gesamtdauer wird automatisch als Dezimalwert in Stunden berechnet und steht in Formeln zur Verfügung.
+- Die Pausenzeit wird intern in Sekunden gespeichert. Um sie im Format HH:mm auszugeben, kann folgende Formel verwendet werden: `formatDate(addMinutes(today(), round(zeitspanne_break_time * 60)), "HH:mm")`
+- Für eine timer-basierte Zeiterfassung mit Start/Stopp-Funktion den Baustein [Timer](/docs/bricks/input/timer) verwenden.
+
+## Verwandte Bausteine
+
+- [Timer](/docs/bricks/input/timer) — Für timer-basierte Zeiterfassung mit Start/Stopp
+- [Datum](/docs/bricks/input/date-picker) — Für ein einzelnes Datum mit optionaler Uhrzeit
+- [Datumsspanne](/docs/bricks/input/date-range) — Für mehrtägige Zeiträume

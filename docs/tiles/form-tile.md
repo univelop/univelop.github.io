@@ -5,22 +5,22 @@ nav_order: 5
 parent: Kacheln
 ---
 
-Die Kachel _Formular_ dient dem vereinfachten Ausfüllen eines Listeneintrages. Die Kachel legt beim Öffnen einen neuen Listeneintrag an, und öffnet diesen direkt zum Ausfüllen, ohne die Einträge einer Kachel zu laden. Beim Anlegen einer Formular-Kachel wird sie mit einer einfachen Kachel verbunden, bei der dann die Einträge hinzugefügt werden.
-Diese Art von Kachel kann z. B. für eine vereinfachte Zeiterfassung genutzt werden.
+Die _Formular_-Kachel dient dem vereinfachten Ausfüllen eines Listeneintrages. Beim Öffnen wird automatisch ein neuer Eintrag in der verknüpften Liste angelegt und direkt zur Bearbeitung geöffnet — ohne die Listenansicht zu laden. Das eignet sich besonders für wiederkehrende Erfassungen wie Zeiterfassung, Bestellungen oder Feedback-Formulare.
 
-![tile form](\old_assets\software-structure\tile form.png "tile form")
+## Einstellungen
 
-Es gibt folgende Einstellungen für eine individuelle Formular-Funktion:
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
 
-1. <span style="color:#0b5394">**Verbindung zu einer Liste**</span>  
-   Hier wird der Name der verbundenen Liste angezeigt
-2. <span style="color:#0b5394">**Bezeichnung des Absende-Buttons**</span>  
-   Dieser Text wird als Tooltip für den Absende-Button angezeigt
-3. <span style="color:#0b5394">**Icon für den Absende-Button**</span>
-4. <span style="color:#0b5394">**Bestätigungsnachricht**</span>  
-   Bei erfolgreichem Absenden des Formulars erscheint der angegebene Text als Nachricht auf dem Bildschirm
-5. <span style="color:#0b5394">**Mehrmaliges Absenden pro Benutzer verbieten**</span>
-6. <span style="color:#0b5394">**Workflow starten/bearbeiten**</span>
-   Ein Workflow kann hier gewählt werden, welcher bei erfolgreichem Absenden des Formulars gestartet wird.
+1. **Verknüpfung mit einer Liste** — Die [Einfache Liste](/docs/tiles/basic-tile), in der die neuen Einträge erstellt werden.
+2. **Absende-Button anzeigen** — Steuert, ob ein Absende-Button im Formular angezeigt wird.
+3. **Bezeichnung des Absende-Buttons** — Der Text, der als Tooltip für den Absende-Button angezeigt wird.
+4. **Icon für den Absende-Button** — Das Icon des Absende-Buttons.
+5. **Bestätigungsnachricht** — Ein Text, der nach erfolgreichem Absenden des Formulars als Nachricht erscheint.
+6. **Mehrmaliges Absenden pro Benutzer verbieten** — Verhindert, dass ein Benutzer das Formular mehrfach ausfüllen kann.
+7. **Nicht abgesendete Einträge löschen** — Löscht automatisch Einträge, die nicht über den Absende-Button abgeschlossen wurden.
+8. **Workflow starten** — Ein [Workflow](/docs/workflows/workflows), der bei erfolgreichem Absenden des Formulars gestartet wird.
 
-Die typischen Einstellungsmöglichkeiten anderer Kacheltypen, wie z.B. die Kachelfarbe, gibt es bei der Kachel _Formular_ auch.
+## Verwandte Kacheln
+
+- [Einfache Liste](/docs/tiles/basic-tile) — Die Basisliste, mit der das Formular verknüpft wird
+- [Seite](/docs/tiles/page-tile) — Für einmalige Eingabemasken ohne dauerhafte Speicherung

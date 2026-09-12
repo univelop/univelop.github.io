@@ -7,24 +7,32 @@ redirect_from:
 nav_order: 1
 ---
 
-Neben dem In- und Export von Excel Dateien bietet Univelop ebenfalls eine API-Schnittstelle um mit deinen Fremdsystemen Daten austauschen zu können.
-Über unsere API kannst du alle Datensätze einer Kachel abrufen, einzelne Datensätze erstellen, jeden einzelnen Baustein eines Datensatzes bearbeiten und löschen.
-Dazu kannst du Nutzer erstellen, Push-Benachrichtigungen versenden, und Workflows starten.
+Über die REST-API können externe Systeme programmatisch auf den Arbeitsbereich zugreifen. Damit lassen sich Datensätze abrufen, erstellen, bearbeiten und löschen. Darüber hinaus können Nutzer angelegt, Push-Benachrichtigungen versendet und Workflows gestartet werden.
 
-Wir arbeiten zur Zeit an einer neuen Version der REST-API. Diese befindet sich noch in beta und wird in den nächsten Monaten ausgebaut. In der Dokumentation finden sich alle Spezifikationen und die API lässt sich testen:
+## API-Versionen
 
-[Univelop REST-API V2](https://app.univelop.de/api/v2/docs)
+Univelop bietet zwei Versionen der REST-API an:
 
-Die alte Version unser API steht dir natürlich weiterhin zur Verfügung:
+| Version | Status | Dokumentation |
+|---|---|---|
+| **V2** | Aktiv, wird weiter ausgebaut | [Univelop REST-API V2](https://app.univelop.de/api/v2/docs) |
+| **V1** | Verfügbar, wird nicht mehr erweitert | [Univelop REST-API V1](https://app.univelop.de/api/v1/docs) |
 
-[Univelop REST-API V1](https://app.univelop.de/api/v1/docs)
+Die API-Dokumentation enthält alle Spezifikationen und ermöglicht das direkte Testen von Anfragen.
 
-### <span style="color:#0b5394">Verifizierung bei der REST API</span>
+## Authentifizierung
 
-Zur Nutzung der REST API wird ein Schlüssel benötigt, um unbefugte Nutzung zu verhindern. Dieser Schlüssel ist in deinem Arbeitsbereich in den Einstellungen unter 'Allgemein' als 'Service Account Key' zu finden.
-Genutzt wird dieser bei jeder Abfrage und muss im Header mitgegeben werden (Siehe dazu mehr unter [Univelop REST-API V1](https://app.univelop.de/api/v1/docs)).
-Diesen kannst du in den Einstellungen jederzeit neu generieren, falls er aus Sicherheitsgründen geändert werden soll.
+Zur Nutzung der REST-API wird ein API-Schlüssel benötigt, der in den [Arbeitsbereich-Einstellungen](/docs/workspace-settings/api-keys) erstellt wird. Der Schlüssel muss bei jeder Anfrage im HTTP-Header mitgesendet werden.
 
-## <span style="color:#0b5394">Integration von Schnittstellen</span>
+Der Schlüssel kann jederzeit neu generiert werden, falls er aus Sicherheitsgründen geändert werden soll.
 
-Durch die API-Schnittstelle können zum Beispiel auch Analysetools wie PowerBI angebunden werden. Das Abrufen der Daten erfolgt über die Einrichtung einer Datenquelle mit der Angabe, welche Kachel genau ausgewertet werden soll.
+## Anwendungsbeispiele
+
+- **Business Intelligence** — Daten aus Univelop in Analysetools wie Power BI abrufen
+- **ERP-Integration** — Datensätze zwischen Univelop und einem ERP-System synchronisieren
+- **Automatisierung** — Workflows über externe Systeme starten
+- **Benutzerverwaltung** — Nutzer automatisiert anlegen oder aktualisieren
+
+## Credits
+
+Jeder API-Aufruf verbraucht Credits. Die Credit-Sätze unterscheiden sich je nach API-Version und werden in der [Abrechnung](/docs/workspace-settings/billing) angezeigt.

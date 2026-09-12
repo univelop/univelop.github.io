@@ -8,16 +8,22 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/image-link.html
 ---
 
-Der _Bild Referenz_ Baustein bietet die Möglichkeit, Bilder aus einem verknüpften Datensätzen oder aus anderen Tabs oder Abschnitten anzuzeigen.
-Dadurch müssen keine Bilder mehr doppelt hochgeladen oder synchronisiert werden.
-Bilder wie im Bild-Upload angezeigt und können auch heruntergeladen werden.
+Der Baustein _Bild Referenz_ zeigt Bilder aus einem verknüpften Datensatz oder aus anderen Tabs bzw. Abschnitten des gleichen Eintrags an. Bilder müssen dadurch nicht doppelt hochgeladen oder synchronisiert werden.
 
-## <span style="color:#0b5394">Einstellung</span>
+## Einstellungen
 
-Der Baustein hat zwei Modi.
-Der Modus "Datei aus diesem Datensatz anzeigen" ermöglicht es, Dateien aus dem aktuellen Datensatz anzuzeigen, auch die, welche in einem anderen
-Tab liegen oder durch Rechte für den Benutzer nicht sichtbar sind.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Die Einstellung "Datei aus verknüpftem Datensatz anzeigen" ermöglicht es, Bilder aus einem anderen Datensatz anzuzeigen.
-In diesem Modus muss ein Datensatz-Baustein angegeben werden, welcher den verknüpften Datensatz enthält.
-Aus diesem können dann beliebige Bilder angezeigt werden.
+1. **Modus** — Bestimmt die Quelle der angezeigten Bilder:
+   - _Datei aus diesem Datensatz anzeigen_ — Zeigt Bilder aus dem aktuellen Eintrag an, auch wenn diese in einem anderen Tab liegen oder für den Benutzer nicht sichtbar sind.
+   - _Datei aus verknüpftem Datensatz anzeigen_ — Zeigt Bilder aus einem über einen _Datensatz_-Baustein verknüpften Eintrag an.
+2. **Quell-Baustein** — Der Bild-Upload- oder Zeichnungs-Baustein, dessen Bilder angezeigt werden.
+
+## Hinweise
+
+- Bilder werden wie im Baustein _Bild Upload_ dargestellt und können heruntergeladen werden.
+
+## Verwandte Bausteine
+
+- [Datei Referenz](/docs/bricks/advanced/file-link) — Für Dateireferenzen statt Bildreferenzen
+- [Bild Upload](/docs/bricks/input/image-picker) — Zum direkten Hochladen von Bildern

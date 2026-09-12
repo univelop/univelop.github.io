@@ -10,8 +10,14 @@ redirect_from:
     - /docs/workflows/basic/message.html
 ---
 
-Über den Baustein _Zeige Nachricht_ wird eine PopUp-Nachricht bei der Ausführung des Workflows angezeigt.
-Die Nachricht verfügt über einen Titel und einen Text, welcher in den Einstellungen angegeben wird.
-Über diesen Baustein können bspw. Werte des Workflows zur manuellen Überprüfung oder zur Information angezeigt werden.
+Mit dem Schritt _Zeige Nachricht_ wird ein Popup mit Titel und Text angezeigt. Der Schritt eignet sich, um Workflow-Werte zur Information anzuzeigen oder Zwischenergebnisse zur manuellen Prüfung darzustellen.
 
-_Hinweis: Dieser Baustein kann nur in Workflows ausgeführt werden, welche NICHT auf dem Server laufen._
+## Einstellungen
+
+1. **Titel** — Der Titel des Popups. Kann dynamisch mit `${}` gestaltet werden.
+2. **Nachricht** — Der Nachrichtentext. Kann dynamisch mit `${}` gestaltet werden.
+
+## Hinweise
+
+- Nur in **Client-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).
