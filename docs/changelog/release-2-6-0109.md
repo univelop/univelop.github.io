@@ -17,16 +17,7 @@ Die Datensatzsuche lässt sich nun per Tastatur bedienen: Mit den Pfeiltasten na
 
 ### <span style="color:#0b5394">**Kanban-Baustein**</span>
 
-Der Kanban-Baustein lässt sich jetzt auch dann öffnen, wenn ihr nur Leserechte darauf habt. Karten lassen sich weder per Drag & Drop zwischen den Spalten verschieben noch bearbeiten, und neue Einträge lassen sich darüber nicht anlegen. Filter bleiben dabei nutzbar und der Titel bleibt beim Filtern sichtbar.
-
-### <span style="color:#0b5394">**Eingebetteter Datensatz-Baustein**</span>
-
-Im eingebetteten Datensatz-Baustein können ab sofort nur noch Datensätze als Kind-Element ausgewählt werden, die tatsächlich zum übergeordneten Datensatz gehören. Das verhindert inkonsistente Verknüpfungen.
-
-### <span style="color:#0b5394">**Bild-Link-Baustein**</span>
-
-![image link thumbnail](/assets/changelog/2-6/image-link-thumbnail.png)
-Der Bild-Link-Baustein zeigt Vorschaubilder nun direkt als Thumbnail an.
+Der Kanban-Baustein lässt sich jetzt auch dann öffnen, wenn ihr nur Leserechte darauf habt. Einträge lassen sich weder per Drag & Drop zwischen den Spalten verschieben noch bearbeiten, und neue Einträge lassen sich darüber nicht anlegen. Filter bleiben dabei nutzbar und der Titel bleibt beim Filtern sichtbar.
 
 ## <span style="color:#0b5394">**Workflows**</span>
 
@@ -44,6 +35,7 @@ In den Abrechnungseinstellungen wird der Zahlungsstatus von Rechnungen nun direk
 
 ## <span style="color:#0b5394">**Weitere Änderungen**</span>
 
+-   Im eingebetteten Datensatz-Baustein können als Kind-Element nur noch Datensätze ausgewählt werden, die tatsächlich zum übergeordneten Datensatz gehören
 -   Fehler beim Ermitteln der Titelfarbe eines Datensatzes behoben
 -   Rechteprüfung bei Berechtigungsfiltern auf Mitglieder-Werte korrigiert
 -   Duplizieren eines Datensatzes friert nicht mehr ein, wenn dessen Status ihn sperrt
