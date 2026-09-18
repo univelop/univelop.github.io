@@ -5,17 +5,33 @@ nav_order: 9
 parent: Kacheln
 ---
 
-Die Kachel dient dem Scannen von QR-Codes mit Mobilgeräten und auch Barcodes mit Scannergeräten. Dadurch kann nur mit einem Scan ein passender Eintrag oder eine Menge von Einträgen gefunden werden.
-Beim Anlegen wird sie mit einer Kachel verbunden, dessen Einträge dann durch das Scannen gefunden werden können.
+Die _Scanner_-Kachel dient dem Scannen von QR-Codes und Barcodes, um Einträge schnell zu finden oder Workflows auszulösen. Sie wird mit einer Liste verknüpft, in der nach dem gescannten Wert gesucht wird.
 
-Es gibt folgende Einstellungen für den Scanner:
+## Funktionsweise
 
-1. <span style="color:#0b5394">**Externer Scanner**</span>  
-   Hier wird angegeben, ob es sich um ein übliches Mobilgerät (Smartphone, Tablet) oder um ein Scannergerät handelt.
-2. <span style="color:#0b5394">**Baustein**</span>  
-   Auf dem hier ausgewählten Baustein wird gesucht. Um einen funktionierenden Scanner zu garantieren, soll hier derselbe Baustein gewählt werden, welcher auch beim
-   zu scannendem Baustein _QR-/Barcode_ gewählt wurde.
-   Wird bei der internen Suche des Scanners nur ein passender Eintrag gefunden, so wird dieser direkt geöffnet.
-   Bei mehreren Ergebnissen, wenn z.B. der QR-Code nur aus einem Datum besteht, wird eine Liste dieser angegeben.
+Beim Öffnen der Kachel wird die Kamera oder ein externes Scannergerät aktiviert. Der gescannte Wert wird in der verknüpften Liste im konfigurierten Baustein gesucht:
 
-Die üblichen Einstellmöglichkeiten für das Aussehen der Kachel gibt es beim Scanner auch.
+- **Ein Treffer** — Der gefundene Eintrag wird direkt geöffnet.
+- **Mehrere Treffer** — Eine Liste der passenden Einträge wird angezeigt.
+- **Kein Treffer** — Eine Meldung erscheint.
+
+Alternativ kann der Scanner so konfiguriert werden, dass beim Scannen ein Workflow gestartet wird.
+
+## Einstellungen
+
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
+
+1. **Aktion** — Was beim Scannen passieren soll: _Eintrag anzeigen_ oder _Workflow starten_.
+2. **Verknüpft mit** — Die Liste, in der nach dem gescannten Wert gesucht wird (bei Aktion „Eintrag anzeigen").
+3. **Baustein** — Der Baustein, in dem nach dem gescannten Wert gesucht wird. Sollte derselbe sein, der im [QR-/Barcode-Baustein](/docs/bricks/advanced/qr-barcode) konfiguriert ist.
+4. **Manueller Suchpräfix** — Ein Präfix, das dem gescannten Wert vorangestellt wird.
+5. **Externer Scanner** — Ob ein externes Scannergerät statt der Gerätekamera verwendet wird.
+6. **Kameraausrichtung** — Ob die Rück- oder Frontkamera verwendet wird.
+7. **Scan bestätigen** — Ob der Benutzer jeden Scan bestätigen muss.
+8. **Töne abspielen** — Ob bei erfolgreichem Scan ein Ton abgespielt wird.
+9. **Workflow** — Der Workflow, der beim Scannen gestartet wird (bei Aktion „Workflow starten").
+
+## Verwandte Bausteine
+
+- [QR-/Barcode](/docs/bricks/advanced/qr-barcode) — Baustein zum Erzeugen von scanbaren Codes
+- [Artikel Scanner](/docs/bricks/advanced/item-scanner) — Baustein zum Scannen innerhalb eines Eintrags

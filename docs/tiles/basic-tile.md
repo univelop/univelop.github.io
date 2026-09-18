@@ -5,25 +5,33 @@ nav_order: 2
 parent: Kacheln
 ---
 
-Die wichtigste Kachelart ist die _einfache Liste_. Sie stellt eine Liste von Datensätzen dar, in der Datensätze erstellt, Daten erfasst und verändert werden können. Die einfache Liste wird für jegliche Daten verwendet, unabhängig vom Ziel: Ob nun Stammdaten, welche einmal im Quartal aktualisiert werden oder Projekte und Arbeitszeiten, auf denen täglich gearbeitet und erfasst wird. Jegliche Daten werden in Univelop in der Regel in einfachen Listen gespeichert und verwaltet.
+Die _Einfache Liste_ ist der wichtigste Kacheltyp in Univelop. Sie stellt eine Liste von Datensätzen dar, in der Einträge erstellt, bearbeitet und verwaltet werden können. Ob Stammdaten, Projekte, Arbeitszeiten oder Aufträge — jegliche Daten werden in der Regel in einfachen Listen gespeichert.
 
 ## Listenansicht
 
-Klickt man auf die Kachel, so öffnet sich eine Listenansicht für die Datensätze. Sie besteht aus einer reduzierten Auflistung von Datensätzen und einem Bereich, wo die Datensätze selber angezeigt werden.
-Klickt man auf einen Datensatz in der linken Liste, so wird dieser Datensatz in der Detailansicht geöffnet. Hier lässt sich der Datensatz nun bearbeiten.
-Desweiteren bietet die Listenansicht viele weitere Funktionen:
+Beim Öffnen der Kachel erscheint die Listenansicht. Sie besteht aus einer Auflistung der Datensätze und einer Detailansicht, in der der ausgewählte Eintrag angezeigt und bearbeitet werden kann.
 
--   Eine Volltextsuche, um nach einzelnen Einträgen zu suchen.
--   Selbstdefinierbare Filter um nach spezifischen Einträgen zu suchen, die bestimmte Werte enthalten
--   Eine Mehrfach-Auswahl, um beliebige Aktionen für mehrere Datensätze durchzuführen
--   Excel Im- und Export um Datensätze in aus aus Fremdsystemen manuell zu überführen sowie um Datensätze über Excel gesammelt zu bearbeiten
+Die Listenansicht bietet folgende Funktionen:
+
+- **Volltextsuche** — Suche nach Einträgen über alle sichtbaren Felder.
+- **Filter** — Selbstdefinierbare Filter, um nach Einträgen mit bestimmten Werten zu suchen.
+- **Mehrfach-Auswahl** — Auswahl mehrerer Datensätze für Aktionen wie Löschen oder Workflow-Ausführung.
+- **Excel Im- und Export** — Datensätze aus Fremdsystemen importieren oder zur Weiterverarbeitung exportieren.
 
 ## Einstellungen
 
-Folgende Einstellungen bietet die Kachel neben den allgemeinen Einstellungen:
+Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
 
--   Kachel-Info: Neben dem Icon, welches bei jeder Kachel definiert werden kann, kann bei der einfach Liste statt dessen eine Info angezeigt werden. Diese ist entweder die Summer der Datensätze, oder die Summe eines Bausteins über aller Datensätze.
--   Filter und Sortierung: Um die Anzahl der Datensätze in der Listenansicht zu beschränken, können Filter definiert werden. Diese Filter beinflussen auch die Kachel-Info Summe. Die Sortierung legt die Reihenfolge der Datensätze in der Listenansicht fest.
--   Bei einzelnem Datensatz direkt zum Datensatz springen: Ist diese Einstellung an, wird die Listenansicht übersprungen und der einzige Datensatz direkt in der Detailansicht geöffnet. Gibt es mehrere Einträge in der Liste hat diese Einstellung keinen Effekt.
--   Liste Freigeben: Ob die Liste samt Inhalt mit weiteren Arbeitsbereichen geteilt werden soll. Dies ist für Stammdaten, welche in mehreren Arbeitsbereichen gleichermaßen benötigt werden, sinnvoll. Die Arbeitsbereiche, mit denen diese Liste geteilt wird, besitzen nur Leserechte auf diese Liste und Schreibrechte auf die Datensätze. Es können somit keine Bausteine aus anderen Arbeitsbereichen in diese geteilte Liste hinzugefügt werden.
--   Volltextsuche: Ob die Volltextsuche aktiviert werden soll. Diese kann Kosten verursachen.
+1. **Kachel-Info** — Wahl zwischen dem Icon oder einer numerischen Info (Anzahl der Datensätze oder Summe eines Bausteins). Siehe [Indikator](/docs/tiles/general-settings#kachel-info-indikator).
+2. **Filter und Sortierung** — Filter schränken die angezeigten Datensätze ein und beeinflussen auch die Kachel-Info. Die Sortierung legt die Reihenfolge in der Listenansicht fest.
+3. **Bei einzelnem Datensatz direkt zum Datensatz springen** — Überspringt die Listenansicht, wenn nur ein Datensatz vorhanden ist, und öffnet diesen direkt.
+4. **Liste freigeben** — Teilt die Liste mit anderen Arbeitsbereichen. Empfangende Arbeitsbereiche erhalten Leserechte auf die Liste und Schreibrechte auf die Datensätze, können aber keine Bausteine hinzufügen.
+5. **Volltextsuche** — Aktiviert die Volltextsuche über alle Felder.
+
+{: .hint }
+Die Volltextsuche verbraucht [Credits](/docs/credits) pro Suchanfrage.
+
+## Verwandte Kacheln
+
+- [Gefilterte Liste](/docs/tiles/filter-tile) — Für vorgefilterte Ansichten einer bestehenden Liste
+- [Formular](/docs/tiles/form-tile) — Für die vereinfachte Erfassung neuer Einträge
