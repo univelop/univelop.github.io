@@ -1,41 +1,35 @@
 ---
-title: Formelsammlung
+title: Formeln
 nav_order: 9
 layout: title
 redirect_from:
     - /docs//formulary/formulary.html
 ---
 
-{% assign all_expressions = site.data.expressions_docs %}
-{% assign categories = all_expressions | group_by: 'category' %}
+Formeln ermöglichen es, Daten in Univelop dynamisch zu kombinieren, zu berechnen und auszugeben. Sie werden an vielen Stellen im System eingesetzt:
 
-<!-- Order in which the categories should be rendered -->
+- **Formelbausteine** — [Textformel](/docs/bricks/advanced/text-expression), [Zahlenformel](/docs/bricks/advanced/number-expression), [Datumsformel](/docs/bricks/advanced/date-expression), [Logik-Formel](/docs/bricks/advanced/bool-expression)
+- **Workflows** — Dynamische Werte in Schritt-Einstellungen per `${formel}`
+- **PDF-Vorlagen** — Dynamische Inhalte im [PDF-Baustein](/docs/bricks/advanced/print-out)
+- **E-Mail-Versand** — Dynamische Betreffzeilen und Texte
+- **Filter** — Dynamische Datums- und Wertfilter in Kacheln und Datensatzlisten
 
-{% assign category_order = "logic,number,date,text,list" | split: "," %}
+## Formelkategorien
 
-<table>
-  <thead>
-    <tr>
-      <th>Formel</th>
-      <th>Beispiel</th>
-      <th>Beschreibung</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for cat in category_order %}
-      {% assign cat_group = categories | where: "name", cat | first %}
-      {% if cat_group %}
-        <tr>
-          <th colspan="3">{% include expression_category.html category=cat_group.name %}</th>
-        </tr>
-        {% for item in cat_group.items %}
-          <tr>
-            <td><code>{{ item.expression }}</code></td>
-            <td>{% include expression_example.html examples=item.examples %}</td>
-            <td>{{ item.description | markdownify }}</td>
-          </tr>
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
+| Kategorie | Beschreibung |
+|-----------|-------------|
+| [Überblick](/docs/formulas/overview) | Grundlagen: Technische Namen, Datentypen, Formel-Editor |
+| [Logikformeln](/docs/formulas/logic-formulas) | Bedingungen, Vergleiche, Ja/Nein-Werte |
+| [Datumsformeln](/docs/formulas/date-formulas) | Datums- und Zeitberechnungen |
+| [Textformeln](/docs/formulas/text-formulas) | Textverarbeitung und -formatierung |
+| [Zahlenformeln](/docs/formulas/number-formulas) | Mathematische Berechnungen |
+| [Listenformeln](/docs/formulas/list-formulas) | Operationen auf Listen und dynamischen Werten |
+| [Operatoren](/docs/formulas/other-formulas) | Vergleichs-, Logik- und Rechenoperatoren |
+
+## Anleitungen
+
+| Seite | Beschreibung |
+|-------|-------------|
+| [Bedingungen](/docs/formulas/conditions) | Bedingungen und Rechnen mit Formeln |
+| [Praxisbeispiele](/docs/formulas/examples) | Sortierung, Kettenformeln, Lagerverwaltung |
+| [Best Practices](/docs/formulas/best-practices) | Empfehlungen für den Umgang mit Formeln |
