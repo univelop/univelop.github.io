@@ -13,7 +13,7 @@ Wir haben eine neue Kachelart in Univelop implementiert, welche die Interaktion 
 Drückt man auf die _Formular_ Kachel, so öffnet sich direkt ein Listeneintrag zum Ausfüllen. Diesen sendet man per Klick auf das Icon oben rechts ab.
 Die _Formular_ Kachel wird mit einer einfachen Liste verbunden, in der dann die neuen Einträge gespeichert werden.
 
-![release tile form](\old_assets\latest-updates\release tile form.png "release tile form")
+![release tile form](/old_assets/latest-updates/release tile form.png "release tile form")
 
 ## <span style="color:#0b5394">**Excel Export für komplexe Bausteine**</span>
 
@@ -24,7 +24,7 @@ Bausteine, die mehrere Daten beinhalten, werden in der neuen Version detailliert
 Im Web ist diese Funktion schon seit kurzem vorhanden. Nun gibt es auch auf iOS und Android die Möglichkeit, die benötigte Anzahl der Nachkommastellen, bei dem Nummer und dem Formelbaustein einzustellen.
 Dazu gibt es auch die Funktion, Tausender-Trennzeichen an- und abzuschalten. So werden spezielle Mengen wie z. B. Euro oder m³ genau erfasst und konsistent dargestellt.
 
-![release decimal places](\old_assets\latest-updates\release decimal places.png "release decimal places")
+![release decimal places](/old_assets/latest-updates/release decimal places.png "release decimal places")
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
 

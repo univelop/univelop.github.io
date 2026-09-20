@@ -1,35 +1,40 @@
 ---
-title: Weitere Formeln
+title: Operatoren
 layout: title
-parent: Formelsammlung
-nav_order: 6
+parent: Formeln
+nav_order: 7
 redirect_from:
     - /docs/formulas/childs/other-formulas.html
 ---
 
-## <span style="color:#0b5394">**Operatoren**</span>
+Operatoren kombinieren zwei Werte zu einem Ergebnis. Sie werden zwischen zwei Werten geschrieben und können beliebig verschachtelt werden. Die Werte können direkte Eingaben, technische Namen oder andere Formeln sein.
 
-Operatoren dienen dem Kombinieren von mehreren, verschiedenartigen Werten zu einem Ja/Nein-Wert. Dabei können Operatoren auch verschachtelt werden.
+## Vergleichsoperatoren
 
-Für einen Operator müssen immer zwei gleichartige Werte angegeben werden. Dabei können die Werte auch Formeln sein, die einen Wert zurückgeben.
+Vergleichsoperatoren liefern immer einen Ja/Nein-Wert.
 
-| Formel          | Beschreibung                                            | Beispiel                                                       | Eingabewerte (`left` und `right`)                                           | Gelieferter Ergebnistyp |
-| --------------- | ------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------- | --- | --------------------- | --------------------- | ------- |
-| `left == right` | Prüfung auf Gleichheit                                  | `1 == 1` liefert _true_                                        | 1. & 2. Wert: Ja/Nein, Zahl, Text                                           | Ja/Nein                 |
-| `left != right` | Prüfung auf Ungleichheit                                | `1 != 2` liefert _true_                                        | 1. & 2. Wert: Ja/Nein, Zahl, Text                                           | Ja/Nein                 |
-| `left && right` | Und-Operator, Prüfung auf Gültigkeit zweier Bedingungen | `true && false` liefert _false_, `true && true` liefert _true_ | 1. & 2. Wert: Ja/Nein                                                       | Ja/Nein                 |
-| `left           |                                                         | right`                                                         | Oder-Operator, Prüfung auf Gültigkeit mindestens einer von zwei Bedingungen | `true                   |     | false` liefert _true_ | 1. & 2. Wert: Ja/Nein | Ja/Nein |
-| `left < right`  | Prüfung auf Kleiner als                                 | `1 < 3` liefert _true_                                         | 1. & 2. Wert: Zahl, Text                                                    | Ja/Nein                 |
-| `left > right`  | Prüfung auf Größer als                                  | `1 > 3` liefert _false_                                        | 1. & 2. Wert: Zahl, Text                                                    | Ja/Nein                 |
-| `left <= right` | Prüfung auf Kleiner gleich                              | `1 <= 1` liefert _true_                                        | 1. & 2. Wert: Zahl, Text                                                    | Ja/Nein                 |
-| `left >= right` | Prüfung auf Größer gleich                               | `1 >= -1` liefert _true_                                       | 1. & 2. Wert: Zahl, Text                                                    | Ja/Nein                 |
+| Operator | Beschreibung | Beispiel | Eingabetypen |
+|----------|-------------|---------|-------------|
+| `==` | Gleichheit | `1 == 1` → _true_ | Ja/Nein, Zahl, Text |
+| `!=` | Ungleichheit | `1 != 2` → _true_ | Ja/Nein, Zahl, Text |
+| `<` | Kleiner als | `1 < 3` → _true_ | Zahl, Text |
+| `>` | Größer als | `1 > 3` → _false_ | Zahl, Text |
+| `<=` | Kleiner gleich | `1 <= 1` → _true_ | Zahl, Text |
+| `>=` | Größer gleich | `1 >= -1` → _true_ | Zahl, Text |
 
-## <span style="color:#0b5394">**Rechensymbole**</span>
+## Logische Operatoren
 
-| Formel         | Beschreibung                           | Beispiel                                              | Eingabewerte (`left` und `right`)      | Gelieferter Ergebnistyp |
-| -------------- | -------------------------------------- | ----------------------------------------------------- | -------------------------------------- | ----------------------- |
-| `left + right` | Plus, Addition, Textverbindung         | `1 + 1` liefert 2, `"Hal" + "lo"` liefert "Hallo"     | 1. & 2. Wert: Zahl oder Text           | Zahl oder Text          |
-| `left - right` | Minus, Subtraktion                     | `1 - 2` liefert -1                                    | 1. & 2. Wert: Zahl                     | Zahl                    |
-| `left * right` | Mal, Multiplikation, Text-Wiederholung | `2 * 2` liefert 4, `"Hallo" * 2` liefert "HalloHallo" | 1. Wert: Text oder Zahl, 2. Wert: Zahl | Zahl oder Text          |
-| `left / right` | Geteilt, Division                      | `4 / 2` liefert 2                                     | 1. & 2. Wert: Zahl                     | Zahl                    |
-| `left % right` | Modulo (Restwert einer Teilung)        | `5 % 2` liefert 1                                     | 1. & 2. Wert: Zahl                     | Zahl                    |
+| Operator | Beschreibung | Beispiel |
+|----------|-------------|---------|
+| `&&` | Und — beide Bedingungen müssen gelten | `true && false` → _false_ |
+| `\|\|` | Oder — mindestens eine Bedingung muss gelten | `true \|\| false` → _true_ |
+
+## Rechenoperatoren
+
+| Operator | Beschreibung | Beispiel | Ergebnistyp |
+|----------|-------------|---------|------------|
+| `+` | Addition / Textverbindung | `1 + 1` → `2`, `"Hal" + "lo"` → `"Hallo"` | Zahl oder Text |
+| `-` | Subtraktion | `1 - 2` → `-1` | Zahl |
+| `*` | Multiplikation / Text-Wiederholung | `2 * 2` → `4`, `"Ha" * 3` → `"HaHaHa"` | Zahl oder Text |
+| `/` | Division | `4 / 2` → `2` | Zahl |
+| `%` | Modulo (Rest der Division) | `5 % 2` → `1` | Zahl |

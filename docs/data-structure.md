@@ -4,49 +4,28 @@ nav_order: 3
 layout: title
 ---
 
-In Univelop werden jegliche Daten in unseren sogenannten Datensätzen gespeichert. Diese Datensätze werden in einer zugehörigen Liste bzw. Kachel aufbewahrt.
-Dieser Aufbau lässt sich mit einer Excel- oder SQL-Tabelle gut vergleichen:
-Eine Liste in Univelop entspricht einer Tabelle in Excel oder SQL. Ein Datensatz in Univelop entspricht einer Zeile in einer Tabelle.
+In Univelop werden Daten in Datensätzen gespeichert, die in einer zugehörigen Liste (Kachel) organisiert sind. Dieser Aufbau lässt sich mit einer Tabelle in Excel oder SQL vergleichen: Eine Liste entspricht einer Tabelle, ein Datensatz einer Zeile.
 
-Die Datensätze bestehen wiederum aus Bausteinen. Diese Bausteine lassen sich mit den Spalten in einer Excel- oder SQL-Tabelle vergleichen.
-Es gibt in Univelop verschiedenste Bausteine, welche unterschiedliche Datentypen speichern können. Es gibt Bausteine für Text oder Datum,
-aber auch Bausteine zum Hochladen von Bildern oder Dateien und noch viele mehr.
+Datensätze bestehen aus Bausteinen, die den Spalten einer Tabelle entsprechen. Es gibt Bausteine für Text, Datum, Bilder, Dateien und viele weitere Datentypen. Bausteine können per Drag-and-Drop hinzugefügt, umgeordnet und entfernt werden — ohne Einschränkungen in Reihenfolge oder Anzahl.
 
-Die Bausteine können per Drag-and-Drop beliebig hinzugefügt, umgeordnet und entfernt werden, was sich hingegen bei SQL oder Excel-Tabellen nicht so leicht gestaltet.
-Hierbei gibt es auch keine Einschränkungen in der Reihenfolge und Anzahl der Bausteine .
+## Verknüpfung von Listen
 
-## Verknüpfung von Listen/Relationen
-
-{: .hint }
-Dieser Abschnitt richtet sich an technisch versierte Nutzer die bereits mit Datenbanken oder Excel vertraut sind oder selber Module in Univelop erstellen wollen.
-
-Verknüpfungen von Listen sind für verschiedenste Zwecke notwendig: Die Zuweisung von einem Projekt zu einem Projektleiter, eine Zeiterfassung zu einem Mitarbeiter und einer Rechnung zu einem Debitor.
-Diese Verknüpfungen machen es möglich, Relationen von echten Objekten abzubilden.
-
-In SQL werden Relationen zwischen Tabellen über sogenannte Fremdschlüssel abgebildet. Dieses Konzept wird in Univelop über die Datensatz und Datensätze Bausteine realisiert. Diese sind für die Verknüpfung von Listen zuständig.
+Verknüpfungen zwischen Listen bilden Beziehungen zwischen realen Objekten ab — z. B. die Zuordnung eines Projekts zu einem Projektleiter oder einer Rechnung zu einem Kunden.
 
 ### 1-zu-1 Verknüpfung
 
-Die 1-zu-1 Verknüpfung (Eine Zeiterfassung gehört zu einem Mitarbeiter) wird über den [Datensatz](/docs/bricks/advanced/record-picker) Baustein realisiert.
-Beim Datensatz-Baustein wird festgelegt, zu welcher Liste eine Relation bestehen soll.
+Eine 1-zu-1 Verknüpfung verbindet einen Datensatz mit genau einem Datensatz einer anderen Liste. Sie wird über den Baustein [Datensatz](/docs/bricks/advanced/record-picker) realisiert.
 
-Betrachtet man hierzu das Beispiel einer Zeiterfassung, welche einem Mitarbeiter zugeordnet wird, so kann man dies wie folgt umsetzen:
-
-In der Liste "Zeiterfassungen" wird ein Datensatz-Baustein hinzugefügt. Dieser neue Baustein wird mit der Liste "Mitarbeiter" verknüpft.
-So kann nun eine Zeiterfassung einem Mitarbeiter zugewiesen werden.
+**Beispiel:** In der Liste "Zeiterfassungen" wird ein Datensatz-Baustein hinzugefügt und mit der Liste "Mitarbeiter" verknüpft. So kann jede Zeiterfassung einem Mitarbeiter zugeordnet werden.
 
 ### 1-zu-n Verknüpfung
 
-In Univelop wird die 1-zu-n Zuordnung (Ein Projekt besteht aus mehreren Projektbeteiligten) ebenfalls unterstützt. Diese wird über den Baustein ["Datensätze" Baustein](/docs/bricks/advanced/multi-record-picker) realisiert.
-Die Funktionsweise ist dabei identisch zum "Datensatz" Baustein.
+Eine 1-zu-n Verknüpfung verbindet einen Datensatz mit beliebig vielen Datensätzen einer anderen Liste. Sie wird über den Baustein [Datensätze](/docs/bricks/advanced/multi-record-picker) oder die [Datensatzliste](/docs/bricks/advanced/record-list) realisiert.
 
-Betrachtet man hierzu das Beispiel eines Projekts, welches einen oder mehrere Projektleiter zugewiesen bekommt, funktioniert dies in Univelop so:
-In der Liste "Projekte" wird ein Datensätze-Baustein hinzugefügt. Dieser neue Baustein wird mit der Liste "Projektleiter" (oder "Mitarbeiter", abhängig davon wo die Projektleiter hinterlegt werden) verknüpft. So kann nun ein beliebiges Projekt keinem, einem einzelnen oder mehreren Projektleitern zugewiesen werden.
+**Beispiel:** In der Liste "Projekte" wird ein Datensätze-Baustein hinzugefügt und mit der Liste "Projektleiter" verknüpft. So kann ein Projekt keinem, einem oder mehreren Projektleitern zugeordnet werden.
 
-### Weitere Aspekte
+### Kombination
 
-Relationen können in Univelop beliebig kombiniert werden. So ist beispielsweise ein Aufbau möglich,
-in dem ein Projekt zu beliebig vielen Projektleitern gehört, gleichzeitig einem Kunden zugeordnet ist. Gleichzeitig können Rechnungen, Zeiterfassungen und
-Projekten zugeordnet werden. Es lassen sich also beliebig komplexe Datenstrukturen in Univelop abbilden.
+Verknüpfungen können beliebig kombiniert werden. Ein Projekt kann gleichzeitig mehreren Projektleitern zugeordnet sein, einem Kunden gehören und über eine Datensatzliste alle zugehörigen Rechnungen und Zeiterfassungen anzeigen.
 
-Darstellen lassen sich solche komplexe Relationen in Univelop auch über verschiedene Bausteine: Über den Baustein [Datensatzliste](/docs/bricks/advanced/record-list) kann z.B. in einem Projekt angezeigt werden, was für Rechnungen zu diesem Projekt existieren. Der Baustein [Kalender](/docs/bricks/advanced/calendar) zeigt z.B. eine monatliche oder wöchentliche Übersicht der summierten Arbeitszeiten zu einem Projekt an. Und der [Terminplaner](/docs/bricks/advanced/scheduler) stellt alle Termine der Teammitglieder zu einem Projekt dar.
+Zur Darstellung komplexer Verknüpfungen stehen Bausteine wie [Datensatzliste](/docs/bricks/advanced/record-list), [Kalender](/docs/bricks/advanced/calendar), [Tabelle](/docs/bricks/advanced/table) und [Terminplaner](/docs/bricks/advanced/scheduler) zur Verfügung.

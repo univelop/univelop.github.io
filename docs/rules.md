@@ -4,37 +4,37 @@ nav_order: 13
 layout: title
 ---
 
-Regeln ermöglichen ereignis­basierte Automatisierungen. Von einfachen Hinweis­meldungen bis hin zur automatisierten Feld­aktualisierung, sobald ein Datensatz spezifische Bedingungen erfüllt.
+Regeln ermöglichen ereignisbasierte Automatisierungen innerhalb einer Liste. Von einfachen Hinweismeldungen bis hin zur automatisierten Feldaktualisierung — Regeln reagieren auf bestimmte Ereignisse und führen einen Workflow aus.
 
-Eine Regel besteht dabei aus einem Trigger sowie einem Regel-Workflow. Der Trigger ist das Ereignis, bei welchem der Regel-Workflow ausgeführt werden soll. Der Regel-Workflow ist dementsprechend die Aktion, welche bei Erfüllung des Ereignisses ausgeführt werden soll.
+Eine Regel besteht aus einem **Trigger** (dem auslösenden Ereignis) und einem **Regel-Workflow** (der Aktion, die bei Eintreten des Ereignisses ausgeführt wird).
 
-## Verwaltung von Regeln
+## Verwaltung
 
-1. Den Eintrags-Designmodus der gewünschten Liste öffnen
-1. **Regeln verwalten** in der rechten Einstellungsleiste anklicken
-1. **Regel-Workflow erstellen** Button oben rechts anklicken
-1. Auf die **Trigger hinzufügen** Schaltfläche am Start des Workflows klicken
-1. In der rechten Seitenleiste die gewünschte **Trigger-Art** auswählen
-1. Workflow mit Schritten füllen
+1. Den [Eintrags-Designmodus](/docs/designmode/record) der gewünschten Liste öffnen
+2. **Regeln verwalten** in der rechten Einstellungsleiste klicken
+3. **Regel-Workflow erstellen** klicken
+4. Auf **Trigger hinzufügen** am Start des Workflows klicken
+5. Die gewünschte Trigger-Art auswählen
+6. Workflow mit Schritten füllen
 
 ## Unterstützte Trigger
 
-| Trigger                           | Auslösender Vorgang                                                                         | Bemerkung                                                        |
-| --------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Datensatz geöffnet**            | Ein Datensatz wird in der Benutzeroberfläche geöffnet.                                      | Nur lesende Workflow-Schritte zulässig.                          |
-| **Liste geöffnet**                | Eine Liste wird in der Benutzeroberfläche geöffnet.                                         | Ebenfalls nur lesende Workflow-Schritte zulässig.                |
-| **Datensatz erfüllt Bedingungen** | Ein Datensatz wird gespeichert und erfüllt erstmals die im Trigger definierten Bedingungen. | Der Schritt **Ändere Datensatz** steht zusätzlich zur Verfügung. |
+| Trigger | Auslöser | Bemerkung |
+|---|---|---|
+| **Datensatz geöffnet** | Ein Datensatz wird in der Benutzeroberfläche geöffnet | Nur lesende Workflow-Schritte zulässig |
+| **Liste geöffnet** | Eine Liste wird in der Benutzeroberfläche geöffnet | Nur lesende Workflow-Schritte zulässig |
+| **Datensatz erfüllt Bedingungen** | Ein Datensatz wird gespeichert und erfüllt erstmals die definierten Bedingungen | Zusätzlich steht der Schritt **Ändere Datensatz** zur Verfügung |
 
 {: .hint }
-Ein Trigger vom Typ _Datensatz erfüllt Bedingungen_ wird **nur beim erstmaligen Erreichen** der Bedingungen ausgelöst. Ändert sich danach ein anderer Baustein, wird der Trigger nicht erneut ausgelöst.
+Der Trigger "Datensatz erfüllt Bedingungen" wird nur beim **erstmaligen** Erreichen der Bedingungen ausgelöst. Ändert sich danach ein anderer Baustein, wird der Trigger nicht erneut ausgelöst.
 
 ## Rahmenbedingungen
 
--   Regel-Workflows sind im Umfang der verfügbaren Workflow-Schritte reduziert, verursachen jedoch **keinen Credit-Verbrauch**.
--   Lesende Trigger (**Datensatz geöffnet**, **Liste geöffnet**) erlauben lediglich nicht-schreibende Workflow-Schritte. Datensatzänderungen sind nicht möglich.
--   Über den Schritt **Starte Workflow** kann aus jedem Trigger heraus ein normaler Workflow gestartet werden, in welchem dann wie gewohnt alle Workflow-Schritte zur Verfügung stehen.
+- Regel-Workflows verursachen **keinen Credit-Verbrauch**
+- Lesende Trigger erlauben nur nicht-schreibende Workflow-Schritte
+- Über den Schritt [Starte Workflow](/docs/workflows/structure/start-workflow) kann aus einem Regel-Workflow heraus ein normaler Workflow gestartet werden, in dem alle Schritte verfügbar sind
 
-## Anwendungsszenarien
+## Beispiele
 
--   Zeige eine Warnung, wenn ein Mitarbeiter einen Auftrag öffnet der älter als 2 Jahre ist. (Trigger **Datensatz geöffnet**, "Laufe weiter, wenn" Workflow-Schritt mit Bedingung **params.record.datum <= subtractYears(now(),2)**, "Zeige Nachricht" Workflow-Schritt, welcher Warnung zeigt)
--   Setze ein Datum, wenn der Eintrag den Status "Abgeschlossen" erreicht. (Trigger **Datensatz erfüllt Bedingungen** mit Bedingung Status = Abgeschlossen, "Ändere Datensatz" Workflow-Schritt welcher Datum auf **now()** setzt.)
+- **Warnung bei altem Auftrag:** Trigger "Datensatz geöffnet" → Laufe weiter, wenn `params.record.datum <= subtractYears(now(),2)` → Zeige Nachricht mit Warnung
+- **Datum bei Abschluss setzen:** Trigger "Datensatz erfüllt Bedingungen" mit Status = Abgeschlossen → Ändere Datensatz: Datum auf `now()` setzen

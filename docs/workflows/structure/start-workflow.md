@@ -9,9 +9,23 @@ redirect_from:
     - /docs/workflows/advanced/start-workflow.html
 ---
 
-Mit dem Workflow-Schritt _Starte Workflow_ kann ein anderer Workflow gestartet werden. Workflows, welche lokal auf dem Gerät laufen, können sowohl andere lokale als auch auf dem Server laufende Workflows starten.
+Mit dem Schritt _Starte Workflow_ wird ein anderer Workflow gestartet. Dem Ziel-Workflow können Parameter und optional eine Datensatz-ID übergeben werden.
 
-Auf dem Server laufende Workflows können wiederum nur andere, ebenfalls auf dem Server laufende, Workflows anstoßen.
-Dem zu startenden Workflow können benutzerdefinierte Parameter übergeben werden. Auf diese kann im gestarteten Workflow mit `params.parameterName` zugegriffen werden. Beispiel: `params.test1`.
+## Einstellungen
 
-Neben Parametern kann dem zu startenden auch eine Datensatz-ID übergeben werden. Dies ist sinnvoll, wenn der erste Schritt in dem zu startenden Workflow ein "Wähle Datensatz"-Schritt ist. Der gestartete Workflow wählt dann den Datensatz mit der übergebenen ID und verhält sich genau so, als wäre er per Workflow-Button aus einem Datensatz heraus gestartet worden.
+1. **Workflow** — Der zu startende Workflow.
+2. **Datensatz-ID** — _Optional._ Die ID eines Datensatzes, der dem Ziel-Workflow übergeben wird. Beginnt der Ziel-Workflow mit einem [Wähle Eintrag](/docs/workflows/record-loading/choose-record)-Schritt, wird dieser Datensatz automatisch ausgewählt.
+3. **Parameter** — _Optional._ Benutzerdefinierte Parameter (Name, Typ, Wert), die dem Ziel-Workflow übergeben werden. Im Ziel-Workflow sind diese über `params.parameterName` zugreifbar.
+4. **Auf Ausführung warten** — Wenn aktiviert, wartet der aktuelle Workflow, bis der gestartete Workflow abgeschlossen ist.
+5. **Fehlerverhalten** — Bestimmt, was bei einem Fehler im gestarteten Workflow passiert: _Workflow abbrechen_ oder _Ignorieren_.
+
+## Hinweise
+
+- Client-Workflows können sowohl lokale als auch Server-Workflows starten.
+- Server-Workflows können nur andere Server-Workflows starten.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).
+
+## Verwandte Schritte
+
+- [Gib Wert zurück](/docs/workflows/advanced/return-value) — Für die Rückgabe von Werten an den aufrufenden Workflow

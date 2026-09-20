@@ -10,4 +10,14 @@ redirect_from:
     - /docs/workflows/advanced/waiting.html
 ---
 
-Mithilfe des Bausteins _Warte Sekunden_ wird der Prozess für eine bestimmte Anzahl an Sekunden unterbrochen.
+Mit dem Schritt _Warte Sekunden_ wird die Ausführung des Workflows für eine bestimmte Anzahl an Sekunden pausiert.
+
+## Einstellungen
+
+1. **Sekunden** — Die Wartezeit in Sekunden. Kann als Formel angegeben werden. Maximal 60 Sekunden.
+
+## Hinweise
+
+- Die maximale Wartezeit beträgt 60 Sekunden.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).

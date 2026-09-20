@@ -8,167 +8,92 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/xml.html
 ---
 
-Mit dem Baustein _XML erstellen_ kann, ausgehend von einer XML-Vorlage, eine XML-Datei erstellt
-und, wenn gewünscht, per E-Mail versendet werden. Die XML-Datei kann individuell gestaltet werden und sich
-auf die Liste beziehen in welcher die XML-Datei erstellt wird. Alle darstellbaren Inhalte können
-ausgegeben werden, neben Buchstaben und Zahlen auch strukturierte Daten und verknüpfte Datensatz-Listen.
-Als zusätzliches Feature lassen sich generierte XML-Dateien über ein selbsterstelltes Skript in einem bestimmten Zielordner automatisch ablegen. (s. Import und Export / Dateiimport / -export via PowerShell)
-
-Im Gegensatz zum PDF-Baustein verwendet der XML-Baustein spezielle XML-Tags mit dem `uni:`-Namespace für Schleifen und bedingte Anzeigen, anstatt der `${repeat(...)}` Syntax.
-
 {: .hint }
-Dieser Baustein ist ein Power-Feature und erfordert entsprechende Berechtigung.
+Dieser Baustein ist ein [Power Feature](/docs/power-features)
 
-## <span style="color:#0b5394">Vorbereitung der XML-Vorlage</span>
+Mit dem Baustein _XML erstellen_ kann ausgehend von einer XML-Vorlage eine XML-Datei generiert und optional per E-Mail versendet werden. Die Vorlage kann individuell gestaltet werden und über Platzhalter auf Bausteine der aktuellen Liste zugreifen. Im Gegensatz zum _PDF erstellen_-Baustein verwendet die XML-Vorlage spezielle XML-Tags mit dem `uni:`-Namespace für Schleifen und bedingte Anzeigen.
 
-1. <span style="color:#0b5394">**Ausgabe von Einzelwerten**</span>  
-   Die Ausgabe von Einzelwerten erfolgt, indem in der XML-Vorlage der technische Name eines Bausteins innerhalb von
-   zwei geschwungenen Klammern mit einem Dollar-Zeichen davor gesetzt wird. Beispiel: `${belegnummer}` für die Ausgabe einer Belegnummer.
+## Einstellungen
 
-2. <span style="color:#0b5394">**Ausgabe von Datensatz-Listen**</span>  
-   Um die Daten eines Baustein _Datensatz Liste_ auszugeben, werden spezielle XML-Tags mit dem `uni:` Namespace verwendet. Das `<uni:repeat>` Tag definiert, über welche Liste iteriert werden soll.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-    So könnte die XML-Struktur zur Ausgabe einer ganzen Liste aussehen:
+1. **XML-Vorlage** — Die XML-Datei, die als Vorlage dient. Wird über den Plus-Button hochgeladen und automatisch validiert.
+2. **Dateiname** — Ein optionaler abweichender Dateiname, kann dynamisch gestaltet werden (z. B. `${belegnummer}`).
+3. **PowerShell-Synchronisation** — Ermöglicht die automatische Dateiübertragung in einen Zielordner per PowerShell-Skript.
+4. **Direkter Mailversand** — Aktiviert den Versand der erzeugten XML-Datei per E-Mail.
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <mitarbeiterListe xmlns:uni="http://univelop.com/xml">
-        <uni:repeat ref="mitarbeiterZeiten" name="mitarbeiter">
-            <mitarbeiter>
-                <arbeitszeit>${mitarbeiter.Arbeitszeit}</arbeitszeit>
-                <name>${mitarbeiter.name}</name>
-                <index>${mitarbeiter.__index__}</index>
-            </mitarbeiter>
-        </uni:repeat>
-    </mitarbeiterListe>
-    ```
+### Mail-Einstellungen
 
-    **Attribute des `<uni:repeat>` Tags:**
+Nur verfügbar wenn _Direkter Mailversand_ aktiviert ist:
 
-    - `ref`: Der technische Name des Bausteins (Pflichtfeld)
-    - `name`: Der Name, unter dem die Datensätze in der Vorlage verfügbar sind (optional, standardmäßig wird der `ref`-Wert verwendet)
-    - Zusätzlich steht die Variable `__index__` für die aktuelle Iterationsnummer zur Verfügung (beginnend bei 1)
+5. **Empfänger** — Ein _Textfeld_- oder _E-Mail_-Baustein mit der Empfänger-Adresse.
+6. **CC-Empfänger** — Zusätzliche CC-Adressen.
+7. **Benutzer in CC hinzufügen** — Fügt den auslösenden Benutzer automatisch in CC hinzu.
+8. **BCC** — Zusätzliche BCC-Adressen.
+9. **Betreff** — Der E-Mail-Betreff, dynamisch mit `${}` gestaltbar.
+10. **Inhalt** — Der E-Mail-Text, dynamisch mit `${}` gestaltbar.
 
-    **Unterstützte Bausteine für `<uni:repeat>`:**
+## Vorbereitung der XML-Vorlage
 
-    - _Datensatz Liste_
-    - _Mehrfach-Datensatz-Auswahl_
-    - _Tabelle_
-    - _Kalender_
+### Einzelwerte
 
-    Die XML-Struktur kann um beliebig viele Elemente erweitert werden, solange diese in der Datensatz-Liste vorkommen.
+Die Ausgabe von Einzelwerten erfolgt über den technischen Namen in geschweiften Klammern: `${belegnummer}`.
 
-    Verschachtelte `<uni:repeat>` Tags sind auch möglich. Es muss jedoch eine Liste referenziert werden, welche von der umschließenden Liste erreichbar ist (z. B. durch einen Baustein Datensatz-Liste). Dadurch kann z. B. die tägliche Nutzungszeit einer Baumaschine, welche aus Einsätzen bei mehreren Kunden besteht, strukturiert in einer XML-Datei ausgegeben werden.
+### Datensatz-Listen (uni:repeat)
 
-    Eine solche verschachtelte XML-Struktur könnte wie folgt aussehen:
+Für die Ausgabe verknüpfter Listen wird das `<uni:repeat>`-Tag verwendet:
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <maschinenliste xmlns:uni="http://univelop.com/xml">
-        <uni:repeat ref="maschZeiten" name="maschine">
-            <maschine>
-                <name>${maschine.maschine}</name>
-                <gesamtDauer>${maschine.gesDauer}</gesamtDauer>
-                <einsaetze>
-                    <uni:repeat ref="maschine.einsaetze" name="einsatz">
-                        <einsatz>
-                            <dauer>${einsatz.dauer}</dauer>
-                            <auftragsnummer>${einsatz.auftrNr}</auftragsnummer>
-                        </einsatz>
-                    </uni:repeat>
-                </einsaetze>
-            </maschine>
-        </uni:repeat>
-    </maschinenliste>
-    ```
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<liste xmlns:uni="http://univelop.com/xml">
+    <uni:repeat ref="mitarbeiterZeiten" name="eintrag">
+        <eintrag>
+            <arbeitszeit>${eintrag.Arbeitszeit}</arbeitszeit>
+            <name>${eintrag.name}</name>
+            <index>${eintrag.__index__}</index>
+        </eintrag>
+    </uni:repeat>
+</liste>
+```
 
-3. <span style="color:#0b5394">**Ein-/Ausblenden von Inhalten**</span>  
-   Sollten gewisse XML-Elemente abhängig von einer Bedingung ausgeblendet werden, kann dies über das `<uni:showIf>` Tag realisiert werden.
+**Attribute von `<uni:repeat>`:**
+- `ref` — Der technische Name des Bausteins (Pflichtfeld).
+- `name` — Der Alias, unter dem die Datensätze in der Vorlage verfügbar sind (optional, Standard: `ref`-Wert).
+- Die Variable `__index__` liefert die aktuelle Iterationsnummer (ab 1).
 
-    Wenn wir das obige Beispiel (Zeiterfassung) erweitern möchten und z.B. anzeigen möchten, dass es sich bei der aufgeführten Zeit um Reisezeit handelte, können wir so etwas machen:
+**Unterstützte Bausteine:** _Datensatz Liste_, _Datensätze_, _Tabelle_, _Kalender_.
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <mitarbeiterListe xmlns:uni="http://univelop.com/xml">
-        <uni:repeat ref="mitarbeiterZeiten" name="mitarbeiter">
-            <mitarbeiter>
-                <arbeitszeit>${mitarbeiter.Arbeitszeit}</arbeitszeit>
-                <name>${mitarbeiter.name}</name>
-                <uni:showIf exp="mitarbeiter.istReisezeit">
-                    <reisezeit>true</reisezeit>
-                </uni:showIf>
-            </mitarbeiter>
-        </uni:repeat>
-    </mitarbeiterListe>
-    ```
+Verschachtelte `<uni:repeat>`-Tags sind möglich, sofern die innere Liste von der äußeren erreichbar ist.
 
-    **Attribute des `<uni:showIf>` Tags:**
+### Bedingte Inhalte (uni:showIf)
 
-    - `exp`: Die Bedingung, die ausgewertet werden soll (Pflichtfeld, muss in einem Wahrheitswert resultieren)
+XML-Elemente können abhängig von einer Bedingung ein- oder ausgeblendet werden:
 
-    In diesem Beispiel wird das XML-Element `<reisezeit>` nur hinzugefügt, wenn der Schalter `istReisezeit` gesetzt ist. Das `<uni:showIf>` Tag kann auch außerhalb von `<uni:repeat>`-Blöcken verwendet werden.
+```xml
+<uni:showIf exp="istReisezeit">
+    <reisezeit>true</reisezeit>
+</uni:showIf>
+```
 
-    {: .hint }
-    Die Bedingung im `exp`-Attribut kann auf Schalter, Ja-/Nein-Formel-Bausteine oder andere Ausdrücke angewendet werden.
+Das `exp`-Attribut muss in einem Wahrheitswert resultieren. Das Tag kann auch außerhalb von `<uni:repeat>`-Blöcken verwendet werden.
 
-4. <span style="color:#0b5394">**Sonderzeichen und Escape-Sequenzen**</span>  
-   Sonderzeichen in Parametern werden automatisch für XML escapiert, um eine gültige XML-Struktur zu gewährleisten.
+### Sonderzeichen
 
-## <span style="color:#0b5394">Einstellungen des Bausteins _XML erstellen_</span>
+Sonderzeichen in Parametern werden automatisch für XML escapiert, um eine gültige Struktur zu gewährleisten.
 
-1. <span style="color:#0b5394">**XML-Vorlage hinzufügen**</span>  
-   Über den Plus-Button öffnet sich ein Auswahl-Dialog, worüber die XML-Vorlage ausgewählt wird. Anschließend wird sie in den Baustein hochgeladen. Die Vorlage wird automatisch validiert, um sicherzustellen, dass sie gültig ist.
+## Anwendungsfälle
 
-2. <span style="color:#0b5394">**Abweichender bzw. dynamischer Dateiname**</span>  
-   Der Dateiname kann ebenfalls abweichend und dynamisch gewählt werden. Soll der Dateiname zum Teil dynamisch sein, kann ebenfalls ein Platzhalter mit Bezug zu einem Baustein eingesetzt werden. Soll die XML-Datei zum Beispiel so heißen wie die Belegnummer, können Sie hier `${belegnummer}` eingeben.
+- **E-Rechnungen** — Erzeugung von XML-basierten Rechnungsformaten.
+- **Datenexport** — Strukturierter Export für Fremdsysteme.
+- **Systemintegration** — Standardisierte Datenübertragung zwischen Systemen.
+- **Archivierung** — Langzeitarchivierung in standardisiertem Format.
 
-3. <span style="color:#0b5394">**Automatische Dateiübertragung per PowerShell**</span>  
-   Zur automatischen Dateiübertragung können Sie auch Dateien per PowerShell mit dem Dateisystem synchronisieren. Ein entsprechendes Skript kann heruntergeladen und angepasst werden.
+## Hinweise
 
-4. <span style="color:#0b5394">**Direkter Mailversand**</span>  
-   Die erstellte XML-Datei kann über diese Funktion direkt per E-Mail versendet werden.
+- Die XML-Vorlage wird beim Hochladen automatisch auf Gültigkeit geprüft.
+- Die `uni:`-Namespace-Syntax unterscheidet sich von der `${repeat(...)}`-Syntax des _PDF erstellen_-Bausteins.
 
-## <span style="color:#0b5394">Einstellungen des direkten Mail-Versands</span>
+## Verwandte Bausteine
 
-Um eine E-Mail Adresse für den direkten Mailversand zu verwenden, benötigt der Baustein _XML erstellen_ einen Empfänger über einen Baustein _Textfeld_ oder _E-Mail_, wo die entsprechende E-Mail Adresse eingetragen wird.
-Bleibt die E-Mail Adresse für den direkten Mailversand immer gleich, kann der Baustein _Textfeld_ versteckt und als Standard-Text wird die E-Mail Adresse hinterlegt.  
-Wechselt die E-Mail Adresse je nach Anforderung (z. B. unterschiedliche Vorgesetzte, unterschiedliche Lieferanten pro Artikel, etc.) kann der benötigte Baustein _Textfeld_, bezogen auf die genannten Beispiele, in den Stammdaten des Mitarbeiters oder des Artikels aufgeführt werden und bei der Auswahl als Wert übernommen werden (s. Verknüpfung über den Baustein _Datensatz_).
-
-Bei der Auswahl der Option "direkter Mailversand" können weitere Einstellungen vorgenommen werden:
-
-1. <span style="color:#0b5394">**Empfänger**</span>  
-   Auswahl des Bausteins, der die E-Mail Adresse des Empfängers enthält (Textfeld oder E-Mail Baustein).
-
-2. <span style="color:#0b5394">**CC-Empfänger**</span>  
-   Zusätzliche E-Mail Adressen für CC können hier eingegeben werden.
-
-3. <span style="color:#0b5394">**Benutzer in CC hinzufügen**</span>  
-   Der auslösende Benutzer der XML-Erstellung wird automatisch in CC genommen.
-
-4. <span style="color:#0b5394">**BCC**</span>  
-   E-Mail Adressen für BCC können hier eingegeben werden.
-
-5. <span style="color:#0b5394">**Betreff vordefinieren**</span>  
-   Der E-Mail Betreff kann vordefiniert und mit Platzhaltern dynamisch gestaltet werden, z.B. `XML Export - ${belegnummer}`.
-
-6. <span style="color:#0b5394">**Inhalt der E-Mail vordefinieren**</span>  
-   Über `${}` kann der Inhalt der E-Mail ebenfalls dynamisch gestaltet werden, z.B.:
-
-    ```
-    Sehr geehrte Damen und Herren,
-
-    anbei erhalten Sie die XML-Datei für ${belegnummer}.
-
-    Mit freundlichen Grüßen
-    ```
-
-## <span style="color:#0b5394">Verwendung und Anwendungsfälle</span>
-
-Der XML-Baustein eignet sich besonders für:
-
--   **E-Rechnungen**
--   **Datenexport** für andere Systeme, die XML-Format benötigen
--   **API-Integration** durch strukturierte Datenübertragung
--   **Archivierung** von Daten in einem standardisierten Format
--   **Berichtswesen** mit strukturierten Datenausgaben
--   **Systemintegration** durch einheitliche Datenformate
+- [PDF erstellen](/docs/bricks/advanced/print-out) — Für die Erzeugung von PDF-Dokumenten aus Word-Vorlagen
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Listen, die in der XML ausgegeben werden
