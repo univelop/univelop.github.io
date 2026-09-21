@@ -4,7 +4,7 @@ layout: title
 nav_order: 18
 ---
 
-Power Features sind erweiterte Funktionen in Univelop, die speziell für fortgeschrittene Anwendungsfälle entwickelt wurden. Bausteine und Kacheln mit Power Features sind an einem **Power-Badge** zu erkennen.
+Power Features sind erweiterte Funktionen in Univelop, die speziell für fortgeschrittene Anwendungsfälle entwickelt wurden. Bausteine und Komponenten mit Power Features sind an einem **Power-Badge** zu erkennen.
 
 ## Lizenz und Berechtigungen
 

@@ -18,7 +18,7 @@ Admins können in den Einstellungen der Benutzerverwaltung das Beta-Programm fü
 
 Falls in der Beta-Version ein Fehler auftritt, kann dieser über den Button **Problem melden** im App-Banner, über das Drei-Punkte-Menü oder per E-Mail an support@univelop.de gemeldet werden.
 
-Folgende Angaben helfen bei der schnellen Bearbeitung:
+Folgende Angaben helfen uns, einen Fehler schnellstmöglich zu bearbeiten:
 
 - **Arbeitsbereich:** z. B. Müller GmbH
 - **URL:** z. B. `https://app.univelop.de/#/ws/...`

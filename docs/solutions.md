@@ -13,7 +13,7 @@ Solutions können sowohl **öffentlich** als auch **privat** genutzt werden. Pri
 Öffentliche Solutions können im Solution-Store eingesehen werden: [app.univelop.de/#/store](https://app.univelop.de/#/store)
 
 {: .hint }
-Der Solution-Store befindet sich aktuell in der Beta. Einige Funktionen, wie die Installation in einen bestehenden Arbeitsbereich, stehen daher noch nicht zur Verfügung.
+Der Solution-Store befindet sich aktuell in der Beta-Phase. Einige Funktionen, wie die Installation in einen bestehenden Arbeitsbereich, stehen daher noch nicht zur Verfügung.
 
 ## Solutions erstellen
 

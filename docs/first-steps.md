@@ -26,9 +26,9 @@ Falls ein bestehender Account mit einem OAuth-Anbieter verbunden werden soll, mu
 
 Nach der ersten Anmeldung wird das Erstellen eines Arbeitsbereichs vorgeschlagen. Es stehen drei Optionen zur Verfügung:
 
-1. **Neuer Arbeitsbereich** — ein leerer Arbeitsbereich wird angelegt, in dem direkt mit dem Aufbau begonnen werden kann
-2. **Arbeitsbereich importieren** — ein zuvor exportierter Arbeitsbereich wird als neuer, eigenständiger Arbeitsbereich eingelesen
-3. **Vorlage auswählen** — ein Arbeitsbereich mit vordefinierten Kacheln und Beispieldatensätzen wird erstellt, der an die eigenen Anforderungen angepasst werden kann
+1. **Mit Vorlage aus dem Solution Store starten** — ein Arbeitsbereich wird auf Basis einer Solution aus dem Solution Store angelegt, passend zur eigenen Branche und den eigenen Bedürfnissen
+2. **Mit leerem Arbeitsbereich starten** — ein leerer Arbeitsbereich wird angelegt, in dem direkt mit dem Aufbau begonnen werden kann
+3. **Arbeitsbereich importieren** — ein zuvor exportierter Arbeitsbereich wird als neuer, eigenständiger Arbeitsbereich eingelesen
 
 ## Einem Arbeitsbereich beitreten
 

@@ -4,7 +4,10 @@ nav_order: 17
 layout: title
 ---
 
-Credits sind die Verrechnungseinheit für bestimmte Aktionen in Univelop. Jede Lizenz beinhaltet ein monatliches Credit-Kontingent. Der aktuelle Verbrauch kann in den [Arbeitsbereich-Einstellungen unter Abrechnung](/docs/workspace-settings/billing) eingesehen werden.
+Credits sind die Verrechnungseinheit für bestimmte Aktionen in Univelop. Jede Lizenz beinhaltet ein monatlich inkludiertes Credit-Kontingent. Der aktuelle Verbrauch kann im Kosten-Center der Arbeitsbereich-Einstellungen eingesehen werden.
+
+{: .hint }
+Das Kosten-Center steht nur in der produktiven Umgebung (APP) zur Verfügung, nicht in NEXT.
 
 ## Credit-Verbrauch
 
@@ -21,7 +24,7 @@ Folgende Aktionen verbrauchen Credits:
 
 ## Monatliches Kontingent
 
-Das monatliche Credit-Kontingent hängt vom Lizenztyp ab:
+Das monatlich inkludierte Credit-Kontingent hängt vom Lizenztyp ab:
 
 | Lizenz | Credits/Monat |
 |---|---|

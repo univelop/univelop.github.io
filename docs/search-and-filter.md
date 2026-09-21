@@ -8,7 +8,7 @@ redirect_from:
 
 ## Suchen
 
-Mit dem Lupen-Symbol kann innerhalb einer Liste, einer Filterkachel oder einer verknüpften Datensatzliste nach Inhalten gesucht werden.
+Mit dem Lupen-Symbol kann innerhalb einer Liste, einer Filterkomponente oder einer verknüpften Datensatzliste nach Inhalten gesucht werden.
 
 Univelop bietet eine **Volltextsuche** — es wird immer am Anfang eines Worts gesucht. Die Suche nach "Mey" findet "Meyer", aber die Suche nach "yer" nicht. Die Suche umfasst alle Werte innerhalb eines Datensatzes.
 
@@ -16,12 +16,12 @@ Die Sortierung der Suchergebnisse zeigt zuerst exakte Treffer und anschließend 
 
 ## Filter und Sortierung
 
-Filter und Sortierung können überall dort eingestellt werden, wo eine Liste von Datensätzen angezeigt wird — in Listen, Filterkacheln sowie den Bausteinen Datensatzliste, Tabelle und Matrix.
+Filter und Sortierung können überall dort eingestellt werden, wo eine Liste von Datensätzen angezeigt wird — in Listen, Filterkomponenten sowie den Bausteinen Datensatzliste, Tabelle und Matrix.
 
 ### Globale vs. temporäre Filter
 
 - **Globale Filter** werden im Designmodus festgelegt und gelten dauerhaft
-- **Temporäre Filter** werden im Bearbeitungsmodus gesetzt und gelten nur für die aktuelle Sitzung. Sie können als eigene Kachel gespeichert werden.
+- **Temporäre Filter** werden im Bearbeitungsmodus gesetzt und gelten nur für die aktuelle Sitzung. Sie können als eigene Komponente gespeichert werden.
 
 ### Sortierung
 
