@@ -8,19 +8,34 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/date.html
 ---
 
-Mit dem Baustein _Datum_ kann ein Einzeldatum für den Datensatz eingetragen werden. Bei Bedarf auch inklusive Uhrzeit und Anzeige des Wochentags.
+Mit dem Baustein _Datum_ kann ein einzelnes Datum erfasst werden, optional inklusive Uhrzeit. Er eignet sich für Termine, Fristen, Erstellungsdaten und alle weiteren datumsabhängigen Felder. Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen. 
 
-![date](\old_assets\record-spec-settings\1date.png 'date')
+## Einstellungen
 
-Das heutige Datum ist immer voreingestellt.
-Die Uhrzeit können Sie im Bearbeitungsmodus entweder händisch eintragen, oder über das Symbol anklicken.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Baustein eignet sich für sämtliche datumsabhängige Datensätze, z.B. Termine oder Erstellungsdatum.
-Zwecks einer besseren Darstellung einzelner Einträge bietet sich ggf. der Einsatz des Baustein _Kalender_ an.
+1. **Inklusive Uhrzeit** — Erweitert den Baustein um eine Zeiteingabe zusätzlich zum Datum.
+2. **Wochentag anzeigen** — Zeigt den Wochentag neben dem Datum an.
+3. **Aktuelles Datum standardmäßig setzen** — Setzt beim Erstellen eines neuen Eintrags automatisch das aktuelle Datum (und ggf. die aktuelle Uhrzeit).
+4. **Frühestmögliches Datum** — Formel, die das früheste auswählbare Datum bestimmt. Unterstützt Datumsformeln für dynamische Grenzen.
+5. **Spätestmögliches Datum** — Formel, die das späteste auswählbare Datum bestimmt. Unterstützt Datumsformeln für dynamische Grenzen.
+6. **Textfarbe rot** — Zeigt das Datum in roter Schrift an.
+7. **Textfarbe Bedingung** — Formel, die bestimmt, unter welchen Bedingungen das Datum rot dargestellt wird. Nur verfügbar wenn _Textfarbe rot_ aktiviert ist.
 
-Über die Einstellung _frühestmögliches Datum_ kann eingestellt werden, welches Datum als erstes ausgewählt werden kann.
-Ist hier bspw. der 15.06.2021 angegeben, kann im Baustein kein Datum vor dem 15.06.2021 gewählt werden.
-Die Einstellung _spätestmögliches Datum_ gibt das letztmögliche Datum an.
-Ist hier bspw. der 16.06.2021 angegeben, kann im Baustein kein Datum nach dem 16.06.2021 gewählt werden.
-Sind beide Einstellungen wie genannt gesetzt, können nur der 15.06.2021 und der 16.06.2021 gewählt werden.
-Beide Einstellungen sind als Datumsformel anzugeben. Somit kann z.B. für die Beantragung von Urlaub die Datumsangabe auf Tage beschränkt werden, die mindestens 30 Tage im Voraus, aber noch im selben Jahr liegen.
+## Hinweise
+
+- Neben dem Datumswert stehen automatisch auch die Kalenderwoche und der Monat als abgeleitete Werte zur Verfügung, z. B. in Formeln.
+- Für eine kalendarische Darstellung mehrerer Datumseinträge eignet sich der Baustein [Kalender](/docs/bricks/advanced/calendar).
+
+## Funktionsweise
+
+Wollen wir eine dynamische Datenauswahl einstellen - z. B. nur Daten die 30 Tage im Voraus des aktuellen Tages liegen - können wir dies über _Frühestmögliches Datum_ im Design Modus einstellen. Dazu öffnen wir den Formeleditor des Datenbausteins und geben unsere benötigte Formeln ein. 
+![alt text](/assets/bricks/input/date-picker-editor.png)
+Im Auswahl Dialog des sind anschließend nur die erlaubten Daten auswählbar. Alle nicht auswählbaren Daten sind ausgegraut. 
+![alt text](/assets/bricks/input/date-picker-dialog.png)
+
+## Verwandte Bausteine
+
+- [Datumsspanne](/docs/bricks/input/date-range) — Für einen Zeitraum mit Start- und Enddatum
+- [Zeitspanne](/docs/bricks/input/time-span) — Für Von-Bis-Uhrzeiten mit Stundenberechnung
+- [Kalender](/docs/bricks/advanced/calendar) — Für kalendarische Darstellung von Datumswerten
