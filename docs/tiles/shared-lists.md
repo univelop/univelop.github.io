@@ -18,7 +18,7 @@ Die Freigabe wird im Besitzer-Arbeitsbereich eingerichtet und erfordert Admin-Re
 
 1. Öffne die Liste im [Designmodus](/docs/designmode/record) und wechsle in die Erweiterten Einstellungen.
 2. Aktiviere den Schalter Liste freigeben und bestätige mit dem Namen der Liste.
-3. Klicke unter dem Schalter auf Arbeitsbereich hinzufügen und gib die ID des Ziel-Arbeitsbereichs ein. Du findest sie in dessen URL, zum Beispiel `app.univelop.de/#/ws/XEke8s3IMCkeQKTHX94V/...`.
+3. Klicke unter dem Schalter auf Arbeitsbereich hinzufügen und gib die ID des Ziel-Arbeitsbereichs ein.
 4. Wiederhole Schritt 3 für alle weiteren Arbeitsbereiche.
 
 Die Rollen des Empfänger-Arbeitsbereichs erhalten zunächst Standardrechte auf die Liste und sollten über die [Rollen](/docs/member-management/roles-rights) angepasst werden.
