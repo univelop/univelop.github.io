@@ -12,7 +12,9 @@ redirect_from:
 
 Über den Baustein _Rufe E-Mails ab_ können E-Mails aus einem Postfach abgerufen werden.
 
-Um E-Mails von Azure abrufen zu können, muss dies zuerst eingerichtet und im Arbeitsbereich konfiguriert werden, wie in dieser Anleitung beschrieben.
+Abgerufen werden kann aus jedem Postfach, für das eine Integration eingerichtet ist, die das Abrufen von E-Mails unterstützt: _Microsoft - Anwendungszugriff_, _Microsoft - Delegierter Zugriff_ sowie _E-Mail (SMTP/IMAP)_.
+
+Die passende Integration muss zuvor im Arbeitsbereich eingerichtet werden: für Microsoft ist das Vorgehen unter [E-Mail-Versand](../../workspace-settings/mailing.md) beschrieben, für IMAP-Postfächer unter [E-Mail (SMTP/IMAP)](../../workspace-settings/smtp-imap.md).
 
 Abgerufen werden die ersten **50** E-Mails aus dem Ordner **Posteingang (Inbox)** des angegebenen Postfaches, welche zu den gesetzten Einstellungen passen. Wenn es mehr als 50 E-Mails gibt, die zu den Einstellungen passen, wird in den Logs eine Warnung diesbezüglich ausgegeben.
 
@@ -22,6 +24,7 @@ Sollen mehr E-Mails verarbeitet werden, kann dies beispielsweise umgesetzt werde
 
 1. <span style="color:#0b5394">**Empfänger-E-Mail (Text)**</span>
    Hier muss die E-Mail-Adresse des Postfachs angegeben werden, aus welchem E-Mails abgerufen werden sollen.
+   Bei der Integration _Microsoft - Delegierter Zugriff_ ist das Postfach durch das verbundene Konto festgelegt und wird nur angezeigt.
 1. <span style="color:#0b5394">**Nur ungelesene (Ja/Nein)**</span>
    Wird diese Option auf Ja gesetzt, werden nur ungelesene E-Mails ausgegeben. Andernfalls werden sowohl ungelesene als auch gelesene abgerufen.
 1. <span style="color:#0b5394">**Nach dem Abrufen auf Gelesen stellen (Ja/Nein)**</span>
