@@ -25,15 +25,15 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
    - _Navigiere zum Homescreen_ — Navigiert zurück zum Homescreen des Arbeitsbereichs.
    - _Navigiere zur Seitenkomponente_ — Öffnet eine bestimmte Seite innerhalb des Arbeitsbereichs. Über Filter im Dialog 'Vorbelegung' können der Seite Standardwerte mitgegeben werden.
 3. **Verknüpfung mit** — Die Liste, zu der navigiert wird oder in der ein Eintrag erstellt/gesucht wird. Nur verfügbar bei den Aktionen _Navigiere zu Liste_, _Navigiere zum ersten Eintrag_ und _Erstelle einen neuen Datensatz_.
-4. **Filter und Sortierung** — Filterbedingungen, um die Ergebnisse der Navigation einzuschränken, sowie der Baustein aus der Zielliste, nach dem die Ergebnisse sortiert werden, und die Sortierrichtung (aufsteigend/absteigend).
+4. **Filter und Sortierung** — Es können Filterbedingungen erstellt werden, um die Ergebnisse der Navigation einzuschränken. Es kann ein Baustein aus der Zielliste gewählt werden, nach dem die Ergebnisse sortiert werden, sowie die Sortierrichtung (aufsteigend/absteigend) festgelegt werden.
 5. **Aktuelle Seite ersetzen** — Ersetzt die aktuelle Seite durch das Navigationsziel. Wird die Seite anschließend über den Zurück-Button verlassen, führt dieser zum Homescreen statt zur ursprünglichen Seite zurück.
-6. **Im Dialog öffnen** — Öffnet das Navigationsziel als Dialog-Overlay statt als vollständige Navigation. Nur verfügbar bei _Navigiere zum ersten Eintrag_, _Navigiere zur Seitenkomponente_ und _Erstelle einen neuen Datensatz_.
+6. **Im Dialog öffnen** — Öffnet das Navigationsziel in einem Pop-Up Fenster statt als vollständige Navigation. Nur verfügbar bei _Navigiere zum ersten Eintrag_, _Navigiere zur Seitenkomponente_ und _Erstelle einen neuen Datensatz_.
 7. **Vorbelegung** — Über Filter können einem neuen Eintrag bzw. einer neuen Seite Standardwerte mitgegeben werden. Nur verfügbar bei _Navigiere zur Seitenkomponente_ und _Erstelle einen neuen Datensatz_.
 8. **Erstelle Datensatz, wenn keiner gefunden wurde** — Erstellt automatisch einen neuen Eintrag, wenn die Filter kein Ergebnis liefern. Nur verfügbar bei _Navigiere zum ersten Eintrag_.
 
 ## Hinweise
 
-- Dieser Baustein ist in geteilten Datensätzen (Shared Record Specs) nicht verfügbar.
+- Dieser Baustein steht nicht in Datensätzen einer mit anderen Arbeitsbereichen geteilten Liste zur Verfügung.
 
 ## Funktionsweise
 

@@ -26,7 +26,6 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Ein Abschnitt kann auch ohne Ein-/Ausklappfunktion genutzt werden, um Einträge rein optisch zu gliedern.
 
 ## Funktionsweise
-
 Über _Zusammenklappbar_ können wir unseren Abschnitt ein- und ausklappbar machen und über _Standardmäßig zusammengeklappt_ einstellen, dass dieser beim Aufrufen des Eintrags zusammengeklappt ist. Unter _Bausteine für Kopfzeile_ können dann Bausteine, die im zusammengeklappten Zustand unter der Überschrift erscheinen sollen, ausgewählt werden, hier bspw. ein Datei-Upload.
 ![alt text](/assets/workflows/advanced/bricks/basic/section-overview-v2.png)
 Beim Dateiupload-Baustein wird die Anzahl der vorhandenen Dateien angezeigt.
