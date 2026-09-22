@@ -12,7 +12,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.0.0 ausgerollt:
 Der Baustein _Datensatz sperren_ ermöglicht es Datensätze als unveränderbar zu sichern und zusätzlich eine Pflichtfeldprüfung (Bausteineinstellungen --> Validierung) vorzunehmen. Damit können wichtige Bausteine nicht mehr einfach übergangen werden. Zusätzlich wird der Benutzer und das Datum der Sperrung dokumentiert.
 Der Baustein _Datensatz sperren_ kann zusätzlich mit dem Baustein _Status_ kombiniert werden. In den einzelnen Benutzerrollen können die Rechte für das Entsperren der Einträge festgelegt werden.
 
-![release lock](\old_assets\latest-updates\release lock.png "release lock")
+![release lock](/old_assets/latest-updates/release lock.png "release lock")
 
 ## <span style="color:#0b5394">**Dateiimport via PowerShell**</span>
 
@@ -26,7 +26,7 @@ Der Baustein „Rechnung“ ist zusammen mit dem Partnerunternehmen Dexpro Solut
 
 Wird ein neuer Arbeitsbereich in Univelop hinzugefügt, stehen ab sofort verschiedene Vorlagen zur Verwendung bereit. Diese Vorlagen sind entsprechend des Themas vorgefertigte Arbeitsbereiche mit dazugehörigen Beispiel-Bausteinen. Diese Vorlagen können sowohl zum Trainieren als auch als Start zum Aufbau eines neuen Arbeitsbereichs genutzt werden.
 
-![release templates](\old_assets\latest-updates\release templates.png "release templates")
+![release templates](/old_assets/latest-updates/release templates.png "release templates")
 
 ## <span style="color:#0b5394">**neuer Baustein _Webhook_**</span>
 
