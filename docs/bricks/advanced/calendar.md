@@ -8,43 +8,34 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/calender.html
 ---
 
-Der _Kalender_ Baustein ist im Prinzip eine andere Darstellung einer Datensatz-Liste, für die eine Summe angezeigt wird.
-Der Baustein wird verwendet, um Einträge, die mit einem Baustein _Datum_ ausgewählt sind,
-in einer Kalenderform darzustellen. Beispiele sind Arbeitszeiten von Mitarbeitern, Wiedervorlageeinträge, Ablaufdatum,
-Aufgabenverwaltung, etc. Der Baustein _Kalender_ verweist dazu auf die Einträge die innerhalb des Kalender angezeigt werden.
+Der Baustein _Kalender_ stellt Einträge einer verknüpften Liste in einer Kalenderansicht dar. Er eignet sich z. B. für Arbeitszeiten, Wiedervorlageeinträge, Aufgabenplanung oder Terminübersichten. Der Baustein ist im Prinzip eine alternative Darstellung einer _Datensatz Liste_, bei der die Einträge anhand ihres Datums den Kalendertagen zugeordnet werden.
 
-![calender](\old_assets\record-spec-settings\calender.png 'calender')
+## Einstellungen
 
-Der Kalender wird mit zwei Kacheln verknüpft um die gewünschten Einträge entsprechend anzuzeigen.
-Bei der Auswahl eines Tages wird entsprechend den Einstellungen ebenfalls unter dem Kalender eine Vorschau der Einträge angezeigt.
-Eine zusätzliche Einstellung ist die Anzeige einer Summe in den einzelnen Tagen und auch das entsprechende Kalenderformat kann angepasst werden:
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-![calender](\old_assets\record-spec-settings\calender-settings.png 'calender')
+1. **Verknüpfung mit** — Die Liste, deren Einträge im Kalender angezeigt werden sollen.
+2. **Verknüpfung über** — Ein _Datensatz_-Baustein in der verknüpften Liste, der die Zuordnung zum aktuellen Datensatz herstellt. Es wird immer über sich selbst verknüpft.
+3. **Verknüpfung zu Datum** — Der _Datum_-Baustein in der verknüpften Liste, anhand dessen die Einträge den Kalendertagen zugeordnet werden.
+4. **Filter und Sortierung** — Schränkt die angezeigten Einträge ein.
+5. **Anzahl der Vorschau** — Die Anzahl der Datensätze, die bei Auswahl eines Tages in der Vorschau angezeigt werden.
+6. **Summe anzeigen** — Zeigt in den Kalendertagen eine Zusammenfassung an. Verfügbare Optionen:
+   - _Anzahl der Punkte_ — Ein Punkt pro Eintrag.
+   - _Anzahl der Einträge_ — Die Anzahl als Zahl.
+   - _Summe über einen Baustein_ — Die Summe eines numerischen Bausteins (z. B. Arbeitszeit) pro Tag.
+7. **Kalenderformat** — Das Anzeigeformat des Kalenders: _Monat_, _Zwei Wochen_ oder _Eine Woche_.
 
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
-   Hier wird die Kachel ausgewählt, die die Einträge für den Kalender beinhaltet. Sprich die anzuzeigenden Datensätze.
+## Funktionsweise
 
-2. <span style="color:#0b5394">**Verknüpfung über**</span>  
-   Eine Verknüpfung über findet immer über sich selbst statt, also einen Datensatz Baustein in der verknüpften Liste,
-   der zurück schaut auf die eigene Liste.
+Der Kalender zeigt die verknüpften Einträge an den entsprechenden Kalendertagen an. Bei Auswahl eines Tages wird unterhalb des Kalenders eine Vorschau der Einträge für diesen Tag angezeigt. Über die Vorschau können Einträge direkt geöffnet und bearbeitet werden.
 
-3. <span style="color:#0b5394">**Verknüpfung zu Datum**</span>  
-   Verweis auf den Baustein _Datum_ für die Zuordnung der einzelnen Tage
+## Hinweise
 
-4. <span style="color:#0b5394">**Anzahl der Vorschau**</span>  
-   Einstellung der Anzahl der Datensätze zur Vorschau
+- Der Baustein basiert auf der gleichen Verknüpfungslogik wie die _Datensatz Liste_.
+- Die Summenanzeige pro Tag ermöglicht z. B. die Darstellung der täglichen Arbeitszeit auf einen Blick.
 
-5. <span style="color:#0b5394">**Einstellungen "Summe anzeigen"**</span>  
-   Die Summen werden in den Tagen angezeigt, in denen der Baustein _Kalender_ Einträge gefunden hat. Folgende Einstellungen sind möglich:
+## Verwandte Bausteine
 
-    - Anzahl der Punkte (ein Punkt = ein Eintrag, zwei Punkte = zwei Einträge, etc.)
-    - Anzahl der Einträge (Ausgabe als Zahl)
-    - Summe über einen Baustein (Ausgabe der gewählten Summe (z. B. Arbeitszeit) für jeden Kalendertag)
-
-6. <span style="color:#0b5394">**Einstellung des Kalenderformats**</span>  
-   Folgende Einstellungen sind möglich:
-    - Monat
-    - zwei Wochen
-    - eine Woche
-
-Verwandte Beschreibungen zum Verknüpfen finden sich in der _Datensatz-Liste_
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Listenanzeige verknüpfter Einträge
+- [Terminplaner](/docs/bricks/advanced/scheduler) — Für die Wochenplanung mit Ressourcen
+- [Datum](/docs/bricks/input/date-picker) — Der Baustein, über den die Zuordnung zum Kalendertag erfolgt

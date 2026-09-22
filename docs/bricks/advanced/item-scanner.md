@@ -8,149 +8,64 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/article%20scanner.html
 ---
 
-Der Baustein _Artikel Scanner_ bietet die Möglichkeit mittels eines entsprechenden Endgeräts mit Scanlaser Artikelbewegungen (zusätzlich mit Scanfunktion weiterer Bausteine z. B. Lagerplatz) zu erfassen.
+Der Baustein _Artikel Scanner_ ermöglicht die Erfassung von Artikelbewegungen mittels eines Endgeräts mit Scanlaser. Er unterstützt zwei Modi: _Artikel hinzufügen_ (neuer Warenausgang) und _Artikel abarbeiten_ (bestehende Positionen abarbeiten).
 
-## <span style="color:#0b5394">Technische Voraussetzungen und benötigte Kacheln</span>
+## Voraussetzungen
 
-Der Baustein _Artikel Scanner_ ist **nicht** mit einer herkömmlichen Smartphonekamera bedienbar und auf dem eingesetzten Endgerät muss die Univelop-App installiert werden können (Betriebssysteme: Android oder iOS).
+- Ein Endgerät mit Scanlaser (nicht mit Smartphone-Kamera bedienbar). Die Univelop-App muss installiert sein (Android oder iOS).
+- Das Endgerät muss nach dem Scanvorgang einen automatischen Tab oder Enter senden, um die Suchfunktion auszulösen. Die Konfiguration erfolgt in den Geräteeinstellungen (z. B. bei Honeywell-Geräten über den Befehl `/t`).
+- Zwei zusätzliche Listen werden benötigt: eine für die Artikelbewegungen und eine für die Warenausgänge.
 
-Für einen einwandfreien Scanner-Modus muss das eingesetzte Endgerät so konfiguriert sein/werden, dass es nach dem Scanvorgang einen automatischen Tab oder Enter ausführt, um die benötigte Suchfunktion auszulösen. Am Beispiel eines Honeywell-Endgeräts in einer Lager-Arbeitsumgebung wurde in den Einstellungen des Gerätes der Befehl /t ergänzt, um den automatischen Tab nach dem Scanvorgang auszulösen.  
-Wo und wie die Einstellungen eines jeweiligen Gerätes zu finden sind, steht i. d. R. in den Dokumentationen der einzelnen Hersteller. Dazu kann im Internet z. B. nach "Scanner - (Modell- und Herstellername) - Suffix Enter" gesucht werden.
+## Einstellungen
 
-**Beispiel:**
-[Link: Hinzufügen/Entfernen eines Suffix auf einem Android-Endgerät mit CommonES (Honeywell)](https://honeywellaidc.force.com/supportppr/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater)  
-Durch den Klick auf den Link verlässt man UnivelopDocs und wechselt zu der Website der Honeywell Support-Community.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Neben den o. g. technischen Voraussetzungen zur Nutzung des Bausteins _Artikel Scanner_ werden ebenfalls zwei zusätzliche Kacheln benötigt, z. B. "Artikelbewegung" und "Warenausgang". Der Baustein verfügt über zwei Modi, die entsprechend der Anforderung ausgewählt werden können.
+1. **Verknüpfung mit** — Die Liste, in die die Artikelbewegungen geschrieben werden.
+2. **Verknüpfung über** — Die Liste, aus der die Warenausgänge angezeigt werden.
+3. **Modus** — Wählt zwischen _Artikel hinzufügen_ und _Artikel abarbeiten_.
+4. **Menge vorbelegen** — Die Standardmenge, die bei jedem Scanvorgang vorbelegt wird. Im Modus _Artikel abarbeiten_ kann hier auch eine Formel verwendet werden (z. B. `menge_angefragt - menge_ausgegeben`).
+5. **Mengenbaustein** — Der Baustein in der Artikelbewegung, in den die gescannte Menge eingetragen wird.
+6. **Zusätzlicher Mengenbaustein** — Ein optionaler zweiter Mengenbaustein.
+7. **Artikel-Baustein** — Der _Datensatz_-Baustein, der den Artikel referenziert.
+8. **Zusätzlicher Scannerbaustein** — Ein optionaler weiterer Baustein, der ebenfalls gescannt werden kann (z. B. Lagerplatz).
+9. **Filter und Sortierung** — Im Modus _Artikel abarbeiten_: Filtert die offenen Positionen (z. B. Differenz > 0).
+10. **Menge aufsummieren, statt überschreiben** — Nur im Modus _Artikel abarbeiten_: Summiert mehrere Scanvorgänge auf, statt den Wert zu überschreiben.
+11. **Scan zur Artikelbestätigung erzwingen** — Erwartet in jedem Fall einen Scanvorgang; manuelle Eingabe ist nicht möglich.
+12. **Automatisch bestätigen** — Bestätigt den Scanvorgang automatisch nach dem Eintragen aller Werte.
 
-## <span style="color:#0b5394">Modus "Artikel hinzufügen"</span>
+## Funktionsweise
 
-In den Bausteineinstellungen sind die Kacheln für "Verknüpfung mit" und "Verknüpfung über" einzustellen (Beispiel: "Verknüpfung
-mit" = Artikelbewegung, "Verknüpfung über" = Warenausgang)
-Anschließend wird der entsprechende Modus ausgewählt (in diesem Fall "Artikel hinzufügen").
-Im nächsten Schritt kann eine Menge vorbelegt werden, die als Platzhalter dient und von dem ausführenden Mitarbeiter überschrieben werden kann. Zusätzlich wird noch der Mengenbaustein angegeben. Bei Bedarf kann auch ein weiterer Mengenbaustein hinzugefügt werden.
+### Modus: Artikel hinzufügen
 
-Anschließend wird der hinzugefügte Artikel-Baustein verwendet, der über die ausgewählte Kachel bei "Verknüpfung über" ausgewählt wird.
+In diesem Modus wird ein Artikel gescannt und als neue Artikelbewegung erfasst. Der Scanner überträgt die Nummer in die Suche, der gefundene Artikel wird eingetragen, und nach Bestätigung wird die Artikelbewegung gespeichert.
 
-![article scanner filter1](\old_assets\record-spec-settings\article scanner filter1.png "article scanner filter1")
+Dieser Modus eignet sich, wenn Warenausgaben nicht elektronisch angefordert werden (z. B. per E-Mail). Ein Warenausgang wird manuell angelegt und die gescannten Artikel werden dem Ausgang zugeordnet.
 
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
-   Hier wird die Kachel verknüpft, in die die gescannte Artikelbewegung geschrieben werden soll
-2. <span style="color:#0b5394">**Verknüpfung über**</span>  
-   Die Kachel, aus denen die Datensätze für die entsprechenden Warenausgänge angezeigt werden sollen
-3. <span style="color:#0b5394">**Modus**</span>  
-   Auswahl zwischen "Artikel hinzufügen" und "Artikel abarbeiten" (s. u.)
-4. <span style="color:#0b5394">**Menge vorbelegen**</span>  
-   Vorgabe der Menge, die im Scanvorgang bei jedem Warenausgang vorbelegt werden soll
+### Modus: Artikel abarbeiten
 
-    ![article scanner filter2](\old_assets\record-spec-settings\article scanner filter2.png "article scanner filter2")
+In diesem Modus werden bestehende offene Positionen abgearbeitet. Der Baustein zeigt den nächsten zu scannenden Artikel an und die vorbelegte Menge wird aus einer Formel berechnet. Mehrere Scanvorgänge können aufsummiert werden.
 
-5. <span style="color:#0b5394">**Mengenbaustein**</span>  
-   Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
-6. <span style="color:#0b5394">**zusätzlicher Mengenbaustein**</span>  
-   Dieser kann nach belieben ebenfalls eingesetzt werden (sollten in der Artikelbewegung zwei Mengen ausgegeben werden)
-7. <span style="color:#0b5394">**Artikel Baustein**</span>  
-   Angabe des Bausteins, der auf die Kachel "Artikel" zurückgreift
-8. <span style="color:#0b5394">**Automatisch bestätigen**</span>  
-   Anstatt manuell jeden einzelnen Scanvorgang abzuschließen, kann dieser nach dem Scanvorgang und dem Einsetzen aller Parameter
-   auch automatisch bestätigt werden
+Dieser Modus eignet sich, wenn Bestellungen elektronisch in Univelop erfasst wurden und die physische Ausgabe dokumentiert werden soll.
 
-Wird nun der Baustein _Artikel Scanner_ in dem Modus "Artikel hinzufügen" genutzt, wird zuerst der Artikel gescannt. Anschließend überträgt der Scanner die Nummer in die Suche und der gefundene Artikel wird eingetragen. Bestätigt man nun den Scanvorgang, wird der Artikel mit der angegebenen Menge in der Kachel "Warenausgang" (Verknüpfung über) entsprechend als Warenausgang erfasst und ist anschließend unter "Artikelbewegung Abgeschlossen" zu finden.
+### Scanvorgang
 
-![article scanner add article1](\old_assets\record-spec-settings\article scanner add article1.png "article scanner add article1")
+Der Scanvorgang läuft wie folgt ab:
 
-1. <span style="color:#0b5394">**Scan-Nummer**</span>  
-   Hier wird die Nummer des gescannten Barcodes eingesetzt und anschließend durch den automatischen Tabs des Endgerätes die Artikelsuche ausgelöst (s. 6.)
-2. <span style="color:#0b5394">**Menge ausgegeben**</span>  
-   In diesem Bereich wird zuvor ausgewählte vorbelegte Menge eingesetzt
-3. <span style="color:#0b5394">**Menge anpassen**</span>  
-   Über Plus / Minus kann die "Menge" vor dem Hinzufügen des Artikels noch einmal angepasst werden
-4. <span style="color:#0b5394">**Artikel**</span>  
-   Hier wird der gefundene Artikel aus dem Scanvorgang angezeigt. Über das Scan-Icon vor dem Artikel kann der Scanvorgang noch einmal vorgenommen werden
-5. <span style="color:#0b5394">**Button Hinzufügen**</span>  
-   Speichert den durch den Scanvorgang erstellten Datensatz in Artikelbewegung ab und springt erneut in "Scan-Nummer" (s. 1)
-6. <span style="color:#0b5394">**Hinzufügen und Fertig**</span>  
-   Der erstellte Datensatz wird dem Warenausgang hinzugefügt und die Scanmaske wird geschlossen.
+1. Der Barcode wird gescannt und die Nummer in das Suchfeld übertragen.
+2. Der Artikel wird automatisch gesucht und zugeordnet.
+3. Die vorbelegte Menge kann über Plus/Minus angepasst werden.
+4. Optional wird ein zusätzlicher Baustein (z. B. Lagerplatz) gescannt.
+5. Per _Hinzufügen_ oder _Hinzufügen und Fertig_ wird der Vorgang abgeschlossen.
 
-Diese Funktion ist zu verwenden, wenn angeforderte Warenausgaben **nicht** elektronisch über Univelop erfolgen (z. B. per E-Mail, etc.) In der Kachel "Warenausgang" wird eine entsprechender Warenausgang mit Nummer angelegt und der Modus "Artikel hinzufügen" fügt anschließend lediglich die gescannten Artikel dem Warenausgang zu.
+Die Reihenfolge der Scanvorgänge ist frei wählbar — über das vorangestellte Icon kann bestimmt werden, welcher Baustein als nächstes gescannt wird (blau = nächster Scan).
 
-**Beispiel:**  
-![article scanner add article](\old_assets\record-spec-settings\article scanner add article.png "article scanner add article")
+## Hinweise
 
-## <span style="color:#0b5394">Modus "Artikel abarbeiten"</span>
+- Die Konfiguration des automatischen Tab/Enter nach dem Scanvorgang ist geräte- und herstellerabhängig. Die Dokumentation des jeweiligen Herstellers enthält entsprechende Anleitungen.
+- Im Modus _Artikel abarbeiten_ kann die Funktion _Menge aufsummieren_ genutzt werden, um Teillieferungen über mehrere Scanvorgänge abzubilden.
 
-Die Bausteineinstellungen sind genauso aufgebaut wie in dem Modus "Artikel hinzufügen". In dem Modus "Artikel abarbeiten" besteht die Möglichkeit Mengen aufzusummieren, statt zu überschreiben. Diese Einstellung hat zur Folge, dass z. B. vier Mengeneinheiten ausgegeben werden sollen, verteilt jedoch auf zwei Lagerläufe (erster Lauf: 3 Mengeneinheiten ausgegeben, zweiter Lauf: 1 Mengeneinheiten ausgegeben). In dieser Einstellung wird die Menge nicht überschrieben, sondern in Summe die auszugebende Menge aufgezeigt.
+## Verwandte Bausteine
 
-Die Warenausgabe benötigt einen Baustein _Datensatz Liste_ der offene Warenausgänge beinhaltet. Die offenen Warenausgänge sind zum Beispiel offene Bestellungen, die elektronisch über Univelop erfasst wurden. Der Button "Artikel abarbeiten" kann erst genutzt werden, sobald der Baustein "Artikel Scanner" offene Warenausgänge feststellt. Um dies zu ermöglichen, erhält der Baustein "Artikel Scanner" einen Filter.
-
-![article scanner filter](\old_assets\record-spec-settings\article scanner filter.png "article scanner filter")
-
-In der Einstellung "Menge vorbelegen" kann eine entsprechende Formel hinterlegt werden (z. B. Menge_angefragt - Menge_ausgegeben). Somit werden ausschließlich
-offene Mengen der einzelnen Positionen vorbelegt.
-Wird im Mengenbaustein nun der Baustein "Menge ausgeben" und als zusätzlicher Baustein "Lagerplatz" ausgewählt, wird die auszugebende Menge direkt errechnet und der Lagerplatz muss ebenfalls mitgescannt werden.
-
-![article scanner work off1](\old_assets\record-spec-settings\article scanner work off1.png "article scanner work off1")
-
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
-   Hier wird die Kachel verknüpft, in die die gescannte Artikelbewegung geschrieben werden soll
-
-2. <span style="color:#0b5394">**Verknüpfung über**</span>  
-   Dieser kann nach belieben ebenfalls eingesetzt werden (sollten in der Artikelbewegung zwei Mengen ausgegeben werden)
-
-3. <span style="color:#0b5394">**Modus**</span>  
-   Auswahl zwischen "Artikel hinzufügen" und "Artikel abarbeiten" (s. u.)
-
-4. <span style="color:#0b5394">**Filter und Sortierung**</span>  
-   Um den Baustein "Artikel abarbeiten" zu aktivieren, muss die offenen Warenausgänge gefiltert werden. Dazu wird die Differenz > 0 gesetzt
-
-5. <span style="color:#0b5394">**Menge aufsummieren, statt überschreiben**</span>  
-   Dies führt dazu, dass mehrere Scanvorgänge zu einer Artikelbewegung durchgeführt werden können, ohne dass die im 1. Scanvorgang erfasste Menge überschrieben wird.
-
-6. <span style="color:#0b5394">**Menge vorbelegen mit einer Formel**</span>  
-   Hier kann nicht nur eine Zahl vorgegeben werden, sondern diese lässt sich anhand einer Formel auch berechnen. In diesem Beispiel wird von der angefragten Menge die bereits ausgegebene Menge abgezogen, sodass dann die noch offene Menge vorbelegt wird.
-
-7. <span style="color:#0b5394">**Mengenbaustein**</span>  
-   Ist der Baustein für die Artikelbewegung, in dem die gescannte Ausgabemenge eingesetzt werden soll
-
-    ![article scanner article work off2](\old_assets\record-spec-settings\article scanner work off2.png "article scanner work off2")
-
-8. <span style="color:#0b5394">**Artikel Baustein**</span>  
-   Angabe des Bausteins, der auf die Kachel "Artikel" zurückgreift
-
-9. <span style="color:#0b5394">**Zusätzlicher Scannerbaustein**</span>  
-   Hier kann ein zusätzlicher Baustein aus den Artikelbewegungen eingesetzt werden, der ebenfalls eingescannt werden soll. In diesem Beispiel ist es der Lagerplatz. Hier wird angenommen, dass Artikel vorhanden sind, die an mehrere Lagerorten gelagert werden.
-
-10. <span style="color:#0b5394">**Scan zur Artikelbestätigung erzwingen**</span>  
-    Diese Einstellung führt dazu, dass in jedem Fall ein Scanvorgang erwartet wird um einen Artikel hinzuzufügen. Eine manuelle Eingabe/Suche ist nicht möglich.
-
-11. <span style="color:#0b5394">**Automatisch bestätigen**</span>  
-    Anstatt manuell jeden einzelnen Scanvorgang abzuschließen, kann dieser nach dem Scanvorgang und dem Einsetzen aller Parameter
-    auch automatisch bestätigt werden
-
-![article scanner work off4](\old_assets\record-spec-settings\article scanner work off4.png "article scanner work off4")
-
-1. <span style="color:#0b5394">**Ziel**</span>  
-   Aus der Datensatz Liste "Artikelbewegung offen" werden die Artikel entsprechend vorgeschlagen, die als Nächstes zu scanne ist und wo die angegebene Menge "verbucht" wird. Mit einem Klick auf den aktuell angezeigten Artikel kann der Benutzer aus allen vorhandenen Scanvorgängen einen auswählen und mit diesem beginnen.
-   ![article scanner work off5](\old_assets\record-spec-settings\article scanner work off5.png "article scanner work off5")
-2. <span style="color:#0b5394">**Scan-Nummer**</span>  
-   Hier wird die Nummer des gescannten Barcodes eingesetzt und anschließend durch den automatischen Tabs des Endgerätes die Artikelsuche ausgelöst (s. 5.)
-3. <span style="color:#0b5394">**Menge ausgegeben**</span>  
-   In diesem Bereich wird zuvor ausgewählte vorbelegte Menge eingesetzt
-4. <span style="color:#0b5394">**Menge anpassen**</span>  
-   Über Plus / Minus kann die "Menge" vor dem Hinzufügen des Artikels noch einmal angepasst werden
-5. <span style="color:#0b5394">**eingescannter Artikel**</span>  
-   Hier wird der gefundene Artikel aus dem Scanvorgang angezeigt. Wurde der Artikel gefunden erhält er in der Checkbox eine Bestätigung.
-   Über das Scan-Icon vor dem Artikel kann der Scanvorgang noch einmal vorgenommen werden (s. 7.)
-6. <span style="color:#0b5394">**Lagerplatz (zusätzlicher Scannerbaustein)**</span>  
-   Hier wird der zusätzlich Scannerbaustein angezeigt, der in den Einstellungen hinzugefügt wurde.
-7. <span style="color:#0b5394">**Kennzeichnung erwarteter Scan**</span>  
-   Das vorangestellte Icon wird entweder in blau oder in schwarz angezeigt. Die Farbe blau gibt an, dass der nächste Scan dieses Feld ansteuern wird. Möchte man allerdings zuerst den zweiten Scannerbaustein abscannen (hier Lagerplatz), kann mit einem Klick auf das Icon der Scanvorgang verschoben werden.
-8. <span style="color:#0b5394">**Bestätigen und schließen**</span>  
-   Führt dazu, dass der Scanvorgang abgeschlossen und das Scanfenster verlassen wird
-9. <span style="color:#0b5394">**Scanfenster schließen**</span>  
-   Führt automatisch dazu, dass das Scanfenster geschlossen wird.
-
-Der Baustein _Scanner Artikel_ führt nun dazu, dass die vorbelegte Menge als "offen" ausgegeben wird. Nun muss zum einem der Artikel und zu anderem der Lagerplatz gescannt werden. Durch die Bestätigung des Scanvorgangs wird dieser abgespeichert. Die Reihenfolge des Scanvorgangs ist dabei nicht vorgeschrieben. Über das vorangestellte Icon kann der Baustein ausgewählt werden, der entsprechend gescannt werden soll.
-
-**Beispiel:**
-![article scanner work off3](\old_assets\record-spec-settings\article scanner work off3.png "article scanner work off3")
+- [QR-Code / Barcode](/docs/bricks/advanced/qr-barcode) — Für die Anzeige von QR-Codes und Barcodes
+- [Datensatz Liste](/docs/bricks/advanced/record-list) — Für die Anzeige der offenen Positionen
+- [Datensatz](/docs/bricks/advanced/record-picker) — Für die Verknüpfung mit Artikelstammdaten
