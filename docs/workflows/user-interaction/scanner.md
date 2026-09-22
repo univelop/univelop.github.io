@@ -21,9 +21,9 @@ Mit dem Schritt _Öffne Scanner_ wird ein Scan-Dialog geöffnet, in dem der Benu
 ## Hinweise
 
 - Nur in **Geräteseitige-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
+- Dieser Schritt verbraucht einen [Credit](/docs/credits).
 
 ## Verwandte Bausteine
 
 - [QR-Code / Barcode](/docs/bricks/advanced/qr-barcode) — Für die Anzeige von Barcodes in Datensätzen
 - [Artikel Scanner](/docs/bricks/advanced/item-scanner) — Für die Artikelerfassung per Scanlaser
-

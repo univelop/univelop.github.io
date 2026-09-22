@@ -9,5 +9,16 @@ redirect_from:
     - /docs/workflows/grand-childs-bricks/continue-if.html
 ---
 
-Über den Baustein _Laufe weiter, wenn_ wird der Workflow anhand einer in den Einstellungen angegebener Ja-Nein-Formel entweder weitergeführt oder beendet.
-Darüber kann bspw. der Workflow gestoppt werden, wenn z. B. ein Bauteil nicht im Bestand liegt oder ein Fahrzeug nicht einsatzbereit ist.
+Mit dem Schritt _Laufe weiter, wenn_ wird der Workflow anhand einer Bedingung entweder fortgesetzt oder abgebrochen. Er eignet sich als Prüfpunkt, z. B. um sicherzustellen, dass ein Bauteil im Bestand liegt oder ein Fahrzeug einsatzbereit ist.
+
+## Einstellungen
+
+1. **Bedingung** — Eine Ja/Nein-Formel. Ergibt die Formel `true`, läuft der Workflow weiter. Bei `false` wird der Workflow beendet.
+2. **Warnung anzeigen** — Wenn aktiviert, wird bei Abbruch eine Warnung angezeigt.
+3. **Warnungstext** — Der Text der Warnung, die bei Abbruch angezeigt wird. Kann dynamisch mit `${}` gestaltet werden.
+
+## Hinweise
+
+- Der Abbruch wird in der Workflow-Historie als gestoppt (nicht als fehlgeschlagen) vermerkt.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht keine [Credits](/docs/credits).
