@@ -13,9 +13,9 @@ Mit dem Schritt _Lösche Datei_ wird eine Datei aus einem [Datei-Upload](/docs/b
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
-2. **Verknüpfung mit Baustein** — Der Datei-Upload- oder Bild-Upload-Baustein.
-3. **Datensatz-ID** — Die ID des Datensatzes. Kann als Formel angegeben werden.
+1. **Verknüpfen mit Liste** — Die Liste, in der der Datensatz liegt.
+2. **Datensatz-ID** — Die ID des Datensatzes. Kann als Formel angegeben werden.
+3. **Verknüpfung mit Baustein** — Der Datei-Upload- oder Bild-Upload-Baustein.
 4. **Dateiname** — Der Name der zu löschenden Datei. Groß- und Kleinschreibung wird beachtet (case-sensitiv).
 
 ## Beispiel: Mehrere Dateien löschen
@@ -24,4 +24,4 @@ Mit einem [Iteriere über Werte](/docs/workflows/structure/iterate-list)-Schritt
 
 ## Hinweise
 
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.

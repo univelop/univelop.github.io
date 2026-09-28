@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Entferne einen Benutzer
+title: Benutzer aus Arbeitsbereich entfernen
 parent: Benutzerverwaltung
 grand_parent: Workflows
 icon: format_list_numbered
@@ -10,7 +10,7 @@ redirect_from:
     - /docs/workflows/advanced/remove-user.html
 ---
 
-Mit dem Schritt _Entferne einen Benutzer_ wird ein Benutzer aus dem aktuellen Arbeitsbereich entfernt. Der Benutzer wird anhand seiner E-Mail-Adresse, der ID aus der Mitgliederkachel oder der Benutzer-ID identifiziert.
+Mit dem Schritt _Benutzer aus Arbeitsbereich entfernen_ wird ein Benutzer aus dem aktuellen Arbeitsbereich entfernt. Der Benutzer wird anhand seiner E-Mail-Adresse, der ID aus der Mitgliederkachel oder der Benutzer-ID identifiziert.
 
 ## Einstellungen
 
@@ -19,4 +19,4 @@ Mit dem Schritt _Entferne einen Benutzer_ wird ein Benutzer aus dem aktuellen Ar
 ## Hinweise
 
 - Der Benutzer-Account wird nicht gelöscht — nur die Mitgliedschaft im Arbeitsbereich wird entfernt.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
