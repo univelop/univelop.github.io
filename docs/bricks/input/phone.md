@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/telephone.html
 ---
 
-Mit dem Baustein _Telefon_ können Telefonnummern erfasst werden. Das Format wird automatisch validiert. Über das Hörer-Symbol im Eintrag kann direkt der Telefondienst des Geräts gestartet und die hinterlegte Nummer angerufen werden.
+Mit dem Baustein _Telefon_ können Telefonnummern erfasst werden. Es werden nur Zahlen akzeptiert, eine Prüfung auf ein gültiges Telefonnummernformat erfolgt jedoch nicht. Über das Hörer-Symbol im Eintrag kann direkt der Telefondienst des Geräts gestartet und die hinterlegte Nummer angerufen werden.
 
 ## Einstellungen
 
@@ -19,4 +19,4 @@ Dieser Baustein besitzt keine zusätzlichen bausteinspezifischen Einstellungen.
 ## Verwandte Bausteine
 
 - [E-Mail](/docs/bricks/input/email) — Für E-Mail-Adressen mit Mailfunktion
-- [Textfeld](/docs/bricks/input/text-field) — Für allgemeine Texteingaben ohne Validierung
+- [Textfeld](/docs/bricks/input/text-field) — Für allgemeine Texteingaben ohne Zahlenbeschränkung

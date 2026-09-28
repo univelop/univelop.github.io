@@ -15,9 +15,9 @@ Mit dem Baustein _Textfeld_ können beliebige textuelle Inhalte erfasst werden. 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 1. **Anzahl der Zeilen für ein mehrzeiliges Textfeld** — Aktiviert ein mehrzeiliges Textfeld. Ist diese Einstellung nicht aktiviert wird ein einzeiliges Feld angezeigt. Bei der Texteingabe im _Standard Text_ kann über die Enter-Taste mehrzeilig geschrieben werden. Bei höheren Werten wird das Feld direkt in der entsprechenden Höhe angezeigt.
-3. **Standard Text** — Ein vorausgefüllter Text, der beim Erstellen eines neuen Eintrags automatisch eingetragen wird. Kann vom Nutzer überschrieben werden.
-4. **Text in rot darstellen** — Zeigt den eingegebenen Text in roter Schrift an, z. B. für wichtige Vermerke.
-5. **Bedingung für roten Text** — Formel, die bestimmt, unter welchen Bedingungen der Text rot dargestellt wird. Nur verfügbar wenn _Text in rot darstellen_ aktiviert ist.
+2. **Standard Text** — Ein vorausgefüllter Text, der beim Erstellen eines neuen Eintrags automatisch eingetragen wird. Kann vom Nutzer überschrieben werden.
+3. **Textfarbe rot** — Zeigt den eingegebenen Text in roter Schrift an, z. B. für wichtige Vermerke.
+4. **Textfarbe Bedingung** — Formel, die bestimmt, unter welchen Bedingungen der Text rot dargestellt wird. Nur verfügbar wenn _Textfarbe rot_ aktiviert ist.
 
 ## Verwandte Bausteine
 

@@ -14,11 +14,11 @@ Der Baustein _Nummer_ ermöglicht die Eingabe von Zahlenwerten. Er eignet sich f
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Nachkommastellen** — Anzahl der angezeigten Dezimalstellen. Bei 0 werden nur Ganzzahlen akzeptiert. Ohne Angabe werden standardmäßig 2 Nachkommastellen angezeigt.
+1. **Anzahl Nachkommastellen** — Anzahl der angezeigten Dezimalstellen. Bei 0 werden nur Ganzzahlen akzeptiert. Ohne Angabe werden standardmäßig 2 Nachkommastellen angezeigt.
 2. **Tausender-Trennzeichen** — Aktiviert die Anzeige von Tausender-Trennzeichen für bessere Lesbarkeit (z. B. 1.000.000).
 3. **Kleinstmögliche Zahl** — Untere Grenze des erlaubten Wertebereichs. Unterstützt Formeln für dynamische Grenzen sowie feste Zahlenwerte.
 4. **Größtmögliche Zahl** — Obere Grenze des erlaubten Wertebereichs. Unterstützt Formeln für dynamische Grenzen sowie feste Zahlenwerte.
-5. **Startwert** — Ein vorausgefüllter Zahlenwert beim Erstellen eines neuen Eintrags. Nur verfügbar wenn keine Wertegrenzen gesetzt sind.
+5. **Standard-Nummer** — Ein vorausgefüllter Zahlenwert beim Erstellen eines neuen Eintrags. Nur verfügbar wenn keine Wertegrenzen gesetzt sind.
 
 ## Hinweise
 

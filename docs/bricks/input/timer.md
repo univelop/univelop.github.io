@@ -17,7 +17,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 1. **Erfassung von Pausen** — Aktiviert die Möglichkeit, den Timer zu pausieren. Während der Pause wird die Hauptzeit gestoppt, die Pausendauer aber intern weiter aufgezeichnet.
 2. **Pop-Up verstecken** — Blendet den Timer-Dialog standardmäßig aus.
 3. **Unter Bedingungen anzeigen** — Filterbedingungen, unter denen der Timer-Dialog trotz _Pop-Up verstecken_ angezeigt wird. Nur verfügbar wenn _Pop-Up verstecken_ aktiviert ist.
-4. **Workflow starten** — Ein Workflow, der automatisch ausgelöst wird, sobald der Timer gestoppt oder pausiert wird. Der Workflow wird nur ausgelöst, wenn in _Workflow starten, wenn_ eine Auswahl an Auslösern ausgewählt wird. 
+4. **Workflow starten** — Ein Workflow, der automatisch ausgelöst wird, sobald eines der unter _Workflow starten, wenn_ ausgewählten Ereignisse eintritt.
 5. **Workflow starten, wenn** — Legt fest, wann ein Workflow gestartet wird (beim Starten, Pausieren, Fortfahren oder Stoppen). Es kann eine Mehrfachauswahl getroffen werden. 
 
 

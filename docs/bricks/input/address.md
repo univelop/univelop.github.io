@@ -26,9 +26,6 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Für die Nutzung des „Aktueller Standort"-Buttons muss der Gerätestandort aktiviert und die Standortberechtigung für Univelop erteilt sein. Die Genauigkeit kann je nach Netzwerkverbindung variieren.
 - Die Adresse kann nur über das Karten-Symbol geöffnet werden, wenn mindestens ein Feld ausgefüllt ist.
 
-## Funktionsweise 
-
-
 ## Verwandte Bausteine
 
 - [GPS Position](/docs/bricks/input/geo-location) — Für exakte GPS-Koordinaten statt strukturierter Adressen

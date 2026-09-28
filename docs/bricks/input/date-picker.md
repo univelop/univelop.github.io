@@ -8,7 +8,7 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/date.html
 ---
 
-Mit dem Baustein _Datum_ kann ein einzelnes Datum erfasst werden, optional inklusive Uhrzeit. Er eignet sich für Termine, Fristen, Erstellungsdaten und alle weiteren datumsabhängigen Felder. Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen. 
+Mit dem Baustein _Datum_ kann ein einzelnes Datum erfasst werden, optional inklusive Uhrzeit und Wochentag. Er eignet sich für Termine, Fristen, Erstellungsdaten und alle weiteren datumsbezogenen Anwendungsfälle. Mit einem Klick auf das Kalender-Icon wird der aktuelle Tag automatisch in den Baustein _Datum_ übernommen.
 
 ## Einstellungen
 
@@ -29,9 +29,9 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 ## Funktionsweise
 
-Wollen wir eine dynamische Datenauswahl einstellen - z. B. nur Daten die 30 Tage im Voraus des aktuellen Tages liegen - können wir dies über _Frühestmögliches Datum_ im Design Modus einstellen. Dazu öffnen wir den Formeleditor des Datenbausteins und geben unsere benötigte Formeln ein. 
+Wollen wir eine dynamische Datumsauswahl einstellen — z. B. nur Daten, die 30 Tage im Voraus des aktuellen Tages liegen — können wir dies über _Frühestmögliches Datum_ im Designmodus einstellen. Dazu öffnen wir den Formeleditor des Datumsbausteins und geben die benötigte Formel ein.
 ![alt text](/assets/bricks/input/date-picker-editor.png)
-Im Auswahl Dialog des sind anschließend nur die erlaubten Daten auswählbar. Alle nicht auswählbaren Daten sind ausgegraut. 
+Im Auswahl-Dialog sind anschließend nur die erlaubten Daten auswählbar. Alle nicht auswählbaren Daten sind ausgegraut.
 ![alt text](/assets/bricks/input/date-picker-dialog.png)
 
 ## Verwandte Bausteine

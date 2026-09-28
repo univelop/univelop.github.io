@@ -8,13 +8,13 @@ redirect_from:
     - /docs/record-spec-settings/grand-childs-form/interval.html
 ---
 
-Mit dem Baustein _Zeitspanne_ kann ein Zeitraum als Von- und Bis-Uhrzeit erfasst werden. Die Dauer wird automatisch in Stunden und Minuten berechnet, optional inklusive Pausenzeit.
+Mit dem Baustein _Zeitspanne_ kann ein Zeitraum als Von- und Bis-Uhrzeit erfasst werden. Die Dauer wird automatisch als Dezimalzahl in Stunden berechnet, optional inklusive Pausenzeit.
 
 ## Einstellungen
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Pausen erfassen** — Aktiviert ein zusätzliches Feld zur Erfassung der Pausenzeit. Die Pause wird von der Gesamtdauer abgezogen.
+1. **Erfassung von Pausen** — Aktiviert ein zusätzliches Feld zur Erfassung der Pausenzeit. Die Pause wird von der Gesamtdauer abgezogen.
 
 ## Hinweise
 
