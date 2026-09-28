@@ -14,11 +14,11 @@ Mit dem Schritt _Laufe weiter, wenn_ wird der Workflow anhand einer Bedingung en
 ## Einstellungen
 
 1. **Bedingung** — Eine Ja/Nein-Formel. Ergibt die Formel `true`, läuft der Workflow weiter. Bei `false` wird der Workflow beendet.
-2. **Warnung anzeigen** — Wenn aktiviert, wird bei Abbruch eine Warnung angezeigt.
-3. **Warnungstext** — Der Text der Warnung, die bei Abbruch angezeigt wird. Kann dynamisch mit `${}` gestaltet werden.
+2. **Warnung bei ungültiger Bedingung** — Wenn aktiviert, wird bei Abbruch eine Warnung angezeigt.
+3. **Warnhinweis** — Der Text der Warnung, die bei Abbruch angezeigt wird. Kann dynamisch mit `${}` gestaltet werden.
 
 ## Hinweise
 
 - Der Abbruch wird in der Workflow-Historie als gestoppt (nicht als fehlgeschlagen) vermerkt.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess, Regel, Regel ohne Schreibzugriff.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).

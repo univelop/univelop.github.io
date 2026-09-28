@@ -13,19 +13,19 @@ Mit dem Schritt _Erfasse Benutzereingabe_ wird ein Eingabedialog angezeigt, in d
 
 1. **Titel** — Der Titel des Eingabedialogs. Kann dynamisch mit `${}` gestaltet werden.
 2. **Nachricht** — _Optional._ Ein erklärender Text im Dialog.
-3. **Eingabetyp** — Der erwartete Datentyp der Eingabe: Text, Zahl, Datum, Ja/Nein, Liste oder Dynamisch.
-4. **Initialwert** — _Optional._ Ein vorausgefüllter Wert. Kann als Formel angegeben werden.
+3. **Typ der Variable** — Der erwartete Datentyp der Eingabe: Text, Zahl, Datum oder Ja/Nein.
+4. **Initialer Wert** — _Optional._ Ein vorausgefüllter Wert. Kann als Formel angegeben werden.
 
 ## Beispiel
 
 Um eine Menge vom Benutzer abzufragen:
 
 - Titel: `Menge eingeben`
-- Eingabetyp: Zahl
-- Initialwert: `1`
+- Typ der Variable: Zahl
+- Initialer Wert: `1`
 
 In folgenden Schritten ist der eingegebene Wert über den technischen Namen (z. B. `menge_eingabe`) zugreifbar.
 
 ## Hinweise
 
-- Nur in **Client-Automatisierungen** verfügbar — nicht auf dem Server ausführbar.
+- Nur in **geräteseitigen Automatisierungen** verfügbar — nicht auf dem Server ausführbar.

@@ -14,8 +14,8 @@ Mit dem Schritt _Iteriere über Werte_ wird eine Liste von Werten durchlaufen. F
 ## Einstellungen
 
 1. **Wert** — Eine explizite Liste (z. B. `[0,1,2,3]`, `[a,b,c]`) oder eine Formel, die eine Liste liefert.
-2. **Abbruchbedingung** — _Optional._ Eine Ja/Nein-Formel. Ergibt sie `true`, wird die Iteration vorzeitig beendet.
-3. **Bei Fehler fortfahren** — Wenn aktiviert, wird die Iteration nach einem Fehler in einem Durchlauf mit dem nächsten Wert fortgesetzt, statt den Workflow abzubrechen.
+2. **Bei Fehler fortsetzen** — Wenn aktiviert, wird die Iteration nach einem Fehler in einem Durchlauf mit dem nächsten Wert fortgesetzt, statt den Workflow abzubrechen.
+3. **Abbruchbedingung** — _Optional._ Eine Ja/Nein-Formel. Ergibt sie `true`, wird die Iteration vorzeitig beendet.
 
 ## Funktionsweise
 
@@ -27,5 +27,5 @@ Der Schritt enthält einen inneren Bereich, in den weitere Schritte platziert we
 
 - Verschachtelungen sind möglich — ein _Iteriere über Werte_-Schritt kann einen weiteren enthalten.
 - Für die Iteration über Datensätze einer Liste gibt es den spezialisierten Schritt [Iteriere über Einträge](/docs/workflows/record-loading/iterate-records).
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).

@@ -13,8 +13,8 @@ Mit dem Schritt _Wähle Pfade_ wird der Workflow in mehrere parallele Pfade aufg
 
 ## Einstellungen
 
-1. **Pfad-Bedingungen** — Für jeden Pfad wird eine Ja/Nein-Formel angegeben. Ergibt die Formel `true`, wird der Pfad ausgeführt.
-2. **Standard-Pfad** — Wird automatisch ausgeführt, wenn kein anderer Pfad aktiv ist. Wird mindestens ein normaler Pfad ausgeführt, wird der Standard-Pfad übersprungen.
+1. **Name Pfad** und **Bedingung Pfad** — Für jeden Pfad wird ein Name sowie eine Ja/Nein-Formel angegeben. Ergibt die Formel `true`, wird der Pfad ausgeführt. Über _Neuen Pfad hinzufügen_ können weitere Pfade ergänzt werden.
+2. **Name Standardpfad** — Der Standardpfad hat keine eigene Bedingung und wird automatisch ausgeführt, wenn kein anderer Pfad aktiv ist. Wird mindestens ein normaler Pfad ausgeführt, wird der Standardpfad übersprungen.
 
 ## Funktionsweise
 
@@ -24,5 +24,5 @@ Alle Pfade, deren Bedingung zutrifft, werden parallel ausgeführt. Die inneren S
 
 - Es können mehrere Pfade gleichzeitig aktiv sein — es handelt sich nicht um ein Entweder-Oder.
 - Der Standard-Pfad eignet sich als Fallback, z. B. für Fehlermeldungen wenn keine Bedingung zutrifft.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).

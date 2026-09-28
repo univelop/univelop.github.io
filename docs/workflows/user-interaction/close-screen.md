@@ -11,11 +11,11 @@ Mit dem Schritt _Schließe Seite_ wird auf dem Gerät die aktuelle Seite geschlo
 
 ## Einstellungen
 
-1. **Aktion** — Die Art der Navigation: _Eine Seite zurück_ oder _Zum Homescreen_.
+1. **Aktion** — Die Art der Navigation: _Navigiere zum Homescreen_ oder _Gehe eine Seite zurück_.
 
 ## Hinweise
 
-- Nur in **Client-Automatisierungen** verfügbar.
+- Nur in **geräteseitigen Automatisierungen** verfügbar.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).
 
 ## Verwandte Schritte

@@ -17,7 +17,7 @@ Mit dem Schritt _Setze Variablen_ werden benutzerdefinierte Variablen erstellt, 
 Für jede Variable wird angegeben:
 
 1. **Name** — Der Name, unter dem die Variable in folgenden Schritten referenziert wird (z. B. `meine_variable`).
-2. **Typ** — Der Datentyp der Variable (Text, Zahl, Datum, Ja/Nein, Liste, Dynamisch, Binär).
+2. **Typ** — Der Datentyp der Variable (Text, Datum, Zahl, Ja/Nein, Liste, Dynamischer Wert, Binär, Unbekannt).
 3. **Wert** — Der zuzuweisende Wert. Kann eine Formel sein, z. B. `bestellungen.id` für die ID eines geladenen Datensatzes.
 
 ## Beispiel
@@ -34,5 +34,5 @@ In folgenden Schritten ist der Wert über `gesamtbetrag` zugreifbar.
 
 - Es können mehrere Variablen in einem einzelnen Schritt definiert werden.
 - Der Typ muss korrekt gewählt werden — eine Zahl kann nicht in einer Text-Variable ohne Konvertierung gespeichert werden.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).
