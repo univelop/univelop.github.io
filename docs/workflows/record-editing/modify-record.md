@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Ändere einen Eintrag
+title: Ändere einen Datensatz
 parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: change_circle
@@ -10,15 +10,21 @@ redirect_from:
     - /docs/workflows/edit-records/modify-record.html
 ---
 
-Über den Baustein _Ändere einen Eintrag_ wird ein Baustein anhand der angegebenen Einstellungen ausgewählt, damit dessen Werte im folgenden Workflow zugreifbar sind.
+Mit dem Schritt _Ändere einen Datensatz_ werden Bausteinwerte eines bestehenden Datensatzes aktualisiert.
 
-![alter record docs](\old_assets\workflows\alter record docs.png "alter record docs")
+## Einstellungen
 
-1. <span style="color:#0b5394">**Verknüpfung mit**</span>  
-   Kachel zu der der Eintrag gehört, welcher geändert werden soll.
-2. <span style="color:#0b5394">**Eintrag ID**</span>  
-   Die ID zum eindeutigen Identifizieren des Eintrags, welcher geändert wird.
-3. <span style="color:#0b5394">**Variable**</span>  
-   Ein Baustein des Eintrages, der geändert wird.
-4. <span style="color:#0b5394">**Wert**</span>  
-   Der neue Wert, welcher in den Eintrag eingefügt wird.
+1. **Auf Speichern warten** — Wenn aktiviert, wartet der Workflow, bis die Änderungen gespeichert sind.
+2. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
+3. **Datensatz-ID** — Die ID des zu ändernden Datensatzes. Kann als Formel angegeben werden (z. B. `bestellungen.id`).
+4. **Variablen-Zuweisungen** — Für jeden zu ändernden Baustein wird der neue Wert angegeben. Der Wert muss zum Typ des Bausteins passen.
+
+## Hinweise
+
+- Nur die angegebenen Bausteine werden geändert — nicht aufgeführte Bausteine behalten ihren aktuellen Wert.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Erstelle einen neuen Datensatz](/docs/workflows/record-loading/create-record) — Zum Erstellen neuer Datensätze
+- [Lösche einen Datensatz](/docs/workflows/record-editing/delete-record) — Zum Löschen von Datensätzen

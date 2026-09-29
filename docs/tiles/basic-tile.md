@@ -25,7 +25,7 @@ Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-setting
 1. **Kachel-Info** — Wahl zwischen dem Icon oder einer numerischen Info (Anzahl der Datensätze oder Summe eines Bausteins). Siehe [Indikator](/docs/tiles/general-settings#kachel-info-indikator).
 2. **Filter und Sortierung** — Filter schränken die angezeigten Datensätze ein und beeinflussen auch die Kachel-Info. Die Sortierung legt die Reihenfolge in der Listenansicht fest.
 3. **Bei einzelnem Datensatz direkt zum Datensatz springen** — Überspringt die Listenansicht, wenn nur ein Datensatz vorhanden ist, und öffnet diesen direkt.
-4. **Liste freigeben** — Teilt die Liste mit anderen Arbeitsbereichen. Empfangende Arbeitsbereiche erhalten Leserechte auf die Liste und Schreibrechte auf die Datensätze, können aber keine Bausteine hinzufügen.
+4. **Liste freigeben** — Teilt die Liste samt Datensätzen mit anderen Arbeitsbereichen, z. B. für Stammdaten, die in mehreren Arbeitsbereichen benötigt werden. Alle Details unter [Geteilte Listen](/docs/tiles/shared-lists).
 5. **Volltextsuche** — Aktiviert die Volltextsuche über alle Felder.
 
 {: .hint }

@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Dupliziere einen Eintrag
+title: Dupliziere einen Datensatz
 parent: Einträge laden
 grand_parent: Workflows
 icon: content_copy
@@ -10,5 +10,18 @@ redirect_from:
     - /docs/workflows/load-records/duplicate-record.html
 ---
 
-Mit diesem Workflow-Baustein kann ein beliebiger Eintrag mithilfe der Eintrag-ID dupliziert werden.
-Die Einstellungen umfassen die Verbindung zu einer Liste sowie die Eintrags-ID.
+Mit dem Schritt _Dupliziere einen Datensatz_ wird eine Kopie eines bestehenden Datensatzes erstellt. Alle Bausteinwerte werden übernommen. Der duplizierte Datensatz ist in folgenden Schritten über den technischen Namen zugreifbar.
+
+## Einstellungen
+
+1. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
+2. **Datensatz-ID** — Die ID des zu duplizierenden Datensatzes. Kann als Formel angegeben werden.
+3. **Parameter** — _Optional._ Variablen, die im duplizierten Datensatz abweichende Werte setzen.
+
+## Hinweise
+
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
+
+## Verwandte Schritte
+
+- [Erstelle einen neuen Datensatz](/docs/workflows/record-loading/create-record) — Zum Erstellen eines leeren Datensatzes mit definierten Werten

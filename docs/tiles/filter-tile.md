@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Gefilterte Liste
-nav_order: 3
+nav_order: 4
 parent: Kacheln
 ---
 
