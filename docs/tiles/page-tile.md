@@ -25,7 +25,7 @@ Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-setting
 
 1. **Filter** — Optionale Filter, die beim Laden der Seite angewendet werden.
 
-## Verwandte Kacheln
+## Verwandte Komponenten
 
 - [Formular](/docs/tiles/form-tile) — Für Eingabemasken, deren Daten dauerhaft gespeichert werden
 - [Einfache Liste](/docs/tiles/basic-tile) — Für die Verwaltung mehrerer dauerhafter Einträge

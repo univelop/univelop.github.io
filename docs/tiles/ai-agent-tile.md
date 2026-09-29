@@ -5,21 +5,21 @@ nav_order: 13
 parent: Kacheln
 ---
 
-Die _AI Agent_-Kachel stellt einen KI-gestützten Assistenten bereit, der über einen konfigurierbaren Prompt und eine OpenAI-Integration Fragen beantworten und Aufgaben erledigen kann. Beim Öffnen der Kachel wird eine Chat-Oberfläche angezeigt, in der Nachrichten an den Agenten gesendet werden können.
+Die _AI Agent_-Komponente stellt einen KI-gestützten Assistenten bereit, der über einen konfigurierbaren Prompt und eine OpenAI-Integration Fragen beantworten und Aufgaben erledigen kann. Beim Öffnen der Komponente wird eine Chat-Oberfläche angezeigt, in der Nachrichten an den Agenten gesendet werden können.
 
 ## Einstellungen
 
 Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
 
 1. **Integration** — Die OpenAI-Integration, die der Agent für die Kommunikation nutzt. Wird in den [Arbeitsbereich-Einstellungen](/docs/workspace-settings/integrations) konfiguriert.
-2. **Prompt** — Der System-Prompt, der das Verhalten und den Kontext des Agenten definiert.
+2. **Aufgabenbeschreibung** — Beschreibung der Aufgabe und der Rolle, die die KI übernehmen soll.
 3. **Rolle** — Die Benutzerrolle, unter der der Agent im Arbeitsbereich agiert. Bestimmt, auf welche Daten der Agent zugreifen kann.
-4. **Mitglied** — Das Mitglied, als das der Agent agiert.
+4. **Mitglied auswählen** — Das Mitglied, als das der Agent agiert.
 
 ## Hinweise
 
 - Die KI-Features müssen im Arbeitsbereich aktiviert sein. Kontakt: [support@univelop.de](mailto:support@univelop.de).
-- Die AI Agent Kachel kann nicht als eigene (private) Kachel erstellt werden — sie ist nur als allgemeine Kachel verfügbar.
+- Die AI Agent Komponente kann nicht als eigene (private) Komponente erstellt werden — sie ist nur als allgemeine Komponente verfügbar.
 - Pro Anfrage werden [Credits](/docs/credits) verbraucht.
 
 ## Verwandte Schritte

@@ -14,7 +14,7 @@ Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-setting
 1. **Verknüpft mit** — Die Liste, aus der die To-Dos geladen werden.
 2. **Kachel-Info** — Zeigt automatisch die Anzahl der offenen Aufgaben an.
 
-## Verwandte Kacheln
+## Verwandte Komponenten
 
 - [Einfache Liste](/docs/tiles/basic-tile) — Die Basisliste, die die Aufgaben enthält
 - [Gefilterte Liste](/docs/tiles/filter-tile) — Alternative für gefilterte Aufgabenansichten

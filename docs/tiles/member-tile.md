@@ -5,7 +5,7 @@ nav_order: 5
 parent: Kacheln
 ---
 
-Die _Mitglieder_-Kachel ist eine spezielle Liste zur Verwaltung der Mitglieder eines Arbeitsbereichs. Jedes Mitglied hat automatisch einen Eintrag mit Name, E-Mail-Adresse und Status.
+Die _Mitglieder_-Komponente ist eine spezielle Liste zur Verwaltung der Mitglieder eines Arbeitsbereichs. Jedes Mitglied hat automatisch einen Eintrag mit Name, E-Mail-Adresse und Status.
 
 ## Funktionsweise
 
@@ -16,20 +16,21 @@ Die _Mitglieder_-Kachel ist eine spezielle Liste zur Verwaltung der Mitglieder e
 
 ## Erweiterung
 
-Im [Designmodus](/docs/designmode/record) kann die Mitglieder-Kachel um beliebige Bausteine erweitert werden, z. B.:
+Im [Designmodus](/docs/designmode/record) kann die Mitglieder-Komponente um beliebige Bausteine erweitert werden, z. B.:
 
 - Telefonnummer oder Adresse
 - Zugewiesenes Projekt oder Abteilung
 - Aktuelle Arbeitszeiten
 
-Alle Bausteine der Mitglieder-Kachel können in den [Rollen und Rechten](/docs/member-management/roles-rights) zur Konfiguration von Berechtigungen verwendet werden.
+Alle Bausteine der Mitglieder-Komponente können in den [Rollen und Rechten](/docs/member-management/roles-rights) zur Konfiguration von Berechtigungen verwendet werden.
 
 ## Einstellungen
 
 Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-settings):
 
-1. **Kachel-Info** — Anzahl der Mitglieder oder Summe eines Bausteins.
-2. **Filter und Sortierung** — Filter und Sortierreihenfolge für die Mitgliederliste.
+1. **Komponente-Info** — Anzahl der Mitglieder oder Summe eines Bausteins.
+2. **Beschreibung für die KI** — Eine Beschreibung der Mitgliederliste, die einem [AI Agent](/docs/tiles/ai-agent-tile) als Kontext dient.
+3. **Filter und Sortierung** — Filter und Sortierreihenfolge für die Mitgliederliste.
 
 ## Verwandte Seiten
 
