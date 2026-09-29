@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Lösche einen Eintrag
+title: Lösche einen Datensatz
 parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: delete
@@ -10,5 +10,15 @@ redirect_from:
     - /docs/workflows/edit-records/delete-record.html
 ---
 
-Mit diesem Workflow-Baustein kann ein beliebiger Eintrag mithilfe der Eintrag-ID gelöscht werden.
-Die Einstellungen umfassen die Verbindung zu einer Liste sowie die Eintrags-ID.
+Mit dem Schritt _Lösche einen Datensatz_ wird ein Datensatz endgültig gelöscht.
+
+## Einstellungen
+
+1. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
+2. **Datensatz-ID** — Die ID des zu löschenden Datensatzes. Kann als Formel angegeben werden.
+
+## Hinweise
+
+- Die Löschung ist nicht rückgängig zu machen.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht einen [Credit](/docs/credits).

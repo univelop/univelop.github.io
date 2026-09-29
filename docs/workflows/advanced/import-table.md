@@ -13,7 +13,7 @@ Mit dem Workflowstep _Importiere Excel-Tabelle_ können Daten aus einer über de
 
 ## <span style="color:#0b5394">**Einstellungen**</span>
 
-In den Einstellungen des Workflowsteps wird zunächst die Liste gewählt, in welcher sich der Datei-Upload Baustein, über den die Excel-Tabelle hochgeladen werden soll, befindet (1). Anschließend wird der entsprechende Datei-Upload Baustein ausgewählt (2). Abschließend gibst du die Variable ein, über die der passende Datensatz, in welchen geschrieben werden soll, ausgewählt wird (3). Dieser ist in den meisten Fällen schon vorbelegt und entspricht dem im Workflowstep „Wähle Eintrag“ gewählten Datensatz.
+In den Einstellungen des Workflowsteps wird zunächst die Liste gewählt, in welcher sich der Datei-Upload Baustein, über den die Excel-Tabelle hochgeladen werden soll, befindet (1). Anschließend wird der entsprechende Datei-Upload Baustein ausgewählt (2). Abschließend gibst du die Variable ein, über die der passende Datensatz, in welchen geschrieben werden soll, ausgewählt wird (3). Dieser ist in den meisten Fällen schon vorbelegt und entspricht dem im Workflowstep „Wähle Datensatz“ gewählten Datensatz.
 
 Mit der Option „Anzahl Kopfzeilen“ (4) wählst du aus, ab welcher Zeile in der hochgeladenen Excel-Tabelle, die zu berücksichtigenden Daten beginnen. Wenn in der ersten Zeile also die die Bezeichnungen der Spalten stehen ist der einzugebende Wert „1“.
 
