@@ -14,10 +14,10 @@ Mit dem Schritt _Warte auf Genehmigung_ wird der Workflow pausiert, bis der ange
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+1. **Verknüpfen mit Liste** — Die Liste, die den Datensatz enthält.
 2. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, auf den gewartet wird.
 3. **Datensatz-ID** — Die ID des Datensatzes.
-4. **Warten auf** — Das Ereignis, bei dem der Workflow fortgesetzt wird:
+4. **Warten auf …** — Das Ereignis, bei dem der Workflow fortgesetzt wird. In allen anderen Fällen wird der Workflow abgebrochen:
    - **Genehmigung** — Nur bei Genehmigung wird fortgesetzt.
    - **Genehmigung oder Ablehnung** — Bei Genehmigung oder Ablehnung.
    - **Genehmigung, Ablehnung oder Zurücksetzen** — Bei jedem Statuswechsel.
@@ -31,7 +31,7 @@ Nach der Pause kann der Genehmigungsstatus über den technischen Namen des Baust
 
 ## Hinweise
 
-- Dieser Schritt ist **nur in Geschäftsprozessen** verfügbar — nicht in Client- oder Server-Automatisierungen.
+- Dieser Schritt ist **nur in Geschäftsprozessen** verfügbar — nicht in Geräteseitiger oder Cloud-Automatisierung.
 
 ## Verwandte Schritte
 

@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Lösche einen Eintrag
+title: Lösche einen Datensatz
 parent: Einträge bearbeiten
 grand_parent: Workflows
 icon: delete
@@ -10,7 +10,7 @@ redirect_from:
     - /docs/workflows/edit-records/delete-record.html
 ---
 
-Mit dem Schritt _Lösche einen Eintrag_ wird ein Datensatz endgültig gelöscht.
+Mit dem Schritt _Lösche einen Datensatz_ wird ein Datensatz endgültig gelöscht.
 
 ## Einstellungen
 
@@ -20,4 +20,5 @@ Mit dem Schritt _Lösche einen Eintrag_ wird ein Datensatz endgültig gelöscht.
 ## Hinweise
 
 - Die Löschung ist nicht rückgängig zu machen.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
+- Dieser Schritt verbraucht einen [Credit](/docs/credits).

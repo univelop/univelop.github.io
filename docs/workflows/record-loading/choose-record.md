@@ -1,6 +1,6 @@
 ---
 layout: workflow-step
-title: Wähle Eintrag
+title: Wähle Datensatz
 parent: Einträge laden
 grand_parent: Workflows
 icon: youtube_searched_for
@@ -10,12 +10,12 @@ redirect_from:
     - /docs/workflows/load-records/choose-record.html
 ---
 
-Mit dem Schritt _Wähle Eintrag_ wird ein Datensatz geladen, damit dessen Werte im weiteren Workflow zugreifbar sind. Der Datensatz wird entweder automatisch aus dem Kontext übernommen (z. B. wenn der Workflow per [Workflow-Button](/docs/bricks/advanced/flow-button) aus einem Datensatz gestartet wurde) oder über Filter bestimmt.
+Mit dem Schritt _Wähle Datensatz_ wird ein Datensatz geladen, damit dessen Werte im weiteren Workflow zugreifbar sind. Der Datensatz wird entweder automatisch aus dem Kontext übernommen (z. B. wenn der Workflow per [Workflow-Button](/docs/bricks/advanced/flow-button) aus einem Datensatz gestartet wurde) oder über Filter bestimmt.
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, aus der der Datensatz geladen wird.
-2. **Aus Datensatzliste füllen** — Wenn aktiviert, wird automatisch der Datensatz verwendet, aus dem der Workflow gestartet wurde. Spart die manuelle Auswahl.
+1. **Aus Datensatzliste füllen** — Wenn aktiviert, wird automatisch der Datensatz verwendet, aus dem der Workflow gestartet wurde. Spart die manuelle Auswahl.
+2. **Verknüpfung mit** — Die Liste, aus der der Datensatz geladen wird.
 3. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein.
 
 ## Funktionsweise
@@ -25,8 +25,8 @@ Die Bausteinwerte des gewählten Datensatzes sind in folgenden Schritten über d
 ## Hinweise
 
 - Wird ein Workflow per [Starte Workflow](/docs/workflows/structure/start-workflow) mit einer Datensatz-ID gestartet, wählt dieser Schritt automatisch den übergebenen Datensatz.
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 
 ## Verwandte Schritte
 
-- [Finde ersten Eintrag](/docs/workflows/record-loading/first-record) — Findet einen Datensatz per Filter ohne Benutzerinteraktion
+- [Finde ersten Datensatz](/docs/workflows/record-loading/first-record) — Findet einen Datensatz per Filter ohne Benutzerinteraktion

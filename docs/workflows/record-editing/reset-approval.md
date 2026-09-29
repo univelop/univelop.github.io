@@ -11,14 +11,14 @@ Mit dem Schritt _Setze Genehmigung zurück_ wird ein [Genehmigung](/docs/bricks/
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+1. **Verknüpfen mit Liste** — Die Liste, die den Datensatz enthält.
 2. **Datensatz-ID** — Die ID des Datensatzes.
 3. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, der zurückgesetzt werden soll.
 4. **Genehmiger zurücksetzen** — Wenn aktiviert, wird auch der eingetragene Genehmiger entfernt. Diese Einstellung hat keine Auswirkung, wenn eine feste Person oder ein dynamischer Mitglied-Baustein als Genehmiger konfiguriert ist.
 
 ## Hinweise
 
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 
 ## Verwandte Schritte
 

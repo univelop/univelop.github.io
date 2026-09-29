@@ -14,7 +14,7 @@ Mit dem Schritt _Fordere Genehmigung an_ wird eine Genehmigungsanfrage an einen 
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, die den Datensatz enthält.
+1. **Verknüpfen mit Liste** — Die Liste, die den Datensatz enthält.
 2. **Verknüpfung mit Baustein** — Der [Genehmigung](/docs/bricks/advanced/approval)-Baustein, auf den sich die Anfrage bezieht.
 3. **Datensatz-ID** — Die ID des Datensatzes, der genehmigt werden soll.
 
@@ -23,7 +23,7 @@ Der technische Name des Genehmigung-Bausteins muss gesetzt sein.
 
 ## Hinweise
 
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 
 ## Verwandte Schritte
 

@@ -14,13 +14,13 @@ Mit dem Schritt _Führe Aktion aus_ wird die Aktion eines bestimmten Bausteins i
 
 ## Einstellungen
 
-1. **Verknüpfung mit** — Die Liste, in der der Datensatz liegt.
+1. **Verknüpfen mit Liste** — Die Liste, in der der Datensatz liegt.
 2. **Verknüpfung mit Baustein** — Der Baustein, dessen Aktion ausgeführt werden soll. Nur Bausteine mit ausführbarer Aktion und gesetztem technischen Namen sind wählbar.
 3. **Datensatz-ID** — Die ID des Datensatzes. Kann als Formel angegeben werden.
-4. **Fehlerverhalten** — Bestimmt, was bei einem Fehler passiert: _Workflow abbrechen_ oder _Ignorieren_.
+4. **Fehler-Verhalten** — Bestimmt, was bei einem Fehler passiert: _Workflow abbrechen_ oder _Ignorieren_.
 
 ## Hinweise
 
 - Typische Anwendungsfälle: [PDF erstellen](/docs/bricks/advanced/print-out), [XML erstellen](/docs/bricks/advanced/xml), [Webhook-Button](/docs/bricks/advanced/webhook-button).
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.
+- Verfügbar in: Geräteseitige Automatisierung, Cloud-Automatisierung, Geschäftsprozess.
 - Dieser Schritt verbraucht keine [Credits](/docs/credits).
