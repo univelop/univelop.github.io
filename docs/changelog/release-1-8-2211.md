@@ -11,7 +11,7 @@ Folgende Neuerungen und Verbesserungen wurden mit der Version 1.8.0 ausgerollt:
 
 Der neue Baustein _Genehmigung_ bietet die Möglichkeit, Listeneinträge durch einen ausgewählten Benutzer genehmigen und optional dabei sperren zu lassen. Fordert man die Genehmigung von einem Nutzer an, kann dieser bspw. eine Bestellanforderung mit einer Bemerkung ablehnen oder zusätzlich mit einer Unterschrift genehmigen. So kann, statt bisher mit mehreren Bausteinen, über einen einzigen die Prüfungsanforderung und Genehmigung bei Prozessen wie einer Bestellanforderung gelöst werden.
 
-![release approval brick](\old_assets\latest-updates\release approval brick.png "release approval brick")
+![release approval brick](/old_assets/latest-updates/release approval brick.png "release approval brick")
 
 ## <span style="color:#0b5394">**Eigenes Team bei Baustein _Benutzer_**</span>
 
@@ -21,7 +21,7 @@ Beim Baustein _Benutzer_ lässt sich über eine Einstellung aktivieren, dass nur
 
 Wir haben den neuen Baustein _Terminplaner_ in Univelop implementiert. Diese zeigt Buchungen mit einer individuell anpassbaren Darstellung in einer übersichtlichen Wochenansicht an. So können bspw. Aufgaben oder Einsätze angelegt und dabei einem Nutzer und Wochentag sowie einem zugehörigen Projekt zugeteilt werden. Damit werden viele Listeneinträge auf einen Blick strukturiert angezeigt, was hin- und herfiltern in der Listenansicht ersparen kann.
 
-![release brick scheduler](\old_assets\latest-updates\release brick scheduler.png "release brick scheduler")
+![release brick scheduler](/old_assets/latest-updates/release brick scheduler.png "release brick scheduler")
 
 ## <span style="color:#0b5394">**Filter und Sortierung in Workflows**</span>
 
@@ -35,7 +35,7 @@ Der Baustein _Datei Upload_ hat als Einstellung die Möglichkeit bekommen, das l
 
 Zu den Workflows ist der Baustein _Versende Push-Nachricht_ dazugekommen. Über diesen können Push-Nachrichten mit individuellem Titel und Nachricht an Nutzer versendet werden. Die Push-Nachrichten können bei Bedarf an Listeneinträge gebunden und die Empfänger können detailliert ausgewählt werden.
 
-![release notification step](\old_assets\latest-updates\release notification step.png "release notification step")
+![release notification step](/old_assets/latest-updates/release notification step.png "release notification step")
 
 ### <span style="color:#0b5394">**Weitere Verbesserungen**</span>
 
