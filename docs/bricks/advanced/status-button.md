@@ -8,15 +8,30 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/button-status.html
 ---
 
-Den Baustein _Status Button_ kann nur mit dem Baustein _Status_ verknüpft werden. Über "Verknüpfung mit" wird der gewünschte
-Baustein _Status_, der gesteuert werden soll, ausgewählt. Mit der Wahl Status wird der Status ausgewählt, der gesetzt werden soll sobald der Button angeklickt wurde.
+Mit dem Baustein _Status Button_ kann ein bestimmter Status per Knopfdruck gesetzt werden. Er wird immer mit einem _Status_-Baustein verknüpft und eignet sich für die gezielte Steuerung von Prozessschritten — z. B. „Arbeitszeit geprüft" oder „Auftrag abgeschlossen".
 
-![button status](\old_assets\record-spec-settings\1status button.png "button status")
+## Einstellungen
 
-Zusätzlich kann der Baustein _Status Button_ für bestimmte Nutzerrollen eingeschränkt werden. Als Beispiel reicht ein Mitarbeiter seine Arbeitszeit ein.
-Der Vorgesetzte soll die eingereichten Arbeitszeiten prüfen und genehmigen. Der Status-Button "Arbeitszeit geprüft" soll nicht vom Mitarbeiter betätigt werden
-können. Um diese Einstellung vornehmen zu können, kann einem oder mehreren Baustein _Status Button_ die Rechte aus dem Baustein _Status_ entzogen werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Eine weitere Möglichkeit mit dem Status Button die Prozessschritte zu begleiten ist diese unter Bedingungen ein- und auszublenden.
+1. **Stil** — Legt das visuelle Erscheinungsbild des Buttons fest, z. B. _Primärer Button_.
+2. **Verknüpfung mit Baustein** — Der _Status_-Baustein, der gesteuert werden soll.
+3. **Status** — Der Status, der beim Klick auf den Button gesetzt wird.
+4. **Rechteeinstellungen vom Status übernehmen** — Übernimmt die für den verbundenen Status konfigurierten Rechte für diesen Button.
 
-![button status settings](\old_assets\record-spec-settings\status button settings.png "button status settings")
+## Funktionsweise
+
+Beim Klick auf den Button wird der verknüpfte Status auf den konfigurierten Wert gesetzt. Dies löst ggf. auch die Pflichtfeldprüfung und Datensatzsperre aus, sofern diese im _Status_-Baustein für den jeweiligen Status konfiguriert sind.
+
+Wer den Button sehen und nutzen kann, lässt sich wie bei jedem Baustein über die [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) steuern. So kann z. B. ein Button „Arbeitszeit geprüft" nur für Vorgesetzte sichtbar gemacht werden, während Mitarbeiter nur den Einreichungs-Button sehen.
+
+## Hinweise
+
+- Es können mehrere _Status Button_-Bausteine für denselben _Status_-Baustein angelegt werden, um verschiedene Statusübergänge abzubilden.
+- Über bedingte Sichtbarkeit können Buttons je nach aktuellem Status ein- und ausgeblendet werden, um einen geführten Prozess zu erstellen.
+
+## Verwandte Bausteine
+
+- [Status](/docs/bricks/advanced/status) — Der Baustein, der die verfügbaren Stati definiert
+- [Workflow Button](/docs/bricks/advanced/flow-button) — Für das Auslösen von Workflows per Button
+- [Datensatz sperren](/docs/bricks/advanced/release) — Für die manuelle Datensatzsperre
