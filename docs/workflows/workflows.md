@@ -54,7 +54,7 @@ Nur bei Cloud-Automatisierung und Geschäftsprozess verfügbar. Ermöglicht die 
 Workflows können auf mehrere Arten gestartet werden:
 
 - **Manuell** im Workflow-Designmodus oder über die Workflow-Historie
-- **Per Baustein** über den [Workflow-Button](/docs/bricks/advanced/flow-button) oder [Aktions-Button](/docs/bricks/advanced/action-button) in einem Datensatz
+- **Per Baustein** über den [Workflow-Button](/docs/bricks/advanced/flow-button) in einem Datensatz
 - **Per Zeit-Trigger** für Cloud-Automatisierung und Geschäftsprozess
 - **Per Webhook** über die REST-API (mit dem [Webhook](/docs/workflows/advanced/webhook)-Schritt als erstem Schritt)
 
