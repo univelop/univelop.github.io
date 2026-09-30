@@ -1,5 +1,5 @@
 ---
-title: Kacheln
+title: Komponenten
 nav_order: 5
 layout: title
 has_toc: false

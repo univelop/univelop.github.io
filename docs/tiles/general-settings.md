@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Allgemeine Kacheleinstellungen
+title: Allgemeine Komponenteneinstellungen
 nav_order: 1
 parent: Kacheln
 ---
