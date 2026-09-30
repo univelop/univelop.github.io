@@ -21,3 +21,4 @@ Dieser Baustein besitzt keine zusätzlichen bausteinspezifischen Einstellungen.
 - Um Benutzer in einer Konversation zu erwähnen, kann per `@` und dem folgenden Benutzernamen der entsprechende Benutzer getaggt werden. Der getaggte Benutzer erhält eine Benachrichtigung.
 - Im Vergleich zu einem mehrzeiligen Textfeld bietet der Kommentarbaustein den Vorteil, dass Verfasser und Zeitstempel automatisch erfasst werden.
 - Der Baustein eignet sich besonders für den Austausch bei Problemen, Rückfragen oder Abstimmungen zu einem Eintrag.
+- Kommentare können auch per Workflow importiert oder exportiert werden — über die Schritte [Erstelle einen neuen Kommentar](/docs/workflows/advanced/create-comment) und [Iteriere über Kommentare](/docs/workflows/advanced/iterate-comments).

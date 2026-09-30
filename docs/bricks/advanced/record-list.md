@@ -17,30 +17,31 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 1. **Verknüpfung mit** — Die Liste, deren Einträge angezeigt werden sollen.
 2. **Verknüpfung über** — Ein _Datensatz_-Baustein in der verknüpften Liste, der auf die eigene Liste zurückzeigt. Damit werden nur Einträge angezeigt, die mit dem aktuellen Datensatz verbunden sind.
 3. **Filter und Sortierung** — Zusätzliche oder alternative Filterung der angezeigten Einträge. Über den `=B`-Filter kann dynamisch gefiltert werden.
-4. **Darstellung** — Wählt zwischen _Eingebettete Liste_ und _Link zur Liste_.
+4. **Art der Darstellung** — Wählt zwischen _Eingebettete Liste_ und _Link zur Liste_.
 5. **Anzahl der Datensätze in Vorschau** — Anzahl der sichtbaren Einträge bei eingebetteter Liste (Standard: 3).
-6. **Schnellerfassung** — Ermöglicht das Anlegen neuer Datensätze direkt in einer Vorschau, ohne den Datensatz vollständig zu öffnen. Bausteine können für die Schnellerfassung ausgeblendet werden.
-7. **Erfassungs-Button ausblenden** — Versteckt den Button zum Anlegen neuer Einträge.
-8. **Detailansicht-Button ausblenden** — Versteckt den Button zur Detailansicht einzelner Einträge.
-9. **Summe anzeigen** — Zeigt eine Summe unterhalb der Liste an. Verfügbare Optionen: _Anzahl der Punkte_ (ein Punkt pro Eintrag), _Anzahl der Einträge_ (als Zahl) oder _Summe über einen Baustein_ (z. B. Arbeitszeit pro Tag). Nur verfügbar wenn eine _Verknüpfung über_ gewählt wurde.
+6. **Summe anzeigen** — Zeigt eine Summe unterhalb der Liste an. Verfügbare Optionen: _Anzahl der Punkte_ (ein Punkt pro Eintrag), _Anzahl der Einträge_ (als Zahl) oder _Summe über einen Baustein_ (z. B. Arbeitszeit pro Tag). Nur verfügbar wenn eine _Verknüpfung über_ gewählt wurde.
+7. **Schnellerfassung aktivieren** — Ermöglicht das Anlegen neuer Datensätze direkt in einer Vorschau, ohne den Datensatz vollständig zu öffnen. Bausteine können für die Schnellerfassung ausgeblendet werden.
+8. **+ Neu Button ausblenden** — Versteckt den Button zum Anlegen neuer Einträge.
+9. **Button zur Detailansicht ausblenden** — Versteckt den Button zur Detailansicht einzelner Einträge.
 
 ## Funktionsweise
+
+### Verknüpfung mit
+
+Die _Verknüpfung mit_ legt fest, aus welcher Liste die angezeigten Einträge stammen. Sie ist die einzige zwingend erforderliche Verknüpfung — ohne weitere Einstellungen zeigt der Baustein alle Datensätze dieser Liste an.
 
 ### Verknüpfung über
 
 Die _Verknüpfung über_ folgt der Regel: „Verknüpfe immer über dich selbst". Das bedeutet, in der verknüpften Liste muss ein _Datensatz_-Baustein existieren, der auf die eigene Liste zeigt. Beispiel: Hat eine Liste _Lieferscheine_ eine Datensatz-Liste in Richtung _Artikelbewegungen_, benötigt man in den _Artikelbewegungen_ einen _Datensatz_-Baustein, der mit _Lieferscheinen_ verknüpft ist.
 
-### Darstellung als Link
+### Art der Darstellung
 
-Bei der Darstellung als _Link zur Liste_ gelangt man beim Klick auf den Baustein in die verknüpfte Liste und sieht dort die gefilterten Datensätze in der Listenansicht.
-
-### Darstellung als eingebettete Liste
-
-Bei der eingebetteten Liste wird die Listenansicht der verknüpften Liste direkt im Datensatz angezeigt. Über die _Schnellerfassung_ können neue Einträge direkt in einer Vorschau erfasst werden.
+- _Link zur Liste_ — Beim Klick auf den Baustein gelangt man in die verknüpfte Liste und sieht dort die gefilterten Datensätze in der Listenansicht.
+- _Eingebettete Liste_ — Die Listenansicht der verknüpften Liste wird direkt im Datensatz angezeigt. Über die _Schnellerfassung_ können neue Einträge direkt in einer Vorschau erfasst werden.
 
 ### Summen
 
-Summen über einen Baustein können in Formeln weiterverwendet werden — z. B. für Netto-Umsatz, darauf aufbauend Steuer und Brutto.
+Summen über einen Baustein können in Formeln weiterverwendet werden — z. B. für Netto-Umsatz, darauf aufbauend Steuer und Brutto. Verfügbar ist die Summenanzeige nur, wenn die Liste über _Verknüpfung über_ verbunden ist — nicht bei einer reinen Filterung über _Filter und Sortierung_.
 
 ## Hinweise
 

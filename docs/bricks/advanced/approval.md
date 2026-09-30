@@ -17,10 +17,10 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 1. **Fester Genehmiger** — Legt einen festen Benutzer als Genehmiger fest. Ist kein fester Genehmiger gesetzt, kann der Anfordernde den Genehmiger bei der Anfrage auswählen.
 2. **Genehmiger über Benutzer-Baustein** — Ermöglicht es, den Genehmiger über einen oder mehrere _Benutzer_-Bausteine im Datensatz zu bestimmen.
 3. **Genehmiger nach Rollen filtern** — Schränkt die auswählbaren Genehmiger auf bestimmte Rollen ein.
-4. **Genehmigungsfrist (Tage)** — Die Anzahl der Tage, innerhalb derer die Genehmigung erfolgen soll (Standard: 7).
-5. **Eintrag automatisch sperren** — Sperrt den Datensatz bei Genehmigung automatisch.
-6. **Unterschrift erforderlich** — Fordert vom Genehmiger eine Unterschrift beim Genehmigen.
-7. **Workflow starten** — Wählt einen Workflow aus, der bei Genehmigung oder Ablehnung gestartet wird.
+4. **Datensatz automatisch sperren** — Sperrt den Datensatz bei Genehmigung automatisch.
+5. **Unterschrift erforderlich** — Fordert vom Genehmiger eine Unterschrift beim Genehmigen.
+6. **Workflow starten** — Wählt einen Workflow aus, der bei Genehmigung oder Ablehnung gestartet wird.
+7. **Genehmigungsfrist (Tage)** — Die Anzahl der Tage, innerhalb derer die Genehmigung erfolgen soll (Standard: 7).
 
 ## Funktionsweise
 
@@ -38,11 +38,12 @@ Im ersten Schritt fordert ein Benutzer die Genehmigung an und wählt ggf. einen 
 Der Baustein stellt folgende Werte bereit, die in Formeln und Filtern verwendet werden können:
 
 - **Status** — Der aktuelle Genehmigungszustand.
-- **Genehmiger-ID** — Die ID des Genehmigers.
-- **Genehmiger-Name** — Der Name des Genehmigers.
-- **Bemerkung** — Die Bemerkung bei Genehmigung oder Ablehnung.
+- **Genehmiger** — Die ID des Genehmigers.
+- **Genehmiger Mitglied-Datensatz** — Der verknüpfte Mitglieder-Datensatz des Genehmigers.
+- **Name des Genehmigers** — Der Name des Genehmigers.
+- **Kommentar** — Die Bemerkung bei Genehmigung oder Ablehnung.
 - **Unterschrift** — Die optionale Unterschrift des Genehmigers.
-- **Zeitpunkt** — Der Zeitpunkt der letzten Statusänderung.
+- **Genehmigt am** — Der Zeitpunkt der letzten Statusänderung.
 
 ## Hinweise
 

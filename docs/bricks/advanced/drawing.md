@@ -8,22 +8,24 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/drawing.html
 ---
 
-Mit dem Baustein _Zeichnung_ können auf mobilen Geräten und im Web Zeichnungen erstellt werden. Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
+Mit dem Baustein _Zeichnung_ können auf mobilen Geräten Zeichnungen erstellt werden — nicht im Web. Die Zeichnung lässt sich in Ausdrücken einbinden, als Bild herunterladen und auf mobilen Geräten teilen.
 
 ## Einstellungen
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Breite** — Die Breite der Zeichenfläche in Pixeln.
-2. **Höhe** — Die Höhe der Zeichenfläche in Pixeln.
-3. **Qualität** — Die Bildqualität der gespeicherten Zeichnung.
-4. **Hintergrundbild** — Ein optionales Bild, das als Hintergrund für die Zeichnung dient.
+1. **Qualität** — Die Bildqualität der gespeicherten Zeichnung.
+2. **Inhalt nicht duplizieren** — Verhindert, dass die Zeichnung beim Duplizieren eines Eintrags mit kopiert wird.
+3. **Breite (px)** — Die Breite der Zeichenfläche in Pixeln.
+4. **Höhe (px)** — Die Höhe der Zeichenfläche in Pixeln.
+5. **Art des Hintergrunds** — Ein optionales Bild, das als Hintergrund für die Zeichnung dient.
+6. **Größe im Ausdruck** — Darstellungsgröße der Zeichnung im PDF-Ausdruck.
 
 ## Funktionsweise
 
 Im Ansichtsmodus wird die fertige Zeichnung angezeigt. Folgende Aktionen stehen zur Verfügung:
 
-- **Editieren** — Öffnet den Zeichenmodus (auf mobilen Geräten auf dem Display, im Web per Mauszeiger).
+- **Editieren** — Öffnet den Zeichenmodus auf dem Display des mobilen Geräts.
 - **Hintergrund ändern** — Ersetzt den Hintergrund. Die bestehende Zeichnung wird dabei gelöscht.
 - **Löschen** — Entfernt die gesamte Zeichnung.
 - **Teilen/Herunterladen** — Im Web wird die Zeichnung heruntergeladen. Auf mobilen Geräten kann sie geteilt werden.

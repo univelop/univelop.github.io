@@ -15,6 +15,7 @@ Mit dem Baustein _Unterschrift_ kann je Datensatz eine Unterschrift erfasst werd
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 1. **Klausel** — Ein optionaler Text, der dem Unterzeichner vor der Unterschrift angezeigt wird (z. B. AGB-Hinweis oder Datenschutzerklärung).
+2. **Aktuellen Benutzer standardmäßig einsetzen** — Trägt beim Erstellen eines neuen Eintrags automatisch den Namen des aktuellen Benutzers als Unterzeichner ein.
 
 ## Funktionsweise
 

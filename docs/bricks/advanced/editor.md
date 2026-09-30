@@ -14,7 +14,7 @@ Der Baustein _Editor_ stellt einen WYSIWYG-Editor (_What You See Is What You Get
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Baustein hat keine zusätzlichen bausteinspezifischen Einstellungen.
+1. **Größe** — Die Höhe des Editors im Ansichtsmodus: _Klein_, _Mittel_, _Groß_ oder _Dynamisch_ (passt sich dem Inhalt an).
 
 ## Funktionsweise
 
@@ -24,7 +24,6 @@ Zusätzlich bietet der Editor eine Vollbildansicht, die über den nebenstehenden
 
 ## Hinweise
 
-- Der Editor speichert intern im Quill-Delta-Format, einem strukturierten JSON-Format für formatierten Text.
 - Der Inhalt kann in PDF-Ausdrücken über den technischen Namen referenziert werden.
 
 ## Verwandte Bausteine

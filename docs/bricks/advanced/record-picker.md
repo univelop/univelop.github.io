@@ -16,11 +16,11 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 1. **Verknüpfung mit** — Die Liste, aus der ein Datensatz ausgewählt werden kann.
 2. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein. Über den `=B`-Filter kann dynamisch auf Grundlage eigener Werte gefiltert werden.
-3. **Werte übernehmen** — Übernimmt einmalig oder synchron Werte aus dem verknüpften Datensatz. Beispiel: Beim Artikel wird die Einheit automatisch übernommen.
+3. **Werte des verknüpften Datensatzes übernehmen** — Übernimmt einmalig oder synchron Werte aus dem verknüpften Datensatz. Beispiel: Beim Artikel wird die Einheit automatisch übernommen.
 4. **Datensatz initial setzen** — Setzt den Datensatz automatisch, wenn die Filterung nur einen einzigen Treffer ergibt.
-5. **Mit aktuellem Benutzer vorbelegen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht.
-6. **Benachrichtigungen für eingetragenen Benutzer** — Sendet Benachrichtigungen an den im Baustein eingetragenen Benutzer.
-7. **Besitzer ändern** — Ändert den Besitzer des Datensatzes auf den im Baustein eingetragenen Benutzer.
+5. **Aktuellen Benutzer standardmäßig einsetzen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht. Funktioniert nur, wenn unter _Verknüpfung mit_ eine Liste vom Typ [Mitglieder](/docs/tiles/member-tile) gewählt ist.
+6. **Besitzer ändern** — Ändert den Besitzer des Datensatzes auf den im Baustein eingetragenen Benutzer. Funktioniert nur, wenn unter _Verknüpfung mit_ eine Liste vom Typ [Mitglieder](/docs/tiles/member-tile) gewählt ist.
+7. **Benachrichtigungen für eingesetzten Benutzer aktivieren** — Sendet Benachrichtigungen an den im Baustein eingetragenen Benutzer. Funktioniert nur, wenn unter _Verknüpfung mit_ eine Liste vom Typ [Mitglieder](/docs/tiles/member-tile) gewählt ist.
 8. **Diesen Datensatz löschen/duplizieren, wenn verknüpfter Datensatz gelöscht oder dupliziert wird** — Koppelt die Lebenszyklen beider Datensätze. Dies hat auch Auswirkungen auf die Datensatzsperre und das Änderungsprotokoll: Beides wird über den übergeordneten Datensatz gesteuert.
 
 ## Funktionsweise
@@ -30,7 +30,7 @@ Beim Klick auf den Baustein öffnet sich die Datensatz-Suche. Hier können die v
 ## Hinweise
 
 - Der Baustein speichert die ID des verknüpften Datensatzes. In Formeln kann über den technischen Namen auf Felder des verknüpften Datensatzes zugegriffen werden.
-- Über die _Werte übernehmen_-Funktion können Felder synchron gehalten werden — Änderungen im verknüpften Datensatz werden automatisch übertragen.
+- Über die _Werte des verknüpften Datensatzes übernehmen_-Funktion können Felder synchron gehalten werden — Änderungen im verknüpften Datensatz werden automatisch übertragen.
 - Verknüpfungsmöglichkeiten sind unter [Verknüpfen von Listen](/docs/link-lists) beschrieben.
 
 ## Verwandte Bausteine

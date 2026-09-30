@@ -14,14 +14,16 @@ Mit dem Baustein _Status Button_ kann ein bestimmter Status per Knopfdruck geset
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Verknüpfung mit** — Der _Status_-Baustein, der gesteuert werden soll.
-2. **Status** — Der Status, der beim Klick auf den Button gesetzt wird.
+1. **Stil** — Legt das visuelle Erscheinungsbild des Buttons fest, z. B. _Primärer Button_.
+2. **Verknüpfung mit Baustein** — Der _Status_-Baustein, der gesteuert werden soll.
+3. **Status** — Der Status, der beim Klick auf den Button gesetzt wird.
+4. **Rechteeinstellungen vom Status übernehmen** — Übernimmt die für den verbundenen Status konfigurierten Rechte für diesen Button.
 
 ## Funktionsweise
 
 Beim Klick auf den Button wird der verknüpfte Status auf den konfigurierten Wert gesetzt. Dies löst ggf. auch die Pflichtfeldprüfung und Datensatzsperre aus, sofern diese im _Status_-Baustein für den jeweiligen Status konfiguriert sind.
 
-Über die allgemeinen Einstellungen _Anzeigen wenn_ und _Rollenberechtigungen_ lässt sich steuern, wer den Button sehen und nutzen kann. So kann z. B. ein Button „Arbeitszeit geprüft" nur für Vorgesetzte sichtbar gemacht werden, während Mitarbeiter nur den Einreichungs-Button sehen.
+Wer den Button sehen und nutzen kann, lässt sich wie bei jedem Baustein über die [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) steuern. So kann z. B. ein Button „Arbeitszeit geprüft" nur für Vorgesetzte sichtbar gemacht werden, während Mitarbeiter nur den Einreichungs-Button sehen.
 
 ## Hinweise
 

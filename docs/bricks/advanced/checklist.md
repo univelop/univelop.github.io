@@ -20,17 +20,17 @@ Der Baustein hat keine zusätzlichen bausteinspezifischen Einstellungen. Die Che
 
 Die Checkliste wird im Markdown-Format gespeichert. Einträge können hinzugefügt, bearbeitet, abgehakt und gelöscht werden. Der Baustein stellt automatisch folgende abgeleitete Werte bereit:
 
-- **Gesamtanzahl** — Die Anzahl aller Einträge in der Checkliste.
-- **Abgehakt** — Die Anzahl der erledigten Einträge.
-- **Nicht abgehakt** — Die Anzahl der offenen Einträge.
-- **Alle erledigt** — Ein Wahrheitswert, der angibt, ob alle Einträge abgehakt sind.
+- **Gesamtanzahl Einträge** — Die Anzahl aller Einträge in der Checkliste.
+- **Abgeschlossene Einträge** — Die Anzahl der erledigten Einträge.
+- **Nicht abgeschlossene Einträge** — Die Anzahl der offenen Einträge.
+- **Alle abgeschlossen** — Ein Wahrheitswert, der angibt, ob alle Einträge abgehakt sind.
 
 Diese Werte können in Formeln und Filtern verwendet werden, z. B. um den Fortschritt einer Checkliste darzustellen.
 
 ## Hinweise
 
 - Die abgeleiteten Werte ermöglichen es, z. B. in einer _Zahlenformel_ den Fortschritt als Prozentwert zu berechnen.
-- Der Wahrheitswert _Alle erledigt_ kann in Bedingungen oder für die Datensatzsperre verwendet werden.
+- Der Wahrheitswert _Alle abgeschlossen_ kann in Bedingungen oder für die Datensatzsperre verwendet werden.
 
 ## Verwandte Bausteine
 

@@ -18,7 +18,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 2. **Verknüpfung über** — Ein _Datensatz_-Baustein in der verknüpften Liste, der die Zuordnung zum aktuellen Datensatz herstellt. Es wird immer über sich selbst verknüpft.
 3. **Verknüpfung zu Datum** — Der _Datum_-Baustein in der verknüpften Liste, anhand dessen die Einträge den Kalendertagen zugeordnet werden.
 4. **Filter und Sortierung** — Schränkt die angezeigten Einträge ein.
-5. **Anzahl der Vorschau** — Die Anzahl der Datensätze, die bei Auswahl eines Tages in der Vorschau angezeigt werden.
+5. **Anzahl der Datensätze in Vorschau** — Die Anzahl der Datensätze, die bei Auswahl eines Tages in der Vorschau angezeigt werden.
 6. **Summe anzeigen** — Zeigt in den Kalendertagen eine Zusammenfassung an. Verfügbare Optionen:
    - _Anzahl der Punkte_ — Ein Punkt pro Eintrag.
    - _Anzahl der Einträge_ — Die Anzahl als Zahl.

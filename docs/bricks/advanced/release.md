@@ -14,7 +14,9 @@ Der Baustein _Datensatz sperren_ ermöglicht es, Datensätze unveränderbar zu s
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Der Baustein hat keine zusätzlichen bausteinspezifischen Einstellungen. Die Sperrfunktion wird über den Button selbst oder über die _Datensatz sperren_-Option im Baustein _Status_ gesteuert.
+1. **Stil** — Legt das visuelle Erscheinungsbild des Buttons fest: _Als Link anzeigen_, _Primärer Button_ oder _Sekundärer Button_.
+
+Die Sperrfunktion selbst wird über den Button oder über die _Datensatz sperren_-Option im Baustein _Status_ gesteuert.
 
 ## Funktionsweise
 

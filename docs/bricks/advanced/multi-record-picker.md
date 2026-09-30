@@ -14,8 +14,8 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 1. **Verknüpfung mit** — Die Liste, aus der Datensätze ausgewählt werden können.
 2. **Filter und Sortierung** — Schränkt die zur Auswahl stehenden Datensätze ein. Die Sortierung gilt nur für die Auswahlliste, nicht für die Anzeige der gewählten Datensätze. Sobald eine Sucheingabe erfolgt, wird die Sortierung ignoriert.
-3. **Mit aktuellem Benutzer vorbelegen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht.
-4. **Benachrichtigungen für eingetragene Benutzer** — Sendet Benachrichtigungen an die im Baustein eingetragenen Benutzer.
+3. **Aktuellen Benutzer standardmäßig einsetzen** — Beim Erstellen eines neuen Eintrags wird der aktuelle Benutzer eingetragen, sofern er den Filtern entspricht. Funktioniert nur, wenn unter _Verknüpfung mit_ eine Liste vom Typ [Mitglieder](/docs/tiles/member-tile) gewählt ist.
+4. **Benachrichtigungen für eingesetzte Benutzer aktivieren** — Sendet Benachrichtigungen an die im Baustein eingetragenen Benutzer. Funktioniert nur, wenn unter _Verknüpfung mit_ eine Liste vom Typ [Mitglieder](/docs/tiles/member-tile) gewählt ist.
 
 ## Funktionsweise
 

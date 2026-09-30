@@ -14,23 +14,27 @@ Mit dem Baustein _Status_ können Zustandswerte vergeben und komplette Prozesse 
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Statusoptionen** — Die verfügbaren Stati werden über das Plus-Symbol hinzugefügt. Per Klick auf einen Status werden dessen Einstellungen geöffnet. Über den Mülleimer-Button können einzelne Stati gelöscht werden (nur möglich, wenn der Status in keinem Datensatz verwendet wird). Die Reihenfolge kann per Drag & Drop angepasst werden.
+1. **Status hinzufügen** — Die verfügbaren Stati werden über das Plus-Symbol hinzugefügt. Per Klick auf einen Status werden dessen Einstellungen geöffnet. Über den Mülleimer-Button können einzelne Stati gelöscht werden (nur möglich, wenn der Status in keinem Datensatz verwendet wird). Die Reihenfolge kann per Drag & Drop angepasst werden.
 2. **Standard-Status** — Ein Status, der beim Erstellen neuer Datensätze automatisch gesetzt wird.
-3. **Standard-Status erzwingen** — Setzt den Standard-Status auch beim Duplizieren eines Datensatzes. Diese Einstellung entfernt die Sperre aus dem kopierten Datensatz. Auch bei Workflows und beim Erzeugen über Filterkacheln wird der Standard-Status gesetzt.
+3. **Standard-Status bei neuen Datensätzen erzwingen** — Setzt den Standard-Status auch beim Duplizieren eines Datensatzes. Diese Einstellung entfernt die Sperre aus dem kopierten Datensatz. Auch bei Workflows und beim Erzeugen über Filterkomponenten wird der Standard-Status gesetzt.
 
 ### Einstellungen pro Status
 
 Für jeden einzelnen Status können folgende Optionen konfiguriert werden:
 
+- **Statusbezeichnung** — Der angezeigte Name des Status.
 - **Icon** — Ein individuelles Icon für den Status.
 - **Farbe** — Eine individuelle Farbe für den Status.
 - **Pflichtfelder** — Definiert, welche als Pflichtfeld markierten Bausteine beim Setzen dieses Status geprüft werden. Die betroffenen Bausteine müssen vorab in ihren eigenen Einstellungen als Pflichtfeld markiert sein.
 - **Datensatz sperren** — Sperrt den Datensatz beim Setzen dieses Status. Der Datensatz kann dann weder bearbeitet noch gelöscht werden.
+- **Status deaktivieren** — Entfernt den Status aus der Auswahl für neue Zuweisungen. Bereits bestehende Datensätze mit diesem Status zeigen ihn weiterhin an.
 - **Technischer Name** — Ein nicht änderbarer Bezeichner, der in Formeln und Filtern verwendet werden kann.
 
 ## Funktionsweise
 
 Eine Statusänderung erfolgt per Klick auf den Status-Baustein, woraufhin die verfügbaren Stati angezeigt werden. Alternativ kann der Status über _Status Button_-Bausteine geändert werden, die jeweils einen bestimmten Status setzen.
+
+Statusänderungen werden zudem häufig über den Workflow-Schritt [Ändere einen Datensatz](/docs/workflows/record-editing/modify-record) automatisiert. Dabei wird der neue Status über den technischen Namen des jeweiligen Status referenziert — ein kurzer, stabiler technischer Name erleichtert die Einrichtung solcher Workflows.
 
 ## Hinweise
 

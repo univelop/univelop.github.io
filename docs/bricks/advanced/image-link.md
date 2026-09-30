@@ -17,7 +17,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 1. **Modus** — Bestimmt die Quelle der angezeigten Bilder:
    - _Datei aus diesem Datensatz anzeigen_ — Zeigt Bilder aus dem aktuellen Eintrag an, auch wenn diese in einem anderen Tab liegen oder für den Benutzer nicht sichtbar sind.
    - _Datei aus verknüpftem Datensatz anzeigen_ — Zeigt Bilder aus einem über einen _Datensatz_-Baustein verknüpften Eintrag an.
-2. **Quell-Baustein** — Der Bild-Upload- oder Zeichnungs-Baustein, dessen Bilder angezeigt werden.
+2. **Verknüpfung zu Datei wählen** — Der Bild-Upload- oder Zeichnungs-Baustein, dessen Bilder angezeigt werden.
 
 ## Hinweise
 

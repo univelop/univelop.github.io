@@ -17,7 +17,7 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 1. **Modus** — Bestimmt die Quelle der angezeigten Dateien:
    - _Datei aus diesem Datensatz anzeigen_ — Zeigt Dateien aus dem aktuellen Eintrag an, auch wenn diese in einem anderen Tab liegen oder für den Benutzer nicht sichtbar sind.
    - _Datei aus verknüpftem Datensatz anzeigen_ — Zeigt Dateien aus einem über einen _Datensatz_-Baustein verknüpften Eintrag an.
-2. **Quell-Baustein** — Der Datei-Upload-, Bild-Upload-, Zeichnungs- oder PDF-Baustein, dessen Dateien angezeigt werden.
+2. **Verknüpfung zu Datei wählen** — Der Datei-Upload-, Bild-Upload-, Zeichnungs- oder PDF-Baustein, dessen Dateien angezeigt werden.
 
 ## Hinweise
 

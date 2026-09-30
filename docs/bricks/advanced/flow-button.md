@@ -14,13 +14,14 @@ redirect_from:
 
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-1. **Verknüpfter Workflow** — Der Workflow, der bei Klick auf den Button ausgeführt wird.
-2. **Pflichtfelder prüfen** — Validiert vor der Ausführung, ob alle als Pflichtfeld markierten Bausteine ausgefüllt sind.
-3. **Parameter** — Optionale Variablen, die an den Workflow übergeben werden.
+1. **Stil** — Legt das visuelle Erscheinungsbild des Buttons fest, z. B. _Primärer Button_ (Button in Primärfarbe des Arbeitsbereichs).
+2. **Workflow starten** — Der Workflow, der bei Klick auf den Button ausgeführt wird.
+3. **Pflichtfelder prüfen** — Validiert vor der Ausführung, ob alle als Pflichtfeld markierten Bausteine ausgefüllt sind.
+4. **Parameter** — Optionale Variablen, die an den Workflow übergeben werden.
 
 ## Hinweise
 
-- Die Ausführungshistorie wird oben rechts im Eintrag eingeblendet, sobald ein Workflow-Button verbaut ist. Dort können Details zu vergangenen Ausführungen eingesehen werden.
+- Über das Werkzeug-Icon oben rechts im Eintrag (Tooltip „Workflows anzeigen") kann die Ausführungshistorie eingesehen werden, sobald ein Workflow-Button verbaut ist.
 - Dieser Baustein ist in geteilten Datensätzen nicht verfügbar.
 
 ## Verwandte Bausteine

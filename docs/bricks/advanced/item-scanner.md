@@ -22,16 +22,16 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 
 1. **Verknüpfung mit** — Die Liste, in die die Artikelbewegungen geschrieben werden.
 2. **Verknüpfung über** — Die Liste, aus der die Warenausgänge angezeigt werden.
-3. **Modus** — Wählt zwischen _Artikel hinzufügen_ und _Artikel abarbeiten_.
-4. **Menge vorbelegen** — Die Standardmenge, die bei jedem Scanvorgang vorbelegt wird. Im Modus _Artikel abarbeiten_ kann hier auch eine Formel verwendet werden (z. B. `menge_angefragt - menge_ausgegeben`).
-5. **Mengenbaustein** — Der Baustein in der Artikelbewegung, in den die gescannte Menge eingetragen wird.
-6. **Zusätzlicher Mengenbaustein** — Ein optionaler zweiter Mengenbaustein.
-7. **Artikel-Baustein** — Der _Datensatz_-Baustein, der den Artikel referenziert.
-8. **Zusätzlicher Scannerbaustein** — Ein optionaler weiterer Baustein, der ebenfalls gescannt werden kann (z. B. Lagerplatz).
-9. **Filter und Sortierung** — Im Modus _Artikel abarbeiten_: Filtert die offenen Positionen (z. B. Differenz > 0).
+3. **Filter und Sortierung** — Nur im Modus _Artikel abarbeiten_: Filtert die offenen Positionen (z. B. Differenz > 0).
+4. **Modus** — Wählt zwischen _Artikel hinzufügen_ und _Artikel abarbeiten_.
+5. **Menge vorbelegen** — Die Standardmenge, die bei jedem Scanvorgang vorbelegt wird. Im Modus _Artikel abarbeiten_ kann hier auch eine Formel verwendet werden (z. B. `menge_angefragt - menge_ausgegeben`).
+6. **Mengenbaustein** — Der Baustein in der Artikelbewegung, in den die gescannte Menge eingetragen wird.
+7. **Zusätzlicher Mengenbaustein** — Ein optionaler zweiter Mengenbaustein.
+8. **Artikel-Baustein** — Der _Datensatz_-Baustein, der den Artikel referenziert.
+9. **Zusätzlicher Scannerbaustein** — Ein optionaler weiterer Baustein, der ebenfalls gescannt werden kann (z. B. Lagerplatz).
 10. **Menge aufsummieren, statt überschreiben** — Nur im Modus _Artikel abarbeiten_: Summiert mehrere Scanvorgänge auf, statt den Wert zu überschreiben.
 11. **Scan zur Artikelbestätigung erzwingen** — Erwartet in jedem Fall einen Scanvorgang; manuelle Eingabe ist nicht möglich.
-12. **Automatisch bestätigen** — Bestätigt den Scanvorgang automatisch nach dem Eintragen aller Werte.
+12. **Automatisch absenden** — Schließt den Scanvorgang automatisch ab, sobald alle Werte eingetragen sind.
 
 ## Funktionsweise
 
