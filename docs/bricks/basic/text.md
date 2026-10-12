@@ -28,11 +28,12 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 - Hinweistexte sind immer nur lesbar. Die Einstellung _Nur Lesen_ hat hier keine weitere Funktion.
 - Das bedingte Anzeigen und Verstecken von Hinweistexten ist möglich und dort sinnvoll, wo Hinweise nur unter bestimmten Bedingungen relevant sind.
 
-## Funktionsweise 
+## Funktionsweise
 
-Nachdem der Hinweistext über die Bezeichnung des Bausteins im Designmodus eingegeben wurde, kann über die Einstellung _Stil_ ein Stil ausgewählt werden (z.B. hier: Warnung).
+Nachdem der Hinweistext über die Bezeichnung des Bausteins im Designmodus eingegeben wurde, kann über die Einstellung _Stil_ ein Stil ausgewählt werden (z. B. hier: Warnung).
 
 ![alt text](/assets/workflows/advanced/bricks/basic/text-hint-v2.png)
+
 ## Verwandte Bausteine
 
 - [Formatierter Hinweis](/docs/bricks/basic/rich-text-hint) — Für Hinweistexte mit Formatierungen, Bildern und Auflistungen

@@ -3,7 +3,7 @@ layout: title
 title: Plan-Annotationen
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 39
+nav_order: 41
 ---
 
 Mit dem Baustein _Plan-Annotationen_ wird ein Plan als PDF hinterlegt und mit Markierungen versehen. Hinter jeder Markierung steht ein vollständiger Datensatz. So lassen sich Mängel einer Baustellenbegehung im Grundriss verorten, Prüfpunkte einer Wartung im Anlagenschema oder Geräte in einem Lageplan.

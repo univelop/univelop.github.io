@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Ressourcen-Zuweisung
-nav_order: 14
+nav_order: 15
 parent: Kacheln
 nav_exclude: true
 ---

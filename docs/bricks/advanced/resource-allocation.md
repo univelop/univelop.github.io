@@ -3,7 +3,7 @@ layout: title
 title: Ressourcen-Zuweisung
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 36
+nav_order: 38
 nav_exclude: true
 ---
 

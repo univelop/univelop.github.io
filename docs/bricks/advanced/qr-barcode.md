@@ -3,7 +3,7 @@ layout: title
 title: QR-/Barcode
 parent: Erweiterte Bausteine
 grand_parent: Bausteine
-nav_order: 31
+nav_order: 32
 redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/qr-barcode.html
 ---
@@ -15,9 +15,8 @@ Der Baustein _QR-/Barcode_ erzeugt aus dem Wert eines verknüpften Text- oder Za
 Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
 1. **Art** — Darstellung des Codes: _QR-Code_ oder _Barcode (Code 128)_.
-2. **Wert des QR- oder Barcodes** - Wert des Codes - bezieht sich auf einen Textbaustein oder Textformelbaustein.
+2. **Wert des QR- oder Barcodes** — Der Text- oder Textformel-Baustein, dessen Wert als Code dargestellt wird.
 3. **Größe** — Darstellungsgröße des Codes im Eintrag.
-
 
 ## Hinweise
 
@@ -26,4 +25,3 @@ Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allge
 ## Verwandte Bausteine
 
 - [Artikel Scanner](/docs/bricks/advanced/item-scanner) — Zum Scannen und Verarbeiten von Barcodes
-

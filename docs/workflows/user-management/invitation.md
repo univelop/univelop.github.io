@@ -10,21 +10,26 @@ redirect_from:
     - /docs/workflows/advanced/invitation.html
 ---
 
-Mit diesem Baustein wird ein Einladungslink entsprechend der Einstellungen erstellt.
-Ein Nutzer, welcher über diesen Link beitritt, bekommt die angegebene Rolle sowie die gewählte Lizenz.
-Dieser Link ist im folgenden Workflow über den technischen Namen direkt als Text verwendbar.
+Mit dem Schritt _Erstelle Einladungslink_ wird ein Einladungslink generiert, über den ein Benutzer dem Arbeitsbereich beitreten kann. Dem Benutzer wird dabei automatisch die angegebene Rolle und Lizenz zugewiesen. Der Link ist in folgenden Schritten über den technischen Namen als Text verfügbar.
 
-### <span style="color:#0b5394">**Einstellungen**</span>
+## Einstellungen
 
-1. <span style="color:#0b5394">**Rollenname/-ID**</span>
-1. <span style="color:#0b5394">**E-Mail (optional)**</span>
-1. <span style="color:#0b5394">**Lizenzname**</span>
+1. **Rollenname/-ID** — Die Rolle, die dem beitretenden Benutzer zugewiesen wird. Kann als Name oder ID angegeben werden.
+2. **E-Mail** — _Optional._ Eine E-Mail-Adresse, auf die der Einladungslink beschränkt wird.
+3. **Lizenzname** — Der Lizenztyp für den beitretenden Benutzer.
 
-Aus Abwärtskompatibilitätsgründen sind derzeit folgende Lizenz-Schlüssel zu verwenden:
+## Lizenz-Schlüssel
 
--   Power-User: **adminUser**
--   Essential-User: **proUser**
--   Light-User (Module): **lightUserPlus3**
--   Light-User (Part-Time): **lightUserPartTime**
--   External-User: **externalUser**
--   Test-User: **testUser**
+| Lizenztyp | Schlüssel |
+|-----------|-----------|
+| Power-User | `adminUser` |
+| Essential-User | `proUser` |
+| Light-User (Module) | `lightUserPlus3` |
+| Light-User (Part-Time) | `lightUserPartTime` |
+| External-User | `externalUser` |
+| Test-User | `testUser` |
+
+## Hinweise
+
+- Der generierte Link kann z. B. per [Sende E-Mail](/docs/workflows/advanced/send-email) an den Benutzer versendet werden.
+- Verfügbar in: Client-Automatisierung, Server-Automatisierung, Geschäftsprozess.

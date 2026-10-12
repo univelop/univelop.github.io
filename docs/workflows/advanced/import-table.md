@@ -15,7 +15,7 @@ Mit dem Schritt _Importiere Tabelle_ werden Daten aus einer Excel- oder CSV-Date
 
 1. **Verknüpfung mit** — Die Liste, die den [Datei-Upload](/docs/bricks/input/file-picker)-Baustein enthält.
 2. **Verknüpfung mit Baustein** — Der Datei-Upload-Baustein, über den die Tabelle hochgeladen wurde.
-3. **Datensatz-ID** — Die ID des Datensatzes mit der hochgeladenen Datei.
+3. **Datensatz-ID** — Die ID des Datensatzes mit der hochgeladenen Datei. Ist meist schon vorbelegt, wenn der Workflow mit einem [Wähle Datensatz](/docs/workflows/record-loading/choose-record)-Schritt beginnt.
 4. **Dateiformat** — Das Format der Datei: _Excel_ (.xlsx) oder _CSV_.
 5. **Anzahl Kopfzeilen** — Die Anzahl der Zeilen, die als Kopfzeilen übersprungen werden. Bei `1` beginnen die Daten ab Zeile 2.
 6. **CSV-Feldtrennzeichen** — _Nur bei CSV._ Das Trennzeichen zwischen Feldern (Standard: Komma).

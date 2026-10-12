@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Kanban Board
-nav_order: 6
+nav_order: 7
 parent: Kacheln
 ---
 
@@ -26,7 +26,7 @@ Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-setting
 4. **Schnellfilter** — Dynamische Filter, die direkt in der Kanban-Ansicht umgeschaltet werden können.
 5. **Eintragsvorschau** — Konfiguration, welche Felder auf den Karten in der Spaltenansicht angezeigt werden.
 
-## Verwandte Kacheln
+## Verwandte Komponenten
 
 - [Einfache Liste](/docs/tiles/basic-tile) — Die Basisliste für das Kanban Board
 - [Gefilterte Liste](/docs/tiles/filter-tile) — Alternative für vorgefilterte Listenansichten

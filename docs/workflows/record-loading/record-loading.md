@@ -7,4 +7,4 @@ redirect_from:
     - /docs/workflows/load-records/load-records.html
 ---
 
-Workflow-Schritte der Kategorie Einträge laden ermöglichen das Laden sowie Erstellen von Datensätzen in Univelop. In allen Schritten dieser Kategorie muss daher im Designmodus eine Liste festgelegt werden, welche die Art und Struktur der Datensätze festlegt.
+Workflow-Schritte der Kategorie _Einträge laden_ ermöglichen das Erstellen, Suchen, Duplizieren und Durchlaufen von Datensätzen. In jedem Schritt dieser Kategorie wird eine Liste festgelegt, die die Struktur der Datensätze bestimmt. Geladene Datensätze sind in folgenden Schritten über ihren technischen Namen zugreifbar.
