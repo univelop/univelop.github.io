@@ -14,8 +14,8 @@ Mit dem Schritt _Zeige Nachricht_ wird ein Popup mit Titel und Text angezeigt. D
 
 ## Einstellungen
 
-1. **Titel** — Der Titel des Popups. Kann dynamisch mit `${}` gestaltet werden.
-2. **Nachricht** — Der Nachrichtentext. Kann dynamisch mit `${}` gestaltet werden.
+1. **Titel** — Der Titel des Popups. Kann als Formel angegeben werden, um den Titel dynamisch zu gestalten.
+2. **Nachricht** — Der Nachrichtentext. Kann als Formel angegeben werden, um den Nachrichtentext dynamisch zu gestalten.
 
 ## Hinweise
 

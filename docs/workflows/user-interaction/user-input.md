@@ -11,7 +11,7 @@ Mit dem Schritt _Erfasse Benutzereingabe_ wird ein Eingabedialog angezeigt, in d
 
 ## Einstellungen
 
-1. **Titel** — Der Titel des Eingabedialogs. Kann dynamisch mit `${}` gestaltet werden.
+1. **Titel** — Der Titel des Eingabedialogs. Kann als Formel angegeben werden, um den Titel dynamisch zu gestalten.
 2. **Nachricht** — _Optional._ Ein erklärender Text im Dialog.
 3. **Typ der Variable** — Der erwartete Datentyp der Eingabe: Text, Zahl, Datum oder Ja/Nein.
 4. **Initialer Wert** — _Optional._ Ein vorausgefüllter Wert. Kann als Formel angegeben werden.

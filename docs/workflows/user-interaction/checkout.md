@@ -14,8 +14,8 @@ Mit dem Schritt _Check Out_ wird ein Popup mit Titel, Nachricht und einem Button
 
 ## Einstellungen
 
-1. **Titel** — Der Titel des Popups. Kann dynamisch mit `${}` gestaltet werden.
-2. **Nachricht** — Der Nachrichtentext. Kann dynamisch mit `${}` gestaltet werden.
+1. **Titel** — Der Titel des Popups. Kann als Formel angegeben werden, um den Titel dynamisch zu gestalten.
+2. **Nachricht** — Der Nachrichtentext. Kann als Formel angegeben werden, um den Nachrichtentext dynamisch zu gestalten.
 
 ## Hinweise
 

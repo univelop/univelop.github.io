@@ -15,7 +15,7 @@ Mit dem Schritt _Laufe weiter, wenn_ wird der Workflow anhand einer Bedingung en
 
 1. **Bedingung** — Eine Ja/Nein-Formel. Ergibt die Formel `true`, läuft der Workflow weiter. Bei `false` wird der Workflow beendet.
 2. **Warnung bei ungültiger Bedingung** — Wenn aktiviert, wird bei Abbruch eine Warnung angezeigt.
-3. **Warnhinweis** — Der Text der Warnung, die bei Abbruch angezeigt wird. Kann dynamisch mit `${}` gestaltet werden.
+3. **Warnhinweis** — Der Text der Warnung, die bei Abbruch angezeigt wird. Kann als Formel angegeben werden, um den Warnhinweis dynamisch zu gestalten.
 
 ## Hinweise
 
