@@ -14,5 +14,5 @@ Univelop bietet verschiedene Schnittstellen, um Daten mit externen Systemen ausz
 |---|---|
 | [REST-API](/docs/interfaces/rest-api) | Programmatischer Zugriff auf Datensätze, Benutzer und Workflows |
 | [Kalenderfreigaben](/docs/interfaces/calendar-shares) | Datensätze als Kalendereinträge in externen Kalendern anzeigen |
-| [Import und Export](/docs/interfaces/import-export) | Arbeitsbereiche, Kacheln und Datensätze über Excel oder ZIP-Dateien austauschen |
-| [Integrationen](/docs/interfaces/integrations) | Externe Dienste wie Microsoft, OpenAI oder SMTP anbinden |
+| [Import und Export](/docs/interfaces/import-export) | Arbeitsbereiche, Kacheln und Datensätze über Excel oder ZIP-Dateien importieren und expotieren |
+| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste wie Microsoft, OpenAI oder SMTP anbinden |

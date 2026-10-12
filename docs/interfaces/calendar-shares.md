@@ -15,9 +15,11 @@ Kalenderfreigaben werden von allen gängigen Kalenderanwendungen unterstützt:
 
 | Anwendung | Aktualisierung | Manuelle Aktualisierung |
 |---|---|---|
-| **Apple Kalender** | Intervall einstellbar (5 min – wöchentlich) | ja |
+| **Apple Kalender** | Intervall einstellbar (5 min – wöchentlich) | ja¹ |
 | **Outlook** | Automatisch + manuell | ja |
 | **Google Kalender** | Automatisch | nein |
+
+¹ Über _Ansicht → Kalender aktualisieren_ werden alle Kalender gemeinsam aktualisiert, inklusive abonnierter — ein separater Button pro Kalender existiert nicht. ([Quelle: Apple Support](https://support.apple.com/guide/calendar/refresh-calendars-icl1024/mac))
 
 Als Richtwert kann davon ausgegangen werden, dass Kalenderfreigaben **ein- bis zweimal täglich** aktualisiert werden.
 

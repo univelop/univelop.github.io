@@ -18,7 +18,7 @@ Univelop bietet zwei Versionen der REST-API an:
 | **V2** | Aktiv, wird weiter ausgebaut | [Univelop REST-API V2](https://app.univelop.de/api/v2/docs) |
 | **V1** | Verfügbar, wird nicht mehr erweitert | [Univelop REST-API V1](https://app.univelop.de/api/v1/docs) |
 
-Die API-Dokumentation enthält alle Spezifikationen und ermöglicht das direkte Testen von Anfragen.
+Die API-Dokumentation enthält alle Spezifikationen und ermöglicht über den „Authorize"-Dialog das direkte Testen von Anfragen. Dafür wird der unter [Authentifizierung](#authentifizierung) erstellte API-Schlüssel benötigt.
 
 ## Authentifizierung
 
