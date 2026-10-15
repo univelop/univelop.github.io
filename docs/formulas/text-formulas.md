@@ -1,19 +1,22 @@
 ---
 title: Textformeln
 layout: title
-parent: Formelsammlung
-nav_order: 3
+parent: Formeln
+nav_order: 4
 redirect_from:
     - /docs/formulas/childs/text-formulas.html
 ---
 
-## <span style="color:#0b5394">**Textkonstanten**</span>
+Textformeln dienen der Verarbeitung und Formatierung von Zeichenketten. Sie werden häufig eingesetzt, um Texte zusammenzusetzen, zu durchsuchen, zu kürzen oder Zahlen und Datumswerte in lesbaren Text umzuwandeln.
 
-Folgende Textkonstanten dienen dem Zugriff auf die Attribute des aktuellen Benutzers.
-Alle Textkonstanten liefern einen Text bei der Auswertung.
+Texte werden in Formeln mit doppelten Anführungszeichen angegeben: `"Hallo Welt"`. Mit dem `+` Operator können mehrere Texte verbunden werden: `"Hal" + "lo"` ergibt `"Hallo"`.
+
+## Textkonstanten
+
+Folgende Konstanten liefern Informationen über den aktuellen Benutzer oder Kontext als Text:
 
 {% include expression_variables_table.html category="text" %}
 
-## <span style="color:#0b5394">**Textformeln**</span>
+## Formelübersicht
 
 {% include expressions_table.html category="text" %}
