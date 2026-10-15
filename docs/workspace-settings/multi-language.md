@@ -7,75 +7,38 @@ redirect_from:
     - /docs/multi-language.html
 ---
 
-Die Mehrsprachigkeit ermöglicht einen Internationalen Einsatz von Univelop.
-Dadurch kann Univelop mit dem selben Aufbau in verschiedensten sprachen genutzt und angezeigt werden.
-Aktuell unterstützt Univelop die Sprachen Deutsch und Englisch.
+Die Mehrsprachigkeit ermöglicht den internationalen Einsatz von Univelop. Damit kann ein Arbeitsbereich mit identischem Aufbau in verschiedenen Sprachen genutzt werden. Aktuell unterstützt Univelop die Sprachen **Deutsch** und **Englisch**.
 
-Die Anzeigesprache kann im Menü auf der Startseite gewechselt werden.
+Die Anzeigesprache kann im Menü auf der Startseite zwischen `de` und `en` gewechselt werden.
 
-<!--TODO: Screenshot!!!!-->
+## Aktivierung
 
-Dort kann zwischen _de_ und _en_ gewechselt werden.
+Um die Mehrsprachigkeit freizuschalten, muss diese in den Arbeitsbereich-Einstellungen unter **Allgemein** konfiguriert werden:
 
-Für eine erfolgreiche Nutzung der Mehrsprachigkeit ist die Konfiguration des eigenen Arbeitsbereiches notwendig.
+1. **Standardsprache** — die Sprache, in der der Arbeitsbereich standardmäßig angezeigt wird
+2. **Unterstützte Sprachen** — alle Sprachen, in denen der Arbeitsbereich verfügbar sein soll
 
-## <span style="color:#0b5394">**Einführung der Mehrsprachigkeit**</span>
+Alle Texte, die direkt von Univelop stammen (Menüs, Systemmeldungen), sind bereits in beiden Sprachen verfügbar. Eigene Texte — also Namen von Listen, Bausteinen und Workflows — müssen manuell übersetzt werden.
 
-### <span style="color:#0b5394">**Aktivieren im Arbeitsbereich**</span>
+## Übersetzung vornehmen
 
-Um zuerst die Mehrsprachigkeit im eigenen Arbeitsbereich freizuschalten, muss diese in den Einstellungen aktiviert werden.
-In den Einstellungen unter Allgemein sind die Punkte "Standardsprache" und "Unterstützte Sprachen" zu finden.
+Texte, die übersetzt werden können, sind an einem **Sprachsymbol** zu erkennen. Durch Klick auf das Symbol wechselt die Sprache zum nächsten verfügbaren Wert. Dann wird der Text in der gewünschten Sprache eingetragen.
 
-<!--TODO: Screenshot!!!!-->
+### Arbeitsbereich-Name
 
-Bei erstem wird festgelegt, in welcher Sprache der Arbeitsbereich typischerweise angezeigt wird.
-Bei zweitem werden die Sprachen festgelegt, in welchen der Arbeitsbereich angezeigt werden kann.
-Hier können neben Deutsch auch Englisch als weitere Sprache hinzugewählt werden.
+In den Einstellungen des Arbeitsbereichs kann der Name direkt für alle unterstützten Sprachen übersetzt werden.
 
-Standardmäßig sind alle Texte, welche direkt von Univelop stammen, bereits in beiden Sprachen verfügbar.
-Eigene Texte, also bspw. die Namen von Listen und Bausteinen, müssen selber übersetzt werden.
+### Bausteine
 
-In den Einstellungen des Arbeitsbereiches kann der Name des Arbeitsbereiches gleich auch für neue Sprachen übersetzt werden. Hierzu muss das Sprachsymbol angeklickt werden, um die Sprache zu wechseln.
+Im Eintrags-Designmodus wird jeder Baustein einzeln ausgewählt und alle Textfelder mit Sprachsymbol übersetzt. Dazu gehören auch Optionen wie Statuswerte, Dropdown-Einträge und Tooltips.
 
-<!--TODO: Screenshot!!!!-->
+### Kacheln
 
-Ist die gewünschte Sprache ausgewählt, kann der Name des Arbeitsbereiches in dieser Sprache eingetragen werden.
+Im Arbeitsbereich-Designmodus wird jede Kachel ausgewählt und alle Felder mit Sprachsymbol angepasst — insbesondere der Kachelname.
 
-### <span style="color:#0b5394">**Übersetzung der Bausteine**</span>
+### Workflows
 
-Da nun der Arbeitsbereich für eine weitere Sprache freigeschaltet wurde, müssen nun alle Bausteine für diese Sprache übersetzt werden. Dazu geht man zuerst den Designmodus. Hier wählt man Baustein für Baustein aus
-und übersetzt alle vorhandenen Texte. Diese sind an dem Sprachsymbol zu erkennen.
+Im Workflow-Designmodus werden der Name und die Meldungen des Workflows übersetzt. Anschließend wird jeder Workflow-Schritt einzeln bearbeitet. Besonders relevant sind Meldungen und Hinweise, die Benutzern angezeigt werden (z. B. bei Workflow-Buttons).
 
-<!--TODO: Screenshot!!!!-->
-
-Klickt man auf dieses Sprachsymbol, wechselt die Sprache zur nächsten verfügbaren.
-Nun muss man so oft auf dieses Sprachsymbol klicken, bis die hinzugefügte Sprache aufkommt.
-Dann wird der Text in diesem Feld in der richtigen Sprache eingetragen.
-Et voilà, der Baustein ist in der neuen Sprache verfügbar.
-
-Dieses Vorgehen muss man nun für alle Bausteine und dessen Einstellungen wiederholen.
-Hierzu gehören auch bspw. jeder Status beim Status-Baustein und jede Option bei einem Dropdown-Baustein.
-
-### <span style="color:#0b5394">**Übersetzung der Listen**</span>
-
-<!--TODO: Screenshot!!!!-->
-
-Im selben Wege, wie man die Bausteine übersetzt hat, müssen auch Kacheln bzw. Listen übersetzt werden.
-Dazu muss man in den Designmodus des Arbeitsbereiches wechseln und dort jede Kachel wählen und jedes Feld mit
-Sprachsymbol darauf anpassen.
-
-### <span style="color:#0b5394">**Übersetzung der Workflows**</span>
-
-Zuletzt, und nur bei Bedarf, sollen die Workflows mehrsprachig werden.
-Da Workflows eher ein Admin-Thema sind, ist die Mehrsprachigkeit an der Stelle nur empfehlenswert,
-wenn es Admins gibt, die andere Sprachen sprechen.
-Davon abgesehen sind sonst Meldungen und Hinweise wichtig für die Mehrsprachigkeit.
-Diese werden bspw. bei Workflow-Buttons angezeigt und sollten daher auch mehrsprachig konfiguriert sein.
-
-Hierzu öffnet man den Designmodus für einen Workflow.
-Zuerst kann der Name und die Meldungen vom Workflow angepasst werden.
-Danach muss jeder Workflow-Baustein angepasst werden, ähnlich wie es mit den normalen Bausteinen gemacht wurde.
-Jede relevante Einstellung mit Sprachsymbol muss in der neuen Sprache eingetragen werden.
-
-Ist auch dieser Schritt erledigt, ist der Arbeitsbereich vollständig konfiguriert und kann
-in weiteren Sprachen erfolgreich genutzt werden.
+{: .hint }
+Da Workflows eher ein Admin-Thema sind, ist die Übersetzung nur dann nötig, wenn Admins verschiedene Sprachen sprechen oder Workflow-Meldungen für Endbenutzer sichtbar sind.

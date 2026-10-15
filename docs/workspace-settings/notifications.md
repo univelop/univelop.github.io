@@ -7,20 +7,28 @@ redirect_from:
     - /docs/global-settings-and-functions.html
 ---
 
-Es können Benachrichtigungen für Änderungen an Datensätzen angezeigt werden. Die Benachrichtigung ist
-eine rot eingekreiste Zahl auf der Kachel, welche die Anzahl der neuen Datensätze oder Änderungen
-beinhaltet. Beim Klick in die Kachel ist der jeweilige Datensatz mit einem roten Punkt markiert.
+Univelop kann Benutzer über Änderungen an Datensätzen benachrichtigen. Benachrichtigungen werden als rot eingekreiste Zahl auf der Kachel angezeigt. Innerhalb der Kachel sind geänderte Datensätze mit einem roten Punkt markiert.
 
-In den Kacheleinstellungen können die Benachrichtigungen je Kachel für alle Nutzer aktivieren werden.
-Zudem besteht die Möglichkeit die Benachrichtigungen in der Kachel über das Glockensymbol zu aktivieren
-oder deaktivieren. Möchte man über Änderungen in der Liste benachrichtigt werden, kann dies über die
-drei Punkte innerhalb der Kachel aktiviert oder deaktiviert werden. Darüber hinaus bietet Univelop ebenfalls
-die Funktion, Mitgliedern eines Arbeitsbereiches, die die Univelop-App aktiv nutzen, diese per Push-
-Benachrichtigung über Änderungen in bestimmten Kacheln zu informieren.
+## Aktivierung
 
-### <span style="color:#0b5394">Versendezeitpunkt</span>
+Benachrichtigungen können auf drei Ebenen aktiviert werden:
 
-In dem Homescreen Designmodus können unter _Push-Nachrichten anpassen_ Uhrzeiten für das Versenden von Push-Nachrichten angegeben werden. Dadurch werden alle Push-Nachrichten, welche durch Änderungen vor einer angegebenen Uhrzeit erzeugt wurden, zu dieser erst versendet.
-So können Nutzer zu einem Zeitpunkt alle wichtigen Änderungen sehen, statt sie über den Tag verteilt zu bekommen.
-Beispiel: Hat man die Uhrzeit 09:00 und 15:00 angegeben, so werden alle Push-Nachrichten nach 09 Uhr um 15 Uhr versendet, und alle Push-Nachrichten nach 15 Uhr werden zum Folgetag um 09 Uhr versendet.
-Nutzer, welche diese Änderungen in der App bereits vor der Uhrzeit gesehen haben, bekommen dafür keine Push-Nachrichten mehr.
+1. **Kacheleinstellungen** — Admins können Benachrichtigungen für eine Kachel für alle Nutzer aktivieren
+2. **Glockensymbol** — einzelne Nutzer können Benachrichtigungen pro Kachel für sich aktivieren oder deaktivieren
+3. **Drei-Punkte-Menü in der Liste** — Benachrichtigungen für Änderungen innerhalb der Listenansicht aktivieren oder deaktivieren
+
+## Push-Benachrichtigungen
+
+Für Mitglieder, die die Univelop-App nutzen, können zusätzlich Push-Benachrichtigungen versendet werden.
+
+### Versendezeitpunkt
+
+In den Arbeitsbereich-Einstellungen unter **Push-Nachrichten anpassen** können Uhrzeiten für das Versenden von Push-Nachrichten angegeben werden. Alle Push-Nachrichten, die vor einer angegebenen Uhrzeit erzeugt wurden, werden gesammelt und zu dieser Uhrzeit versendet.
+
+**Beispiel:** Bei den Uhrzeiten 09:00 und 15:00 werden alle Push-Nachrichten nach 09:00 um 15:00 versendet, und alle nach 15:00 am Folgetag um 09:00.
+
+Nutzer, die Änderungen bereits in der App gesehen haben, erhalten dafür keine Push-Nachrichten mehr.
+
+## Workflow-Fehler-E-Mails
+
+Unter **Workflow-Fehler-Mails** können E-Mail-Adressen hinterlegt werden, die bei Workflow-Fehlern automatisch benachrichtigt werden.
