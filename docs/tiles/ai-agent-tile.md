@@ -25,4 +25,4 @@ Zusätzlich zu den [allgemeinen Kacheleinstellungen](/docs/tiles/general-setting
 ## Verwandte Schritte
 
 - [AI Agent](/docs/workflows/advanced/ai-agent) — Workflow-Schritt zum Aufrufen eines AI Agents
-- [Frag KI](/docs/workflows/advanced/ask-ai) — Workflow-Schritt für einzelne KI-Anfragen
+- [Frag ChatGPT](/docs/workflows/advanced/ask-ai) — Workflow-Schritt für einzelne KI-Anfragen

@@ -12,7 +12,7 @@ Mit dem Schritt _Gib Wert zurück_ werden Rückgabewerte an den aufrufenden Proz
 
 ## Einstellungen
 
-1. **Rückgabe-Parameter** — Die Parameter, die zurückgegeben werden. Für jeden Parameter wird ein Name, Typ und Wert angegeben — analog zu den Parametern beim [Starte Workflow](/docs/workflows/structure/start-workflow)-Schritt.
+1. **Rückgabewerte** — Die Parameter, die zurückgegeben werden. Für jeden Parameter wird ein Name, Typ und Wert angegeben — analog zu den Parametern beim [Starte Workflow](/docs/workflows/structure/start-workflow)-Schritt.
 
 ## Einschränkungen
 

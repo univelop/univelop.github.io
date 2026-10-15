@@ -13,14 +13,14 @@ Mit dem Schritt _Sende Web-Request_ wird eine HTTP-Anfrage an eine externe URL g
 
 ## Einstellungen
 
-1. **URL** — Die Ziel-URL der Anfrage. Kann dynamisch mit `${}` gestaltet werden.
+1. **URL** — Die Ziel-URL der Anfrage. Kann als Formel angegeben werden, um die URL dynamisch zu gestalten.
 2. **Methode** — Die HTTP-Methode (GET, POST, PUT, PATCH, DELETE).
 3. **Request Body** — Der Inhalt der Anfrage. Kann dynamisch gestaltet werden.
 4. **Request Header** — Benutzerdefinierte HTTP-Header. Kann dynamisch gestaltet werden.
-5. **Encoding** — Die Zeichenkodierung der Anfrage.
-6. **Response-Format** — Das erwartete Antwortformat: _Text_ oder _Binär_. Für den Download von Dateien _Binär_ wählen.
+5. **Request Encoding** — Die Zeichenkodierung der Anfrage.
+6. **Response Format** — Das erwartete Antwortformat: _Text_ oder _Binär_. Für den Download von Dateien _Binär_ wählen.
 7. **Auf Antwort warten** — Wenn aktiviert, wartet der Workflow auf die Antwort. Deaktiviert für Fire-and-Forget-Anfragen.
-8. **Fehlerverhalten** — Bestimmt, was bei einem Fehler passiert: _Workflow abbrechen_ oder _Ignorieren_.
+8. **Fehler-Verhalten** — Bestimmt, was bei einem Fehler passiert: _Workflow abbrechen_ oder _Ignorieren_.
 9. **Integration** — _Optional._ Eine vorkonfigurierte Integration für Authentifizierung.
 10. **Unsichere Verbindungen erlauben** — Erlaubt Anfragen an Server mit ungültigen SSL-Zertifikaten.
 

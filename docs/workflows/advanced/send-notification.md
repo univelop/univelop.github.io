@@ -13,13 +13,14 @@ Mit dem Schritt _Sende Push-Nachricht_ wird eine Push-Benachrichtigung an ausgew
 
 ## Einstellungen
 
-1. **Titel** — Der Titel der Push-Nachricht. Kann dynamisch mit `${}` gestaltet werden.
-2. **Nachricht** — Der Inhalt der Push-Nachricht. Kann dynamisch mit `${}` gestaltet werden.
-3. **Verknüpfung mit** — _Optional._ Die Kachel, falls die Benachrichtigung auf einen bestimmten Datensatz verweisen soll.
-4. **Verknüpfte Eintrags-ID** — _Optional._ Die ID des Datensatzes, auf den verwiesen wird.
-5. **Versenden an** — Die Empfängerart: _Benutzergruppen_ (Rollen) oder _Einzelne Benutzer_.
-6. **Rollen-IDs/-namen oder Benutzer-IDs/-E-Mails** — Die IDs oder Namen der Rollen (bei Benutzergruppen) bzw. IDs und E-Mails (bei einzelnen Benutzern). Kommagetrennt.
-7. **Versendezeitpunkt** — _Optional._ Zeitgesteuerte Zustellung gemäß der Benachrichtigungseinstellungen des Arbeitsbereichs.
+1. **Titel** — Der Titel der Push-Nachricht. Kann als Formel angegeben werden, um den Titel dynamisch zu gestalten.
+2. **Nachricht** — Der Inhalt der Push-Nachricht. Kann als Formel angegeben werden, um die Nachricht dynamisch zu gestalten.
+3. **Verknüpfung mit** — _Optional._ Die Komponente auf die verwiesen wird, falls die Benachrichtigung auf einen bestimmten Datensatz verweisen soll.
+4. **Verknüpfte Datensatz-ID** — _Optional._ Die ID des Datensatzes, auf den verwiesen wird.
+5. **Versenden an** — Die Empfängerart: _Benutzergruppen_ (Rollen) oder _Einzelne Benutzer_. Je nach Auswahl erscheint eines der beiden folgenden Felder:
+   - **Rollen-IDs / Namen (kommagetrennt)** — Bei Auswahl von _Benutzergruppen_: die IDs oder Namen der Zielrollen.
+   - **Benutzer-IDs / Mails (kommagetrennt)** — Bei Auswahl von _Einzelne Benutzer_: die IDs oder E-Mail-Adressen der Zielbenutzer.
+6. **Versendezeitpunkt Push-Nachricht** — _Optional._ Option zwischen _Sofort versenden_ oder _Gesammelt versenden_. Steuert, wann die Benachrichtigung im In-App-Benachrichtigungscenter angezeigt und mitgezählt wird: Bei _Gesammelt versenden_ erst zum nächsten in den Arbeitsbereich-Benachrichtigungseinstellungen konfigurierten Zeitpunkt.
 
 ## Hinweise
 

@@ -13,7 +13,7 @@ Mit dem Schritt _Webhook_ kann ein Workflow extern über die REST-API gestartet 
 
 ## Einstellungen
 
-1. **Beispiel-Payload** — _Optional._ Ein Beispiel-JSON, das die erwartete Struktur des Payloads beschreibt. Wird für die Validierung und Autovervollständigung im Designmodus verwendet.
+1. **Beispiel-JSON-Body** — _Optional._ Ein Beispiel-JSON, das die erwartete Struktur des Payloads beschreibt. Wird für die Validierung und Autovervollständigung im Designmodus verwendet.
 
 ## Funktionsweise
 
