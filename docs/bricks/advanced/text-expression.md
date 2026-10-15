@@ -8,14 +8,28 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/textformular.html
 ---
 
-Mit dem Baustein _Textformel_ wird das Ergebnis einer Formel als Text ohne weitere Formatierung dargestellt. Die Formel funktioniert ohne weiteres, wenn nur Textbausteine referenziert oder ein Text in der Form **'Beispieltext'**(inklusive der Hochkommata) angegeben bzw. kombiniert werden.
+Mit dem Baustein _Textformel_ wird das Ergebnis einer Formel als Text dargestellt. Die Formel kann Textbausteine direkt referenzieren oder statische Texte in Hochkommata angeben (z. B. `'Beispieltext'`).
 
-Sobald ein nicht-textueller Wert angegeben ist, wird die Funktion `toText(nichtTextuellerWert)` zur geregelten Umwandlung von nicht-textuellen Werten, wie z. B. einem Datum oder einer Zahl, in eine textuelle Darstellung benötigt, um mögliche Formatierungs- oder Berechnungsfehler zu vermeiden.
+## Einstellungen
 
-So kann bspw. anhand eines Wertes ein individueller Text angegeben werden, oder anhand einer Kombination von einem Baustein _Nummer_ und _Text_ ein eigener Sortiercode erzeugt werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
+1. **Formel** — Der Ausdruck, der ausgewertet wird. Kann andere Bausteine über ihren technischen Namen referenzieren.
 
-## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
+## Funktionsweise
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.
+- Werden nur Text-Bausteine oder statische Texte in Hochkommata verwendet, funktioniert die Formel ohne weitere Funktionen.
+- Sobald ein nicht-textueller Wert (z. B. Datum, Zahl) verwendet wird, muss die Funktion `toText(wert)` zur Umwandlung genutzt werden.
+- Texte können mit `+` verkettet werden, z. B. `'Kunde: ' + kundenname`.
+
+## Hinweise
+
+- Der Wert ist schreibgeschützt und wird automatisch berechnet.
+- Eine Übersicht aller verfügbaren Formeln ist unter _Formeln_ zu finden.
+
+## Verwandte Bausteine
+
+- [Zahlen-Formel](/docs/bricks/advanced/number-expression) — Für berechnete Zahlenwerte
+- [Datums-Formel](/docs/bricks/advanced/date-expression) — Für berechnete Datumswerte
+- [Ja-Nein-Formel](/docs/bricks/advanced/bool-expression) — Für berechnete Wahrheitswerte
+- [Listen-Formel](/docs/bricks/advanced/list-expression) — Für berechnete Listen

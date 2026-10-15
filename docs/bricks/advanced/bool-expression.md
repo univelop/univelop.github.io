@@ -8,22 +8,29 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/boolformular.html
 ---
 
-Mit dem Baustein _Ja-Nein-Formel_ wird das Ergebnis einer Formel als Kästchen mit oder ohne Haken dargestellt.
-Die Formel sollte als Ergebnis einen Wahrheitswert bilden. Dies ist ohne weiteres möglich, wenn man einen Baustein _Schalter_ referenziert.
-Kombiniert man Werte, so müssen diese schlussendlich mit Operatoren zu einem Wahrheitswert kombiniert werden.
+Mit dem Baustein _Ja-Nein-Formel_ wird das Ergebnis einer Formel als Kästchen mit oder ohne Haken (Ja/Nein) dargestellt. Die Formel muss als Ergebnis einen Wahrheitswert liefern.
 
-So kann anhand einer Formel bspw. für Arbeitszeiten angezeigt werden, ob diese abrechnungfähig sind.
+## Einstellungen
 
-Für die Ja/Nein Formel ist keine ifElse Bedingung notwendig. Es reicht die Bedingung zur Erfüllung zu referenzieren.
-Wird die Bedingung nicht erreicht ist der Ausgabe Wert Nein. Auf den Schalter und Ja/Nein-Baustein kann
-auf Erfüllung mittels == true oder == false gefiltert werden. In den Filtern mit Ja oder Nein als Option.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Mittels der Ja/Nein Formel können komplexe Abhängigkeiten abgefragt werden. Hierzu kann mit _oder_ (||) und _und_ (&&)
-als Operatoren im Ausdrucksfeld gearbeitet werden. Möchte ich zum Beispiel einen alten Datensatz identifizieren,
-reicht es bereits im Ausdruck _datum < today() -10 && status == 'Abgerechnet'_ stehen zu haben.
+1. **Formel** — Der Ausdruck, der ausgewertet wird. Muss einen Wahrheitswert (wahr/falsch) ergeben.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
+## Funktionsweise
 
-## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
+- Wird ein einzelner _Schalter_-Baustein referenziert, funktioniert die Formel direkt.
+- Werden Werte kombiniert, müssen diese mit Vergleichsoperatoren (`==`, `!=`, `<`, `>`, `<=`, `>=`) zu einem Wahrheitswert kombiniert werden.
+- Mehrere Bedingungen können mit `&&` (und) sowie `||` (oder) verknüpft werden.
+- Eine `ifElse`-Bedingung ist nicht notwendig — es reicht, die Bedingung direkt zu formulieren. Wird die Bedingung nicht erfüllt, ist der Wert automatisch „Nein".
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.
+## Hinweise
+
+- Der Wert ist schreibgeschützt und wird automatisch berechnet.
+- Auf den Wert kann in Filtern mit „Ja" oder „Nein" gefiltert werden.
+- Komplexe Abhängigkeiten lassen sich abbilden, z. B.: `datum < today() - 10 && status == 'Abgerechnet'`
+
+## Verwandte Bausteine
+
+- [Schalter](/docs/bricks/input/switch) — Für manuelle Ja/Nein-Eingabe
+- [Textformel](/docs/bricks/advanced/text-expression) — Für berechnete Textwerte
+- [Listen-Formel](/docs/bricks/advanced/list-expression) — Für berechnete Listen
