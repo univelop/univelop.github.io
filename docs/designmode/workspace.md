@@ -5,74 +5,34 @@ parent: Designmodi
 nav_order: 1
 ---
 
-Im Arbeitsbereich oben rechts sind zwei Buttons zu finden.Über den _Haus-Button_ wird der Arbeitsbereich
-gewechselt. In den Designmodus des Arbeitsbereichs wechselt man, indem auf den _Drei-Punkte-Button_
-klickt und anschließend den Designmodus auswählt, oder indem man mit der linken Maustaste eine Kachel
-ca. 2 Sekunden lang gedrückt hält.
+Im Arbeitsbereich-Designmodus werden Kacheln angelegt, angeordnet und konfiguriert. Hier wird die gesamte Startseite des Arbeitsbereichs gestaltet.
 
-![select design mode](\old_assets\design-mode-setting\select design mode.png "select design mode")
+## Designmodus öffnen
 
-Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
-zuerst alle allgemeinen Kacheln und darunter die eigenen Kacheln zu sehen.
-Wenn Kacheln "versteckt" wurden, werden diese farblich leicht ausgegraut und ein Symbol mit durchgestrichenen Auge wird gesetzt.
-Die Kacheln können einfach via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
+Den Designmodus des Arbeitsbereichs erreicht man über zwei Wege:
 
-## <span style="color:#0b5394">Kachel</span>
+1. Oben rechts auf den **Drei-Punkte-Button** klicken und **Designmodus** auswählen.
+2. Eine Kachel ca. 2 Sekunden lang mit der linken Maustaste gedrückt halten.
 
-Markiert man im Designmodus des Arbeitsbereichs eine beliebige Kachel, können auf der rechten Seite
-die Kacheleinstellungen bearbeitet werden.
+In der Mitte des Bildschirms werden alle allgemeinen Kacheln und darunter die eigenen Kacheln angezeigt. Versteckte Kacheln erscheinen ausgegraut mit einem durchgestrichenen Augen-Symbol. Die Reihenfolge der Kacheln lässt sich per Drag-and-Drop ändern.
 
-![tile](\old_assets\design-mode-setting\tile.png 'tile')
+## Kacheleinstellungen
 
-1. <span style="color:#0b5394">**Designmodus der Einträge**</span>
-2. <span style="color:#0b5394">**Designmodus der Liste**</span>
-3. <span style="color:#0b5394">**Kachelname ändern**</span>
-4. <span style="color:#0b5394">**Kachelinfo ändern**</span>
-    - Anzeige Anzahl der Datensätze
-    - Anzeige Summe über einen vorhandenen Baustein
-    - Anzeige eines Icon
-    - Festlegen eines Suffix
-5. <span style="color:#0b5394">**Icon**</span>
-    - Festlegen des Icons der Kachel (ggf. mit Anzeige in der Kachel)
-6. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
-    - (s. Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen).
-7. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
+Wird eine Kachel im Designmodus ausgewählt, erscheinen rechts die Kacheleinstellungen. Eine vollständige Beschreibung aller Einstellungen befindet sich unter [Allgemeine Kacheleinstellungen](/docs/tiles/general-settings).
 
-    ![tile2](\old_assets\design-mode-setting\tile2.png 'tile2')
+Von hier aus können auch die weiteren Designmodi geöffnet werden:
 
-8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
-    - Für bestimmte Benutzerrollen freigeben
-    - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
-9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
+1. **Designmodus der Einträge** — öffnet den [Eintrags-Designmodus](/docs/designmode/record) für die ausgewählte Kachel
+2. **Designmodus der Liste** — öffnet den [Listenansicht-Designmodus](/docs/designmode/list-view) für die ausgewählte Kachel
 
-    - **technischer Name ändern**  
-       Technische Namen sind immer erforderlich um sich auf etwas zu beziehen, hier auf die Kachel,
-      und i. d. R. für den Im- und Export von Datensätzen notwendig. Sie sind im Standard immer
-      klein geschrieben und Leerzeichen werden als Unterstrich ausgeschrieben.
-    - **Benachrichtigungsfunktion für alle Benutzer aktivieren**
+## Export und Import
 
-        - Angabe der Anzahl der Änderungen von Datensätzen an der Kachel
-        - Angabe der Änderung innerhalb der Einträge
-
-    - **Bei einzelnem Datensatz direkt zum Datensatz springen**  
-       Bedeutet, es wird keine Liste angezeigt, sondern nur der einzelne Datensatz. Ideal wenn Dritte
-      Zugang zu dem Arbeitsbereich erhalten, die nur die eigenen Datensätze sehen sollen. Funktionell
-      können in diesem einen Datensatz / dieser einen Liste die Daten aus anderen Listen zusammengefasst
-      werden. Hier eignet sich zum Beispiel eine Portalfunktion, bei welcher ein externe Nutzer einem
-      Datensatz zugeordnet wird und nur seine eigenen Daten sieht.
-
-Der Button **_Counter aktualisieren_** sorgt dafür, dass wenn der Inhalt der Kachel als Anzahl Datensätze oder
-Summe über Baustein gewählt wurde, diese Zähler sich aktualisieren bzw. die Summe neu berechnet wird. Dies
-passiert im Produktivsystem live, muss jedoch initial gesetzt werden.
-
-Über den Button **_Export_** können einzelne Kachel im JSON-Format exportiert werden. Ein Export erfolgt immer
-**_ohne Vorlagen und ohne Datensätze_**. Eine exportierte Kachel kann über den Button **_Import_** in einen
-anderen Arbeitsbereich eingefügt werden.
+Über den Button **Export** kann eine einzelne Kachel als JSON-Datei exportiert werden. Ein Export erfolgt immer **ohne Vorlagen und ohne Datensätze**. Die exportierte Kachel kann über den Button **Import** in einen anderen Arbeitsbereich eingefügt werden.
 
 {: .warning }
-Hierbei handelt es sich um eine Einbahnstraße. Die exportierte Kachel erhält die ID des
-exportierten Arbeitsbereich und kann nicht zurück ex- und importiert werden! Wir empfehlen einen Demo
-Arbeitsbereich, in welchem sämtliche Änderungen vorgenommen werden, die anschließend in den Hauptarbeitsbereich
-exportiert werden können.
+Hierbei handelt es sich um eine Einbahnstraße. Die exportierte Kachel erhält die ID des Ziel-Arbeitsbereichs und kann nicht zurück exportiert und importiert werden. Wir empfehlen einen Demo-Arbeitsbereich, in welchem sämtliche Änderungen vorgenommen werden, die anschließend in den Hauptarbeitsbereich exportiert werden können.
 
-Über den Button **_Löschen_** wird die Kachel gelöscht.
+## Weitere Aktionen
+
+- **Counter aktualisieren** — aktualisiert den Indikator (Anzahl oder Summe) auf der Kachel. Im Produktivsystem geschieht dies automatisch, muss jedoch initial angestoßen werden.
+- **Löschen** — löscht die ausgewählte Kachel endgültig.
