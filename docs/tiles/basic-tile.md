@@ -16,7 +16,16 @@ Die Listenansicht bietet folgende Funktionen:
 - **Volltextsuche** — Sucht über alle Werte eines Datensatzes. Es wird immer am Anfang eines Worts gesucht — die Suche nach „Mey" findet „Meyer", aber die Suche nach „yer" nicht. Mehr dazu unter [Suchen und Filtern](/docs/search-and-filter#suchen).
 - **Filter** — Selbstdefinierbare Filter, um nach Einträgen mit bestimmten Werten zu suchen. Details und Beispiele unter [Suchen und Filtern](/docs/search-and-filter#filter-und-sortierung).
 - **Mehrfach-Auswahl** — Auswahl mehrerer Datensätze für Aktionen wie Löschen oder Workflow-Ausführung. Muss zuvor im Designmodus für die Komponente aktiviert werden.
-- **Excel Im- und Export** — Über das Drei-Punkte-Menü der Listenansicht (neben „Designmodus" und „Alle löschen") können Datensätze nach Excel oder CSV exportiert oder aus einer Excel-Datei importiert werden.
+
+Über das Drei-Punkte-Menü der Listenansicht stehen zusätzlich folgende Funktionen zur Verfügung:
+
+- **Benachrichtigungen** — Aktiviert Benachrichtigungen für sich selbst bei Änderungen in der Liste. Siehe [(Push-)Benachrichtigungen](/docs/workspace-settings/notifications).
+- **Alle als gelesen markieren** — Setzt alle Benachrichtigungen der Liste zurück.
+- **Excel Im- und Export** — Datensätze nach Excel oder CSV exportieren oder aus einer Excel-Datei importieren.
+- **Alle löschen** — Löscht alle Datensätze der Liste.
+
+{: .warning }
+Die Funktion **Alle löschen** entfernt sämtliche Daten der Liste unwiderruflich.
 
 ## Einstellungen
 
