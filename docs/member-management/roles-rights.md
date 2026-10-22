@@ -17,32 +17,31 @@ Bei Klick auf eine Rolle werden folgende Einstellungen angezeigt:
 
 1. **Name** — Anzeigename der Rolle
 2. **Standardrolle** — wird neuen Mitgliedern automatisch zugewiesen (ja/nein)
-3. **Darf Arbeitsbereich wechseln** — steuert, ob Mitglieder mit dieser Rolle den Arbeitsbereich wechseln können
-4. **Workflow-Rechte** — legt fest, ob die Rolle Workflows sehen und bearbeiten darf (`Keine`, `Lesen`, `Schreiben`)
+3. **Workflow-Rechte** — legt fest, ob die Rolle Workflows sehen und bearbeiten darf (`Kein Zugriff`, `Lesezugriff`, `Schreibzugriff`)
 
 Über die drei Punkte oben rechts kann eine Rolle **dupliziert** oder **gelöscht** werden.
 
 {: .hint }
 Wird eine neue Rolle angelegt, erhalten Besitzer und Administratoren diese automatisch, da sie grundsätzlich über alle Funktionalitäten verfügen.
 
-## Rechte pro Kachel
+## Rechte pro Komponente
 
-Das Rechtesystem greift auf ganze Kacheln zu. Im Modus **Rolle bearbeiten** werden alle Kacheln aufgelistet. Für jede Kachel können folgende Zugriffsrechte konfiguriert werden:
+Das Rechtesystem greift auf ganze Komponenten zu. Im Modus **Rolle bearbeiten** werden alle Komponenten aufgelistet. Für jede Komponente können folgende Zugriffsrechte konfiguriert werden:
 
 ### Zugriff (Lesen)
 
 | Wert | Beschreibung |
 |---|---|
-| **Alle** | Alle Datensätze der Kachel sind sichtbar (Standard) |
-| **Eingeschränkt** | Datensätze werden anhand eines Filters eingeschränkt. Es stehen normale Filter sowie Bedingungen auf Basis der Mitgliederkachel zur Verfügung. |
+| **Alle** | Alle Datensätze der Komponente sind sichtbar (Standard) |
+| **Eingeschränkt** | Datensätze werden anhand eines Filters eingeschränkt. Es stehen normale Filter sowie Bedingungen auf Basis der [Mitglieder-Komponente](/docs/tiles/member-tile) zur Verfügung. |
 | **Meine** | Nur Datensätze, die dem Benutzer über einen Benutzer-Baustein zugeordnet sind |
-| **Keine** | Die Kachel ist für die Rolle nicht sichtbar. Auch Datensatzverknüpfungen auf diese Kachel sind nicht auswählbar. |
+| **Keine** | Die Komponente ist für die Rolle nicht sichtbar. Auch Datensatzverknüpfungen auf diese Komponente sind nicht auswählbar. |
 
 Die gleichen Filteroptionen können für **Bearbeiten** und **Löschen** separat konfiguriert werden.
 
 ### Erweiterter Zugriff
 
-Zusätzlich zu den Filtern können folgende Aktionen pro Rolle und Kachel gesteuert werden:
+Zusätzlich zu den Filtern können folgende Aktionen pro Rolle und Komponente gesteuert werden:
 
 1. **Anlegen erlauben** — neue Datensätze erstellen
 2. **Bearbeiten erlauben** — bestehende Datensätze ändern
@@ -56,10 +55,13 @@ Wir empfehlen, den Import nur für geschultes Personal freizugeben.
 
 ## Mehrere Rollen zuordnen
 
-Benutzern können mehrere Rollen zugeordnet werden. Das ermöglicht vertretungsweises Arbeiten in einer anderen Ansicht, ohne Rechteeinstellungen anpassen zu müssen.
+Benutzern können mehrere Rollen zugeordnet werden — nicht nur zur Vertretung, sondern auch, wenn jemand regulär mehrere Rollen in unterschiedlichen Kontexten innehat. Die Zuordnung erfolgt in der Mitgliederverwaltung über die Detailansicht eines Benutzers.
 
-Voraussetzung ist eine Lizenz, die mehrere Rollen unterstützt (Pro oder Admin). Die Zuordnung erfolgt in der Mitgliederverwaltung über die Detailansicht eines Benutzers.
+Voraussetzung ist eine Lizenz, die mehrere Rollen unterstützt (siehe [Lizenzen](/docs/member-management/licenses)).
 
 ## Rolle wechseln
 
-Sind einem Benutzer mehrere Rollen zugeordnet, kann die aktive Rolle über das **Drei-Punkte-Menü** gewechselt werden. Nach der Auswahl wird die Ansicht entsprechend der neuen Rolle angepasst — mit den dazugehörigen Kacheln und Berechtigungen.
+Sind einem Benutzer mehrere Rollen zugeordnet, kann die aktive Rolle auf zwei Wegen gewechselt werden:
+
+1. In der Mitglieder-Detailansicht: Unter **mögliche Rollen** über **Rolle hinzufügen** eine neue Rolle zuordnen, unter **aktive Rolle** über **Rolle wechseln** die aktive Rolle ändern.
+2. In der Seitenleiste im Arbeitsbereich: Auf das Profilbild klicken und dort zwischen den zugeordneten Rollen wechseln.

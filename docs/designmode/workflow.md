@@ -9,7 +9,7 @@ Im Workflow-Designmodus werden Workflows erstellt und konfiguriert. Ein Workflow
 
 ## Designmodus öffnen
 
-Den Workflow-Designmodus einer Kachel erreicht man über die Kacheleinstellungen im [Arbeitsbereich-Designmodus](/docs/designmode/workspace). Im Bereich **Workflows** kann ein neuer Workflow erstellt oder ein bestehender bearbeitet werden.
+Den Workflow-Designmodus einer Komponente erreicht man über die Komponenteneinstellungen im [Arbeitsbereich-Designmodus](/docs/designmode/workspace). Im Bereich **Workflows** kann ein neuer Workflow erstellt oder ein bestehender bearbeitet werden.
 
 ## Aufbau
 
@@ -47,3 +47,8 @@ Soll ein Workflow beispielsweise jeden Montag um 8:00 Uhr laufen, wird der näch
 
 - **Manuell ausführen** — startet den Workflow sofort
 - **Löschen** — entfernt den Workflow
+
+## Verwandte Seiten
+
+- [Arbeitsbereich-Designmodus](/docs/designmode/workspace) — Zugang zum Workflow-Designmodus einer Komponente
+- [Komponenten-Designmodus](/docs/designmode/component) — eine einzelne Komponente im Detail konfigurieren

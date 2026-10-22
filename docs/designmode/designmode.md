@@ -6,7 +6,7 @@ redirect_from:
     - /docs/design-mode-settings.html
 ---
 
-In den Designmodi wird die Struktur eines Arbeitsbereichs konfiguriert — von Kacheln über Datensätze und Listenansichten bis hin zu Workflows. Jeder Bereich in Univelop hat einen eigenen Designmodus mit passenden Einstellungen.
+In den Designmodi wird die Struktur eines Arbeitsbereichs konfiguriert — von Komponenten über Datensätze und Listenansichten bis hin zu Workflows. Jeder Bereich in Univelop hat einen eigenen Designmodus mit passenden Einstellungen.
 
 ## Voraussetzungen
 
@@ -18,7 +18,6 @@ Nur Mitglieder mit der Rolle **Besitzer** oder **Administrator** können Designm
 
 | Designmodus | Beschreibung |
 |---|---|
-| [Arbeitsbereich](/docs/designmode/workspace) | Kacheln anlegen, anordnen und konfigurieren |
-| [Eintrag](/docs/designmode/record) | Bausteine im Datensatz platzieren und einstellen |
-| [Listenansicht](/docs/designmode/list-view) | Darstellung der Datensätze in der Liste anpassen |
+| [Arbeitsbereich](/docs/designmode/workspace) | Komponenten anlegen, anordnen und konfigurieren |
+| [Komponente](/docs/designmode/component) | Eine einzelne Komponente konfigurieren (Bausteine, Listenvorschau, Bezeichnungen u. a.) |
 | [Workflow](/docs/designmode/workflow) | Workflow-Schritte zusammenstellen und konfigurieren |

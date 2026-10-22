@@ -14,10 +14,14 @@ Im Bereich **Mitglieder** erhält man einen Überblick über alle Benutzer des a
 
 Bei Klick auf ein Mitglied öffnet sich die Detailansicht mit folgenden Informationen:
 
-- Aktive und zugeteilte Rollen
+- Mögliche und aktive Rollen
 - Nutzerdaten (Vor-, Nachname, E-Mail)
+- Anmeldemethode
 - Letzter Login-Zeitpunkt und Gerät
+- Letzte Aktivität
 - Lizenztyp
+- Zugang zum Beta-Test
+- ToDo-Benachrichtigungen per Mail
 
 Die aktiven sowie zugeteilten Rollen können hier geändert werden.
 
@@ -29,24 +33,14 @@ Neue Mitglieder können auf drei Wegen dem Arbeitsbereich hinzugefügt werden:
 2. **Neuer Benutzer manuell anlegen** — ein Benutzer wird mit Vor-, Nachname, E-Mail und Passwort angelegt. Bei der nächsten Anmeldung ist der Arbeitsbereich sofort verfügbar.
 3. **Neuer Benutzer durch Import anlegen** — durch den Import einer Excel-Datei können mehrere Benutzer gleichzeitig hinzugefügt werden
 
-Neue Mitglieder werden immer der definierten **Standardrolle** zugeordnet. Andere Rollen müssen anschließend über die Mitgliederverwaltung zugewiesen werden.
+Neue Mitglieder werden der Standardrolle oder, bei Beitritt über einen Einladungslink, der für diesen Link eingestellten Rolle zugeordnet. Andere Rollen müssen anschließend über die Mitgliederverwaltung zugewiesen werden.
 
 ## Lizenzen
 
-Jedes Mitglied hat einen Lizenztyp, der den Funktionsumfang bestimmt:
-
-| Lizenz | Lesen | Schreiben | Mehrere Rollen | Credits/Monat |
-|---|---|---|---|---|
-| **Admin** | unbegrenzt | unbegrenzt | ja | 1000 |
-| **Pro** | unbegrenzt | unbegrenzt | ja | 500 |
-| **Light** | 5 Listen | 2 Listen | nein | 100 |
-| **Light+** | 8–11 Listen | 4–5 Listen | nein | 100 |
-| **External** | unbegrenzt | unbegrenzt | nein | 0 |
-
-{: .hint }
-Nur Mitglieder mit einer Admin-Lizenz können die Rolle Besitzer oder Administrator erhalten.
+Jedes Mitglied hat einen Lizenztyp, der den Funktionsumfang bestimmt. Details dazu finden sich unter [Lizenzen](/docs/member-management/licenses).
 
 ## Verwandte Seiten
 
 - [Rollen und Rechte](/docs/member-management/roles-rights)
 - [Einladungen](/docs/member-management/invitations)
+- [Lizenzen](/docs/member-management/licenses)
