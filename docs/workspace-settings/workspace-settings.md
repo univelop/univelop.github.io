@@ -4,54 +4,31 @@ title: Allgemein
 nav_order: 5
 ---
 
-Unter **Allgemein** werden die grundlegenden Angaben des Arbeitsbereichs verwaltet.
+In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design und Benachrichtigungen bis hin zu Integrationen und Abrechnung. Die Einstellungen sind nur für Besitzer und Administratoren zugänglich.
 
-## Einstellungen
+## Übersicht
 
-1. **Name** — der Anzeigename des Arbeitsbereichs. Bei aktivierter Mehrsprachigkeit kann der Name pro Sprache übersetzt werden.
-2. **Arbeitsbereich-ID** — die eindeutige Kennung des Arbeitsbereichs. Diese darf nicht verändert werden.
-3. **Arbeitsbereichstyp** — der Typ des Arbeitsbereichs (Produktion, Test, Entwurf, Solution)
-4. **Zeitzone** — die Zeitzone, die für die Anzeige und Berechnung von Datumswerten verwendet wird (Standard: Europe/Berlin)
+| Einstellung | Beschreibung |
+|---|---|
+| [Allgemein](/docs/workspace-settings/general) | Name, Zeitzone, Arbeitsbereichstyp |
+| [Design](/docs/workspace-settings/design) | Banner, Logo, Farbschema |
+| [E-Mail-Versand](/docs/workspace-settings/mailing) | Integration für E-Mail-Versand und -Empfang |
+| [(Push-)Benachrichtigungen](/docs/workspace-settings/notifications) | Versendezeitpunkte für Push-Nachrichten |
+| [Ausdruck](/docs/workspace-settings/print-out) | Konfiguration für Druckausgaben |
+| [Mehrsprachigkeit](/docs/workspace-settings/multi-language) | Sprachen für den Arbeitsbereich |
+| [Portal-Modus](/docs/workspace-settings/portal-mode) | Eigene Domain für externen Zugang |
+| [Tastenkürzel](/docs/workspace-settings/shortcuts) | Übersicht der Tastenkürzel |
+| [ChatGPT](/docs/workspace-settings/chatgpt) | OpenAI-Anbindung konfigurieren |
+| [API-Schlüssel](/docs/workspace-settings/api-keys) | Schlüssel für die REST-API |
+| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste anbinden |
+| [Abrechnung](/docs/workspace-settings/billing) | Lizenzen, Zahlungsmethode, Credits |
+| [Statusprüfung](/docs/workspace-settings/health-check) | Arbeitsbereich auf Fehler prüfen |
 
-## Arbeitsbereichstypen
+## Export und Import
 
-| Typ           | Beschreibung                                                     |
-| ------------- | ---------------------------------------------------------------- |
-| **Produktiv** | Standard-Arbeitsbereich für den produktiven Einsatz              |
-| **Test**      | Testkopie eines Produktiv-Arbeitsbereichs                        |
-| **Demo**      | Demo-Arbeitsbereich, der nach 90 Tagen automatisch gelöscht wird |
-| **Solution**  | Arbeitsbereich zum Erstellen von Solutions                       |
+Über den Button **Export** in den allgemeinen Einstellungen kann ein ganzer Arbeitsbereich als ZIP-Datei exportiert werden. Es kann gewählt werden, ob nur die Struktur (Kacheln) oder auch die Daten exportiert werden sollen. Über **Import** kann eine exportierte ZIP-Datei in einen neuen Arbeitsbereich eingelesen werden.
 
-## Dokumentation exportieren
+Der Button **Löschen** entfernt den kompletten Arbeitsbereich.
 
-Über das Drei-Punkte-Menü kann eine vollständige Dokumentation des Arbeitsbereichs als eigenständige HTML-Datei exportiert werden. Die Datei lässt sich in jedem Browser öffnen und eignet sich zur Archivierung, zum Wissenstransfer oder als Nachschlagewerk.
-
-### Inhalt der Dokumentation
-
-Die generierte Datei enthält:
-
-- **Arbeitsbereich-Name** und Erstellungsdatum der Dokumentation
-- **Alle Listen** des Arbeitsbereichs (ohne Seiten- und Einstellungs-Kacheln)
-- **Bausteine pro Liste** — Name, Typ und technischer Name jedes Bausteins
-- **Verknüpfungsdiagramme** — interaktive Diagramme, die zeigen, welche Listen über _Datensatz_- und _Datensätze_-Bausteine miteinander verknüpft sind (ein- und ausgehende Verknüpfungen)
-- **Suchfunktion** — eine Suchleiste zum schnellen Finden von Listen und Bausteinen
-- **Inhaltsverzeichnis** — Sprungmarken zu jeder Liste
-
-### Verwendung
-
-1. **Arbeitsbereich-Einstellungen** öffnen und **Allgemein** auswählen
-2. Über das **Drei-Punkte-Menü** den Punkt **Dokumentation exportieren** klicken
-3. Die HTML-Datei wird generiert und zum Download bereitgestellt
-
-Die Datei wird nach dem Muster `{Arbeitsbereich}_Documentation_{Datum}.html` benannt.
-
-### Hinweise
-
-- Die Dokumentation enthält ausschließlich die Struktur (Listen, Bausteine, Verknüpfungen) — keine Datensatzinhalte
-- Die HTML-Datei ist vollständig eigenständig und benötigt keine Internetverbindung zum Anzeigen
-- Die Verknüpfungsdiagramme werden automatisch als Flussdiagramme dargestellt und passen ihr Layout an die Anzahl der verknüpften Listen an
-
-## Export und Löschen
-
-- **Export** — exportiert den gesamten Arbeitsbereich als ZIP-Datei (mit oder ohne Daten)
-- **Löschen** — entfernt den Arbeitsbereich unwiderruflich
+{: .warning }
+Das Löschen eines Arbeitsbereichs kann nicht rückgängig gemacht werden.
