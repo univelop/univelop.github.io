@@ -5,74 +5,45 @@ parent: Designmodi
 nav_order: 1
 ---
 
-Im Arbeitsbereich oben rechts sind zwei Buttons zu finden.Über den _Haus-Button_ wird der Arbeitsbereich
-gewechselt. In den Designmodus des Arbeitsbereichs wechselt man, indem auf den _Drei-Punkte-Button_
-klickt und anschließend den Designmodus auswählt, oder indem man mit der linken Maustaste eine Kachel
-ca. 2 Sekunden lang gedrückt hält.
+Im Arbeitsbereich-Designmodus werden Komponenten angelegt, angeordnet und konfiguriert. Hier wird die gesamte Startseite des Arbeitsbereichs gestaltet.
 
-![select design mode](\old_assets\design-mode-setting\select design mode.png "select design mode")
+## Designmodus öffnen
 
-Es öffnet sich nun der globale Designmodus des Arbeitsbereichs. In der Mitte des Bildschirms sind
-zuerst alle allgemeinen Kacheln und darunter die eigenen Kacheln zu sehen.
-Wenn Kacheln "versteckt" wurden, werden diese farblich leicht ausgegraut und ein Symbol mit durchgestrichenen Auge wird gesetzt.
-Die Kacheln können einfach via Drag and Drop verschoben werden, um die gewünschte Reihenfolge zu erhalten.
+Den Designmodus des Arbeitsbereichs erreicht man über zwei Wege:
 
-## <span style="color:#0b5394">Kachel</span>
+1. In der Seitenleiste den Button **Komponenten bearbeiten**  (Icon mit drei Quadraten und einem Plus) auswählen.
+2. Eine Komponente ca. 2 Sekunden lang mit der linken Maustaste gedrückt halten.
 
-Markiert man im Designmodus des Arbeitsbereichs eine beliebige Kachel, können auf der rechten Seite
-die Kacheleinstellungen bearbeitet werden.
+In der Mitte des Bildschirms werden alle allgemeinen Komponenten und darunter die eigenen Komponenten angezeigt. Die Reihenfolge der Komponenten lässt sich per Drag-and-Drop ändern.
 
-![tile](\old_assets\design-mode-setting\tile.png 'tile')
+## Komponenteneinstellungen
 
-1. <span style="color:#0b5394">**Designmodus der Einträge**</span>
-2. <span style="color:#0b5394">**Designmodus der Liste**</span>
-3. <span style="color:#0b5394">**Kachelname ändern**</span>
-4. <span style="color:#0b5394">**Kachelinfo ändern**</span>
-    - Anzeige Anzahl der Datensätze
-    - Anzeige Summe über einen vorhandenen Baustein
-    - Anzeige eines Icon
-    - Festlegen eines Suffix
-5. <span style="color:#0b5394">**Icon**</span>
-    - Festlegen des Icons der Kachel (ggf. mit Anzeige in der Kachel)
-6. <span style="color:#0b5394">**Filter und Sortierung festlegen**</span>
-    - (s. Formelsammlung // Darstellung von dynamischen Zeitspannen mit Formelberechnungen).
-7. <span style="color:#0b5394">**Kachelfarbe ändern**</span>
+Wird eine Komponente ausgewählt, erscheint rechts ein Einstellungs-Panel, das je nach Komponententyp variiert. Bei der Einfachen Liste z. B.:
 
-    ![tile2](\old_assets\design-mode-setting\tile2.png 'tile2')
+- **Designmodus**-Button — öffnet den [Komponenten-Designmodus](/docs/designmode/component). Man landet dabei immer zuerst im Tab Vorschau und kann von dort in die anderen Tabs wechseln.
+- **Darstellung** — Name, Indikator (Icon/Anzahl/Summe inkl. Summen-Baustein und Suffix), Icon, Farbe.
+- **AI Agent** — KI-Beschreibung.
+- **Filter** — Link zur Filterkonfiguration (liegt inhaltlich im Tab [Erweitert](/docs/designmode/component/advanced) des Komponenten-Designmodus).
+- **Sichtbarkeit** — Komponente verstecken, Für Benutzerrollen anzeigen, zusätzlich **Für mich ausblenden**.
+- **Erweitert** — Technischer Name, Bei einzelnem Datensatz direkt zum Datensatz springen.
+- **Freigabe** — nur bei geteilten Listen, Anzeige von wem freigegeben.
 
-8. <span style="color:#0b5394">**Kachel verstecken** (z. B. bei einer Hilfskachel)</span>
-    - Für bestimmte Benutzerrollen freigeben
-    - Kachel für mich verstecken (ermöglicht das verstecken globaler Kacheln)
-9. <span style="color:#0b5394">**erweiterte Einstellungen**</span>
+{: .hint }
+**Zugeordnete Solution** findet sich ausschließlich im Tab [Erweitert](/docs/designmode/component/advanced) des Komponenten-Designmodus, nicht in diesem Panel.
 
-    - **technischer Name ändern**  
-       Technische Namen sind immer erforderlich um sich auf etwas zu beziehen, hier auf die Kachel,
-      und i. d. R. für den Im- und Export von Datensätzen notwendig. Sie sind im Standard immer
-      klein geschrieben und Leerzeichen werden als Unterstrich ausgeschrieben.
-    - **Benachrichtigungsfunktion für alle Benutzer aktivieren**
 
-        - Angabe der Anzahl der Änderungen von Datensätzen an der Kachel
-        - Angabe der Änderung innerhalb der Einträge
+## Export und Import
 
-    - **Bei einzelnem Datensatz direkt zum Datensatz springen**  
-       Bedeutet, es wird keine Liste angezeigt, sondern nur der einzelne Datensatz. Ideal wenn Dritte
-      Zugang zu dem Arbeitsbereich erhalten, die nur die eigenen Datensätze sehen sollen. Funktionell
-      können in diesem einen Datensatz / dieser einen Liste die Daten aus anderen Listen zusammengefasst
-      werden. Hier eignet sich zum Beispiel eine Portalfunktion, bei welcher ein externe Nutzer einem
-      Datensatz zugeordnet wird und nur seine eigenen Daten sieht.
+In der Leiste befinden sich die Buttons **Import** (links) und **Export** (rechts). Über **Export** kann eine einzelne Komponente als JSON-Datei exportiert werden. Ein Export erfolgt immer **ohne Vorlagen und ohne Datensätze**. Die exportierte Komponente kann über **Import** in einen anderen Arbeitsbereich eingefügt werden — auch wieder zurück in den ursprünglichen Arbeitsbereich.
 
-Der Button **_Counter aktualisieren_** sorgt dafür, dass wenn der Inhalt der Kachel als Anzahl Datensätze oder
-Summe über Baustein gewählt wurde, diese Zähler sich aktualisieren bzw. die Summe neu berechnet wird. Dies
-passiert im Produktivsystem live, muss jedoch initial gesetzt werden.
+## Weitere Aktionen
 
-Über den Button **_Export_** können einzelne Kachel im JSON-Format exportiert werden. Ein Export erfolgt immer
-**_ohne Vorlagen und ohne Datensätze_**. Eine exportierte Kachel kann über den Button **_Import_** in einen
-anderen Arbeitsbereich eingefügt werden.
+- **Counter aktualisieren** — aktualisiert den Indikator (Anzahl oder Summe) auf der Komponente. Im Produktivsystem geschieht dies automatisch, muss jedoch initial angestoßen werden.
+- **Ordner** — Zuordnung zu einem [Ordner](/docs/tiles/folder-tile). Nicht bei jedem Komponententyp verfügbar (z. B. nicht bei der Einfachen Liste).
+- **Duplizieren** — erstellt eine Kopie der Komponente. Nicht bei jedem Komponententyp verfügbar (z. B. nicht bei der Einfachen Liste).
+- **Löschen** — löscht die ausgewählte Komponente endgültig.
 
-{: .warning }
-Hierbei handelt es sich um eine Einbahnstraße. Die exportierte Kachel erhält die ID des
-exportierten Arbeitsbereich und kann nicht zurück ex- und importiert werden! Wir empfehlen einen Demo
-Arbeitsbereich, in welchem sämtliche Änderungen vorgenommen werden, die anschließend in den Hauptarbeitsbereich
-exportiert werden können.
+## Verwandte Seiten
 
-Über den Button **_Löschen_** wird die Kachel gelöscht.
+- [Komponenten-Designmodus](/docs/designmode/component) — eine einzelne Komponente im Detail konfigurieren
+- [Workflow-Designmodus](/docs/designmode/workflow) — Workflows für eine Komponente erstellen und bearbeiten
