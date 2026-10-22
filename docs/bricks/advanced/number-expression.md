@@ -8,14 +8,31 @@ redirect_from:
     - /docs/record-spec-settings/grand-child-expanded/numberformular.html
 ---
 
-Mit dem Baustein _Zahlenformel_ wird das Ergebnis einer Formel als Zahl mit optionaler Formatierung dargestellt. Die Formatierung funktioniert analog zum Baustein _Nummer_. Die Formel funktioniert ohne Funktionen, wenn nur numerische Bausteine (z. B. Nummer oder Laufende Nummer) referenziert und Zahlen angegeben und kombiniert werden.
+Mit dem Baustein _Zahlenformel_ wird das Ergebnis einer Formel als formatierte Zahl dargestellt. Die Formatierung (Nachkommastellen, Tausender-Trennzeichen) funktioniert analog zum Baustein _Nummer_.
 
-Sobald ein nicht-numerischer Wert angegeben ist, wird die Funktion `toNumber(nichtNumerischerWert)` zur geregelten Umwandlung von nicht-numerischen Werten, wie z. B. einem Datum oder einer Zeitspanne, in eine numerische Darstellung benötigt, um mögliche Format- oder Berechnungsfehler zu vermeiden. Für spezielle Umwandlungen von Texten, um z. B. die Textlänge zu bekommen, siehe _weitere Funktionen_.
+## Einstellungen
 
-So kann bspw. der monatliche Bruttolohn oder auch der Bruttolohn eines Arbeitstages errechnet werden.
+Allgemeine Einstellungen wie Sichtbarkeit und Berechtigungen werden unter [Allgemeine Baustein-Einstellungen](/docs/bricks/common-settings) beschrieben.
 
-Eine gesammelte Ansicht aller Formeln und Beispiele ist unter _Formelsammlung_ zu finden.
+1. **Formel** — Der Ausdruck, der ausgewertet wird. Kann numerische Bausteine direkt referenzieren.
+2. **Nachkommastellen** — Anzahl der angezeigten Dezimalstellen für das Ergebnis.
+3. **Tausender-Trennzeichen** — Aktiviert die Anzeige von Tausender-Trennzeichen.
+4. **Einheit anzeigen** — Zeigt eine Einheit hinter dem Ergebnis an.
+5. **Einheit** — Der Einheitstext (z. B. „€", „kg", „h"). Nur verfügbar wenn _Einheit anzeigen_ aktiviert ist.
 
-## <span style="color:#0b5394">Allgemeines zu Formelbausteinen</span>
+## Funktionsweise
 
-Eine allgemeine Einführung für Formelbausteine und ihre Funktionen sind unter Formelbausteine zu finden.
+- Werden nur numerische Bausteine (z. B. _Nummer_ oder _Laufende Nummer_) referenziert, funktioniert die Formel ohne weitere Funktionen.
+- Sobald ein nicht-numerischer Wert verwendet wird, muss die Funktion `toNumber(wert)` zur Umwandlung genutzt werden.
+- Standardmäßige Rechenoperationen (`+`, `-`, `*`, `/`) werden unterstützt.
+
+## Hinweise
+
+- Der Wert ist schreibgeschützt und wird automatisch berechnet.
+- Eine Übersicht aller verfügbaren Formeln ist unter _Formeln_ zu finden.
+
+## Verwandte Bausteine
+
+- [Textformel](/docs/bricks/advanced/text-expression) — Für berechnete Textwerte
+- [Datums-Formel](/docs/bricks/advanced/date-expression) — Für berechnete Datumswerte
+- [Nummer](/docs/bricks/input/number-field) — Für manuelle Zahleneingabe
