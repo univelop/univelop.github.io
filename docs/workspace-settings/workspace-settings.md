@@ -1,34 +1,39 @@
 ---
 layout: title
-title: Allgemein
+title: Arbeitsbereich Einstellungen
 nav_order: 5
 ---
 
-In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design und Benachrichtigungen bis hin zu Integrationen und Abrechnung. Die Einstellungen sind nur für Besitzer und Administratoren zugänglich.
+In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design, Mitglieder und Rollen bis hin zu Integrationen und Abrechnung.
+
+Die Einstellungen werden über **Admin-Tools** → **Einstellungen** in der Seitenleiste des Homescreens geöffnet. Sie sind nur für Besitzer und Admins zugänglich und nur in der Web-Version auf Geräten mit großem Bildschirm verfügbar.
 
 ## Übersicht
 
+Die Einstellungen sind in der Seitenleiste in folgender Reihenfolge angeordnet:
+
 | Einstellung | Beschreibung |
 |---|---|
-| [Allgemein](/docs/workspace-settings/general) | Name, Zeitzone, Arbeitsbereichstyp |
+| [Allgemein](/docs/workspace-settings/general) | Name, Zeitzone, Art des Arbeitsbereichs, Sprachen, Export und Löschen |
 | [Design](/docs/workspace-settings/design) | Banner, Logo, Farbschema |
-| [E-Mail-Versand](/docs/workspace-settings/mailing) | Integration für E-Mail-Versand und -Empfang |
-| [(Push-)Benachrichtigungen](/docs/workspace-settings/notifications) | Versendezeitpunkte für Push-Nachrichten |
-| [Ausdruck](/docs/workspace-settings/print-out) | Konfiguration für Druckausgaben |
-| [Mehrsprachigkeit](/docs/workspace-settings/multi-language) | Sprachen für den Arbeitsbereich |
-| [Portal-Modus](/docs/workspace-settings/portal-mode) | Eigene Domain für externen Zugang |
-| [Tastenkürzel](/docs/workspace-settings/shortcuts) | Übersicht der Tastenkürzel |
-| [ChatGPT](/docs/workspace-settings/chatgpt) | OpenAI-Anbindung konfigurieren |
+| [Mitglieder](/docs/member-management/member-management) | Mitglieder einladen und verwalten |
+| [Rollen](/docs/member-management/roles-rights) | Rollen und Rechte definieren |
 | [API-Schlüssel](/docs/workspace-settings/api-keys) | Schlüssel für die REST-API |
-| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste anbinden |
-| [Abrechnung](/docs/workspace-settings/billing) | Lizenzen, Zahlungsmethode, Credits |
-| [Statusprüfung](/docs/workspace-settings/health-check) | Arbeitsbereich auf Fehler prüfen |
+| [Domain](/docs/workspace-settings/portal-mode) | Einstellungen für eigene Domains im Portal-Modus |
+| [Benachrichtigungen](/docs/workspace-settings/notifications) | Versendezeitpunkte für Push-Nachrichten, Workflow-Fehler-Mails |
+| [Arbeitsbereich-Zustand](/docs/workspace-settings/health-check) | Arbeitsbereich auf Konfigurationsfehler prüfen |
+| BigQuery | Daten zur Auswertung mit BI-Tools nach Google BigQuery synchronisieren. Die Anbindung wird vom Support aktiviert; Besitzer verwalten hier bis zu fünf Service-Account-Schlüssel. |
+| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste wie Microsoft, OpenAI oder einen eigenen Mailserver anbinden |
+| [Kosten-Center](/docs/workspace-settings/billing) | Zahlungskonto, Lizenzen, Rechnungen, Credits |
+| Job-Übersicht | Übersicht über die Hintergrund-Jobs (Workflow- und Datensatzlisten-Jobs) der letzten 30 Tage mit Status, Dauer und verbrauchten Credits |
+| [Kalenderfreigaben](/docs/interfaces/calendar-shares) | Kalender für externe Kalender-Apps freigeben |
+| [Solutions (Beta)](/docs/solutions) | Installierte Solutions verwalten — nur sichtbar, wenn mindestens eine Solution installiert ist |
 
-## Export und Import
+## Weitere Themen
 
-Über den Button **Export** in den allgemeinen Einstellungen kann ein ganzer Arbeitsbereich als ZIP-Datei exportiert werden. Es kann gewählt werden, ob nur die Struktur (Kacheln) oder auch die Daten exportiert werden sollen. Über **Import** kann eine exportierte ZIP-Datei in einen neuen Arbeitsbereich eingelesen werden.
-
-Der Button **Löschen** entfernt den kompletten Arbeitsbereich.
-
-{: .warning }
-Das Löschen eines Arbeitsbereichs kann nicht rückgängig gemacht werden.
+| Thema | Beschreibung |
+|---|---|
+| [Mehrsprachigkeit](/docs/workspace-settings/multi-language) | Arbeitsbereich in mehreren Sprachen nutzen |
+| [E-Mail-Versand](/docs/workspace-settings/mailing) | E-Mail-Integrationen einrichten |
+| [ChatGPT](/docs/workspace-settings/chatgpt) | OpenAI-Integration einrichten |
+| [Tastenkürzel](/docs/workspace-settings/shortcuts) | Übersicht der Tastenkürzel |

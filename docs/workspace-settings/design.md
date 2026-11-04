@@ -2,7 +2,7 @@
 layout: title
 title: Design
 parent: Arbeitsbereich Einstellungen
-nav_order: 8
+nav_order: 1
 ---
 
 Unter **Design** wird das visuelle Erscheinungsbild des Arbeitsbereichs angepasst.

@@ -1,35 +1,41 @@
 ---
 layout: title
-title: Statusprüfung
+title: Arbeitsbereich-Zustand
 parent: Arbeitsbereich Einstellungen
-nav_order: 12
+nav_order: 6
 ---
 
-Die **Statusprüfung** analysiert den Arbeitsbereich automatisch auf häufige Konfigurationsfehler und gibt Hinweise zur Verbesserung. Sie ist über die Arbeitsbereich-Einstellungen erreichbar.
+Der **Arbeitsbereich-Zustand** analysiert den Arbeitsbereich automatisch auf häufige Konfigurationsfehler und gibt Hinweise zur Verbesserung. Über **Zustand erneut prüfen** wird die Prüfung neu gestartet.
 
 ## Funktionsweise
 
-Die Statusprüfung führt eine Reihe automatischer Checks durch und gruppiert die Ergebnisse nach Schweregrad:
+Die Ergebnisse werden nach Schweregrad gruppiert:
 
-| Stufe | Bedeutung |
+| Gruppe | Bedeutung |
 |---|---|
-| **Fehler** (rot) | Kritische Probleme, die behoben werden sollten |
-| **Warnung** (orange) | Potenzielle Probleme, die zu unerwartetem Verhalten führen können |
-| **Info** (blau) | Hinweise und Verbesserungsvorschläge |
-| **Bestanden** (grün) | Keine Probleme festgestellt |
+| **Fehler** | Kritische Probleme, die behoben werden sollten |
+| **Warnungen** | Potenzielle Probleme, die zu unerwartetem Verhalten führen können |
+| **Info** | Hinweise und Verbesserungsvorschläge |
+| **Bestandene Tests** | Prüfungen ohne Befund |
+
+Oberhalb der Gruppen wird der Gesamtzustand zusammengefasst — von „Der Zustand dieses Arbeitsbereiches ist gut.“ bis „In diesem Arbeitsbereich wurden Fehler gefunden.“ Jedes Ergebnis kann einen Link auf die betroffene Liste, den Workflow oder die Komponente enthalten, um das Problem schnell zu finden.
 
 ## Geprüfte Bereiche
 
-Die Statusprüfung umfasst unter anderem folgende Checks:
+| Prüfung | Gruppe bei Befund |
+|---|---|
+| Ungültige Formeln in Bausteinen | Fehler |
+| Ungültige Listenverbindungen in Bausteinen | Fehler |
+| Leere oder ungültige Baustein-Referenzen in Workflows | Fehler |
+| Bausteine ohne Bezeichnung | Warnung |
+| Fehlerhaft konfigurierte Übertragungen | Warnung |
+| Doppelte Übertragungen | Warnung |
+| Zyklische Übertragungen | Warnung |
+| Datensatzlisten-Bausteine mit synchroner Übertragung und Summen-Badge | Warnung |
+| Mehr als 100 verknüpfte Datensätze | Warnung |
+| Fehlende Übersetzungen | Warnung |
+| Nicht mehr unterstützte Datums-Filter | Warnung |
+| Startstatus, der einen Datensatz mit Pflichtfeldern sperrt | Warnung |
+| Doppelte Sekundärschlüssel | Info |
 
-- **Zahlenfelder** — Prüfung auf zu große Werte in Zahlen-Bausteinen
-- **Formeln** — Prüfung auf fehlerhafte Formelkonfigurationen in Bausteinen und Workflows
-- **Verknüpfungen** — Prüfung auf ungültige Verknüpfungen zwischen Listen
-- **Übertragungen** — Prüfung auf doppelte, zyklische oder inkonsistente Datenübertragungen
-- **Sekundärschlüssel** — Prüfung auf doppelte Sekundärschlüssel
-- **Übersetzungen** — Prüfung auf fehlende Übersetzungen bei aktivierter Mehrsprachigkeit
-- **Datumsfilter** — Prüfung auf veraltete Datumsfilter-Formate
-- **Workflow-Variablen** — Prüfung auf ungültige Variablennamen in Workflows
-- **Bezeichnungen** — Prüfung auf fehlende Bezeichnungen bei Bausteinen
-
-Jedes Ergebnis enthält einen Verweis auf die betroffene Kachel, den Workflow oder den Baustein, um das Problem schnell lokalisieren zu können.
+In Solution-Arbeitsbereichen kommen weitere Prüfungen hinzu, z. B. für Ordner, geteilte Listen, Workflows und technische Namen.

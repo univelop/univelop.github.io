@@ -1,6 +1,6 @@
 ---
 title: Mehrsprachigkeit
-nav_order: 5
+nav_order: 11
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:
@@ -13,10 +13,10 @@ Die Anzeigesprache kann im Menü auf der Startseite zwischen `de` und `en` gewec
 
 ## Aktivierung
 
-Um die Mehrsprachigkeit freizuschalten, muss diese in den Arbeitsbereich-Einstellungen unter **Allgemein** konfiguriert werden:
+Um die Mehrsprachigkeit freizuschalten, muss diese in den Arbeitsbereich-Einstellungen unter [Allgemein](/docs/workspace-settings/general) konfiguriert werden:
 
-1. **Standardsprache** — die Sprache, in der der Arbeitsbereich standardmäßig angezeigt wird
-2. **Unterstützte Sprachen** — alle Sprachen, in denen der Arbeitsbereich verfügbar sein soll
+1. **Unterstützte Sprachen** — alle Sprachen, in denen der Arbeitsbereich verfügbar sein soll
+2. **Standardsprache** — die Sprache, die verwendet wird, wenn die Sprache eines Benutzers nicht unterstützt wird. Sie muss zu den unterstützten Sprachen gehören und kann nur über den Support geändert werden.
 
 Alle Texte, die direkt von Univelop stammen (Menüs, Systemmeldungen), sind bereits in beiden Sprachen verfügbar. Eigene Texte — also Namen von Listen, Bausteinen und Workflows — müssen manuell übersetzt werden.
 
