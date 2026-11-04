@@ -2,7 +2,7 @@
 layout: title
 title: Ordner
 nav_order: 9
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Ordner_-Komponente gruppiert mehrere Komponenten auf dem Homescreen, um für Übersicht zu sorgen. Das Prinzip ist analog zu App-Ordnern auf dem Smartphone.

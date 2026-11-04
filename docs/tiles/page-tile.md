@@ -2,7 +2,7 @@
 layout: title
 title: Seite
 nav_order: 11
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Seite_-Kachel stellt einen einzelnen Eintrag dar, der beim Öffnen zurückgesetzt wird. Alle Eingaben gehen beim Verlassen der Seite verloren. Die Kachel eignet sich für statische Inhalte, temporäre Eingabemasken oder selbst gestaltete Menüs.

@@ -2,7 +2,7 @@
 layout: title
 title: Einstellungen
 nav_order: 12
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Einstellungs_-Kachel ermöglicht es, [Bausteine](/docs/bricks/bricks) als globale Einstellungen zu definieren, auf die an verschiedenen Stellen in der App zugegriffen werden kann. Sie eignet sich für zentrale Werte oder Konfigurationen, die mehrfach benötigt werden — z. B. API-Schlüssel, Firmennamen oder Standardwerte.

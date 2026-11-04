@@ -2,7 +2,7 @@
 layout: title
 title: Scanner
 nav_order: 10
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Scanner_-Komponente dient dem Scannen von QR-Codes und Barcodes, um Einträge schnell zu finden oder Workflows auszulösen. Sie wird mit einer Liste verknüpft, in der nach dem gescannten Wert gesucht wird.

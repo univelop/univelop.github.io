@@ -2,7 +2,7 @@
 layout: title
 title: Ressourcen-Zuweisung
 nav_order: 15
-parent: Kacheln
+parent: Komponenten
 nav_exclude: true
 ---
 

@@ -2,7 +2,7 @@
 layout: title
 title: Allgemeine Komponenteneinstellungen
 nav_order: 1
-parent: Kacheln
+parent: Komponenten
 ---
 
 Jede Komponente in Univelop verfügt über einen gemeinsamen Satz an Einstellungen, die unabhängig vom Komponententyp konfiguriert werden können.
