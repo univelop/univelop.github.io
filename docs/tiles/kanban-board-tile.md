@@ -2,7 +2,7 @@
 layout: title
 title: Kanban Board
 nav_order: 7
-parent: Kacheln
+parent: Komponenten
 ---
 
 {: .hint }

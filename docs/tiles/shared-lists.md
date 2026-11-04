@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Geteilte Listen
-parent: Kacheln
+parent: Komponenten
 nav_order: 3
 ---
 

@@ -2,7 +2,7 @@
 layout: title
 title: Website
 nav_order: 8
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Website_-Komponente ermöglicht die Einbindung einer externen Website direkt in Univelop. Beim Öffnen wird die hinterlegte URL geladen und als eingebettete Webseite angezeigt. Das eignet sich für das Abrufen externer Informationen, die Nutzung webbasierter Tools oder die Anzeige von Dashboards.

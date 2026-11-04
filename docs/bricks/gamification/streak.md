@@ -1,7 +1,7 @@
 ---
 layout: title
 title: Streak
-parent: Gamification Bausteine
+parent: Gamification-Bausteine
 grand_parent: Bausteine
 nav_order: 1
 ---

@@ -2,7 +2,7 @@
 layout: title
 title: Mitglieder
 nav_order: 5
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Mitglieder_-Komponente ist eine spezielle Liste zur Verwaltung der Mitglieder eines Arbeitsbereichs. Jedes Mitglied hat automatisch einen Eintrag mit Name, E-Mail-Adresse und Status.
