@@ -2,7 +2,7 @@
 layout: title
 title: AI Agent
 nav_order: 13
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _AI Agent_-Komponente stellt einen KI-gestützten Assistenten bereit, der über einen konfigurierbaren Prompt und eine OpenAI-Integration Fragen beantworten und Aufgaben erledigen kann. Beim Öffnen der Komponente wird eine Chat-Oberfläche angezeigt, in der Nachrichten an den Agenten gesendet werden können.

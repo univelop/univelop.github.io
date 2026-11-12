@@ -2,7 +2,7 @@
 layout: title
 title: To-Dos
 nav_order: 14
-parent: Kacheln
+parent: Komponenten
 ---
 
 Diese Seite ist noch im Aufbau.

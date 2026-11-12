@@ -2,7 +2,7 @@
 layout: title
 title: Einfache Liste
 nav_order: 2
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Einfache Liste_ ist der wichtigste Komponententyp in Univelop. Sie stellt eine Liste von Datensätzen dar, in der Einträge erstellt, bearbeitet und verwaltet werden können. Ob Stammdaten, Projekte, Arbeitszeiten oder Aufträge — jegliche Daten werden in der Regel in einfachen Listen gespeichert.

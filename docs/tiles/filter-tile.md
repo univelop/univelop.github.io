@@ -2,7 +2,7 @@
 layout: title
 title: Gefilterte Liste
 nav_order: 4
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Gefilterte Liste_-Komponente zeigt eine vorgefilterte Ansicht einer bestehenden [Einfachen Liste](/docs/tiles/basic-tile). Sie eignet sich ideal, um Teilmengen von Daten gezielt darzustellen — z. B. alle offenen Aufgaben, die eigenen Arbeitszeiten oder ungeprüfte Anträge.

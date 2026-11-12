@@ -2,7 +2,7 @@
 layout: title
 title: Formular
 nav_order: 6
-parent: Kacheln
+parent: Komponenten
 ---
 
 Die _Formular_-Komponente dient dem vereinfachten Ausfüllen eines Listeneintrages. Beim Öffnen wird automatisch ein neuer Eintrag in der verknüpften Liste angelegt und direkt zur Bearbeitung geöffnet — ohne die Listenansicht zu laden. Das eignet sich besonders für wiederkehrende Erfassungen wie Zeiterfassung, Bestellungen oder Feedback-Formulare.
