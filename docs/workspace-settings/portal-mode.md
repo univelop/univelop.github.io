@@ -1,19 +1,46 @@
 ---
 title: Portal-Modus
-nav_order: 6
+nav_order: 3
 layout: title
 parent: Arbeitsbereich Einstellungen
 redirect_from:
     - /docs/portal-mode.html
 ---
 
-Unter gewissen Umständen werden Arbeitsbereiche für Externe geschaffen (Aufgabenplanung Subunternehmer, Kundenportal, etc). Um externen Benutzern einen guten Mehrwert zu bieten, ohne dass man Ihnen die App oder ähnliches zur Verfügung stellt, kann auch der Portalmodus von Univelop aktiviert werden.
-In den Einstellungen des Arbeitsbereiches kann eine Portal-URL eingesetzt werden.
+Der Portal-Modus ermöglicht es, einen Arbeitsbereich über eine eigene Domain zugänglich zu machen. So entsteht für externe Benutzer der Eindruck einer eigenständigen Anwendung — inklusive individuellem Anmeldefenster und eigenem Branding.
 
-Wird eine Portal-URL gesetzt, lässt sich diese gut verteilen oder auch auf der eigenen Homepage einbinden.
-Der Vorteil daran ist, dass der Arbeitsbereich so aufgebaut werden kann, dass es wie eine eigens entwickelte Software aussieht. Auch das Anmeldefenster ist so aufgesetzt, dass es nach einer Eigenentwicklung aussieht.
-Externe Benutzer wählen sich wie gewohnt mit ihren Zugangsdaten in dem Portal an. Kunden erhalten dadurch nur für ihre Bereiche Zugriff und werden für andere Arbeitsbereiche (wenn vorhanden) nicht freigeschaltet.
+## Anwendungsfälle
 
-Bei Interesse sprecht uns gerne an.
+- **Kundenportal** — Kunden erhalten Zugang zu ihren eigenen Daten
+- **Mitarbeiterportal** — Mitarbeitende nutzen Univelop über eine firmeneigene URL
 
-![portalmode](\old_assets\1portalmode.png 'portalmode')
+## Einrichtung
+
+Die eigene Domain wird vom Univelop-Support eingerichtet. Jede eingerichtete Domain zählt als genutzte **Portal-License** im [Kosten-Center](/docs/workspace-settings/billing).
+
+Externe Benutzer melden sich mit ihren Zugangsdaten über die Portal-URL an. Sie sehen nur die Komponenten und Datensätze, die ihrer Rolle entsprechen — ohne Zugang zu anderen Arbeitsbereichen.
+
+## Einstellungen
+
+In den Arbeitsbereich-Einstellungen unter **Domain** werden die eingerichteten Domains angezeigt und konfiguriert.
+
+### Globale Einstellungen
+
+1. **Registrierung neuer Benutzer auch ohne Einladungslink erlauben**
+2. **Hinweistext** — wird im Portal-Modus unter den Login-Buttons angezeigt
+
+### Einstellungen pro Domain
+
+Über **Globale Einstellungen des Arbeitsbereichs für diese Domain überschreiben** können für eine einzelne Domain abweichende Einstellungen festgelegt werden:
+
+1. **Hinweistext**
+2. **Authentifizierungsmethoden** — Apple, Google, Microsoft, E-Mail oder OpenID. Bei OpenID wird zusätzlich die **Gewählte OAuth-Methode** festgelegt.
+3. **Standardrolle** — die Rolle, die neu registrierte Benutzer erhalten
+4. **Registrierung** — ob sich neue Benutzer ohne Einladungslink registrieren dürfen
+5. **Banner für Homescreen**
+6. **Firmenlogo auf Homescreen ausblenden**
+7. **Hintergrundbild für Anmeldungsseite**
+8. **Darstellung** — Hell, Dunkel oder Automatisch
+
+{: .hint }
+Über das [Design](/docs/workspace-settings/design) können Banner, Logo und Farben des Arbeitsbereichs angepasst werden, sodass das Portal dem eigenen Corporate Design entspricht.

@@ -1,57 +1,39 @@
 ---
 layout: title
-title: Allgemein
+title: Arbeitsbereich Einstellungen
 nav_order: 5
 ---
 
-Unter **Allgemein** werden die grundlegenden Angaben des Arbeitsbereichs verwaltet.
+In den Arbeitsbereich-Einstellungen werden grundlegende Konfigurationen für den gesamten Arbeitsbereich vorgenommen — von allgemeinen Angaben über Design, Mitglieder und Rollen bis hin zu Integrationen und Abrechnung.
 
-## Einstellungen
+Die Einstellungen werden über **Admin-Tools** → **Einstellungen** in der Seitenleiste des Homescreens geöffnet. Sie sind nur für Besitzer und Admins zugänglich und nur in der Web-Version auf Geräten mit großem Bildschirm verfügbar.
 
-1. **Name** — der Anzeigename des Arbeitsbereichs. Bei aktivierter Mehrsprachigkeit kann der Name pro Sprache übersetzt werden.
-2. **Arbeitsbereich-ID** — die eindeutige Kennung des Arbeitsbereichs. Diese darf nicht verändert werden.
-3. **Arbeitsbereichstyp** — der Typ des Arbeitsbereichs (Produktion, Test, Entwurf, Solution)
-4. **Zeitzone** — die Zeitzone, die für die Anzeige und Berechnung von Datumswerten verwendet wird (Standard: Europe/Berlin)
+## Übersicht
 
-## Arbeitsbereichstypen
+Die Einstellungen sind in der Seitenleiste in folgender Reihenfolge angeordnet:
 
-| Typ           | Beschreibung                                                     |
-| ------------- | ---------------------------------------------------------------- |
-| **Produktiv** | Standard-Arbeitsbereich für den produktiven Einsatz              |
-| **Test**      | Testkopie eines Produktiv-Arbeitsbereichs                        |
-| **Demo**      | Demo-Arbeitsbereich, der nach 90 Tagen automatisch gelöscht wird |
-| **Solution**  | Arbeitsbereich zum Erstellen von Solutions                       |
+| Einstellung | Beschreibung |
+|---|---|
+| [Allgemein](/docs/workspace-settings/general) | Name, Zeitzone, Art des Arbeitsbereichs, Sprachen, Export und Löschen |
+| [Design](/docs/workspace-settings/design) | Banner, Logo, Farbschema |
+| [Mitglieder](/docs/member-management/member-management) | Mitglieder einladen und verwalten |
+| [Rollen](/docs/member-management/roles-rights) | Rollen und Rechte definieren |
+| [API-Schlüssel](/docs/workspace-settings/api-keys) | Schlüssel für die REST-API |
+| [Domain](/docs/workspace-settings/portal-mode) | Einstellungen für eigene Domains im Portal-Modus |
+| [Benachrichtigungen](/docs/workspace-settings/notifications) | Versendezeitpunkte für Push-Nachrichten, Workflow-Fehler-Mails |
+| [Arbeitsbereich-Zustand](/docs/workspace-settings/health-check) | Arbeitsbereich auf Konfigurationsfehler prüfen |
+| BigQuery | Daten zur Auswertung mit BI-Tools nach Google BigQuery synchronisieren. Die Anbindung wird vom Support aktiviert; Besitzer verwalten hier bis zu fünf Service-Account-Schlüssel. |
+| [Integrationen](/docs/workspace-settings/integrations) | Externe Dienste wie Microsoft, OpenAI oder einen eigenen Mailserver anbinden |
+| [Kosten-Center](/docs/workspace-settings/billing) | Zahlungskonto, Lizenzen, Rechnungen, Credits |
+| Job-Übersicht | Übersicht über die Hintergrund-Jobs (Workflow- und Datensatzlisten-Jobs) der letzten 30 Tage mit Status, Dauer und verbrauchten Credits |
+| [Kalenderfreigaben](/docs/interfaces/calendar-shares) | Kalender für externe Kalender-Apps freigeben |
+| [Solutions (Beta)](/docs/solutions) | Installierte Solutions verwalten — nur sichtbar, wenn mindestens eine Solution installiert ist |
 
-## Dokumentation exportieren
+## Weitere Themen
 
-Über das Drei-Punkte-Menü kann eine vollständige Dokumentation des Arbeitsbereichs als eigenständige HTML-Datei exportiert werden. Die Datei lässt sich in jedem Browser öffnen und eignet sich zur Archivierung, zum Wissenstransfer oder als Nachschlagewerk.
-
-### Inhalt der Dokumentation
-
-Die generierte Datei enthält:
-
-- **Arbeitsbereich-Name** und Erstellungsdatum der Dokumentation
-- **Alle Listen** des Arbeitsbereichs (ohne Seiten- und Einstellungs-Kacheln)
-- **Bausteine pro Liste** — Name, Typ und technischer Name jedes Bausteins
-- **Verknüpfungsdiagramme** — interaktive Diagramme, die zeigen, welche Listen über _Datensatz_- und _Datensätze_-Bausteine miteinander verknüpft sind (ein- und ausgehende Verknüpfungen)
-- **Suchfunktion** — eine Suchleiste zum schnellen Finden von Listen und Bausteinen
-- **Inhaltsverzeichnis** — Sprungmarken zu jeder Liste
-
-### Verwendung
-
-1. **Arbeitsbereich-Einstellungen** öffnen und **Allgemein** auswählen
-2. Über das **Drei-Punkte-Menü** den Punkt **Dokumentation exportieren** klicken
-3. Die HTML-Datei wird generiert und zum Download bereitgestellt
-
-Die Datei wird nach dem Muster `{Arbeitsbereich}_Documentation_{Datum}.html` benannt.
-
-### Hinweise
-
-- Die Dokumentation enthält ausschließlich die Struktur (Listen, Bausteine, Verknüpfungen) — keine Datensatzinhalte
-- Die HTML-Datei ist vollständig eigenständig und benötigt keine Internetverbindung zum Anzeigen
-- Die Verknüpfungsdiagramme werden automatisch als Flussdiagramme dargestellt und passen ihr Layout an die Anzahl der verknüpften Listen an
-
-## Export und Löschen
-
-- **Export** — exportiert den gesamten Arbeitsbereich als ZIP-Datei (mit oder ohne Daten)
-- **Löschen** — entfernt den Arbeitsbereich unwiderruflich
+| Thema | Beschreibung |
+|---|---|
+| [Mehrsprachigkeit](/docs/workspace-settings/multi-language) | Arbeitsbereich in mehreren Sprachen nutzen |
+| [E-Mail-Versand](/docs/workspace-settings/mailing) | E-Mail-Integrationen einrichten |
+| [ChatGPT](/docs/workspace-settings/chatgpt) | OpenAI-Integration einrichten |
+| [Tastenkürzel](/docs/workspace-settings/shortcuts) | Übersicht der Tastenkürzel |
