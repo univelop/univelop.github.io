@@ -89,38 +89,13 @@ Typische Fehler sind eine fehlende Fremd-ID, ein verknüpfter Datensatz, der nic
 
 ## Beispiel: Synchronisation per Web-Request
 
-Datensätze einer Liste _Kunden_ aus einem anderen Arbeitsbereich sollen regelmäßig übernommen werden:
+Datensätze aus einem anderen Arbeitsbereich sollen regelmäßig übernommen werden:
 
-1. Schritt [Sende Web-Request](/docs/workflows/advanced/web-request): lädt die Datensätze über die [REST-API V2](/docs/interfaces/rest-api) des Quell-Arbeitsbereichs.
-2. Schritt [Iteriere über Werte](/docs/workflows/structure/iterate-list): durchläuft die Datensätze aus dem Antwort-Body.
-3. Innerhalb der Schleife: Schritt _Synchronisiere einen Datensatz_ mit dem aktuellen Eintrag als **Datensatz-JSON**, Zuordnung über _Fremd-ID_.
+1. **Lade Datensätze aus anderem Univelop Arbeitsbereich**: Schritt [Sende Web-Request](/docs/workflows/advanced/web-request) mit dem technischen Namen `web_request`. Er lädt die Datensätze über die [REST-API V2](/docs/interfaces/rest-api) des Quell-Arbeitsbereichs.
+2. **Iteriere über Datensatz-JSONs**: Schritt [Iteriere über Werte](/docs/workflows/structure/iterate-list) mit dem Ausdruck `parseJson(web_request.body)`.
+3. **Synchronisiere einzelnen Datensatz anhand von JSON**: Schritt _Synchronisiere einen Datensatz_ innerhalb der Schleife. Als **Datensatz-JSON** wird der aktuelle Wert der Iteration verwendet, also der technische Name des Schritts aus 2.
 
-Ein einzelner Eintrag kann z. B. so aussehen:
-
-```json
-{
-  "id": "Xk3pQ9tLw2",
-  "name": "Muster GmbH",
-  "email": "info@muster.de",
-  "adresse": {
-    "street": "Hauptstraße",
-    "number": "12",
-    "postcode": "20095",
-    "city": "Hamburg",
-    "country": "Deutschland"
-  },
-  "ansprechpartner_title": "Erika Mustermann",
-  "vertrag": [
-    {
-      "name": "Rahmenvertrag.pdf",
-      "url": "https://...",
-      "hash": "d41d8cd98f00b204e9800998ecf8427e"
-    }
-  ]
-}
-```
-
-Die Werte werden in die Bausteine mit den technischen Namen `name`, `email`, `adresse`, `ansprechpartner` und `vertrag` geschrieben. Die ID `Xk3pQ9tLw2` wird im gewählten Baustein für die Fremd-ID gespeichert.
+![Workflow mit den Schritten Lade Datensätze, Iteriere über Datensatz-JSONs und Synchronisiere einzelnen Datensatz](/assets/workflows/advanced/sync-record/example-workflow.png)
 
 ## Credits und Protokoll
 
