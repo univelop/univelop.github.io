@@ -53,8 +53,7 @@ Die Fremd-ID wird in diesem Modus immer gespeichert. Enthält das JSON keine ode
 
 Der Datensatz wird über die [Sekundärschlüssel](/docs/designmode/component/advanced) der Ziel-Liste gefunden. Die technischen Namen der Sekundärschlüssel-Bausteine müssen im JSON enthalten sein.
 
-- Einzelne Schlüsselwerte dürfen leer sein. Ein leerer Wert passt nur zu Datensätzen, in denen dieser Baustein ebenfalls leer ist.
-- Sind alle Schlüsselwerte leer, wird immer ein neuer Datensatz angelegt.
+- Alle Schlüsselwerte müssen im JSON enthalten sein. Fehlt ein Wert oder ist er `null`, bricht der Schritt mit einem Fehler ab.
 - **Fremd-ID speichern**: _Optional._ Speichert zusätzlich die Fremd-ID im gewählten Textfeld-Baustein. Enthält das JSON keine Fremd-ID, bleibt der gespeicherte Wert unverändert.
 
 ### Referenzen auflösen über
@@ -105,7 +104,7 @@ Im Workflow-Protokoll wird pro Datensatz vermerkt, ob er angelegt, aktualisiert 
 
 ## Einschränkungen
 
-Bei der Zuordnung über _Sekundärschlüssel_ können Duplikate entstehen, wenn die Quelle einen Sekundärschlüssel erst nachträglich füllt: Im Ziel-Datensatz ist der Schlüssel noch leer, der nächste Sync findet ihn daher nicht und legt einen neuen Datensatz an. Die Zuordnung über _Fremd-ID_ vermeidet das.
+Bei der Zuordnung über _Sekundärschlüssel_ müssen alle Schlüssel in der Quelle gefüllt sein. Datensätze, deren Schlüssel erst nachträglich gefüllt werden, lassen sich bis dahin nur über die _Fremd-ID_ synchronisieren.
 
 ## Hinweise
 
