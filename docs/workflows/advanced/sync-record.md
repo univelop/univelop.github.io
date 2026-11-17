@@ -55,6 +55,7 @@ Der Datensatz wird über die [Sekundärschlüssel](/docs/designmode/component/ad
 
 - Alle Schlüsselwerte müssen im JSON enthalten sein. Fehlt ein Wert oder ist er `null`, bricht der Schritt mit einem Fehler ab.
 - **Fremd-ID speichern**: _Optional._ Speichert zusätzlich die Fremd-ID im gewählten Textfeld-Baustein. Enthält das JSON keine Fremd-ID, bleibt der gespeicherte Wert unverändert.
+- Die Fremd-ID wird in diesem Modus nur gespeichert, nicht zum Finden des Datensatzes verwendet.
 
 ### Referenzen auflösen über
 
@@ -65,7 +66,7 @@ Bestimmt, wie verknüpfte Datensätze und Auswahl-Optionen zugeordnet werden.
 | **Titel** | Der Titel wird aus dem Titel-Schlüssel gelesen (z. B. `kunde_title`). Verknüpft wird der Datensatz mit diesem Titel in der Ziel-Liste. | Zuordnung über das Label der Option |
 | **ID** | Die IDs werden unverändert übernommen. | Zuordnung über die ID der Option |
 
-_Titel_ eignet sich für die Synchronisation zwischen Arbeitsbereichen. _ID_ ist nur sinnvoll innerhalb desselben Arbeitsbereichs oder wenn die IDs in beiden Systemen übereinstimmen.
+_Titel_ eignet sich für Listen, die nicht geteilt sind. _ID_ ist hauptsächlich bei geteilten Listen sinnvoll, deren Datensätze in beiden Arbeitsbereichen dieselbe ID haben.
 
 Gibt es mehrere Datensätze mit demselben Titel, wird der erste Treffer verknüpft, wie beim regulären Import. Wird kein Datensatz gefunden, ist das ein Fehler.
 
@@ -98,7 +99,7 @@ Datensätze aus einem anderen Arbeitsbereich sollen regelmäßig übernommen wer
 
 ## Credits und Protokoll
 
-Der Schritt verbraucht **1 Credit pro Datensatz**. Hinzu kommen **20 Credits pro Megabyte** übertragener Dateien (mindestens 1 Credit pro Datei) und **0,1 Credits pro gelöschter Datei**.
+Der Schritt verbraucht **1 Credit pro Datensatz**. Hinzu kommen **20 Credits pro Megabyte** übertragener Dateien und **0,1 Credits pro gelöschter Datei**.
 
 Im Workflow-Protokoll wird pro Datensatz vermerkt, ob er angelegt, aktualisiert (mit den geänderten Bausteinen und übertragenen Dateien) oder bereits aktuell war. Unbekannte Schlüssel werden zusätzlich aufgeführt.
 
