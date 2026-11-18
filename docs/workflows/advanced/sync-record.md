@@ -110,7 +110,7 @@ Bei der Zuordnung über _Sekundärschlüssel_ müssen alle Schlüssel in der Que
 
 ## Hinweise
 
-- Verfügbar in: Client-Automatisierung, Server-Automatisierung.
+- Verfügbar in: Server-Automatisierung.
 
 ## Verwandte Schritte
 
