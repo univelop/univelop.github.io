@@ -84,6 +84,7 @@ Typische Fehler sind eine fehlende Fremd-ID, ein verknüpfter Datensatz, der nic
 - Schlüssel ohne passenden technischen Namen werden nicht importiert und im Workflow-Protokoll als _Unbekannte Schlüssel_ aufgeführt.
 - Schreibgeschützte Werte (z. B. berechnete Werte oder Titel) und Bausteine, die nicht bearbeitet werden dürfen, werden ohne Meldung übersprungen.
 - Bausteine mit mehreren Werten (z. B. Adresse mit Straße und Ort, Datumsspanne mit Start und Ende) können als Ganzes oder über die einzelnen technischen Namen angegeben werden. Beide Varianten aus der API sind gleichwertig.
+- Textfelder übernehmen jeden Wert als Text. Listen werden mit Komma getrennt, z. B. wird `kunden_titles` aus einem Datensätze-Baustein zu `Kunde 1, Kunde 2`. So lassen sich Titel verknüpfter Datensätze auch in einem einfachen Textfeld speichern.
 - Dateien werden als Liste von Datei-Objekten angegeben, wie sie die API liefert (mit `name`, `url` und `hash`).
 - Hat sich nichts geändert, wird der Datensatz nicht erneut gespeichert.
 
